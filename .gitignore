@@ -12,3 +12,6 @@ desktop.ini
 # Logs / misc
 *.log
 node_modules/
+
+# Local backup of the original (pre-transparency) logo
+assets/logo-original.png
