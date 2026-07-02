@@ -29,8 +29,8 @@ python -m http.server 8000
 
 ## Make it yours (before launch)
 
-- **Contact info:** In `index.html`, replace the placeholder email
-  (`hello@dragoninkandthread.com`) and the Instagram / Etsy links with your real ones.
+- **Contact info:** The email is set to `dragoninkandthread@gmail.com`. Update the
+  Instagram / Etsy links in `index.html` with your real shops.
 - **Photos:** Add images to `assets/` and swap the emoji placeholder blocks for
   `<img>` tags (instructions in `assets/README.txt`).
 - **Colors:** Tweak the palette at the top of `css/styles.css` (the `:root` variables).
