@@ -28,20 +28,27 @@
         </span>
       </a>
 
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
+      <div class="header-right">
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#coming-soon">What's Next</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+          </ul>
+        </nav>
 
-      <nav id="site-nav" class="site-nav" aria-label="Primary">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#products">Shop</a></li>
-          <li><a href="#coming-soon">What's Next</a></li>
-          <li><a href="#contact" class="nav-cta">Contact</a></li>
-        </ul>
-      </nav>
+        <button class="cart-btn" id="cartOpenBtn" aria-haspopup="dialog" aria-label="Open bag">
+          <span aria-hidden="true">🧺</span> Bag
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -152,24 +159,30 @@
         <div class="product-grid">
           <article class="card">
             <div class="placeholder placeholder-product"><span>👜</span></div>
-            <h3>Totes</h3>
+            <h3>Handmade Tote</h3>
+            <p class="card-price">$38.00</p>
             <p>Sturdy, roomy, and reusable — hand-sewn totes for market runs, books, and everyday carry.</p>
+            <button class="btn btn-primary card-add" data-id="tote">Add to bag</button>
           </article>
 
           <article class="card">
             <div class="placeholder placeholder-product"><span>🎀</span></div>
-            <h3>Scrunchies</h3>
+            <h3>Scrunchie</h3>
+            <p class="card-price">$8.00</p>
             <p>Soft, gentle-hold scrunchies in a rotating mix of prints and colors. Comfy on the wrist, kind to your hair.</p>
+            <button class="btn btn-primary card-add" data-id="scrunchie">Add to bag</button>
           </article>
 
           <article class="card">
             <div class="placeholder placeholder-product"><span>🎗️</span></div>
-            <h3>Bows</h3>
+            <h3>Bow Clip</h3>
+            <p class="card-price">$10.00</p>
             <p>Handmade bows and hair clips in playful and classic styles — perfect little finishing touches.</p>
+            <button class="btn btn-primary card-add" data-id="bow">Add to bag</button>
           </article>
         </div>
 
-        <p class="product-note">Prices and made-to-order options are coming with our launch. Want first pick? <a href="#contact">Say hello.</a></p>
+        <p class="product-note">✨ A little sneak peek — feel free to explore the bag &amp; checkout, but no orders are taken yet. <a href="#contact">Say hello</a> to be first in line.</p>
       </div>
     </section>
 
@@ -201,6 +214,106 @@
       </div>
     </section>
   </main>
+
+  <!-- ============================================================
+       Checkout flow (visual mockup — no real payment is processed).
+       For a real shop this needs a backend: read products/prices
+       from a database, create a Stripe PaymentIntent server-side,
+       confirm with Stripe.js, and only show the confirmation after a
+       checkout.session.completed webhook — never on client success
+       alone. A static GitHub Pages site can't do this; use Stripe
+       Payment Links, or move to Shopify / Netlify/Vercel functions.
+       ============================================================ -->
+  <div id="shop-flow" hidden>
+    <div class="container">
+      <ol class="stepper" id="stepper" aria-label="Checkout progress">
+        <li class="step" data-step="cart"><span class="dot"></span>Bag</li>
+        <li class="sep" aria-hidden="true"></li>
+        <li class="step" data-step="checkout"><span class="dot"></span>Details &amp; payment</li>
+        <li class="sep" aria-hidden="true"></li>
+        <li class="step" data-step="confirm"><span class="dot"></span>Confirmation</li>
+      </ol>
+
+      <!-- Checkout view -->
+      <section class="view" id="view-checkout" aria-label="Checkout">
+        <h2 class="flow-title">Checkout</h2>
+        <p class="demo-note">🧵 <strong>Preview only.</strong> Our shop isn't open yet — you can look around the checkout, but no payment is taken and no order is placed.</p>
+        <div class="checkout-grid">
+          <div>
+            <h3 class="field-head">Contact</h3>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" autocomplete="email" />
+            </div>
+
+            <hr class="co-divider" />
+
+            <h3 class="field-head">Shipping address</h3>
+            <div class="field"><label for="fullname">Full name</label><input id="fullname" type="text" autocomplete="name" /></div>
+            <div class="field"><label for="address">Address</label><input id="address" type="text" autocomplete="street-address" /></div>
+            <div class="field-row">
+              <div class="field"><label for="city">City</label><input id="city" type="text" autocomplete="address-level2" /></div>
+              <div class="field"><label for="state">State</label><input id="state" type="text" autocomplete="address-level1" /></div>
+            </div>
+            <div class="field-row">
+              <div class="field"><label for="zip">ZIP</label><input id="zip" type="text" autocomplete="postal-code" /></div>
+              <div class="field"><label for="country">Country</label><input id="country" type="text" value="United States" autocomplete="country-name" /></div>
+            </div>
+
+            <hr class="co-divider" />
+
+            <h3 class="field-head">Payment</h3>
+            <div class="card-mount">
+              <div class="card-fields-fake">Card number&nbsp; ·&nbsp; Expiry&nbsp; ·&nbsp; CVC</div>
+            </div>
+            <p class="lock-note">🔒 In the real shop, payments will be processed securely by Stripe — card details never touch our server.</p>
+
+            <button class="btn btn-ghost" id="backToShopBtn" style="margin-top:0.6rem;">← Back to shop</button>
+          </div>
+
+          <aside class="summary-card">
+            <h3 class="field-head">Order summary</h3>
+            <div id="checkoutLines"></div>
+            <div class="row-between"><span>Subtotal</span><span id="sumSubtotal">$0.00</span></div>
+            <div class="row-between"><span>Shipping</span><span id="sumShipping">$6.50</span></div>
+            <div class="row-between"><span>Estimated tax</span><span id="sumTax">$0.00</span></div>
+            <div class="row-between total"><span>Total</span><span id="sumTotal">$0.00</span></div>
+            <button class="btn btn-primary btn-block" id="payBtn">Place preview order <span id="payAmount">$0.00</span></button>
+            <p class="pay-fine">No card is charged.</p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Confirmation view -->
+      <section class="view" id="view-confirm" aria-label="Order confirmation">
+        <div class="confirm">
+          <div class="check" aria-hidden="true">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l6 6L20 6" /></svg>
+          </div>
+          <h2>That's how it'll work!</h2>
+          <p>This was a preview of our checkout — no payment was taken and no order was placed. When the shop opens, your handmade pieces would be lovingly packed and on their way. 🧵</p>
+          <div class="order-id" id="orderId">PREVIEW #DIT-000000</div>
+          <p class="confirm-fine">Want to know the moment we open? <a href="#contact">Say hello.</a></p>
+          <button class="btn btn-ghost" id="continueShoppingBtn" style="margin-top:1rem;">Continue browsing</button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Cart drawer -->
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" hidden>
+    <div class="drawer-head">
+      <h3>Your bag</h3>
+      <button class="drawer-close" id="drawerCloseBtn" aria-label="Close bag">&times;</button>
+    </div>
+    <p class="demo-note demo-note-sm">🧵 Preview only — no orders are placed yet.</p>
+    <div id="drawerLines" class="drawer-lines"></div>
+    <div class="cart-summary">
+      <div class="row-between total"><span>Subtotal</span><span id="drawerSubtotal">$0.00</span></div>
+      <button class="btn btn-primary btn-block" id="checkoutBtn" style="margin-top:0.9rem;">Checkout</button>
+    </div>
+  </aside>
 
   <footer class="site-footer">
     <div class="container footer-inner">
