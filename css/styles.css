@@ -475,6 +475,9 @@ h3 { font-size: 1.4rem; }
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  /* bias the crop toward the upper-middle, where products sit in
+     typical photos (keeps less floor/background in frame) */
+  object-position: 50% 32%;
   border-radius: var(--radius);
   margin-bottom: 1rem;
   display: block;

@@ -11,11 +11,15 @@ Files the site already references:
                           `.brand-logo` background-size / position in
                           css/styles.css.)
 
+Product photos the site already references (drop files with these
+exact names and they appear automatically — until then the cards
+show an emoji placeholder):
+  tote.jpg              — Handmade Tote card (DONE — committed)
+  scrunchie.jpg         — Scrunchie card
+  bow.jpg               — Bow Clip card
+
 Suggested files to add:
   about.jpg             — a photo of you / your workspace (About section)
-  tote.jpg              — product photo for Totes
-  scrunchies.jpg        — product photo for Scrunchies
-  bows.jpg              — product photo for Bows
 
 How to use a photo instead of a placeholder block:
   In index.html, replace a <div class="placeholder ...">...</div>
