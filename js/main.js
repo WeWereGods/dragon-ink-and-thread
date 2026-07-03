@@ -84,6 +84,60 @@
     });
   }
 
+  /* ---------------------------------------------------------
+     Contact form — posts to Web3Forms so messages arrive in the
+     shop inbox from any visitor (no mail app needed). Until the
+     access key is filled in, it fails gracefully and points people
+     at the direct email address.
+     --------------------------------------------------------- */
+  var contactForm = document.getElementById("contactForm");
+  if (contactForm) {
+    var statusEl = document.getElementById("contactStatus");
+    var setStatus = function (msg, kind) {
+      statusEl.textContent = msg;
+      statusEl.className = "form-status" + (kind ? " " + kind : "");
+    };
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var data = new FormData(contactForm);
+      var key = data.get("access_key");
+      if (!key || String(key).indexOf("WEB3FORMS_ACCESS_KEY") === 0) {
+        setStatus(
+          "Our form isn't quite set up yet — please email dragoninkandthread@gmail.com directly for now.",
+          "err"
+        );
+        return;
+      }
+      var submitBtn = contactForm.querySelector('button[type="submit"]');
+      if (submitBtn) submitBtn.disabled = true;
+      setStatus("Sending…", null);
+      fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: data
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (json) {
+          if (json.success) {
+            contactForm.reset();
+            setStatus("Thank you! Your message is on its way — I'll be in touch soon. 🧵", "ok");
+          } else {
+            setStatus(
+              (json && json.message) ||
+                "Something went wrong — please email dragoninkandthread@gmail.com directly.",
+              "err"
+            );
+          }
+        })
+        .catch(function () {
+          setStatus("Something went wrong — please email dragoninkandthread@gmail.com directly.", "err");
+        })
+        .finally(function () {
+          if (submitBtn) submitBtn.disabled = false;
+        });
+    });
+  }
+
   /* =========================================================
      Shop / checkout mockup (visual only — no payment)
      ========================================================= */

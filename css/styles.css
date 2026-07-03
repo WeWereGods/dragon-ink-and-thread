@@ -554,6 +554,45 @@ h3 { font-size: 1.4rem; }
 .contact-meta { font-weight: 700; }
 .contact-fine { font-size: 0.82rem; color: var(--ink-soft); font-style: italic; }
 
+/* Contact form ---------------------------------------------- */
+.contact-form {
+  max-width: 520px;
+  margin: 1.6rem auto 0.4rem;
+  text-align: left;
+}
+.contact-form .field { margin-bottom: 0.9rem; }
+.contact-form label {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.35rem;
+  font-weight: 700;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  border: 2px solid var(--paper-deep);
+  border-radius: var(--radius-sm);
+  font-size: 0.98rem;
+  font-family: inherit;
+  background: var(--white);
+  color: var(--ink);
+}
+.contact-form textarea { resize: vertical; min-height: 120px; }
+.contact-form input:focus-visible,
+.contact-form textarea:focus-visible { border-color: var(--teal); }
+.contact-form .btn-block { margin-top: 0.3rem; }
+.hp { position: absolute; left: -9999px; opacity: 0; }
+.form-status {
+  margin: 0.7rem 0 0;
+  font-size: 0.92rem;
+  font-weight: 600;
+  min-height: 1.2em;
+}
+.form-status.ok { color: var(--teal-deep); }
+.form-status.err { color: var(--clay-deep); }
+
 /* Footer ---------------------------------------------------- */
 .site-footer {
   background: var(--teal-deep);

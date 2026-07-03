@@ -282,13 +282,40 @@
         <h2>Let's get in touch</h2>
         <p class="section-sub">Questions, custom requests, or just want to know when we open? We'd love to hear from you.</p>
 
+        <!-- Contact form — sends straight to dragoninkandthread@gmail.com via Web3Forms.
+             SETUP: get a free access key at https://web3forms.com (enter your email,
+             they email you a key), then replace WEB3FORMS_ACCESS_KEY_HERE below. -->
+        <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="WEB3FORMS_ACCESS_KEY_HERE" />
+          <input type="hidden" name="subject" value="New message from dragoninkandthread.com" />
+          <input type="hidden" name="from_name" value="Dragon Ink and Thread website" />
+          <!-- honeypot: bots fill this; humans never see it -->
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+          <div class="field-row">
+            <div class="field">
+              <label for="cf-name">Your name</label>
+              <input id="cf-name" type="text" name="name" required autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input id="cf-email" type="email" name="email" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="cf-msg">Message</label>
+            <textarea id="cf-msg" name="message" rows="5" required placeholder="Questions, custom requests, or just say hello…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send message</button>
+          <p class="form-status" id="contactStatus" role="status" aria-live="polite"></p>
+        </form>
+
         <div class="contact-actions">
-          <a class="btn btn-primary" href="mailto:dragoninkandthread@gmail.com?subject=Hello%20from%20your%20website">Email Us</a>
           <a class="btn btn-ghost" href="https://www.instagram.com/dragonink_and_thread" target="_blank" rel="noopener">Instagram</a>
           <a class="btn btn-ghost" href="https://www.tiktok.com/@dragonink_and_thread" target="_blank" rel="noopener">TikTok</a>
         </div>
 
-        <p class="contact-meta">📍 Based in Texas, USA · ✉️ dragoninkandthread@gmail.com · @dragonink_and_thread</p>
+        <p class="contact-meta">📍 Based in Texas, USA · ✉️ <a href="mailto:dragoninkandthread@gmail.com">dragoninkandthread@gmail.com</a> · @dragonink_and_thread</p>
       </div>
     </section>
   </main>
