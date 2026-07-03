@@ -60,7 +60,7 @@ a { color: var(--clay-deep); }
   padding: 0 clamp(1.1rem, 4vw, 2.5rem);
 }
 
-.amp { font-style: italic; color: var(--honey); }
+.amp { font-style: italic; color: var(--clay-deep); }
 
 /* Accessibility helpers ------------------------------------ */
 .skip-link {
