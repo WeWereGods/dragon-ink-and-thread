@@ -55,6 +55,35 @@
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
+  /* ---------------------------------------------------------
+     Join the Nest — email signup.
+     Static site, so this opens the visitor's mail app with a
+     pre-filled signup note to us; the list lives in the inbox.
+     (Swap for Mailchimp/Buttondown later if the list grows.)
+     --------------------------------------------------------- */
+  var nestForm = document.getElementById("nestForm");
+  var nestNote = document.getElementById("nestNote");
+  if (nestForm) {
+    nestForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = document.getElementById("nestEmail").value.trim();
+      if (!email) return;
+      var subject = "Join the Nest 🐉";
+      var body =
+        "Hi Dragon Ink and Thread!\n\n" +
+        "Please add me to the Nest so I hear about new handmade goods and the shop opening.\n\n" +
+        "My email: " + email + "\n\nThank you!";
+      window.location.href =
+        "mailto:dragoninkandthread@gmail.com?subject=" +
+        encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+      if (nestNote) {
+        nestNote.textContent =
+          "Opening your email app — hit send and you're in the Nest! 🧵";
+      }
+    });
+  }
+
   /* =========================================================
      Shop / checkout mockup (visual only — no payment)
      ========================================================= */

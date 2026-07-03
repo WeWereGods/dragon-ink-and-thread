@@ -29,8 +29,10 @@ python -m http.server 8000
 
 ## Make it yours (before launch)
 
-- **Contact info:** The email is set to `dragoninkandthread@gmail.com`. Update the
-  Instagram / Etsy links in `index.html` with your real shops.
+- **Contact info:** Email is `dragoninkandthread@gmail.com`; Instagram/TikTok link to
+  `@dragonink_and_thread`. The "Join the Nest" form opens the visitor's mail app with a
+  pre-filled signup email (no backend needed) — swap in Mailchimp/Buttondown later if
+  the list outgrows the inbox.
 - **Photos:** Add images to `assets/` and swap the emoji placeholder blocks for
   `<img>` tags (instructions in `assets/README.txt`).
 - **Colors:** Tweak the palette at the top of `css/styles.css` (the `:root` variables).

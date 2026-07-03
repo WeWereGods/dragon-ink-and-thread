@@ -15,3 +15,6 @@ node_modules/
 
 # Local backup of the original (pre-transparency) logo
 assets/logo-original.png
+
+# Local Claude launch config
+.claude/
