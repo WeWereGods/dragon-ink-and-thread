@@ -56,31 +56,47 @@
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
   /* ---------------------------------------------------------
-     Join the Nest — email signup.
-     Static site, so this opens the visitor's mail app with a
-     pre-filled signup note to us; the list lives in the inbox.
-     (Swap for Mailchimp/Buttondown later if the list grows.)
+     Join the Nest — email signup via Web3Forms, so subscribers
+     land in the shop inbox from any visitor (no mail app needed).
      --------------------------------------------------------- */
   var nestForm = document.getElementById("nestForm");
   var nestNote = document.getElementById("nestNote");
-  if (nestForm) {
+  if (nestForm && nestNote) {
     nestForm.addEventListener("submit", function (e) {
       e.preventDefault();
-      var email = document.getElementById("nestEmail").value.trim();
-      if (!email) return;
-      var subject = "Join the Nest 🪺";
-      var body =
-        "Hi Dragon Ink and Thread!\n\n" +
-        "Please add me to the Nest so I hear about new handmade goods and the shop opening.\n\n" +
-        "My email: " + email + "\n\nThank you!";
-      window.location.href =
-        "mailto:dragoninkandthread@gmail.com?subject=" +
-        encodeURIComponent(subject) +
-        "&body=" + encodeURIComponent(body);
-      if (nestNote) {
+      var data = new FormData(nestForm);
+      var key = data.get("access_key");
+      if (!key || String(key).indexOf("WEB3FORMS_ACCESS_KEY") === 0) {
         nestNote.textContent =
-          "Opening your email app — hit send and you're in the Nest! 🧵";
+          "Signup isn't set up yet — please email dragoninkandthread@gmail.com to join.";
+        return;
       }
+      var btn = nestForm.querySelector('button[type="submit"]');
+      if (btn) btn.disabled = true;
+      nestNote.textContent = "Adding you to the nest…";
+      fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: data
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (json) {
+          if (json.success) {
+            nestForm.reset();
+            nestNote.textContent = "You're in the nest! 🪺 Thank you — we'll be in touch.";
+          } else {
+            nestNote.textContent =
+              (json && json.message) ||
+              "Something went wrong — please email dragoninkandthread@gmail.com to join.";
+          }
+        })
+        .catch(function () {
+          nestNote.textContent =
+            "Something went wrong — please email dragoninkandthread@gmail.com to join.";
+        })
+        .finally(function () {
+          if (btn) btn.disabled = false;
+        });
     });
   }
 
