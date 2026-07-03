@@ -68,7 +68,7 @@
       e.preventDefault();
       var email = document.getElementById("nestEmail").value.trim();
       if (!email) return;
-      var subject = "Join the Nest 🐉";
+      var subject = "Join the Nest 🪺";
       var body =
         "Hi Dragon Ink and Thread!\n\n" +
         "Please add me to the Nest so I hear about new handmade goods and the shop opening.\n\n" +
