@@ -158,9 +158,9 @@
      Shop / checkout mockup (visual only — no payment)
      ========================================================= */
   var PRODUCTS = {
-    tote:      { name: "Handmade Tote", price: 38.0, art: "👜" },
-    scrunchie: { name: "Scrunchie",     price: 8.0,  art: "🎀" },
-    bow:       { name: "Bow Clip",      price: 10.0, art: "🎗️" }
+    tote:      { name: "Classic Tote", price: 38.0, art: "👜" },
+    scrunchie: { name: "Scrunchie",    price: 4.0,  art: "🎀" },
+    bow:       { name: "Bow",          price: 10.0, art: "🎗️" }
   };
   var SHIPPING = 6.5;
   var TAX_RATE = 0.0825; // ~Texas estimate, for the mockup summary
