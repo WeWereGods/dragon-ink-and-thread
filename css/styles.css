@@ -663,6 +663,41 @@ h3 { font-size: 1.4rem; }
   margin: 0 0 0.3rem;
 }
 .footer-copy { margin: 0; color: #e7dcc6; font-size: 0.92rem; }
+.footer-links {
+  margin: 0.7rem 0;
+  font-size: 0.9rem;
+  color: #e7dcc6;
+}
+.footer-links a {
+  color: var(--paper);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding-bottom: 1px;
+}
+.footer-links a:hover { border-bottom-color: var(--paper); }
+
+/* Policy pages (privacy, shipping) -------------------------- */
+.policy-page { padding: clamp(2.5rem, 6vw, 4.5rem) 0; }
+.container.policy { max-width: 760px; }
+.policy h1 { font-size: clamp(2rem, 5vw, 2.8rem); margin-bottom: 0.3rem; }
+.policy h2 {
+  font-size: 1.35rem;
+  margin: 2rem 0 0.6rem;
+  color: var(--teal-deep);
+}
+.policy p { margin: 0 0 1rem; color: var(--ink-soft); line-height: 1.75; }
+.policy ul { margin: 0 0 1.2rem; padding-left: 1.2rem; }
+.policy li { margin-bottom: 0.55rem; color: var(--ink-soft); line-height: 1.7; }
+.policy a { color: var(--clay-deep); }
+.policy strong { color: var(--ink); }
+.policy-meta { font-weight: 700; color: var(--ink) !important; }
+.policy-updated {
+  font-size: 0.85rem !important;
+  font-style: italic;
+  margin-top: 2.4rem !important;
+  opacity: 0.8;
+}
+.header-inner .policy-back { white-space: nowrap; }
 
 /* Scroll reveal (progressive enhancement) ------------------- */
 .reveal {
