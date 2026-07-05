@@ -158,9 +158,50 @@
      Shop / checkout mockup (visual only — no payment)
      ========================================================= */
   var PRODUCTS = {
-    tote:      { name: "Classic Tote", price: 38.0, art: "👜" },
-    scrunchie: { name: "Scrunchie",    price: 4.0,  art: "🎀" },
-    bow:       { name: "Bow",          price: 10.0, art: "🎗️" }
+    "tote-fairy":     { name: "Fairy Tote",     price: 38.0, art: "👜" },
+    "tote-floral":    { name: "Floral Tote",    price: 38.0, art: "👜" },
+    "tote-sunflower": { name: "Sunflower Tote", price: 45.0, art: "🌻" },
+    "cozy-bee":       { name: "Blue Bee Cozy",  price: 8.0,  art: "🐝" },
+    "cozy-daisy":     { name: "Daisy Cozy",     price: 8.0,  art: "🌼" },
+    scrunchie:        { name: "Scrunchie",      price: 4.0,  art: "🎀" },
+    bow:              { name: "Bow",            price: 10.0, art: "🎗️" }
+  };
+
+  /* Per-variant photos + copy for the print/style picker cards.
+     Keyed by the same product ids as PRODUCTS. images[0] is the main
+     photo; any extras become the thumbnail gallery. Prices live in
+     PRODUCTS (keep index.html's <option> labels in sync with them). */
+  var VARIANTS = {
+    "tote-fairy": {
+      alt: "Handmade tote in a cream watercolor fairy print with a dark floral lining",
+      blurb: "Watercolor fairies drift across soft cream cotton, with a moody dark-floral lining tucked inside — a little secret garden you carry on your shoulder.",
+      details: "10″ × 7″ × 7″ · fully lined with a hidden dark-floral interior · 14″ strap drop · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-fairy.jpg", "assets/tote-fairy-2.jpg", "assets/tote-fairy-inside.jpg", "assets/tote-fairy-detail.jpg"]
+    },
+    "tote-floral": {
+      alt: "Handmade tote in a blue and yellow floral print with butter-yellow trim",
+      blurb: "Sweet blue-and-yellow ditsy florals framed in soft butter-yellow trim. Roomy, fully lined, and endlessly easy to reach for.",
+      details: "10″ × 7″ × 7″ · fully lined with boxed corners · 14″ strap drop · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-floral.jpg", "assets/tote-floral-inside.jpg"]
+    },
+    "tote-sunflower": {
+      alt: "Handmade puffy woven tote in a sunflower, honeycomb, and bee print",
+      blurb: "Our puffy woven tote — hand-cut squares of sunflowers, honeycomb, and tiny bees, quilted into pillowy softness. A true statement piece that hugs whatever you carry.",
+      details: "Puffy hand-woven panels · roomy slouch shape · single shoulder strap · spot clean, reshape by hand. Made to order — please allow 7–12 business days.",
+      images: ["assets/tote-sunflower.jpg", "assets/tote-sunflower-detail.jpg"]
+    },
+    "cozy-bee": {
+      alt: "Handmade fabric can cozy in dusty blue with bees and dandelions",
+      blurb: "A snug, fleece-lined sleeve for slim cans — dusty-blue cotton dotted with bees and dandelions. Keeps drinks cold and hands comfy.",
+      details: "Fits standard slim cans (12 oz) · soft fleece lining · spot clean, lay flat to dry.",
+      images: ["assets/cozy-bee.jpg"]
+    },
+    "cozy-daisy": {
+      alt: "Handmade fabric cup cozy in buttercream daisies",
+      blurb: "A cozy wrap for tumblers and cups, in cheerful buttercream daisies. Grippy, insulating, and impossibly sweet.",
+      details: "Fits most 16–24 oz tumblers & cups · soft padded lining · spot clean, lay flat to dry.",
+      images: ["assets/cozy-daisy.jpg"]
+    }
   };
   var SHIPPING = 6.5;
   var TAX_RATE = 0.0825; // ~Texas estimate, for the mockup summary
@@ -313,6 +354,67 @@
     setStepper(stepKey);
     window.scrollTo(0, 0);
   }
+
+  /* ----- product variant cards (print/style picker + gallery) ----- */
+  function initVariantCards() {
+    document.querySelectorAll(".card-variant").forEach(function (card) {
+      var sel = card.querySelector(".js-variant-select");
+      var img = card.querySelector(".js-variant-img");
+      if (!sel || !img) return;
+      var placeholder = img.nextElementSibling;
+      var thumbs = card.querySelector(".js-variant-thumbs");
+      var titleEl = card.querySelector(".js-variant-title");
+      var priceEl = card.querySelector(".js-variant-price");
+      var blurbEl = card.querySelector(".js-variant-blurb");
+      var detailsEl = card.querySelector(".js-variant-details");
+      var addBtn = card.querySelector(".card-add");
+
+      function showImage(src) {
+        img.src = src;
+        img.style.display = "";
+        if (placeholder) placeholder.style.display = "none";
+        if (thumbs) {
+          thumbs.querySelectorAll(".thumb").forEach(function (t) {
+            t.classList.toggle("is-active", t.getAttribute("data-src") === src);
+          });
+        }
+      }
+
+      function applyVariant(id) {
+        var p = PRODUCTS[id], v = VARIANTS[id];
+        if (!p || !v) return;
+        if (titleEl) titleEl.textContent = p.name;
+        if (priceEl) priceEl.textContent = money(p.price);
+        if (blurbEl && v.blurb) blurbEl.textContent = v.blurb;
+        if (detailsEl && v.details) detailsEl.textContent = v.details;
+        img.alt = v.alt || p.name;
+        if (addBtn) addBtn.setAttribute("data-id", id);
+        if (thumbs) {
+          if (v.images.length > 1) {
+            thumbs.innerHTML = v.images.map(function (src) {
+              return '<button type="button" class="thumb" data-src="' + src +
+                '" aria-label="View photo"><img src="' + src + '" alt="" loading="lazy" /></button>';
+            }).join("");
+            thumbs.hidden = false;
+          } else {
+            thumbs.innerHTML = "";
+            thumbs.hidden = true;
+          }
+        }
+        showImage(v.images[0]);
+      }
+
+      sel.addEventListener("change", function () { applyVariant(sel.value); });
+      if (thumbs) {
+        thumbs.addEventListener("click", function (e) {
+          var b = e.target.closest(".thumb");
+          if (b) showImage(b.getAttribute("data-src"));
+        });
+      }
+      applyVariant(sel.value);
+    });
+  }
+  initVariantCards();
 
   /* ----- wire up events ----- */
   document.querySelectorAll(".card-add").forEach(function (btn) {

@@ -16,6 +16,16 @@ node_modules/
 # Local backups / originals (optimized copies are committed instead)
 assets/logo-original.png
 assets/Tote.png
+assets/Fairy tote outside.PNG
+assets/fairy tote outside 1.PNG
+assets/fairy tote close up.JPG
+assets/fairy tote inside.PNG
+assets/floral tote.PNG
+assets/floral tote inside.PNG
+assets/sunflower tote.PNG
+assets/sunflower tote close up.JPG
+assets/blue bee cozy.PNG
+assets/Daisy cozy.PNG
 
 # Local Claude launch config
 .claude/

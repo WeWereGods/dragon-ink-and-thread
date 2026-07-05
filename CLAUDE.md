@@ -36,9 +36,17 @@ assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
 - **Checkout is a VISUAL MOCKUP only** — no real payments. A static Pages site can't process
   payments; for real orders use Stripe Payment Links, or move to Shopify / a host with
   serverless functions. The code comments in js/main.js explain this.
-- **Products** (name / price / cart id): Classic Tote $38 (`tote`), Scrunchie $4 (`scrunchie`),
-  Bow $10 (`bow`). Prices live in TWO places that must stay in sync: the card markup in
-  index.html and the `PRODUCTS` object in js/main.js.
+- **Products** (name / price / cart id): the Shop has 4 cards. Two are **variant cards** with
+  a `<select>` print/style picker + thumbnail gallery (`.card-variant` in index.html, wired by
+  `initVariantCards()` in js/main.js):
+    - **Totes** — Fairy Tote $38 (`tote-fairy`), Floral Tote $38 (`tote-floral`),
+      Sunflower Tote $45 (`tote-sunflower`, the puffy woven one).
+    - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
+    - **Scrunchie** $4 (`scrunchie`), **Bow** $10 (`bow`) — plain cards.
+  Each print/style is its own cart id. Prices/copy live in THREE places that must stay in sync:
+  the `<option>` labels in index.html, the `PRODUCTS` object in js/main.js (price of record),
+  and the `VARIANTS` map in js/main.js (per-variant photos, blurb, details). To add a print:
+  drop the photo in assets/, add a `VARIANTS` + `PRODUCTS` entry, and an `<option>` to that select.
 - **Images**: `logo.png` is background-transparent (flood-filled from the original). Originals
   `logo-original.png` and `Tote.png` are kept locally but **gitignored**. Product cards use
   `<img>` with an `onerror` fallback to an emoji placeholder, so missing photos never look broken.
@@ -48,6 +56,9 @@ assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
 ## Local preview
 Open `index.html` directly, or from the repo root run `python -m http.server 8000` and visit
 http://localhost:8000. (Use a server so the `.html` links and fetch calls behave like production.)
+If Python isn't installed, a tiny Node static server lives at `.claude/preview-server.js`
+(gitignored) — `node .claude/preview-server.js` serves the repo on :8000; the Claude preview
+panel launches it via `.claude/launch.json` (config name `site`).
 
 ## Open TODOs / nice-to-haves
 - **Founder photo** → `assets/about.jpg`, swap into the "Your photo here" placeholder in the

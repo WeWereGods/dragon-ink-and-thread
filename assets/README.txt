@@ -14,9 +14,29 @@ Files the site already references:
 Product photos the site already references (drop files with these
 exact names and they appear automatically — until then the cards
 show an emoji placeholder):
-  tote.jpg              — Handmade Tote card (DONE — committed)
-  scrunchie.jpg         — Scrunchie card
-  bow.jpg               — Bow Clip card
+
+  Totes card (print picker + thumbnail gallery):
+    tote-fairy.jpg          — Fairy print, main photo   (DONE)
+    tote-fairy-2.jpg        — Fairy, second angle       (DONE)
+    tote-fairy-inside.jpg   — Fairy, lining             (DONE)
+    tote-fairy-detail.jpg   — Fairy, close-up           (DONE)
+    tote-floral.jpg         — Floral print, main        (DONE)
+    tote-floral-inside.jpg  — Floral, lining            (DONE)
+    tote-sunflower.jpg      — Sunflower (puffy), main    (DONE)
+    tote-sunflower-detail.jpg — Sunflower, close-up      (DONE)
+
+  Cozys card (style picker):
+    cozy-bee.jpg            — Blue Bee slim-can cozy      (DONE)
+    cozy-daisy.jpg          — Daisy cup/tumbler cozy      (DONE)
+
+  Still needed:
+    scrunchie.jpg          — Scrunchie card
+    bow.jpg                — Bow card
+
+Note: the web images above are optimized JPGs (~1280px, <250 KB). The
+full-size originals (e.g. "Fairy tote outside.PNG") are kept locally
+but gitignored. To add a new tote/cozy print, drop a photo here, then
+add it to the VARIANTS map in js/main.js and an <option> in index.html.
 
 Suggested files to add:
   about.jpg             — a photo of you / your workspace (About section)

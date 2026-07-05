@@ -173,15 +173,49 @@
         </div>
 
         <div class="product-grid">
-          <article class="card">
-            <img class="product-photo" src="assets/tote.jpg" alt="Handmade floral tote bag with pink blossoms and greenery on a cream fabric"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder placeholder-product" style="display:none;"><span>👜</span></div>
-            <h3>Classic Tote</h3>
-            <p class="card-price">$38.00</p>
-            <p>The bag you'll reach for without thinking twice. Cut and sewn in small batches from a rotating mix of cottage-core florals and cozy plaids — the kind of everyday piece that quietly starts to feel like part of you.</p>
-            <p class="card-details">10″ × 7″ × 7″ · fully lined with boxed corners · 14″ strap drop · spot clean, store flat. Made to order — please allow 5–10 business days before shipping.</p>
-            <button class="btn btn-primary card-add" data-id="tote">Add to bag</button>
+          <article class="card card-variant" data-card="totes">
+            <div class="card-media">
+              <img class="product-photo js-variant-img" src="assets/tote-fairy.jpg"
+                   alt="Handmade tote in a cream watercolor fairy print with a dark floral lining"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder placeholder-product" style="display:none;"><span>👜</span></div>
+            </div>
+            <div class="thumbs js-variant-thumbs" role="group" aria-label="More tote photos"></div>
+            <h3 class="js-variant-title">Fairy Tote</h3>
+            <p class="card-price js-variant-price">$38.00</p>
+            <div class="variant-field">
+              <label class="variant-label" for="totes-select">Choose your print</label>
+              <select class="variant-select js-variant-select" id="totes-select" aria-label="Choose your tote print">
+                <option value="tote-fairy">Fairy — $38</option>
+                <option value="tote-floral">Floral — $38</option>
+                <option value="tote-sunflower">Sunflower · puffy woven — $45</option>
+              </select>
+            </div>
+            <p class="js-variant-blurb">Watercolor fairies drift across soft cream cotton, with a moody dark-floral lining tucked inside — a little secret garden you carry on your shoulder.</p>
+            <p class="card-details js-variant-details">10″ × 7″ × 7″ · fully lined with a hidden dark-floral interior · 14″ strap drop · spot clean. Made to order — please allow 5–10 business days.</p>
+            <button class="btn btn-primary card-add" data-id="tote-fairy">Add to bag</button>
+          </article>
+
+          <article class="card card-variant" data-card="cozys">
+            <div class="card-media">
+              <img class="product-photo js-variant-img" src="assets/cozy-bee.jpg"
+                   alt="Handmade fabric can cozy in dusty blue with bees and dandelions"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder placeholder-product" style="display:none;"><span>🥤</span></div>
+            </div>
+            <div class="thumbs js-variant-thumbs" role="group" aria-label="More cozy photos"></div>
+            <h3 class="js-variant-title">Blue Bee Cozy</h3>
+            <p class="card-price js-variant-price">$8.00</p>
+            <div class="variant-field">
+              <label class="variant-label" for="cozys-select">Choose your style</label>
+              <select class="variant-select js-variant-select" id="cozys-select" aria-label="Choose your cozy style">
+                <option value="cozy-bee">Blue Bee · slim can — $8</option>
+                <option value="cozy-daisy">Daisy · cup &amp; tumbler — $8</option>
+              </select>
+            </div>
+            <p class="js-variant-blurb">A snug, fleece-lined sleeve for slim cans — dusty-blue cotton dotted with bees and dandelions. Keeps drinks cold and hands comfy.</p>
+            <p class="card-details js-variant-details">Fits standard slim cans (12 oz) · soft fleece lining · spot clean, lay flat to dry.</p>
+            <button class="btn btn-primary card-add" data-id="cozy-bee">Add to bag</button>
           </article>
 
           <article class="card">
