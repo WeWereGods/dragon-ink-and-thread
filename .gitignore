@@ -13,6 +13,12 @@ desktop.ini
 *.log
 node_modules/
 
+# Saved-webpage artifacts / reference dumps accidentally dropped in assets/
+# (e.g. "... _ Free Photo.html" + its "..._files/" folder of scripts)
+*_files/
+*.download
+assets/*.html
+
 # Local backups / originals (optimized copies are committed instead)
 assets/logo-original.png
 assets/Tote.png
