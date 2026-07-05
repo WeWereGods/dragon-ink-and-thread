@@ -67,7 +67,9 @@ panel launches it via `.claude/launch.json` (config name `site`).
 - **Scrunchie & Bow → variant pickers** (owner requested): once photos of the different
   scrunchie/bow prints arrive, convert those two plain cards into `.card-variant` cards with a
   print dropdown + thumbnail gallery, exactly like the Totes/Cozys cards (add `PRODUCTS` +
-  `VARIANTS` entries per print and `<option>`s to each select).
+  `VARIANTS` entries per print and `<option>`s to each select). Pricing decided:
+    - Scrunchie prints all **$4**; add a **3-scrunchie bundle for $9** (`scrunchie-bundle`,
+      owner has a group photo to upload). Bow prints all **$10**.
 - **Real fabric print names** in the product copy (e.g. "Wildflower Meadow" instead of generic).
 - **Terms of Service** page (the footer currently links Privacy + Shipping only).
 - **Email welcome sequence** (2–3 emails) + **Post-Purchase note** packaging insert — drafted
