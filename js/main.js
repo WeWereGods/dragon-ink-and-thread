@@ -163,8 +163,15 @@
     "tote-sunflower": { name: "Sunflower Tote", price: 45.0, art: "🌻" },
     "cozy-bee":       { name: "Blue Bee Cozy",  price: 8.0,  art: "🐝" },
     "cozy-daisy":     { name: "Daisy Cozy",     price: 8.0,  art: "🌼" },
-    scrunchie:        { name: "Scrunchie",      price: 4.0,  art: "🎀" },
-    bow:              { name: "Bow",            price: 10.0, art: "🎗️" }
+    "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 4.0, art: "🦋" },
+    "scrunchie-cherry-blossom": { name: "Cherry Blossom Scrunchie",  price: 4.0, art: "🌸" },
+    "scrunchie-cherry":         { name: "Cherry Scrunchie",          price: 4.0, art: "🍒" },
+    "scrunchie-orange-kitty":   { name: "Orange Kitty Scrunchie",    price: 4.0, art: "🐱" },
+    "scrunchie-pink-bumble-bee":{ name: "Pink Bumble Bee Scrunchie", price: 4.0, art: "🐝" },
+    "scrunchie-pretty-in-pink": { name: "Pretty in Pink Scrunchie",  price: 4.0, art: "🎀" },
+    "scrunchie-wildflower":     { name: "Wildflower Scrunchie",      price: 4.0, art: "🌼" },
+    "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 9.0, art: "🎀" },
+    bow:              { name: "Sage Bow",       price: 10.0, art: "🎗️" }
   };
 
   /* Per-variant photos + copy for the print/style picker cards.
@@ -201,6 +208,54 @@
       blurb: "A cozy wrap for tumblers and cups, in cheerful buttercream daisies. Grippy, insulating, and impossibly sweet.",
       details: "Fits most 16–24 oz tumblers & cups · soft padded lining · spot clean, lay flat to dry.",
       images: ["assets/cozy-daisy.jpg"]
+    },
+    "scrunchie-butterfly": {
+      alt: "Handmade scrunchie in a cream butterfly print",
+      blurb: "Delicate butterflies scattered across soft cream — a little flutter of whimsy for your wrist or your hair.",
+      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-butterfly.jpg"]
+    },
+    "scrunchie-cherry-blossom": {
+      alt: "Handmade scrunchie in a pink cherry blossom print on cream",
+      blurb: "Soft pink cherry blossoms on cream — springtime you can wear all year.",
+      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-cherry-blossom.jpg"]
+    },
+    "scrunchie-cherry": {
+      alt: "Handmade ribbed scrunchie with a red cherry print on cream",
+      blurb: "Sweet red cherries on a cozy ribbed knit — playful and just a little retro.",
+      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-cherry.jpg"]
+    },
+    "scrunchie-orange-kitty": {
+      alt: "Handmade scrunchie in a peachy-pink kitten print",
+      blurb: "Peachy-pink with the tiniest kittens tucked in — for the cat lovers and daydreamers.",
+      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-orange-kitty.jpg"]
+    },
+    "scrunchie-pink-bumble-bee": {
+      alt: "Handmade ribbed blush-pink scrunchie dotted with bees",
+      blurb: "Ribbed blush pink dotted with busy little bees — soft, subtle, and sweet.",
+      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-pink-bumble-bee.jpg"]
+    },
+    "scrunchie-pretty-in-pink": {
+      alt: "Handmade textured scrunchie with soft pink brushstrokes on cream",
+      blurb: "Airy pink brushstrokes on textured cream — pretty in pink, exactly as it should be.",
+      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-pretty-in-pink.jpg"]
+    },
+    "scrunchie-wildflower": {
+      alt: "Handmade scrunchie in a tiny wildflower print on cream",
+      blurb: "A meadow's worth of tiny wildflowers on cream — our softest little garden.",
+      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-wildflower.jpg"]
+    },
+    "scrunchie-bundle": {
+      alt: "Set of three handmade scrunchies in red, cream, and navy",
+      blurb: "Three everyday scrunchies in classic red, cream, and navy — the perfect starter trio, and a little kinder on the price.",
+      details: "Set of 3 (red · cream · navy) · one size each · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-bundle.jpg"]
     }
   };
   var SHIPPING = 6.5;

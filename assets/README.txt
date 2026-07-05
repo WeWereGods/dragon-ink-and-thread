@@ -29,9 +29,18 @@ show an emoji placeholder):
     cozy-bee.jpg            — Blue Bee slim-can cozy      (DONE)
     cozy-daisy.jpg          — Daisy cup/tumbler cozy      (DONE)
 
-  Still needed:
-    scrunchie.jpg          — Scrunchie card
-    bow.jpg                — Bow card
+  Scrunchies card (print picker + $9 bundle):
+    scrunchie-butterfly.jpg        — Butterfly print        (DONE)
+    scrunchie-cherry-blossom.jpg   — Cherry Blossom print   (DONE)
+    scrunchie-cherry.jpg           — Cherry print           (DONE)
+    scrunchie-orange-kitty.jpg     — Orange Kitty print     (DONE)
+    scrunchie-pink-bumble-bee.jpg  — Pink Bumble Bee print  (DONE)
+    scrunchie-pretty-in-pink.jpg   — Pretty in Pink print   (DONE)
+    scrunchie-wildflower.jpg       — Wildflower print       (DONE)
+    scrunchie-bundle.jpg           — Bundle of 3 (red/cream/navy), $9  (DONE)
+
+  Bow card:
+    bow-sage.jpg           — Sage floral bow                (DONE)
 
 Note: the web images above are optimized JPGs (~1280px, <250 KB). The
 full-size originals (e.g. "Fairy tote outside.PNG") are kept locally

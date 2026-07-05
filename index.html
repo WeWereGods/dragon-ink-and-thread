@@ -218,22 +218,39 @@
             <button class="btn btn-primary card-add" data-id="cozy-bee">Add to bag</button>
           </article>
 
-          <article class="card">
-            <img class="product-photo" src="assets/scrunchie.jpg" alt="Handmade fabric scrunchie"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder placeholder-product" style="display:none;"><span>🎀</span></div>
-            <h3>Scrunchie</h3>
-            <p class="card-price">$4.00</p>
-            <p>Soft enough for a lazy Sunday, sturdy enough for the whole week. Cut from jersey-knit cotton and finished by hand, sized to hold without slipping — a small, easy piece of whimsy for an ordinary day.</p>
-            <p class="card-details">One size · gentle wash, lay flat to dry.</p>
-            <button class="btn btn-primary card-add" data-id="scrunchie">Add to bag</button>
+          <article class="card card-variant" data-card="scrunchies">
+            <div class="card-media">
+              <img class="product-photo js-variant-img" src="assets/scrunchie-butterfly.jpg"
+                   alt="Handmade scrunchie in a cream butterfly print"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder placeholder-product" style="display:none;"><span>🎀</span></div>
+            </div>
+            <div class="thumbs js-variant-thumbs" role="group" aria-label="More scrunchie photos"></div>
+            <h3 class="js-variant-title">Butterfly Scrunchie</h3>
+            <p class="card-price js-variant-price">$4.00</p>
+            <div class="variant-field">
+              <label class="variant-label" for="scrunchies-select">Choose your print</label>
+              <select class="variant-select js-variant-select" id="scrunchies-select" aria-label="Choose your scrunchie print">
+                <option value="scrunchie-butterfly">Butterfly — $4</option>
+                <option value="scrunchie-cherry-blossom">Cherry Blossom — $4</option>
+                <option value="scrunchie-cherry">Cherry — $4</option>
+                <option value="scrunchie-orange-kitty">Orange Kitty — $4</option>
+                <option value="scrunchie-pink-bumble-bee">Pink Bumble Bee — $4</option>
+                <option value="scrunchie-pretty-in-pink">Pretty in Pink — $4</option>
+                <option value="scrunchie-wildflower">Wildflower — $4</option>
+                <option value="scrunchie-bundle">Bundle of 3 · red · cream · navy — $9</option>
+              </select>
+            </div>
+            <p class="js-variant-blurb">Delicate butterflies scattered across soft cream — a little flutter of whimsy for your wrist or your hair.</p>
+            <p class="card-details js-variant-details">One size · soft &amp; springy, gentle on hair · hand wash, lay flat to dry.</p>
+            <button class="btn btn-primary card-add" data-id="scrunchie-butterfly">Add to bag</button>
           </article>
 
           <article class="card">
-            <img class="product-photo" src="assets/bow.jpg" alt="Handmade fabric bow hair clip"
+            <img class="product-photo" src="assets/bow-sage.jpg" alt="Handmade sage-green floral sailor bow"
                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
             <div class="placeholder placeholder-product" style="display:none;"><span>🎗️</span></div>
-            <h3>Bow</h3>
+            <h3>Sage Bow</h3>
             <p class="card-price">$10.00</p>
             <p>A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.</p>
             <p class="card-details">Spot clean only · store away from direct sun to keep color true.</p>

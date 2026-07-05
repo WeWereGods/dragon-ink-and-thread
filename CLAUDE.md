@@ -36,13 +36,16 @@ assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
 - **Checkout is a VISUAL MOCKUP only** — no real payments. A static Pages site can't process
   payments; for real orders use Stripe Payment Links, or move to Shopify / a host with
   serverless functions. The code comments in js/main.js explain this.
-- **Products** (name / price / cart id): the Shop has 4 cards. Two are **variant cards** with
+- **Products** (name / price / cart id): the Shop has 4 cards. Three are **variant cards** with
   a `<select>` print/style picker + thumbnail gallery (`.card-variant` in index.html, wired by
   `initVariantCards()` in js/main.js):
     - **Totes** — Fairy Tote $38 (`tote-fairy`), Floral Tote $38 (`tote-floral`),
       Sunflower Tote $45 (`tote-sunflower`, the puffy woven one).
     - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
-    - **Scrunchie** $4 (`scrunchie`), **Bow** $10 (`bow`) — plain cards.
+    - **Scrunchies** — 7 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
+      `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`) + a **Bundle of 3**
+      @ $9 (`scrunchie-bundle`, red/cream/navy solids) as the last `<option>`.
+    - **Sage Bow** $10 (`bow`) — plain card (only one print so far; convert to a picker when more arrive).
   Each print/style is its own cart id. Prices/copy live in THREE places that must stay in sync:
   the `<option>` labels in index.html, the `PRODUCTS` object in js/main.js (price of record),
   and the `VARIANTS` map in js/main.js (per-variant photos, blurb, details). To add a print:
@@ -63,14 +66,10 @@ panel launches it via `.claude/launch.json` (config name `site`).
 ## Open TODOs / nice-to-haves
 - **Founder photo** → `assets/about.jpg`, swap into the "Your photo here" placeholder in the
   About/Our Story section (highest-trust element on the page).
-- **Product photos** → `assets/scrunchie.jpg`, `assets/bow.jpg` (cards already wired for them).
-- **Scrunchie & Bow → variant pickers** (owner requested): once photos of the different
-  scrunchie/bow prints arrive, convert those two plain cards into `.card-variant` cards with a
-  print dropdown + thumbnail gallery, exactly like the Totes/Cozys cards (add `PRODUCTS` +
-  `VARIANTS` entries per print and `<option>`s to each select). Pricing decided:
-    - Scrunchie prints all **$4**; add a **3-scrunchie bundle for $9** (`scrunchie-bundle`,
-      owner has a group photo to upload). Bow prints all **$10**.
-- **Real fabric print names** in the product copy (e.g. "Wildflower Meadow" instead of generic).
+- **More bow prints** → when photos of other bow prints arrive, convert the Sage Bow plain card
+  into a `.card-variant` picker like the others (all bow prints priced $10).
+- **Higher-res scrunchie photos** (nice-to-have): the current scrunchie/bundle photos are only
+  320×240, so they're a touch soft on phones/retina. Swap in larger shots when available.
 - **Terms of Service** page (the footer currently links Privacy + Shipping only).
 - **Email welcome sequence** (2–3 emails) + **Post-Purchase note** packaging insert — drafted
   copy the owner referenced but not yet in the repo.
