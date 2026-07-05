@@ -330,7 +330,7 @@
     if (drawerLines) {
       drawerLines.innerHTML = ids.length
         ? ids.map(drawerLineHTML).join("")
-        : '<p class="cart-empty">Your bag is empty</p>';
+        : '<p class="cart-empty">Your basket is empty</p>';
     }
     var dSub = el("drawerSubtotal");
     if (dSub) dSub.textContent = money(subtotal);
@@ -513,7 +513,7 @@
   if (payBtn) payBtn.addEventListener("click", function () {
     var id = "DIT-" + Math.floor(100000 + Math.random() * 900000);
     if (el("orderId")) el("orderId").textContent = "PREVIEW #" + id;
-    cart = {}; // clear the preview bag
+    cart = {}; // clear the preview basket
     render();
     showFlowView("view-confirm", "confirm");
   });

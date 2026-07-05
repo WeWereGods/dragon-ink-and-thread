@@ -838,7 +838,7 @@ h3 { font-size: 1.4rem; }
   align-items: center;
   justify-content: center;
 }
-.egg-icon { width: 15px; height: auto; flex: 0 0 auto; }
+.basket-icon { width: 17px; height: auto; flex: 0 0 auto; }
 
 /* Product card shopping bits -------------------------------- */
 .card { display: flex; flex-direction: column; }

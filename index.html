@@ -37,14 +37,16 @@
           </ul>
         </nav>
 
-        <button class="cart-btn" id="cartOpenBtn" aria-haspopup="dialog" aria-label="Open bag">
-          <svg class="egg-icon" viewBox="0 0 20 26" width="15" height="19" aria-hidden="true">
-            <path d="M10 1.5 C15 1.5 17.5 9 17.5 15.5 A7.5 8.5 0 0 1 2.5 15.5 C2.5 9 5 1.5 10 1.5 Z" fill="var(--rose)" stroke="var(--clay-deep)" stroke-width="1.6" />
-            <circle cx="8" cy="12" r="1.1" fill="var(--clay-deep)" />
-            <circle cx="12" cy="15" r="1.1" fill="var(--clay-deep)" />
-            <circle cx="9.5" cy="18.5" r="1.1" fill="var(--clay-deep)" />
+        <button class="cart-btn" id="cartOpenBtn" aria-haspopup="dialog" aria-label="Open basket">
+          <svg class="basket-icon" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"
+               fill="none" stroke="var(--clay-deep)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7.6 10 A4.6 4.6 0 0 1 16.4 10" />
+            <path d="M4 10 H20 L17.7 20.3 Q17.5 21 16.8 21 H7.2 Q6.5 21 6.3 20.3 Z" fill="var(--honey)" fill-opacity="0.85" />
+            <path d="M3 10 H21" />
+            <path d="M8 10.6 L7.7 20 M12 10.6 V21 M16 10.6 L16.3 20" stroke-width="1.1" stroke-opacity="0.6" />
+            <path d="M5.3 14 H18.7 M5.9 17.4 H18.1" stroke-width="1.1" stroke-opacity="0.6" />
           </svg>
-          <span class="cart-label">Bag</span>
+          <span class="cart-label">Basket</span>
           <span class="cart-count" id="cartCount">0</span>
         </button>
 
@@ -166,7 +168,7 @@
             </div>
             <p class="js-variant-blurb">Watercolor fairies drift across soft cream cotton, with a moody dark-floral lining tucked inside — a little secret garden you carry on your shoulder.</p>
             <p class="card-details js-variant-details">10″ × 7″ × 7″ · fully lined with a hidden dark-floral interior · 14″ strap drop · spot clean. Made to order — please allow 5–10 business days.</p>
-            <button class="btn btn-primary card-add" data-id="tote-fairy">Add to bag</button>
+            <button class="btn btn-primary card-add" data-id="tote-fairy">Add to basket</button>
           </article>
 
           <article class="card card-variant" data-card="cozys">
@@ -188,7 +190,7 @@
             </div>
             <p class="js-variant-blurb">A snug, fleece-lined sleeve for slim cans — dusty-blue cotton dotted with bees and dandelions. Keeps drinks cold and hands comfy.</p>
             <p class="card-details js-variant-details">Fits standard slim cans (12 oz) · soft fleece lining · spot clean, lay flat to dry.</p>
-            <button class="btn btn-primary card-add" data-id="cozy-bee">Add to bag</button>
+            <button class="btn btn-primary card-add" data-id="cozy-bee">Add to basket</button>
           </article>
 
           <article class="card card-variant" data-card="scrunchies">
@@ -216,7 +218,7 @@
             </div>
             <p class="js-variant-blurb">Delicate butterflies scattered across soft cream — a little flutter of whimsy for your wrist or your hair.</p>
             <p class="card-details js-variant-details">One size · soft &amp; springy, gentle on hair · hand wash, lay flat to dry.</p>
-            <button class="btn btn-primary card-add" data-id="scrunchie-butterfly">Add to bag</button>
+            <button class="btn btn-primary card-add" data-id="scrunchie-butterfly">Add to basket</button>
           </article>
 
           <article class="card">
@@ -227,11 +229,11 @@
             <p class="card-price">$10.00</p>
             <p>A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.</p>
             <p class="card-details">Spot clean only · store away from direct sun to keep color true.</p>
-            <button class="btn btn-primary card-add" data-id="bow">Add to bag</button>
+            <button class="btn btn-primary card-add" data-id="bow">Add to basket</button>
           </article>
         </div>
 
-        <p class="product-note">✨ Opening late August — you're welcome to explore the bag &amp; checkout, but no orders are taken yet. <a href="#home">Join the Nest</a> for 10% off at launch.</p>
+        <p class="product-note">✨ Opening late August — you're welcome to explore the basket &amp; checkout, but no orders are taken yet. <a href="#home">Join the Nest</a> for 10% off at launch.</p>
       </div>
     </section>
 
@@ -327,7 +329,7 @@
   <div id="shop-flow" hidden>
     <div class="container">
       <ol class="stepper" id="stepper" aria-label="Checkout progress">
-        <li class="step" data-step="cart"><span class="dot"></span>Bag</li>
+        <li class="step" data-step="cart"><span class="dot"></span>Basket</li>
         <li class="sep" aria-hidden="true"></li>
         <li class="step" data-step="checkout"><span class="dot"></span>Details &amp; payment</li>
         <li class="sep" aria-hidden="true"></li>
@@ -402,10 +404,10 @@
 
   <!-- Cart drawer -->
   <div class="scrim" id="scrim" hidden></div>
-  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" hidden>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Shopping basket" hidden>
     <div class="drawer-head">
-      <h3>Your bag</h3>
-      <button class="drawer-close" id="drawerCloseBtn" aria-label="Close bag">&times;</button>
+      <h3>Your basket</h3>
+      <button class="drawer-close" id="drawerCloseBtn" aria-label="Close basket">&times;</button>
     </div>
     <p class="demo-note demo-note-sm">🧵 Preview only — no orders are placed yet.</p>
     <div id="drawerLines" class="drawer-lines"></div>
