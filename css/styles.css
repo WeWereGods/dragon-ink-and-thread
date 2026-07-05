@@ -247,7 +247,7 @@ h3 { font-size: 1.4rem; }
   position: relative;
   overflow: hidden;
   text-align: center;
-  padding: clamp(3.5rem, 9vw, 7rem) 0 clamp(3rem, 7vw, 5.5rem);
+  padding: clamp(1.5rem, 4vw, 2.75rem) 0 clamp(1.5rem, 3vw, 2.5rem);
   background:
     radial-gradient(1100px 420px at 50% -8%, var(--rose-soft), transparent 62%),
     linear-gradient(180deg, var(--paper) 0%, var(--paper-deep) 100%);
@@ -258,8 +258,8 @@ h3 { font-size: 1.4rem; }
    The white card also hides any white background baked into the PNG. */
 .hero-logo-wrap {
   display: inline-block;
-  margin: 0.4rem auto 0.6rem;
-  padding: 18px;
+  margin: 0.1rem auto 0.4rem;
+  padding: 12px;
   /* soft translucent cream mat so the transparent logo reads as a
      framed picture while a hint of the hero background shows through */
   background: rgba(255, 253, 247, 0.55);
@@ -269,7 +269,7 @@ h3 { font-size: 1.4rem; }
 }
 .hero-logo {
   display: block;
-  width: min(320px, 70vw);
+  width: min(170px, 46vw);
   height: auto;
   margin: 0;
   border-radius: 14px;
@@ -291,7 +291,7 @@ h3 { font-size: 1.4rem; }
   gap: 0.6rem;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 1.3rem;
+  margin-bottom: 0.8rem;
 }
 .badge-vet {
   color: var(--teal-deep);
@@ -307,7 +307,7 @@ h3 { font-size: 1.4rem; }
   font-size: clamp(1.05rem, 2.2vw, 1.3rem);
   color: var(--ink-soft);
   max-width: 620px;
-  margin: 0.2rem auto 1.8rem;
+  margin: 0.2rem auto 0.9rem;
 }
 .hero-actions {
   display: flex;
@@ -597,7 +597,7 @@ h3 { font-size: 1.4rem; }
   gap: 0.6rem;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 1.4rem;
+  margin-top: 1rem;
 }
 .nest-form input {
   width: min(320px, 100%);
@@ -611,7 +611,7 @@ h3 { font-size: 1.4rem; }
 }
 .nest-form input:focus-visible { border-style: solid; }
 .nest-incentive {
-  margin: 0.9rem auto 0;
+  margin: 0.7rem auto 0;
   max-width: 460px;
   font-size: 0.98rem;
   font-weight: 600;
@@ -622,7 +622,7 @@ h3 { font-size: 1.4rem; }
   font-family: var(--font-script);
   font-size: 1.25rem;
   color: var(--teal-deep);
-  margin-top: 0.5rem;
+  margin: 0.5rem 0 0;
 }
 
 /* Hero pull-quote ------------------------------------------- */
