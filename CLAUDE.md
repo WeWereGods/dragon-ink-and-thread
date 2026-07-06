@@ -70,12 +70,13 @@ If Python isn't installed, a tiny Node static server lives at `.claude/preview-s
 (gitignored) — `node .claude/preview-server.js` serves the repo on :8000; the Claude preview
 panel launches it via `.claude/launch.json` (config name `site`).
 
+## Analytics & social
+- **Analytics is live**: Cloudflare Web Analytics (cookieless, no consent banner needed) via a
+  beacon in each page's footer (index/privacy/shipping); the token is public by design. View
+  stats at Cloudflare dashboard → Web Analytics. Works without moving DNS to Cloudflare.
+- **Social share card** = `assets/og-image.jpg` (1200×630); OG/Twitter meta live in index.html `<head>`.
+
 ## Open TODOs / nice-to-haves
-- **Activate analytics** → Cloudflare Web Analytics (cookieless) beacon is added to index.html,
-  privacy.html, shipping.html with a placeholder `CF_BEACON_TOKEN_HERE`. Owner must create the
-  site in the Cloudflare dashboard (Web Analytics → add site) and replace the placeholder token
-  in all three files. No data flows until then. Social share card = assets/og-image.jpg (OG/Twitter
-  meta in index.html <head>).
 - **Founder photo** → `assets/about.jpg`, swap into the "Your photo here" placeholder in the
   About/Our Story section (highest-trust element on the page).
 - **More bow prints** → when photos of other bow prints arrive, convert the Sage Bow plain card
