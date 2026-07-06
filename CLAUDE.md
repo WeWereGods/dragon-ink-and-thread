@@ -88,6 +88,10 @@ panel launches it via `.claude/launch.json` (config name `site`).
   into a `.card-variant` picker like the others (all bow prints priced $10).
 - **Higher-res scrunchie photos** (nice-to-have): the current scrunchie/bundle photos are only
   320×240, so they're a touch soft on phones/retina. Swap in larger shots when available.
+- **At launch: Product structured data** — add JSON-LD `Product` blocks (per shop card) with
+  `AggregateOffer` price ranges. Deferred until the shop is transactional: use `PreOrder` now →
+  flip to `InStock` at launch, and add `aggregateRating` once real reviews exist (never fake them).
+  Brand-level `Store` JSON-LD already lives in index.html `<head>`.
 - **Email welcome sequence** (2–3 emails) + **Post-Purchase note** packaging insert — drafted
   copy the owner referenced but not yet in the repo.
 - Policies are plain-language, **not attorney-reviewed** — worth a Termly/TermsFeed pass before
