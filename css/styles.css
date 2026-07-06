@@ -40,16 +40,11 @@ body {
   color: var(--ink);
   line-height: 1.68;
   -webkit-font-smoothing: antialiased;
-  /* Layered paper background: a faint botanical scatter over the soft
-     speckle over the cream. The SVG tile is transparent so it sits on
-     the paper color; kept subtle so text stays readable everywhere. */
-  background-color: var(--paper);
-  background-image:
-    url("assets/bg-pattern.svg"),
-    radial-gradient(circle at 20% 30%, rgba(74, 145, 152, 0.06) 0 2px, transparent 2px),
-    radial-gradient(circle at 70% 65%, rgba(234, 179, 198, 0.07) 0 2px, transparent 2px),
-    radial-gradient(circle at 85% 15%, rgba(215, 166, 64, 0.05) 0 2px, transparent 2px);
-  background-size: 240px 240px, 240px 240px, 300px 300px, 200px 200px;
+  /* Signature wallpaper: the dragon + florals pattern pinned to the
+     viewport (fixed) so it never tiles or seams; content scrolls over it.
+     Sections below use translucent cream/rose panels so the wallpaper
+     reads through softly while text stays legible. */
+  background: var(--paper) url("../assets/web-background.jpg") center center / cover no-repeat fixed;
 }
 
 img { max-width: 100%; display: block; }
@@ -252,8 +247,8 @@ h3 { font-size: 1.4rem; }
   text-align: center;
   padding: clamp(1.5rem, 4vw, 2.75rem) 0 clamp(1.5rem, 3vw, 2.5rem);
   background:
-    radial-gradient(1100px 420px at 50% -8%, var(--rose-soft), transparent 62%),
-    linear-gradient(180deg, var(--paper) 0%, var(--paper-deep) 100%);
+    radial-gradient(1100px 420px at 50% -8%, rgba(231, 188, 174, 0.35), transparent 62%),
+    linear-gradient(180deg, rgba(246, 239, 224, 0.62) 0%, rgba(239, 228, 205, 0.72) 100%);
 }
 .hero-inner { position: relative; z-index: 3; max-width: 780px; }
 
@@ -357,9 +352,10 @@ h3 { font-size: 1.4rem; }
 }
 
 /* Sections -------------------------------------------------- */
-.section { padding: clamp(3rem, 8vw, 5.5rem) 0; }
-/* translucent so the page's botanical pattern carries through the band */
-.section-tint { background: rgba(244, 221, 211, 0.62); }
+/* translucent cream panel so the wallpaper reads through softly behind text */
+.section { padding: clamp(3rem, 8vw, 5.5rem) 0; background: rgba(246, 239, 224, 0.82); }
+/* translucent rose band, same idea */
+.section-tint { background: rgba(244, 221, 211, 0.82); }
 .section-head { text-align: center; max-width: 640px; margin: 0 auto 2.6rem; }
 .section-sub { color: var(--ink-soft); font-size: 1.05rem; margin-top: 0.3rem; }
 

@@ -18,9 +18,13 @@ index.html            One-page site: Hero (+ signup), Our Story, Shop, sign-off,
 privacy.html          Privacy Policy (noindex)
 shipping.html         Shipping & Returns (noindex)
 css/styles.css        Whole theme via CSS custom properties (:root). Teal + pale-pink + honey.
-                      Page background = assets/bg-pattern.svg (seamless botanical scatter)
-                      layered over the dot-speckle over --paper on `body`. `.section-tint`
-                      is translucent so the pattern carries through the rose bands.
+                      Page background = assets/web-background.jpg (dragon + florals
+                      wallpaper) pinned as `background: ... fixed` on `body` (cover, no
+                      repeat — the art isn't seamless, so fixed-cover avoids tiling seams).
+                      Sections use translucent cream (`.section`) / rose (`.section-tint`)
+                      panels so the wallpaper reads through softly while text stays legible;
+                      the hero veil is lighter so the pattern shows more there.
+                      NOTE: CSS url() is relative to css/, so asset paths need `../assets/`.
 js/main.js            Mobile nav, scroll-reveal, footer year, Join-the-Nest + Contact form
                       submit handlers, and the shop/cart/checkout mockup.
 assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
