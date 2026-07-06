@@ -53,10 +53,12 @@ assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
       `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`) + a **Bundle of 3**
       @ $9 (`scrunchie-bundle`, red/cream/navy solids) as the last `<option>`.
     - **Sage Bow** $10 (`bow`) — plain card (only one print so far; convert to a picker when more arrive).
-  Each print/style is its own cart id. Prices/copy live in THREE places that must stay in sync:
-  the `<option>` labels in index.html, the `PRODUCTS` object in js/main.js (price of record),
-  and the `VARIANTS` map in js/main.js (per-variant photos, blurb, details). To add a print:
-  drop the photo in assets/, add a `VARIANTS` + `PRODUCTS` entry, and an `<option>` to that select.
+  Each print/style is its own cart id. **Price of record lives only in the `PRODUCTS` object**
+  (js/main.js) — the dropdown `<option>` labels are the print name only, and `initVariantCards()`
+  appends the "— $price" suffix from `PRODUCTS` at runtime (so a price is never duplicated).
+  Per-variant photos/blurb/details live in the `VARIANTS` map (js/main.js). To add a print: drop
+  the photo in assets/, add a `PRODUCTS` + `VARIANTS` entry, and an `<option>` (name only, no
+  price) to that select.
 - **Images**: `logo.png` is background-transparent (flood-filled from the original). Originals
   `logo-original.png` and `Tote.png` are kept locally but **gitignored**. Product cards use
   `<img>` with an `onerror` fallback to an emoji placeholder, so missing photos never look broken.

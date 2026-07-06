@@ -464,6 +464,11 @@
       var sel = card.querySelector(".js-variant-select");
       var img = card.querySelector(".js-variant-img");
       if (!sel || !img) return;
+      // Build each option's "— $price" suffix from PRODUCTS (single source of truth)
+      Array.prototype.forEach.call(sel.options, function (opt) {
+        var pp = PRODUCTS[opt.value];
+        if (pp) opt.textContent = opt.textContent + " — " + money(pp.price);
+      });
       var placeholder = img.nextElementSibling;
       var thumbs = card.querySelector(".js-variant-thumbs");
       var titleEl = card.querySelector(".js-variant-title");
