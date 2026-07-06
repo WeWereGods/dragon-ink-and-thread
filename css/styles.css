@@ -389,6 +389,50 @@ h3 { font-size: 1.4rem; }
 .section-head { text-align: center; max-width: 640px; margin: 0 auto 2.6rem; }
 .section-sub { color: var(--ink-soft); font-size: 1.05rem; margin-top: 0.3rem; }
 
+/* FAQ ------------------------------------------------------- */
+.faq-inner { max-width: 760px; }
+.faq-item {
+  background: rgba(255, 253, 247, 0.92);
+  border: 1px solid var(--paper-deep);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 0.8rem;
+  overflow: hidden;
+}
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 1rem 1.2rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.08rem;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "+";
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--teal-deep);
+  transition: transform 0.2s ease;
+  flex: 0 0 auto;
+}
+.faq-item[open] summary::after { transform: rotate(45deg); }
+.faq-item summary:hover { color: var(--clay-deep); }
+.faq-item summary:focus-visible { outline: 3px solid var(--honey); outline-offset: -3px; }
+.faq-item > p {
+  margin: 0;
+  padding: 0 1.2rem 1.1rem;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
 /* Mission band ---------------------------------------------- */
 .mission { padding: clamp(2.2rem, 6vw, 4rem) 0; text-align: center; }
 .mission-quote {
