@@ -56,6 +56,32 @@
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
   /* ---------------------------------------------------------
+     Launch countdown — ticks down to opening day (Aug 28, 2026,
+     9am Central). To change the date, edit LAUNCH below.
+     --------------------------------------------------------- */
+  var countdownClock = document.getElementById("countdownClock");
+  if (countdownClock) {
+    var LAUNCH = new Date("2026-08-28T09:00:00-05:00").getTime();
+    var countdownInterval = null;
+    var tickCountdown = function () {
+      var diff = LAUNCH - Date.now();
+      if (diff <= 0) {
+        countdownClock.textContent = "We're open! 🎉";
+        countdownClock.removeAttribute("aria-hidden");
+        if (countdownInterval) window.clearInterval(countdownInterval);
+        return;
+      }
+      var s = Math.floor(diff / 1000);
+      var d = Math.floor(s / 86400); s -= d * 86400;
+      var h = Math.floor(s / 3600); s -= h * 3600;
+      var m = Math.floor(s / 60); s -= m * 60;
+      countdownClock.textContent = d + "d " + h + "h " + m + "m " + s + "s";
+    };
+    tickCountdown();
+    countdownInterval = window.setInterval(tickCountdown, 1000);
+  }
+
+  /* ---------------------------------------------------------
      Join the Nest — email signup via Web3Forms, so subscribers
      land in the shop inbox from any visitor (no mail app needed).
      --------------------------------------------------------- */

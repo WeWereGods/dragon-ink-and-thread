@@ -386,6 +386,35 @@ h3 { font-size: 1.4rem; }
 .section-tint { background: rgba(244, 221, 211, 0.82); }
 /* calmer wallpaper behind the shop text specifically */
 #products { background: rgba(244, 221, 211, 0.93); }
+
+/* Launch countdown bar ------------------------------------- */
+.countdown-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem 1rem;
+  padding: 0.6rem 1rem;
+  background: var(--teal);
+  color: var(--white);
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.countdown-clock {
+  font-variant-numeric: tabular-nums;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  padding: 0.15rem 0.75rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.countdown-cta {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.countdown-cta:hover { color: var(--paper-deep); }
 .section-head { text-align: center; max-width: 640px; margin: 0 auto 2.6rem; }
 .section-sub { color: var(--ink-soft); font-size: 1.05rem; margin-top: 0.3rem; }
 
