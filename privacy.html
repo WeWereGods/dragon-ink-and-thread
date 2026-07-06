@@ -65,7 +65,7 @@
       <p>Each of these services has its own privacy policy governing how they handle your data.</p>
 
       <h2>Cookies</h2>
-      <p>We don’t currently use tracking or advertising cookies. Our site may use basic browser storage to remember what’s in your basket while you browse. If we add analytics or other cookie-based features in the future, we’ll update this policy.</p>
+      <p>We don’t use tracking or advertising cookies. We use Cloudflare Web Analytics — a privacy-friendly, cookieless service that counts page views without setting cookies, collecting personal data, or tracking you across other sites. Our site may also use basic browser storage to remember what’s in your basket while you browse. If we add other cookie-based features in the future, we’ll update this policy.</p>
 
       <h2>Your Choices</h2>
       <ul>
@@ -100,5 +100,8 @@
   </footer>
 
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+  <!-- Cloudflare Web Analytics — cookieless. Replace CF_BEACON_TOKEN_HERE with your token. -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "CF_BEACON_TOKEN_HERE"}'></script>
 </body>
 </html>
