@@ -250,13 +250,30 @@ h3 { font-size: 1.4rem; }
     radial-gradient(1100px 420px at 50% -8%, rgba(231, 188, 174, 0.35), transparent 62%),
     linear-gradient(180deg, rgba(246, 239, 224, 0.62) 0%, rgba(239, 228, 205, 0.72) 100%);
 }
-.hero-inner { position: relative; z-index: 3; max-width: 780px; }
+.hero-inner {
+  position: relative;
+  z-index: 3;
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  gap: clamp(1.4rem, 4vw, 3.5rem);
+  text-align: left;
+}
+.hero-art { flex: 0 0 auto; }
+.hero-copy { flex: 1 1 auto; min-width: 0; }
+
+@media (max-width: 760px) {
+  .hero-inner { flex-direction: column; text-align: center; max-width: 560px; gap: 0.5rem; }
+  .hero-badges, .nest-form { justify-content: center; }
+  .hero-logo-wrap { margin: 0 auto; }
+  .hero-tagline, .hero-quote, .nest-incentive { margin-left: auto; margin-right: auto; }
+}
 
 /* Framed logo — a little "picture frame" with a stitched edge.
    The white card also hides any white background baked into the PNG. */
 .hero-logo-wrap {
   display: inline-block;
-  margin: 0.1rem auto 0.4rem;
+  margin: 0;
   padding: 12px;
   /* soft translucent cream mat so the transparent logo reads as a
      framed picture while a hint of the hero background shows through */
@@ -267,7 +284,7 @@ h3 { font-size: 1.4rem; }
 }
 .hero-logo {
   display: block;
-  width: min(170px, 46vw);
+  width: clamp(150px, 24vw, 250px);
   height: auto;
   margin: 0;
   border-radius: 14px;
@@ -287,7 +304,7 @@ h3 { font-size: 1.4rem; }
 .hero-badges {
   display: flex;
   gap: 0.6rem;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin-bottom: 0.8rem;
 }
@@ -305,7 +322,7 @@ h3 { font-size: 1.4rem; }
   font-size: clamp(1.05rem, 2.2vw, 1.3rem);
   color: var(--ink-soft);
   max-width: 620px;
-  margin: 0.2rem auto 0.9rem;
+  margin: 0.2rem 0 0.9rem;
 }
 .hero-actions {
   display: flex;
@@ -356,6 +373,8 @@ h3 { font-size: 1.4rem; }
 .section { padding: clamp(3rem, 8vw, 5.5rem) 0; background: rgba(246, 239, 224, 0.82); }
 /* translucent rose band, same idea */
 .section-tint { background: rgba(244, 221, 211, 0.82); }
+/* calmer wallpaper behind the shop text specifically */
+#products { background: rgba(244, 221, 211, 0.93); }
 .section-head { text-align: center; max-width: 640px; margin: 0 auto 2.6rem; }
 .section-sub { color: var(--ink-soft); font-size: 1.05rem; margin-top: 0.3rem; }
 
@@ -595,7 +614,7 @@ h3 { font-size: 1.4rem; }
 .nest-form {
   display: flex;
   gap: 0.6rem;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 1rem;
 }
@@ -611,7 +630,7 @@ h3 { font-size: 1.4rem; }
 }
 .nest-form input:focus-visible { border-style: solid; }
 .nest-incentive {
-  margin: 0.7rem auto 0;
+  margin: 0.7rem 0 0;
   max-width: 460px;
   font-size: 0.98rem;
   font-weight: 600;
@@ -628,7 +647,7 @@ h3 { font-size: 1.4rem; }
 /* Hero pull-quote ------------------------------------------- */
 .hero-quote {
   max-width: 560px;
-  margin: 0.6rem auto 0.2rem;
+  margin: 0.5rem 0 0.4rem;
   font-family: var(--font-display);
   font-style: italic;
   font-size: clamp(1.05rem, 2.2vw, 1.3rem);
