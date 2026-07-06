@@ -129,17 +129,28 @@ h3 { font-size: 1.4rem; }
 .btn-ghost:hover { background: var(--rose-soft); border-color: var(--clay); }
 
 /* Stitched divider ----------------------------------------- */
+/* A run of thread stitches that dip into the "fabric" at each end:
+   the color ramps up from transparent, holds, then ramps back down,
+   so every stitch has soft faded tips instead of hard rectangles.
+   A faint drop-shadow lifts the thread off the paper. */
 .stitch-divider {
-  height: 22px;
+  height: 24px;
   background-image: repeating-linear-gradient(
     90deg,
-    var(--teal) 0 14px,
-    transparent 14px 26px
+    rgba(74, 145, 152, 0) 0,
+    rgba(74, 145, 152, 0) 5px,
+    rgba(74, 145, 152, 0.35) 8px,
+    rgba(74, 145, 152, 0.92) 12px,
+    rgba(74, 145, 152, 0.92) 17px,
+    rgba(74, 145, 152, 0.35) 21px,
+    rgba(74, 145, 152, 0) 24px,
+    rgba(74, 145, 152, 0) 29px
   );
-  background-size: 26px 3px;
+  background-size: 29px 4px;
   background-repeat: repeat-x;
   background-position: center;
-  opacity: 0.55;
+  opacity: 0.8;
+  filter: drop-shadow(0 1px 0.5px rgba(47, 107, 114, 0.18));
 }
 
 /* Header / nav --------------------------------------------- */
