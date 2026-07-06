@@ -85,21 +85,20 @@
      Join the Nest — email signup via Web3Forms, so subscribers
      land in the shop inbox from any visitor (no mail app needed).
      --------------------------------------------------------- */
-  var nestForm = document.getElementById("nestForm");
-  var nestNote = document.getElementById("nestNote");
-  if (nestForm && nestNote) {
-    nestForm.addEventListener("submit", function (e) {
+  function wireNestForm(form, note) {
+    if (!form || !note) return;
+    form.addEventListener("submit", function (e) {
       e.preventDefault();
-      var data = new FormData(nestForm);
+      var data = new FormData(form);
       var key = data.get("access_key");
       if (!key || String(key).indexOf("WEB3FORMS_ACCESS_KEY") === 0) {
-        nestNote.textContent =
+        note.textContent =
           "Signup isn't set up yet — please email dragoninkandthread@gmail.com to join.";
         return;
       }
-      var btn = nestForm.querySelector('button[type="submit"]');
+      var btn = form.querySelector('button[type="submit"]');
       if (btn) btn.disabled = true;
-      nestNote.textContent = "Adding you to the nest…";
+      note.textContent = "Adding you to the nest…";
       fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: { Accept: "application/json" },
@@ -108,16 +107,16 @@
         .then(function (r) { return r.json(); })
         .then(function (json) {
           if (json.success) {
-            nestForm.reset();
-            nestNote.textContent = "You're in the nest! 🪺 Thank you — we'll be in touch.";
+            form.reset();
+            note.textContent = "You're in the nest! 🪺 Thank you — we'll be in touch.";
           } else {
-            nestNote.textContent =
+            note.textContent =
               (json && json.message) ||
               "Something went wrong — please email dragoninkandthread@gmail.com to join.";
           }
         })
         .catch(function () {
-          nestNote.textContent =
+          note.textContent =
             "Something went wrong — please email dragoninkandthread@gmail.com to join.";
         })
         .finally(function () {
@@ -125,6 +124,9 @@
         });
     });
   }
+  // Hero signup + the checkout "join the Nest" signup share this handler.
+  wireNestForm(document.getElementById("nestForm"), document.getElementById("nestNote"));
+  wireNestForm(document.getElementById("nestFormCheckout"), document.getElementById("nestNoteCheckout"));
 
   /* ---------------------------------------------------------
      Contact form — posts to Web3Forms so messages arrive in the
@@ -561,17 +563,6 @@
   });
   var backToShopBtn = el("backToShopBtn");
   if (backToShopBtn) backToShopBtn.addEventListener("click", showBrowse);
-
-  var payBtn = el("payBtn");
-  if (payBtn) payBtn.addEventListener("click", function () {
-    var id = "DIT-" + Math.floor(100000 + Math.random() * 900000);
-    if (el("orderId")) el("orderId").textContent = "PREVIEW #" + id;
-    cart = {}; // clear the preview basket
-    render();
-    showFlowView("view-confirm", "confirm");
-  });
-  var continueBtn = el("continueShoppingBtn");
-  if (continueBtn) continueBtn.addEventListener("click", showBrowse);
 
   // Escape closes the drawer (and mobile nav)
   document.addEventListener("keydown", function (e) {

@@ -40,9 +40,11 @@ assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
   backend). Access key is in the HTML (submit-only, safe to expose). Submissions land in
   **dragoninkandthread@gmail.com**. Contact subject: "New message from dragoninkandthread.com";
   signup subject: "New Nest subscriber". Free tier = 250/month. Upgrade path: Mailchimp/Buttondown.
-- **Checkout is a VISUAL MOCKUP only** — no real payments. A static Pages site can't process
-  payments; for real orders use Stripe Payment Links, or move to Shopify / a host with
-  serverless functions. The code comments in js/main.js explain this.
+- **Checkout = pre-launch Join-the-Nest (no real payments)**: browsing + the basket drawer work,
+  but the "Join the Nest to shop first →" button opens a converted checkout view (`#view-checkout`)
+  that shows an order-summary preview + an email signup (`#nestFormCheckout`, same Web3Forms
+  handler as the hero) instead of a fake payment form. There is no fake card/confirmation anymore.
+  For real orders after launch, use Stripe Payment Links or move to Shopify / serverless functions.
 - **Products** (name / price / cart id): the Shop has 4 cards. Three are **variant cards** with
   a `<select>` print/style picker + thumbnail gallery (`.card-variant` in index.html, wired by
   `initVariantCards()` in js/main.js):
