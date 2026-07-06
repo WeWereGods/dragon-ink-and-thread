@@ -17,6 +17,7 @@ audience is invited to "join the Nest."
 index.html            One-page site: Hero (+ signup), Our Story, Shop, sign-off, Contact
 privacy.html          Privacy Policy (noindex)
 shipping.html         Shipping & Returns (noindex)
+terms.html            Terms of Service (noindex)
 css/styles.css        Whole theme via CSS custom properties (:root). Teal + pale-pink + honey.
                       Page background = assets/web-background.jpg (dragon + florals
                       wallpaper) pinned as `background: ... fixed` on `body` (cover, no
@@ -87,7 +88,6 @@ panel launches it via `.claude/launch.json` (config name `site`).
   into a `.card-variant` picker like the others (all bow prints priced $10).
 - **Higher-res scrunchie photos** (nice-to-have): the current scrunchie/bundle photos are only
   320×240, so they're a touch soft on phones/retina. Swap in larger shots when available.
-- **Terms of Service** page (the footer currently links Privacy + Shipping only).
 - **Email welcome sequence** (2–3 emails) + **Post-Purchase note** packaging insert — drafted
   copy the owner referenced but not yet in the repo.
 - Policies are plain-language, **not attorney-reviewed** — worth a Termly/TermsFeed pass before
