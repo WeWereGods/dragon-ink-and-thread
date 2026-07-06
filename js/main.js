@@ -364,7 +364,14 @@
   function removeItem(id) { delete cart[id]; render(); }
 
   /* ----- drawer ----- */
+  var lastFocused = null;
+  function drawerFocusable() {
+    return Array.prototype.slice.call(
+      drawer.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')
+    ).filter(function (el) { return el.offsetParent !== null; });
+  }
   function openDrawer() {
+    lastFocused = document.activeElement;
     render();
     scrim.hidden = false;
     drawer.hidden = false;
@@ -372,6 +379,9 @@
     requestAnimationFrame(function () {
       scrim.classList.add("is-open");
       drawer.classList.add("is-open");
+      // move focus into the dialog for keyboard + screen-reader users
+      var closeBtn = el("drawerCloseBtn");
+      if (closeBtn) closeBtn.focus();
     });
   }
   function closeDrawer() {
@@ -380,7 +390,19 @@
     window.setTimeout(function () {
       if (!drawer.classList.contains("is-open")) { drawer.hidden = true; scrim.hidden = true; }
     }, 300);
+    // return focus to whatever opened the drawer
+    if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus();
+    lastFocused = null;
   }
+  // trap Tab focus inside the open drawer
+  drawer.addEventListener("keydown", function (e) {
+    if (e.key !== "Tab") return;
+    var f = drawerFocusable();
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
 
   /* ----- view switching ----- */
   function setStepper(activeKey) {
