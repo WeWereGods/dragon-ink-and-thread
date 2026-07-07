@@ -86,8 +86,9 @@ panel launches it via `.claude/launch.json` (config name `site`).
   About/Our Story section (highest-trust element on the page).
 - **More bow prints** → when photos of other bow prints arrive, convert the Sage Bow plain card
   into a `.card-variant` picker like the others (all bow prints priced $10).
-- **Higher-res scrunchie photos** (nice-to-have): the current scrunchie/bundle photos are only
-  320×240, so they're a touch soft on phones/retina. Swap in larger shots when available.
+- **Orange Kitty scrunchie photo** is still the old 320×240 (soft on retina). All other
+  scrunchie prints + the bundle were upgraded to ~1280px hi-res; swap Orange Kitty when a
+  larger shot is available (drop it in and optimize over `assets/scrunchie-orange-kitty.jpg`).
 - **At launch: Product structured data** — add JSON-LD `Product` blocks (per shop card) with
   `AggregateOffer` price ranges. Deferred until the shop is transactional: use `PreOrder` now →
   flip to `InStock` at launch, and add `aggregateRating` once real reviews exist (never fake them).
