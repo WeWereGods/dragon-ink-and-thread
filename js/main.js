@@ -82,6 +82,55 @@
   }
 
   /* ---------------------------------------------------------
+     Image lightbox — double-click a product photo (or a gallery
+     thumbnail) to view it larger. Close with ×, the backdrop, or Esc.
+     --------------------------------------------------------- */
+  var lightbox = document.getElementById("lightbox");
+  var lightboxImg = document.getElementById("lightboxImg");
+  if (lightbox && lightboxImg) {
+    var lbLastFocused = null;
+    var openLightbox = function (src, alt) {
+      if (!src) return;
+      lbLastFocused = document.activeElement;
+      lightboxImg.setAttribute("src", src);
+      lightboxImg.setAttribute("alt", alt || "");
+      lightbox.hidden = false;
+      var closeBtn = document.getElementById("lightboxClose");
+      if (closeBtn) closeBtn.focus();
+    };
+    var closeLightbox = function () {
+      lightbox.hidden = true;
+      lightboxImg.setAttribute("src", "");
+      if (lbLastFocused && lbLastFocused.focus) lbLastFocused.focus();
+    };
+    document.addEventListener("dblclick", function (e) {
+      var el = e.target.closest(".product-photo, .thumb");
+      if (!el) return;
+      var src, alt;
+      if (el.classList.contains("thumb")) {
+        src = el.getAttribute("data-src");
+        var inner = el.querySelector("img");
+        alt = inner ? inner.getAttribute("alt") : "";
+      } else {
+        src = el.getAttribute("src");
+        alt = el.getAttribute("alt");
+        if (el.style.display === "none") return; // emoji-placeholder fallback
+      }
+      if (!src) return;
+      e.preventDefault();
+      openLightbox(src, alt);
+    });
+    lightbox.addEventListener("click", function (e) {
+      if (e.target !== lightboxImg) closeLightbox();
+    });
+    var lbClose = document.getElementById("lightboxClose");
+    if (lbClose) lbClose.addEventListener("click", closeLightbox);
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !lightbox.hidden) closeLightbox();
+    });
+  }
+
+  /* ---------------------------------------------------------
      Join the Nest — email signup via Web3Forms, so subscribers
      land in the shop inbox from any visitor (no mail app needed).
      --------------------------------------------------------- */

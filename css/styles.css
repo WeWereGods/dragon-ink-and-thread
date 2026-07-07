@@ -593,7 +593,49 @@ h3 { font-size: 1.4rem; }
   border-radius: var(--radius);
   margin-bottom: 1rem;
   display: block;
+  cursor: zoom-in;
 }
+
+/* Image lightbox (double-click a product photo) ------------- */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vmin;
+  background: rgba(47, 42, 38, 0.82);
+  cursor: zoom-out;
+  animation: lb-fade 0.18s ease;
+}
+.lightbox[hidden] { display: none; }
+.lightbox-img {
+  max-width: min(92vw, 900px);
+  max-height: 90vh;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  background: var(--white);
+  cursor: default;
+}
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 253, 247, 0.92);
+  color: var(--ink);
+  font-size: 1.9rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+}
+.lightbox-close:hover { background: var(--white); }
+.lightbox-close:focus-visible { outline: 3px solid var(--honey); outline-offset: 2px; }
+@keyframes lb-fade { from { opacity: 0; } to { opacity: 1; } }
 
 /* Products -------------------------------------------------- */
 .product-grid {
