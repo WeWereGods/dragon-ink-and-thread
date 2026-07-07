@@ -325,11 +325,13 @@
         '<div class="meta">' +
           '<div class="name">' + p.name + "</div>" +
           '<div class="sub">' + money(p.price) + " each</div>" +
-          '<div class="qty-stepper">' +
-            '<button type="button" data-act="dec" data-id="' + id + '" aria-label="Decrease quantity of ' + p.name + '">&minus;</button>' +
-            "<span>" + cart[id] + "</span>" +
-            '<button type="button" data-act="inc" data-id="' + id + '" aria-label="Increase quantity of ' + p.name + '">+</button>' +
-            '<button type="button" class="line-remove" data-act="remove" data-id="' + id + '">remove</button>' +
+          '<div class="qty-row">' +
+            '<div class="qty-stepper">' +
+              '<button type="button" data-act="dec" data-id="' + id + '" aria-label="Decrease quantity of ' + p.name + '">&minus;</button>' +
+              "<span>" + cart[id] + "</span>" +
+              '<button type="button" data-act="inc" data-id="' + id + '" aria-label="Increase quantity of ' + p.name + '">+</button>' +
+            "</div>" +
+            '<button type="button" class="line-remove" data-act="remove" data-id="' + id + '" aria-label="Remove ' + p.name + ' from basket">remove</button>' +
           "</div>" +
         "</div>" +
       "</div>"

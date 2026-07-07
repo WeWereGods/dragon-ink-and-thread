@@ -995,11 +995,13 @@ h3 { font-size: 1.4rem; }
 .cart-empty { color: var(--ink-soft); text-align: center; padding: 2rem 0; font-family: var(--font-script); font-size: 1.35rem; }
 
 /* qty stepper */
-.qty-stepper { display: inline-flex; align-items: center; border: 1.5px solid var(--paper-deep); border-radius: 999px; overflow: hidden; margin-top: 0.4rem; background: var(--white); }
+.qty-row { display: flex; align-items: center; flex-wrap: wrap; gap: 0.3rem 0.7rem; margin-top: 0.4rem; }
+.qty-stepper { display: inline-flex; align-items: center; border: 1.5px solid var(--paper-deep); border-radius: 999px; overflow: hidden; background: var(--white); flex: 0 0 auto; }
 .qty-stepper button { width: 28px; height: 28px; background: none; border: none; font-size: 1rem; color: var(--teal-deep); cursor: pointer; }
 .qty-stepper button:hover { background: var(--rose-soft); }
 .qty-stepper span { min-width: 26px; text-align: center; font-weight: 700; font-size: 0.85rem; }
-.line-remove { background: none; border: none; color: var(--ink-soft); font-size: 0.78rem; text-decoration: underline; cursor: pointer; margin-left: 0.6rem; }
+.line-remove { background: none; border: none; color: var(--ink-soft); font-size: 0.78rem; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; padding: 0.25rem 0.15rem; flex: 0 0 auto; }
+.line-remove:hover { color: var(--clay-deep); }
 
 .cart-summary { padding-top: 0.8rem; }
 .row-between { display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 0.4rem; color: var(--ink-soft); }
