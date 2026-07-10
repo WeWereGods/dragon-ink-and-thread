@@ -362,13 +362,13 @@
       alt: "Handmade taupe gingham sailor bow",
       blurb: "Soft taupe gingham, hand-tied into a sweet sailor bow — a cozy little check that pairs with everything from sundresses to storybooks.",
       details: "Spot clean only · store away from direct sun to keep color true.",
-      images: ["assets/bow-gingham.jpg"]
+      images: ["assets/bow-gingham.jpg?v=2"]
     },
     "bow-sage-gingham": {
       alt: "Handmade sage-green gingham sailor bow scattered with tiny roses",
       blurb: "Sage-green gingham strewn with the tiniest pink roses — a garden picnic of a bow, hand-tied with finished edges.",
       details: "Spot clean only · store away from direct sun to keep color true.",
-      images: ["assets/bow-sage-gingham.jpg"]
+      images: ["assets/bow-sage-gingham.jpg?v=2"]
     },
     "bow-blue-rose": {
       alt: "Handmade powder-blue sailor bow with pink cottage roses",
