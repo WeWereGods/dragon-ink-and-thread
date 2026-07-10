@@ -146,6 +146,9 @@
                 <option value="tote-fairy">Fairy</option>
                 <option value="tote-floral">Floral</option>
                 <option value="tote-sunflower">Sunflower · puffy woven</option>
+                <option value="tote-mushroom">Mushroom</option>
+                <option value="tote-mustard-floral">Mustard Rose</option>
+                <option value="tote-blue-rose">Blue Rose</option>
               </select>
             </div>
             <p class="js-variant-blurb">Watercolor fairies drift across soft cream cotton, with a moody dark-floral lining tucked inside — a little secret garden you carry on your shoulder.</p>
@@ -203,15 +206,50 @@
             <button class="btn btn-primary card-add" data-id="scrunchie-butterfly">Add to basket</button>
           </article>
 
-          <article class="card">
-            <img class="product-photo" src="assets/bow-sage.jpg" loading="lazy" decoding="async" alt="Handmade sage-green floral sailor bow"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder placeholder-product" style="display:none;"><span>🎗️</span></div>
-            <h3>Sage Bow</h3>
-            <p class="card-price">$10.00</p>
-            <p>A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.</p>
-            <p class="card-details">Spot clean only · store away from direct sun to keep color true.</p>
-            <button class="btn btn-primary card-add" data-id="bow">Add to basket</button>
+          <article class="card card-variant" data-card="bows">
+            <div class="card-media">
+              <img class="product-photo js-variant-img" src="assets/bow-sage.jpg" loading="lazy" decoding="async"
+                   alt="Handmade sage-green floral sailor bow"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder placeholder-product" style="display:none;"><span>🎗️</span></div>
+            </div>
+            <div class="thumbs js-variant-thumbs" role="group" aria-label="More bow photos"></div>
+            <h3 class="js-variant-title">Sage Bow</h3>
+            <p class="card-price js-variant-price">$10.00</p>
+            <div class="variant-field">
+              <label class="variant-label" for="bows-select">Choose your print</label>
+              <select class="variant-select js-variant-select" id="bows-select" aria-label="Choose your bow print">
+                <option value="bow-sage">Sage Floral</option>
+                <option value="bow-gingham">Taupe Gingham</option>
+                <option value="bow-sage-gingham">Sage Gingham</option>
+                <option value="bow-blue-rose">Blue Rose</option>
+              </select>
+            </div>
+            <p class="js-variant-blurb">A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.</p>
+            <p class="card-details js-variant-details">Spot clean only · store away from direct sun to keep color true.</p>
+            <button class="btn btn-primary card-add" data-id="bow-sage">Add to basket</button>
+          </article>
+
+          <article class="card card-variant" data-card="blooms">
+            <div class="card-media">
+              <img class="product-photo js-variant-img" src="assets/bloom-cream.jpg" loading="lazy" decoding="async"
+                   alt="Handmade fabric flower hair clip in a cream ditsy rosebud print"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder placeholder-product" style="display:none;"><span>🌸</span></div>
+            </div>
+            <div class="thumbs js-variant-thumbs" role="group" aria-label="More bloom photos"></div>
+            <h3 class="js-variant-title">Cream Bloom</h3>
+            <p class="card-price js-variant-price">$10.00</p>
+            <div class="variant-field">
+              <label class="variant-label" for="blooms-select">Choose your print</label>
+              <select class="variant-select js-variant-select" id="blooms-select" aria-label="Choose your bloom print">
+                <option value="bloom-cream">Cream Rosebud</option>
+                <option value="bloom-pink">Pink Rosebud</option>
+              </select>
+            </div>
+            <p class="js-variant-blurb">A hand-folded fabric bloom in soft cream scattered with tiny rosebuds — a little posy for your hair that never wilts. Each petal shaped by hand.</p>
+            <p class="card-details js-variant-details">Fabric flower on a secure clip · spot clean · shape petals by hand.</p>
+            <button class="btn btn-primary card-add" data-id="bloom-cream">Add to basket</button>
           </article>
         </div>
 

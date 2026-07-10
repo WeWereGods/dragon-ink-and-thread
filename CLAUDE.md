@@ -55,16 +55,20 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   that shows an order-summary preview + an email signup (`#nestFormCheckout`, same Web3Forms
   handler as the hero) instead of a fake payment form. There is no fake card/confirmation anymore.
   For real orders after launch, use Stripe Payment Links or move to Shopify / serverless functions.
-- **Products** (name / price / cart id): the Shop has 4 cards. Three are **variant cards** with
+- **Products** (name / price / cart id): the Shop has 5 cards, all **variant cards** with
   a `<select>` print/style picker + thumbnail gallery (`.card-variant` in index.html, wired by
   `initVariantCards()` in js/main.js):
     - **Totes** — Fairy Tote $38 (`tote-fairy`), Floral Tote $38 (`tote-floral`),
-      Sunflower Tote $45 (`tote-sunflower`, the puffy woven one).
+      Sunflower Tote $45 (`tote-sunflower`, the puffy woven one), Mushroom Tote $25 (`tote-mushroom`),
+      Mustard Rose Tote $20 (`tote-mustard-floral`), Blue Rose Tote $20 (`tote-blue-rose`, 3-photo gallery).
     - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
     - **Scrunchies** — 7 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
       `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`) + a **Bundle of 3**
       @ $9 (`scrunchie-bundle`, red/cream/navy solids) as the last `<option>`.
-    - **Sage Bow** $10 (`bow`) — plain card (only one print so far; convert to a picker when more arrive).
+    - **Bows** $10 each — Sage Bow (`bow-sage`), Gingham Bow (`bow-gingham`, taupe),
+      Sage Gingham Bow (`bow-sage-gingham`), Blue Rose Bow (`bow-blue-rose`).
+    - **Blooms** $10 each — hand-folded fabric flower **hair clips**: Cream Bloom (`bloom-cream`),
+      Pink Bloom (`bloom-pink`).
   Each print/style is its own cart id. **Price of record lives only in the `PRODUCTS` object**
   (js/main.js) — the dropdown `<option>` labels are the print name only, and `initVariantCards()`
   appends the "— $price" suffix from `PRODUCTS` at runtime (so a price is never duplicated).
@@ -94,8 +98,14 @@ panel launches it via `.claude/launch.json` (config name `site`).
 - **Founder photo** → `assets/about.jpg` is now live in the About/Our Story section, but it's a
   casual phone selfie used as a stand-in. Swap for a stronger shot (ideally the maker with her
   work — at the machine, or holding a tote) when one exists. Highest-trust element on the page.
-- **More bow prints** → when photos of other bow prints arrive, convert the Sage Bow plain card
-  into a `.card-variant` picker like the others (all bow prints priced $10).
+- **Product photos are optimized from phone originals** → the `tote-*`, `bow-*`, and `bloom-*`
+  card photos were batch-processed from raw phone JPGs (`assets/IMG_*.jpeg`, gitignored) down to
+  1400×1050 (4:3) at quality 82. IMPORTANT: phone JPGs carry **EXIF orientation** tags — the
+  pipeline bakes rotation into pixels and strips EXIF (composite onto a fresh Jimp canvas; setting
+  `_exif=null` alone does NOT work). Don't drop a raw phone JPG straight into a card and trust it.
+- **New-tote specs are placeholder copy** → Mushroom / Mustard Rose / Blue Rose totes use generic
+  `details` ("Roomy everyday tote · spot clean…") in `VARIANTS` because real dimensions/lining
+  weren't given. Fill in true size + whether lined when known. (Prices set by owner: $25/$20/$20.)
 - **Orange Kitty scrunchie photo** is still the old 320×240 (soft on retina). All other
   scrunchie prints + the bundle were upgraded to ~1280px hi-res; swap Orange Kitty when a
   larger shot is available (drop it in and optimize over `assets/scrunchie-orange-kitty.jpg`).

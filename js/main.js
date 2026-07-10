@@ -244,6 +244,9 @@
     "tote-fairy":     { name: "Fairy Tote",     price: 38.0, art: "👜" },
     "tote-floral":    { name: "Floral Tote",    price: 38.0, art: "👜" },
     "tote-sunflower": { name: "Sunflower Tote", price: 45.0, art: "🌻" },
+    "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄" },
+    "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
+    "tote-blue-rose":     { name: "Blue Rose Tote",     price: 20.0, art: "🌷" },
     "cozy-bee":       { name: "Blue Bee Cozy",  price: 8.0,  art: "🐝" },
     "cozy-daisy":     { name: "Daisy Cozy",     price: 8.0,  art: "🌼" },
     "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 4.0, art: "🦋" },
@@ -254,7 +257,12 @@
     "scrunchie-pretty-in-pink": { name: "Pretty in Pink Scrunchie",  price: 4.0, art: "🎀" },
     "scrunchie-wildflower":     { name: "Wildflower Scrunchie",      price: 4.0, art: "🌼" },
     "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 9.0, art: "🎀" },
-    bow:              { name: "Sage Bow",       price: 10.0, art: "🎗️" }
+    "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️" },
+    "bow-gingham":      { name: "Gingham Bow",      price: 10.0, art: "🎀" },
+    "bow-sage-gingham": { name: "Sage Gingham Bow", price: 10.0, art: "🎀" },
+    "bow-blue-rose":    { name: "Blue Rose Bow",    price: 10.0, art: "🎀" },
+    "bloom-cream":      { name: "Cream Bloom",      price: 10.0, art: "🌸" },
+    "bloom-pink":       { name: "Pink Bloom",       price: 10.0, art: "🌸" }
   };
 
   /* Per-variant photos + copy for the print/style picker cards.
@@ -279,6 +287,24 @@
       blurb: "Our puffy woven tote — hand-cut squares of sunflowers, honeycomb, and tiny bees, quilted into pillowy softness. A true statement piece that hugs whatever you carry.",
       details: "Puffy hand-woven panels · roomy slouch shape · single shoulder strap · spot clean, reshape by hand. Made to order — please allow 7–12 business days.",
       images: ["assets/tote-sunflower.jpg", "assets/tote-sunflower-detail.jpg"]
+    },
+    "tote-mushroom": {
+      alt: "Handmade tote in an olive-green woodland mushroom print",
+      blurb: "Little red-capped mushrooms scattered across olive-green cotton — a walk through the forest floor, tucked under your arm. Made for foragers, readers, and cottage dreamers.",
+      details: "Roomy everyday tote · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-mushroom.jpg"]
+    },
+    "tote-mustard-floral": {
+      alt: "Handmade tote in a golden mustard vintage rose floral print",
+      blurb: "Dusty roses climbing over warm mustard-gold — a little vintage, a little sun-faded, endlessly cozy. The everyday tote with a storybook heart.",
+      details: "Roomy everyday tote · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-mustard-floral.jpg"]
+    },
+    "tote-blue-rose": {
+      alt: "Handmade tote in a pale blue print scattered with tiny pink roses",
+      blurb: "Tiny pink roses drifting over the softest powder blue — sweet, simple, and made to carry everywhere. A gentle everyday companion.",
+      details: "Roomy everyday tote · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-blue-rose.jpg", "assets/tote-blue-rose-2.jpg", "assets/tote-blue-rose-3.jpg"]
     },
     "cozy-bee": {
       alt: "Handmade fabric can cozy in dusty blue with bees and dandelions",
@@ -339,6 +365,42 @@
       blurb: "Three everyday scrunchies in classic red, cream, and navy — the perfect starter trio, and a little kinder on the price.",
       details: "Set of 3 (red · cream · navy) · one size each · hand wash, lay flat to dry.",
       images: ["assets/scrunchie-bundle.jpg"]
+    },
+    "bow-sage": {
+      alt: "Handmade sage-green floral sailor bow",
+      blurb: "A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.",
+      details: "Spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-sage.jpg"]
+    },
+    "bow-gingham": {
+      alt: "Handmade taupe gingham sailor bow",
+      blurb: "Soft taupe gingham, hand-tied into a sweet sailor bow — a cozy little check that pairs with everything from sundresses to storybooks.",
+      details: "Spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-gingham.jpg"]
+    },
+    "bow-sage-gingham": {
+      alt: "Handmade sage-green gingham sailor bow scattered with tiny roses",
+      blurb: "Sage-green gingham strewn with the tiniest pink roses — a garden picnic of a bow, hand-tied with finished edges.",
+      details: "Spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-sage-gingham.jpg"]
+    },
+    "bow-blue-rose": {
+      alt: "Handmade powder-blue sailor bow with pink cottage roses",
+      blurb: "Powder-blue cotton dotted with soft pink roses — a dreamy, storybook bow hand-tied with finished edges.",
+      details: "Spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-blue-rose.jpg"]
+    },
+    "bloom-cream": {
+      alt: "Handmade fabric flower hair clip in a cream ditsy rosebud print",
+      blurb: "A hand-folded fabric bloom in soft cream scattered with tiny rosebuds — a little posy for your hair that never wilts. Each petal shaped by hand.",
+      details: "Fabric flower on a secure clip · spot clean · shape petals by hand.",
+      images: ["assets/bloom-cream.jpg"]
+    },
+    "bloom-pink": {
+      alt: "Handmade fabric flower hair clip in a soft pink rosebud print",
+      blurb: "A hand-folded fabric bloom in the sweetest blush pink — a petal-soft posy for your hair, made to be worn again and again. Each petal shaped by hand.",
+      details: "Fabric flower on a secure clip · spot clean · shape petals by hand.",
+      images: ["assets/bloom-pink.jpg"]
     }
   };
   var SHIPPING = 6.5;
