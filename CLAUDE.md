@@ -58,9 +58,9 @@ emails/               Marketing email copy (not sent by the site; no platform wi
 - **Products** (name / price / cart id): the Shop has 5 cards, all **variant cards** with
   a `<select>` print/style picker + thumbnail gallery (`.card-variant` in index.html, wired by
   `initVariantCards()` in js/main.js):
-    - **Totes** — Fairy Tote $38 (`tote-fairy`), Floral Tote $38 (`tote-floral`),
-      Sunflower Tote $45 (`tote-sunflower`, the puffy woven one), Mushroom Tote $25 (`tote-mushroom`),
-      Mustard Rose Tote $20 (`tote-mustard-floral`), Blue Rose Tote $20 (`tote-blue-rose`, 3-photo gallery).
+    - **Totes** — Sunflower Tote $45 (`tote-sunflower`, the puffy woven one, default),
+      Mushroom Tote $25 (`tote-mushroom`), Mustard Rose Tote $20 (`tote-mustard-floral`),
+      Blue Rose Tote $20 (`tote-blue-rose`, 3-photo gallery).
     - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
     - **Scrunchies** — 7 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
       `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`) + a **Bundle of 3**

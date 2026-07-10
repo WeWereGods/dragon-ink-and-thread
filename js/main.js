@@ -241,8 +241,6 @@
      Shop / checkout mockup (visual only — no payment)
      ========================================================= */
   var PRODUCTS = {
-    "tote-fairy":     { name: "Fairy Tote",     price: 38.0, art: "👜" },
-    "tote-floral":    { name: "Floral Tote",    price: 38.0, art: "👜" },
     "tote-sunflower": { name: "Sunflower Tote", price: 45.0, art: "🌻" },
     "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄" },
     "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
@@ -270,18 +268,6 @@
      photo; any extras become the thumbnail gallery. Prices live in
      PRODUCTS (keep index.html's <option> labels in sync with them). */
   var VARIANTS = {
-    "tote-fairy": {
-      alt: "Handmade tote in a cream watercolor fairy print with a dark floral lining",
-      blurb: "Watercolor fairies drift across soft cream cotton, with a moody dark-floral lining tucked inside — a little secret garden you carry on your shoulder.",
-      details: "10″ × 7″ × 7″ · fully lined with a hidden dark-floral interior · 14″ strap drop · spot clean. Made to order — please allow 5–10 business days.",
-      images: ["assets/tote-fairy.jpg", "assets/tote-fairy-2.jpg", "assets/tote-fairy-inside.jpg", "assets/tote-fairy-detail.jpg"]
-    },
-    "tote-floral": {
-      alt: "Handmade tote in a blue and yellow floral print with butter-yellow trim",
-      blurb: "Sweet blue-and-yellow ditsy florals framed in soft butter-yellow trim. Roomy, fully lined, and endlessly easy to reach for.",
-      details: "10″ × 7″ × 7″ · fully lined with boxed corners · 14″ strap drop · spot clean. Made to order — please allow 5–10 business days.",
-      images: ["assets/tote-floral.jpg", "assets/tote-floral-inside.jpg"]
-    },
     "tote-sunflower": {
       alt: "Handmade puffy woven tote in a sunflower, honeycomb, and bee print",
       blurb: "Our puffy woven tote — hand-cut squares of sunflowers, honeycomb, and tiny bees, quilted into pillowy softness. A true statement piece that hugs whatever you carry.",
