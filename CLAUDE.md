@@ -82,8 +82,9 @@ panel launches it via `.claude/launch.json` (config name `site`).
 - **Social share card** = `assets/og-image.jpg` (1200×630); OG/Twitter meta live in index.html `<head>`.
 
 ## Open TODOs / nice-to-haves
-- **Founder photo** → `assets/about.jpg`, swap into the "Your photo here" placeholder in the
-  About/Our Story section (highest-trust element on the page).
+- **Founder photo** → `assets/about.jpg` is now live in the About/Our Story section, but it's a
+  casual phone selfie used as a stand-in. Swap for a stronger shot (ideally the maker with her
+  work — at the machine, or holding a tote) when one exists. Highest-trust element on the page.
 - **More bow prints** → when photos of other bow prints arrive, convert the Sage Bow plain card
   into a `.card-variant` picker like the others (all bow prints priced $10).
 - **Orange Kitty scrunchie photo** is still the old 320×240 (soft on retina). All other
