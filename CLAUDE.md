@@ -29,6 +29,7 @@ css/styles.css        Whole theme via CSS custom properties (:root). Teal + pale
 js/main.js            Mobile nav, scroll-reveal, footer year, Join-the-Nest + Contact form
                       submit handlers, and the shop/cart/checkout mockup.
 assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
+emails/               Marketing email copy (not sent by the site; no platform wired up yet).
 ```
 
 ## Key facts / gotchas
@@ -94,7 +95,14 @@ panel launches it via `.claude/launch.json` (config name `site`).
   `AggregateOffer` price ranges. Deferred until the shop is transactional: use `PreOrder` now →
   flip to `InStock` at launch, and add `aggregateRating` once real reviews exist (never fake them).
   Brand-level `Store` JSON-LD already lives in index.html `<head>`.
-- **Email welcome sequence** (2–3 emails) + **Post-Purchase note** packaging insert — drafted
-  copy the owner referenced but not yet in the repo.
+- **Email sending platform (blocker)** — the 3-email Nest welcome sequence is written
+  (`emails/welcome-sequence.md`) but nothing sends it. Web3Forms is a form→email relay, not a
+  list: it drops free-tier submissions after 30 days, and its autoresponder is a paid Pro
+  feature that can only reply to a submission, never broadcast. So there is currently **no way
+  to email the launch discount code to subscribers**. **Buttondown** is the chosen platform
+  (decided 2026-07-10); blocked only on the owner creating the account. Then repoint the two
+  signup forms (`#nestForm`, `#nestFormCheckout`) at Buttondown's embed endpoint — the Contact
+  form stays on Web3Forms — and back-fill existing subscribers out of Gmail.
+- **Post-Purchase note** packaging insert — drafted copy the owner referenced, not yet in repo.
 - Policies are plain-language, **not attorney-reviewed** — worth a Termly/TermsFeed pass before
   taking real payments.
