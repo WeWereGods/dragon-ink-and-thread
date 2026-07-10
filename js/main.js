@@ -131,42 +131,48 @@
   }
 
   /* ---------------------------------------------------------
-     Join the Nest — email signup via Web3Forms, so subscribers
-     land in the shop inbox from any visitor (no mail app needed).
+     Join the Nest — email signup via Buttondown, which owns the
+     mailing list and sends the welcome sequence + the launch code.
+     Posted with fetch so the visitor never leaves the page (the
+     endpoint sends Access-Control-Allow-Origin: *). Its responses
+     are HTML, not JSON, so we go by status: ok = subscribed,
+     400 = bad or duplicate address, 404 = wrong username.
+     The `tag` hidden field marks where the signup came from.
      --------------------------------------------------------- */
+  var NEST_HELP = "Something went wrong — please email dragoninkandthread@gmail.com to join.";
+
   function wireNestForm(form, note) {
     if (!form || !note) return;
     form.addEventListener("submit", function (e) {
       e.preventDefault();
-      var data = new FormData(form);
-      var key = data.get("access_key");
-      if (!key || String(key).indexOf("WEB3FORMS_ACCESS_KEY") === 0) {
-        note.textContent =
-          "Signup isn't set up yet — please email dragoninkandthread@gmail.com to join.";
-        return;
-      }
+      // Honeypot: only a bot fills this in.
+      if (form.querySelector('[name="botcheck"]:checked')) return;
+
+      var email = form.querySelector('[name="email"]');
+      var tag = form.querySelector('[name="tag"]');
+      // Send only the fields Buttondown expects — not the honeypot.
+      var data = new FormData();
+      data.append("email", email ? email.value : "");
+      if (tag && tag.value) data.append("tag", tag.value);
+
       var btn = form.querySelector('button[type="submit"]');
       if (btn) btn.disabled = true;
       note.textContent = "Adding you to the nest…";
-      fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { Accept: "application/json" },
-        body: data
-      })
-        .then(function (r) { return r.json(); })
-        .then(function (json) {
-          if (json.success) {
+      fetch(form.action, { method: "POST", body: data })
+        .then(function (r) {
+          if (r.ok) {
             form.reset();
-            note.textContent = "You're in the nest! 🪺 Thank you — we'll be in touch.";
-          } else {
             note.textContent =
-              (json && json.message) ||
-              "Something went wrong — please email dragoninkandthread@gmail.com to join.";
+              "You're in the nest! 🪺 Check your inbox — there's a welcome note on its way.";
+          } else if (r.status === 400) {
+            note.textContent =
+              "That address didn't take — if you're already in the nest, you're all set.";
+          } else {
+            note.textContent = NEST_HELP;
           }
         })
         .catch(function () {
-          note.textContent =
-            "Something went wrong — please email dragoninkandthread@gmail.com to join.";
+          note.textContent = NEST_HELP;
         })
         .finally(function () {
           if (btn) btn.disabled = false;

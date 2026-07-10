@@ -38,10 +38,18 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   **Enforce HTTPS is ON**. If HTTPS ever breaks, the fix that worked was: Settings → Pages →
   clear the custom domain, Save, wait, re-enter `www.dragoninkandthread.com`, Save.
   Do NOT let Wix "connect the domain to a Wix site" — that hijacks DNS to a parking page.
-- **Email (contact + newsletter)**: both forms POST to **Web3Forms** (static-friendly, no
-  backend). Access key is in the HTML (submit-only, safe to expose). Submissions land in
-  **dragoninkandthread@gmail.com**. Contact subject: "New message from dragoninkandthread.com";
-  signup subject: "New Nest subscriber". Free tier = 250/month. Upgrade path: Mailchimp/Buttondown.
+- **Contact form → Web3Forms** (static-friendly, no backend). Access key is in the HTML
+  (submit-only, safe to expose). Messages land in **dragoninkandthread@gmail.com**, subject
+  "New message from dragoninkandthread.com". Free tier = 250/month.
+- **Newsletter → Buttondown** (since 2026-07-10). Both signup forms (`#nestForm` hero,
+  `#nestFormCheckout`) POST to `buttondown.com/api/emails/embed-subscribe/dragoninkandthread`.
+  Posted via `fetch` so the visitor stays on the page — the endpoint returns
+  `Access-Control-Allow-Origin: *`. Its responses are **HTML, not JSON**, so `wireNestForm()`
+  in js/main.js branches on status (ok = subscribed, 400 = bad/duplicate address, 404 = wrong
+  username). A hidden `tag` field marks the source (`hero` vs `checkout`) so the launch email
+  can treat basket-abandoners differently. Free to 100 subscribers, then ~$9/mo.
+  Buttondown owns the list; Web3Forms never did (it's a relay, and its Pro autoresponder can
+  only reply to a submission, never broadcast).
 - **Checkout = pre-launch Join-the-Nest (no real payments)**: browsing + the basket drawer work,
   but the "Join the Nest to shop first →" button opens a converted checkout view (`#view-checkout`)
   that shows an order-summary preview + an email signup (`#nestFormCheckout`, same Web3Forms
@@ -95,14 +103,12 @@ panel launches it via `.claude/launch.json` (config name `site`).
   `AggregateOffer` price ranges. Deferred until the shop is transactional: use `PreOrder` now →
   flip to `InStock` at launch, and add `aggregateRating` once real reviews exist (never fake them).
   Brand-level `Store` JSON-LD already lives in index.html `<head>`.
-- **Email sending platform (blocker)** — the 3-email Nest welcome sequence is written
-  (`emails/welcome-sequence.md`) but nothing sends it. Web3Forms is a form→email relay, not a
-  list: it drops free-tier submissions after 30 days, and its autoresponder is a paid Pro
-  feature that can only reply to a submission, never broadcast. So there is currently **no way
-  to email the launch discount code to subscribers**. **Buttondown** is the chosen platform
-  (decided 2026-07-10); blocked only on the owner creating the account. Then repoint the two
-  signup forms (`#nestForm`, `#nestFormCheckout`) at Buttondown's embed endpoint — the Contact
-  form stays on Web3Forms — and back-fill existing subscribers out of Gmail.
+- **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
+  are written but not yet set up as an automation in Buttondown, so new subscribers still get
+  silence. Needs doing in the Buttondown dashboard (not in this repo).
+- **Back-fill old subscribers into Buttondown** — anyone who joined before 2026-07-10 exists
+  *only* as a Web3Forms notification in the Gmail inbox (free tier drops submissions after 30
+  days). Export them from Gmail and import to Buttondown, or they never get the launch code.
 - **Post-Purchase note** packaging insert — drafted copy the owner referenced, not yet in repo.
 - Policies are plain-language, **not attorney-reviewed** — worth a Termly/TermsFeed pass before
   taking real payments.
