@@ -109,10 +109,11 @@ panel launches it via `.claude/launch.json` (config name `site`).
 - **Orange Kitty scrunchie photo** is still the old 320×240 (soft on retina). All other
   scrunchie prints + the bundle were upgraded to ~1280px hi-res; swap Orange Kitty when a
   larger shot is available (drop it in and optimize over `assets/scrunchie-orange-kitty.jpg`).
-- **At launch: Product structured data** — add JSON-LD `Product` blocks (per shop card) with
-  `AggregateOffer` price ranges. Deferred until the shop is transactional: use `PreOrder` now →
-  flip to `InStock` at launch, and add `aggregateRating` once real reviews exist (never fake them).
-  Brand-level `Store` JSON-LD already lives in index.html `<head>`.
+- **Product structured data is live** → 5 `Product` JSON-LD blocks (one per shop card) with
+  `AggregateOffer` price ranges sit in index.html `<head>`, alongside the brand-level `Store`
+  block. Prices are **static** there — keep them in sync with the `PRODUCTS` object in js/main.js.
+  AT LAUNCH: flip every `availability` from `schema.org/PreOrder` → `schema.org/InStock`, and add
+  `aggregateRating` only once real reviews exist (never fake them).
 - **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
   are written but not yet set up as an automation in Buttondown, so new subscribers still get
   silence. Needs doing in the Buttondown dashboard (not in this repo).

@@ -60,6 +60,131 @@
   }
   </script>
 
+  <!-- Structured data: one Product per shop card, with an AggregateOffer price range.
+       AT LAUNCH: flip every "availability" from schema.org/PreOrder to schema.org/InStock,
+       and add "aggregateRating" once REAL reviews exist (never fake them). Prices here are
+       static and must stay in sync with the PRODUCTS object in js/main.js. -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Handmade Tote Bags",
+      "description": "Handmade, small-batch tote bags in cottagecore cotton prints — a puffy woven sunflower, woodland mushrooms, and vintage rose florals. Roomy and made to order in San Antonio, Texas.",
+      "category": "Tote Bags",
+      "brand": { "@type": "Brand", "name": "Dragon Ink and Thread" },
+      "image": [
+        "https://www.dragoninkandthread.com/assets/tote-sunflower.jpg",
+        "https://www.dragoninkandthread.com/assets/tote-mushroom.jpg",
+        "https://www.dragoninkandthread.com/assets/tote-mustard-floral.jpg",
+        "https://www.dragoninkandthread.com/assets/tote-blue-rose.jpg"
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "20.00",
+        "highPrice": "45.00",
+        "offerCount": 4,
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.dragoninkandthread.com/#shop",
+        "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Handmade Drink Cozys",
+      "description": "Handmade fabric drink cozys — insulated fleece-lined sleeves for slim cans, cups, and tumblers, in sweet cottagecore prints. Made to order in San Antonio, Texas.",
+      "category": "Drinkware Sleeves",
+      "brand": { "@type": "Brand", "name": "Dragon Ink and Thread" },
+      "image": [
+        "https://www.dragoninkandthread.com/assets/cozy-bee.jpg",
+        "https://www.dragoninkandthread.com/assets/cozy-daisy.jpg"
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "8.00",
+        "highPrice": "8.00",
+        "offerCount": 2,
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.dragoninkandthread.com/#shop",
+        "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Handmade Scrunchies",
+      "description": "Handmade fabric hair scrunchies in soft cottagecore prints, sold singly or as a bundle of three. Gentle on hair and made to order in San Antonio, Texas.",
+      "category": "Hair Accessories",
+      "brand": { "@type": "Brand", "name": "Dragon Ink and Thread" },
+      "image": [
+        "https://www.dragoninkandthread.com/assets/scrunchie-butterfly.jpg",
+        "https://www.dragoninkandthread.com/assets/scrunchie-cherry-blossom.jpg",
+        "https://www.dragoninkandthread.com/assets/scrunchie-wildflower.jpg",
+        "https://www.dragoninkandthread.com/assets/scrunchie-bundle.jpg"
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "4.00",
+        "highPrice": "9.00",
+        "offerCount": 8,
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.dragoninkandthread.com/#shop",
+        "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Handmade Sailor Bows",
+      "description": "Handmade sailor hair bows, hand-tied from cotton with finished edges, in sage floral, gingham, and rose prints. Made to order in San Antonio, Texas.",
+      "category": "Hair Accessories",
+      "brand": { "@type": "Brand", "name": "Dragon Ink and Thread" },
+      "image": [
+        "https://www.dragoninkandthread.com/assets/bow-sage.jpg",
+        "https://www.dragoninkandthread.com/assets/bow-gingham.jpg",
+        "https://www.dragoninkandthread.com/assets/bow-sage-gingham.jpg",
+        "https://www.dragoninkandthread.com/assets/bow-blue-rose.jpg"
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "10.00",
+        "highPrice": "10.00",
+        "offerCount": 4,
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.dragoninkandthread.com/#shop",
+        "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Handmade Fabric Flower Hair Clips",
+      "description": "Handmade fabric flower hair clips, each petal folded by hand, in soft rosebud prints. Made to order in San Antonio, Texas.",
+      "category": "Hair Accessories",
+      "brand": { "@type": "Brand", "name": "Dragon Ink and Thread" },
+      "image": [
+        "https://www.dragoninkandthread.com/assets/bloom-cream.jpg",
+        "https://www.dragoninkandthread.com/assets/bloom-pink.jpg"
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "10.00",
+        "highPrice": "10.00",
+        "offerCount": 2,
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.dragoninkandthread.com/#shop",
+        "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
+      }
+    }
+  ]
+  </script>
+
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
