@@ -60,11 +60,13 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   `initVariantCards()` in js/main.js):
     - **Totes** — Sunflower Tote $45 (`tote-sunflower`, the puffy woven one, default),
       Mushroom Tote $25 (`tote-mushroom`), Mustard Rose Tote $20 (`tote-mustard-floral`),
-      Blue Rose Tote $20 (`tote-blue-rose`, 3-photo gallery).
+      Blue Rose Tote $20 (`tote-blue-rose`, 3-photo gallery), Butterfly Tote $38
+      (`tote-butterfly`, lily-of-the-valley + butterflies, 3-photo gallery), Strawberry Tote $38
+      (`tote-strawberry`, 2-photo gallery — see low-res TODO below).
     - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
-    - **Scrunchies** — 7 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
-      `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`) + a **Bundle of 3**
-      @ $9 (`scrunchie-bundle`, red/cream/navy solids) as the last `<option>`.
+    - **Scrunchies** — 8 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
+      `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`, `-strawberry`) + a
+      **Bundle of 3** @ $9 (`scrunchie-bundle`, red/cream/navy solids) as the last `<option>`.
     - **Bows** $10 each — Sage Bow (`bow-sage`), Gingham Bow (`bow-gingham`, taupe),
       Sage Gingham Bow (`bow-sage-gingham`), Blue Rose Bow (`bow-blue-rose`).
     - **Blooms** $10 each — hand-folded fabric flower **hair clips**: Cream Bloom (`bloom-cream`),
@@ -106,9 +108,13 @@ panel launches it via `.claude/launch.json` (config name `site`).
 - **New-tote specs are placeholder copy** → Mushroom / Mustard Rose / Blue Rose totes use generic
   `details` ("Roomy everyday tote · spot clean…") in `VARIANTS` because real dimensions/lining
   weren't given. Fill in true size + whether lined when known. (Prices set by owner: $25/$20/$20.)
-- **Orange Kitty scrunchie photo** is still the old 320×240 (soft on retina). All other
-  scrunchie prints + the bundle were upgraded to ~1280px hi-res; swap Orange Kitty when a
-  larger shot is available (drop it in and optimize over `assets/scrunchie-orange-kitty.jpg`).
+- **Strawberry Tote photo is low-res** (~533px source, so `assets/tote-strawberry.jpg` is only
+  533×400 — soft on retina). Owner added it knowingly; swap for a hi-res shot when available
+  (drop it in and re-run the optimize pipeline over `tote-strawberry.jpg` + `-inside.jpg`).
+- **Cache-busting on re-used image filenames**: when a photo is swapped but keeps its filename
+  (e.g. `scrunchie-orange-kitty.jpg`, the gingham bows), browsers/CDN serve the stale copy.
+  Bump the `?v=N` query on that image's path in the `VARIANTS` map (orange-kitty + both gingham
+  bows currently use `?v=2`). New filenames don't need this.
 - **Product structured data is live** → 5 `Product` JSON-LD blocks (one per shop card) with
   `AggregateOffer` price ranges sit in index.html `<head>`, alongside the brand-level `Store`
   block. Prices are **static** there — keep them in sync with the `PRODUCTS` object in js/main.js.

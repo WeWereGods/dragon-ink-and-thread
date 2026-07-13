@@ -245,6 +245,8 @@
     "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄" },
     "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Tote",     price: 20.0, art: "🌷" },
+    "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
+    "tote-strawberry":    { name: "Strawberry Tote",    price: 38.0, art: "🍓" },
     "cozy-bee":       { name: "Blue Bee Cozy",  price: 8.0,  art: "🐝" },
     "cozy-daisy":     { name: "Daisy Cozy",     price: 8.0,  art: "🌼" },
     "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 4.0, art: "🦋" },
@@ -254,6 +256,7 @@
     "scrunchie-pink-bumble-bee":{ name: "Pink Bumble Bee Scrunchie", price: 4.0, art: "🐝" },
     "scrunchie-pretty-in-pink": { name: "Pretty in Pink Scrunchie",  price: 4.0, art: "🎀" },
     "scrunchie-wildflower":     { name: "Wildflower Scrunchie",      price: 4.0, art: "🌼" },
+    "scrunchie-strawberry":     { name: "Strawberry Scrunchie",      price: 4.0, art: "🍓" },
     "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 9.0, art: "🎀" },
     "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️" },
     "bow-gingham":      { name: "Gingham Bow",      price: 10.0, art: "🎀" },
@@ -292,6 +295,18 @@
       details: "Roomy everyday tote · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-blue-rose.jpg", "assets/tote-blue-rose-2.jpg", "assets/tote-blue-rose-3.jpg"]
     },
+    "tote-butterfly": {
+      alt: "Handmade cream tote with a lily-of-the-valley and pink butterfly print, lined in white",
+      blurb: "Lily-of-the-valley and soft pink butterflies scattered across warm cream — a spring meadow you can carry. Fully lined, with a handy front pocket.",
+      details: "Roomy lined tote with a front pocket · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-butterfly.jpg", "assets/tote-butterfly-2.jpg", "assets/tote-butterfly-inside.jpg"]
+    },
+    "tote-strawberry": {
+      alt: "Handmade cream tote covered in a red strawberry and green vine print, lined in white",
+      blurb: "Sweet wild strawberries tumbling over cream — a little berry patch of a bag. Fully lined and roomy, made for market days and library hauls.",
+      details: "Roomy lined tote · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-strawberry.jpg", "assets/tote-strawberry-inside.jpg"]
+    },
     "cozy-bee": {
       alt: "Handmade fabric can cozy in dusty blue with bees and dandelions",
       blurb: "A snug, fleece-lined sleeve for slim cans — dusty-blue cotton dotted with bees and dandelions. Keeps drinks cold and hands comfy.",
@@ -326,7 +341,7 @@
       alt: "Handmade scrunchie in a peachy-pink kitten print",
       blurb: "Peachy-pink with the tiniest kittens tucked in — for the cat lovers and daydreamers.",
       details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
-      images: ["assets/scrunchie-orange-kitty.jpg"]
+      images: ["assets/scrunchie-orange-kitty.jpg?v=2"]
     },
     "scrunchie-pink-bumble-bee": {
       alt: "Handmade ribbed blush-pink scrunchie dotted with bees",
@@ -345,6 +360,12 @@
       blurb: "A meadow's worth of tiny wildflowers on cream — our softest little garden.",
       details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
       images: ["assets/scrunchie-wildflower.jpg"]
+    },
+    "scrunchie-strawberry": {
+      alt: "Handmade scrunchie in a red strawberry and green leaf print",
+      blurb: "Ripe little strawberries on leafy green — the sweetest bit of summer for your wrist or your hair.",
+      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-strawberry.jpg"]
     },
     "scrunchie-bundle": {
       alt: "Set of three handmade scrunchies in red, cream, and navy",
