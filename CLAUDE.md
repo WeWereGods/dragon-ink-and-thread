@@ -105,9 +105,9 @@ panel launches it via `.claude/launch.json` (config name `site`).
   1400×1050 (4:3) at quality 82. IMPORTANT: phone JPGs carry **EXIF orientation** tags — the
   pipeline bakes rotation into pixels and strips EXIF (composite onto a fresh Jimp canvas; setting
   `_exif=null` alone does NOT work). Don't drop a raw phone JPG straight into a card and trust it.
-- **New-tote specs are placeholder copy** → Mushroom / Mustard Rose / Blue Rose totes use generic
-  `details` ("Roomy everyday tote · spot clean…") in `VARIANTS` because real dimensions/lining
-  weren't given. Fill in true size + whether lined when known. (Prices set by owner: $25/$20/$20.)
+- **Tote/​bow specs are real now** → owner supplied dimensions (2026-07-13); `VARIANTS` `details`
+  carry size · strap drop · pocket for Sunflower, Mushroom, Mustard Rose, Blue Rose, Butterfly,
+  plus bows (6″ × 7″). STILL PLACEHOLDER: **Strawberry Tote** ("Roomy lined tote…") — no dims given.
 - **Strawberry Tote photo is low-res** (~533px source, so `assets/tote-strawberry.jpg` is only
   533×400 — soft on retina). Owner added it knowingly; swap for a hi-res shot when available
   (drop it in and re-run the optimize pipeline over `tote-strawberry.jpg` + `-inside.jpg`).

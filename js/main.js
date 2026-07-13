@@ -274,31 +274,31 @@
     "tote-sunflower": {
       alt: "Handmade puffy woven tote in a sunflower, honeycomb, and bee print",
       blurb: "Our puffy woven tote — hand-cut squares of sunflowers, honeycomb, and tiny bees, quilted into pillowy softness. A true statement piece that hugs whatever you carry.",
-      details: "Puffy hand-woven panels · roomy slouch shape · single shoulder strap · spot clean, reshape by hand. Made to order — please allow 7–12 business days.",
+      details: "12″ × 12″ · 20″ strap drop · puffy hand-woven panels · roomy slouch shape · spot clean, reshape by hand. Made to order — please allow 7–12 business days.",
       images: ["assets/tote-sunflower.jpg", "assets/tote-sunflower-detail.jpg"]
     },
     "tote-mushroom": {
       alt: "Handmade tote in an olive-green woodland mushroom print",
       blurb: "Little red-capped mushrooms scattered across olive-green cotton — a walk through the forest floor, tucked under your arm. Made for foragers, readers, and cottage dreamers.",
-      details: "Roomy everyday tote · spot clean. Made to order — please allow 5–10 business days.",
+      details: "15″ × 14″ · 12″ strap drop · front pocket 7″ × 6″ · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-mushroom.jpg"]
     },
     "tote-mustard-floral": {
       alt: "Handmade tote in a golden mustard vintage rose floral print",
       blurb: "Dusty roses climbing over warm mustard-gold — a little vintage, a little sun-faded, endlessly cozy. The everyday tote with a storybook heart.",
-      details: "Roomy everyday tote · spot clean. Made to order — please allow 5–10 business days.",
+      details: "10″ × 12″ · 9″ strap drop · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-mustard-floral.jpg"]
     },
     "tote-blue-rose": {
       alt: "Handmade tote in a pale blue print scattered with tiny pink roses",
       blurb: "Tiny pink roses drifting over the softest powder blue — sweet, simple, and made to carry everywhere. A gentle everyday companion.",
-      details: "Roomy everyday tote · spot clean. Made to order — please allow 5–10 business days.",
+      details: "8″ × 4″ · 6″ strap drop · fully lined · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-blue-rose.jpg", "assets/tote-blue-rose-2.jpg", "assets/tote-blue-rose-3.jpg"]
     },
     "tote-butterfly": {
       alt: "Handmade cream tote with a lily-of-the-valley and pink butterfly print, lined in white",
       blurb: "Lily-of-the-valley and soft pink butterflies scattered across warm cream — a spring meadow you can carry. Fully lined, with a handy front pocket.",
-      details: "Roomy lined tote with a front pocket · spot clean. Made to order — please allow 5–10 business days.",
+      details: "7″ × 6″ × 12″ · 11″ strap drop · front pocket 5″ × 9″ · fully lined · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-butterfly.jpg", "assets/tote-butterfly-2.jpg", "assets/tote-butterfly-inside.jpg"]
     },
     "tote-strawberry": {
@@ -376,25 +376,25 @@
     "bow-sage": {
       alt: "Handmade sage-green floral sailor bow",
       blurb: "A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.",
-      details: "Spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-sage.jpg"]
     },
     "bow-gingham": {
       alt: "Handmade taupe gingham sailor bow",
       blurb: "Soft taupe gingham, hand-tied into a sweet sailor bow — a cozy little check that pairs with everything from sundresses to storybooks.",
-      details: "Spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-gingham.jpg?v=2"]
     },
     "bow-sage-gingham": {
       alt: "Handmade sage-green gingham sailor bow scattered with tiny roses",
       blurb: "Sage-green gingham strewn with the tiniest pink roses — a garden picnic of a bow, hand-tied with finished edges.",
-      details: "Spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-sage-gingham.jpg?v=2"]
     },
     "bow-blue-rose": {
       alt: "Handmade powder-blue sailor bow with pink cottage roses",
       blurb: "Powder-blue cotton dotted with soft pink roses — a dreamy, storybook bow hand-tied with finished edges.",
-      details: "Spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-blue-rose.jpg"]
     },
     "bloom-cream": {
