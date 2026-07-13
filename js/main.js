@@ -244,7 +244,7 @@
     "tote-sunflower": { name: "Sunflower Tote", price: 45.0, art: "🌻" },
     "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄" },
     "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
-    "tote-blue-rose":     { name: "Blue Rose Tote",     price: 20.0, art: "🌷" },
+    "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
     "tote-strawberry":    { name: "Strawberry Tote",    price: 38.0, art: "🍓" },
     "cozy-bee":       { name: "Blue Bee Cozy",  price: 8.0,  art: "🐝" },
@@ -290,9 +290,9 @@
       images: ["assets/tote-mustard-floral.jpg"]
     },
     "tote-blue-rose": {
-      alt: "Handmade tote in a pale blue print scattered with tiny pink roses",
-      blurb: "Tiny pink roses drifting over the softest powder blue — sweet, simple, and made to carry everywhere. A gentle everyday companion.",
-      details: "8″ × 4″ · 6″ strap drop · fully lined · spot clean. Made to order — please allow 5–10 business days.",
+      alt: "Handmade mini tote in a pale blue print scattered with tiny pink roses",
+      blurb: "Tiny pink roses drifting over the softest powder blue — a sweet little mini tote, just right for your small everyday essentials.",
+      details: "Mini tote · 8″ × 4″ · 6″ strap drop · fully lined · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-blue-rose.jpg", "assets/tote-blue-rose-2.jpg", "assets/tote-blue-rose-3.jpg"]
     },
     "tote-butterfly": {

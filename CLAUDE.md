@@ -60,7 +60,7 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   `initVariantCards()` in js/main.js):
     - **Totes** — Sunflower Tote $45 (`tote-sunflower`, the puffy woven one, default),
       Mushroom Tote $25 (`tote-mushroom`), Mustard Rose Tote $20 (`tote-mustard-floral`),
-      Blue Rose Tote $20 (`tote-blue-rose`, 3-photo gallery), Butterfly Tote $38
+      Blue Rose Mini Tote $20 (`tote-blue-rose`, small 8×4 bag, 3-photo gallery), Butterfly Tote $38
       (`tote-butterfly`, lily-of-the-valley + butterflies, 3-photo gallery), Strawberry Tote $38
       (`tote-strawberry`, 2-photo gallery — see low-res TODO below).
     - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
