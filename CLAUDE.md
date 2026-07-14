@@ -2,7 +2,7 @@
 
 Marketing / pre-launch site for **Dragon Ink and Thread**, a veteran-owned, small-batch
 handmade sewn-goods shop in **San Antonio, Texas** (totes, scrunchies, bows). Opening
-**late August**. Brand voice: cozy cottagecore whimsy for book lovers and dreamers; the
+**Saturday, August 15, 2026**. Brand voice: cozy cottagecore whimsy for book lovers and dreamers; the
 audience is invited to "join the Nest."
 
 ## Tech stack

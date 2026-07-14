@@ -56,12 +56,12 @@
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
   /* ---------------------------------------------------------
-     Launch countdown — ticks down to opening day (Aug 28, 2026,
+     Launch countdown — ticks down to opening day (Aug 15, 2026,
      9am Central). To change the date, edit LAUNCH below.
      --------------------------------------------------------- */
   var countdownClock = document.getElementById("countdownClock");
   if (countdownClock) {
-    var LAUNCH = new Date("2026-08-28T09:00:00-05:00").getTime();
+    var LAUNCH = new Date("2026-08-15T09:00:00-05:00").getTime();
     var countdownInterval = null;
     var tickCountdown = function () {
       var diff = LAUNCH - Date.now();

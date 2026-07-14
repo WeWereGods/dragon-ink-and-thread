@@ -9,7 +9,7 @@ unhurried, book-lover warmth. First person — these come from Ayla, not from a 
 Email 1 says it's locked in; the actual code goes out in the launch email. Don't invent
 a code here — it has to match whatever the shop honors on day one.
 
-**Before sending, check:** the launch date below says "late August." If that slips,
+**Before sending, check:** the launch date below says "August 15." If that slips,
 fix it here *and* in `index.html` (hero badge + FAQ) so the two never disagree.
 
 ---
@@ -27,7 +27,7 @@ machines running overnight. Just me, good fabric, and more time than is strictly
 
 Two things to know:
 
-**Your 10% off is locked in.** When the shop opens in late August, you'll get the code
+**Your 10% off is locked in.** When the shop opens August 15, you'll get the code
 before anyone else — and you'll get through the door first.
 
 **I won't crowd your inbox.** I'll only write when something lovely is ready. That's the
@@ -100,7 +100,7 @@ Every piece is handmade to order, so nothing exists in a pile somewhere waiting.
 made once it's yours. That's slower — five to ten business days before a piece ships — and
 I think it's worth it.
 
-**The shop opens late August.** You'll get your 10% code and first access before it goes
+**The shop opens August 15.** You'll get your 10% code and first access before it goes
 public. Nothing to do between now and then except wait with me.
 
 → [Browse the collection](https://www.dragoninkandthread.com/#shop)
