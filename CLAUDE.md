@@ -26,8 +26,9 @@ css/styles.css        Whole theme via CSS custom properties (:root). Teal + pale
                       panels so the wallpaper reads through softly while text stays legible;
                       the hero veil is lighter so the pattern shows more there.
                       NOTE: CSS url() is relative to css/, so asset paths need `../assets/`.
-js/main.js            Mobile nav, scroll-reveal, footer year, Join-the-Nest + Contact form
-                      submit handlers, and the shop/cart/checkout mockup.
+js/main.js            Mobile nav, scroll-reveal, footer year, countdown, Join-the-Nest + Contact
+                      form submit handlers, and the shop (per-item Stripe checkout: PRODUCTS,
+                      VARIANTS, LINKS + the variant-card picker).
 assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
 emails/               Marketing email copy (not sent by the site; no platform wired up yet).
 ```
@@ -50,11 +51,16 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   can treat basket-abandoners differently. Free to 100 subscribers, then ~$9/mo.
   Buttondown owns the list; Web3Forms never did (it's a relay, and its Pro autoresponder can
   only reply to a submission, never broadcast).
-- **Checkout = pre-launch Join-the-Nest (no real payments)**: browsing + the basket drawer work,
-  but the "Join the Nest to shop first →" button opens a converted checkout view (`#view-checkout`)
-  that shows an order-summary preview + an email signup (`#nestFormCheckout`, same Web3Forms
-  handler as the hero) instead of a fake payment form. There is no fake card/confirmation anymore.
-  For real orders after launch, use Stripe Payment Links or move to Shopify / serverless functions.
+- **Checkout = live Stripe Payment Links, one per item (wired 2026-07-15)**: there is **no basket**.
+  Each variant card's Buy button opens that item's hosted Stripe checkout in a new tab. The mapping
+  `id → URL` lives in the `LINKS` object in js/main.js (verified against the live Stripe account;
+  each link has $6.50 shipping, US address, NEST10 accepted). **Buying is gated until launch**: until
+  the countdown reaches `LAUNCH`, buttons read "Opens August 15" and are `disabled`; at launch the
+  countdown fires a `shop:open` event that flips them to "Buy now →" live. An id **absent from
+  `LINKS` is sold out** and its button reads "Coming soon" (currently tote-strawberry, cozy-bee,
+  cozy-daisy — the hidden/out-of-stock pieces). The old cart drawer, scrim, `#cartOpenBtn`, and the
+  `#shop-flow` Join-the-Nest mockup checkout were removed. To re-open a sold-out item, add its live
+  Payment Link back to `LINKS`.
 - **Products** (name / price / cart id): the Shop has 5 cards, all **variant cards** with
   a `<select>` print/style picker + thumbnail gallery (`.card-variant` in index.html, wired by
   `initVariantCards()` in js/main.js):
@@ -66,7 +72,9 @@ emails/               Marketing email copy (not sent by the site; no platform wi
     - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
     - **Scrunchies** — 8 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
       `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`, `-strawberry`) + a
-      **Bundle of 3** @ $9 (`scrunchie-bundle`, red/cream/navy solids) as the last `<option>`.
+      **Bundle of 3** @ $9 (`scrunchie-bundle`, red/cream/navy solids), plus **Build Your Own Bundle**
+      @ $9 (`scrunchie-byo-bundle`, pick any 3 prints — the Stripe link has 3 print dropdowns) as the
+      last two `<option>`s.
     - **Bows** $10 each — Sage Bow (`bow-sage`), Gingham Bow (`bow-gingham`, taupe),
       Sage Gingham Bow (`bow-sage-gingham`), Blue Rose Bow (`bow-blue-rose`).
     - **Blooms** $10 each — hand-folded fabric flower **hair clips**: Cream Bloom (`bloom-cream`),
