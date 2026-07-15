@@ -47,34 +47,37 @@ Dragon Ink and Thread · Handmade in San Antonio, Texas
 
 ## Email 2 — The story (sends ~3 days after Email 1)
 
-**Subject:** Every great adventure begins with a single chapter
+**Subject:** How the Nest really began
 **Preheader:** Mine started somewhere I didn't expect.
 
 Hi again,
 
-I promised you the story, so here it is.
+I promised you the story — so here's the honest version.
 
-Dragon Ink and Thread didn't start with a business plan. It started after I became a
-mother, in the middle of postpartum depression, when I was searching for something that
-felt like *me* again. I needed somewhere to slow down and work with my hands — to make one
-beautiful thing and know I'd made it.
+Dragon Ink and Thread didn't begin with a business plan. It began after I became a mom, in
+the middle of postpartum depression — a season much harder than I expected. I went looking
+for something that still felt like *me*: a quiet corner of the day that was mine, where I
+could work with my hands and make one beautiful thing from start to finish.
 
-The hobby became a passion. The passion became this.
+So I started sewing. It was slow, and imperfect, and the most grounding thing I'd done in a
+long while. The hobby became a passion. The passion became this.
 
-Books got me through, the way they always have. From the first time I opened *Twilight* to
-getting lost in *Throne of Glass*, they reminded me that ordinary moments can hold
-adventure, comfort, and hope. That's what I'm trying to put into everything I sew — the
-feeling of a chapter you don't want to end.
+Books were the other thing that carried me, the way they always have. From the first time I
+opened *Twilight* to getting lost in *Throne of Glass*, stories reminded me that ordinary
+days can still hold adventure, comfort, and a little magic. That's the feeling I try to sew
+into everything — the warmth of a chapter you're not quite ready to close.
 
-It's why nothing here is rushed. Everything is made in small batches, made to order. When a
-fabric sells out, that print retires and becomes part of the shop's history, making room for
-the next chapter.
+It's why nothing here is mass-produced. Everything is made by hand in small batches, and when
+a fabric sells out, that print retires and becomes part of the shop's history — making room
+for the next chapter.
 
-You don't have to leave wonder behind just because you've grown up.
+You don't have to leave wonder behind just because you grew up.
 
-→ [Read the whole story](https://www.dragoninkandthread.com/#about)
+More soon — next I'll show you what's actually in the shop.
 
 — Ayla
+
+→ [Read the rest of the story](https://www.dragoninkandthread.com/#about)
 
 ---
 
