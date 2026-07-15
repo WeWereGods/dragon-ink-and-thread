@@ -22,7 +22,7 @@ fix it here *and* in `index.html` (hero badge + FAQ) so the two never disagree.
 Hi — I'm Ayla.
 
 I'm so glad you're here. Dragon Ink and Thread is a small, handmade thing: totes, bows,
-scrunchies, and cozies, sewn in small batches in San Antonio, Texas. No warehouse, no
+scrunchies, and little fabric blooms, sewn in small batches in San Antonio, Texas. No warehouse, no
 machines running overnight. Just me, good fabric, and more time than is strictly sensible.
 
 Two things to know:
@@ -87,18 +87,18 @@ Hi,
 
 Here's what I've been sewing.
 
-**Totes** — roomy enough for a hardback and everything else you're carrying. The Fairy tote
-is a cream watercolor print with a dark floral lining; there's a Floral one too, and a puffy
-woven Sunflower.
+**Totes** — roomy enough for a hardback and everything else you're carrying. There's a
+Butterfly tote in lily-of-the-valley and pink butterflies, a puffy woven Sunflower, woodland
+Mushrooms, and soft rose florals in mustard and powder blue.
 
-**Scrunchies** — seven prints, from cherry blossom to a very serious orange kitty. Gentle on
+**Scrunchies** — eight prints, from cherry blossom to a very serious orange kitty. Gentle on
 your hair, sturdier than they look. There's a bundle if you can't choose (I can't either).
 
-**Bows and cozies** — small things that make an ordinary day feel considered.
+**Bows and blooms** — hand-tied sailor bows and little fabric-flower hair clips. Small things
+that make an ordinary day feel considered.
 
-Every piece is handmade to order, so nothing exists in a pile somewhere waiting. It gets
-made once it's yours. That's slower — five to ten business days before a piece ships — and
-I think it's worth it.
+Everything is made by hand in small batches, so quantities are limited — when a print sells
+out, it's gone until I sew more. Grab what speaks to you before it retires.
 
 **The shop opens August 15.** You'll get your 10% code and first access before it goes
 public. Nothing to do between now and then except wait with me.
