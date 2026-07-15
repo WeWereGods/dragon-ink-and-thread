@@ -128,6 +128,17 @@ h3 { font-size: 1.4rem; }
 }
 .btn-ghost:hover { background: var(--rose-soft); border-color: var(--clay); }
 
+/* Disabled buy buttons — used before launch ("Opens August 15") and
+   for sold-out items ("Coming soon"). Muted, with no hover lift. */
+.btn:disabled,
+.btn[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+  box-shadow: none;
+}
+.btn:disabled:hover { transform: none; background: var(--clay-deep); }
+.card-add.is-soldout:disabled:hover { background: var(--clay-deep); }
+
 /* Stitched divider ----------------------------------------- */
 /* A run of thread stitches that dip into the "fabric" at each end:
    the color ramps up from transparent, holds, then ramps back down,

@@ -213,19 +213,6 @@
           </ul>
         </nav>
 
-        <button class="cart-btn" id="cartOpenBtn" aria-haspopup="dialog" aria-label="Open basket">
-          <svg class="basket-icon" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"
-               fill="none" stroke="var(--clay-deep)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M7.6 10 A4.6 4.6 0 0 1 16.4 10" />
-            <path d="M4 10 H20 L17.7 20.3 Q17.5 21 16.8 21 H7.2 Q6.5 21 6.3 20.3 Z" fill="var(--honey)" fill-opacity="0.85" />
-            <path d="M3 10 H21" />
-            <path d="M8 10.6 L7.7 20 M12 10.6 V21 M16 10.6 L16.3 20" stroke-width="1.1" stroke-opacity="0.6" />
-            <path d="M5.3 14 H18.7 M5.9 17.4 H18.1" stroke-width="1.1" stroke-opacity="0.6" />
-          </svg>
-          <span class="cart-label">Basket</span>
-          <span class="cart-count" id="cartCount">0</span>
-        </button>
-
         <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
           <span class="nav-toggle-bar"></span>
           <span class="nav-toggle-bar"></span>
@@ -281,7 +268,7 @@
             </div>
             <p class="js-variant-blurb">Our puffy woven tote — hand-cut squares of sunflowers, honeycomb, and tiny bees, quilted into pillowy softness. A true statement piece that hugs whatever you carry.</p>
             <p class="card-details js-variant-details">Puffy hand-woven panels · roomy slouch shape · single shoulder strap · spot clean, reshape by hand. Made to order — please allow 7–12 business days.</p>
-            <button class="btn btn-primary card-add" data-id="tote-sunflower">Add to basket</button>
+            <button class="btn btn-primary card-add" data-id="tote-sunflower" disabled>Opens August 15 🪺</button>
           </article>
 
           <article class="card card-variant" data-card="cozys">
@@ -303,7 +290,7 @@
             </div>
             <p class="js-variant-blurb">A snug, fleece-lined sleeve for slim cans — dusty-blue cotton dotted with bees and dandelions. Keeps drinks cold and hands comfy.</p>
             <p class="card-details js-variant-details">Fits standard slim cans (12 oz) · soft fleece lining · spot clean, lay flat to dry.</p>
-            <button class="btn btn-primary card-add" data-id="cozy-bee">Add to basket</button>
+            <button class="btn btn-primary card-add is-soldout" data-id="cozy-bee" disabled>Coming soon</button>
           </article>
 
           <article class="card card-variant" data-card="scrunchies">
@@ -328,11 +315,12 @@
                 <option value="scrunchie-wildflower">Wildflower</option>
                 <option value="scrunchie-strawberry">Strawberry</option>
                 <option value="scrunchie-bundle">Bundle of 3 · red · cream · navy</option>
+                <option value="scrunchie-byo-bundle">Build Your Own Bundle · pick any 3</option>
               </select>
             </div>
             <p class="js-variant-blurb">Delicate butterflies scattered across soft cream — a little flutter of whimsy for your wrist or your hair.</p>
             <p class="card-details js-variant-details">One size · soft &amp; springy, gentle on hair · hand wash, lay flat to dry.</p>
-            <button class="btn btn-primary card-add" data-id="scrunchie-butterfly">Add to basket</button>
+            <button class="btn btn-primary card-add" data-id="scrunchie-butterfly" disabled>Opens August 15 🪺</button>
           </article>
 
           <article class="card card-variant" data-card="bows">
@@ -356,7 +344,7 @@
             </div>
             <p class="js-variant-blurb">A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.</p>
             <p class="card-details js-variant-details">Spot clean only · store away from direct sun to keep color true.</p>
-            <button class="btn btn-primary card-add" data-id="bow-sage">Add to basket</button>
+            <button class="btn btn-primary card-add" data-id="bow-sage" disabled>Opens August 15 🪺</button>
           </article>
 
           <article class="card card-variant" data-card="blooms">
@@ -378,11 +366,11 @@
             </div>
             <p class="js-variant-blurb">A hand-folded fabric bloom in soft cream scattered with tiny rosebuds — a little posy for your hair that never wilts. Each petal shaped by hand.</p>
             <p class="card-details js-variant-details">Fabric flower on a secure clip · spot clean · shape petals by hand.</p>
-            <button class="btn btn-primary card-add" data-id="bloom-cream">Add to basket</button>
+            <button class="btn btn-primary card-add" data-id="bloom-cream" disabled>Opens August 15 🪺</button>
           </article>
         </div>
 
-        <p class="product-note">✨ Opening August 15 — you're welcome to explore the basket &amp; checkout, but no orders are taken yet. <a href="#home">Join the Nest</a> for 10% off at launch.</p>
+        <p class="product-note">✨ Each piece is handmade in a small batch, so most are one of a kind — when it's gone, it's gone. The shop opens <strong>Saturday, August 15</strong>; <a href="#home">join the Nest</a> for 10% off your first order &amp; first dibs on restocks.</p>
       </div>
     </section>
 
@@ -581,61 +569,6 @@
       </div>
     </section>
   </main>
-
-  <!-- ============================================================
-       Pre-launch "checkout" (shop opens Aug 28). No real payments:
-       clicking Checkout in the basket opens a Join-the-Nest signup with
-       an order-summary preview, turning buying intent into subscribers.
-       For real orders later, use Stripe Payment Links, or move to
-       Shopify / a host with serverless functions.
-       ============================================================ -->
-  <div id="shop-flow" hidden>
-    <div class="container">
-      <!-- Pre-launch "checkout": the shop isn't open yet, so this turns
-           basket intent into a Join-the-Nest signup instead of a fake order. -->
-      <section class="view" id="view-checkout" aria-label="Join the Nest">
-        <h2 class="flow-title">You're a little early 🪺</h2>
-        <p class="demo-note">🧵 Our shop opens <strong>Saturday, August 15</strong> — no orders just yet. Join the Nest and you'll be first to shop, with <strong>10% off</strong> at launch.</p>
-        <div class="checkout-grid">
-          <div>
-            <h3 class="field-head">Be first in line</h3>
-            <p style="margin: 0 0 0.9rem; color: var(--ink-soft);">Pop in your email and we'll let you know the moment the shop opens — the pieces in your basket will be waiting.</p>
-            <form class="nest-form" id="nestFormCheckout" action="https://buttondown.com/api/emails/embed-subscribe/dragoninkandthread" method="POST" aria-label="Join the Nest — email signup">
-              <input type="hidden" name="tag" value="checkout" />
-              <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-              <label class="sr-only" for="nestEmailCheckout">Your email address</label>
-              <input type="email" id="nestEmailCheckout" name="email" placeholder="you@example.com" required autocomplete="email" />
-              <button type="submit" class="btn btn-primary">Join the Nest 🪺</button>
-            </form>
-            <p class="nest-note" id="nestNoteCheckout">We'll only write when something lovely is ready.</p>
-            <button class="btn btn-ghost" id="backToShopBtn" style="margin-top:1rem;">← Keep browsing</button>
-          </div>
-
-          <aside class="summary-card">
-            <h3 class="field-head">Your basket</h3>
-            <div id="checkoutLines"></div>
-            <div class="row-between total"><span>Subtotal</span><span id="sumSubtotal">$0.00</span></div>
-            <p class="pay-fine">A preview of what you'll be able to order at launch — nothing is charged.</p>
-          </aside>
-        </div>
-      </section>
-    </div>
-  </div>
-
-  <!-- Cart drawer -->
-  <div class="scrim" id="scrim" hidden></div>
-  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Shopping basket" hidden>
-    <div class="drawer-head">
-      <h3>Your basket</h3>
-      <button class="drawer-close" id="drawerCloseBtn" aria-label="Close basket">&times;</button>
-    </div>
-    <p class="demo-note demo-note-sm">🧵 Preview basket — the shop opens Aug 28.</p>
-    <div id="drawerLines" class="drawer-lines"></div>
-    <div class="cart-summary">
-      <div class="row-between total"><span>Subtotal</span><span id="drawerSubtotal">$0.00</span></div>
-      <button class="btn btn-primary btn-block" id="checkoutBtn" style="margin-top:0.9rem;">Join the Nest to shop first →</button>
-    </div>
-  </aside>
 
   <!-- Image lightbox — double-click a product photo to view it larger -->
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged product photo" hidden>

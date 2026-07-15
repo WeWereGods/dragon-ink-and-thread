@@ -1,6 +1,6 @@
 /* Dragon Ink and Thread — small progressive-enhancement scripts.
-   The site works fully without JS; this just adds niceties, plus a
-   visual-only shop/checkout mockup (no real payment is processed). */
+   The site works fully without JS; this just adds niceties, plus the
+   shop (each item links straight to its own Stripe checkout). */
 (function () {
   "use strict";
 
@@ -27,6 +27,10 @@
       if (e.target.tagName === "A") closeNav();
     });
   }
+  // Escape closes the mobile nav.
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeNav();
+  });
 
   /* ---------------------------------------------------------
      Scroll reveal
@@ -57,7 +61,9 @@
 
   /* ---------------------------------------------------------
      Launch countdown — ticks down to opening day (Aug 15, 2026,
-     9am Central). To change the date, edit LAUNCH below.
+     9am Central). To change the date, edit LAUNCH below. When it
+     reaches zero it fires a "shop:open" event so the Buy buttons
+     switch themselves on without a page reload.
      --------------------------------------------------------- */
   var countdownClock = document.getElementById("countdownClock");
   if (countdownClock) {
@@ -69,6 +75,7 @@
         countdownClock.textContent = "We're open! 🎉";
         countdownClock.removeAttribute("aria-hidden");
         if (countdownInterval) window.clearInterval(countdownInterval);
+        document.dispatchEvent(new CustomEvent("shop:open"));
         return;
       }
       var s = Math.floor(diff / 1000);
@@ -179,7 +186,7 @@
         });
     });
   }
-  // Hero signup + the checkout "join the Nest" signup share this handler.
+  // Hero signup (the checkout "join the Nest" signup was retired with the basket).
   wireNestForm(document.getElementById("nestForm"), document.getElementById("nestNote"));
   wireNestForm(document.getElementById("nestFormCheckout"), document.getElementById("nestNoteCheckout"));
 
@@ -238,10 +245,15 @@
   }
 
   /* =========================================================
-     Shop / checkout mockup (visual only — no payment)
+     Shop — each variant links straight to its own Stripe
+     checkout. Stripe Payment Links are one item per link, so
+     there's no basket: the Buy button opens that item's hosted
+     checkout in a new tab. Buying is gated until launch
+     (Aug 15) — before then the button reads "Opens August 15".
+     Items with no link are sold out and read "Coming soon".
      ========================================================= */
   var PRODUCTS = {
-    "tote-sunflower": { name: "Sunflower Tote", price: 45.0, art: "🌻" },
+    "tote-sunflower":     { name: "Sunflower Tote",     price: 45.0, art: "🌻" },
     "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄" },
     "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
@@ -258,6 +270,7 @@
     "scrunchie-wildflower":     { name: "Wildflower Scrunchie",      price: 4.0, art: "🌼" },
     "scrunchie-strawberry":     { name: "Strawberry Scrunchie",      price: 4.0, art: "🍓" },
     "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 9.0, art: "🎀" },
+    "scrunchie-byo-bundle":     { name: "Build Your Own Bundle",     price: 9.0, art: "🎀" },
     "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️" },
     "bow-gingham":      { name: "Gingham Bow",      price: 10.0, art: "🎀" },
     "bow-sage-gingham": { name: "Sage Gingham Bow", price: 10.0, art: "🎀" },
@@ -373,6 +386,12 @@
       details: "Set of 3 (red · cream · navy) · one size each · hand wash, lay flat to dry.",
       images: ["assets/scrunchie-bundle.jpg"]
     },
+    "scrunchie-byo-bundle": {
+      alt: "Three handmade scrunchies in a build-your-own bundle",
+      blurb: "Can't pick just one print? Choose any three of our scrunchie prints and we'll bundle them together — same sweet trio price, your choice of prints, one shipping.",
+      details: "Pick your 3 prints at checkout · one size each · hand wash, lay flat to dry.",
+      images: ["assets/scrunchie-bundle.jpg"]
+    },
     "bow-sage": {
       alt: "Handmade sage-green floral sailor bow",
       blurb: "A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.",
@@ -410,181 +429,44 @@
       images: ["assets/bloom-pink.jpg"]
     }
   };
-  var SHIPPING = 6.5;
-  var TAX_RATE = 0.0825; // ~Texas estimate, for the mockup summary
 
-  var cart = {}; // id -> qty
+  /* Live Stripe Payment Links — verified against the Stripe account
+     on 2026-07-15. Each opens that single item's hosted checkout
+     ($6.50 shipping, US address, NEST10 accepted). An id that's
+     missing here is sold out / hidden and its card shows "Coming
+     soon": tote-strawberry, cozy-bee and cozy-daisy are out until
+     restocked. To re-open one, add its link back here. */
+  var LINKS = {
+    "tote-sunflower":      "https://buy.stripe.com/28E28rbhEfDb9xoetHfjG05",
+    "tote-mushroom":       "https://buy.stripe.com/5kQcN53PcgHf5h8clzfjG06",
+    "tote-mustard-floral": "https://buy.stripe.com/00w3cvetQ1MlbFw99nfjG07",
+    "tote-blue-rose":      "https://buy.stripe.com/aFa5kD99w9eN9xo4T7fjG08",
+    "tote-butterfly":      "https://buy.stripe.com/dRmeVd5XkgHfcJA2KZfjG09",
+    "scrunchie-butterfly":      "https://buy.stripe.com/3cIaEX71o9eNdNE4T7fjG0f",
+    "scrunchie-cherry-blossom": "https://buy.stripe.com/4gM5kDfxU8aJ3902KZfjG0g",
+    "scrunchie-cherry":         "https://buy.stripe.com/cNi6oHfxUfDb5h8etHfjG0h",
+    "scrunchie-orange-kitty":   "https://buy.stripe.com/3cI4gz71o4Yx9xogBPfjG0i",
+    "scrunchie-pink-bumble-bee":"https://buy.stripe.com/dRm6oHclI3Ut4d4dpDfjG0j",
+    "scrunchie-pretty-in-pink": "https://buy.stripe.com/00wdR9gBY3Ut6lc1GVfjG0k",
+    "scrunchie-wildflower":     "https://buy.stripe.com/eVq7sLetQez710S1GVfjG0l",
+    "scrunchie-strawberry":     "https://buy.stripe.com/dRmdR9clIez724WbhvfjG0m",
+    "scrunchie-bundle":         "https://buy.stripe.com/00waEX1H48aJfVM1GVfjG04",
+    "scrunchie-byo-bundle":     "https://buy.stripe.com/aFaeVd0D00Ih9xo71ffjG0r",
+    "bow-sage":         "https://buy.stripe.com/dRmdR985scqZ7pgclzfjG0b",
+    "bow-gingham":      "https://buy.stripe.com/dRmaEX4Tgez7dNEetHfjG0c",
+    "bow-sage-gingham": "https://buy.stripe.com/cNi7sL3Pc1MldNEbhvfjG0d",
+    "bow-blue-rose":    "https://buy.stripe.com/eVqaEX0D0fDbdNE4T7fjG0e",
+    "bloom-cream":      "https://buy.stripe.com/aFa00jbhEez710S5XbfjG0p",
+    "bloom-pink":       "https://buy.stripe.com/8x2bJ1gBY9eN10S99nfjG0q"
+  };
 
-  var el = function (id) { return document.getElementById(id); };
-  var drawer = el("drawer");
-  var scrim = el("scrim");
-  var mainEl = el("main");
-  var shopFlow = el("shop-flow");
+  var money = function (n) { return "$" + n.toFixed(2); };
 
-  // If the shop markup isn't present, bail out gracefully.
-  if (!drawer || !scrim) return;
-
-  function money(n) { return "$" + n.toFixed(2); }
-
-  function cartCountTotal() {
-    var n = 0;
-    for (var id in cart) { if (cart.hasOwnProperty(id)) n += cart[id]; }
-    return n;
-  }
-  function cartSubtotal() {
-    var s = 0;
-    for (var id in cart) {
-      if (cart.hasOwnProperty(id)) s += PRODUCTS[id].price * cart[id];
-    }
-    return s;
-  }
-  var isEmpty = function () { return cartCountTotal() === 0; };
-
-  /* ----- rendering ----- */
-  function drawerLineHTML(id) {
-    var p = PRODUCTS[id];
-    return (
-      '<div class="cart-line">' +
-        '<div class="cart-line-art" aria-hidden="true">' + p.art + "</div>" +
-        '<div class="meta">' +
-          '<div class="name">' + p.name + "</div>" +
-          '<div class="sub">' + money(p.price) + " each</div>" +
-          '<div class="qty-row">' +
-            '<div class="qty-stepper">' +
-              '<button type="button" data-act="dec" data-id="' + id + '" aria-label="Decrease quantity of ' + p.name + '">&minus;</button>' +
-              "<span>" + cart[id] + "</span>" +
-              '<button type="button" data-act="inc" data-id="' + id + '" aria-label="Increase quantity of ' + p.name + '">+</button>' +
-            "</div>" +
-            '<button type="button" class="line-remove" data-act="remove" data-id="' + id + '" aria-label="Remove ' + p.name + ' from basket">remove</button>' +
-          "</div>" +
-        "</div>" +
-      "</div>"
-    );
-  }
-
-  function summaryLineHTML(id) {
-    var p = PRODUCTS[id];
-    return (
-      '<div class="row-between"><span>' + p.name + " × " + cart[id] + "</span><span>" +
-      money(p.price * cart[id]) + "</span></div>"
-    );
-  }
-
-  function render() {
-    var ids = Object.keys(cart);
-    var count = cartCountTotal();
-    var subtotal = cartSubtotal();
-
-    // header count
-    var countEl = el("cartCount");
-    if (countEl) countEl.textContent = String(count);
-
-    // drawer lines
-    var drawerLines = el("drawerLines");
-    if (drawerLines) {
-      drawerLines.innerHTML = ids.length
-        ? ids.map(drawerLineHTML).join("")
-        : '<p class="cart-empty">Your basket is empty</p>';
-    }
-    var dSub = el("drawerSubtotal");
-    if (dSub) dSub.textContent = money(subtotal);
-    var checkoutBtn = el("checkoutBtn");
-    if (checkoutBtn) checkoutBtn.disabled = isEmpty();
-
-    // checkout summary
-    var checkoutLines = el("checkoutLines");
-    if (checkoutLines) checkoutLines.innerHTML = ids.map(summaryLineHTML).join("");
-    var tax = subtotal * TAX_RATE;
-    var total = subtotal + (ids.length ? SHIPPING : 0) + tax;
-    if (el("sumSubtotal")) el("sumSubtotal").textContent = money(subtotal);
-    if (el("sumShipping")) el("sumShipping").textContent = money(ids.length ? SHIPPING : 0);
-    if (el("sumTax")) el("sumTax").textContent = money(tax);
-    if (el("sumTotal")) el("sumTotal").textContent = money(total);
-    if (el("payAmount")) el("payAmount").textContent = money(total);
-  }
-
-  /* ----- cart ops ----- */
-  function addToCart(id) {
-    if (!PRODUCTS[id]) return;
-    cart[id] = (cart[id] || 0) + 1;
-    render();
-  }
-  function changeQty(id, delta) {
-    if (!cart[id]) return;
-    cart[id] += delta;
-    if (cart[id] <= 0) delete cart[id];
-    render();
-  }
-  function removeItem(id) { delete cart[id]; render(); }
-
-  /* ----- drawer ----- */
-  var lastFocused = null;
-  function drawerFocusable() {
-    return Array.prototype.slice.call(
-      drawer.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')
-    ).filter(function (el) { return el.offsetParent !== null; });
-  }
-  function openDrawer() {
-    lastFocused = document.activeElement;
-    render();
-    scrim.hidden = false;
-    drawer.hidden = false;
-    // allow the browser to apply the un-hidden state before transitioning
-    requestAnimationFrame(function () {
-      scrim.classList.add("is-open");
-      drawer.classList.add("is-open");
-      // move focus into the dialog for keyboard + screen-reader users
-      var closeBtn = el("drawerCloseBtn");
-      if (closeBtn) closeBtn.focus();
-    });
-  }
-  function closeDrawer() {
-    scrim.classList.remove("is-open");
-    drawer.classList.remove("is-open");
-    window.setTimeout(function () {
-      if (!drawer.classList.contains("is-open")) { drawer.hidden = true; scrim.hidden = true; }
-    }, 300);
-    // return focus to whatever opened the drawer
-    if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus();
-    lastFocused = null;
-  }
-  // trap Tab focus inside the open drawer
-  drawer.addEventListener("keydown", function (e) {
-    if (e.key !== "Tab") return;
-    var f = drawerFocusable();
-    if (!f.length) return;
-    var first = f[0], last = f[f.length - 1];
-    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-  });
-
-  /* ----- view switching ----- */
-  function setStepper(activeKey) {
-    var order = ["cart", "checkout", "confirm"];
-    var idx = order.indexOf(activeKey);
-    order.forEach(function (key, i) {
-      var step = document.querySelector('.stepper .step[data-step="' + key + '"]');
-      if (!step) return;
-      step.classList.remove("active", "done");
-      if (i < idx) step.classList.add("done");
-      if (i === idx) step.classList.add("active");
-    });
-  }
-
-  function showBrowse() {
-    if (shopFlow) shopFlow.hidden = true;
-    if (mainEl) mainEl.hidden = false;
-    window.scrollTo(0, 0);
-  }
-  function showFlowView(viewId, stepKey) {
-    if (mainEl) mainEl.hidden = true;
-    if (shopFlow) shopFlow.hidden = false;
-    document.querySelectorAll("#shop-flow .view").forEach(function (v) {
-      v.classList.toggle("is-active", v.id === viewId);
-    });
-    setStepper(stepKey);
-    window.scrollTo(0, 0);
-  }
+  // Shop opens Aug 15, 2026, 9am Central — the same instant as the
+  // countdown. Until then the Buy buttons stay closed.
+  var SHOP_OPENS = new Date("2026-08-15T09:00:00-05:00").getTime();
+  var shopOpen = Date.now() >= SHOP_OPENS;
+  var cardRefreshers = [];
 
   /* ----- product variant cards (print/style picker + gallery) ----- */
   function initVariantCards() {
@@ -603,7 +485,7 @@
       var priceEl = card.querySelector(".js-variant-price");
       var blurbEl = card.querySelector(".js-variant-blurb");
       var detailsEl = card.querySelector(".js-variant-details");
-      var addBtn = card.querySelector(".card-add");
+      var buyBtn = card.querySelector(".card-add");
 
       function showImage(src) {
         img.src = src;
@@ -616,6 +498,29 @@
         }
       }
 
+      // Set the Buy button's label + behaviour for the chosen variant.
+      function updateBuy(id) {
+        if (!buyBtn) return;
+        var link = LINKS[id];
+        buyBtn.classList.remove("is-soldout");
+        if (!link) {
+          // Sold out / hidden until restocked.
+          buyBtn.textContent = "Coming soon";
+          buyBtn.disabled = true;
+          buyBtn.removeAttribute("data-href");
+          buyBtn.classList.add("is-soldout");
+        } else if (!shopOpen) {
+          // Available, but the shop hasn't opened yet.
+          buyBtn.textContent = "Opens August 15 🪺";
+          buyBtn.disabled = true;
+          buyBtn.removeAttribute("data-href");
+        } else {
+          buyBtn.textContent = "Buy now →";
+          buyBtn.disabled = false;
+          buyBtn.setAttribute("data-href", link);
+        }
+      }
+
       function applyVariant(id) {
         var p = PRODUCTS[id], v = VARIANTS[id];
         if (!p || !v) return;
@@ -624,7 +529,6 @@
         if (blurbEl && v.blurb) blurbEl.textContent = v.blurb;
         if (detailsEl && v.details) detailsEl.textContent = v.details;
         img.alt = v.alt || p.name;
-        if (addBtn) addBtn.setAttribute("data-id", id);
         if (thumbs) {
           if (v.images.length > 1) {
             thumbs.innerHTML = v.images.map(function (src) {
@@ -638,6 +542,7 @@
           }
         }
         showImage(v.images[0]);
+        updateBuy(id);
       }
 
       sel.addEventListener("change", function () { applyVariant(sel.value); });
@@ -648,54 +553,25 @@
         });
       }
       applyVariant(sel.value);
+      // Let the launch moment re-run this card so its button opens live.
+      cardRefreshers.push(function () { applyVariant(sel.value); });
     });
   }
   initVariantCards();
 
-  /* ----- wire up events ----- */
+  // Buy buttons open the item's Stripe checkout in a new tab.
   document.querySelectorAll(".card-add").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      addToCart(btn.getAttribute("data-id"));
-      openDrawer();
+      var href = btn.getAttribute("data-href");
+      if (btn.disabled || !href) return;
+      window.open(href, "_blank", "noopener");
     });
   });
 
-  var cartOpenBtn = el("cartOpenBtn");
-  if (cartOpenBtn) cartOpenBtn.addEventListener("click", openDrawer);
-  var drawerCloseBtn = el("drawerCloseBtn");
-  if (drawerCloseBtn) drawerCloseBtn.addEventListener("click", closeDrawer);
-  scrim.addEventListener("click", closeDrawer);
-
-  // qty +/- / remove inside the drawer (event delegation)
-  var drawerLinesEl = el("drawerLines");
-  if (drawerLinesEl) {
-    drawerLinesEl.addEventListener("click", function (e) {
-      var b = e.target.closest("button[data-act]");
-      if (!b) return;
-      var id = b.getAttribute("data-id");
-      var act = b.getAttribute("data-act");
-      if (act === "inc") changeQty(id, 1);
-      else if (act === "dec") changeQty(id, -1);
-      else if (act === "remove") removeItem(id);
-    });
-  }
-
-  var checkoutBtn = el("checkoutBtn");
-  if (checkoutBtn) checkoutBtn.addEventListener("click", function () {
-    if (isEmpty()) return;
-    closeDrawer();
-    render();
-    showFlowView("view-checkout", "checkout");
+  // When the countdown hits zero, switch every Buy button on without a reload.
+  document.addEventListener("shop:open", function () {
+    if (shopOpen) return;
+    shopOpen = true;
+    cardRefreshers.forEach(function (fn) { fn(); });
   });
-  var backToShopBtn = el("backToShopBtn");
-  if (backToShopBtn) backToShopBtn.addEventListener("click", showBrowse);
-
-  // Escape closes the drawer (and mobile nav)
-  document.addEventListener("keydown", function (e) {
-    if (e.key !== "Escape") return;
-    closeNav();
-    if (drawer.classList.contains("is-open")) closeDrawer();
-  });
-
-  render();
 })();
