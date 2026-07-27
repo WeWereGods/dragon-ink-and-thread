@@ -258,8 +258,6 @@
     "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
-    "cozy-bee":       { name: "Blue Bee Cozy",  price: 8.0,  art: "🐝" },
-    "cozy-daisy":     { name: "Daisy Cozy",     price: 8.0,  art: "🌼" },
     "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 4.0, art: "🦋" },
     "scrunchie-cherry-blossom": { name: "Cherry Blossom Scrunchie",  price: 4.0, art: "🌸" },
     "scrunchie-cherry":         { name: "Cherry Scrunchie",          price: 4.0, art: "🍒" },
@@ -273,9 +271,7 @@
     "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️" },
     "bow-gingham":      { name: "Gingham Bow",      price: 10.0, art: "🎀" },
     "bow-sage-gingham": { name: "Sage Gingham Bow", price: 10.0, art: "🎀" },
-    "bow-blue-rose":    { name: "Blue Rose Bow",    price: 10.0, art: "🎀" },
-    "bloom-cream":      { name: "Cream Bloom",      price: 10.0, art: "🌸" },
-    "bloom-pink":       { name: "Pink Bloom",       price: 10.0, art: "🌸" }
+    "bow-blue-rose":    { name: "Blue Rose Bow",    price: 10.0, art: "🎀" }
   };
 
   /* Per-variant photos + copy for the print/style picker cards.
@@ -312,18 +308,6 @@
       blurb: "Lily-of-the-valley and soft pink butterflies scattered across warm cream — a spring meadow you can carry. Fully lined, with a handy front pocket.",
       details: "7″ × 6″ × 12″ · 11″ strap drop · front pocket 5″ × 9″ · fully lined · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-butterfly.jpg", "assets/tote-butterfly-2.jpg", "assets/tote-butterfly-inside.jpg"]
-    },
-    "cozy-bee": {
-      alt: "Handmade fabric can cozy in dusty blue with bees and dandelions",
-      blurb: "A snug, fleece-lined sleeve for slim cans — dusty-blue cotton dotted with bees and dandelions. Keeps drinks cold and hands comfy.",
-      details: "Fits standard slim cans (12 oz) · soft fleece lining · spot clean, lay flat to dry.",
-      images: ["assets/cozy-bee.jpg"]
-    },
-    "cozy-daisy": {
-      alt: "Handmade fabric cup cozy in buttercream daisies",
-      blurb: "A cozy wrap for tumblers and cups, in cheerful buttercream daisies. Grippy, insulating, and impossibly sweet.",
-      details: "Fits most 16–24 oz tumblers & cups · soft padded lining · spot clean, lay flat to dry.",
-      images: ["assets/cozy-daisy.jpg"]
     },
     "scrunchie-butterfly": {
       alt: "Handmade scrunchie in a cream butterfly print",
@@ -408,18 +392,6 @@
       blurb: "Powder-blue cotton dotted with soft pink roses — a dreamy, storybook bow hand-tied with finished edges.",
       details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-blue-rose.jpg"]
-    },
-    "bloom-cream": {
-      alt: "Handmade fabric flower hair clip in a cream ditsy rosebud print",
-      blurb: "A hand-folded fabric bloom in soft cream scattered with tiny rosebuds — a little posy for your hair that never wilts. Each petal shaped by hand.",
-      details: "Fabric flower on a secure clip · spot clean · shape petals by hand.",
-      images: ["assets/bloom-cream.jpg"]
-    },
-    "bloom-pink": {
-      alt: "Handmade fabric flower hair clip in a soft pink rosebud print",
-      blurb: "A hand-folded fabric bloom in the sweetest blush pink — a petal-soft posy for your hair, made to be worn again and again. Each petal shaped by hand.",
-      details: "Fabric flower on a secure clip · spot clean · shape petals by hand.",
-      images: ["assets/bloom-pink.jpg"]
     }
   };
 
@@ -427,8 +399,9 @@
      on 2026-07-15. Each opens that single item's hosted checkout
      ($6.50 shipping, US address, NEST10 accepted). An id that's
      missing here is sold out / hidden and its card shows "Coming
-     soon": tote-strawberry, cozy-bee and cozy-daisy are out until
-     restocked. To re-open one, add its link back here. */
+     soon". (The cozys + blooms were retired to the Stories lookbook
+     2026-07-27, the Strawberry tote earlier. To re-open an item, add
+     its link back here.) */
   var LINKS = {
     "tote-sunflower":      "https://buy.stripe.com/28E28rbhEfDb9xoetHfjG05",
     "tote-mushroom":       "https://buy.stripe.com/5kQcN53PcgHf5h8clzfjG06",
@@ -448,9 +421,7 @@
     "bow-sage":         "https://buy.stripe.com/dRmdR985scqZ7pgclzfjG0b",
     "bow-gingham":      "https://buy.stripe.com/dRmaEX4Tgez7dNEetHfjG0c",
     "bow-sage-gingham": "https://buy.stripe.com/cNi7sL3Pc1MldNEbhvfjG0d",
-    "bow-blue-rose":    "https://buy.stripe.com/eVqaEX0D0fDbdNE4T7fjG0e",
-    "bloom-cream":      "https://buy.stripe.com/aFa00jbhEez710S5XbfjG0p",
-    "bloom-pink":       "https://buy.stripe.com/8x2bJ1gBY9eN10S99nfjG0q"
+    "bow-blue-rose":    "https://buy.stripe.com/eVqaEX0D0fDbdNE4T7fjG0e"
   };
 
   var money = function (n) { return "$" + n.toFixed(2); };
@@ -576,7 +547,15 @@
      ========================================================= */
   var PAST_MAKES = [
     { img: "assets/tote-strawberry.jpg", art: "🍓", title: "Strawberry Tote",
-      story: "One of the very first totes I ever made — cream canvas tumbling with wild strawberries and trailing green vines, fully lined. A true one-of-a-kind that found its home early on. This print has retired now, but it holds a sweet little place in the Nest's beginnings. 🍓" }
+      story: "One of the very first totes I ever made — cream canvas tumbling with wild strawberries and trailing green vines, fully lined. A true one-of-a-kind that found its home early on. This print has retired now, but it holds a sweet little place in the Nest's beginnings. 🍓" },
+    { img: "assets/bloom-cream.jpg", art: "🌸", title: "Cream Bloom",
+      story: "A hand-folded fabric bloom in soft cream scattered with tiny rosebuds — a little posy for your hair that never wilts, each petal shaped by hand. Retired now, but always one of my most delicate makes. 🌸" },
+    { img: "assets/bloom-pink.jpg", art: "🌸", title: "Pink Bloom",
+      story: "A hand-folded bloom in the sweetest blush pink — a petal-soft posy made to be worn again and again. This one has found its place in the Nest's history. 🌸" },
+    { img: "assets/cozy-bee.jpg", art: "🐝", title: "Blue Bee Cozy",
+      story: "A snug, fleece-lined sleeve for slim cans — dusty-blue cotton dotted with bees and dandelions, made to keep drinks cold and hands comfy. A cozy little make, now part of our story. 🐝" },
+    { img: "assets/cozy-daisy.jpg", art: "🌼", title: "Daisy Cozy",
+      story: "A padded wrap for tumblers and cups in cheerful buttercream daisies — grippy, insulating, and impossibly sweet. Retired to the Nest's history. 🌼" }
   ];
 
   var storiesGrid = document.getElementById("stories-grid");

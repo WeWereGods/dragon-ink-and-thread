@@ -57,12 +57,12 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   each link has $6.50 shipping, US address, NEST10 accepted). **Buying is gated until launch**: until
   the countdown reaches `LAUNCH`, buttons read "Opens August 15" and are `disabled`; at launch the
   countdown fires a `shop:open` event that flips them to "Buy now →" live. An id **absent from
-  `LINKS` is sold out** and its button reads "Coming soon" (currently cozy-bee, cozy-daisy — the
-  hidden/out-of-stock cozys). The Strawberry Tote was RETIRED from the shop 2026-07-27 and moved to
-  the Stories lookbook (see below). The old cart drawer, scrim, `#cartOpenBtn`, and the
+  `LINKS` is sold out** and its button reads "Coming soon" (nothing is "coming soon" right now).
+  The Strawberry Tote, both cozys, and both blooms were RETIRED from the shop and moved to the
+  Stories lookbook (2026-07-27; see below). The old cart drawer, scrim, `#cartOpenBtn`, and the
   `#shop-flow` Join-the-Nest mockup checkout were removed. To re-open a sold-out item, add its live
   Payment Link back to `LINKS`.
-- **Products** (name / price / cart id): the Shop has 5 cards, all **variant cards** with
+- **Products** (name / price / cart id): the Shop has **3 cards** (Totes, Scrunchies, Bows), all **variant cards** with
   a `<select>` print/style picker + thumbnail gallery (`.card-variant` in index.html, wired by
   `initVariantCards()` in js/main.js):
     - **Totes** — Sunflower Tote $45 (`tote-sunflower`, the puffy woven one, default),
@@ -70,7 +70,6 @@ emails/               Marketing email copy (not sent by the site; no platform wi
       Blue Rose Mini Tote $20 (`tote-blue-rose`, small 8×4 bag, 3-photo gallery), Butterfly Tote $38
       (`tote-butterfly`, lily-of-the-valley + butterflies, 3-photo gallery). (Strawberry Tote retired
       to the Stories lookbook 2026-07-27.)
-    - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
     - **Scrunchies** — 8 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
       `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`, `-strawberry`) + a
       **Bundle of 3** @ $9 (`scrunchie-bundle`, red/cream/navy solids), plus **Build Your Own Bundle**
@@ -78,8 +77,8 @@ emails/               Marketing email copy (not sent by the site; no platform wi
       last two `<option>`s.
     - **Bows** $10 each — Sage Bow (`bow-sage`), Gingham Bow (`bow-gingham`, taupe),
       Sage Gingham Bow (`bow-sage-gingham`), Blue Rose Bow (`bow-blue-rose`).
-    - **Blooms** $10 each — hand-folded fabric flower **hair clips**: Cream Bloom (`bloom-cream`),
-      Pink Bloom (`bloom-pink`).
+    (Cozys `cozy-bee`/`cozy-daisy` and Blooms `bloom-cream`/`bloom-pink` were retired from the shop
+    2026-07-27 → now in the Stories lookbook PAST_MAKES.)
   Each print/style is its own cart id. **Price of record lives only in the `PRODUCTS` object**
   (js/main.js) — the dropdown `<option>` labels are the print name only, and `initVariantCards()`
   appends the "— $price" suffix from `PRODUCTS` at runtime (so a price is never duplicated).
@@ -119,7 +118,8 @@ panel launches it via `.claude/launch.json` (config name `site`).
   plus bows (6″ × 7″). (Strawberry Tote is no longer in the shop — retired to Stories 2026-07-27.)
 - **Stories / Past Makes lookbook is LIVE** (published 2026-07-27, merged from `stories-lookbook`).
   A "Stories" nav link + `#stories` section render the `PAST_MAKES` array in js/main.js as a
-  "found a home" grid. Currently one real entry: the **Strawberry Tote** (`assets/tote-strawberry.jpg`).
+  "found a home" grid. Entries (5, as of 2026-07-27): **Strawberry Tote**, **Cream Bloom**, **Pink
+  Bloom**, **Blue Bee Cozy**, **Daisy Cozy** — all retired from the shop and moved here.
   To add a retired piece: drop a photo in assets/ and add a `{img, art, title, story}` entry to
   `PAST_MAKES`. (The old low-res / placeholder-dims Strawberry Tote TODOs are moot — it left the shop.)
 - **Cache-busting on re-used image filenames**: when a photo is swapped but keeps its filename
