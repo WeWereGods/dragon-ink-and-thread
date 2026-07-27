@@ -579,6 +579,48 @@ h3 { font-size: 1.4rem; }
 }
 
 /* Placeholders (swap for real photos) ----------------------- */
+/* Stories / Past Makes lookbook ---------------------------- */
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.6rem;
+}
+.make-card {
+  background: var(--white);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.make-media { position: relative; line-height: 0; }
+.make-photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+/* Reuse the emoji placeholder, but square it off to fill the card. */
+.make-media .placeholder { aspect-ratio: 4 / 3; border-radius: 0; border-width: 0; }
+.make-tag {
+  position: absolute;
+  left: 0.7rem;
+  bottom: 0.7rem;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--clay-deep);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.28rem 0.62rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+}
+.make-body { padding: 0.9rem 1rem 1.15rem; }
+.make-title { margin: 0 0 0.35rem; font-size: 1.08rem; }
+.make-story { margin: 0; color: var(--ink-soft); font-size: 0.95rem; line-height: 1.55; }
+
 .placeholder {
   display: flex;
   flex-direction: column;

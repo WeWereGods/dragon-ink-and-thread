@@ -574,4 +574,41 @@
     shopOpen = true;
     cardRefreshers.forEach(function (fn) { fn(); });
   });
+
+  /* =========================================================
+     Stories — a lookbook of past pieces that have found homes.
+     TO ADD A PIECE: drop a photo in assets/ and add an entry to
+     PAST_MAKES below. `art` is an emoji shown if the photo is
+     missing (so a not-yet-added photo never looks broken).
+     ========================================================= */
+  var PAST_MAKES = [
+    // Placeholder examples — replace with real photos + stories.
+    { img: "assets/past-make-1.jpg", art: "🌻", title: "A past make",
+      story: "Your little story goes here — where it went, who loved it, or what made it special." },
+    { img: "assets/past-make-2.jpg", art: "🧵", title: "A past make",
+      story: "Each retired piece can carry a sentence or two about its journey to a new home." },
+    { img: "assets/past-make-3.jpg", art: "🎀", title: "A past make",
+      story: "Send me the photos and I'll swap these in and write them up with you." }
+  ];
+
+  var storiesGrid = document.getElementById("stories-grid");
+  if (storiesGrid && PAST_MAKES.length) {
+    storiesGrid.innerHTML = PAST_MAKES.map(function (m) {
+      var title = m.title || "A past Dragon Ink and Thread piece";
+      return (
+        '<article class="make-card">' +
+          '<div class="make-media">' +
+            '<img class="make-photo" src="' + m.img + '" alt="' + title + '" loading="lazy" decoding="async" ' +
+              "onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\" />" +
+            '<div class="placeholder" style="display:none;" aria-hidden="true"><span>' + (m.art || "🧵") + "</span></div>" +
+            '<span class="make-tag">Found a home 🪺</span>' +
+          "</div>" +
+          '<div class="make-body">' +
+            '<h3 class="make-title">' + title + "</h3>" +
+            '<p class="make-story">' + m.story + "</p>" +
+          "</div>" +
+        "</article>"
+      );
+    }).join("");
+  }
 })();
