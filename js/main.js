@@ -258,7 +258,6 @@
     "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
-    "tote-strawberry":    { name: "Strawberry Tote",    price: 38.0, art: "🍓" },
     "cozy-bee":       { name: "Blue Bee Cozy",  price: 8.0,  art: "🐝" },
     "cozy-daisy":     { name: "Daisy Cozy",     price: 8.0,  art: "🌼" },
     "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 4.0, art: "🦋" },
@@ -313,12 +312,6 @@
       blurb: "Lily-of-the-valley and soft pink butterflies scattered across warm cream — a spring meadow you can carry. Fully lined, with a handy front pocket.",
       details: "7″ × 6″ × 12″ · 11″ strap drop · front pocket 5″ × 9″ · fully lined · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-butterfly.jpg", "assets/tote-butterfly-2.jpg", "assets/tote-butterfly-inside.jpg"]
-    },
-    "tote-strawberry": {
-      alt: "Handmade cream tote covered in a red strawberry and green vine print, lined in white",
-      blurb: "Sweet wild strawberries tumbling over cream — a little berry patch of a bag. Fully lined and roomy, made for market days and library hauls.",
-      details: "Roomy lined tote · spot clean. Made to order — please allow 5–10 business days.",
-      images: ["assets/tote-strawberry.jpg", "assets/tote-strawberry-inside.jpg"]
     },
     "cozy-bee": {
       alt: "Handmade fabric can cozy in dusty blue with bees and dandelions",
@@ -582,13 +575,8 @@
      missing (so a not-yet-added photo never looks broken).
      ========================================================= */
   var PAST_MAKES = [
-    // Placeholder examples — replace with real photos + stories.
-    { img: "assets/past-make-1.jpg", art: "🌻", title: "A past make",
-      story: "Your little story goes here — where it went, who loved it, or what made it special." },
-    { img: "assets/past-make-2.jpg", art: "🧵", title: "A past make",
-      story: "Each retired piece can carry a sentence or two about its journey to a new home." },
-    { img: "assets/past-make-3.jpg", art: "🎀", title: "A past make",
-      story: "Send me the photos and I'll swap these in and write them up with you." }
+    { img: "assets/tote-strawberry.jpg", art: "🍓", title: "Strawberry Tote",
+      story: "One of the very first totes I ever made — cream canvas tumbling with wild strawberries and trailing green vines, fully lined. A true one-of-a-kind that found its home early on. This print has retired now, but it holds a sweet little place in the Nest's beginnings. 🍓" }
   ];
 
   var storiesGrid = document.getElementById("stories-grid");

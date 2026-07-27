@@ -57,8 +57,9 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   each link has $6.50 shipping, US address, NEST10 accepted). **Buying is gated until launch**: until
   the countdown reaches `LAUNCH`, buttons read "Opens August 15" and are `disabled`; at launch the
   countdown fires a `shop:open` event that flips them to "Buy now →" live. An id **absent from
-  `LINKS` is sold out** and its button reads "Coming soon" (currently tote-strawberry, cozy-bee,
-  cozy-daisy — the hidden/out-of-stock pieces). The old cart drawer, scrim, `#cartOpenBtn`, and the
+  `LINKS` is sold out** and its button reads "Coming soon" (currently cozy-bee, cozy-daisy — the
+  hidden/out-of-stock cozys). The Strawberry Tote was RETIRED from the shop 2026-07-27 and moved to
+  the Stories lookbook (see below). The old cart drawer, scrim, `#cartOpenBtn`, and the
   `#shop-flow` Join-the-Nest mockup checkout were removed. To re-open a sold-out item, add its live
   Payment Link back to `LINKS`.
 - **Products** (name / price / cart id): the Shop has 5 cards, all **variant cards** with
@@ -67,8 +68,8 @@ emails/               Marketing email copy (not sent by the site; no platform wi
     - **Totes** — Sunflower Tote $45 (`tote-sunflower`, the puffy woven one, default),
       Mushroom Tote $25 (`tote-mushroom`), Mustard Rose Tote $20 (`tote-mustard-floral`),
       Blue Rose Mini Tote $20 (`tote-blue-rose`, small 8×4 bag, 3-photo gallery), Butterfly Tote $38
-      (`tote-butterfly`, lily-of-the-valley + butterflies, 3-photo gallery), Strawberry Tote $38
-      (`tote-strawberry`, 2-photo gallery — see low-res TODO below).
+      (`tote-butterfly`, lily-of-the-valley + butterflies, 3-photo gallery). (Strawberry Tote retired
+      to the Stories lookbook 2026-07-27.)
     - **Cozys** — Blue Bee Cozy $8 (`cozy-bee`, slim can), Daisy Cozy $8 (`cozy-daisy`, cup/tumbler).
     - **Scrunchies** — 8 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
       `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`, `-strawberry`) + a
@@ -115,10 +116,12 @@ panel launches it via `.claude/launch.json` (config name `site`).
   `_exif=null` alone does NOT work). Don't drop a raw phone JPG straight into a card and trust it.
 - **Tote/​bow specs are real now** → owner supplied dimensions (2026-07-13); `VARIANTS` `details`
   carry size · strap drop · pocket for Sunflower, Mushroom, Mustard Rose, Blue Rose, Butterfly,
-  plus bows (6″ × 7″). STILL PLACEHOLDER: **Strawberry Tote** ("Roomy lined tote…") — no dims given.
-- **Strawberry Tote photo is low-res** (~533px source, so `assets/tote-strawberry.jpg` is only
-  533×400 — soft on retina). Owner added it knowingly; swap for a hi-res shot when available
-  (drop it in and re-run the optimize pipeline over `tote-strawberry.jpg` + `-inside.jpg`).
+  plus bows (6″ × 7″). (Strawberry Tote is no longer in the shop — retired to Stories 2026-07-27.)
+- **Stories / Past Makes lookbook is LIVE** (published 2026-07-27, merged from `stories-lookbook`).
+  A "Stories" nav link + `#stories` section render the `PAST_MAKES` array in js/main.js as a
+  "found a home" grid. Currently one real entry: the **Strawberry Tote** (`assets/tote-strawberry.jpg`).
+  To add a retired piece: drop a photo in assets/ and add a `{img, art, title, story}` entry to
+  `PAST_MAKES`. (The old low-res / placeholder-dims Strawberry Tote TODOs are moot — it left the shop.)
 - **Cache-busting on re-used image filenames**: when a photo is swapped but keeps its filename
   (e.g. `scrunchie-orange-kitty.jpg`, the gingham bows), browsers/CDN serve the stale copy.
   Bump the `?v=N` query on that image's path in the `VARIANTS` map (orange-kitty + both gingham
