@@ -127,6 +127,21 @@ panel launches it via `.claude/launch.json` (config name `site`).
   in js/main.js has ≥1 entry, then JS reveals it. **REAL reviews only — never invent them.** Add
   `{ quote, name, where?, stars? }` objects to populate. Same pass also: `text-wrap: balance` on
   headings, more `.section` whitespace, and `.badge` dashed→solid hairline.
+- **HOMEPAGE + CATALOG REDESIGN (2026-07-28, "luxury cottagecore"):**
+  - **New full catalog page `shop.html`** — every item as its own tile in a grid (Totes/Scrunchies/Bows),
+    no dropdowns. Rendered by **`js/shop.js`** from **`js/shop-data.js`** = the NEW single source of truth
+    for `PRODUCTS`/`VARIANTS`/`LINKS`/`CATALOG`/`SHOP_OPENS`. shop.js has its own nav/reveal/gating.
+  - **Homepage restructured:** the **hero now LEADS the page** (was below the shop). It's a centered,
+    elevated hero (gold script "bubble" eyebrow, framed logo, Fraunces headline, gold hairline rule,
+    tagline, maker quote, centered Join-the-Nest card, badges). The old dropdown shop cards are GONE —
+    `#products` is now a **"Shop the collection →" CTA** (gold + cursive) linking to shop.html. Nav "Shop"
+    → shop.html. Order: hero → products(CTA) → about → stories → kind-words → faq → closing → contact.
+  - **⚠️ `js/main.js` shop machinery is now VESTIGIAL** — the homepage has no `.card-variant`, so
+    `initVariantCards()` no-ops and main.js's inline `PRODUCTS`/`VARIANTS`/`LINKS` are unused (kept for
+    now; safe to prune later). **Edit product data in `js/shop-data.js`, NOT main.js.**
+  - **Script font is now `Great Vibes`** (swirly calligraphy) via `--font-script`, added to the Google
+    Fonts link on both index.html + shop.html. Used by `.eyebrow`, `.hero-eyebrow`, `.shop-cta-btn`.
+    (Caveat kept as fallback.) Cache-bust bumped to `?v=20260728c`.
 - **Cache-busting on re-used image filenames**: when a photo is swapped but keeps its filename
   (e.g. `scrunchie-orange-kitty.jpg`, the gingham bows), browsers/CDN serve the stale copy.
   Bump the `?v=N` query on that image's path in the `VARIANTS` map (orange-kitty + both gingham
