@@ -13,7 +13,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Dragon Ink and Thread" />
   <meta property="og:title" content="Dragon Ink and Thread — Handmade Sewn Goods in Texas" />
-  <meta property="og:description" content="Handmade, small-batch totes, cozys, bows, and scrunchies from a veteran-owned San Antonio shop. Opening August 15 — join the Nest for 10% off at launch." />
+  <meta property="og:description" content="Handmade, small-batch totes, cozys, bows, and scrunchies from a veteran-owned San Antonio shop — now open. Custom orders open August 15. Join the Nest for 10% off." />
   <meta property="og:url" content="https://www.dragoninkandthread.com/" />
   <meta property="og:image" content="https://www.dragoninkandthread.com/assets/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
@@ -23,7 +23,7 @@
   <!-- Twitter / X card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Dragon Ink and Thread — Handmade Sewn Goods in Texas" />
-  <meta name="twitter:description" content="Handmade, small-batch totes, cozys, bows, and scrunchies from a veteran-owned San Antonio shop. Opening August 15." />
+  <meta name="twitter:description" content="Handmade, small-batch totes, cozys, bows, and scrunchies from a veteran-owned San Antonio shop — now open. Custom orders open August 15." />
   <meta name="twitter:image" content="https://www.dragoninkandthread.com/assets/og-image.jpg" />
 
   <link rel="icon" href="/favicon.ico" sizes="32x32" />
@@ -61,9 +61,9 @@
   </script>
 
   <!-- Structured data: one Product per shop card, with an AggregateOffer price range.
-       AT LAUNCH: flip every "availability" from schema.org/PreOrder to schema.org/InStock,
-       and add "aggregateRating" once REAL reviews exist (never fake them). Prices here are
-       static and must stay in sync with the PRODUCTS object in js/main.js. -->
+       Shop is open, so "availability" is schema.org/InStock. TODO: add "aggregateRating"
+       once REAL reviews exist (never fake them). Prices here are static and must stay in
+       sync with the PRODUCTS object in js/main.js. -->
   <script type="application/ld+json">
   [
     {
@@ -86,7 +86,7 @@
         "lowPrice": "20.00",
         "highPrice": "45.00",
         "offerCount": 5,
-        "availability": "https://schema.org/PreOrder",
+        "availability": "https://schema.org/InStock",
         "url": "https://www.dragoninkandthread.com/#shop",
         "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
       }
@@ -111,7 +111,7 @@
         "lowPrice": "4.00",
         "highPrice": "9.00",
         "offerCount": 9,
-        "availability": "https://schema.org/PreOrder",
+        "availability": "https://schema.org/InStock",
         "url": "https://www.dragoninkandthread.com/#shop",
         "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
       }
@@ -135,7 +135,7 @@
         "lowPrice": "10.00",
         "highPrice": "10.00",
         "offerCount": 4,
-        "availability": "https://schema.org/PreOrder",
+        "availability": "https://schema.org/InStock",
         "url": "https://www.dragoninkandthread.com/#shop",
         "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
       }
@@ -186,7 +186,7 @@
 
     <!-- Launch countdown bar -->
     <div class="countdown-bar">
-      <span class="countdown-label">✨ Opening Saturday, August 15</span>
+      <span class="countdown-label">✨ Shop open now · Custom orders open Saturday, August 15</span>
       <span class="countdown-clock" id="countdownClock" aria-hidden="true"></span>
       <a class="countdown-cta" href="#home">Join the Nest for 10% off →</a>
     </div>
@@ -261,7 +261,7 @@
 
     <!-- Badges, dropped below the gingham hero -->
     <div class="hero-badges post-hero-badges">
-      <span class="badge">✧ Handmade in San Antonio · Opening August 15 ✧</span>
+      <span class="badge">✧ Handmade in San Antonio · Now open ✧</span>
       <span class="badge badge-vet">★ Proudly Veteran-Owned</span>
     </div>
 
@@ -276,7 +276,7 @@
     <section id="join" class="section reveal" aria-label="Join the Nest">
       <div class="container">
         <div class="hero-join">
-          <p class="hero-join-title"><img class="ico-basket-img" src="assets/basket.png" alt="" loading="lazy" decoding="async" /> Join the Nest — <strong>10% off</strong> at launch</p>
+          <p class="hero-join-title"><img class="ico-basket-img" src="assets/basket.png" alt="" loading="lazy" decoding="async" /> Join the Nest — <strong>10% off</strong> your first purchase</p>
           <form class="nest-form" id="nestForm" action="https://buttondown.com/api/emails/embed-subscribe/dragoninkandthread" method="POST" aria-label="Join the Nest — email signup">
             <input type="hidden" name="tag" value="hero" />
             <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
@@ -323,7 +323,7 @@
 
         <div class="shop-cta-panel">
           <a class="btn btn-primary shop-cta-btn" href="shop.html">Shop the collection →</a>
-          <p class="shop-cta-note">✨ Opening <strong>August 15</strong> · <a href="#home">join the Nest</a> for 10% off &amp; first pick. Most pieces are one of a kind — when a print’s gone, it’s gone.</p>
+          <p class="shop-cta-note">✨ <strong>Open now</strong> · <a href="#home">join the Nest</a> for 10% off your first purchase. Custom orders open <strong>August 15</strong>. Most pieces are one of a kind — when a print’s gone, it’s gone.</p>
         </div>
       </div>
     </section>
@@ -396,8 +396,8 @@
           <h2>Frequently asked questions</h2>
         </div>
         <details class="faq-item">
-          <summary>When do you open?</summary>
-          <p>We're opening <strong>August 15</strong>! The shop is a preview for now — <a href="#home">join the Nest</a> and you'll be first through the door, with <strong>10% off</strong> at launch.</p>
+          <summary>Are you open? When can I order?</summary>
+          <p>The shop is <strong>open now</strong> — every ready-made piece is available to order today. <strong>Custom orders</strong> (personalized, made-just-for-you pieces) open <strong>August 15</strong>. <a href="#home">Join the Nest</a> for 10% off your first purchase.</p>
         </details>
         <details class="faq-item">
           <summary>Is everything really handmade?</summary>
@@ -495,7 +495,7 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=20260728f"></script>
+  <script src="js/main.js?v=20260728g"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>

@@ -72,7 +72,7 @@
     var tickCountdown = function () {
       var diff = LAUNCH - Date.now();
       if (diff <= 0) {
-        countdownClock.textContent = "We're open! 🎉";
+        countdownClock.textContent = "Custom orders are open! 🎉";
         countdownClock.removeAttribute("aria-hidden");
         if (countdownInterval) window.clearInterval(countdownInterval);
         document.dispatchEvent(new CustomEvent("shop:open"));
@@ -170,7 +170,7 @@
           if (r.ok) {
             form.reset();
             note.textContent =
-              "You're in the Nest! Check your inbox — there's a welcome note on its way.";
+              "You're in the Nest! 🌿 We'll write the moment there's something lovely to share.";
           } else if (r.status === 400) {
             note.textContent =
               "That address didn't take — if you're already in the nest, you're all set.";

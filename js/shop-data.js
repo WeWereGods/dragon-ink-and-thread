@@ -9,8 +9,10 @@
      - CATALOG:  the order + grouping shown on the catalog page
 */
 window.DIT_SHOP = {
-  // Shop opens Aug 15, 2026, 9am Central. Until then Buy buttons are gated.
-  SHOP_OPENS: "2026-08-15T09:00:00-05:00",
+  // Ready-made shop is OPEN for orders (Buy buttons live). A past date keeps
+  // shopOpen === true. Custom (made-to-order/personalized) orders open Aug 15,
+  // 2026 — that date lives in the countdown (LAUNCH) in js/main.js.
+  SHOP_OPENS: "2026-07-01T09:00:00-05:00",
 
   PRODUCTS: {
     "tote-sunflower":     { name: "Sunflower Tote",     price: 45.0, art: "🌻" },
