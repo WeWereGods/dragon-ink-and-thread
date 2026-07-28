@@ -334,7 +334,30 @@ h3 { font-size: 1.4rem; }
   margin: 1.15rem auto 1.2rem;
 }
 .hero-rule-line { height: 1px; flex: 1; background: linear-gradient(90deg, transparent, var(--honey), transparent); }
-.hero-rule-dot { font-size: 1.05rem; line-height: 1; }
+.hero-rule-dot { font-size: 1.05rem; line-height: 1; color: var(--honey); }
+
+/* Little hand-drawn basket icon (replaces the old 🪺), inherits the
+   surrounding text colour so it reads at any size, in any spot. */
+.ico-basket {
+  display: inline-block;
+  width: 1.05em;
+  height: 1.05em;
+  vertical-align: -0.18em;
+  margin: 0 0.08em;
+}
+/* The basket medallion used as the hero ornament */
+.hero-basket { display: inline-block; width: clamp(40px, 6.5vw, 54px); height: auto; border-radius: 50%; vertical-align: middle; }
+/* Same basket illustration used small & inline (buttons, titles, tags) */
+.ico-basket-img {
+  display: inline-block;
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: -0.55em;
+  margin: 0 0.1em;
+}
+.make-tag .ico-basket-img { width: 1.5em; height: 1.5em; vertical-align: -0.4em; }
 .hero-tagline {
   font-size: clamp(1.05rem, 2.1vw, 1.28rem);
   color: var(--ink-soft);

@@ -58,7 +58,7 @@
   function buyMarkup(id) {
     var link = LINKS[id];
     if (!link) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Coming soon</button>';
-    if (!shopOpen) return '<button class="btn btn-primary catalog-buy" data-id="' + id + '" disabled>Opens August 15 🪺</button>';
+    if (!shopOpen) return '<button class="btn btn-primary catalog-buy" data-id="' + id + '" disabled>Opens August 15</button>';
     return '<button class="btn btn-primary catalog-buy" data-id="' + id + '" data-href="' + esc(link) + '">Buy now →</button>';
   }
 

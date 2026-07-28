@@ -170,7 +170,7 @@
           if (r.ok) {
             form.reset();
             note.textContent =
-              "You're in the nest! 🪺 Check your inbox — there's a welcome note on its way.";
+              "You're in the Nest! Check your inbox — there's a welcome note on its way.";
           } else if (r.status === 400) {
             note.textContent =
               "That address didn't take — if you're already in the nest, you're all set.";
@@ -475,7 +475,7 @@
           buyBtn.classList.add("is-soldout");
         } else if (!shopOpen) {
           // Available, but the shop hasn't opened yet.
-          buyBtn.textContent = "Opens August 15 🪺";
+          buyBtn.textContent = "Opens August 15";
           buyBtn.disabled = true;
           buyBtn.removeAttribute("data-href");
         } else {
@@ -568,7 +568,7 @@
             '<img class="make-photo" src="' + m.img + '" alt="' + title + '" loading="lazy" decoding="async" ' +
               "onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\" />" +
             '<div class="placeholder" style="display:none;" aria-hidden="true"><span>' + (m.art || "🧵") + "</span></div>" +
-            '<span class="make-tag">Found a home 🪺</span>' +
+            '<span class="make-tag">Found a home <img class="ico-basket-img" src="assets/basket.png" alt="" loading="lazy" decoding="async" /></span>' +
           "</div>" +
           '<div class="make-body">' +
             '<h3 class="make-title">' + title + "</h3>" +
