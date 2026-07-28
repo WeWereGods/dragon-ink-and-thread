@@ -578,4 +578,39 @@
       );
     }).join("");
   }
+
+  /* =========================================================
+     Kind Words — REAL customer testimonials only.
+     The "#kind-words" section starts hidden and only appears once
+     this array has at least one entry, so it's never empty or faked.
+     TO ADD ONE (after a customer says something lovely, or leaves a
+     review): add an object below. `where` and `stars` are optional.
+       { quote: "I get compliments every time I carry it!",
+         name: "Jane D.", where: "San Antonio, TX", stars: 5 }
+     ========================================================= */
+  var TESTIMONIALS = [
+    // No real reviews yet — add them here as they come in. Never invent them.
+  ];
+
+  var testimonialsGrid = document.getElementById("testimonials-grid");
+  var kindWords = document.getElementById("kind-words");
+  if (testimonialsGrid && kindWords && TESTIMONIALS.length) {
+    testimonialsGrid.innerHTML = TESTIMONIALS.map(function (t) {
+      var stars = (typeof t.stars === "number" && t.stars > 0)
+        ? '<div class="testimonial-stars" aria-label="' + t.stars + ' out of 5 stars">' +
+            new Array(Math.min(5, t.stars) + 1).join("★") + "</div>"
+        : "";
+      var where = t.where ? '<span class="testimonial-where">· ' + t.where + "</span>" : "";
+      return (
+        '<figure class="testimonial-card">' +
+          stars +
+          '<blockquote class="testimonial-quote">' + t.quote + "</blockquote>" +
+          '<figcaption class="testimonial-attr">' +
+            '<span class="testimonial-name">' + t.name + "</span>" + where +
+          "</figcaption>" +
+        "</figure>"
+      );
+    }).join("");
+    kindWords.hidden = false; // reveal only when there's something real to show
+  }
 })();

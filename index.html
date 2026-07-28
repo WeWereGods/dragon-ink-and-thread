@@ -143,7 +143,7 @@
   ]
   </script>
 
-  <link rel="stylesheet" href="css/styles.css?v=20260727b" />
+  <link rel="stylesheet" href="css/styles.css?v=20260727c" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -410,6 +410,19 @@
       </div>
     </section>
 
+    <!-- Kind Words / testimonials. Starts hidden; js/main.js reveals it only
+         when the TESTIMONIALS array has real customer quotes. Never add fake ones. -->
+    <section id="kind-words" class="section section-tint reveal" hidden>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Kind Words</p>
+          <h2>From the Nest</h2>
+          <p class="section-sub">The lovely things early adventurers have said about their handmade pieces.</p>
+        </div>
+        <div class="testimonials-grid" id="testimonials-grid"></div>
+      </div>
+    </section>
+
     <!-- FAQ -->
     <section id="faq" class="section reveal">
       <div class="container faq-inner">
@@ -517,7 +530,7 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=20260727b"></script>
+  <script src="js/main.js?v=20260727c"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>

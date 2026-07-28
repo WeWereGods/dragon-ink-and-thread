@@ -122,6 +122,11 @@ panel launches it via `.claude/launch.json` (config name `site`).
   Bloom**, **Blue Bee Cozy**, **Daisy Cozy** — all retired from the shop and moved here.
   To add a retired piece: drop a photo in assets/ and add a `{img, art, title, story}` entry to
   `PAST_MAKES`. (The old low-res / placeholder-dims Strawberry Tote TODOs are moot — it left the shop.)
+- **"Kind Words" testimonials section is LIVE but HIDDEN** (added 2026-07-27, a professionalism pass
+  inspired by a competitor site). `#kind-words` section stays `hidden` until the `TESTIMONIALS` array
+  in js/main.js has ≥1 entry, then JS reveals it. **REAL reviews only — never invent them.** Add
+  `{ quote, name, where?, stars? }` objects to populate. Same pass also: `text-wrap: balance` on
+  headings, more `.section` whitespace, and `.badge` dashed→solid hairline.
 - **Cache-busting on re-used image filenames**: when a photo is swapped but keeps its filename
   (e.g. `scrunchie-orange-kitty.jpg`, the gingham bows), browsers/CDN serve the stale copy.
   Bump the `?v=N` query on that image's path in the `VARIANTS` map (orange-kitty + both gingham
