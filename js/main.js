@@ -572,7 +572,6 @@
           "</div>" +
           '<div class="make-body">' +
             '<h3 class="make-title">' + title + "</h3>" +
-            '<p class="make-story">' + m.story + "</p>" +
           "</div>" +
         "</article>"
       );

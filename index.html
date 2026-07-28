@@ -143,7 +143,7 @@
   ]
   </script>
 
-  <link rel="stylesheet" href="css/styles.css?v=20260728e" />
+  <link rel="stylesheet" href="css/styles.css?v=20260728f" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -245,12 +245,36 @@
       </div>
       <div class="container hero-inner">
         <p class="hero-eyebrow">Small-batch handmade · San Antonio, Texas</p>
-        <div class="hero-logo-wrap"><img class="hero-logo" src="assets/logo.png" alt="Dragon Ink and Thread — a teal stitched dragon" fetchpriority="high" decoding="async" /></div>
-        <h2 class="hero-headline">Handmade heirlooms for everyday wonder</h2>
-        <div class="hero-rule" aria-hidden="true"><span class="hero-rule-line"></span><span class="hero-rule-dot"><img class="hero-basket" src="assets/basket.png" alt="A little basket of handmade goods" loading="lazy" decoding="async" /></span><span class="hero-rule-line"></span></div>
-        <p class="hero-tagline">A little handmade magic for book lovers, dreamers, and anyone who believes in everyday wonder — sewn in small batches, most one of a kind.</p>
-        <p class="hero-quote">“I want them to think this was a piece of their wardrobe that was missing this whole time.”</p>
 
+        <div class="hero-split">
+          <div class="hero-art">
+            <div class="hero-logo-wrap"><img class="hero-logo" src="assets/dragon-logo-transparent.png" alt="Dragon Ink and Thread — a friendly little teal dragon" fetchpriority="high" decoding="async" /></div>
+          </div>
+          <div class="hero-text">
+            <h2 class="hero-headline">Handmade heirlooms for everyday wonder</h2>
+            <a class="btn btn-primary hero-shop-btn" href="shop.html">Shop the Magic →</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- Badges, dropped below the gingham hero -->
+    <div class="hero-badges post-hero-badges">
+      <span class="badge">✧ Handmade in San Antonio · Opening August 15 ✧</span>
+      <span class="badge badge-vet">★ Proudly Veteran-Owned</span>
+    </div>
+
+    <!-- Gold rule + basket breaker, leading into Join the Nest -->
+    <div class="rule-breaker" aria-hidden="true">
+      <span class="hero-rule-line"></span>
+      <span class="hero-rule-dot"><img class="hero-basket" src="assets/basket.png" alt="" loading="lazy" decoding="async" /></span>
+      <span class="hero-rule-line"></span>
+    </div>
+
+    <!-- Join the Nest — directly after the hero -->
+    <section id="join" class="section reveal" aria-label="Join the Nest">
+      <div class="container">
         <div class="hero-join">
           <p class="hero-join-title"><img class="ico-basket-img" src="assets/basket.png" alt="" loading="lazy" decoding="async" /> Join the Nest — <strong>10% off</strong> at launch</p>
           <form class="nest-form" id="nestForm" action="https://buttondown.com/api/emails/embed-subscribe/dragoninkandthread" method="POST" aria-label="Join the Nest — email signup">
@@ -262,13 +286,7 @@
           </form>
           <p class="nest-note" id="nestNote">Be the first through the door — we’ll only write when something lovely is ready.</p>
         </div>
-
-        <div class="hero-badges">
-          <span class="badge">✧ Handmade in San Antonio · Opening August 15 ✧</span>
-          <span class="badge badge-vet">★ Proudly Veteran-Owned</span>
-        </div>
       </div>
-      <div class="hero-glow" aria-hidden="true"></div>
     </section>
 
     <div class="stitch-divider" aria-hidden="true"></div>
@@ -282,8 +300,28 @@
           <p class="section-sub">Handmade totes, scrunchies, and bows — each made to order in small batches in San Antonio, Texas.</p>
         </div>
 
+        <div class="shop-teaser-grid">
+          <a class="teaser-card" href="shop.html" aria-label="Sunflower Tote — shop the collection">
+            <img class="teaser-photo" src="assets/tote-sunflower.jpg" alt="Handmade puffy woven tote in a sunflower, honeycomb, and bee print" loading="lazy" decoding="async"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="placeholder" style="display:none;" aria-hidden="true"><span>🌻</span></div>
+            <span class="teaser-name">Sunflower Tote</span>
+          </a>
+          <a class="teaser-card" href="shop.html" aria-label="Strawberry Scrunchie — shop the collection">
+            <img class="teaser-photo" src="assets/scrunchie-strawberry.jpg" alt="Handmade scrunchie in a red strawberry and green leaf print" loading="lazy" decoding="async"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="placeholder" style="display:none;" aria-hidden="true"><span>🍓</span></div>
+            <span class="teaser-name">Strawberry Scrunchie</span>
+          </a>
+          <a class="teaser-card" href="shop.html" aria-label="Sage Bow — shop the collection">
+            <img class="teaser-photo" src="assets/bow-sage.jpg" alt="Handmade sage-green floral sailor bow" loading="lazy" decoding="async"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="placeholder" style="display:none;" aria-hidden="true"><span>🎀</span></div>
+            <span class="teaser-name">Sage Bow</span>
+          </a>
+        </div>
+
         <div class="shop-cta-panel">
-          <p class="shop-cta-lead">Totes · Scrunchies · Bows — every handmade piece, in one place.</p>
           <a class="btn btn-primary shop-cta-btn" href="shop.html">Shop the collection →</a>
           <p class="shop-cta-note">✨ Opening <strong>August 15</strong> · <a href="#home">join the Nest</a> for 10% off &amp; first pick. Most pieces are one of a kind — when a print’s gone, it’s gone.</p>
         </div>
@@ -315,6 +353,7 @@
         <div class="story-body">
           <p>Books have always transported me beyond the ordinary — from the moment I first opened <em>Twilight</em> to getting lost in <em>Throne of Glass</em>. They reminded me that even the simplest moments can hold adventure, comfort, and hope. That's the feeling I want to share through everything I make.</p>
           <p>Every tote, bow, and scrunchie is handmade in small batches, with thoughtful attention to detail. I never rush the process, because I believe handmade should mean something. When a fabric sells out, its story becomes part of Dragon Ink and Thread's history — making room for the next chapter to begin.</p>
+          <p class="story-quote">“I want them to think this was a piece of their wardrobe that was missing this whole time.”</p>
           <p class="story-emphasis">You don't have to leave wonder behind just because you've grown up.</p>
           <p class="story-signoff">Welcome to the Dragon's Nest. There's always room for one more adventurer.</p>
         </div>
@@ -456,7 +495,7 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=20260728e"></script>
+  <script src="js/main.js?v=20260728f"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>
