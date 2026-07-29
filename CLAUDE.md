@@ -51,17 +51,28 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   can treat basket-abandoners differently. Free to 100 subscribers, then ~$9/mo.
   Buttondown owns the list; Web3Forms never did (it's a relay, and its Pro autoresponder can
   only reply to a submission, never broadcast).
-- **Checkout = live Stripe Payment Links, one per item (wired 2026-07-15)**: there is **no basket**.
-  Each variant card's Buy button opens that item's hosted Stripe checkout in a new tab. The mapping
-  `id → URL` lives in the `LINKS` object in js/main.js (verified against the live Stripe account;
-  each link has $6.50 shipping, US address, NEST10 accepted). **Buying is gated until launch**: until
-  the countdown reaches `LAUNCH`, buttons read "Opens August 15" and are `disabled`; at launch the
-  countdown fires a `shop:open` event that flips them to "Buy now →" live. An id **absent from
-  `LINKS` is sold out** and its button reads "Coming soon" (nothing is "coming soon" right now).
-  The Strawberry Tote, both cozys, and both blooms were RETIRED from the shop and moved to the
-  Stories lookbook (2026-07-27; see below). The old cart drawer, scrim, `#cartOpenBtn`, and the
-  `#shop-flow` Join-the-Nest mockup checkout were removed. To re-open a sold-out item, add its live
-  Payment Link back to `LINKS`.
+- **Checkout = real multi-item cart → Stripe Checkout via a Cloudflare Worker (wired 2026-07-29).**
+  shop.html catalog buttons are **"Add to cart"** (`data-cart-add`), handled by **js/cart.js**
+  (localStorage cart `dit-cart-v1`, header cart button + count badge, slide-out drawer with qty
+  steppers + live subtotal). Checkout POSTs `[{id, qty}]` to the Worker at
+  **`https://dit-checkout.dragoninkandthread.workers.dev`** (**worker/checkout-worker.js**), which
+  builds a Stripe Checkout Session and returns its URL to redirect to. After payment →
+  **success.html** (clears the cart).
+  - **SECURITY / source of truth for prices:** the Worker holds its OWN `PRICES` map (in cents).
+    Client-sent prices are ignored. When you change a price or add/retire an item in
+    **js/shop-data.js**, also update `PRICES` in worker/checkout-worker.js and re-run
+    `wrangler deploy` (see **worker/README.md**). The Stripe **secret key** lives only as a Worker
+    secret (`wrangler secret put STRIPE_SECRET_KEY`), never in the repo.
+  - The session adds **one shipping fee per order** ($6.50) + a **$0 Local pickup** option,
+    `automatic_tax` (needs Stripe Tax on), and `allow_promotion_codes` (NEST10). Cart is on
+    shop.html only (homepage teaser links there).
+  - The old per-item **Payment Links** (`LINKS` in js/shop-data.js) are **no longer opened**;
+    `LINKS` now only flags **availability** — an id absent from `LINKS` is sold out ("Coming soon").
+  - The shop is **OPEN** (SHOP_OPENS is a past date in js/shop-data.js); **Aug 15 = when _custom_
+    orders open** (countdown/badges). js/main.js's inline PRODUCTS/VARIANTS/LINKS + its vestigial
+    per-item buy handler are unused by the current homepage.
+  - The Strawberry Tote, both cozys, and both blooms were RETIRED from the shop → Stories lookbook
+    (2026-07-27; see below).
 - **Products** (name / price / cart id): the Shop has **3 cards** (Totes, Scrunchies, Bows), all **variant cards** with
   a `<select>` print/style picker + thumbnail gallery (`.card-variant` in index.html, wired by
   `initVariantCards()` in js/main.js):
