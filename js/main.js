@@ -594,7 +594,10 @@
          name: "Jane D.", where: "San Antonio, TX", stars: 5 }
      ========================================================= */
   var TESTIMONIALS = [
-    // No real reviews yet — add them here as they come in. Never invent them.
+    { quote: "Thank you for my custom kindle/book case, I adore it! So happy I can travel with it now in my bag!!",
+      name: "A happy customer", where: "on the Road Trip Kindle Case" },
+    { quote: "I recently got a strawberry tote and a matching scrunchie from you and let me just say I LOVE THEM!! They are so cute, the scrunchie is nice on my curly hair and the tote holds all of my items with no problem. Definitely going to be ordering more!!",
+      name: "A happy customer", where: "on the Strawberry Tote" }
   ];
 
   var testimonialsGrid = document.getElementById("testimonials-grid");
