@@ -114,21 +114,27 @@ h3 { font-size: 1.4rem; }
   cursor: pointer;
   border: 2px solid transparent;
 }
-.btn:hover { transform: translateY(-2px); }
-
 .btn-primary {
   background: var(--clay-deep);
   color: var(--white);
   box-shadow: var(--shadow-sm);
 }
-.btn-primary:hover { background: #9c4a68; }
 
 .btn-ghost {
   background: var(--white);
   color: var(--ink);
   border-color: var(--teal);
 }
-.btn-ghost:hover { background: var(--rose-soft); border-color: var(--clay); }
+
+/* Hover lifts/tints only where the device can truly hover (mouse/trackpad).
+   On touch, a :hover applied on the first tap can "stick," so the tap counts
+   as a hover and the link only activates on the second tap — the mobile
+   double-tap bug. Gating hover behind (hover: hover) removes it on phones. */
+@media (hover: hover) {
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary:hover { background: #9c4a68; }
+  .btn-ghost:hover { background: var(--rose-soft); border-color: var(--clay); }
+}
 
 /* Disabled buy buttons — used before launch ("Opens August 15") and
    for sold-out items ("Coming soon"). Muted, with no hover lift. */
