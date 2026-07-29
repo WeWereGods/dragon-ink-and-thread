@@ -546,6 +546,12 @@
      missing (so a not-yet-added photo never looks broken).
      ========================================================= */
   var PAST_MAKES = [
+    { img: "assets/kindle-case.jpg", art: "📖", title: "Road Trip Kindle Case",
+      story: "A padded, quilted e-reader sleeve in a vintage road-sign and Route 66 print, with a tie closure to keep your Kindle cozy and safe on every adventure. 📖" },
+    { img: "assets/tote-lavender-bee.jpg", art: "🐝", title: "Lavender & Honeybee Tote",
+      story: "A roomy tie-handle tote in a lavender, hollyhock, and honeybee-skep print, lined in soft buttercup yellow — a whole cottage garden you can carry. 🐝" },
+    { img: "assets/pouch-patchwork.jpg", art: "🌸", title: "Cottage Patchwork Pouch",
+      story: "Sage, blush, and powder-blue florals pieced by hand into a zippered pouch — a little keeper for makeup, notions, or small treasures. 🌸" },
     { img: "assets/tote-strawberry.jpg", art: "🍓", title: "Strawberry Tote",
       story: "One of the very first totes I ever made — cream canvas tumbling with wild strawberries and trailing green vines, fully lined. A true one-of-a-kind that found its home early on. This print has retired now, but it holds a sweet little place in the Nest's beginnings. 🍓" },
     { img: "assets/bloom-cream.jpg", art: "🌸", title: "Cream Bloom",
