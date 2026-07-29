@@ -105,6 +105,9 @@ panel launches it via `.claude/launch.json` (config name `site`).
 - **Social share card** = `assets/og-image.jpg` (1200×630); OG/Twitter meta live in index.html `<head>`.
 
 ## Open TODOs / nice-to-haves
+- **🐛 Fix mobile bug** (flagged 2026-07-28) → owner reported a bug on mobile; **specifics TBD**
+  (which page, which device/browser, what's wrong). Needs details before it's actionable —
+  reproduce on a real viewport / the browser preview's mobile preset once described.
 - **Founder photo** → `assets/about.jpg` is now live in the About/Our Story section, but it's a
   casual phone selfie used as a stand-in. Swap for a stronger shot (ideally the maker with her
   work — at the machine, or holding a tote) when one exists. Highest-trust element on the page.

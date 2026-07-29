@@ -1205,7 +1205,15 @@ h3 { font-size: 1.4rem; }
 
 /* Policy pages (privacy, shipping) -------------------------- */
 .policy-page { padding: clamp(2.5rem, 6vw, 4.5rem) 0; }
-.container.policy { max-width: 760px; }
+/* Solid cream panel so long legal text stays readable over the wallpaper. */
+.container.policy {
+  max-width: 760px;
+  background: var(--white);
+  border: 1px solid var(--paper-deep);
+  border-radius: var(--radius, 18px);
+  box-shadow: var(--shadow-sm);
+  padding: clamp(1.6rem, 4vw, 3rem);
+}
 .policy h1 { font-size: clamp(2rem, 5vw, 2.8rem); margin-bottom: 0.3rem; }
 .policy h2 {
   font-size: 1.35rem;
