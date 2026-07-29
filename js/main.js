@@ -528,7 +528,12 @@
     btn.addEventListener("click", function () {
       var href = btn.getAttribute("data-href");
       if (btn.disabled || !href) return;
-      window.open(href, "_blank", "noopener");
+      // Open in a new tab via a real anchor activation. window.open() with a
+      // features string ("noopener") opens a popup that mobile popup-blockers
+      // swallow on the first tap — the old "double-tap to buy" bug.
+      var a = document.createElement("a");
+      a.href = href; a.target = "_blank"; a.rel = "noopener";
+      document.body.appendChild(a); a.click(); a.remove();
     });
   });
 
