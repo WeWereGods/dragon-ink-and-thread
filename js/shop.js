@@ -58,8 +58,8 @@
   function buyMarkup(id) {
     var link = LINKS[id];
     if (!link) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Coming soon</button>';
-    if (!shopOpen) return '<button class="btn btn-primary catalog-buy" data-id="' + id + '" disabled>Opens August 15</button>';
-    return '<button class="btn btn-primary catalog-buy" data-id="' + id + '" data-href="' + esc(link) + '">Buy now →</button>';
+    if (!shopOpen) return '<button class="btn btn-primary catalog-buy" disabled>Opens August 15</button>';
+    return '<button class="btn btn-primary catalog-buy" type="button" data-cart-add="' + id + '">Add to cart</button>';
   }
 
   function itemCard(id) {
@@ -100,40 +100,7 @@
     }).join("");
   }
 
-  /* ----- Buy buttons open the item's Stripe checkout ----- */
-  function wireBuys() {
-    document.querySelectorAll(".catalog-buy").forEach(function (btn) {
-      if (btn._wired) return;
-      btn._wired = true;
-      btn.addEventListener("click", function () {
-        var href = btn.getAttribute("data-href");
-        if (btn.disabled || !href) return;
-        // Open in a new tab via a real anchor activation. window.open() with a
-        // features string ("noopener") opens a popup that mobile popup-blockers
-        // swallow on the first tap — the old "double-tap to buy" bug.
-        var a = document.createElement("a");
-        a.href = href; a.target = "_blank"; a.rel = "noopener";
-        document.body.appendChild(a); a.click(); a.remove();
-      });
-    });
-  }
-  wireBuys();
-
-  /* ----- flip Buy buttons live the instant the shop opens ----- */
-  if (!shopOpen) {
-    var ms = SHOP_OPENS - Date.now();
-    if (ms > 0 && ms < 2147483647) {
-      setTimeout(function () {
-        shopOpen = true;
-        document.querySelectorAll(".catalog-buy").forEach(function (btn) {
-          var id = btn.getAttribute("data-id");
-          if (!id || !LINKS[id]) return;
-          btn.textContent = "Buy now →";
-          btn.disabled = false;
-          btn.setAttribute("data-href", LINKS[id]);
-        });
-        wireBuys();
-      }, ms);
-    }
-  }
+  /* Add-to-cart clicks are handled by js/cart.js (delegated on
+     [data-cart-add]) — the item goes into the cart drawer, and checkout
+     creates a multi-item Stripe Checkout Session via the Cloudflare Worker. */
 })();

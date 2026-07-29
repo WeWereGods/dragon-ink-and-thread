@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank you! — Dragon Ink and Thread</title>
+  <meta name="description" content="Thank you for your order from Dragon Ink and Thread." />
+  <meta name="robots" content="noindex" />
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Caveat:wght@500;600;700&family=Great+Vibes&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=20260729h" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Dragon Ink and Thread</span>
+          <span class="brand-tag">handmade in san antonio</span>
+        </span>
+      </a>
+      <a class="btn btn-ghost policy-back" href="shop.html">← Back to shop</a>
+    </div>
+  </header>
+
+  <main id="main" class="policy-page">
+    <div class="container policy" style="text-align:center;">
+      <p class="eyebrow">Order received</p>
+      <h1>Thank you! 🧺</h1>
+      <p>Your order is in — thank you for supporting a small, handmade shop. A receipt is on its way to your email from Stripe, and we'll be in touch about your pieces.</p>
+      <p>Everything is made to order, so please allow a little time for each piece to be sewn just for you. If you chose <strong>local pickup</strong>, we'll email you to arrange a time.</p>
+      <p style="margin-top:1.6rem;">
+        <a class="btn btn-primary" href="shop.html">Keep browsing the shop</a>
+      </p>
+      <p class="policy-updated">Questions about your order? Email <a href="mailto:dragoninkandthread@gmail.com">dragoninkandthread@gmail.com</a>.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Dragon Ink and Thread</p>
+      <p class="footer-copy">Made with love in San Antonio · ★ Proudly Veteran-Owned</p>
+      <p class="footer-links">
+        <a href="privacy.html">Privacy Policy</a> ·
+        <a href="shipping.html">Shipping &amp; Returns</a> ·
+        <a href="terms.html">Terms of Service</a> ·
+        <a href="mailto:dragoninkandthread@gmail.com">Email</a>
+      </p>
+      <p class="footer-copy">&copy; <span id="year">2026</span> Dragon Ink and Thread 🧵</p>
+    </div>
+  </footer>
+
+  <script>
+    // The order completed — empty the cart so it doesn't linger.
+    try { localStorage.removeItem("dit-cart-v1"); } catch (e) {}
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Cloudflare Web Analytics — cookieless. -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>
+</body>
+</html>
