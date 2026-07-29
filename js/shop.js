@@ -56,6 +56,8 @@
 
   /* ----- render the catalog grid ----- */
   function buyMarkup(id) {
+    var p = PRODUCTS[id];
+    if (p && p.soldOut) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Sold out</button>';
     var link = LINKS[id];
     if (!link) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Coming soon</button>';
     if (!shopOpen) return '<button class="btn btn-primary catalog-buy" disabled>Opens August 15</button>';
@@ -67,12 +69,14 @@
     if (!p) return "";
     var img = (v.images && v.images[0]) || "";
     var alt = esc(v.alt || p.name);
+    var sold = !!p.soldOut;
     return (
-      '<article class="catalog-item">' +
+      '<article class="catalog-item' + (sold ? " is-soldout" : "") + '">' +
         '<div class="catalog-media">' +
           '<img class="catalog-photo" src="' + esc(img) + '" alt="' + alt + '" loading="lazy" decoding="async" ' +
             "onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\" />" +
           '<div class="placeholder placeholder-product" style="display:none;"><span>' + (p.art || "🧵") + "</span></div>" +
+          (sold ? '<span class="sold-badge">Sold</span>' : "") +
         "</div>" +
         '<div class="catalog-body">' +
           '<h3 class="catalog-name">' + esc(p.name) + "</h3>" +

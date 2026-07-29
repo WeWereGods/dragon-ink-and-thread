@@ -28,7 +28,8 @@
   function subtotal() { return cart.reduce(function (s, x) { var p = PRODUCTS[x.id]; return s + (p ? p.price : 0) * x.qty; }, 0); }
 
   function add(id, qty) {
-    if (!PRODUCTS[id]) return;
+    var p = PRODUCTS[id];
+    if (!p || p.soldOut) return;
     qty = qty || 1;
     var it = find(id);
     if (it) it.qty += qty; else cart.push({ id: id, qty: qty });

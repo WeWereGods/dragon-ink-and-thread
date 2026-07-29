@@ -3,10 +3,17 @@
    (shop.html → js/shop.js) so product info + Stripe links never drift.
 
    To add / edit a product: change it HERE.
-     - PRODUCTS: name + price + emoji fallback
+     - PRODUCTS: name + price + emoji fallback (+ optional `soldOut: true`)
      - VARIANTS: alt text, blurb, details, photo(s)
      - LINKS:    the item's live Stripe Payment Link (omit = "Coming soon")
      - CATALOG:  the order + grouping shown on the catalog page
+
+   SOLD OUT (one-of-a-kind pieces): add `soldOut: true` to a PRODUCTS entry —
+   its catalog card shows a "Sold" badge, the button reads "Sold out" (can't be
+   added to cart), and commit/push to update the live site. To fully retire a
+   sold piece, move it to the Stories lookbook (PAST_MAKES in js/main.js) as
+   usual. (Hard server-side block: also remove its line from PRICES in
+   worker/checkout-worker.js and `wrangler deploy` — optional at this volume.)
 */
 window.DIT_SHOP = {
   // Ready-made shop is OPEN for orders (Buy buttons live). A past date keeps
