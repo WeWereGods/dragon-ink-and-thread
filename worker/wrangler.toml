@@ -1,0 +1,8 @@
+# Cloudflare Worker config for the Dragon Ink and Thread checkout.
+# Deploy: see worker/README.md
+name = "dit-checkout"
+main = "checkout-worker.js"
+compatibility_date = "2026-07-01"
+
+# The Stripe secret key is NOT stored here. Set it as an encrypted secret:
+#   wrangler secret put STRIPE_SECRET_KEY
