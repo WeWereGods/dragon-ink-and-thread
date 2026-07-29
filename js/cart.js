@@ -9,9 +9,9 @@
 (function () {
   "use strict";
 
-  /* Paste your deployed Cloudflare Worker URL here (see worker/README.md).
-     e.g. "https://dit-checkout.your-subdomain.workers.dev" */
-  var CHECKOUT_URL = "";
+  /* Deployed Cloudflare Worker that creates the Stripe Checkout Session
+     (see worker/README.md). */
+  var CHECKOUT_URL = "https://dit-checkout.dragoninkandthread.workers.dev";
 
   var SHOP = window.DIT_SHOP || {};
   var PRODUCTS = SHOP.PRODUCTS || {};
