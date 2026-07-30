@@ -22,7 +22,7 @@ window.DIT_SHOP = {
   SHOP_OPENS: "2026-07-01T09:00:00-05:00",
 
   PRODUCTS: {
-    "tote-sunflower":     { name: "Sunflower Tote",     price: 45.0, art: "🌻" },
+    "tote-sunflower":     { name: "Sunflower Tote",     price: 45.0, art: "🌻", soldOut: true },
     "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄" },
     "tote-mustard-floral":{ name: "Cottage Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
