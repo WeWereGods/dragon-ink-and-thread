@@ -55,8 +55,8 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   only reply to a submission, never broadcast).
 - **Checkout = real multi-item cart → Stripe Checkout via a Cloudflare Worker (wired 2026-07-29).**
   shop.html catalog buttons are **"Add to cart"** (`data-cart-add`), handled by **js/cart.js**
-  (localStorage cart `dit-cart-v1`, header cart button + count badge, slide-out drawer with qty
-  steppers + live subtotal). Checkout POSTs `[{id, qty}]` to the Worker at
+  (localStorage cart `dit-cart-v1`, header cart button + count badge, slide-out drawer + live
+  subtotal; **one of each item max** — one-of-a-kind, so no qty steppers). Checkout POSTs `[{id, qty}]` to the Worker at
   **`https://dit-checkout.dragoninkandthread.workers.dev`** (**worker/checkout-worker.js**), which
   builds a Stripe Checkout Session and returns its URL to redirect to. After payment →
   **success.html** (clears the cart).
@@ -68,6 +68,22 @@ emails/               Marketing email copy (not sent by the site; no platform wi
   - The session adds **one shipping fee per order** ($6.50) + a **$0 Local pickup** option,
     `automatic_tax` (needs Stripe Tax on), and `allow_promotion_codes` (NEST10). Cart is on
     shop.html only (homepage teaser links there).
+  - **One-of-a-kind (2026-07-30):** cart AND Worker cap qty at **1 per item** (adding a dup just
+    re-opens the drawer; catalog button flips to "In basket ✓"). Set **`soldOut: true`** on a
+    PRODUCTS entry in js/shop-data.js → dimmed card + "Sold" badge + disabled "Sold out"; cart
+    refuses it. **Sunflower Tote is currently soldOut.**
+  - **Photo gallery (2026-07-30):** double-click a catalog photo → js/shop.js lightbox that
+    arrows/scrolls through that item's `VARIANTS.images` (prev/next, counter, keyboard, Esc);
+    a "N photos" hint shows on multi-image cards. `.gallery-lightbox[hidden]{display:none}` is
+    required (same display-override gotcha as the cart drawer).
+  - **Sale notifications (2026-07-30):** Stripe webhook (`checkout.session.completed`) → the
+    Worker's **`/webhook`** route → **Pushover** push (item + amount + pickup/ship). Extra Worker
+    secrets: `STRIPE_WEBHOOK_SECRET`, `PUSHOVER_TOKEN`, `PUSHOVER_USER` (see worker/README.md).
+    Signature verified via Web Crypto; push sent with `ctx.waitUntil` so Stripe gets a fast 200.
+    Endpoint is live + verified (unsigned POST → 400); Pushover keys unconfirmed until a real sale.
+  - **Products (2026-07-30):** Strawberry Tote **v2** is BACK in the shop (`tote-strawberry-v2`,
+    $35, 4 photos, leads the Totes) — a NEW make, distinct from the retired v1 that's in Stories.
+    Mustard Rose Tote renamed **Cottage Rose Tote** (same id `tote-mustard-floral`).
   - The old per-item **Payment Links** (`LINKS` in js/shop-data.js) are **no longer opened**;
     `LINKS` now only flags **availability** — an id absent from `LINKS` is sold out ("Coming soon").
   - The shop is **OPEN** (SHOP_OPENS is a past date in js/shop-data.js); **Aug 15 = when _custom_
