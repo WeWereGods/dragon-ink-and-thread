@@ -19,12 +19,14 @@ privacy.html          Privacy Policy (noindex)
 shipping.html         Shipping & Returns (noindex)
 terms.html            Terms of Service (noindex)
 css/styles.css        Whole theme via CSS custom properties (:root). Teal + pale-pink + honey.
-                      Page background = assets/web-background.jpg (dragon + florals
-                      wallpaper) pinned as `background: ... fixed` on `body` (cover, no
-                      repeat — the art isn't seamless, so fixed-cover avoids tiling seams).
-                      Sections use translucent cream (`.section`) / rose (`.section-tint`)
-                      panels so the wallpaper reads through softly while text stays legible;
-                      the hero veil is lighter so the pattern shows more there.
+                      Page background = solid warm cream (`--paper`) on `body`, all pages
+                      (2026-07-29). Pink gingham (assets/gingham-pink.png — a generated
+                      seamless tile, under a soft cream veil + rosy top glow) is on the HERO
+                      sections only: `.hero` (homepage) + `.shop-hero` (shop top), via a
+                      shared rule placed after `.section` so it wins. Sections use translucent
+                      cream (`.section`) / rose (`.section-tint`) panels over the cream.
+                      (Old dragon+florals wallpaper `assets/web-background.jpg` retired — no
+                      longer referenced; file left in assets/.)
                       NOTE: CSS url() is relative to css/, so asset paths need `../assets/`.
 js/main.js            Mobile nav, scroll-reveal, footer year, countdown, Join-the-Nest + Contact
                       form submit handlers, and the shop (per-item Stripe checkout: PRODUCTS,

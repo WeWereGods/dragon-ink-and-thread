@@ -40,11 +40,10 @@ body {
   color: var(--ink);
   line-height: 1.68;
   -webkit-font-smoothing: antialiased;
-  /* Signature wallpaper: the dragon + florals pattern pinned to the
-     viewport (fixed) so it never tiles or seams; content scrolls over it.
-     Sections below use translucent cream/rose panels so the wallpaper
-     reads through softly while text stays legible. */
-  background: var(--paper) url("../assets/web-background.jpg") center center / cover no-repeat fixed;
+  /* Solid warm-cream background across all pages. The pink gingham appears
+     only on the hero sections (homepage + shop top); everything else sits on
+     this cream. */
+  background: var(--paper);
 }
 
 img { max-width: 100%; display: block; }
@@ -276,16 +275,6 @@ h3 { font-size: 1.4rem; }
   overflow: hidden;
   text-align: center;
   padding: clamp(2.75rem, 7vw, 6rem) 0 clamp(2.25rem, 5vw, 4.25rem);
-  /* Pink gingham weave (generated seamless tile) under a soft cream veil
-     + rosy top glow, so the check reads as fabric but text stays legible. */
-  background-color: #fbf5ef;
-  background-image:
-    radial-gradient(1200px 620px at 50% -6%, rgba(231, 188, 174, 0.34), transparent 60%),
-    linear-gradient(180deg, rgba(255, 253, 247, 0.34) 0%, rgba(255, 253, 247, 0.18) 100%),
-    url(../assets/gingham-pink.png);
-  background-size: auto, auto, 64px 64px;
-  background-repeat: no-repeat, no-repeat, repeat;
-  background-position: center top, center, center;
 }
 .hero-inner {
   position: relative;
@@ -793,6 +782,21 @@ h3 { font-size: 1.4rem; }
 /* Full catalog page (shop.html) ---------------------------- */
 .shop-hero .section-head { max-width: 720px; }
 .shop-hero-actions { margin-top: 1.15rem; }
+
+/* Pink gingham weave on the hero sections — homepage hero + shop top.
+   Placed after .section so it wins over the section background for .shop-hero.
+   A soft cream veil + rosy top glow keep text legible over the check. */
+.hero, .shop-hero {
+  background-color: #fbf5ef;
+  background-image:
+    radial-gradient(1200px 620px at 50% -6%, rgba(231, 188, 174, 0.34), transparent 60%),
+    linear-gradient(180deg, rgba(255, 253, 247, 0.34) 0%, rgba(255, 253, 247, 0.18) 100%),
+    url(../assets/gingham-pink.png);
+  background-size: auto, auto, 64px 64px;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: center top, center, center;
+}
+.shop-hero { position: relative; overflow: hidden; }
 .shop-catalog-wrap { padding-top: clamp(1.25rem, 3.5vw, 2.25rem); }
 .catalog-fallback { text-align: center; color: var(--ink-soft); }
 .catalog-cat { margin-bottom: clamp(2.75rem, 6vw, 4.25rem); }
