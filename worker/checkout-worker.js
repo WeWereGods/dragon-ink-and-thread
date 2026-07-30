@@ -87,9 +87,8 @@ export default {
     for (const it of items) {
       const p = PRICES[it && it.id];
       if (!p) continue;
-      let qty = parseInt(it.qty, 10);
-      if (!(qty >= 1)) qty = 1;
-      if (qty > 20) qty = 20; // sane cap
+      // One of a kind — never sell more than one of an item per order.
+      let qty = 1;
       params.append(`line_items[${n}][quantity]`, String(qty));
       params.append(`line_items[${n}][price_data][currency]`, "usd");
       params.append(`line_items[${n}][price_data][unit_amount]`, String(p.amount));

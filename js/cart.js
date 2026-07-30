@@ -27,19 +27,13 @@
   function count() { return cart.reduce(function (s, x) { return s + x.qty; }, 0); }
   function subtotal() { return cart.reduce(function (s, x) { var p = PRODUCTS[x.id]; return s + (p ? p.price : 0) * x.qty; }, 0); }
 
-  function add(id, qty) {
+  function add(id) {
     var p = PRODUCTS[id];
     if (!p || p.soldOut) return;
-    qty = qty || 1;
-    var it = find(id);
-    if (it) it.qty += qty; else cart.push({ id: id, qty: qty });
+    // One of a kind: at most one of each item per order. Adding an item that's
+    // already in the basket just re-opens the drawer.
+    if (!find(id)) cart.push({ id: id, qty: 1 });
     persist(); render(); openDrawer();
-  }
-  function setQty(id, qty) {
-    var it = find(id); if (!it) return;
-    it.qty = qty;
-    if (it.qty <= 0) cart = cart.filter(function (x) { return x.id !== id; });
-    persist(); render();
   }
   function removeItem(id) { cart = cart.filter(function (x) { return x.id !== id; }); persist(); render(); }
 
@@ -100,11 +94,7 @@
     // Delegated qty/remove controls inside the drawer
     itemsEl.addEventListener("click", function (e) {
       var t = e.target.closest("[data-cart-act]"); if (!t) return;
-      var id = t.getAttribute("data-id"); var it = find(id); if (!it) return;
-      var act = t.getAttribute("data-cart-act");
-      if (act === "inc") setQty(id, it.qty + 1);
-      else if (act === "dec") setQty(id, it.qty - 1);
-      else if (act === "remove") removeItem(id);
+      if (t.getAttribute("data-cart-act") === "remove") removeItem(t.getAttribute("data-id"));
     });
   }
 
@@ -114,6 +104,12 @@
   function render() {
     var c = count();
     if (badge) { badge.textContent = String(c); badge.hidden = c === 0; }
+    // Reflect basket state on the catalog "Add to cart" buttons.
+    document.querySelectorAll("[data-cart-add]").forEach(function (b) {
+      var inCart = !!find(b.getAttribute("data-cart-add"));
+      b.textContent = inCart ? "In basket ✓" : "Add to cart";
+      b.classList.toggle("in-cart", inCart);
+    });
     if (!itemsEl) return;
     var empty = cart.length === 0;
     emptyEl.style.display = empty ? "" : "none";
@@ -131,10 +127,8 @@
           '<div class="cart-line-body">' +
             '<p class="cart-line-name">' + p.name + '</p>' +
             '<p class="cart-line-price">' + money(p.price) + '</p>' +
-            '<div class="cart-qty">' +
-              '<button class="cart-qty-btn" type="button" data-cart-act="dec" data-id="' + x.id + '" aria-label="Decrease quantity">–</button>' +
-              '<span class="cart-qty-n" aria-label="Quantity">' + x.qty + '</span>' +
-              '<button class="cart-qty-btn" type="button" data-cart-act="inc" data-id="' + x.id + '" aria-label="Increase quantity">+</button>' +
+            '<div class="cart-line-actions">' +
+              '<span class="cart-line-oneofakind">One of a kind</span>' +
               '<button class="cart-remove" type="button" data-cart-act="remove" data-id="' + x.id + '">Remove</button>' +
             '</div>' +
           '</div>' +

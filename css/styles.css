@@ -1570,6 +1570,11 @@ body.cart-open { overflow: hidden; }
   .cart-qty-btn:hover { background: var(--rose-soft); }
 }
 
+/* One-of-a-kind: items already in the basket (max one each). */
+.catalog-buy.in-cart { background: var(--white); color: var(--clay-deep); border-color: var(--clay); }
+.cart-line-actions { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; margin-top: 0.3rem; }
+.cart-line-oneofakind { font-size: 0.78rem; font-style: italic; color: var(--ink-soft); }
+
 /* Sold-out (one-of-a-kind) — set soldOut:true on a PRODUCTS entry. */
 .catalog-media { position: relative; }
 .sold-badge {
