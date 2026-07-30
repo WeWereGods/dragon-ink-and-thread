@@ -22,7 +22,7 @@
 const PRICES = {
   "tote-sunflower":      { name: "Sunflower Tote",          amount: 4500 },
   "tote-mushroom":       { name: "Mushroom Tote",           amount: 2500 },
-  "tote-mustard-floral": { name: "Mustard Rose Tote",       amount: 2000 },
+  "tote-mustard-floral": { name: "Cottage Rose Tote",       amount: 2000 },
   "tote-blue-rose":      { name: "Blue Rose Mini Tote",     amount: 2000 },
   "tote-butterfly":      { name: "Butterfly Tote",          amount: 3800 },
   "tote-strawberry-v2":  { name: "Strawberry Tote",         amount: 3500 },

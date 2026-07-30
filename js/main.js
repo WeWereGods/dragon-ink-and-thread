@@ -255,7 +255,7 @@
   var PRODUCTS = {
     "tote-sunflower":     { name: "Sunflower Tote",     price: 45.0, art: "🌻" },
     "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄" },
-    "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
+    "tote-mustard-floral":{ name: "Cottage Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
     "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 4.0, art: "🦋" },
