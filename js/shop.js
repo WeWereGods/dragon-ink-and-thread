@@ -67,16 +67,19 @@
   function itemCard(id) {
     var p = PRODUCTS[id], v = VARIANTS[id] || {};
     if (!p) return "";
-    var img = (v.images && v.images[0]) || "";
+    var imgs = (v.images && v.images.length) ? v.images : [];
+    var img = imgs[0] || "";
     var alt = esc(v.alt || p.name);
     var sold = !!p.soldOut;
+    var multi = imgs.length > 1;
     return (
-      '<article class="catalog-item' + (sold ? " is-soldout" : "") + '">' +
-        '<div class="catalog-media">' +
+      '<article class="catalog-item' + (sold ? " is-soldout" : "") + '" data-id="' + esc(id) + '">' +
+        '<div class="catalog-media' + (multi ? " has-gallery" : "") + '">' +
           '<img class="catalog-photo" src="' + esc(img) + '" alt="' + alt + '" loading="lazy" decoding="async" ' +
             "onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\" />" +
           '<div class="placeholder placeholder-product" style="display:none;"><span>' + (p.art || "🧵") + "</span></div>" +
           (sold ? '<span class="sold-badge">Sold</span>' : "") +
+          (multi ? '<span class="gallery-hint">⤢ ' + imgs.length + " photos</span>" : "") +
         "</div>" +
         '<div class="catalog-body">' +
           '<h3 class="catalog-name">' + esc(p.name) + "</h3>" +
@@ -107,4 +110,63 @@
   /* Add-to-cart clicks are handled by js/cart.js (delegated on
      [data-cart-add]) — the item goes into the cart drawer, and checkout
      creates a multi-item Stripe Checkout Session via the Cloudflare Worker. */
+
+  /* ----- photo gallery: double-click a catalog photo to view larger and
+     arrow/scroll through that item's other photos ----- */
+  var gb, gImg, gCounter, gPrev, gNext, gImages = [], gIndex = 0, gAlt = "";
+  function buildGallery() {
+    gb = document.createElement("div");
+    gb.className = "gallery-lightbox";
+    gb.hidden = true;
+    gb.innerHTML =
+      '<button class="gallery-close" type="button" aria-label="Close photos">&times;</button>' +
+      '<button class="gallery-nav gallery-prev" type="button" aria-label="Previous photo">&#8249;</button>' +
+      '<figure class="gallery-stage"><img class="gallery-img" src="" alt="" /></figure>' +
+      '<button class="gallery-nav gallery-next" type="button" aria-label="Next photo">&#8250;</button>' +
+      '<span class="gallery-counter" aria-live="polite"></span>';
+    document.body.appendChild(gb);
+    gImg = gb.querySelector(".gallery-img");
+    gCounter = gb.querySelector(".gallery-counter");
+    gPrev = gb.querySelector(".gallery-prev");
+    gNext = gb.querySelector(".gallery-next");
+    gb.querySelector(".gallery-close").addEventListener("click", closeGallery);
+    gPrev.addEventListener("click", function (e) { e.stopPropagation(); step(-1); });
+    gNext.addEventListener("click", function (e) { e.stopPropagation(); step(1); });
+    gb.addEventListener("click", function (e) {
+      if (e.target === gb || (e.target.classList && e.target.classList.contains("gallery-stage"))) closeGallery();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (gb.hidden) return;
+      if (e.key === "Escape") closeGallery();
+      else if (e.key === "ArrowLeft") step(-1);
+      else if (e.key === "ArrowRight") step(1);
+    });
+  }
+  function showGalleryImage() {
+    gImg.src = gImages[gIndex];
+    gImg.alt = gAlt + " — photo " + (gIndex + 1) + " of " + gImages.length;
+    var multi = gImages.length > 1;
+    gCounter.textContent = (gIndex + 1) + " / " + gImages.length;
+    gPrev.style.display = multi ? "" : "none";
+    gNext.style.display = multi ? "" : "none";
+    gCounter.style.display = multi ? "" : "none";
+  }
+  function step(d) { gIndex = (gIndex + d + gImages.length) % gImages.length; showGalleryImage(); }
+  function closeGallery() { if (gb) { gb.hidden = true; document.body.classList.remove("gallery-open"); } }
+
+  document.addEventListener("dblclick", function (e) {
+    var photo = e.target.closest && e.target.closest(".catalog-photo");
+    if (!photo) return;
+    var art = photo.closest(".catalog-item");
+    var id = art && art.getAttribute("data-id");
+    var v = (id && VARIANTS[id]) || {};
+    var imgs = (v.images && v.images.length) ? v.images : (photo.getAttribute("src") ? [photo.getAttribute("src")] : []);
+    if (!imgs.length) return;
+    e.preventDefault();
+    if (!gb) buildGallery();
+    gImages = imgs; gIndex = 0; gAlt = (id && PRODUCTS[id] && PRODUCTS[id].name) || "";
+    showGalleryImage();
+    gb.hidden = false;
+    document.body.classList.add("gallery-open");
+  });
 })();

@@ -27,6 +27,7 @@ window.DIT_SHOP = {
     "tote-mustard-floral":{ name: "Mustard Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
+    "tote-strawberry-v2": { name: "Strawberry Tote",    price: 35.0, art: "🍓" },
     "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 4.0, art: "🦋" },
     "scrunchie-cherry-blossom": { name: "Cherry Blossom Scrunchie",  price: 4.0, art: "🌸" },
     "scrunchie-cherry":         { name: "Cherry Scrunchie",          price: 4.0, art: "🍒" },
@@ -73,6 +74,12 @@ window.DIT_SHOP = {
       blurb: "Lily-of-the-valley and soft pink butterflies scattered across warm cream — a spring meadow you can carry. Fully lined, with a handy front pocket.",
       details: "7″ × 6″ × 12″ · 11″ strap drop · front pocket 5″ × 9″ · fully lined · spot clean. Made to order — please allow 5–10 business days.",
       images: ["assets/tote-butterfly.jpg", "assets/tote-butterfly-2.jpg", "assets/tote-butterfly-inside.jpg"]
+    },
+    "tote-strawberry-v2": {
+      alt: "Handmade knot-style tote in a wild strawberry and vine print on cream",
+      blurb: "A knot-style tote tumbling with wild strawberries and trailing green vines on cream — roomy, slouchy, and just right for carrying your current read and everything else.",
+      details: "Japanese knot-style tote · fully lined · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-strawberry-v2.jpg", "assets/tote-strawberry-v2-2.jpg", "assets/tote-strawberry-v2-3.jpg", "assets/tote-strawberry-v2-4.jpg"]
     },
     "scrunchie-butterfly": {
       alt: "Handmade scrunchie in a cream butterfly print",
@@ -169,6 +176,9 @@ window.DIT_SHOP = {
     "tote-mustard-floral": "https://buy.stripe.com/00w3cvetQ1MlbFw99nfjG07",
     "tote-blue-rose":      "https://buy.stripe.com/aFa5kD99w9eN9xo4T7fjG08",
     "tote-butterfly":      "https://buy.stripe.com/dRmeVd5XkgHfcJA2KZfjG09",
+    // Post-cart items: LINKS is now just an availability flag (checkout runs
+    // through the cart + Worker, not these links), so new items use "cart".
+    "tote-strawberry-v2":  "cart",
     "scrunchie-butterfly":      "https://buy.stripe.com/3cIaEX71o9eNdNE4T7fjG0f",
     "scrunchie-cherry-blossom": "https://buy.stripe.com/4gM5kDfxU8aJ3902KZfjG0g",
     "scrunchie-cherry":         "https://buy.stripe.com/cNi6oHfxUfDb5h8etHfjG0h",
@@ -188,7 +198,7 @@ window.DIT_SHOP = {
   /* Order + grouping shown on the full catalog page (shop.html). */
   CATALOG: [
     { label: "Totes",      note: "Roomy, made-to-order, and built to carry a hardback and everything else.",
-      ids: ["tote-sunflower", "tote-mushroom", "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
+      ids: ["tote-strawberry-v2", "tote-sunflower", "tote-mushroom", "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
     { label: "Scrunchies", note: "Soft, springy, gentle on hair — pick a print, or build your own trio.",
       ids: ["scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry", "scrunchie-orange-kitty",
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower", "scrunchie-strawberry",

@@ -25,6 +25,7 @@ const PRICES = {
   "tote-mustard-floral": { name: "Mustard Rose Tote",       amount: 2000 },
   "tote-blue-rose":      { name: "Blue Rose Mini Tote",     amount: 2000 },
   "tote-butterfly":      { name: "Butterfly Tote",          amount: 3800 },
+  "tote-strawberry-v2":  { name: "Strawberry Tote",         amount: 3500 },
   "scrunchie-butterfly":       { name: "Butterfly Scrunchie",       amount: 400 },
   "scrunchie-cherry-blossom":  { name: "Cherry Blossom Scrunchie",  amount: 400 },
   "scrunchie-cherry":          { name: "Cherry Scrunchie",          amount: 400 },
