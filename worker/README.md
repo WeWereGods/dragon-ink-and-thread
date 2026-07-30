@@ -62,3 +62,35 @@ override it. When you add/retire an item or change a price in
 
 Any change to `checkout-worker.js` → re-run `wrangler deploy`. The URL stays
 the same, so nothing on the site needs to change.
+
+## Sale notifications (Pushover) — get a phone push when something sells
+
+The Worker can push a notification to your phone on each completed order
+(item names + amount) via **Pushover**. One-time setup:
+
+1. **Pushover app + keys.** Install **Pushover** (iOS/Android — 30-day free
+   trial, then a one-time ~$5). Sign up, and from the app or
+   [pushover.net](https://pushover.net) copy your **User Key**.
+2. **Create a Pushover application.** On pushover.net → *Create an
+   Application/API Token* (name it e.g. "Dragon Ink Orders") → copy its
+   **API Token**.
+3. **Add the Stripe webhook.** Stripe Dashboard → **Developers → Webhooks →
+   Add endpoint**:
+   - Endpoint URL: `https://dit-checkout.dragoninkandthread.workers.dev/webhook`
+   - Events to send: **`checkout.session.completed`**
+   - After creating it, click the endpoint → **reveal the Signing secret**
+     (starts with `whsec_…`) and copy it.
+4. **Store the three secrets** (from inside this `worker/` folder):
+   ```bash
+   wrangler secret put PUSHOVER_TOKEN          # paste the API Token
+   wrangler secret put PUSHOVER_USER           # paste the User Key
+   wrangler secret put STRIPE_WEBHOOK_SECRET   # paste the whsec_… signing secret
+   ```
+5. **Deploy:** `wrangler deploy`.
+6. **Test:** in the Stripe webhook page, click **Send test webhook →
+   `checkout.session.completed`**, or make a real test purchase. You should get
+   a Pushover push within a second or two.
+
+Notes: the push says what sold, the total, and pickup-vs-shipping. The webhook
+signature is verified, so only Stripe can trigger it. If the Pushover secrets
+aren't set, checkout still works fine — you just won't get the push.

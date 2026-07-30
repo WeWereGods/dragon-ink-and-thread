@@ -65,8 +65,14 @@ function json(obj, status, origin) {
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
     const origin = request.headers.get("Origin") || "";
+
+    // Stripe webhook (checkout.session.completed) → Pushover push.
+    if (request.method === "POST" && url.pathname === "/webhook") {
+      return handleWebhook(request, env, ctx);
+    }
 
     if (request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: corsHeaders(origin) });
@@ -131,3 +137,87 @@ export default {
     return json({ url: data.url }, 200, origin);
   },
 };
+
+/* ---- Sale notifications: Stripe webhook → Pushover push ----------------
+   Stripe POSTs a signed "checkout.session.completed" event to /webhook.
+   We verify the signature (STRIPE_WEBHOOK_SECRET), then push the item(s) +
+   amount to your phone via Pushover (PUSHOVER_TOKEN + PUSHOVER_USER).
+   All three are Worker secrets — see worker/README.md. */
+async function handleWebhook(request, env, ctx) {
+  if (!env.STRIPE_WEBHOOK_SECRET) return new Response("Webhook not configured", { status: 500 });
+  const payload = await request.text();
+  const sig = request.headers.get("Stripe-Signature") || "";
+  const valid = await verifyStripeSig(payload, sig, env.STRIPE_WEBHOOK_SECRET);
+  if (!valid) return new Response("Invalid signature", { status: 400 });
+
+  let event;
+  try { event = JSON.parse(payload); } catch (e) { return new Response("Bad JSON", { status: 400 }); }
+
+  if (event.type === "checkout.session.completed" && env.PUSHOVER_TOKEN && env.PUSHOVER_USER) {
+    // Send the push in the background so Stripe always gets a fast 200.
+    ctx.waitUntil(notifySale(event.data.object, env));
+  }
+  return new Response("ok", { status: 200 });
+}
+
+async function notifySale(session, env) {
+  // Pull the item names so the push says WHAT sold.
+  let items = "New order";
+  try {
+    const r = await fetch(
+      "https://api.stripe.com/v1/checkout/sessions/" + session.id + "/line_items?limit=20",
+      { headers: { "Authorization": "Bearer " + env.STRIPE_SECRET_KEY } }
+    );
+    const d = await r.json();
+    if (d && Array.isArray(d.data) && d.data.length) {
+      items = d.data.map(function (li) {
+        return (li.quantity > 1 ? li.quantity + "× " : "") + (li.description || "item");
+      }).join(", ");
+    }
+  } catch (e) { /* fall back to "New order" */ }
+
+  const amount = ((session.amount_total || 0) / 100).toFixed(2);
+  const ship = session.shipping_cost;
+  const fulfil = ship ? (ship.amount_total === 0 ? "📍 Local pickup" : "📦 Shipping") : "";
+  const email = (session.customer_details && session.customer_details.email) || "";
+
+  let message = items + " — $" + amount;
+  if (fulfil) message += "\n" + fulfil;
+  if (email) message += "\n" + email;
+
+  await fetch("https://api.pushover.net/1/messages.json", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      token: env.PUSHOVER_TOKEN,
+      user: env.PUSHOVER_USER,
+      title: "New order! 🎉 Dragon Ink and Thread",
+      message: message,
+    }).toString(),
+  });
+}
+
+// Verify Stripe's webhook signature (HMAC-SHA256) with Web Crypto.
+async function verifyStripeSig(payload, header, secret) {
+  const parts = {};
+  header.split(",").forEach(function (p) {
+    const i = p.indexOf("=");
+    if (i > 0) parts[p.slice(0, i).trim()] = p.slice(i + 1).trim();
+  });
+  const t = parts.t, v1 = parts.v1;
+  if (!t || !v1) return false;
+  // Reject stale timestamps (>5 min) to prevent replay.
+  if (Math.abs(Math.floor(Date.now() / 1000) - parseInt(t, 10)) > 300) return false;
+  const enc = new TextEncoder();
+  const key = await crypto.subtle.importKey("raw", enc.encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const mac = await crypto.subtle.sign("HMAC", key, enc.encode(t + "." + payload));
+  const expected = Array.from(new Uint8Array(mac)).map(function (b) { return b.toString(16).padStart(2, "0"); }).join("");
+  return timingSafeEqualHex(expected, v1);
+}
+
+function timingSafeEqualHex(a, b) {
+  if (a.length !== b.length) return false;
+  let r = 0;
+  for (let i = 0; i < a.length; i++) r |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return r === 0;
+}
