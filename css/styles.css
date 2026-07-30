@@ -451,6 +451,14 @@ h3 { font-size: 1.4rem; }
 .hero-badges { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; margin: 1.9rem 0 0; }
 /* Badges relocated below the gingham hero onto the wallpaper. */
 .post-hero-badges { margin: clamp(1.5rem, 4vw, 2.4rem) auto clamp(0.4rem, 2vw, 0.9rem); }
+
+/* Brand seal — basket ringed with curved text (Handmade in San Antonio ·
+   Proudly Veteran-Owned). */
+.brand-seal-wrap { text-align: center; margin: clamp(1.6rem, 4vw, 2.6rem) auto clamp(0.6rem, 2vw, 1rem); }
+.brand-seal { width: clamp(180px, 42vw, 240px); height: auto; display: inline-block; }
+.seal-ring { fill: none; stroke: var(--honey); stroke-width: 1.4; }
+.seal-dot { fill: var(--honey-deep); }
+.seal-text { font-family: var(--font-body); font-weight: 700; font-size: 14px; letter-spacing: 2.5px; fill: var(--honey-deep); }
 .badge-vet { color: var(--teal-deep); border-color: var(--teal); }
 
 .hero-glow {
@@ -1060,10 +1068,14 @@ h3 { font-size: 1.4rem; }
 
 .product-note {
   text-align: center;
-  margin-top: 2rem;
-  color: var(--ink-soft);
-  font-family: var(--font-script);
-  font-size: 1.35rem;
+  margin: 2rem auto 0;
+  max-width: 660px;
+  color: var(--ink);
+  /* Caveat (legible handwriting) rather than the swirly Great Vibes, and
+     larger, so this longer line reads easily while staying cursive. */
+  font-family: "Caveat", var(--font-script);
+  font-size: clamp(1.5rem, 3.2vw, 2rem);
+  line-height: 1.35;
 }
 
 /* Join the Nest signup -------------------------------------- */
