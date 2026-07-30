@@ -26,21 +26,47 @@ const PRICES = {
   "tote-blue-rose":      { name: "Blue Rose Mini Tote",     amount: 2000 },
   "tote-butterfly":      { name: "Butterfly Tote",          amount: 3800 },
   "tote-strawberry-v2":  { name: "Strawberry Tote",         amount: 3500 },
-  "scrunchie-butterfly":       { name: "Butterfly Scrunchie",       amount: 400 },
-  "scrunchie-cherry-blossom":  { name: "Cherry Blossom Scrunchie",  amount: 400 },
-  "scrunchie-cherry":          { name: "Cherry Scrunchie",          amount: 400 },
-  "scrunchie-orange-kitty":    { name: "Orange Kitty Scrunchie",    amount: 400 },
-  "scrunchie-pink-bumble-bee": { name: "Pink Bumble Bee Scrunchie", amount: 400 },
-  "scrunchie-pretty-in-pink":  { name: "Pretty in Pink Scrunchie",  amount: 400 },
-  "scrunchie-wildflower":      { name: "Wildflower Scrunchie",      amount: 400 },
-  "scrunchie-strawberry":      { name: "Strawberry Scrunchie",      amount: 400 },
-  "scrunchie-bundle":          { name: "Scrunchie Bundle (3)",      amount: 900 },
-  "scrunchie-byo-bundle":      { name: "Build Your Own Bundle",     amount: 900 },
+  "scrunchie-butterfly":       { name: "Butterfly Scrunchie",       amount: 600, maxQty: 3 },
+  "scrunchie-cherry-blossom":  { name: "Cherry Blossom Scrunchie",  amount: 600, maxQty: 3 },
+  "scrunchie-cherry":          { name: "Cherry Scrunchie",          amount: 600, maxQty: 3 },
+  "scrunchie-orange-kitty":    { name: "Orange Kitty Scrunchie",    amount: 600, maxQty: 3 },
+  "scrunchie-pink-bumble-bee": { name: "Pink Bumble Bee Scrunchie", amount: 600, maxQty: 3 },
+  "scrunchie-pretty-in-pink":  { name: "Pretty in Pink Scrunchie",  amount: 600, maxQty: 3 },
+  "scrunchie-wildflower":      { name: "Wildflower Scrunchie",      amount: 600, maxQty: 3 },
+  "scrunchie-strawberry":      { name: "Strawberry Scrunchie",      amount: 600, maxQty: 3 },
+  "scrunchie-bundle":          { name: "Scrunchie Bundle (3)",      amount: 1500, maxQty: 3 },
+  "scrunchie-byo-bundle":      { name: "Build Your Own Bundle",     amount: 1500, picks: 3 },
   "bow-sage":         { name: "Sage Bow",         amount: 1000 },
   "bow-gingham":      { name: "Gingham Bow",      amount: 1000 },
   "bow-sage-gingham": { name: "Sage Gingham Bow", amount: 1000 },
   "bow-blue-rose":    { name: "Blue Rose Bow",    amount: 1000 },
 };
+
+/* Prints a "Build Your Own Bundle" may be built from: id → the short label
+   used in the line-item name. MIRRORS BYO_PRINTS in js/shop-data.js. Anything
+   not on this list is rejected, so a tampered request can't smuggle in a tote
+   as a "print" or invent one. */
+const PICKABLE = {
+  "scrunchie-butterfly":       "Butterfly",
+  "scrunchie-cherry-blossom":  "Cherry Blossom",
+  "scrunchie-cherry":          "Cherry",
+  "scrunchie-orange-kitty":    "Orange Kitty",
+  "scrunchie-pink-bumble-bee": "Pink Bumble Bee",
+  "scrunchie-pretty-in-pink":  "Pretty in Pink",
+  "scrunchie-wildflower":      "Wildflower",
+  "scrunchie-strawberry":      "Strawberry",
+};
+
+/* Shipping, in CENTS. One fee per order (never per item).
+     SHIP_STANDARD  — the order has a tote, so it needs a real mailer.
+     SHIP_SMALL     — scrunchies/bows only; fits a small poly mailer, so a
+                      $6.50 fee on a $6 scrunchie stops looking absurd.
+     FREE_SHIP_OVER — spend this much (before tax) and shipping is free.
+                      Set to 0 to switch the free-shipping threshold off.
+   Local pickup (San Antonio) is always $0 and is offered on every order. */
+const SHIP_STANDARD  = 650;
+const SHIP_SMALL     = 450;
+const FREE_SHIP_OVER = 5000;
 
 // Where the site lives — used for success/cancel redirects and CORS.
 const SHOP_ORIGIN = "https://www.dragoninkandthread.com";
@@ -91,16 +117,38 @@ export default {
     // Build server-priced line items (ignore any client-sent prices).
     const params = new URLSearchParams();
     let n = 0;
+    let subtotal = 0;    // cents, pre-tax — decides the free-shipping threshold
+    let hasTote = false; // a tote needs the bigger (dearer) mailer
     for (const it of items) {
       const p = PRICES[it && it.id];
       if (!p) continue;
-      // One of a kind — never sell more than one of an item per order.
-      let qty = 1;
+
+      // How many of this item may one order hold? maxQty defaults to 1, which
+      // keeps every one-of-a-kind piece (totes, bows) unable to be double-sold.
+      const asked = parseInt(it && it.qty, 10);
+      let qty = Math.min(asked > 0 ? asked : 1, p.maxQty || 1);
+
+      // "Build your own" items carry the shopper's chosen prints. Fold them into
+      // the line-item NAME so they land on the Stripe receipt and in the Pushover
+      // sale alert — otherwise the order arrives with nothing to sew from.
+      let name = p.name;
+      if (p.picks) {
+        const chosen = Array.isArray(it.picks) ? it.picks : [];
+        const labels = chosen.filter((c) => PICKABLE[c]).map((c) => PICKABLE[c]);
+        if (labels.length !== p.picks) {
+          return json({ error: `Please choose your ${p.picks} scrunchie prints.` }, 400, origin);
+        }
+        name += " — " + labels.join(", ");
+        qty = 1; // one line = one set of picks
+      }
+
+      subtotal += p.amount * qty;
+      if (String(it.id).indexOf("tote-") === 0) hasTote = true;
       params.append(`line_items[${n}][quantity]`, String(qty));
       params.append(`line_items[${n}][price_data][currency]`, "usd");
       params.append(`line_items[${n}][price_data][unit_amount]`, String(p.amount));
       params.append(`line_items[${n}][price_data][tax_behavior]`, "exclusive");
-      params.append(`line_items[${n}][price_data][product_data][name]`, p.name);
+      params.append(`line_items[${n}][price_data][product_data][name]`, name);
       n++;
     }
     if (n === 0) return json({ error: "Your cart is empty." }, 400, origin);
@@ -112,10 +160,17 @@ export default {
     params.append("automatic_tax[enabled]", "true");          // needs Stripe Tax enabled
     params.append("billing_address_collection", "auto");
     params.append("shipping_address_collection[allowed_countries][0]", "US");
-    // One shipping fee per order + the local-pickup option (matches your links).
-    params.append("shipping_options[0][shipping_rate_data][display_name]", "Standard shipping");
+    // One shipping fee per order + the local-pickup option. The fee depends on
+    // what's in the cart (see the SHIP_* constants at the top of this file).
+    let shipAmount = hasTote ? SHIP_STANDARD : SHIP_SMALL;
+    let shipLabel = "Standard shipping";
+    if (FREE_SHIP_OVER > 0 && subtotal >= FREE_SHIP_OVER) {
+      shipAmount = 0;
+      shipLabel = "Free shipping";
+    }
+    params.append("shipping_options[0][shipping_rate_data][display_name]", shipLabel);
     params.append("shipping_options[0][shipping_rate_data][type]", "fixed_amount");
-    params.append("shipping_options[0][shipping_rate_data][fixed_amount][amount]", "650");
+    params.append("shipping_options[0][shipping_rate_data][fixed_amount][amount]", String(shipAmount));
     params.append("shipping_options[0][shipping_rate_data][fixed_amount][currency]", "usd");
     params.append("shipping_options[1][shipping_rate_data][display_name]", "Local pickup (San Antonio)");
     params.append("shipping_options[1][shipping_rate_data][type]", "fixed_amount");

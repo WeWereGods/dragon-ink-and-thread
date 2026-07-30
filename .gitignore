@@ -63,3 +63,6 @@ assets/462327FE-7FD1-4A8E-94BC-BE2624AAB224.jpg
 
 # Local Claude launch config
 .claude/
+
+# Wrangler local build cache (created by `wrangler deploy`)
+worker/.wrangler/

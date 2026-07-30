@@ -1590,6 +1590,32 @@ body.cart-open { overflow: hidden; }
 .catalog-buy.in-cart { background: var(--white); color: var(--clay-deep); border-color: var(--clay); }
 .cart-line-actions { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; margin-top: 0.3rem; }
 .cart-line-oneofakind { font-size: 0.78rem; font-style: italic; color: var(--ink-soft); }
+/* Chosen prints on a Build Your Own Bundle line. */
+.cart-line-picks { margin: 0 0 0.25rem; font-size: 0.8rem; font-style: italic; color: var(--teal-deep); }
+.cart-line-each { font-size: 0.8rem; color: var(--ink-soft); }
+
+/* Quantity stepper — only on items whose maxQty is above 1 (scrunchies). */
+.cart-qty { display: inline-flex; align-items: center; gap: 0.15rem; }
+.cart-qty-btn {
+  width: 26px; height: 26px; line-height: 1; cursor: pointer;
+  border: 1px solid var(--paper-deep); border-radius: 8px;
+  background: var(--white); color: var(--ink); font-size: 1rem;
+}
+.cart-qty-btn:disabled { opacity: 0.35; cursor: default; }
+@media (hover: hover) { .cart-qty-btn:not(:disabled):hover { border-color: var(--teal); color: var(--teal-deep); } }
+.cart-qty-n { min-width: 1.6rem; text-align: center; font-weight: 700; font-size: 0.9rem; }
+
+/* Print pickers on a "Build Your Own Bundle" catalog card. */
+.byo-picks { display: grid; gap: 0.4rem; margin: 0 0 0.7rem; text-align: left; }
+.byo-row { display: flex; align-items: center; gap: 0.5rem; }
+.byo-label { flex: 0 0 3.6rem; font-size: 0.78rem; color: var(--ink-soft); }
+.byo-select {
+  flex: 1; min-width: 0; padding: 0.34rem 0.5rem;
+  border: 1px solid var(--paper-deep); border-radius: 8px;
+  background: var(--white); color: var(--ink);
+  font-family: inherit; font-size: 0.84rem;
+}
+.byo-select:focus-visible { outline: 2px solid var(--teal); outline-offset: 1px; }
 
 /* Sold-out (one-of-a-kind) — set soldOut:true on a PRODUCTS entry. */
 .catalog-media { position: relative; }

@@ -10,6 +10,7 @@
   var VARIANTS = SHOP.VARIANTS || {};
   var LINKS = SHOP.LINKS || {};
   var CATALOG = SHOP.CATALOG || [];
+  var BYO_PRINTS = SHOP.BYO_PRINTS || [];
   var SHOP_OPENS = new Date(SHOP.SHOP_OPENS || "2026-08-15T09:00:00-05:00").getTime();
   var shopOpen = Date.now() >= SHOP_OPENS;
 
@@ -55,12 +56,40 @@
   }
 
   /* ----- render the catalog grid ----- */
+  var printName = function (pid) { return (PRODUCTS[pid] && PRODUCTS[pid].name) || pid; };
+
+  /* "Build your own" cards get one <select> per pick. The chosen ids are
+     mirrored onto the Add-to-cart button's data-cart-picks attribute, which is
+     what js/cart.js reads — so the basket always knows which prints to sew. */
+  function pickerMarkup(id, count) {
+    var rows = "";
+    for (var i = 0; i < count; i++) {
+      var def = BYO_PRINTS[i] || BYO_PRINTS[0] || "";
+      var opts = BYO_PRINTS.map(function (pid) {
+        return '<option value="' + esc(pid) + '"' + (pid === def ? " selected" : "") + ">" + esc(printName(pid)) + "</option>";
+      }).join("");
+      rows +=
+        '<label class="byo-row">' +
+          '<span class="byo-label">Print ' + (i + 1) + "</span>" +
+          '<select class="byo-select" data-byo-for="' + esc(id) + '">' + opts + "</select>" +
+        "</label>";
+    }
+    return '<div class="byo-picks" data-byo-picks="' + esc(id) + '">' + rows + "</div>";
+  }
+
   function buyMarkup(id) {
     var p = PRODUCTS[id];
     if (p && p.soldOut) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Sold out</button>';
     var link = LINKS[id];
     if (!link) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Coming soon</button>';
     if (!shopOpen) return '<button class="btn btn-primary catalog-buy" disabled>Opens August 15</button>';
+    if (p && p.picks && BYO_PRINTS.length) {
+      // Pre-select the first N prints so the button works without touching it.
+      var defaults = BYO_PRINTS.slice(0, p.picks).join(",");
+      return pickerMarkup(id, p.picks) +
+        '<button class="btn btn-primary catalog-buy" type="button" data-cart-add="' + id +
+        '" data-cart-picks="' + esc(defaults) + '">Add to cart</button>';
+    }
     return '<button class="btn btn-primary catalog-buy" type="button" data-cart-add="' + id + '">Add to cart</button>';
   }
 
@@ -110,6 +139,20 @@
   /* Add-to-cart clicks are handled by js/cart.js (delegated on
      [data-cart-add]) — the item goes into the cart drawer, and checkout
      creates a multi-item Stripe Checkout Session via the Cloudflare Worker. */
+
+  /* Keep the Add-to-cart button (and the basket, if the bundle is already in
+     it) in step with the print pickers. */
+  document.addEventListener("change", function (e) {
+    var sel = e.target.closest && e.target.closest(".byo-select");
+    if (!sel) return;
+    var id = sel.getAttribute("data-byo-for");
+    var wrap = document.querySelector('[data-byo-picks="' + id + '"]');
+    var btn = document.querySelector('[data-cart-add="' + id + '"]');
+    if (!wrap || !btn) return;
+    var picks = Array.prototype.map.call(wrap.querySelectorAll(".byo-select"), function (s) { return s.value; });
+    btn.setAttribute("data-cart-picks", picks.join(","));
+    if (window.DIT_CART && window.DIT_CART.setPicks) window.DIT_CART.setPicks(id, picks);
+  });
 
   /* ----- photo gallery: double-click a catalog photo to view larger and
      arrow/scroll through that item's other photos ----- */

@@ -3,10 +3,24 @@
    (shop.html → js/shop.js) so product info + Stripe links never drift.
 
    To add / edit a product: change it HERE.
-     - PRODUCTS: name + price + emoji fallback (+ optional `soldOut: true`)
+     - PRODUCTS: name + price + emoji fallback (+ optional `soldOut: true`,
+                 `maxQty: N`, `picks: N`)
      - VARIANTS: alt text, blurb, details, photo(s)
      - LINKS:    the item's live Stripe Payment Link (omit = "Coming soon")
      - CATALOG:  the order + grouping shown on the catalog page
+     - BYO_PRINTS: which prints "Build Your Own Bundle" may be built from
+
+   QUANTITIES: `maxQty` is how many of one item a single order may contain.
+   **It defaults to 1** — totes and bows are one-of-a-kind, so leaving it off is
+   the safe choice. Scrunchies are sewn from yardage and can be remade, so they
+   carry `maxQty: 3`. The Worker enforces this again server-side; changing it
+   here alone does nothing to what a customer can actually buy.
+
+   BUILD YOUR OWN BUNDLE: `picks: 3` means "the shopper chooses 3 prints from
+   BYO_PRINTS before this can go in the basket". The chosen prints ride along in
+   the cart, get validated by the Worker, and end up in the Stripe line-item name
+   (so they appear on the receipt AND in the Pushover sale alert — that's how you
+   know what to sew). `maxQty` stays 1 on it: one line = one set of picks.
 
    SOLD OUT (one-of-a-kind pieces): add `soldOut: true` to a PRODUCTS entry —
    its catalog card shows a "Sold" badge, the button reads "Sold out" (can't be
@@ -28,16 +42,16 @@ window.DIT_SHOP = {
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
     "tote-strawberry-v2": { name: "Strawberry Tote",    price: 35.0, art: "🍓" },
-    "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 4.0, art: "🦋" },
-    "scrunchie-cherry-blossom": { name: "Cherry Blossom Scrunchie",  price: 4.0, art: "🌸" },
-    "scrunchie-cherry":         { name: "Cherry Scrunchie",          price: 4.0, art: "🍒" },
-    "scrunchie-orange-kitty":   { name: "Orange Kitty Scrunchie",    price: 4.0, art: "🐱" },
-    "scrunchie-pink-bumble-bee":{ name: "Pink Bumble Bee Scrunchie", price: 4.0, art: "🐝" },
-    "scrunchie-pretty-in-pink": { name: "Pretty in Pink Scrunchie",  price: 4.0, art: "🎀" },
-    "scrunchie-wildflower":     { name: "Wildflower Scrunchie",      price: 4.0, art: "🌼" },
-    "scrunchie-strawberry":     { name: "Strawberry Scrunchie",      price: 4.0, art: "🍓" },
-    "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 9.0, art: "🎀" },
-    "scrunchie-byo-bundle":     { name: "Build Your Own Bundle",     price: 9.0, art: "🎀" },
+    "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 6.0, art: "🦋", maxQty: 3 },
+    "scrunchie-cherry-blossom": { name: "Cherry Blossom Scrunchie",  price: 6.0, art: "🌸", maxQty: 3 },
+    "scrunchie-cherry":         { name: "Cherry Scrunchie",          price: 6.0, art: "🍒", maxQty: 3 },
+    "scrunchie-orange-kitty":   { name: "Orange Kitty Scrunchie",    price: 6.0, art: "🐱", maxQty: 3 },
+    "scrunchie-pink-bumble-bee":{ name: "Pink Bumble Bee Scrunchie", price: 6.0, art: "🐝", maxQty: 3 },
+    "scrunchie-pretty-in-pink": { name: "Pretty in Pink Scrunchie",  price: 6.0, art: "🎀", maxQty: 3 },
+    "scrunchie-wildflower":     { name: "Wildflower Scrunchie",      price: 6.0, art: "🌼", maxQty: 3 },
+    "scrunchie-strawberry":     { name: "Strawberry Scrunchie",      price: 6.0, art: "🍓", maxQty: 3 },
+    "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 15.0, art: "🎀", maxQty: 3 },
+    "scrunchie-byo-bundle":     { name: "Build Your Own Bundle",     price: 15.0, art: "🎀", picks: 3 },
     "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️" },
     "bow-gingham":      { name: "Gingham Bow",      price: 10.0, art: "🎀" },
     "bow-sage-gingham": { name: "Sage Gingham Bow", price: 10.0, art: "🎀" },
@@ -138,7 +152,7 @@ window.DIT_SHOP = {
     "scrunchie-byo-bundle": {
       alt: "Three handmade scrunchies in a build-your-own bundle",
       blurb: "Can't pick just one print? Choose any three of our scrunchie prints and we'll bundle them together — same sweet trio price, your choice of prints, one shipping.",
-      details: "Pick your 3 prints at checkout · one size each · hand wash, lay flat to dry.",
+      details: "Choose your 3 prints below · one size each · hand wash, lay flat to dry.",
       images: ["assets/scrunchie-bundle.jpg"]
     },
     "bow-sage": {
@@ -194,6 +208,16 @@ window.DIT_SHOP = {
     "bow-sage-gingham": "https://buy.stripe.com/cNi7sL3Pc1MldNEbhvfjG0d",
     "bow-blue-rose":    "https://buy.stripe.com/eVqaEX0D0fDbdNE4T7fjG0e"
   },
+
+  /* Prints a "Build Your Own Bundle" can be built from — the options in the
+     three pickers on that card. Ids must exist in PRODUCTS. The Worker keeps
+     its own copy of this list (PICKABLE) and rejects anything not on it, so
+     add a print in BOTH places or it can't be chosen at checkout. */
+  BYO_PRINTS: [
+    "scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry",
+    "scrunchie-orange-kitty", "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink",
+    "scrunchie-wildflower", "scrunchie-strawberry"
+  ],
 
   /* Order + grouping shown on the full catalog page (shop.html). */
   CATALOG: [

@@ -65,11 +65,35 @@ emails/               Marketing email copy (not sent by the site; no platform wi
     **js/shop-data.js**, also update `PRICES` in worker/checkout-worker.js and re-run
     `wrangler deploy` (see **worker/README.md**). The Stripe **secret key** lives only as a Worker
     secret (`wrangler secret put STRIPE_SECRET_KEY`), never in the repo.
-  - The session adds **one shipping fee per order** ($6.50) + a **$0 Local pickup** option,
+  - The session adds **one shipping fee per order** + a **$0 Local pickup** option,
     `automatic_tax` (needs Stripe Tax on), and `allow_promotion_codes` (NEST10). Cart is on
     shop.html only (homepage teaser links there).
-  - **One-of-a-kind (2026-07-30):** cart AND Worker cap qty at **1 per item** (adding a dup just
-    re-opens the drawer; catalog button flips to "In basket ✓"). Set **`soldOut: true`** on a
+  - **Tiered shipping (2026-07-30):** the fee now depends on the cart, set by the
+    `SHIP_STANDARD` / `SHIP_SMALL` / `FREE_SHIP_OVER` constants at the top of
+    worker/checkout-worker.js — **$6.50** if any `tote-*` id is in the cart, **$4.50** for
+    scrunchies/bows only (fits a small mailer), **free** at a subtotal ≥ **$50**
+    (`FREE_SHIP_OVER = 0` turns the threshold off). Local pickup stays $0 on every order.
+    **js/cart.js mirrors these three numbers** (in DOLLARS, not cents) purely to write the
+    drawer's shipping line — including the "Add $X more for free shipping" nudge. The Worker
+    is authoritative; **change both files together or the drawer will lie about the fee.**
+  - **Per-item quantity caps (2026-07-30, was a hard cap of 1):** a product's **`maxQty`** in
+    js/shop-data.js sets how many of it one order may hold; **omitting it means 1**, so totes and
+    bows stay one-of-a-kind. **Scrunchies + both 3-packs carry `maxQty: 3`.** Items above 1 get a
+    **− n +** stepper in the drawer and the catalog button reads "Add another (n)" → "Max 3 in
+    basket ✓"; items at 1 keep "In basket ✓". **The Worker clamps qty to its own `maxQty`** (a
+    tampered `qty: 99` becomes 3, `qty: 5` on a tote becomes 1), so shop-data.js alone changes
+    nothing a customer can actually buy — **update both files and `wrangler deploy`.**
+  - **Build Your Own Bundle picks (fixed 2026-07-30):** the 3 print dropdowns used to live in the
+    Stripe Payment Link, which the cart stopped opening — so for a while the bundle was orderable
+    with **no record of which prints to sew**. Now: **`picks: 3`** on the PRODUCTS entry makes
+    js/shop.js render 3 `<select>`s on that card (options come from the new **`BYO_PRINTS`** list),
+    mirrored onto the button's `data-cart-picks`; js/cart.js stores them on the cart line, shows
+    them under the item, and POSTs them as `picks: [...]`. The Worker validates against its own
+    **`PICKABLE`** map — wrong count, an unknown id, or a smuggled tote all **400** — then folds
+    the names into the Stripe line item ("Build Your Own Bundle — Cherry, Wildflower, Butterfly"),
+    so they reach the receipt **and the Pushover alert**. Adding a print = add it to `BYO_PRINTS`
+    **and** `PICKABLE`. `maxQty` stays 1 on the bundle: one cart line = one set of picks.
+  - **One-of-a-kind:** set **`soldOut: true`** on a
     PRODUCTS entry in js/shop-data.js → dimmed card + "Sold" badge + disabled "Sold out"; cart
     refuses it. **Sunflower Tote is currently soldOut.**
   - **Photo gallery (2026-07-30):** double-click a catalog photo → js/shop.js lightbox that
@@ -99,11 +123,14 @@ emails/               Marketing email copy (not sent by the site; no platform wi
       Blue Rose Mini Tote $20 (`tote-blue-rose`, small 8×4 bag, 3-photo gallery), Butterfly Tote $38
       (`tote-butterfly`, lily-of-the-valley + butterflies, 3-photo gallery). (Strawberry Tote retired
       to the Stories lookbook 2026-07-27.)
-    - **Scrunchies** — 8 prints @ $4 each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
+    - **Scrunchies** — 8 prints @ **$6** each (`scrunchie-butterfly`, `-cherry-blossom`, `-cherry`,
       `-orange-kitty`, `-pink-bumble-bee`, `-pretty-in-pink`, `-wildflower`, `-strawberry`) + a
-      **Bundle of 3** @ $9 (`scrunchie-bundle`, red/cream/navy solids), plus **Build Your Own Bundle**
-      @ $9 (`scrunchie-byo-bundle`, pick any 3 prints — the Stripe link has 3 print dropdowns) as the
-      last two `<option>`s.
+      **Bundle of 3** @ **$15** (`scrunchie-bundle`, red/cream/navy solids), plus **Build Your Own
+      Bundle** @ **$15** (`scrunchie-byo-bundle`, pick any 3 prints) as the last two `<option>`s.
+      **Repriced 2026-07-30** from $4/$9 — $4 was under the handmade market rate ($6–12) and made
+      the flat shipping fee look absurd on a single scrunchie (62% of the order). Changed in
+      js/shop-data.js, `PRICES` in worker/checkout-worker.js, and the scrunchie `AggregateOffer`
+      JSON-LD in index.html.
     - **Bows** $10 each — Sage Bow (`bow-sage`), Gingham Bow (`bow-gingham`, taupe),
       Sage Gingham Bow (`bow-sage-gingham`), Blue Rose Bow (`bow-blue-rose`).
     (Cozys `cozy-bee`/`cozy-daisy` and Blooms `bloom-cream`/`bloom-pink` were retired from the shop

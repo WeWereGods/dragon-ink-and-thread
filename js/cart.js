@@ -13,6 +13,13 @@
      (see worker/README.md). */
   var CHECKOUT_URL = "https://dit-checkout.dragoninkandthread.workers.dev";
 
+  /* Display-only mirror of the Worker's shipping rules — the real fee is set
+     server-side. KEEP IN SYNC with SHIP_STANDARD / SHIP_SMALL / FREE_SHIP_OVER
+     in worker/checkout-worker.js (those are in cents, these are in dollars). */
+  var SHIP_STANDARD  = 6.5;   // order contains a tote
+  var SHIP_SMALL     = 4.5;   // scrunchies/bows only
+  var FREE_SHIP_OVER = 50;    // subtotal at or above this ships free (0 = off)
+
   var SHOP = window.DIT_SHOP || {};
   var PRODUCTS = SHOP.PRODUCTS || {};
   var VARIANTS = SHOP.VARIANTS || {};
@@ -26,19 +33,58 @@
   function find(id) { for (var i = 0; i < cart.length; i++) { if (cart[i].id === id) return cart[i]; } return null; }
   function count() { return cart.reduce(function (s, x) { return s + x.qty; }, 0); }
   function subtotal() { return cart.reduce(function (s, x) { var p = PRODUCTS[x.id]; return s + (p ? p.price : 0) * x.qty; }, 0); }
+  function hasTote() { for (var i = 0; i < cart.length; i++) { if (cart[i].id.indexOf("tote-") === 0) return true; } return false; }
 
-  function add(id) {
+  /* The shipping line under the subtotal. When free shipping is within reach,
+     say how much is left — that nudge is the whole point of the threshold. */
+  function shipNote() {
+    var sub = subtotal();
+    if (FREE_SHIP_OVER > 0 && sub >= FREE_SHIP_OVER) {
+      return "<strong>Free shipping</strong> on this order &mdash; tax calculated at checkout.";
+    }
+    var fee = hasTote() ? SHIP_STANDARD : SHIP_SMALL;
+    var note = "Shipping " + money(fee) + " (one fee per order) &amp; tax calculated at checkout.";
+    if (FREE_SHIP_OVER > 0) {
+      note += " Add <strong>" + money(FREE_SHIP_OVER - sub) + "</strong> more for free shipping.";
+    }
+    return note + " Local to San Antonio? Choose <strong>Local pickup</strong> to skip shipping.";
+  }
+
+  /* How many of this item one order may hold. Defaults to 1, so anything
+     one-of-a-kind (totes, bows) stays un-double-sellable. */
+  function maxQty(id) { var p = PRODUCTS[id]; return (p && p.maxQty) || 1; }
+  /* Turn ["scrunchie-cherry", …] into "Cherry Scrunchie, …" for display. */
+  function pickNames(picks) {
+    return (picks || []).map(function (c) { return (PRODUCTS[c] && PRODUCTS[c].name) || c; }).join(", ");
+  }
+
+  function add(id, picks) {
     var p = PRODUCTS[id];
     if (!p || p.soldOut) return;
-    // One of a kind: at most one of each item per order. Adding an item that's
-    // already in the basket just re-opens the drawer.
-    if (!find(id)) cart.push({ id: id, qty: 1 });
+    var line = find(id);
+    if (!line) {
+      var entry = { id: id, qty: 1 };
+      if (p.picks) entry.picks = (picks || []).slice(0, p.picks);
+      cart.push(entry);
+    } else if (p.picks) {
+      // One line = one set of picks, so re-adding just updates the chosen prints.
+      if (picks && picks.length) line.picks = picks.slice(0, p.picks);
+    } else if (line.qty < maxQty(id)) {
+      line.qty += 1;
+    }
     persist(); render(); openDrawer();
   }
   function removeItem(id) { cart = cart.filter(function (x) { return x.id !== id; }); persist(); render(); }
+  function bumpQty(id, delta) {
+    var line = find(id); if (!line) return;
+    var q = line.qty + delta;
+    if (q < 1) { removeItem(id); return; }
+    line.qty = Math.min(q, maxQty(id));
+    persist(); render();
+  }
 
   /* ----- build the DOM (cart button in header, drawer + scrim) ----- */
-  var btn, badge, scrim, drawer, itemsEl, subtotalEl, checkoutBtn, emptyEl, footerEl;
+  var btn, badge, scrim, drawer, itemsEl, subtotalEl, shipNoteEl, checkoutBtn, emptyEl, footerEl;
 
   function build() {
     // Cart button in the site header
@@ -71,7 +117,7 @@
       '<p class="cart-empty">Your basket is empty — <a href="shop.html">find something lovely</a>.</p>' +
       '<div class="cart-footer">' +
         '<div class="cart-subtotal-row"><span>Subtotal</span><span class="cart-subtotal">$0.00</span></div>' +
-        '<p class="cart-ship-note">Shipping (one flat fee) &amp; tax calculated at checkout. Local to San Antonio? Choose <strong>Local pickup</strong> to skip shipping.</p>' +
+        '<p class="cart-ship-note"></p>' +
         '<button class="btn btn-primary cart-checkout" type="button">Checkout →</button>' +
         '<p class="cart-checkout-note" role="status" aria-live="polite"></p>' +
       '</div>';
@@ -83,6 +129,7 @@
     emptyEl = drawer.querySelector(".cart-empty");
     footerEl = drawer.querySelector(".cart-footer");
     subtotalEl = drawer.querySelector(".cart-subtotal");
+    shipNoteEl = drawer.querySelector(".cart-ship-note");
     checkoutBtn = drawer.querySelector(".cart-checkout");
 
     btn.addEventListener("click", openDrawer);
@@ -94,7 +141,10 @@
     // Delegated qty/remove controls inside the drawer
     itemsEl.addEventListener("click", function (e) {
       var t = e.target.closest("[data-cart-act]"); if (!t) return;
-      if (t.getAttribute("data-cart-act") === "remove") removeItem(t.getAttribute("data-id"));
+      var act = t.getAttribute("data-cart-act"), id = t.getAttribute("data-id");
+      if (act === "remove") removeItem(id);
+      else if (act === "inc") bumpQty(id, 1);
+      else if (act === "dec") bumpQty(id, -1);
     });
   }
 
@@ -106,9 +156,13 @@
     if (badge) { badge.textContent = String(c); badge.hidden = c === 0; }
     // Reflect basket state on the catalog "Add to cart" buttons.
     document.querySelectorAll("[data-cart-add]").forEach(function (b) {
-      var inCart = !!find(b.getAttribute("data-cart-add"));
-      b.textContent = inCart ? "In basket ✓" : "Add to cart";
-      b.classList.toggle("in-cart", inCart);
+      var id = b.getAttribute("data-cart-add");
+      var line = find(id), mx = maxQty(id);
+      if (!line) b.textContent = "Add to cart";
+      else if (mx > 1 && line.qty < mx) b.textContent = "Add another (" + line.qty + ")";
+      else if (mx > 1) b.textContent = "Max " + mx + " in basket ✓";
+      else b.textContent = "In basket ✓";
+      b.classList.toggle("in-cart", !!line);
     });
     if (!itemsEl) return;
     var empty = cart.length === 0;
@@ -118,6 +172,7 @@
       var p = PRODUCTS[x.id] || { name: x.id, price: 0, art: "🧵" };
       var v = VARIANTS[x.id] || {};
       var img = (v.images && v.images[0]) || "";
+      var mx = maxQty(x.id);
       return (
         '<div class="cart-line">' +
           '<div class="cart-line-media">' +
@@ -126,9 +181,20 @@
           '</div>' +
           '<div class="cart-line-body">' +
             '<p class="cart-line-name">' + p.name + '</p>' +
-            '<p class="cart-line-price">' + money(p.price) + '</p>' +
+            (x.picks && x.picks.length ? '<p class="cart-line-picks">' + pickNames(x.picks) + '</p>' : '') +
+            '<p class="cart-line-price">' + money(p.price * x.qty) +
+              (x.qty > 1 ? ' <span class="cart-line-each">(' + x.qty + ' × ' + money(p.price) + ')</span>' : '') +
+            '</p>' +
             '<div class="cart-line-actions">' +
-              '<span class="cart-line-oneofakind">One of a kind</span>' +
+              (mx > 1
+                ? '<span class="cart-qty">' +
+                    '<button class="cart-qty-btn" type="button" data-cart-act="dec" data-id="' + x.id + '" aria-label="One fewer ' + p.name + '">&minus;</button>' +
+                    '<span class="cart-qty-n" aria-live="polite">' + x.qty + '</span>' +
+                    '<button class="cart-qty-btn" type="button" data-cart-act="inc" data-id="' + x.id + '"' +
+                      (x.qty >= mx ? ' disabled title="Limit ' + mx + ' per order"' : '') +
+                      ' aria-label="One more ' + p.name + '">+</button>' +
+                  '</span>'
+                : '<span class="cart-line-oneofakind">' + (p.picks ? "One bundle per order" : "One of a kind") + '</span>') +
               '<button class="cart-remove" type="button" data-cart-act="remove" data-id="' + x.id + '">Remove</button>' +
             '</div>' +
           '</div>' +
@@ -136,6 +202,7 @@
       );
     }).join("");
     subtotalEl.textContent = money(subtotal());
+    if (shipNoteEl) shipNoteEl.innerHTML = shipNote();
   }
 
   function checkout() {
@@ -147,7 +214,13 @@
     fetch(CHECKOUT_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ items: cart.map(function (x) { return { id: x.id, qty: x.qty }; }) })
+      body: JSON.stringify({
+        items: cart.map(function (x) {
+          var line = { id: x.id, qty: x.qty };
+          if (x.picks && x.picks.length) line.picks = x.picks;
+          return line;
+        })
+      })
     })
       .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
       .then(function (res) {
@@ -161,11 +234,23 @@
   document.addEventListener("click", function (e) {
     var a = e.target.closest("[data-cart-add]"); if (!a) return;
     e.preventDefault();
-    add(a.getAttribute("data-cart-add"));
+    // "Build your own" buttons carry the chosen prints in data-cart-picks,
+    // kept up to date by the pickers that shop.js renders on that card.
+    var raw = a.getAttribute("data-cart-picks");
+    add(a.getAttribute("data-cart-add"), raw ? raw.split(",") : null);
   });
 
+  /* Update a bundle's chosen prints in place (no drawer pop) — used by the
+     pickers on the catalog card when the item is already in the basket. */
+  function setPicks(id, picks) {
+    var line = find(id), p = PRODUCTS[id];
+    if (!line || !p || !p.picks) return;
+    line.picks = (picks || []).slice(0, p.picks);
+    persist(); render();
+  }
+
   // Expose a tiny API for other scripts.
-  window.DIT_CART = { add: add, open: openDrawer };
+  window.DIT_CART = { add: add, open: openDrawer, setPicks: setPicks };
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();
