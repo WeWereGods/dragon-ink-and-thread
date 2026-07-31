@@ -62,7 +62,9 @@
 
   <!-- Structured data: one Product per shop category, with an AggregateOffer price range.
        Shop is open, so "availability" is schema.org/InStock. Prices here are static and
-       must stay in sync with PRODUCTS in **js/shop-data.js** (main.js no longer holds a
+       must describe only what is BUYABLE — offerCount, the price range and the images all
+       exclude soldOut items, because this block declares availability: InStock. Keep in
+       sync with PRODUCTS in **js/shop-data.js** (main.js no longer holds a
        copy). TODO: add "aggregateRating" — 3 REAL reviews now exist in TESTIMONIALS
        (js/main.js), so it's finally legitimate. Never fake them. -->
   <script type="application/ld+json">
@@ -71,11 +73,11 @@
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Handmade Tote Bags",
-      "description": "Handmade, small-batch tote bags in cottagecore cotton prints — a puffy woven sunflower, woodland mushrooms, and vintage rose florals. Roomy and made to order in San Antonio, Texas.",
+      "description": "Handmade, small-batch tote bags in cottagecore cotton prints — wild strawberries, woodland mushrooms, lily-of-the-valley butterflies, and vintage rose florals. Roomy and made to order in San Antonio, Texas.",
       "category": "Tote Bags",
       "brand": { "@type": "Brand", "name": "Dragon Ink and Thread" },
       "image": [
-        "https://www.dragoninkandthread.com/assets/tote-sunflower.jpg",
+        "https://www.dragoninkandthread.com/assets/tote-strawberry-v2.jpg",
         "https://www.dragoninkandthread.com/assets/tote-mushroom.jpg",
         "https://www.dragoninkandthread.com/assets/tote-mustard-floral.jpg",
         "https://www.dragoninkandthread.com/assets/tote-blue-rose.jpg",
@@ -85,7 +87,7 @@
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "20.00",
-        "highPrice": "45.00",
+        "highPrice": "38.00",
         "offerCount": 5,
         "availability": "https://schema.org/InStock",
         "url": "https://www.dragoninkandthread.com/shop.html",
@@ -111,7 +113,7 @@
         "priceCurrency": "USD",
         "lowPrice": "6.00",
         "highPrice": "15.00",
-        "offerCount": 9,
+        "offerCount": 10,
         "availability": "https://schema.org/InStock",
         "url": "https://www.dragoninkandthread.com/shop.html",
         "seller": { "@type": "Organization", "name": "Dragon Ink and Thread" }
