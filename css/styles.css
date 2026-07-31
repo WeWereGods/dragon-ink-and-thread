@@ -10,13 +10,13 @@
   --teal:       #4a9198;  /* muted cottage teal          */
   --teal-deep:  #2f6b72;
   --clay:       #eab3c6;  /* pale pink accent            */
-  --clay-deep:  #b85d80;  /* deep rose (text & buttons)  */
+  --clay-deep:  #a34a6b;  /* deep rose (text & buttons)  */
   --honey:      #d7a640;  /* warm honey gold             */
   --honey-deep: #b9862a;
   --rose:       #e7bcae;  /* soft dusty rose             */
   --rose-soft:  #f4ddd3;
   --ink:        #453a30;  /* warm cocoa brown text       */
-  --ink-soft:   #766757;
+  --ink-soft:   #6a5b4a;
   --white:      #fffdf7;
 
   --radius:     22px;
@@ -216,7 +216,7 @@ h3 { font-size: 1.4rem; }
 }
 .brand-tag {
   font-family: var(--font-script);
-  font-size: 1rem;
+  font-size: 1.75rem;
   letter-spacing: 0.02em;
   color: var(--teal-deep);
 }
@@ -238,7 +238,7 @@ h3 { font-size: 1.4rem; }
 }
 @media (hover: hover) { .site-nav a:hover { border-bottom-color: var(--honey); } }
 .site-nav .nav-cta {
-  background: var(--teal);
+  background: var(--teal-deep);
   color: var(--white);
   padding: 0.5rem 1.2rem;
   border-radius: 999px;
@@ -515,7 +515,7 @@ h3 { font-size: 1.4rem; }
   justify-content: center;
   gap: 0.35rem 1rem;
   padding: 0.6rem 1rem;
-  background: var(--teal);
+  background: var(--teal-deep);
   color: var(--white);
   text-align: center;
   font-size: 0.95rem;
@@ -781,7 +781,7 @@ h3 { font-size: 1.4rem; }
   color: var(--rose);
   opacity: 0.7;
 }
-.testimonial-stars { color: var(--honey); letter-spacing: 0.12em; font-size: 0.92rem; margin: 0.4rem 0 0.2rem; }
+.testimonial-stars { color: var(--honey-deep); letter-spacing: 0.12em; font-size: 0.92rem; margin: 0.4rem 0 0.2rem; }
 .testimonial-quote { margin: 0.6rem 0 1.1rem; color: var(--ink); font-size: 1.02rem; line-height: 1.6; }
 .testimonial-attr { display: flex; align-items: baseline; gap: 0.5rem; margin-top: auto; flex-wrap: wrap; }
 .testimonial-name { font-family: var(--font-script); font-size: 1.4rem; font-weight: 700; color: var(--clay-deep); }
@@ -1843,3 +1843,37 @@ body.gallery-open { overflow: hidden; }
   .join-row { flex-direction: column; }
   .join-row .hero-join { flex: 1 1 auto; width: 100%; }
 }
+
+
+/* ============================================================
+   READABILITY FIXES
+   ============================================================ */
+
+/* Links inside the teal announcement bar inherited the site's rose link
+   colour (#b85d80) — 1.18:1 against the bar, effectively invisible. Anything
+   in this bar is cream and underlined so it still reads as a link. */
+.countdown-bar a,
+.countdown-label a {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+@media (hover: hover) {
+  .countdown-bar a:hover,
+  .countdown-label a:hover { color: var(--paper-deep); }
+}
+
+/* The brand tagline is decorative script; give it a little more weight so the
+   thin strokes survive at small sizes. */
+.brand-tag { color: var(--teal-deep); }
+
+/* Last three contrast fixes, measured rather than eyeballed:
+   · countdown pill: a translucent WHITE pill lightened the bar behind cream
+     text (4.01:1). A translucent black pill darkens it instead.
+   · review stars: --honey-deep gold on white was 3.17:1 — these carry meaning
+     (a rating), so they get a deeper gold rather than a decorative one.
+   · footer text: cream on deep teal sat at 4.46:1, a hair under. */
+.countdown-clock { background: rgba(0, 0, 0, 0.18); }
+.testimonial-stars { color: #8a6114; }
+.site-footer .footer-copy { color: var(--white); }
