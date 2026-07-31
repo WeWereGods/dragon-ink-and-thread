@@ -60,10 +60,11 @@
   }
   </script>
 
-  <!-- Structured data: one Product per shop card, with an AggregateOffer price range.
-       Shop is open, so "availability" is schema.org/InStock. TODO: add "aggregateRating"
-       once REAL reviews exist (never fake them). Prices here are static and must stay in
-       sync with the PRODUCTS object in js/main.js. -->
+  <!-- Structured data: one Product per shop category, with an AggregateOffer price range.
+       Shop is open, so "availability" is schema.org/InStock. Prices here are static and
+       must stay in sync with PRODUCTS in **js/shop-data.js** (main.js no longer holds a
+       copy). TODO: add "aggregateRating" — 3 REAL reviews now exist in TESTIMONIALS
+       (js/main.js), so it's finally legitimate. Never fake them. -->
   <script type="application/ld+json">
   [
     {
@@ -162,6 +163,7 @@
         <nav id="site-nav" class="site-nav" aria-label="Primary">
           <ul>
             <li><a href="shop.html">Shop</a></li>
+            <li><a href="custom.html">Custom</a></li>
             <li><a href="#about">Our Story</a></li>
             <li><a href="#stories">Stories</a></li>
             <li><a href="#faq">FAQ</a></li>
@@ -186,7 +188,7 @@
 
     <!-- Launch countdown bar -->
     <div class="countdown-bar">
-      <span class="countdown-label">✨ Shop open now · Custom orders open Saturday, August 15</span>
+      <span class="countdown-label">✨ Shop open now · <a href="custom.html">Custom orders open Saturday, August 15</a></span>
       <span class="countdown-clock" id="countdownClock" aria-hidden="true"></span>
       <a class="countdown-cta" href="#home">Join the Nest for 10% off →</a>
     </div>
@@ -278,7 +280,7 @@
 
         <div class="shop-cta-panel">
           <a class="btn btn-primary shop-cta-btn" href="shop.html">Shop the collection →</a>
-          <p class="shop-cta-note">✨ <strong>Open now</strong> · <a href="#home">join the Nest</a> for 10% off your first purchase. Custom orders open <strong>August 15</strong>. Most pieces are one of a kind — when a print’s gone, it’s gone.</p>
+          <p class="shop-cta-note">✨ <strong>Open now</strong> · <a href="#home">join the Nest</a> for 10% off your first purchase. <a href="custom.html">Custom orders</a> open <strong>August 15</strong>. Most pieces are one of a kind — when a print’s gone, it’s gone.</p>
         </div>
       </div>
     </section>
@@ -326,7 +328,7 @@
           <p class="section-sub">When a fabric sells out, its print retires and its story becomes part of our history. Here's a look back at a few makes that have gone on to new adventures.</p>
         </div>
         <div class="stories-grid" id="stories-grid"></div>
-        <p class="product-note">💌 See something you wish you could still get? <a href="#home">Join the Nest</a> for restock news, or <a href="#contact">ask about a custom piece</a> — I love recreating a favorite with personalized twists!</p>
+        <p class="product-note">💌 See something you wish you could still get? <a href="#home">Join the Nest</a> for restock news, or <a href="custom.html">ask about a custom piece</a> — I love recreating a favorite with personalized twists!</p>
       </div>
     </section>
 
@@ -352,7 +354,7 @@
         </div>
         <details class="faq-item">
           <summary>Are you open? When can I order?</summary>
-          <p>The shop is <strong>open now</strong> — every ready-made piece is available to order today. <strong>Custom orders</strong> (personalized, made-just-for-you pieces) open <strong>August 15</strong>. <a href="#home">Join the Nest</a> for 10% off your first purchase.</p>
+          <p>The shop is <strong>open now</strong> — every ready-made piece is available to order today. <a href="custom.html"><strong>Custom orders</strong></a> (personalized, made-just-for-you pieces) open <strong>August 15</strong>. <a href="#home">Join the Nest</a> for 10% off your first purchase.</p>
         </details>
         <details class="faq-item">
           <summary>Is everything really handmade?</summary>
@@ -368,7 +370,7 @@
         </details>
         <details class="faq-item">
           <summary>Do you take custom requests?</summary>
-          <p>We'd love to hear your ideas — reach out through the <a href="#contact">contact form</a> or find us on Instagram <a href="https://www.instagram.com/dragonink_and_thread" target="_blank" rel="noopener">@dragonink_and_thread</a>.</p>
+          <p>Yes — <a href="custom.html">custom orders</a> open <strong>August 15</strong>. That page explains what I can make, how pricing works, and has the request form. You can also find me on Instagram <a href="https://www.instagram.com/dragonink_and_thread" target="_blank" rel="noopener">@dragonink_and_thread</a>.</p>
         </details>
         <details class="faq-item">
           <summary>Where do you ship, and what does it cost?</summary>
@@ -454,7 +456,7 @@
     </div>
   </footer>
 
-  <script src="js/main.js?v=20260729e"></script>
+  <script src="js/main.js?v=20260730d"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>
