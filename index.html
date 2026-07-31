@@ -146,7 +146,7 @@
   ]
   </script>
 
-  <link rel="stylesheet" href="css/styles.css?v=20260730d" />
+  <link rel="stylesheet" href="css/styles.css?v=20260731a" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -213,43 +213,6 @@
       <div class="hero-glow" aria-hidden="true"></div>
     </section>
 
-    <!-- Badges, dropped below the gingham hero -->
-    <!-- Brand seal: the basket ringed with "Handmade in San Antonio ·
-         Proudly Veteran-Owned" (replaces the two badge pills). -->
-    <div class="brand-seal-wrap">
-      <svg class="brand-seal" viewBox="0 0 240 240" role="img"
-           aria-label="Handmade in San Antonio · Proudly Veteran-Owned">
-        <defs>
-          <path id="seal-top" d="M 28 120 A 92 92 0 0 0 212 120" />
-          <path id="seal-bottom" d="M 28 120 A 92 92 0 0 1 212 120" />
-        </defs>
-        <circle class="seal-ring" cx="120" cy="120" r="113" />
-        <circle class="seal-ring" cx="120" cy="120" r="105" />
-        <circle class="seal-dot" cx="25" cy="120" r="2.6" />
-        <circle class="seal-dot" cx="215" cy="120" r="2.6" />
-        <text class="seal-text" text-anchor="middle"><textPath href="#seal-top" startOffset="50%">PROUDLY VETERAN-OWNED</textPath></text>
-        <text class="seal-text" text-anchor="middle"><textPath href="#seal-bottom" startOffset="50%">HANDMADE IN SAN ANTONIO</textPath></text>
-        <image href="assets/basket.png?v=2" x="68" y="68" width="104" height="104" />
-      </svg>
-    </div>
-
-    <!-- Join the Nest — directly after the hero -->
-    <section id="join" class="section reveal" aria-label="Join the Nest">
-      <div class="container">
-        <div class="hero-join">
-          <p class="hero-join-title"><img class="ico-basket-img" src="assets/basket.png?v=2" alt="" loading="lazy" decoding="async" /> Join the Nest — <strong>10% off</strong> your first purchase</p>
-          <form class="nest-form" id="nestForm" action="https://buttondown.com/api/emails/embed-subscribe/dragoninkandthread" method="POST" aria-label="Join the Nest — email signup">
-            <input type="hidden" name="tag" value="hero" />
-            <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-            <label class="sr-only" for="nestEmail">Your email address</label>
-            <input type="email" id="nestEmail" name="email" placeholder="you@example.com" required autocomplete="email" />
-            <button type="submit" class="btn btn-primary">Join the Nest <img class="ico-basket-img" src="assets/basket.png?v=2" alt="" loading="lazy" decoding="async" /></button>
-          </form>
-          <p class="nest-note" id="nestNote">Be the first through the door — we’ll only write when something lovely is ready.</p>
-        </div>
-      </div>
-    </section>
-
     <!-- Shop (the landing section — first thing visitors see) -->
     <section id="products" class="section section-tint reveal">
       <div class="container">
@@ -283,6 +246,42 @@
         <div class="shop-cta-panel">
           <a class="btn btn-primary shop-cta-btn" href="shop.html">Shop the collection →</a>
           <p class="shop-cta-note">✨ <strong>Open now</strong> · <a href="#home">join the Nest</a> for 10% off your first purchase. <a href="custom.html">Custom orders</a> <span class="js-pre-open">open <strong data-open-date="short">August 15</strong></span><span class="js-post-open" hidden>are <strong>open</strong></span>. Most pieces are one of a kind — when a print’s gone, it’s gone.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join the Nest — the brand seal and the signup card sit SIDE BY SIDE
+         (seal left, signup right) and collapse to a stack on narrow screens.
+         They used to be two separate blocks stacked with a large gap. -->
+    <section id="join" class="section reveal" aria-label="Join the Nest">
+      <div class="container join-row">
+    <div class="brand-seal-wrap">
+      <svg class="brand-seal" viewBox="0 0 240 240" role="img"
+           aria-label="Handmade in San Antonio · Proudly Veteran-Owned">
+        <defs>
+          <path id="seal-top" d="M 28 120 A 92 92 0 0 0 212 120" />
+          <path id="seal-bottom" d="M 28 120 A 92 92 0 0 1 212 120" />
+        </defs>
+        <circle class="seal-ring" cx="120" cy="120" r="113" />
+        <circle class="seal-ring" cx="120" cy="120" r="105" />
+        <circle class="seal-dot" cx="25" cy="120" r="2.6" />
+        <circle class="seal-dot" cx="215" cy="120" r="2.6" />
+        <text class="seal-text" text-anchor="middle"><textPath href="#seal-top" startOffset="50%">PROUDLY VETERAN-OWNED</textPath></text>
+        <text class="seal-text" text-anchor="middle"><textPath href="#seal-bottom" startOffset="50%">HANDMADE IN SAN ANTONIO</textPath></text>
+        <image href="assets/basket.png?v=2" x="68" y="68" width="104" height="104" />
+      </svg>
+    </div>
+
+        <div class="hero-join">
+          <p class="hero-join-title"><img class="ico-basket-img" src="assets/basket.png?v=2" alt="" loading="lazy" decoding="async" /> Join the Nest — <strong>10% off</strong> your first purchase</p>
+          <form class="nest-form" id="nestForm" action="https://buttondown.com/api/emails/embed-subscribe/dragoninkandthread" method="POST" aria-label="Join the Nest — email signup">
+            <input type="hidden" name="tag" value="hero" />
+            <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <label class="sr-only" for="nestEmail">Your email address</label>
+            <input type="email" id="nestEmail" name="email" placeholder="you@example.com" required autocomplete="email" />
+            <button type="submit" class="btn btn-primary">Join the Nest <img class="ico-basket-img" src="assets/basket.png?v=2" alt="" loading="lazy" decoding="async" /></button>
+          </form>
+          <p class="nest-note" id="nestNote">Be the first through the door — we’ll only write when something lovely is ready.</p>
         </div>
       </div>
     </section>
@@ -458,8 +457,8 @@
     </div>
   </footer>
 
-  <script src="js/dates.js?v=20260730f"></script>
-  <script src="js/main.js?v=20260730f"></script>
+  <script src="js/dates.js?v=20260731a"></script>
+  <script src="js/main.js?v=20260731a"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>

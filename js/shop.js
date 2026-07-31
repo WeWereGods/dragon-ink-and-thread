@@ -101,17 +101,23 @@
     var alt = esc(v.alt || p.name);
     var sold = !!p.soldOut;
     var multi = imgs.length > 1;
+    // The photo and the name both link to the product's own page, where all
+    // of its photos live. (This replaced a double-click lightbox that almost
+    // nobody discovered — a plain link is the obvious thing to click.)
+    var href = esc(id) + ".html";
     return (
       '<article class="catalog-item' + (sold ? " is-soldout" : "") + '" data-id="' + esc(id) + '">' +
         '<div class="catalog-media' + (multi ? " has-gallery" : "") + '">' +
-          '<img class="catalog-photo" src="' + esc(img) + '" alt="' + alt + '" loading="lazy" decoding="async" ' +
-            "onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\" />" +
-          '<div class="placeholder placeholder-product" style="display:none;"><span>' + (p.art || "🧵") + "</span></div>" +
+          '<a class="catalog-photo-link" href="' + href + '" aria-label="' + esc(p.name) + ' — see all photos and details" tabindex="-1">' +
+            '<img class="catalog-photo" src="' + esc(img) + '" alt="' + alt + '" loading="lazy" decoding="async" ' +
+              "onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\" />" +
+            '<div class="placeholder placeholder-product" style="display:none;"><span>' + (p.art || "🧵") + "</span></div>" +
+          "</a>" +
           (sold ? '<span class="sold-badge">Sold</span>' : "") +
           (multi ? '<span class="gallery-hint">⤢ ' + imgs.length + " photos</span>" : "") +
         "</div>" +
         '<div class="catalog-body">' +
-          '<h3 class="catalog-name">' + esc(p.name) + "</h3>" +
+          '<h3 class="catalog-name"><a href="' + href + '">' + esc(p.name) + "</a></h3>" +
           '<p class="catalog-price">' + money(p.price) + "</p>" +
           (v.blurb ? '<p class="catalog-blurb">' + esc(v.blurb) + "</p>" : "") +
           buyMarkup(id) +
@@ -120,12 +126,26 @@
     );
   }
 
+  /* Anchor id for a category — must match catSlug() in tools/build-products.js,
+     because the generated product pages link back to shop.html#<slug>. */
+  function catSlug(label) { return String(label).toLowerCase().replace(/[^a-z0-9]+/g, "-"); }
+
   var root = document.getElementById("catalog");
   if (root && CATALOG.length) {
-    root.innerHTML = CATALOG.map(function (cat) {
+    // Jump buttons — how many of each, so "Scrunchies 10" sets expectations.
+    var navHtml =
+      '<nav class="catalog-nav" aria-label="Shop categories">' +
+      CATALOG.map(function (cat) {
+        var n = cat.ids.filter(function (id) { return PRODUCTS[id]; }).length;
+        return '<a class="catalog-nav-btn" href="#' + catSlug(cat.label) + '">' +
+               esc(cat.label) + ' <span class="n">' + n + "</span></a>";
+      }).join("") +
+      "</nav>";
+
+    root.innerHTML = navHtml + CATALOG.map(function (cat) {
       var cards = cat.ids.map(itemCard).join("");
       return (
-        '<section class="catalog-cat">' +
+        '<section class="catalog-cat" id="' + catSlug(cat.label) + '">' +
           '<div class="catalog-cat-head">' +
             '<h2>' + esc(cat.label) + "</h2>" +
             (cat.note ? '<p class="section-sub">' + esc(cat.note) + "</p>" : "") +
@@ -154,62 +174,8 @@
     if (window.DIT_CART && window.DIT_CART.setPicks) window.DIT_CART.setPicks(id, picks);
   });
 
-  /* ----- photo gallery: double-click a catalog photo to view larger and
-     arrow/scroll through that item's other photos ----- */
-  var gb, gImg, gCounter, gPrev, gNext, gImages = [], gIndex = 0, gAlt = "";
-  function buildGallery() {
-    gb = document.createElement("div");
-    gb.className = "gallery-lightbox";
-    gb.hidden = true;
-    gb.innerHTML =
-      '<button class="gallery-close" type="button" aria-label="Close photos">&times;</button>' +
-      '<button class="gallery-nav gallery-prev" type="button" aria-label="Previous photo">&#8249;</button>' +
-      '<figure class="gallery-stage"><img class="gallery-img" src="" alt="" /></figure>' +
-      '<button class="gallery-nav gallery-next" type="button" aria-label="Next photo">&#8250;</button>' +
-      '<span class="gallery-counter" aria-live="polite"></span>';
-    document.body.appendChild(gb);
-    gImg = gb.querySelector(".gallery-img");
-    gCounter = gb.querySelector(".gallery-counter");
-    gPrev = gb.querySelector(".gallery-prev");
-    gNext = gb.querySelector(".gallery-next");
-    gb.querySelector(".gallery-close").addEventListener("click", closeGallery);
-    gPrev.addEventListener("click", function (e) { e.stopPropagation(); step(-1); });
-    gNext.addEventListener("click", function (e) { e.stopPropagation(); step(1); });
-    gb.addEventListener("click", function (e) {
-      if (e.target === gb || (e.target.classList && e.target.classList.contains("gallery-stage"))) closeGallery();
-    });
-    document.addEventListener("keydown", function (e) {
-      if (gb.hidden) return;
-      if (e.key === "Escape") closeGallery();
-      else if (e.key === "ArrowLeft") step(-1);
-      else if (e.key === "ArrowRight") step(1);
-    });
-  }
-  function showGalleryImage() {
-    gImg.src = gImages[gIndex];
-    gImg.alt = gAlt + " — photo " + (gIndex + 1) + " of " + gImages.length;
-    var multi = gImages.length > 1;
-    gCounter.textContent = (gIndex + 1) + " / " + gImages.length;
-    gPrev.style.display = multi ? "" : "none";
-    gNext.style.display = multi ? "" : "none";
-    gCounter.style.display = multi ? "" : "none";
-  }
-  function step(d) { gIndex = (gIndex + d + gImages.length) % gImages.length; showGalleryImage(); }
-  function closeGallery() { if (gb) { gb.hidden = true; document.body.classList.remove("gallery-open"); } }
+  /* The old double-click lightbox lived here. Photos now link straight to the
+     product page, which shows every photo with thumbnails — a real destination
+     people can bookmark and share, instead of a gesture nobody found. */
 
-  document.addEventListener("dblclick", function (e) {
-    var photo = e.target.closest && e.target.closest(".catalog-photo");
-    if (!photo) return;
-    var art = photo.closest(".catalog-item");
-    var id = art && art.getAttribute("data-id");
-    var v = (id && VARIANTS[id]) || {};
-    var imgs = (v.images && v.images.length) ? v.images : (photo.getAttribute("src") ? [photo.getAttribute("src")] : []);
-    if (!imgs.length) return;
-    e.preventDefault();
-    if (!gb) buildGallery();
-    gImages = imgs; gIndex = 0; gAlt = (id && PRODUCTS[id] && PRODUCTS[id].name) || "";
-    showGalleryImage();
-    gb.hidden = false;
-    document.body.classList.add("gallery-open");
-  });
 })();

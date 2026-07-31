@@ -35,6 +35,31 @@ assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
 emails/               Marketing email copy (not sent by the site; no platform wired up yet).
 ```
 
+## ⚠️ Product pages are GENERATED — re-run the script after any shop-data change
+Every product has its own page at the repo root (`tote-butterfly.html`, `bow-sage.html`, …),
+**written by `tools/build-products.js` from js/shop-data.js**. They are not hand-edited.
+
+```
+node tools/build-products.js      # then commit the regenerated *.html + sitemap.xml
+```
+
+- **Change a price, blurb, photo, or `soldOut` flag in js/shop-data.js → re-run this**, or the
+  product pages keep showing the old values. This is the one manual step in an otherwise
+  build-free site; it exists so 20 pages can't drift from the source of truth the way the old
+  main.js PRODUCTS copy did.
+- It also **regenerates sitemap.xml** wholesale (home + shop + custom + every non-soldOut
+  product), so a retired piece stops being advertised to search engines.
+- Pages are generated **at the repo root, not a subfolder**, because shop-data.js stores image
+  paths relative (`assets/x.jpg`); from `/product/` those would 404.
+- Each page is static (name, price, description, photos, breadcrumbs in the HTML) plus
+  `Product` + `BreadcrumbList` JSON-LD. **js/product.js** only adds thumbnail switching and the
+  Build-Your-Own pickers; **js/cart.js** handles Add to cart via `[data-cart-add]`.
+- shop.html photos + names now **link to these pages** (`js/shop.js`). The old double-click
+  lightbox was deleted — a link is discoverable, a double-click gesture wasn't.
+- Category jump buttons + anchors live on shop.html: `#totes`, `#scrunchies`, `#bows`.
+  **`catSlug()` is duplicated in js/shop.js and tools/build-products.js — keep them identical**,
+  or product-page breadcrumbs will link to anchors that don't exist.
+
 ## Key facts / gotchas
 - **Domain/DNS**: registered at **Wix** (nameservers ns8/ns9.wixdns.net). `www` is a CNAME
   → `weweregods.github.io`; apex has the 4 GitHub A records. HTTPS cert is issued and
