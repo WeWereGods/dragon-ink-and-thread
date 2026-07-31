@@ -121,9 +121,10 @@ the site and they're sitting in a section most visitors scroll past. Put each on
 Instagram as its own graphic, and make every order this month trigger a follow-up asking
 for a photo or a sentence (see §9). **Never invent testimonials** — real ones only.
 
-One of them is for a **"Road Trip Kindle Case"**, which isn't in the shop at all (see the
-missing-product note in §12). A happy customer is publicly praising something nobody can
-buy.
+One of them is for the **"Road Trip Kindle Case"** — a retired custom make that lives in
+the Stories lookbook. That's a gift for the Aug 15 beat: a real customer, in her own
+words, delighted by a **custom** piece. Use that quote in the custom-orders launch post.
+It's the only proof you have that the thing you're about to sell already works.
 
 ---
 
@@ -342,7 +343,7 @@ These are the gaps the campaign will run into. Listed so they don't ambush you m
 | **High** | **Custom orders intake — BUILT 2026-07-30, not yet deployed.** `custom.html` + `js/custom.js`: explainer, what-I-will/won't-take, full terms (totes $50–100, bows $10–15, scrunchies $6–12, $25 minimum, 10–14 day make time plus shipping), and a request form on its own Web3Forms subject line, gated until Aug 15 (it opens itself — no deploy needed on the day). **Complete — the only thing left is pushing it.** |
 | **High** | Load the **rewritten welcome sequence** into Buttondown — new subscribers currently get silence. |
 | **High** | **Back-fill pre-2026-07-10 subscribers** out of Gmail. Web3Forms drops free-tier submissions after 30 days; those people exist nowhere else. |
-| **High** | **A customer testimonial praises a "Road Trip Kindle Case" that isn't in the shop.** Either it's a retired make that belongs in the Stories lookbook, or it's a product line with proven demand and no listing. Right now it's neither. |
+| Low | Bows stay capped at **1 per order** (decided 2026-07-30 — they're one-of-a-kind like the totes). Noted so it isn't reopened. |
 | Medium | `js/main.js` still holds a vestigial `PRODUCTS` copy with the **old $4/$9 scrunchie prices** (10 stale lines). It's unused — the homepage has no `.card-variant` — but it's a live trap for the next person who edits the wrong file. Prune it. |
 | Medium | `shop.html` is **missing from `sitemap.xml`** (only `/` and `custom.html` are listed). The full catalog is the page most worth indexing. |
 | Medium | `shipping.html` says nothing about **custom-order turnaround**, though `custom.html` links to it for returns. |

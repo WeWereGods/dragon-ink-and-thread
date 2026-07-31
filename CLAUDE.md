@@ -83,6 +83,8 @@ emails/               Marketing email copy (not sent by the site; no platform wi
     basket ✓"; items at 1 keep "In basket ✓". **The Worker clamps qty to its own `maxQty`** (a
     tampered `qty: 99` becomes 3, `qty: 5` on a tote becomes 1), so shop-data.js alone changes
     nothing a customer can actually buy — **update both files and `wrangler deploy`.**
+    **DECIDED 2026-07-30: bows stay at 1** (no `maxQty`) — they're one-of-a-kind like the totes.
+    Don't "helpfully" raise them; it was asked and answered.
   - **Build Your Own Bundle picks (fixed 2026-07-30):** the 3 print dropdowns used to live in the
     Stripe Payment Link, which the cart stopped opening — so for a while the bundle was orderable
     with **no record of which prints to sew**. Now: **`picks: 3`** on the PRODUCTS entry makes
@@ -174,16 +176,19 @@ panel launches it via `.claude/launch.json` (config name `site`).
   plus bows (6″ × 7″). (Strawberry Tote is no longer in the shop — retired to Stories 2026-07-27.)
 - **Stories / Past Makes lookbook is LIVE** (published 2026-07-27, merged from `stories-lookbook`).
   A "Stories" nav link + `#stories` section render the `PAST_MAKES` array in js/main.js as a
-  "found a home" grid. Entries (5, as of 2026-07-27): **Strawberry Tote**, **Cream Bloom**, **Pink
-  Bloom**, **Blue Bee Cozy**, **Daisy Cozy** — all retired from the shop and moved here.
+  "found a home" grid. Entries (**8**, as of 2026-07-30): **Road Trip Kindle Case**, **Lavender and
+  Honeybee Wheelchair Tote**, **Cottage Patchwork Pouch**, **Strawberry Tote**, **Cream Bloom**,
+  **Pink Bloom**, **Blue Bee Cozy**, **Daisy Cozy**. The first three are one-off/custom makes that
+  were never shop listings; the rest were retired from the shop and moved here.
   To add a retired piece: drop a photo in assets/ and add a `{img, art, title, story}` entry to
   `PAST_MAKES`. (The old low-res / placeholder-dims Strawberry Tote TODOs are moot — it left the shop.)
 - **"Kind Words" testimonials section is LIVE and SHOWING** (added 2026-07-27, a professionalism pass
   inspired by a competitor site). `#kind-words` starts `hidden` and JS reveals it once the
   `TESTIMONIALS` array in js/main.js has ≥1 entry — it now holds **3 real reviews**, so the section
   renders. **REAL reviews only — never invent them.** Add `{ quote, name, where?, stars? }` objects
-  to populate. NOTE: one review is for a **"Road Trip Kindle Case"**, which exists in no PRODUCTS
-  entry and no Stories PAST_MAKES — decide whether it's a live product or a retired make. Same pass also: `text-wrap: balance` on
+  to populate. NOTE: one review is for the **"Road Trip Kindle Case"** — a retired make, correctly
+  in Stories PAST_MAKES, not the shop. A review for a retired piece is fine (and is proof custom
+  work already delights people); it just can't be clicked through to a listing. Same pass also: `text-wrap: balance` on
   headings, more `.section` whitespace, and `.badge` dashed→solid hairline.
 - **HOMEPAGE + CATALOG REDESIGN (2026-07-28, "luxury cottagecore"):**
   - **New full catalog page `shop.html`** — every item as its own tile in a grid (Totes/Scrunchies/Bows),
