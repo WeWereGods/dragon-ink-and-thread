@@ -287,7 +287,7 @@
             '<img class="make-photo" src="' + m.img + '" alt="' + title + '" loading="lazy" decoding="async" ' +
               "onerror=\"this.style.display='none'; this.nextElementSibling.style.display='flex';\" />" +
             '<div class="placeholder" style="display:none;" aria-hidden="true"><span>' + (m.art || "🧵") + "</span></div>" +
-            '<span class="make-tag">Found a home <img class="ico-basket-img" src="assets/basket.png" alt="" loading="lazy" decoding="async" /></span>' +
+            '<span class="make-tag">Found a home <img class="ico-basket-img" src="assets/basket.png?v=2" alt="" loading="lazy" decoding="async" /></span>' +
           "</div>" +
           '<div class="make-body">' +
             '<h3 class="make-title">' + title + "</h3>" +
