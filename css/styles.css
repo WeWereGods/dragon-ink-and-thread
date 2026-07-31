@@ -1877,3 +1877,15 @@ body.gallery-open { overflow: hidden; }
 .countdown-clock { background: rgba(0, 0, 0, 0.18); }
 .testimonial-stars { color: #8a6114; }
 .site-footer .footer-copy { color: var(--white); }
+
+/* Gold sparkle used in the announcement bar and the shop CTA note, replacing
+   the ✨ emoji (which renders differently on every platform). Decorative only —
+   marked alt="" / aria-hidden so screen readers skip it. */
+.ico-sparkle {
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+  object-fit: contain;
+  vertical-align: -0.22em;
+  margin-right: 0.1em;
+}

@@ -65,9 +65,12 @@
   var fields = document.getElementById("customFields");
 
   if (banner) {
-    banner.textContent = isOpen
-      ? "✨ Custom orders are OPEN — tell me what you're imagining"
-      : "✨ Custom orders open " + opensLabel;
+    // innerHTML rather than textContent so the gold sparkle renders as an
+    // image instead of being printed as literal markup.
+    var sparkle = '<img class="ico-sparkle" src="assets/sparkle.png" alt="" aria-hidden="true" decoding="async" /> ';
+    banner.innerHTML = isOpen
+      ? sparkle + "Custom orders are OPEN — tell me what you're imagining"
+      : sparkle + "Custom orders open " + opensLabel;
   }
   if (gate && fields) {
     if (isOpen) {
