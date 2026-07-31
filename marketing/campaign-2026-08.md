@@ -60,13 +60,15 @@ baseline yet. Track them weekly in a note; don't build a dashboard.
 | Orders | **12** total, of which ≥3 are multi-item | Stripe + Pushover pings |
 | Average order value | **$38+** (see the attach-rate problem in §5) | Stripe |
 | Custom order inquiries | **5** after Aug 15 | Web3Forms → Gmail |
-| Real testimonials collected | **3** (unlocks the hidden Kind Words section) | Manual |
+| New testimonials collected | **3 more** (on top of the 3 already live) | Manual |
 | Instagram followers | **300** | IG |
 | TikTok: one video over 10k views | **1** | TikTok |
 
-**The one metric that matters most: testimonials.** The `#kind-words` section is built
-and hidden, waiting on real quotes. Social proof is the biggest missing trust element on
-the site — bigger than follower count. Three real reviews beat 300 followers.
+**The one metric that matters most: testimonials.** Not because there are none — the
+`#kind-words` section is **live with 3 real reviews** — but because 3 is the floor where
+social proof starts working and the shop is about to get its busiest month. More of them
+beat more followers, every time. They also unlock `aggregateRating` in the structured
+data, which is the one SEO win still on the table.
 
 ---
 
@@ -112,10 +114,16 @@ What stays true in the messaging:
   Butterfly Tote plus one scrunchie clears it.
 - Lead local posts with **free pickup**. That's a scrunchie that actually converts.
 
-**Problem B — no social proof anywhere.**
-No reviews on-site, no UGC, no unboxings. Every order this month should trigger a manual
-follow-up asking for a photo or a sentence (see §9, post-purchase flow). **Never invent
-testimonials** — the Kind Words section stays hidden until real ones exist.
+**Problem B — the social proof that exists isn't being used.**
+There are **3 real reviews live** in Kind Words, and that's it: no UGC, no unboxings, and
+none of the three has ever been turned into a post. They're the most persuasive words on
+the site and they're sitting in a section most visitors scroll past. Put each one on
+Instagram as its own graphic, and make every order this month trigger a follow-up asking
+for a photo or a sentence (see §9). **Never invent testimonials** — real ones only.
+
+One of them is for a **"Road Trip Kindle Case"**, which isn't in the shop at all (see the
+missing-product note in §12). A happy customer is publicly praising something nobody can
+buy.
 
 ---
 
@@ -293,8 +301,18 @@ countdown label, shop CTA note, FAQ). Confirm `NEST10` is active. Have 3 posts d
 | 7:00p | Story recap + a nudge: "asks are open all weekend." |
 | Sun 16 | Follow up on every inquiry personally within 24h. |
 
-**Prepare answers in advance** for the three questions that will definitely come:
-what does custom cost, how long does it take, can you copy a piece you've retired.
+**The three questions that will definitely come** — all three are now answered on
+`custom.html`, so the honest answer to each is "it's on the page," and the page is the
+link you put in every bio and story:
+
+- *What does custom cost?* → totes **$50–$100**, bows **$10–$15**, scrunchies **$6–$12**.
+- *Can you copy a piece you've retired?* → yes, never identically ("What people ask for").
+- *How long does it take?* → **10–14 days** to make, from quote acceptance, **plus**
+  shipping. Say "plus shipping" out loud in replies — it's the bit people mishear.
+
+There's also a **$25 minimum** on custom orders, which is the polite way to say "a single
+$6 scrunchie isn't worth a bespoke conversation" — it steers those requests to the shop
+or into a set.
 
 ---
 
@@ -321,10 +339,14 @@ These are the gaps the campaign will run into. Listed so they don't ambush you m
 
 | Priority | Item |
 |---|---|
-| **High** | **Custom orders have no intake path** beyond the generic contact form. By Aug 15 there should at least be a dedicated subject line, a stated price range, and a stated turnaround. |
+| **High** | **Custom orders intake — BUILT 2026-07-30, not yet deployed.** `custom.html` + `js/custom.js`: explainer, what-I-will/won't-take, full terms (totes $50–100, bows $10–15, scrunchies $6–12, $25 minimum, 10–14 day make time plus shipping), and a request form on its own Web3Forms subject line, gated until Aug 15 (it opens itself — no deploy needed on the day). **Complete — the only thing left is pushing it.** |
 | **High** | Load the **rewritten welcome sequence** into Buttondown — new subscribers currently get silence. |
 | **High** | **Back-fill pre-2026-07-10 subscribers** out of Gmail. Web3Forms drops free-tier submissions after 30 days; those people exist nowhere else. |
-| Medium | JSON-LD `availability` is still `PreOrder` on 5 blocks in `index.html` — should be `InStock` now that the shop is open. |
+| **High** | **A customer testimonial praises a "Road Trip Kindle Case" that isn't in the shop.** Either it's a retired make that belongs in the Stories lookbook, or it's a product line with proven demand and no listing. Right now it's neither. |
+| Medium | `js/main.js` still holds a vestigial `PRODUCTS` copy with the **old $4/$9 scrunchie prices** (10 stale lines). It's unused — the homepage has no `.card-variant` — but it's a live trap for the next person who edits the wrong file. Prune it. |
+| Medium | `shop.html` is **missing from `sitemap.xml`** (only `/` and `custom.html` are listed). The full catalog is the page most worth indexing. |
+| Medium | `shipping.html` says nothing about **custom-order turnaround**, though `custom.html` links to it for returns. |
+| Medium | Add `aggregateRating` to the JSON-LD now that 3 real reviews exist — it's the rich-result win, and the reviews are already there. |
 | Medium | The **founder photo** is a phone selfie. The story pillar leans hard on her; a real shot of her at the machine is the single best photo investment available. |
 | Medium | Write the **post-purchase insert** copy down in the repo. |
 | Low | Prune the vestigial `PRODUCTS`/`VARIANTS` in `js/main.js` so product edits can't drift from `js/shop-data.js`. |

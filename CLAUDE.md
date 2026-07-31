@@ -178,10 +178,12 @@ panel launches it via `.claude/launch.json` (config name `site`).
   Bloom**, **Blue Bee Cozy**, **Daisy Cozy** — all retired from the shop and moved here.
   To add a retired piece: drop a photo in assets/ and add a `{img, art, title, story}` entry to
   `PAST_MAKES`. (The old low-res / placeholder-dims Strawberry Tote TODOs are moot — it left the shop.)
-- **"Kind Words" testimonials section is LIVE but HIDDEN** (added 2026-07-27, a professionalism pass
-  inspired by a competitor site). `#kind-words` section stays `hidden` until the `TESTIMONIALS` array
-  in js/main.js has ≥1 entry, then JS reveals it. **REAL reviews only — never invent them.** Add
-  `{ quote, name, where?, stars? }` objects to populate. Same pass also: `text-wrap: balance` on
+- **"Kind Words" testimonials section is LIVE and SHOWING** (added 2026-07-27, a professionalism pass
+  inspired by a competitor site). `#kind-words` starts `hidden` and JS reveals it once the
+  `TESTIMONIALS` array in js/main.js has ≥1 entry — it now holds **3 real reviews**, so the section
+  renders. **REAL reviews only — never invent them.** Add `{ quote, name, where?, stars? }` objects
+  to populate. NOTE: one review is for a **"Road Trip Kindle Case"**, which exists in no PRODUCTS
+  entry and no Stories PAST_MAKES — decide whether it's a live product or a retired make. Same pass also: `text-wrap: balance` on
   headings, more `.section` whitespace, and `.badge` dashed→solid hairline.
 - **HOMEPAGE + CATALOG REDESIGN (2026-07-28, "luxury cottagecore"):**
   - **New full catalog page `shop.html`** — every item as its own tile in a grid (Totes/Scrunchies/Bows),
@@ -202,11 +204,13 @@ panel launches it via `.claude/launch.json` (config name `site`).
   (e.g. `scrunchie-orange-kitty.jpg`, the gingham bows), browsers/CDN serve the stale copy.
   Bump the `?v=N` query on that image's path in the `VARIANTS` map (orange-kitty + both gingham
   bows currently use `?v=2`). New filenames don't need this.
-- **Product structured data is live** → 5 `Product` JSON-LD blocks (one per shop card) with
-  `AggregateOffer` price ranges sit in index.html `<head>`, alongside the brand-level `Store`
-  block. Prices are **static** there — keep them in sync with the `PRODUCTS` object in js/main.js.
-  AT LAUNCH: flip every `availability` from `schema.org/PreOrder` → `schema.org/InStock`, and add
-  `aggregateRating` only once real reviews exist (never fake them).
+- **Product structured data is live** → **3** `Product` JSON-LD blocks (Totes / Scrunchies / Bows)
+  with `AggregateOffer` price ranges sit in index.html `<head>`, alongside the brand-level `Store`
+  block. Prices are **static** there — keep them in sync with **js/shop-data.js** (NOT main.js,
+  whose PRODUCTS copy is vestigial and still carries the pre-2026-07-30 prices).
+  `availability` is already `schema.org/InStock` on all three (the shop is open). **Still to do:**
+  add `aggregateRating` — 3 real reviews now exist in `TESTIMONIALS`, so it's finally legitimate.
+  Never fake them.
 - **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
   are written but not yet set up as an automation in Buttondown, so new subscribers still get
   silence. Needs doing in the Buttondown dashboard (not in this repo).
