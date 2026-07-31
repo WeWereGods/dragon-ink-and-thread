@@ -67,7 +67,9 @@
      --------------------------------------------------------- */
   var countdownClock = document.getElementById("countdownClock");
   if (countdownClock) {
-    var LAUNCH = new Date("2026-08-15T09:00:00-05:00").getTime();
+    // Single source of truth: js/dates.js (loaded before this file).
+    var LAUNCH = (window.DIT_DATES && window.DIT_DATES.ts) ||
+      new Date("2026-08-15T09:00:00-05:00").getTime();
     var countdownInterval = null;
     var tickCountdown = function () {
       var diff = LAUNCH - Date.now();
@@ -75,6 +77,9 @@
         countdownClock.textContent = "Custom orders are open! 🎉";
         countdownClock.removeAttribute("aria-hidden");
         if (countdownInterval) window.clearInterval(countdownInterval);
+        // Flip every "opens August 15" phrase on the page to its open wording
+        // without a reload — for anyone sitting on the page as it ticks over.
+        if (window.DIT_DATES) window.DIT_DATES.apply();
         document.dispatchEvent(new CustomEvent("shop:open"));
         return;
       }

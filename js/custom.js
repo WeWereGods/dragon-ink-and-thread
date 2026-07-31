@@ -5,15 +5,18 @@
    THE GATE: custom orders open CUSTOM_OPENS. Before that the form is disabled
    and a notice points at the Nest signup; after it, the form just works — no
    redeploy needed on the day, it flips by itself.
-     · To move the date, change CUSTOM_OPENS below AND the copy in index.html
-       (countdown label + FAQ), shop.html (countdown label), and custom.html's
-       fallback banner text, so the two never disagree.
+     · To move the date, change CUSTOM_OPENS in **js/dates.js** — that's the
+       only place it lives now, and the "opens August 15" wording across all
+       three pages follows it automatically (see the .js-pre-open /
+       .js-post-open pattern documented there).
      · To start taking requests EARLY, set OPEN_EARLY to true. The banner and
        notice follow automatically. */
 (function () {
   "use strict";
 
-  var CUSTOM_OPENS = new Date("2026-08-15T09:00:00-05:00").getTime();
+  // Single source of truth: js/dates.js (loaded before this file).
+  var CUSTOM_OPENS = (window.DIT_DATES && window.DIT_DATES.ts) ||
+    new Date("2026-08-15T09:00:00-05:00").getTime();
   var OPEN_EARLY = false;
   var isOpen = OPEN_EARLY || Date.now() >= CUSTOM_OPENS;
 
