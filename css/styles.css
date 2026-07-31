@@ -1883,9 +1883,9 @@ body.gallery-open { overflow: hidden; }
    marked alt="" / aria-hidden so screen readers skip it. */
 .ico-sparkle {
   display: inline-block;
-  width: 1.3em;
-  height: 1.3em;
+  width: 1.9em;
+  height: 1.9em;
   object-fit: contain;
-  vertical-align: -0.22em;
+  vertical-align: -0.5em;
   margin-right: 0.1em;
 }
