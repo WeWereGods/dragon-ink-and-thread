@@ -40,8 +40,12 @@
      picks. .js-offer-on shows while the code is live, .js-offer-off after.
      [data-offer-date] is filled with "August 17".
 
-     WHEN THE REPLACEMENT CODE EXISTS: put its wording in the .js-offer-off
-     spans and it takes over automatically the moment NEST10 lapses. */
+     THE REPLACEMENT (decided 2026-07-31): NEST15 — 15% off orders over $25,
+     no expiry, minimum enforced by the promotion code's own restriction in
+     Stripe. Its wording is already in the .js-offer-off spans, so it takes
+     over by itself at 2026-08-18 00:00 with no deploy.
+     ⚠️ NEST15 must EXIST in Stripe before then or those spans advertise a
+     code that fails at checkout. */
   var OFFER_ENDS = "2026-08-17T23:59:59-05:00";
   var offerTs = new Date(OFFER_ENDS).getTime();
 
