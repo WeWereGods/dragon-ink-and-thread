@@ -3,53 +3,59 @@
 Three emails sent to new "Join the Nest" subscribers. Voice is the site's: cozy,
 unhurried, book-lover warmth. First person — these come from Ayla, not from a brand.
 
-**Status:** copy only. No sending platform is wired up yet (see *Sending* below).
+**Status:** copy is current as of 2026-07-31 and ready to load. Not yet set up as an
+automation in Buttondown (that's a dashboard job, not a repo job).
 
-**⚠️ On the discount code — READ BEFORE SENDING (updated 2026-07-31):**
-`NEST10` exists and works (10% off, verified live in Stripe) but it **expires
-2026-08-17 23:59 Central**, and a Stripe promotion code that passes its expiry is
-**permanently dead** — it cannot be extended or reactivated.
+---
 
-So this sequence must NOT promise "your 10% is locked in" to someone who subscribes in
-September. Two things to fix before loading it into Buttondown:
+## The rule these emails are written to
 
-1. Treat NEST10 as a **deadline**, not a standing perk — "10% off, until August 17".
-2. A **replacement code** is being set up for afterwards. When it exists, put it in
-   Email 1 in place of NEST10 and drop the deadline wording.
+**Nothing in here may have an expiry date.** This is an evergreen automation: it fires
+whenever someone subscribes, forever, and each email is frozen the second it sends. The
+site can rewrite itself — `js/dates.js` swaps every dated phrase automatically — but an
+email in someone's inbox cannot. So:
 
-The site already handles this automatically: `js/dates.js` holds `OFFER_ENDS` and every
-"10% off" phrase on the site swaps to a non-discount line the moment the code lapses.
-Email can't do that — it's frozen the second it sends — which is exactly why an
-evergreen welcome email must never name a code with an expiry.
+- **No dates.** Not "opens August 15", not "until the 17th". If timing matters, link to the
+  page and let the page tell the truth.
+- **The code is `NEST15`** — 15% off orders over $25, no expiry, verified live in Stripe.
+  **Never `NEST10`**: it dies 2026-08-17 and a lapsed Stripe promotion code is permanently
+  dead, so anyone subscribing afterwards would get a code that fails at checkout.
+- **No naming individual pieces.** Almost everything is one of a kind. A welcome email that
+  says "there's a Sunflower tote" will be wrong within weeks — the Sunflower is already
+  gone. Describe the categories; link to the shop.
 
-**Before sending, check:** the launch date below says "August 15." If that slips,
-fix it here *and* in `index.html` (hero badge + FAQ) so the two never disagree.
+The previous version broke all three rules: it promised "10% off" and said "the shop opens
+August 15" — which had already happened on July 1.
 
 ---
 
 ## Email 1 — Welcome (sends immediately on signup)
 
 **Subject:** Welcome to the Nest 🪺
-**Preheader:** Your 10% is locked in. Here's what happens next.
+**Preheader:** Your discount code is inside.
 
 Hi — I'm Ayla.
 
-I'm so glad you're here. Dragon Ink and Thread is a small, handmade thing: totes, bows,
-scrunchies, and little fabric blooms, sewn in small batches in San Antonio, Texas. No warehouse, no
-machines running overnight. Just me, good fabric, and more time than is strictly sensible.
+I'm so glad you're here. Dragon Ink and Thread is a small, handmade thing: totes, bows and
+scrunchies, sewn in small batches in San Antonio, Texas. No warehouse, no machines running
+overnight. Just me, good fabric, and more time than is strictly sensible.
 
 Two things to know:
 
-**Your 10% off is locked in.** When the shop opens August 15, you'll get the code
-before anyone else — and you'll get through the door first.
+**Your code is NEST15** — 15% off any order over $25. It doesn't expire, so use it whenever
+something catches your eye. Just enter it at checkout.
 
 **I won't crowd your inbox.** I'll only write when something lovely is ready. That's the
 whole promise.
 
-Over the next week or so I'll tell you how this started (it's not the story you'd guess)
-and show you what's coming to the shop. Until then, you can peek at the collection here:
+The shop is open right now, and one thing worth knowing before you browse: most pieces are
+**one of a kind**. Not "limited edition" — there is one, I sewed it, and when someone takes
+it home the listing goes dark for good.
 
-→ [See what's coming](https://www.dragoninkandthread.com/#shop)
+→ [See what's in the shop](https://www.dragoninkandthread.com/shop.html)
+
+Over the next week I'll tell you how this started (it's not the story you'd guess) and show
+you around what I make.
 
 Welcome to the Nest. There's always room for one more adventurer.
 
@@ -82,46 +88,54 @@ into everything — the warmth of a chapter you're not quite ready to close.
 
 It's why nothing here is mass-produced. Everything is made by hand in small batches, and when
 a fabric sells out, that print retires and becomes part of the shop's history — making room
-for the next chapter.
+for the next chapter. There's a whole page of pieces that have already found homes.
+
+→ [Read the rest of the story](https://www.dragoninkandthread.com/#about)
+→ [See the pieces that found homes](https://www.dragoninkandthread.com/#stories)
 
 You don't have to leave wonder behind just because you grew up.
 
-More soon — next I'll show you what's actually in the shop.
+More soon — next I'll show you around what I actually make.
 
 — Ayla
-
-→ [Read the rest of the story](https://www.dragoninkandthread.com/#about)
 
 ---
 
 ## Email 3 — What I make (sends ~7 days after Email 1)
 
-**Subject:** A first look inside the Nest
-**Preheader:** Totes, scrunchies, bows — and a launch date.
+**Subject:** A proper look inside the Nest
+**Preheader:** Totes, scrunchies, bows — and the thing I'll make just for you.
 
 Hi,
 
 Here's what I've been sewing.
 
-**Totes** — roomy enough for a hardback and everything else you're carrying. There's a
-Butterfly tote in lily-of-the-valley and pink butterflies, a puffy woven Sunflower, woodland
-Mushrooms, and soft rose florals in mustard and powder blue.
+**Totes** — roomy enough for a hardback and everything else you're carrying. Cottage florals,
+woodland mushrooms, wild strawberries, lily-of-the-valley and butterflies. Some are big
+slouchy everyday bags, some are little mini totes for just the essentials. Every one is
+fully finished inside, because I can't help myself.
 
-**Scrunchies** — eight prints, from cherry blossom to a very serious orange kitty. Gentle on
-your hair, sturdier than they look. There's a bundle if you can't choose (I can't either).
+**Scrunchies** — soft prints, gentle on your hair, sturdier than they look. $6 each, or
+build your own bundle of any three for $15. (I can never pick three either.)
 
-**Bows and blooms** — hand-tied sailor bows and little fabric-flower hair clips. Small things
-that make an ordinary day feel considered.
+**Bows** — hand-tied sailor bows, $10. Small things that make an ordinary day feel considered.
 
-Everything is made by hand in small batches, so quantities are limited — when a print sells
-out, it's gone until I sew more. Grab what speaks to you before it retires.
+Everything is handmade in small batches, and most pieces are **one of a kind** — when one
+sells, that's genuinely it. If you see something you love, don't sit on it too long.
 
-**The shop opens August 15.** You'll get your 10% code and first access before it goes
-public. Nothing to do between now and then except wait with me.
+→ [Browse everything](https://www.dragoninkandthread.com/shop.html)
 
-→ [Browse the collection](https://www.dragoninkandthread.com/#shop)
+**And if what you want doesn't exist yet — ask me.** Custom orders are your print, your size,
+made for you: a tote sized to the exact book you carry, bows in a friend's wedding colours, a
+retired piece remade in a new fabric. I'll quote you before anything begins, and you're free
+to walk away.
 
-Thanks for being early. It means more than you'd think.
+→ [How custom orders work](https://www.dragoninkandthread.com/custom.html)
+
+A few practical things: shipping is one flat fee per order (free over $50), and if you're
+local to San Antonio you can choose **Local pickup** at checkout and skip it entirely.
+
+Thanks for being here. It means more than you'd think.
 
 — Ayla
 
@@ -131,14 +145,18 @@ Instagram & TikTok: @dragonink_and_thread
 
 ## Sending
 
-Not yet wired up. The site's forms POST to Web3Forms, which is a form-to-email relay — it
-notifies dragoninkandthread@gmail.com on each signup but does **not** keep a mailing list.
-Free-tier submissions are dropped after 30 days, and its autoresponder is a paid Pro feature
-that can only reply to a submission, never broadcast to past subscribers.
+**Platform: Buttondown** (chosen 2026-07-10). Both signup forms — `#nestForm` in the hero and
+`#nestFormCheckout` — POST to
+`buttondown.com/api/emails/embed-subscribe/dragoninkandthread`, so subscribers land there
+automatically. A hidden `tag` field marks the source (`hero` vs `checkout`).
 
-These three emails will be sent from **Buttondown** (chosen 2026-07-10), which will also send
-the launch announcement and the discount code. Until the account exists and the forms are
-repointed, the Nest list effectively lives in a Gmail inbox.
+**Back-fill: DONE (2026-07-31).** Subscribers who joined before the Buttondown switch on
+2026-07-10 existed only as Web3Forms notifications in Gmail (the free tier drops submissions
+after 30 days). They have been imported.
 
-**When migrating:** back-fill the existing subscribers out of Gmail first — those signup
-notifications are the only record of them.
+**Still to do:** set these three up as an automation in the Buttondown dashboard. Until that
+exists, new subscribers get silence.
+
+**Worth doing separately:** the `checkout` tag identifies people who reached the basket and
+didn't finish. That segment deserves its own one-off send rather than this sequence — see
+the marketing plan for suggested copy.
