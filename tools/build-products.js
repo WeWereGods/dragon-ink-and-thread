@@ -27,7 +27,7 @@ const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
 const SITE = "https://www.dragoninkandthread.com";
-const ASSET_V = "20260731b"; // cache-bust for css/js on generated pages
+const ASSET_V = "20260731c"; // cache-bust for css/js on generated pages
 
 // Load shop-data.js the same way a browser would.
 global.window = {};

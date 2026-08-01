@@ -81,7 +81,10 @@
       gate.innerHTML =
         "<p class=\"custom-gate-title\">Custom orders open " + opensLabel + ".</p>" +
         "<p>I'm finishing the last few ready-made pieces first, so the request form below opens that morning. " +
-        "<a href=\"index.html#home\">Join the Nest</a> and you'll hear the moment it does — along with 10% off.</p>" +
+        "<a href=\"index.html#home\">Join the Nest</a> and you'll hear the moment it does" +
+        // Only claim the discount while the code is actually redeemable.
+        ((window.DIT_DATES && window.DIT_DATES.offerLive && window.DIT_DATES.offerLive())
+          ? " — along with 10% off." : ".") + "</p>" +
         "<p class=\"custom-gate-fine\">In a hurry, or asking about a date before then? " +
         "<a href=\"index.html#contact\">Send me a note</a> and we'll work it out.</p>";
       fields.disabled = true;

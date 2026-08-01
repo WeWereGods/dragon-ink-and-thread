@@ -5,9 +5,22 @@ unhurried, book-lover warmth. First person — these come from Ayla, not from a 
 
 **Status:** copy only. No sending platform is wired up yet (see *Sending* below).
 
-**On the discount code:** the launch discount is deliberately *promised but not coded*.
-Email 1 says it's locked in; the actual code goes out in the launch email. Don't invent
-a code here — it has to match whatever the shop honors on day one.
+**⚠️ On the discount code — READ BEFORE SENDING (updated 2026-07-31):**
+`NEST10` exists and works (10% off, verified live in Stripe) but it **expires
+2026-08-17 23:59 Central**, and a Stripe promotion code that passes its expiry is
+**permanently dead** — it cannot be extended or reactivated.
+
+So this sequence must NOT promise "your 10% is locked in" to someone who subscribes in
+September. Two things to fix before loading it into Buttondown:
+
+1. Treat NEST10 as a **deadline**, not a standing perk — "10% off, until August 17".
+2. A **replacement code** is being set up for afterwards. When it exists, put it in
+   Email 1 in place of NEST10 and drop the deadline wording.
+
+The site already handles this automatically: `js/dates.js` holds `OFFER_ENDS` and every
+"10% off" phrase on the site swaps to a non-discount line the moment the code lapses.
+Email can't do that — it's frozen the second it sends — which is exactly why an
+evergreen welcome email must never name a code with an expiry.
 
 **Before sending, check:** the launch date below says "August 15." If that slips,
 fix it here *and* in `index.html` (hero badge + FAQ) so the two never disagree.

@@ -29,7 +29,24 @@
   var CUSTOM_OPENS = "2026-08-15T09:00:00-05:00";
   var ts = new Date(CUSTOM_OPENS).getTime();
 
+  /* THE NEST DISCOUNT DEADLINE.
+     NEST10 is a launch coupon: Stripe has it expiring 2026-08-17 23:59 Central,
+     and a Stripe promotion code that passes its expiry is permanently dead —
+     it cannot be extended or reactivated. So the site must stop promising 10%
+     the moment it lapses, or every page is advertising a code that fails at
+     checkout.
+
+     Same mechanism as the launch date: mark the two wordings and this file
+     picks. .js-offer-on shows while the code is live, .js-offer-off after.
+     [data-offer-date] is filled with "August 17".
+
+     WHEN THE REPLACEMENT CODE EXISTS: put its wording in the .js-offer-off
+     spans and it takes over automatically the moment NEST10 lapses. */
+  var OFFER_ENDS = "2026-08-17T23:59:59-05:00";
+  var offerTs = new Date(OFFER_ENDS).getTime();
+
   function isOpen() { return Date.now() >= ts; }
+  function offerLive() { return Date.now() <= offerTs; }
 
   /* Derived, never typed, so the words can't disagree with the date above.
        label()        -> "Saturday, August 15"  (banners, where it's the headline)
@@ -42,10 +59,24 @@
     return new Date(ts).toLocaleDateString("en-US", opts);
   }
 
+  function offerLabel(form) {
+    var opts = form === "short"
+      ? { month: "long", day: "numeric" }
+      : { weekday: "long", month: "long", day: "numeric" };
+    return new Date(offerTs).toLocaleDateString("en-US", opts);
+  }
+
   function apply() {
     var open = isOpen();
     document.querySelectorAll(".js-pre-open").forEach(function (el) { el.hidden = open; });
     document.querySelectorAll(".js-post-open").forEach(function (el) { el.hidden = !open; });
+
+    var live = offerLive();
+    document.querySelectorAll(".js-offer-on").forEach(function (el) { el.hidden = !live; });
+    document.querySelectorAll(".js-offer-off").forEach(function (el) { el.hidden = live; });
+    document.querySelectorAll("[data-offer-date]").forEach(function (el) {
+      el.textContent = offerLabel(el.getAttribute("data-offer-date"));
+    });
     // Any element marked data-open-date gets the date spelled out for it.
     // data-open-date="short" drops the weekday for mid-sentence use.
     document.querySelectorAll("[data-open-date]").forEach(function (el) {
@@ -58,6 +89,10 @@
     ts: ts,
     isOpen: isOpen,
     label: label,
+    OFFER_ENDS: OFFER_ENDS,
+    offerTs: offerTs,
+    offerLive: offerLive,
+    offerLabel: offerLabel,
     apply: apply
   };
 
