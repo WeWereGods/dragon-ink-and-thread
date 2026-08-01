@@ -223,24 +223,34 @@
         </div>
 
         <div class="shop-teaser-grid">
-          <a class="teaser-card" href="shop.html" aria-label="Butterfly Tote — shop the collection">
-            <img class="teaser-photo" src="assets/tote-butterfly.jpg" alt="Handmade cream tote with a lily-of-the-valley and pink butterfly print, lined in white" loading="lazy" decoding="async"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder" style="display:none;" aria-hidden="true"><span>🦋</span></div>
-            <span class="teaser-name">Butterfly Tote</span>
-          </a>
-          <a class="teaser-card" href="shop.html" aria-label="Strawberry Scrunchie — shop the collection">
-            <img class="teaser-photo" src="assets/scrunchie-strawberry.jpg" alt="Handmade scrunchie in a red strawberry and green leaf print" loading="lazy" decoding="async"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder" style="display:none;" aria-hidden="true"><span>🍓</span></div>
-            <span class="teaser-name">Strawberry Scrunchie</span>
-          </a>
-          <a class="teaser-card" href="shop.html" aria-label="Sage Bow — shop the collection">
-            <img class="teaser-photo" src="assets/bow-sage.jpg" alt="Handmade sage-green floral sailor bow" loading="lazy" decoding="async"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-            <div class="placeholder" style="display:none;" aria-hidden="true"><span>🎀</span></div>
-            <span class="teaser-name">Sage Bow</span>
-          </a>
+          <!-- Each teaser is a photo plus a button straight to that category on
+               shop.html. The card is a <div>, not an <a>, because a button
+               nested inside a link is invalid and behaves badly for keyboards
+               and screen readers. Photo and button share one destination. -->
+          <div class="teaser-card">
+            <a class="teaser-photo-link" href="shop.html#totes" aria-label="Shop Totes">
+              <img class="teaser-photo" src="assets/tote-butterfly.jpg" alt="Handmade cream tote with a lily-of-the-valley and pink butterfly print, lined in white" loading="lazy" decoding="async"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder" style="display:none;" aria-hidden="true"><span>🦋</span></div>
+            </a>
+            <a class="btn teaser-cat-btn" href="shop.html#totes">Shop Totes →</a>
+          </div>
+          <div class="teaser-card">
+            <a class="teaser-photo-link" href="shop.html#scrunchies" aria-label="Shop Scrunchies">
+              <img class="teaser-photo" src="assets/scrunchie-strawberry.jpg" alt="Handmade scrunchie in a red strawberry and green leaf print" loading="lazy" decoding="async"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder" style="display:none;" aria-hidden="true"><span>🍓</span></div>
+            </a>
+            <a class="btn teaser-cat-btn" href="shop.html#scrunchies">Shop Scrunchies →</a>
+          </div>
+          <div class="teaser-card">
+            <a class="teaser-photo-link" href="shop.html#bows" aria-label="Shop Bows">
+              <img class="teaser-photo" src="assets/bow-sage.jpg" alt="Handmade sage-green floral sailor bow" loading="lazy" decoding="async"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder" style="display:none;" aria-hidden="true"><span>🎀</span></div>
+            </a>
+            <a class="btn teaser-cat-btn" href="shop.html#bows">Shop Bows →</a>
+          </div>
         </div>
 
         <div class="shop-cta-panel">
