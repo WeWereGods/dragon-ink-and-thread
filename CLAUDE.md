@@ -109,7 +109,10 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
   subtotal; **one of each item max** — one-of-a-kind, so no qty steppers). Checkout POSTs `[{id, qty}]` to the Worker at
   **`https://dit-checkout.dragoninkandthread.workers.dev`** (**worker/checkout-worker.js**), which
   builds a Stripe Checkout Session and returns its URL to redirect to. After payment →
-  **success.html** (clears the cart).
+  **success.html** (clears the cart). **success.html also ASKS for two things (2026-08-02)** — it's
+  the moment of peak goodwill and used to ask for neither: a review/photo (mailto + Instagram; real
+  reviews get added BY HAND to `TESTIMONIALS`, never invented) and a Join-the-Nest signup tagged
+  **`purchased`**, wired by a small inline script since this page doesn't load main.js.
   - **SECURITY / source of truth for prices:** the Worker holds its OWN `PRICES` map (in cents).
     Client-sent prices are ignored. When you change a price or add/retire an item in
     **js/shop-data.js**, also update `PRICES` in worker/checkout-worker.js and re-run
@@ -148,6 +151,16 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
   - **One-of-a-kind:** set **`soldOut: true`** on a
     PRODUCTS entry in js/shop-data.js → dimmed card + "Sold" badge + disabled "Sold out"; cart
     refuses it. **Sunflower Tote is currently soldOut.**
+  - **Sold-out waitlist (2026-08-02):** a sold-out card is a DEAD END, and in a one-of-a-kind shop
+    every listing eventually becomes one — so `buyMarkup()` in js/shop.js also renders
+    **"Tell me when something like this appears"**, opening the `#waitlistModal` that lives in
+    shop.html. It subscribes to the same Buttondown list as the hero form, tagged **`waitlist`**.
+    `.waitlist-modal[hidden]{display:none}` is **required** (same display-override gotcha as the
+    cart drawer, the gallery and the fabric lightbox). The submit handler duplicates
+    `wireNestForm()`'s status branching because **main.js isn't loaded on shop.html**. A *per-item*
+    tag was deliberately not used: acting on any tag needs Buttondown's +$9/mo segmentation
+    add-on anyway, and an unfamiliar tag value is the one thing here that can't be tested against
+    the live account.
   - **Photo gallery (2026-07-30):** double-click a catalog photo → js/shop.js lightbox that
     arrows/scrolls through that item's `VARIANTS.images` (prev/next, counter, keyboard, Esc);
     a "N photos" hint shows on multi-image cards. `.gallery-lightbox[hidden]{display:none}` is

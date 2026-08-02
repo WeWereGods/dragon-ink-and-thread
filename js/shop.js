@@ -77,9 +77,23 @@
     return '<div class="byo-picks" data-byo-picks="' + esc(id) + '">' + rows + "</div>";
   }
 
+  /* Sold out is a DEAD END, and for one-of-a-kind work every piece eventually
+     lands here — the visitor who clicked the prettiest thing in the shop is the
+     most motivated traffic there is, and a disabled button gives them nowhere to
+     go. So offer to write when something similar is made: it turns the shop's
+     structural weakness into list growth. Opens the shared modal in shop.html. */
+  function waitlistMarkup(id) {
+    var p = PRODUCTS[id] || {};
+    return '<button class="btn btn-ghost catalog-waitlist" type="button" data-waitlist="' + esc(id) +
+      '" data-waitlist-name="' + esc(p.name || "") + '">Tell me when something like this appears</button>';
+  }
+
   function buyMarkup(id) {
     var p = PRODUCTS[id];
-    if (p && p.soldOut) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Sold out</button>';
+    if (p && p.soldOut) {
+      return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Sold out</button>' +
+             waitlistMarkup(id);
+    }
     var link = LINKS[id];
     if (!link) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Coming soon</button>';
     if (!shopOpen) return '<button class="btn btn-primary catalog-buy" disabled>Opens August 15</button>';
@@ -177,5 +191,83 @@
   /* The old double-click lightbox lived here. Photos now link straight to the
      product page, which shows every photo with thumbnails — a real destination
      people can bookmark and share, instead of a gesture nobody found. */
+
+  /* ---------------------------------------------------------
+     "Tell me when something like this appears" — the sold-out
+     waitlist. Subscribes to the same Buttondown list as the hero
+     form, tagged `waitlist` so these people can be told apart
+     later. (A per-item tag was tempting, but acting on ANY tag
+     needs Buttondown's +$9/mo segmentation add-on, and an
+     unfamiliar tag value is the one thing here that can't be
+     tested against the live account — so keep it to the same
+     stable shape the hero/checkout forms already use.)
+     --------------------------------------------------------- */
+  var wlModal = document.getElementById("waitlistModal");
+  if (wlModal) {
+    var wlForm = document.getElementById("waitlistForm");
+    var wlNote = document.getElementById("waitlistNote");
+    var wlItem = document.getElementById("waitlistItem");
+    var wlEmail = document.getElementById("waitlistEmail");
+    var wlDefaultNote = wlNote ? wlNote.textContent : "";
+    var wlLastFocus = null;
+    var WL_HELP = "Something went wrong — please email dragoninkandthread@gmail.com to join.";
+
+    var wlOpen = function (name) {
+      wlLastFocus = document.activeElement;
+      if (wlItem) wlItem.textContent = name ? "You were looking at the " + name + "." : "";
+      if (wlNote) wlNote.textContent = wlDefaultNote;
+      wlModal.hidden = false;
+      document.body.classList.add("waitlist-open");
+      if (wlEmail) wlEmail.focus();
+    };
+    var wlClose = function () {
+      wlModal.hidden = true;
+      document.body.classList.remove("waitlist-open");
+      if (wlLastFocus && wlLastFocus.focus) wlLastFocus.focus();
+    };
+
+    document.addEventListener("click", function (e) {
+      var btn = e.target.closest && e.target.closest("[data-waitlist]");
+      if (btn) { wlOpen(btn.getAttribute("data-waitlist-name")); return; }
+      if (wlModal.hidden) return;
+      // Click the scrim (but not the card) or the × to dismiss.
+      if (e.target === wlModal || (e.target.closest && e.target.closest(".waitlist-close"))) wlClose();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !wlModal.hidden) wlClose();
+    });
+
+    /* Same Buttondown contract as wireNestForm() in js/main.js: responses are
+       HTML, not JSON, so branch on status (ok = subscribed, 400 = bad/duplicate).
+       Duplicated rather than shared because main.js isn't loaded on shop.html. */
+    if (wlForm && wlNote) {
+      wlForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        if (wlForm.querySelector('[name="botcheck"]:checked')) return; // honeypot
+        var em = wlForm.querySelector('[name="email"]');
+        var tg = wlForm.querySelector('[name="tag"]');
+        var data = new FormData();
+        data.append("email", em ? em.value : "");
+        if (tg && tg.value) data.append("tag", tg.value);
+
+        var sbtn = wlForm.querySelector('button[type="submit"]');
+        if (sbtn) sbtn.disabled = true;
+        wlNote.textContent = "Adding you to the nest…";
+        fetch(wlForm.action, { method: "POST", body: data })
+          .then(function (r) {
+            if (r.ok) {
+              wlForm.reset();
+              wlNote.textContent = "Lovely — I'll write the moment something similar is on the table. 🌿";
+            } else if (r.status === 400) {
+              wlNote.textContent = "That address didn't take — if you're already in the nest, you're all set.";
+            } else {
+              wlNote.textContent = WL_HELP;
+            }
+          })
+          .catch(function () { wlNote.textContent = WL_HELP; })
+          .finally(function () { if (sbtn) sbtn.disabled = false; });
+      });
+    }
+  }
 
 })();

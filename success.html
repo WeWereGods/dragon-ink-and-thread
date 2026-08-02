@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Caveat:wght@500;600;700&family=Great+Vibes&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=6edf06f8" />
+  <link rel="stylesheet" href="css/styles.css?v=e2d0c09b" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -40,6 +40,35 @@
       <p style="margin-top:1.6rem;">
         <a class="btn btn-primary" href="shop.html">Keep browsing the shop</a>
       </p>
+
+      <!-- This page is the moment of peak goodwill — a buyer will never be more
+           willing to say something kind or leave an email than right now, and it
+           used to ask for neither. Reviews are added BY HAND to TESTIMONIALS in
+           js/main.js once they arrive: real ones only, never invented. -->
+      <div class="thanks-ask">
+        <p class="eyebrow">One small thing</p>
+        <h2>Would you tell me how it turned out?</h2>
+        <p>A line about what you thought — or a photo of your piece out in the world — means more to a shop this size than you'd think. I read every one, and with your blessing I'd love to share it.</p>
+        <p class="thanks-actions">
+          <a class="btn btn-primary" href="mailto:dragoninkandthread@gmail.com?subject=A%20kind%20word%20about%20my%20order">Send a kind word</a>
+          <a class="btn btn-ghost" href="https://www.instagram.com/dragonink_and_thread" target="_blank" rel="noopener">Tag me on Instagram</a>
+        </p>
+      </div>
+
+      <div class="thanks-ask">
+        <p class="eyebrow">Before you go</p>
+        <h2>Join the Nest</h2>
+        <p>If you're not on the list yet — I write only when there's something worth writing about: new prints, one-of-a-kind pieces, and the makes that never reach the shop.</p>
+        <form class="nest-form" id="thanksForm" action="https://buttondown.com/api/emails/embed-subscribe/dragoninkandthread" method="POST" aria-label="Join the Nest — email signup">
+          <input type="hidden" name="tag" value="purchased" />
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <label class="sr-only" for="thanksEmail">Your email address</label>
+          <input type="email" id="thanksEmail" name="email" placeholder="you@example.com" required autocomplete="email" />
+          <button type="submit" class="btn btn-primary">Join the Nest</button>
+        </form>
+        <p class="nest-note" id="thanksNote">Never more than that.</p>
+      </div>
+
       <p class="policy-updated">Questions about your order? Email <a href="mailto:dragoninkandthread@gmail.com">dragoninkandthread@gmail.com</a>.</p>
     </div>
   </main>
@@ -62,6 +91,42 @@
     // The order completed — empty the cart so it doesn't linger.
     try { localStorage.removeItem("dit-cart-v1"); } catch (e) {}
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    /* Join the Nest, for buyers who aren't on the list yet. Same Buttondown
+       contract as wireNestForm() in js/main.js — the responses are HTML, not
+       JSON, so branch on status (ok = subscribed, 400 = bad/duplicate address).
+       Inline because this page doesn't load main.js. */
+    (function () {
+      var form = document.getElementById("thanksForm");
+      var note = document.getElementById("thanksNote");
+      if (!form || !note) return;
+      var HELP = "Something went wrong — please email dragoninkandthread@gmail.com to join.";
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        if (form.querySelector('[name="botcheck"]:checked')) return; // honeypot
+        var em = form.querySelector('[name="email"]');
+        var tg = form.querySelector('[name="tag"]');
+        var data = new FormData();
+        data.append("email", em ? em.value : "");
+        if (tg && tg.value) data.append("tag", tg.value);
+        var btn = form.querySelector('button[type="submit"]');
+        if (btn) btn.disabled = true;
+        note.textContent = "Adding you to the nest…";
+        fetch(form.action, { method: "POST", body: data })
+          .then(function (r) {
+            if (r.ok) {
+              form.reset();
+              note.textContent = "You're in the Nest! 🌿 I'll write when there's something lovely to share.";
+            } else if (r.status === 400) {
+              note.textContent = "That address didn't take — if you're already in the nest, you're all set.";
+            } else {
+              note.textContent = HELP;
+            }
+          })
+          .catch(function () { note.textContent = HELP; })
+          .finally(function () { if (btn) btn.disabled = false; });
+      });
+    })();
   </script>
 
   <!-- Cloudflare Web Analytics — cookieless. -->
