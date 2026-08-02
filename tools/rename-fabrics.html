@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Rename fabrics — Dragon Ink and Thread</title>
+<!--
+  A LOCAL TOOL, not part of the site. Nothing links to it and it's noindexed.
+
+  WHAT IT'S FOR: renaming 50-odd fabrics by hand in js/fabrics-data.js means
+  matching names to filenames you can't see. This shows every swatch with its
+  name in a box next to it, and writes the data file for you.
+
+  HOW TO USE
+    1. From the repo root:  node .claude/preview-server.js     (or python -m http.server 8000)
+    2. Open  http://localhost:8000/tools/rename-fabrics.html
+    3. Type over any name. Move a fabric between groups with the dropdown.
+    4. Click "Download fabrics-data.js", then move that file from your
+       Downloads folder into the js/ folder, replacing the one there.
+    5. Back in the terminal:  node tools/build-fabrics.js && node tools/bump-assets.js
+    6. Commit and push.
+
+  Nothing is saved until you download — closing the tab loses your edits.
+-->
+<style>
+  :root { --ink:#453a30; --soft:#766757; --paper:#f6efe0; --line:#efe4cd; --teal:#2f6b72; --rose:#a34a6b; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:1.5rem; background:var(--paper); color:var(--ink);
+         font:16px/1.5 "Nunito",-apple-system,Segoe UI,sans-serif; }
+  h1 { font-size:1.4rem; margin:0 0 .3rem; }
+  .lede { color:var(--soft); margin:0 0 1.2rem; max-width:60ch; }
+  .bar { position:sticky; top:0; z-index:5; background:var(--paper); padding:.8rem 0;
+         border-bottom:1px solid var(--line); margin-bottom:1.2rem; display:flex;
+         gap:.6rem; align-items:center; flex-wrap:wrap; }
+  button { font:inherit; font-weight:700; cursor:pointer; border-radius:999px;
+           padding:.55rem 1.2rem; border:1px solid var(--line); background:#fff; color:var(--ink); }
+  button.primary { background:var(--teal); border-color:var(--teal); color:#fff; }
+  button:hover { border-color:var(--teal); }
+  .count { color:var(--soft); font-size:.9rem; }
+  h2 { font-size:1.05rem; margin:1.6rem 0 .6rem; color:var(--teal); }
+  .grid { display:grid; gap:.9rem; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); }
+  .card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:.6rem; }
+  .card img { width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px; display:block; cursor:zoom-in; }
+  .file { font-size:.72rem; color:var(--soft); margin:.35rem 0 .25rem; font-family:ui-monospace,monospace; }
+  input, select { width:100%; font:inherit; padding:.4rem .55rem; border:1px solid var(--line);
+                  border-radius:8px; background:#fff; color:var(--ink); }
+  input:focus, select:focus { outline:2px solid var(--teal); outline-offset:1px; }
+  input.changed { border-color:var(--rose); background:#fff7fa; }
+  select { margin-top:.35rem; font-size:.82rem; color:var(--soft); }
+  dialog { border:0; border-radius:12px; padding:0; background:transparent; }
+  dialog::backdrop { background:rgba(40,32,26,.88); }
+  dialog img { max-width:88vw; max-height:88vh; border-radius:12px; display:block; }
+</style>
+</head>
+<body>
+
+<h1>Rename fabrics</h1>
+<p class="lede">Type over any name. Use the dropdown to move a fabric to a different group.
+Click a photo to see it big. When you're happy, download the file and drop it into <code>js/</code>.</p>
+
+<div class="bar">
+  <button class="primary" id="download">Download fabrics-data.js</button>
+  <button id="copy">Copy to clipboard</button>
+  <button id="reset">Undo all my changes</button>
+  <span class="count" id="count"></span>
+</div>
+
+<div id="app"></div>
+
+<dialog id="big"><img alt="" /></dialog>
+
+<script src="../js/fabrics-data.js"></script>
+<script>
+(function () {
+  "use strict";
+  var GROUPS = window.DIT_FABRICS.GROUPS;
+  var original = JSON.parse(JSON.stringify(GROUPS));
+  var app = document.getElementById("app");
+  var big = document.getElementById("big");
+
+  function render() {
+    app.innerHTML = "";
+    GROUPS.forEach(function (g, gi) {
+      var h = document.createElement("h2");
+      h.textContent = g.label + " — " + g.items.length;
+      app.appendChild(h);
+
+      var grid = document.createElement("div");
+      grid.className = "grid";
+      g.items.forEach(function (it, ii) {
+        var card = document.createElement("div");
+        card.className = "card";
+
+        var img = document.createElement("img");
+        img.src = "../assets/fabrics/" + it.file;
+        img.alt = it.name;
+        img.loading = "lazy";
+        img.addEventListener("click", function () {
+          big.querySelector("img").src = img.src;
+          big.querySelector("img").alt = it.name;
+          big.showModal();
+        });
+
+        var file = document.createElement("p");
+        file.className = "file";
+        file.textContent = it.file;
+
+        var input = document.createElement("input");
+        input.value = it.name;
+        input.setAttribute("aria-label", "Name for " + it.file);
+        input.addEventListener("input", function () {
+          it.name = input.value;
+          input.classList.toggle("changed", input.value !== findOriginal(it.file));
+          updateCount();
+        });
+
+        var sel = document.createElement("select");
+        sel.setAttribute("aria-label", "Group for " + it.file);
+        GROUPS.forEach(function (og, oi) {
+          var o = document.createElement("option");
+          o.value = oi; o.textContent = og.label;
+          if (oi === gi) o.selected = true;
+          sel.appendChild(o);
+        });
+        sel.addEventListener("change", function () {
+          var to = Number(sel.value);
+          if (to === gi) return;
+          GROUPS[gi].items.splice(ii, 1);
+          GROUPS[to].items.push(it);
+          render();
+        });
+
+        card.append(img, file, input, sel);
+        grid.appendChild(card);
+      });
+      app.appendChild(grid);
+    });
+    updateCount();
+  }
+
+  function findOriginal(file) {
+    for (var i = 0; i < original.length; i++)
+      for (var j = 0; j < original[i].items.length; j++)
+        if (original[i].items[j].file === file) return original[i].items[j].name;
+    return null;
+  }
+
+  function updateCount() {
+    var changed = 0, total = 0;
+    GROUPS.forEach(function (g) { g.items.forEach(function (it) {
+      total++; if (it.name !== findOriginal(it.file)) changed++;
+    }); });
+    document.getElementById("count").textContent =
+      changed ? changed + " of " + total + " renamed" : total + " fabrics, nothing changed yet";
+  }
+
+  /* Rebuild the data file, keeping the header comment that explains the
+     photo processing — that note is the reason nobody re-commits 188 MB. */
+  function buildFile() {
+    var header = document.currentScript ? "" : "";
+    var out = "/* Dragon Ink and Thread — the fabric library (single source of truth).\n" +
+      "   ===========================================================================\n" +
+      "   Written by tools/rename-fabrics.html. See that file, or the notes below.\n" +
+      "\n" +
+      "   ADD A FABRIC:\n" +
+      "     1. Put the photo in assets/fabrics/ (see the note on processing below)\n" +
+      "     2. Add a { file, name } entry to the right group here\n" +
+      "     3. node tools/build-fabrics.js     (regenerates fabrics.html)\n" +
+      "     4. node tools/bump-assets.js       (restamps cache tokens)\n" +
+      "\n" +
+      "   REMOVE ONE when the bolt runs out: delete its entry and re-run. Better to\n" +
+      "   remove it than to have someone fall in love with fabric you no longer have.\n" +
+      "\n" +
+      "   PHOTO PROCESSING — the originals are 3-7 MB phone JPEGs and must NOT be\n" +
+      "   committed raw (53 of them was 188 MB). They're resized to 640px on the long\n" +
+      "   edge at quality 78 (~81 KB each) and re-encoded, which also strips EXIF.\n" +
+      "   That last part matters: 5 of these were shot in landscape with an EXIF\n" +
+      "   orientation tag, and without baking the rotation into the pixels they\n" +
+      "   display on their side. Jimp v1 auto-rotates on read; re-encoding drops the\n" +
+      "   tag so nothing rotates them a second time. */\n" +
+      "window.DIT_FABRICS = {\n  GROUPS: [\n";
+    out += GROUPS.map(function (g) {
+      return "    {\n      label: " + JSON.stringify(g.label) + ",\n" +
+             (g.note ? "      note: " + JSON.stringify(g.note) + ",\n" : "") +
+             "      items: [\n" +
+             g.items.map(function (it) {
+               return "        { file: " + JSON.stringify(it.file) + ", name: " + JSON.stringify(it.name) + " }";
+             }).join(",\n") + "\n      ]\n    }";
+    }).join(",\n");
+    out += "\n  ]\n};\n";
+    return out;
+  }
+
+  document.getElementById("download").addEventListener("click", function () {
+    var blob = new Blob([buildFile()], { type: "text/javascript" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "fabrics-data.js";
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  document.getElementById("copy").addEventListener("click", function (e) {
+    navigator.clipboard.writeText(buildFile()).then(function () {
+      e.target.textContent = "Copied ✓";
+      setTimeout(function () { e.target.textContent = "Copy to clipboard"; }, 1600);
+    });
+  });
+
+  document.getElementById("reset").addEventListener("click", function () {
+    GROUPS.length = 0;
+    JSON.parse(JSON.stringify(original)).forEach(function (g) { GROUPS.push(g); });
+    render();
+  });
+
+  big.addEventListener("click", function () { big.close(); });
+  render();
+})();
+</script>
+</body>
+</html>
