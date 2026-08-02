@@ -35,6 +35,31 @@ assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
 emails/               Marketing email copy (not sent by the site; no platform wired up yet).
 ```
 
+## ⚠️ Cache-busting is AUTOMATIC now — but you must run the script
+`?v=` tokens are the **content hash** of each file (`tools/asset-hash.js`), not a hand-typed
+date. After editing any CSS or JS:
+
+```
+node tools/bump-assets.js      # restamps every ?v= in every .html
+```
+
+This exists because a hand-maintained version was forgotten **three times in one session**.
+The worst shipped the fabric lightbox with its CSS uncacheable — the enlarged photo appeared
+full-size over the page with no backdrop, because returning visitors kept the old stylesheet.
+A hash changes exactly when the file changes and never when it doesn't. The two page
+generators call `hashOf()` themselves, so generated pages come out already correct.
+
+## ⚠️ Fabric library is GENERATED — `node tools/build-fabrics.js`
+`fabrics.html` (53 fabrics for custom orders) is written from **js/fabrics-data.js**.
+Add/remove a fabric there, then re-run. **js/fabrics.js** only adds the group filters and the
+tap-to-enlarge view; the swatches and names are static in the HTML.
+- Photos: `assets/fabrics/` at 640px long edge, q78 (~81 KB each). The raw phone originals in
+  `assets/Catalog/` are **188 MB and gitignored — never commit them**.
+- Phone JPEGs carry **EXIF orientation**; 5 of these were landscape and would display sideways.
+  Jimp v1 auto-rotates on read and re-encoding drops the tag, which bakes rotation into pixels.
+- `.fabric-lightbox[hidden]{display:none}` is required (same display-override gotcha as the
+  cart drawer and the old gallery).
+
 ## ⚠️ Product pages are GENERATED — re-run the script after any shop-data change
 Every product has its own page at the repo root (`tote-butterfly.html`, `bow-sage.html`, …),
 **written by `tools/build-products.js` from js/shop-data.js**. They are not hand-edited.

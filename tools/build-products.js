@@ -27,7 +27,9 @@ const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
 const SITE = "https://www.dragoninkandthread.com";
-const ASSET_V = "20260731e"; // cache-bust for css/js on generated pages
+const { hashOf } = require("./asset-hash");
+// Cache-bust tokens are the assets' own content hashes — see tools/asset-hash.js.
+const V = (rel) => hashOf(rel) || "0";
 
 // Load shop-data.js the same way a browser would.
 global.window = {};
@@ -169,7 +171,7 @@ ${JSON.stringify(productLd, null, 2)}
 ${JSON.stringify(crumbLd, null, 2)}
   </script>
 
-  <link rel="stylesheet" href="css/styles.css?v=${ASSET_V}" />
+  <link rel="stylesheet" href="css/styles.css?v=${V("css/styles.css")}" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -263,10 +265,10 @@ ${JSON.stringify(crumbLd, null, 2)}
     </div>
   </footer>
 
-  <script src="js/dates.js?v=${ASSET_V}"></script>
-  <script src="js/shop-data.js?v=${ASSET_V}"></script>
-  <script src="js/product.js?v=${ASSET_V}"></script>
-  <script src="js/cart.js?v=${ASSET_V}"></script>
+  <script src="js/dates.js?v=${V("js/dates.js")}"></script>
+  <script src="js/shop-data.js?v=${V("js/shop-data.js")}"></script>
+  <script src="js/product.js?v=${V("js/product.js")}"></script>
+  <script src="js/cart.js?v=${V("js/cart.js")}"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>

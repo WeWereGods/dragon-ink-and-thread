@@ -19,7 +19,9 @@ const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
 const SITE = "https://www.dragoninkandthread.com";
-const ASSET_V = "20260731e";
+const { hashOf } = require("./asset-hash");
+// Cache-bust tokens are the assets' own content hashes — see tools/asset-hash.js.
+const V = (rel) => hashOf(rel) || "0";
 
 global.window = {};
 require(path.join(ROOT, "js", "fabrics-data.js"));
@@ -89,7 +91,7 @@ const html = `<!DOCTYPE html>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Caveat:wght@500;600;700&family=Great+Vibes&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/styles.css?v=${ASSET_V}" />
+  <link rel="stylesheet" href="css/styles.css?v=${V("css/styles.css")}" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -180,8 +182,8 @@ const html = `<!DOCTYPE html>
     </div>
   </footer>
 
-  <script src="js/dates.js?v=${ASSET_V}"></script>
-  <script src="js/fabrics.js?v=${ASSET_V}"></script>
+  <script src="js/dates.js?v=${V("js/dates.js")}"></script>
+  <script src="js/fabrics.js?v=${V("js/fabrics.js")}"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>
