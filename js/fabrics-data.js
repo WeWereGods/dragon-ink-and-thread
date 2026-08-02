@@ -33,7 +33,7 @@ window.DIT_FABRICS = {
         { file: "fabric-20.jpg", name: "Cup of Cozy - Sage" },
         { file: "fabric-13.jpg", name: "Espresso Roses" },
         { file: "fabric-14.jpg", name: "Freshly Roasted" },
-        { file: "fabric-21.jpg", name: "The Daily Grind -Sage" },
+        { file: "fabric-21.jpg", name: "The Daily Grind - Sage" },
         { file: "fabric-16.jpg", name: "Cinnamon Marble" },
         { file: "fabric-17.jpg", name: "Mocha Marble" }
       ]
@@ -50,7 +50,7 @@ window.DIT_FABRICS = {
         { file: "fabric-29.jpg", name: "Dew Kissed Rosebud" },
         { file: "fabric-34.jpg", name: "Rosebud Sprig" },
         { file: "fabric-28.jpg", name: "Rose Lattice" },
-        { file: "fabric-26.jpg", name: "\"Feyres Garden\"" },
+        { file: "fabric-26.jpg", name: "Feyre's Garden" },
         { file: "fabric-06.jpg", name: "Golden Meadows" },
         { file: "fabric-39.jpg", name: "Buttercup Ditsy" },
         { file: "fabric-41.jpg", name: "Sunlit Truce" },
@@ -76,10 +76,10 @@ window.DIT_FABRICS = {
         { file: "fabric-31.jpg", name: "Baby Bunny Gingham" },
         { file: "fabric-33.jpg", name: "Little Goose Gingham" },
         { file: "fabric-30.jpg", name: "Gingham Teddy Bears" },
-        { file: "fabric-25.jpg", name: "Nestas Cats" },
-        { file: "fabric-49.jpg", name: "Whimsy Woods" },
+        { file: "fabric-25.jpg", name: "Nesta's Cats" },
+        { file: "fabric-49.jpg", name: "Mushrooms and Whimsy" },
         { file: "fabric-04.jpg", name: "Sealed in Wax" },
-        { file: "fabric-46.jpg", name: "Sprites Breath" },
+        { file: "fabric-46.jpg", name: "Sprite's Breath" },
         { file: "fabric-44.jpg", name: "Honey Field" },
         { file: "fabric-48.jpg", name: "Wings and Whimsy" },
         { file: "fabric-51.jpg", name: "Wings and Ruin" }
