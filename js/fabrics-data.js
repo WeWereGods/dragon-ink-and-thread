@@ -27,7 +27,7 @@ window.DIT_FABRICS = {
       label: "The Cup and Cozy",
       note: "For anyone whose day doesn't start until the kettle does.",
       items: [
-        { file: "fabric-05.jpg", name: "Coffee and Cream Roses" },
+        { file: "fabric-05.jpg", name: "Brew and Bloom" },
         { file: "fabric-10.jpg", name: "Coffee and Roses, Gold" },
         { file: "fabric-11.jpg", name: "Coffee Shop Script, Dark" },
         { file: "fabric-15.jpg", name: "Coffee Shop Script, Cream" },
@@ -52,7 +52,7 @@ window.DIT_FABRICS = {
         { file: "fabric-34.jpg", name: "Rosebud Sprig" },
         { file: "fabric-28.jpg", name: "Rose Lattice" },
         { file: "fabric-26.jpg", name: "Violet Posy" },
-        { file: "fabric-06.jpg", name: "Golden Meadow" },
+        { file: "fabric-06.jpg", name: "Autumn Sprig" },
         { file: "fabric-39.jpg", name: "Buttercup Ditsy" },
         { file: "fabric-41.jpg", name: "Wildflower Sprig" },
         { file: "fabric-40.jpg", name: "Trailing Sweetpea" },
@@ -64,8 +64,9 @@ window.DIT_FABRICS = {
     },
     {
       label: "Creatures & Curiosities",
-      note: "Woodland things, garden things, and a few with wings.",
+      note: "Woodland things, garden things, a few with wings — and one shelf of curiosities.",
       items: [
+        { file: "fabric-01.jpg", name: "Spellbound Shelves" },
         { file: "fabric-02.jpg", name: "Midnight Owls" },
         { file: "fabric-36.jpg", name: "Meadow Rabbits" },
         { file: "fabric-37.jpg", name: "Woodland Story" },
@@ -85,9 +86,9 @@ window.DIT_FABRICS = {
       label: "Plaids & Checks",
       note: "The quiet ones. Lovely as a lining, or for a piece that isn't shouting.",
       items: [
-        { file: "fabric-03.jpg", name: "Faded Rose Gingham" },
-        { file: "fabric-07.jpg", name: "Toffee Plaid" },
-        { file: "fabric-08.jpg", name: "Sage Plaid" },
+        { file: "fabric-03.jpg", name: "Blushing Linen" },
+        { file: "fabric-07.jpg", name: "Toffee Windowpane" },
+        { file: "fabric-08.jpg", name: "Sage Windowpane" },
         { file: "fabric-19.jpg", name: "Apricot Plaid" }
       ]
     },
@@ -100,7 +101,7 @@ window.DIT_FABRICS = {
         { file: "fabric-17.jpg", name: "Olive Marble" },
         { file: "fabric-23.jpg", name: "Grey Damask" },
         { file: "fabric-50.jpg", name: "Indigo Leaves" },
-        { file: "fabric-09.jpg", name: "Autumn Leaves" },
+        { file: "fabric-09.jpg", name: "The Fall Court" },
         { file: "fabric-24.jpg", name: "Violet Vine" },
         { file: "fabric-43.jpg", name: "Honeycomb" }
       ]
