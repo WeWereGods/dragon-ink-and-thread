@@ -24,10 +24,9 @@
 window.DIT_FABRICS = {
   GROUPS: [
     {
-      label: "Books & Coffee",
-      note: "For the readers, and for anyone whose day starts with a proper cup.",
+      label: "The Cup and Cozy",
+      note: "For anyone whose day doesn't start until the kettle does.",
       items: [
-        { file: "fabric-01.jpg", name: "Library Shelves" },
         { file: "fabric-05.jpg", name: "Coffee and Cream Roses" },
         { file: "fabric-10.jpg", name: "Coffee and Roses, Gold" },
         { file: "fabric-11.jpg", name: "Coffee Shop Script, Dark" },
