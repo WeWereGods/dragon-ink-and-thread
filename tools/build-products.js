@@ -189,6 +189,7 @@ ${JSON.stringify(crumbLd, null, 2)}
           <ul>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="custom.html">Custom</a></li>
+            <li><a href="fabrics.html">Fabrics</a></li>
             <li><a href="index.html#about">Our Story</a></li>
             <li><a href="index.html#stories">Stories</a></li>
             <li><a href="index.html#faq">FAQ</a></li>
@@ -290,6 +291,7 @@ const urls = [
   { loc: SITE + "/", pri: "1.0", freq: "weekly" },
   { loc: SITE + "/shop.html", pri: "0.9", freq: "weekly" },
   { loc: SITE + "/custom.html", pri: "0.8", freq: "monthly" },
+  { loc: SITE + "/fabrics.html", pri: "0.8", freq: "monthly" },
 ].concat(
   ids.filter((id) => PRODUCTS[id] && !PRODUCTS[id].soldOut)
      .map((id) => ({ loc: `${SITE}/${id}.html`, pri: "0.7", freq: "monthly" }))

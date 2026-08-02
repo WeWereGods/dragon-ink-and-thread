@@ -66,3 +66,7 @@ assets/462327FE-7FD1-4A8E-94BC-BE2624AAB224.jpg
 
 # Wrangler local build cache (created by `wrangler deploy`)
 worker/.wrangler/
+
+# Raw fabric photos from the phone (188 MB). Processed copies live in
+# assets/fabrics/ — see js/fabrics-data.js. Never commit the originals.
+assets/Catalog/
