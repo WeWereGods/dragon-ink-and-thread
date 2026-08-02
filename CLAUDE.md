@@ -234,11 +234,13 @@ panel launches it via `.claude/launch.json` (config name `site`).
   `PAST_MAKES`. (The old low-res / placeholder-dims Strawberry Tote TODOs are moot — it left the shop.)
 - **"Kind Words" testimonials section is LIVE and SHOWING** (added 2026-07-27, a professionalism pass
   inspired by a competitor site). `#kind-words` starts `hidden` and JS reveals it once the
-  `TESTIMONIALS` array in js/main.js has ≥1 entry — it now holds **3 real reviews**, so the section
+  `TESTIMONIALS` array in js/main.js has ≥1 entry — it now holds **2 real reviews**, so the section
   renders. **REAL reviews only — never invent them.** Add `{ quote, name, where?, stars? }` objects
   to populate. NOTE: one review is for the **"Road Trip Kindle Case"** — a retired make, correctly
   in Stories PAST_MAKES, not the shop. A review for a retired piece is fine (and is proof custom
-  work already delights people); it just can't be clicked through to a listing. Same pass also: `text-wrap: balance` on
+  work already delights people); it just can't be clicked through to a listing — and it is
+  deliberately **excluded from the `aggregateRating` markup** (see below), since it rates no
+  shop category. Same pass also: `text-wrap: balance` on
   headings, more `.section` whitespace, and `.badge` dashed→solid hairline.
 - **HOMEPAGE + CATALOG REDESIGN (2026-07-28, "luxury cottagecore"):**
   - **New full catalog page `shop.html`** — every item as its own tile in a grid (Totes/Scrunchies/Bows),
@@ -263,9 +265,15 @@ panel launches it via `.claude/launch.json` (config name `site`).
   with `AggregateOffer` price ranges sit in index.html `<head>`, alongside the brand-level `Store`
   block. Prices are **static** there — keep them in sync with **js/shop-data.js** (NOT main.js,
   whose PRODUCTS copy is vestigial and still carries the pre-2026-07-30 prices).
-  `availability` is already `schema.org/InStock` on all three (the shop is open). **Still to do:**
-  add `aggregateRating` — 3 real reviews now exist in `TESTIMONIALS`, so it's finally legitimate.
-  Never fake them.
+  `availability` is already `schema.org/InStock` on all three (the shop is open).
+  **`aggregateRating` + `review` are live on the Totes block only (2026-08-02)** — 5★, one review,
+  Brea P.'s Strawberry Tote note, copied verbatim from `TESTIMONIALS` in js/main.js. The other real
+  review is for the Road Trip Kindle Case, a retired custom make with no `Product` block, so it
+  rates nothing here; Scrunchies and Bows have no reviews and carry no rating. Rules: markup must
+  mirror what Kind Words actually renders (Google requires marked-up reviews be visible on the
+  page), one review is counted once, and self-serving reviews may **not** go on the `Store` block.
+  **Never invent a review or pad `reviewCount`** — add markup only when a real `TESTIMONIALS` entry
+  backs it, and update both by hand.
 - **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
   are written but not yet set up as an automation in Buttondown, so new subscribers still get
   silence. Needs doing in the Buttondown dashboard (not in this repo).

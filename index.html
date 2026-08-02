@@ -65,8 +65,17 @@
        must describe only what is BUYABLE — offerCount, the price range and the images all
        exclude soldOut items, because this block declares availability: InStock. Keep in
        sync with PRODUCTS in **js/shop-data.js** (main.js no longer holds a
-       copy). TODO: add "aggregateRating" — 3 REAL reviews now exist in TESTIMONIALS
-       (js/main.js), so it's finally legitimate. Never fake them. -->
+       copy).
+
+       RATINGS: "aggregateRating"/"review" mirror the REAL entries in TESTIMONIALS
+       (js/main.js) — the same words the Kind Words section renders, which is what
+       Google requires (marked-up reviews must be visible on the page). Only Totes
+       carries a rating: of the two real reviews, one is for the Road Trip Kindle
+       Case, a retired custom make with no Product block here, so it is deliberately
+       NOT counted toward any category. Scrunchies and Bows have no reviews yet and
+       so carry none. NEVER invent a review or pad a count; add one here only when a
+       matching entry is added to TESTIMONIALS, and keep the two in sync by hand. -->
+
   <script type="application/ld+json">
   [
     {
@@ -82,6 +91,26 @@
         "https://www.dragoninkandthread.com/assets/tote-mustard-floral.jpg",
         "https://www.dragoninkandthread.com/assets/tote-blue-rose.jpg",
         "https://www.dragoninkandthread.com/assets/tote-butterfly.jpg"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": 1
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Brea P." },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "reviewBody": "I recently got a strawberry tote and a matching scrunchie from you and let me just say I LOVE THEM!! They are so cute, the scrunchie is nice on my curly hair and the tote holds all of my items with no problem. Definitely going to be ordering more!!"
+        }
       ],
       "offers": {
         "@type": "AggregateOffer",
