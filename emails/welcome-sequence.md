@@ -3,8 +3,14 @@
 Three emails sent to new "Join the Nest" subscribers. Voice is the site's: cozy,
 unhurried, book-lover warmth. First person — these come from Ayla, not from a brand.
 
-**Status:** copy is current as of 2026-07-31 and ready to send. **These are sent by hand,
-not by an automation** — see "Sending" at the bottom for why and how.
+**Status:** copy is current as of 2026-07-31. **These are sent by hand, not by an automation**
+— see "Sending" at the bottom for why and how.
+
+| Email | Sent | Notes |
+|---|---|---|
+| 1 — Welcome | ✅ **2026-08-02** | Whole list. Carries NEST15. |
+| 2 — The story | ☐ due ~**2026-08-05** | ~3 days after Email 1 |
+| 3 — What I make | ☐ due ~**2026-08-09** | ~7 days after Email 1 |
 
 ---
 
@@ -167,10 +173,13 @@ Free accounts get Buttondown's stock confirmation email and nothing else. **Do n
 around an automation existing** — and don't re-derive this from the pricing page each time.
 
 **So: send them by hand as ordinary broadcasts.** This costs nothing and, right now, is
-indistinguishable from the automation, because *no subscriber has ever received any of these
-three*. Send Email 1 to the whole list, then Email 2 about 3 days later, then Email 3 about a
+indistinguishable from the automation, because no subscriber had ever received any of these
+three. Email 1 goes to the whole list, then Email 2 about 3 days later, then Email 3 about a
 week after Email 1 — the same spacing the automation would have used. That clears the entire
 backlog and delivers NEST15 to everyone on the list.
+
+**Email 1 was sent to the whole list on 2026-08-02**, so NEST15 is now in every existing
+subscriber's inbox. Emails 2 and 3 are still to send — see the table at the top for dates.
 
 The gap this leaves is people who subscribe *after* a given broadcast: they pick up the
 sequence wherever it happens to be. Pre-launch that's a handful of people, and the Aug 15
