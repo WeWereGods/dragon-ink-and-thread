@@ -3,8 +3,8 @@
 Three emails sent to new "Join the Nest" subscribers. Voice is the site's: cozy,
 unhurried, book-lover warmth. First person — these come from Ayla, not from a brand.
 
-**Status:** copy is current as of 2026-07-31 and ready to load. Not yet set up as an
-automation in Buttondown (that's a dashboard job, not a repo job).
+**Status:** copy is current as of 2026-07-31 and ready to send. **These are sent by hand,
+not by an automation** — see "Sending" at the bottom for why and how.
 
 ---
 
@@ -154,9 +154,33 @@ automatically. A hidden `tag` field marks the source (`hero` vs `checkout`).
 2026-07-10 existed only as Web3Forms notifications in Gmail (the free tier drops submissions
 after 30 days). They have been imported.
 
-**Still to do:** set these three up as an automation in the Buttondown dashboard. Until that
-exists, new subscribers get silence.
+**⚠️ Automations are NOT available on this account (confirmed 2026-08-02).** On Buttondown's
+free tier these are three separate paywalls, none of them included:
 
-**Worth doing separately:** the `checkout` tag identifies people who reached the basket and
-didn't finish. That segment deserves its own one-off send rather than this sequence — see
-the marketing plan for suggested copy.
+| Feature | Cost | What it would have given us |
+|---|---|---|
+| Automations | **+$29/mo** | The drip: fires on signup, sends 1 / +3d / +7d |
+| Custom welcome email | paid add-on | A single email on confirmed subscribe |
+| Tagging & segmentation | **+$9/mo** | Sending to only *some* subscribers (see below) |
+
+Free accounts get Buttondown's stock confirmation email and nothing else. **Do not plan work
+around an automation existing** — and don't re-derive this from the pricing page each time.
+
+**So: send them by hand as ordinary broadcasts.** This costs nothing and, right now, is
+indistinguishable from the automation, because *no subscriber has ever received any of these
+three*. Send Email 1 to the whole list, then Email 2 about 3 days later, then Email 3 about a
+week after Email 1 — the same spacing the automation would have used. That clears the entire
+backlog and delivers NEST15 to everyone on the list.
+
+The gap this leaves is people who subscribe *after* a given broadcast: they pick up the
+sequence wherever it happens to be. Pre-launch that's a handful of people, and the Aug 15
+launch email reaches them regardless. **Revisit after launch**, when signups arrive
+continuously instead of in a lump — that's when $29/mo (or a platform with automations on its
+free tier) actually buys something. Migrating before launch would mean re-pointing both signup
+forms, re-importing the list and re-verifying sending, for no benefit on launch day.
+
+**Blocked, not forgotten:** the `checkout` tag identifies people who reached the basket and
+didn't finish, and that segment deserves its own one-off send (copy is in the marketing plan).
+Sending to a subset **requires the +$9 segmentation add-on**, so it can't happen on the free
+tier. The tags are still being recorded on every signup, so nothing is being lost in the
+meantime — the send just has to wait until segmentation is worth paying for.
