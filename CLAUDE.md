@@ -169,7 +169,18 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
     Worker's **`/webhook`** route → **Pushover** push (item + amount + pickup/ship). Extra Worker
     secrets: `STRIPE_WEBHOOK_SECRET`, `PUSHOVER_TOKEN`, `PUSHOVER_USER` (see worker/README.md).
     Signature verified via Web Crypto; push sent with `ctx.waitUntil` so Stripe gets a fast 200.
-    Endpoint is live + verified (unsigned POST → 400); Pushover keys unconfirmed until a real sale.
+    **CONFIRMED WORKING on the first real sale (2026-08-02)** — the phone buzzed, so the keys and
+    the whole Stripe → Worker → Pushover chain are proven in production.
+  - **⚠️ Stripe does NOT email receipts by default.** They only send if **Settings → Business →
+    Customer emails → Successful payments** is ON in the Dashboard; Checkout does not send one
+    just because it collected an email, and the Worker sets no `receipt_email` / `invoice_creation`.
+    success.html's wording is deliberately conditional because of this ("if it hasn't landed…
+    email me") — **don't "tidy" it back into a promise.** A missing receipt can be sent by hand:
+    Dashboard → Payments → the payment → Send receipt.
+  - **Order emails** (shipped / ready for pickup / the follow-up that earns reviews) are drafted in
+    **emails/order-updates.md**. They're sent by hand from Gmail, one customer at a time. Writing to
+    a buyer about their order is fine; **adding them to the Buttondown list is not** unless they
+    subscribed themselves — so those templates invite, never enrol.
   - **Products (2026-07-30):** Strawberry Tote **v2** is BACK in the shop (`tote-strawberry-v2`,
     $35, 4 photos, leads the Totes) — a NEW make, distinct from the retired v1 that's in Stories.
     Mustard Rose Tote renamed **Cottage Rose Tote** (same id `tote-mustard-floral`).
