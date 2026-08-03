@@ -1675,6 +1675,9 @@ body.waitlist-open { overflow: hidden; }
 .waitlist-close:hover { color: var(--ink); }
 .waitlist-close:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
 
+/* Sold-out product page: the waitlist sits under the disabled buy button. */
+.pdp-waitlist { width: 100%; margin-top: 0.55rem; padding: 0.55rem 0.8rem; font-size: 0.86rem; }
+
 /* success.html — the review ask + signup blocks. Peak-goodwill real estate. */
 .thanks-ask {
   margin: 1.8rem auto 0; max-width: 34rem;

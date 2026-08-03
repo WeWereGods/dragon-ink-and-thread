@@ -14,11 +14,15 @@
   var CHECKOUT_URL = "https://dit-checkout.dragoninkandthread.workers.dev";
 
   /* Display-only mirror of the Worker's shipping rules — the real fee is set
-     server-side. KEEP IN SYNC with SHIP_STANDARD / SHIP_SMALL / FREE_SHIP_OVER
-     in worker/checkout-worker.js (those are in cents, these are in dollars). */
-  var SHIP_STANDARD  = 6.5;   // order contains a tote
-  var SHIP_SMALL     = 4.5;   // scrunchies/bows only
-  var FREE_SHIP_OVER = 50;    // subtotal at or above this ships free (0 = off)
+     server-side. The numbers now live in SHIPPING in js/shop-data.js so the
+     drawer and the product pages can't disagree; the fallbacks below only apply
+     if this file somehow loads without shop-data.js. Still KEEP IN SYNC with
+     SHIP_STANDARD / SHIP_SMALL / FREE_SHIP_OVER in worker/checkout-worker.js
+     (those are in cents, these are in dollars). */
+  var SHIP = (window.DIT_SHOP && window.DIT_SHOP.SHIPPING) || {};
+  var SHIP_STANDARD  = SHIP.standard != null ? SHIP.standard : 6.5;  // order contains a tote
+  var SHIP_SMALL     = SHIP.small    != null ? SHIP.small    : 4.5;  // scrunchies/bows only
+  var FREE_SHIP_OVER = SHIP.freeOver != null ? SHIP.freeOver : 50;   // subtotal ≥ this ships free (0 = off)
 
   var SHOP = window.DIT_SHOP || {};
   var PRODUCTS = SHOP.PRODUCTS || {};

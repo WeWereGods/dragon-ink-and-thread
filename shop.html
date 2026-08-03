@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Caveat:wght@500;600;700&family=Great+Vibes&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/styles.css?v=e2d0c09b" />
+  <link rel="stylesheet" href="css/styles.css?v=0a0e7119" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -115,32 +115,13 @@
     </div>
   </footer>
 
-  <!-- Sold-out waitlist. Opened by the "Tell me when something like this appears"
-       button that js/shop.js renders on every sold-out card, so the shop's most
-       motivated traffic has somewhere to go instead of a disabled button.
-       Subscribes to the same Buttondown list as the hero form. -->
-  <div class="waitlist-modal" id="waitlistModal" hidden role="dialog" aria-modal="true" aria-labelledby="waitlistTitle">
-    <div class="waitlist-card">
-      <button type="button" class="waitlist-close" aria-label="Close">&times;</button>
-      <p class="eyebrow">Found a home</p>
-      <h2 id="waitlistTitle">Tell me when something like this appears</h2>
-      <p class="waitlist-item" id="waitlistItem"></p>
-      <p class="waitlist-blurb">Every piece is one of a kind, so this one is gone for good — but I'm always cutting new prints. Leave your email and I'll write when something in the same spirit is on the table.</p>
-      <form class="nest-form" id="waitlistForm" action="https://buttondown.com/api/emails/embed-subscribe/dragoninkandthread" method="POST" aria-label="Tell me when something similar appears">
-        <input type="hidden" name="tag" value="waitlist" />
-        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-        <label class="sr-only" for="waitlistEmail">Your email address</label>
-        <input type="email" id="waitlistEmail" name="email" placeholder="you@example.com" required autocomplete="email" />
-        <button type="submit" class="btn btn-primary">Keep me posted</button>
-      </form>
-      <p class="nest-note" id="waitlistNote">One email when there's something lovely — never more than that.</p>
-    </div>
-  </div>
-
   <script src="js/dates.js?v=710de161"></script>
-  <script src="js/shop-data.js?v=0ef9c99a"></script>
-  <script src="js/shop.js?v=2b1b657e"></script>
-  <script src="js/cart.js?v=fc2784db"></script>
+  <script src="js/shop-data.js?v=eb4a7a24"></script>
+  <script src="js/shop.js?v=36384d95"></script>
+  <!-- Sold-out waitlist. Injects its own modal, and is shared with the generated
+       product pages, which hit exactly the same dead end. -->
+  <script src="js/waitlist.js?v=d44ca4cb"></script>
+  <script src="js/cart.js?v=bd4d246b"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>

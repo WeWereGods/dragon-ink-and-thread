@@ -35,6 +35,16 @@ window.DIT_SHOP = {
   // 2026 — that date lives in the countdown (LAUNCH) in js/main.js.
   SHOP_OPENS: "2026-07-01T09:00:00-05:00",
 
+  /* Display-only mirror of the Worker's shipping rules, in DOLLARS (the Worker
+     holds them in cents and is the authority on what a customer is actually
+     charged). KEEP IN SYNC with SHIP_STANDARD / SHIP_SMALL / FREE_SHIP_OVER at
+     the top of worker/checkout-worker.js.
+     Read by js/cart.js (the drawer's shipping line + the "add $X more" nudge)
+     and tools/build-products.js (the free-shipping line on product pages), so
+     the number lives in ONE place on the client instead of being retyped in
+     each of them. */
+  SHIPPING: { standard: 6.5, small: 4.5, freeOver: 50 },
+
   PRODUCTS: {
     "tote-sunflower":     { name: "Sunflower Tote",     price: 45.0, art: "🌻", soldOut: true },
     "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄", soldOut: true },

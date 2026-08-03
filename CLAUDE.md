@@ -151,16 +151,35 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
   - **One-of-a-kind:** set **`soldOut: true`** on a
     PRODUCTS entry in js/shop-data.js → dimmed card + "Sold" badge + disabled "Sold out"; cart
     refuses it. **Sunflower Tote and Mushroom Tote are currently soldOut.**
-  - **Sold-out waitlist (2026-08-02):** a sold-out card is a DEAD END, and in a one-of-a-kind shop
-    every listing eventually becomes one — so `buyMarkup()` in js/shop.js also renders
-    **"Tell me when something like this appears"**, opening the `#waitlistModal` that lives in
-    shop.html. It subscribes to the same Buttondown list as the hero form, tagged **`waitlist`**.
-    `.waitlist-modal[hidden]{display:none}` is **required** (same display-override gotcha as the
-    cart drawer, the gallery and the fabric lightbox). The submit handler duplicates
-    `wireNestForm()`'s status branching because **main.js isn't loaded on shop.html**. A *per-item*
-    tag was deliberately not used: acting on any tag needs Buttondown's +$9/mo segmentation
-    add-on anyway, and an unfamiliar tag value is the one thing here that can't be tested against
-    the live account.
+  - **Sold-out waitlist (2026-08-02) — lives in `js/waitlist.js`.** A sold-out listing is a DEAD
+    END, and in a one-of-a-kind shop every listing eventually becomes one. Anything carrying
+    `data-waitlist="<id>" data-waitlist-name="<name>"` opens it: **shop.html catalog cards**
+    (`buyMarkup()` in js/shop.js) **and every generated sold-out product page**
+    (tools/build-products.js), which is where the most interested visitor actually lands after
+    clicking through from the grid. It subscribes to the same Buttondown list as the hero form,
+    tagged **`waitlist`**.
+    - **The modal markup is INJECTED by waitlist.js, not written into any page.** It began as
+      static HTML in shop.html; copying it into 20 generated pages would be exactly the
+      duplication the product generator exists to prevent. Don't paste it back into a page.
+    - Only **sold-out** product pages load the script (in-stock ones don't need it).
+    - `.waitlist-modal[hidden]{display:none}` is **required** (same display-override gotcha as the
+      cart drawer, the gallery and the fabric lightbox).
+    - A *per-item* tag was deliberately not used: acting on any tag needs Buttondown's +$9/mo
+      segmentation add-on anyway, and an unfamiliar tag value is the one thing here that can't be
+      tested against the live account.
+  - **Product-page cross-sell (2026-08-02):** generated pages carry TWO rows — **"Pairs well
+    with"** (CROSS-category, in-stock only, 3 items) and the older **"More <category>"**
+    (same-category siblings). The first exists because the shop's first customer bought a tote
+    *and* a matching scrunchie entirely on her own initiative — the site never suggested it — and
+    because an added $6 scrunchie walks the basket toward the free-shipping threshold, which
+    until then was only mentioned once the cart drawer was already open. Picks are
+    **deterministic** (offset by the item's index in its own category) so pages rebuild
+    identically while different totes still suggest different scrunchies.
+  - **⚠️ Shipping numbers now live in `SHIPPING` in js/shop-data.js** (`standard` / `small` /
+    `freeOver`, in DOLLARS). js/cart.js reads them for the drawer and tools/build-products.js for
+    the "orders over $50 ship free" line, so the client side has ONE copy instead of three.
+    **worker/checkout-worker.js is still the authority** on what a customer is charged (in cents)
+    — change both together, then `wrangler deploy`.
   - **Photo gallery (2026-07-30):** double-click a catalog photo → js/shop.js lightbox that
     arrows/scrolls through that item's `VARIANTS.images` (prev/next, counter, keyboard, Esc);
     a "N photos" hint shows on multi-image cards. `.gallery-lightbox[hidden]{display:none}` is

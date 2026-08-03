@@ -41,6 +41,9 @@ const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 const money = (n) => "$" + Number(n).toFixed(2);
+/* Same, but without a trailing ".00" — for prices written into a sentence,
+   where "$50.00" reads like a receipt and "$50" reads like English. */
+const moneyProse = (n) => "$" + String(Number(n).toFixed(2)).replace(/\.00$/, "");
 const stripQuery = (p) => String(p).split("?")[0];
 
 /* Which catalog group is this product in? */
@@ -105,7 +108,12 @@ function page(id) {
   /* ---- buy control ---- */
   let buy;
   if (soldOut) {
+    /* A sold-out page is where the MOST interested visitor lands — they clicked
+       through from the grid for a closer look. The custom-order note alone asks
+       nothing of them, so offer the waitlist too (js/waitlist.js, shared with
+       shop.html) and capture an address instead of losing them. */
     buy = `<button class="btn btn-primary pdp-buy is-soldout" disabled>Sold out</button>
+          <button class="btn btn-ghost pdp-waitlist" type="button" data-waitlist="${esc(id)}" data-waitlist-name="${esc(p.name)}">Tell me when something like this appears</button>
           <p class="pdp-soldout-note">This one has found a home. <a href="custom.html">Ask about a custom piece</a> and I can often make something in the same spirit.</p>`;
   } else if (!available) {
     buy = `<button class="btn btn-primary pdp-buy is-soldout" disabled>Coming soon</button>`;
@@ -125,7 +133,7 @@ function page(id) {
   }
 
   /* ---- "more in this category" ---- */
-  const siblings = cat.ids.filter((x) => x !== id).slice(0, 4).map((sid) => {
+  const card = (sid) => {
     const sp = PRODUCTS[sid], sv = VARIANTS[sid] || {};
     const si = (sv.images && sv.images[0]) || "";
     return `<a class="pdp-more-card" href="${esc(sid)}.html">
@@ -133,7 +141,30 @@ function page(id) {
               <span class="pdp-more-name">${esc(sp.name)}${sp.soldOut ? " <em>(sold)</em>" : ""}</span>
               <span class="pdp-more-price">${money(sp.price)}</span>
             </a>`;
-  }).join("");
+  };
+  const siblings = cat.ids.filter((x) => x !== id).slice(0, 4).map(card).join("");
+
+  /* ---- "pairs well with" — CROSS-category, unlike the row above ----
+     The shop's first customer bought a tote AND a matching scrunchie in one
+     order, entirely on her own initiative: the site never suggested it. This
+     row makes that pairing the obvious thing to do, and an added $6 scrunchie
+     also walks the basket toward the free-shipping threshold, which until now
+     was only mentioned once someone had already opened the cart drawer.
+
+     Sold-out items are excluded (a suggestion nobody can act on is worse than
+     no suggestion). The offset keeps the picks DETERMINISTIC — the same page
+     rebuilds identically — while stopping every tote from recommending the
+     same three scrunchies. */
+  const pairPool = CATALOG
+    .filter((c) => c.label !== cat.label)
+    .reduce((acc, c) => acc.concat(c.ids), [])
+    .filter((x) => PRODUCTS[x] && !PRODUCTS[x].soldOut && LINKS[x]);
+  const offset = Math.max(0, cat.ids.indexOf(id));
+  const pairs = pairPool.length
+    ? Array.from({ length: Math.min(3, pairPool.length) },
+        (_, i) => pairPool[(offset + i) % pairPool.length]).map(card).join("")
+    : "";
+  const freeOver = (SHOP.SHIPPING && SHOP.SHIPPING.freeOver) || 0;
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -242,6 +273,16 @@ ${JSON.stringify(crumbLd, null, 2)}
       </div>
     </section>
 
+    ${pairs ? `<section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Pairs well with</h2>
+          ${freeOver ? `<p class="section-sub">One shipping fee per order, however much you add — and orders over <strong>${moneyProse(freeOver)}</strong> ship free.</p>` : ""}
+        </div>
+        <div class="pdp-more">${pairs}</div>
+      </div>
+    </section>` : ""}
+
     ${siblings ? `<section class="section section-tint">
       <div class="container">
         <div class="section-head"><h2>More ${esc(cat.label.toLowerCase())}</h2></div>
@@ -268,6 +309,8 @@ ${JSON.stringify(crumbLd, null, 2)}
   <script src="js/dates.js?v=${V("js/dates.js")}"></script>
   <script src="js/shop-data.js?v=${V("js/shop-data.js")}"></script>
   <script src="js/product.js?v=${V("js/product.js")}"></script>
+  ${soldOut ? `<!-- Sold-out waitlist: injects its own modal, shared with shop.html. -->
+  <script src="js/waitlist.js?v=${V("js/waitlist.js")}"></script>` : ""}
   <script src="js/cart.js?v=${V("js/cart.js")}"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
