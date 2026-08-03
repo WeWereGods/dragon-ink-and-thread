@@ -150,7 +150,7 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
     **and** `PICKABLE`. `maxQty` stays 1 on the bundle: one cart line = one set of picks.
   - **One-of-a-kind:** set **`soldOut: true`** on a
     PRODUCTS entry in js/shop-data.js → dimmed card + "Sold" badge + disabled "Sold out"; cart
-    refuses it. **Sunflower Tote and Mushroom Tote are currently soldOut.**
+    refuses it. **Currently soldOut: Sunflower Tote, Mushroom Tote, Sage Bow, Blue Rose Bow.**
   - **Sold-out waitlist (2026-08-02) — lives in `js/waitlist.js`.** A sold-out listing is a DEAD
     END, and in a one-of-a-kind shop every listing eventually becomes one. Anything carrying
     `data-waitlist="<id>" data-waitlist-name="<name>"` opens it: **shop.html catalog cards**

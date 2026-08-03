@@ -62,10 +62,10 @@ window.DIT_SHOP = {
     "scrunchie-strawberry":     { name: "Strawberry Scrunchie",      price: 6.0, art: "🍓", maxQty: 3 },
     "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 15.0, art: "🎀", maxQty: 3 },
     "scrunchie-byo-bundle":     { name: "Build Your Own Bundle",     price: 15.0, art: "🎀", picks: 3 },
-    "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️" },
+    "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️", soldOut: true },
     "bow-gingham":      { name: "Gingham Bow",      price: 10.0, art: "🎀" },
     "bow-sage-gingham": { name: "Sage Gingham Bow", price: 10.0, art: "🎀" },
-    "bow-blue-rose":    { name: "Blue Rose Bow",    price: 10.0, art: "🎀" }
+    "bow-blue-rose":    { name: "Blue Rose Bow",    price: 10.0, art: "🎀", soldOut: true }
   },
 
   VARIANTS: {

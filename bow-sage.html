@@ -45,7 +45,7 @@
     "@type": "Offer",
     "priceCurrency": "USD",
     "price": "10.00",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "url": "https://www.dragoninkandthread.com/bow-sage.html",
     "seller": {
       "@type": "Organization",
@@ -139,10 +139,10 @@
     <section class="section pdp">
       <div class="container pdp-grid">
         <div class="pdp-media">
-          <div class="pdp-hero" data-zoom tabindex="0" role="button"
+          <div class="pdp-hero is-soldout" data-zoom tabindex="0" role="button"
                aria-label="Enlarge photo of Sage Bow">
             <img class="pdp-photo" id="pdpPhoto" src="assets/bow-sage.jpg" alt="Handmade sage-green floral sailor bow" decoding="async" />
-            
+            <span class="sold-badge">Sold</span>
             <span class="gallery-hint" data-zoom-hint>⤢ Zoom</span>
           </div>
           
@@ -154,7 +154,9 @@
           <p class="pdp-price">$10.00</p>
           <p class="pdp-blurb">A little extra magic, tucked right where you&#39;ll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.</p>
           <p class="pdp-details">6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.</p>
-          <button class="btn btn-primary pdp-buy" type="button" data-cart-add="bow-sage">Add to cart</button>
+          <button class="btn btn-primary pdp-buy is-soldout" disabled>Sold out</button>
+          <button class="btn btn-ghost pdp-waitlist" type="button" data-waitlist="bow-sage" data-waitlist-name="Sage Bow">Tell me when something like this appears</button>
+          <p class="pdp-soldout-note">This one has found a home. <a href="custom.html">Ask about a custom piece</a> and I can often make something in the same spirit.</p>
           <p class="pdp-ship">Ships from San Antonio, Texas · <a href="shipping.html">shipping &amp; returns</a> · San Antonio local? Choose <strong>Local pickup</strong> at checkout.</p>
         </div>
       </div>
@@ -195,7 +197,7 @@
               <span class="pdp-more-price">$10.00</span>
             </a><a class="pdp-more-card" href="bow-blue-rose.html">
               <img src="assets/bow-blue-rose.jpg" alt="Handmade powder-blue sailor bow with pink cottage roses" loading="lazy" decoding="async" />
-              <span class="pdp-more-name">Blue Rose Bow</span>
+              <span class="pdp-more-name">Blue Rose Bow <em>(sold)</em></span>
               <span class="pdp-more-price">$10.00</span>
             </a></div>
         <p class="pdp-back"><a class="btn btn-ghost" href="shop.html#bows">← Back to all bows</a></p>
@@ -218,11 +220,12 @@
   </footer>
 
   <script src="js/dates.js?v=710de161"></script>
-  <script src="js/shop-data.js?v=eb4a7a24"></script>
+  <script src="js/shop-data.js?v=3b0d6336"></script>
   <script src="js/product.js?v=b79c44d6"></script>
   <!-- Double-click (tap on touch) the main photo to see it full screen. -->
   <script src="js/zoom.js?v=8a66e5e6"></script>
-  
+  <!-- Sold-out waitlist: injects its own modal, shared with shop.html. -->
+  <script src="js/waitlist.js?v=d44ca4cb"></script>
   <script src="js/cart.js?v=bd4d246b"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
