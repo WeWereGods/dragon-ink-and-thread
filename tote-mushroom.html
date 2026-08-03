@@ -45,7 +45,7 @@
     "@type": "Offer",
     "priceCurrency": "USD",
     "price": "25.00",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "url": "https://www.dragoninkandthread.com/tote-mushroom.html",
     "seller": {
       "@type": "Organization",
@@ -139,9 +139,9 @@
     <section class="section pdp">
       <div class="container pdp-grid">
         <div class="pdp-media">
-          <div class="pdp-hero">
+          <div class="pdp-hero is-soldout">
             <img class="pdp-photo" id="pdpPhoto" src="assets/tote-mushroom.jpg" alt="Handmade tote in an olive-green woodland mushroom print" decoding="async" />
-            
+            <span class="sold-badge">Sold</span>
           </div>
           
         </div>
@@ -152,7 +152,8 @@
           <p class="pdp-price">$25.00</p>
           <p class="pdp-blurb">Little red-capped mushrooms scattered across olive-green cotton — a walk through the forest floor, tucked under your arm. Made for foragers, readers, and cottage dreamers.</p>
           <p class="pdp-details">15″ × 14″ · 12″ strap drop · front pocket 7″ × 6″ · spot clean. Made to order — please allow 5–10 business days.</p>
-          <button class="btn btn-primary pdp-buy" type="button" data-cart-add="tote-mushroom">Add to cart</button>
+          <button class="btn btn-primary pdp-buy is-soldout" disabled>Sold out</button>
+          <p class="pdp-soldout-note">This one has found a home. <a href="custom.html">Ask about a custom piece</a> and I can often make something in the same spirit.</p>
           <p class="pdp-ship">Ships from San Antonio, Texas · <a href="shipping.html">shipping &amp; returns</a> · San Antonio local? Choose <strong>Local pickup</strong> at checkout.</p>
         </div>
       </div>
@@ -198,7 +199,7 @@
   </footer>
 
   <script src="js/dates.js?v=710de161"></script>
-  <script src="js/shop-data.js?v=2a3b6347"></script>
+  <script src="js/shop-data.js?v=0ef9c99a"></script>
   <script src="js/product.js?v=b79c44d6"></script>
   <script src="js/cart.js?v=fc2784db"></script>
 
