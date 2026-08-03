@@ -87,7 +87,7 @@
 }
   </script>
 
-  <link rel="stylesheet" href="css/styles.css?v=0a0e7119" />
+  <link rel="stylesheet" href="css/styles.css?v=5a4d7569" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -139,9 +139,11 @@
     <section class="section pdp">
       <div class="container pdp-grid">
         <div class="pdp-media">
-          <div class="pdp-hero is-soldout">
+          <div class="pdp-hero is-soldout" data-zoom tabindex="0" role="button"
+               aria-label="Enlarge photo of Mushroom Tote">
             <img class="pdp-photo" id="pdpPhoto" src="assets/tote-mushroom.jpg" alt="Handmade tote in an olive-green woodland mushroom print" decoding="async" />
             <span class="sold-badge">Sold</span>
+            <span class="gallery-hint" data-zoom-hint>⤢ Zoom</span>
           </div>
           
         </div>
@@ -224,6 +226,8 @@
   <script src="js/dates.js?v=710de161"></script>
   <script src="js/shop-data.js?v=eb4a7a24"></script>
   <script src="js/product.js?v=b79c44d6"></script>
+  <!-- Double-click (tap on touch) the main photo to see it full screen. -->
+  <script src="js/zoom.js?v=8a66e5e6"></script>
   <!-- Sold-out waitlist: injects its own modal, shared with shop.html. -->
   <script src="js/waitlist.js?v=d44ca4cb"></script>
   <script src="js/cart.js?v=bd4d246b"></script>

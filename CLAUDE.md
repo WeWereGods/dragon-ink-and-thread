@@ -167,6 +167,20 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
     - A *per-item* tag was deliberately not used: acting on any tag needs Buttondown's +$9/mo
       segmentation add-on anyway, and an unfamiliar tag value is the one thing here that can't be
       tested against the live account.
+  - **Photo zoom on product pages (2026-08-02) — `js/zoom.js`.** **Double-click** the hero photo
+    (anything with `data-zoom`) for a full-screen view, with prev/next through that item's photos,
+    a counter, arrow keys, Esc/backdrop close, and focus restored to the photo. **Clicking the
+    enlarged photo goes to ACTUAL SIZE and the overlay scrolls to pan** — fitting alone is only
+    ~1.4× on a short window, which is barely a zoom for a ~1400px file; actual size is ~2.4×.
+    - **On touch it opens on a SINGLE TAP**, because double-tap is the browser's own page-zoom
+      gesture and can't be borrowed. The `[data-zoom-hint]` badge is written by JS for the same
+      reason ("Double-click to zoom" vs "Tap to zoom").
+    - **Deliberately NOT on shop.html cards:** those photos are `<a>` links to the product page,
+      so the first click of a double-click navigates away. The shop *used* to have a double-click
+      gallery and it was removed precisely because a hidden gesture beat a discoverable link —
+      don't re-add it there.
+    - It revives the orphaned `.gallery-*` CSS left behind by that deleted gallery rather than
+      adding a third lightbox. `.gallery-lightbox[hidden]{display:none}` is **required**.
   - **Product-page cross-sell (2026-08-02):** generated pages carry TWO rows — **"Pairs well
     with"** (CROSS-category, in-stock only, 3 items) and the older **"More <category>"**
     (same-category siblings). The first exists because the shop's first customer bought a tote

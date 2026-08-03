@@ -254,9 +254,11 @@ ${JSON.stringify(crumbLd, null, 2)}
     <section class="section pdp">
       <div class="container pdp-grid">
         <div class="pdp-media">
-          <div class="pdp-hero${soldOut ? " is-soldout" : ""}">
+          <div class="pdp-hero${soldOut ? " is-soldout" : ""}" data-zoom tabindex="0" role="button"
+               aria-label="Enlarge photo of ${esc(p.name)}">
             <img class="pdp-photo" id="pdpPhoto" src="${esc(hero)}" alt="${esc(v.alt || p.name)}" decoding="async" />
             ${soldOut ? '<span class="sold-badge">Sold</span>' : ""}
+            <span class="gallery-hint" data-zoom-hint>⤢ Zoom</span>
           </div>
           ${thumbs}
         </div>
@@ -309,6 +311,8 @@ ${JSON.stringify(crumbLd, null, 2)}
   <script src="js/dates.js?v=${V("js/dates.js")}"></script>
   <script src="js/shop-data.js?v=${V("js/shop-data.js")}"></script>
   <script src="js/product.js?v=${V("js/product.js")}"></script>
+  <!-- Double-click (tap on touch) the main photo to see it full screen. -->
+  <script src="js/zoom.js?v=${V("js/zoom.js")}"></script>
   ${soldOut ? `<!-- Sold-out waitlist: injects its own modal, shared with shop.html. -->
   <script src="js/waitlist.js?v=${V("js/waitlist.js")}"></script>` : ""}
   <script src="js/cart.js?v=${V("js/cart.js")}"></script>
