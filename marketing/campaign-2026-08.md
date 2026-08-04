@@ -292,14 +292,27 @@ than fake it, and that's the right call.
 **Night before:** confirm the site copy says custom orders open *today* (`index.html`
 countdown label, shop CTA note, FAQ). Confirm `NEST10` is active. Have 3 posts drafted.
 
+**⚠️ Times revised 2026-08-03 to match real traffic.** Cloudflare Web Analytics shows visits
+cluster around **11:00–13:00** and **17:00–21:00** CDT, with almost nothing before 9am. The
+original 8:00–9:15a push would have announced the launch to an empty room and been buried by
+the time anyone looked. Email keeps its morning slot because an email waits in the inbox;
+everything social moved into the hours people are actually awake. (Caveat: this is a small
+sample from a low-traffic day — a nudge, not a law. Revisit once there's more data.)
+
+**Measuring it:** analytics showed **15 of 21 visits as "direct"**, which is misleading —
+Instagram and TikTok in-app browsers and most email clients strip the referrer, so social and
+email traffic hides in that bucket. Facebook showed 3 only because it doesn't. To tell the
+channels apart on launch day, tag the links: `?ref=ig` in the bio, `?ref=tt` on TikTok,
+`?ref=email` in the broadcast. They then show up under **Path** in Cloudflare Web Analytics.
+
 | Time | Action |
 |---|---|
-| 8:00a | **Email Broadcast #3** to the Nest: custom orders are open. |
-| 9:00a | **IG post + TikTok** — the announcement. Explain custom in plain words. |
-| 9:15a | **IG Story series** — 5 frames: what custom means, examples, price range, turnaround, how to ask. Link sticker → contact form. |
-| Midday | Story: answer the questions coming in, publicly. Q&A *is* the content. |
-| 3:00p | **TikTok #2** — a process video framed as "this is what your custom piece looks like being made." |
-| 7:00p | Story recap + a nudge: "asks are open all weekend." |
+| 9:00a | **Email Broadcast #3** to the Nest: custom orders are open. Email sits and waits, so morning is still right. |
+| **11:30a** | **IG post + TikTok** — the announcement, at the start of the lunch peak. Explain custom in plain words. |
+| **11:45a** | **IG Story series** — 5 frames: what custom means, examples, price range, turnaround, how to ask. Link sticker → contact form. |
+| 12:00–1:00p | Story: answer the questions coming in, publicly, while people are actually there. Q&A *is* the content. |
+| **5:30p** | **TikTok #2** — a process video framed as "this is what your custom piece looks like being made." Start of the evening peak. |
+| **8:00p** | Story recap + a nudge: "asks are open all weekend." **The busiest hour of the day.** |
 | Sun 16 | Follow up on every inquiry personally within 24h. |
 
 **The three questions that will definitely come** — all three are now answered on
