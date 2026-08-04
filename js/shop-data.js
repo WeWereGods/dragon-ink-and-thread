@@ -73,43 +73,43 @@ window.DIT_SHOP = {
     "tote-storykeeper": {
       alt: "Handmade tote printed with shelves of antique books and potion bottles on black, hanging from a long black strap",
       blurb: "Shelves of old books and apothecary bottles stacked to the ceiling, printed deep on black — the library you'd happily get lost in. Lined in black, with a long strap that sits at the hip and an outside pocket for whatever you need first.",
-      details: "15″ × 12″ · 18″ strap drop · outside pocket · fully lined · spot clean. Made to order — please allow 5–10 business days.",
+      details: "15″ × 12″ · 18″ strap drop · outside pocket · fully lined · spot clean. Sewn and ready to ship.",
       images: ["assets/tote-storykeeper.jpg", "assets/tote-storykeeper-2.jpg", "assets/tote-storykeeper-3.jpg"]
     },
     "tote-sunflower": {
       alt: "Handmade puffy woven tote in a sunflower, honeycomb, and bee print",
       blurb: "Our puffy woven tote — hand-cut squares of sunflowers, honeycomb, and tiny bees, quilted into pillowy softness. A true statement piece that hugs whatever you carry.",
-      details: "12″ × 12″ · 20″ strap drop · puffy hand-woven panels · roomy slouch shape · spot clean, reshape by hand. Made to order — please allow 7–12 business days.",
+      details: "12″ × 12″ · 20″ strap drop · puffy hand-woven panels · roomy slouch shape · spot clean, reshape by hand. Sewn and ready to ship.",
       images: ["assets/tote-sunflower.jpg", "assets/tote-sunflower-detail.jpg"]
     },
     "tote-mushroom": {
       alt: "Handmade tote in an olive-green woodland mushroom print",
       blurb: "Little red-capped mushrooms scattered across olive-green cotton — a walk through the forest floor, tucked under your arm. Made for foragers, readers, and cottage dreamers.",
-      details: "15″ × 14″ · 12″ strap drop · front pocket 7″ × 6″ · spot clean. Made to order — please allow 5–10 business days.",
+      details: "15″ × 14″ · 12″ strap drop · front pocket 7″ × 6″ · spot clean. Sewn and ready to ship.",
       images: ["assets/tote-mushroom.jpg"]
     },
     "tote-mustard-floral": {
       alt: "Handmade tote in a golden mustard vintage rose floral print",
       blurb: "Dusty roses climbing over warm mustard-gold — a little vintage, a little sun-faded, endlessly cozy. The everyday tote with a storybook heart.",
-      details: "10″ × 12″ · 9″ strap drop · spot clean. Made to order — please allow 5–10 business days.",
+      details: "10″ × 12″ · 9″ strap drop · spot clean. Sewn and ready to ship.",
       images: ["assets/tote-mustard-floral.jpg"]
     },
     "tote-blue-rose": {
       alt: "Handmade mini tote in a pale blue print scattered with tiny pink roses",
       blurb: "Tiny pink roses drifting over the softest powder blue — a sweet little mini tote, just right for your small everyday essentials.",
-      details: "Mini tote · 8″ × 4″ · 6″ strap drop · fully lined · spot clean. Made to order — please allow 5–10 business days.",
+      details: "Mini tote · 8″ × 4″ · 6″ strap drop · fully lined · spot clean. Sewn and ready to ship.",
       images: ["assets/tote-blue-rose.jpg", "assets/tote-blue-rose-2.jpg", "assets/tote-blue-rose-3.jpg"]
     },
     "tote-butterfly": {
       alt: "Handmade cream tote with a lily-of-the-valley and pink butterfly print, lined in white",
       blurb: "Lily-of-the-valley and soft pink butterflies scattered across warm cream — a spring meadow you can carry. Fully lined, with a handy front pocket.",
-      details: "7″ × 6″ × 12″ · 11″ strap drop · front pocket 5″ × 9″ · fully lined · spot clean. Made to order — please allow 5–10 business days.",
+      details: "7″ × 6″ × 12″ · 11″ strap drop · front pocket 5″ × 9″ · fully lined · spot clean. Sewn and ready to ship.",
       images: ["assets/tote-butterfly.jpg", "assets/tote-butterfly-2.jpg", "assets/tote-butterfly-inside.jpg"]
     },
     "tote-strawberry-v2": {
       alt: "Handmade knot-style tote in a wild strawberry and vine print on cream",
       blurb: "A knot-style tote tumbling with wild strawberries and trailing green vines on cream — roomy, slouchy, and just right for carrying your current read and everything else.",
-      details: "Japanese knot-style tote · fully lined · spot clean. Made to order — please allow 5–10 business days.",
+      details: "Japanese knot-style tote · fully lined · spot clean. Sewn and ready to ship.",
       images: ["assets/tote-strawberry-v2.jpg", "assets/tote-strawberry-v2-2.jpg", "assets/tote-strawberry-v2-3.jpg", "assets/tote-strawberry-v2-4.jpg"]
     },
     "scrunchie-butterfly": {
@@ -239,7 +239,7 @@ window.DIT_SHOP = {
 
   /* Order + grouping shown on the full catalog page (shop.html). */
   CATALOG: [
-    { label: "Totes",      note: "Roomy, made-to-order, and built to carry a hardback and everything else.",
+    { label: "Totes",      note: "Roomy, ready to ship, and built to carry a hardback and everything else.",
       ids: ["tote-storykeeper", "tote-strawberry-v2", "tote-sunflower", "tote-mushroom", "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
     { label: "Scrunchies", note: "Soft, springy, gentle on hair — pick a print, or build your own trio.",
       ids: ["scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry", "scrunchie-orange-kitty",
