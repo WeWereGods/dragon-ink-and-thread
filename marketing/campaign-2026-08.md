@@ -1,27 +1,31 @@
 # Dragon Ink and Thread — Social & Marketing Campaign
-### Updated 2026-07-30 · Covers Jul 30 → Aug 30, 2026
+### Revised 2026-08-03 · Covers Aug 3 → Aug 30, 2026
+*(Supersedes the 2026-07-30 version. §2, §4, §6, §11 and §14 are unchanged — the strategy
+held. Everything tactical was rewritten, because the shop moved underneath it.)*
 
 ---
 
-## 1. What changed (why this is an "updated" plan)
+## 1. Where things actually stand (2026-08-03)
 
-The old plan — and the whole `emails/welcome-sequence.md` — was built for a **pre-launch
-"coming soon, opens Aug 15"** story. That story is out of date:
+The shop has now sold real things to real people, which changes what this campaign is for.
+It is no longer about proving the shop exists — it's about being seen by enough people.
 
-| Then | Now (2026-07-30) |
+| Then (Jul 30) | Now (Aug 3) |
 |---|---|
-| Shop closed, "opens Aug 15" | **Shop is OPEN** and has been since Jul 1 |
-| Aug 15 = the launch | **Aug 15 = custom orders open** — a *second* launch beat |
-| Buy buttons = one Stripe link per item | **Real multi-item cart** → Worker → Stripe Checkout |
-| Unlimited-feeling stock | **One-of-a-kind, qty capped at 1**; sold pieces go dim + "Sold" |
-| — | **Sunflower Tote is SOLD OUT** (first real scarcity proof) |
-| — | **Strawberry Tote v2** is new in the shop, $35, 4 photos |
-| Mustard Rose Tote | Renamed **Cottage Rose Tote** |
-| — | Photo galleries (double-click a card), Pushover sale alerts live |
+| Sunflower Tote sold — first scarcity proof | **4 pieces sold**: Sunflower + Mushroom Totes, Sage + Blue Rose Bows |
+| — | **3 orders, 3 customers.** Checkout, receipts and Pushover alerts all proven in production |
+| 6 totes | **5 totes live** — incl. **The Storykeeper**, $32, the bookshelf/apothecary print |
+| Bows: 4 | **Bows: 2** — the thinnest category by far |
+| "Made to order, allow 5–10 days" | **"Sewn and ready to ship"** — everything is pre-made; 1–3 days to post |
+| Welcome sequence to be loaded as an automation | **Automations are paywalled (+$29/mo).** Sent BY HAND; Email 1 went Aug 2 |
+| Photo galleries (double-click a card) | That gallery was deleted. **Zoom lives on product pages**; sold-out cards carry a **waitlist** |
 
-**⚠️ Do not send the current welcome sequence as written.** All three emails promise a
-shop that "opens August 15." Rewrites are in §8. Nothing has gone out yet — the sequence
-was never loaded into Buttondown — so this is a clean fix, not a correction email.
+**The two facts that should shape every decision this month:**
+
+1. **Traffic is the constraint, not the site.** Analytics show ~20 visits/day converting at a
+   normal rate. Polishing the site will not move sales. Being seen will.
+2. **Only 2 real reviews exist** (not 3, as the last version said). Social proof is the
+   thinnest asset in the whole operation.
 
 ---
 
@@ -57,18 +61,23 @@ baseline yet. Track them weekly in a note; don't build a dashboard.
 | Goal | Target by Aug 30 | Where to check |
 |---|---|---|
 | Nest subscribers | **150** (crosses the Buttondown free tier — budget ~$9/mo) | Buttondown |
-| Orders | **12** total, of which ≥3 are multi-item | Stripe + Pushover pings |
+| Orders | **12** total (3 in already), of which ≥3 are multi-item | Stripe + Pushover pings |
 | Average order value | **$38+** (see the attach-rate problem in §5) | Stripe |
 | Custom order inquiries | **5** after Aug 15 | Web3Forms → Gmail |
-| New testimonials collected | **3 more** (on top of the 3 already live) | Manual |
+| **Reviews** | **5 total** — i.e. **3 more** on top of the 2 that exist | Manual → `TESTIMONIALS` |
+| Daily visits | **50/day** (from ~20) — the real bottleneck | Cloudflare Web Analytics |
 | Instagram followers | **300** | IG |
 | TikTok: one video over 10k views | **1** | TikTok |
 
-**The one metric that matters most: testimonials.** Not because there are none — the
-`#kind-words` section is **live with 3 real reviews** — but because 3 is the floor where
-social proof starts working and the shop is about to get its busiest month. More of them
-beat more followers, every time. They also unlock `aggregateRating` in the structured
-data, which is the one SEO win still on the table.
+**The one metric that matters most: reviews.** There are **2**, not 3 — the previous version
+of this plan miscounted, and it mattered, because 3 is roughly the floor where social proof
+starts doing work. One of the two is for a *retired custom make* (the Road Trip Kindle Case),
+so only **one** review speaks for anything currently buyable. Every order this month should
+end in an ask (§9). More reviews beat more followers, every time.
+
+**The second metric that matters: visits.** Conversion is already normal — of the people who
+land, a healthy share buy. So the ceiling on sales is simply how few people arrive. Treat
+"did this bring anyone to the site" as the test for any piece of content.
 
 ---
 
@@ -114,17 +123,21 @@ What stays true in the messaging:
   Butterfly Tote plus one scrunchie clears it.
 - Lead local posts with **free pickup**. That's a scrunchie that actually converts.
 
-**Problem B — the social proof that exists isn't being used.**
-There are **3 real reviews live** in Kind Words, and that's it: no UGC, no unboxings, and
-none of the three has ever been turned into a post. They're the most persuasive words on
-the site and they're sitting in a section most visitors scroll past. Put each one on
-Instagram as its own graphic, and make every order this month trigger a follow-up asking
-for a photo or a sentence (see §9). **Never invent testimonials** — real ones only.
+**Problem B — there are only 2 reviews, and neither has ever been used.**
+Kind Words holds **2 real reviews** (the previous version of this plan said 3 — it was
+wrong). No UGC, no unboxings, and neither review has ever become a post. They're the most
+persuasive words on the site and they sit in a section most visitors scroll past. Put each
+one on Instagram as its own graphic, and make every order this month end in an ask (§9).
+**Never invent testimonials** — real ones only, quoted verbatim.
 
-One of them is for the **"Road Trip Kindle Case"** — a retired custom make that lives in
-the Stories lookbook. That's a gift for the Aug 15 beat: a real customer, in her own
-words, delighted by a **custom** piece. Use that quote in the custom-orders launch post.
-It's the only proof you have that the thing you're about to sell already works.
+One is for the **"Road Trip Kindle Case"** — a retired *custom* make in the Stories
+lookbook. That's a gift for the Aug 15 beat: a real customer, in her own words, delighted
+by a **custom** piece. Use that quote in the custom-orders launch post. It is the only
+proof you have that the thing you're about to sell already works.
+
+The other, from Brea P., is the one to lean on for the shop: she bought **a tote and a
+matching scrunchie** in one order, entirely unprompted. That's the attach-rate behaviour
+Problem A is trying to engineer, already happening naturally. Quote it when pushing sets.
 
 ---
 
@@ -154,29 +167,30 @@ no "GIRL RUN," no fake urgency. Warmth and specificity do the work. Always
 
 ## 7. The calendar
 
-Three beats: **Now Open** (through Aug 9) → **Custom Orders Countdown** (Aug 10–15) →
-**Sustain** (Aug 16–30).
+Three beats: **The Storykeeper & the coffee drop** (Aug 3–9) → **Custom Orders Countdown**
+(Aug 10–15) → **Sustain & set up September** (Aug 16–30).
 
-### Week 0 — Reset & re-introduce (Thu Jul 30 – Sun Aug 2)
+*Week 0 (Jul 30 – Aug 2) is done and has been removed.*
 
-| Day | Channel | Post |
-|---|---|---|
-| Thu Jul 30 | IG carousel + TikTok | **Strawberry Tote v2 debut.** 4 photos already in the repo. The new-make angle: "I made this one before, and it found a home. So I made it again — differently." |
-| Fri Jul 31 | IG Story (3-frame) | Poll: "Which retires next?" Show three totes. Low effort, high engagement, seeds scarcity. |
-| Sat Aug 1 | TikTok | **Process video: hand-tying a sailor bow.** 20–30s, sound on, no voiceover. Caption points at the $10 bows. |
-| Sun Aug 2 | IG Reel + Story | **"Sunflower found a home."** The first sold-out post. Screenshot the dimmed card. Gentle, not gloating: "This one's gone. That's how this works." |
+### Week 1 — New pieces (Mon Aug 3 – Sun Aug 9)
 
-### Week 1 — The story week (Mon Aug 3 – Sun Aug 9)
+The theme is **"it's here and it ships now."** Two new things to talk about: The Storykeeper,
+and the coffee collection being sewn this week.
 
 | Day | Channel | Post |
 |---|---|---|
-| Mon Aug 3 | **Email** | **Welcome sequence goes live in Buttondown** (rewritten, §8). Also back-fill pre-Jul-10 subscribers out of Gmail first — they're only recorded there. |
+| Mon Aug 3 | IG carousel + TikTok | **The Storykeeper debut.** Shelves of antique books and potion bottles on black, lined, long strap, $32. The most on-brand piece in the shop for a BookTok audience — lead with it. Caption in §13. |
 | Tue Aug 4 | IG carousel | **Founder story post.** The postpartum origin, in her own words, tighter than the site version. Photo of her at the machine if one exists — otherwise the About photo. |
-| Wed Aug 5 | TikTok | **"What's in my book bag"** — Butterfly Tote, current read, a scrunchie on the wrist. Pure BookTok on-ramp. |
-| Thu Aug 6 | IG Reel | **Mushroom Tote** feature. Woodland/foraging framing, front-pocket detail. |
-| Fri Aug 7 | IG Story | **Behind the scenes: packing an order.** Tissue, note, the whole ritual. Sets up the post-purchase ask. |
+| Wed Aug 5 | **Email** | **Welcome Email 2 — "How the Nest really began."** Sent BY HAND as a broadcast (§8). |
+| Wed Aug 5 | TikTok | **"What's in my book bag"** — the Storykeeper, current read, a scrunchie on the wrist. Pure BookTok on-ramp. |
+| Thu Aug 6 | IG Reel | **Process: hand-tying the coffee bows.** Sound on, no voiceover. Teases the drop without promising a date. |
+| Fri Aug 7 | Site + IG Story | **List the restock** (coffee bows + totes — see the Aug 7 reminder). Then Story: **packing an order** — tissue, note, the whole ritual. Sets up the post-purchase ask. |
 | Sat Aug 8 | IG post | **Local San Antonio post.** Lead with **free local pickup**. Veteran-owned. Tag SA small-business accounts. |
-| Sun Aug 9 | **Email** | **Broadcast #1: "The shop's been open."** Correct the record warmly, name the Nest discount, tease Aug 15. |
+| Sun Aug 9 | **Email** | **Welcome Email 3 — "A proper look inside the Nest,"** carrying the coffee drop and teasing Aug 15. **This replaces the old "Broadcast #1"** (see §8). |
+
+**⚠️ Aug 9 used to have two emails on it** — Welcome Email 3 *and* a "the shop's been open"
+broadcast. Broadcast #1 has been deleted: Welcome Email 1 already said that on Aug 2, and
+sending twice to a list this small is how people unsubscribe.
 
 ### Week 2 — Custom orders countdown (Mon Aug 10 – Sat Aug 15)
 
@@ -184,88 +198,93 @@ The Aug 15 beat. Frame it as *"now you can ask for yours."*
 
 | Day | Channel | Post |
 |---|---|---|
-| Mon Aug 10 | IG + TikTok | **Announce it.** "In 5 days you can ask me to make something that doesn't exist yet." Explain what custom means: your print, your size, your person. |
+| Mon Aug 10 | IG + TikTok | **Announce it.** "In 5 days you can ask me to make something that doesn't exist yet." Explain what custom means: your print, your size, your person. Point at the **53-print fabric library** — it's the most persuasive custom-orders asset on the site and nothing currently drives traffic to it. |
+| Mon Aug 10 | **Email (personal)** | **Follow up with all 3 customers** — how did it settle in, and would you send a line or a photo? This is the review engine (§9). Reminder is already scheduled. |
 | Tue Aug 11 | IG Story | **Q&A sticker:** "What would you have me make?" Harvest the answers — they're both content and product research. |
 | Wed Aug 12 | TikTok | **Process: a tote start to finish**, compressed. The most shareable format you have. |
-| Thu Aug 13 | IG carousel | **Cottage Rose + Blue Rose Mini** together. Note the rename openly ("same tote, better name"). |
-| Fri Aug 14 | IG Story ×3 + Email | **Eve-of. Broadcast #2 to the Nest: "Tomorrow, custom orders open — you first."** |
-| **Sat Aug 15** | **Everything** | **CUSTOM ORDERS OPEN.** See the launch-day runbook in §10. |
+| Thu Aug 13 | IG carousel | **Cottage Rose + Blue Rose Mini** together — both still in stock. Note the rename openly ("same tote, better name"). |
+| Fri Aug 14 | IG Story ×3 + Email | **Eve-of. Broadcast to the Nest: "Tomorrow, custom orders open — you first."** (§8) |
+| **Sat Aug 15** | **Everything** | **CUSTOM ORDERS OPEN.** See the launch-day runbook in §10 — times were revised to match real traffic. |
 
 ### Weeks 3–4 — Sustain (Sun Aug 16 – Sun Aug 30)
 
 Drop to 3–4 posts/week. Post-launch is where solo shops burn out; protect the cadence.
 
 - **Sun Aug 17** — Recap + first custom inquiries teaser ("here's what people asked for").
+  ⚠️ **NEST10 expires this day.** After it, the standing offer is **NEST15** — 15% off orders
+  over $25, no expiry. The site swaps its own wording automatically on Aug 18; your captions
+  and bio do not. Check them.
 - **Tue Aug 19** — Process video (the reliable workhorse).
-- **Thu Aug 21** — **Scrunchie bundle push.** Build Your Own, $15, three prints. Attach-rate play.
+- **Thu Aug 21** — **Scrunchie bundle push.** Build Your Own, $15, three prints. Attach-rate
+  play — and quote Brea P., who did exactly this unprompted.
 - **Sat Aug 23** — Stories/lookbook post: "pieces that found homes." Links the Stories section.
 - **Tue Aug 26** — Whatever sold recently → "one left" or "gone" post.
-- **Thu Aug 28** — **First UGC / testimonial repost**, if one exists by then. If not, ask again.
-- **Sat Aug 30** — Month recap + a soft look at fall/gifting.
+- **Thu Aug 28** — **First UGC / review repost**, if one exists by then. If not, ask again.
+- **Sat Aug 30** — Month recap + **tease the September drop**: mug rugs and the cozy-season
+  coffee collection. Sets up the next month rather than ending flat.
 
 ---
 
-## 8. Email — rewrites required
+## 8. Email — how it actually works now
 
-The sequence in `emails/welcome-sequence.md` needs a factual pass before it's loaded into
-Buttondown. Keep the voice; change the promise.
+**The rewrites this section used to ask for were done on 2026-07-31.** `emails/welcome-sequence.md`
+is current, evergreen and ready. Two things changed since, and both matter more than the copy:
 
-### Fixes to the existing 3 emails
+**⚠️ Buttondown automations are paywalled at +$29/mo, and she is on the free tier.** There is
+no drip. All three welcome emails go out **by hand as ordinary broadcasts**, spaced 1 / +3d /
++7d. Tagging and segmentation is a further +$9/mo. Do not plan around an automation existing.
 
-- **Email 1 (Welcome):** "When the shop opens August 15" → **"The shop is open right now."**
-  Give the discount code immediately rather than promising it later — the reason to defer
-  (nothing to spend it on) no longer exists. **Verify `NEST10` is active in Stripe before
-  sending.** Change the CTA from `#shop` on the homepage to **`/shop.html`**.
-- **Email 2 (The story):** Almost entirely fine — it's evergreen. Only fix the link and
-  add one line at the end pointing to the open shop.
-- **Email 3 (What I make):** Remove "blooms" and "cozys" (retired to Stories). Add the
-  **Strawberry Tote v2**. Rename Mustard Rose → **Cottage Rose**. Replace "The shop opens
-  August 15" with **"The shop is open — and on August 15, custom orders open too."**
-  Add the one-of-a-kind line explicitly: *quantities aren't limited, they're singular.*
+**⚠️ Never name `NEST10` in an email.** It **dies 2026-08-17**, and a lapsed Stripe promotion
+code is permanently dead — anyone reading later gets a code that fails at checkout. An email is
+frozen the moment it sends. **The code in every email is `NEST15`** — 15% off orders over $25,
+no expiry. (`NEST10` is fine in *social posts*, which are read the day they're posted.)
 
-### New: Broadcast #1 — "The shop's been open" (send Sun Aug 9)
+### The welcome sequence — status
 
-**Subject:** I should have said something sooner
-**Preheader:** The shop is open. Here's your code.
+| Email | Sent | Notes |
+|---|---|---|
+| 1 — Welcome 🪺 | ✅ **2026-08-02** | Whole list. Carries NEST15. |
+| 2 — How the Nest really began | ☐ **~Aug 5** | The story email. Evergreen, no changes needed. |
+| 3 — A proper look inside the Nest | ☐ **~Aug 9** | Check the shop first — it describes what's in it. |
 
-> Hi — it's Ayla.
->
-> I've been quietly sewing, and somewhere in there the shop opened and I never properly
-> told you. So: **the shop is open.** Every ready-made piece on the site can be ordered
-> today.
->
-> Your Nest discount is **NEST10** — 10% off, at checkout.
->
-> One thing I should explain, because it changes how you shop here. Almost everything I
-> make is **one of a kind**. Not "limited edition" — there is one, I sewed it, and when
-> someone takes it home the listing goes dark. The Sunflower Tote went last week. It
-> isn't coming back.
->
-> → [See what's still here](https://www.dragoninkandthread.com/shop.html)
->
-> And on **August 15**, something new: custom orders open. You'll be able to ask me for
-> a piece that doesn't exist yet. More on that soon.
->
-> — Ayla
+Live status table lives at the top of `emails/welcome-sequence.md`. Update it after each send.
 
-### New: Broadcast #2 — Custom orders open (send Fri Aug 14 evening)
+### ~~Broadcast #1 — "The shop's been open"~~ — **DELETED**
+
+Its job was done by Welcome Email 1 on Aug 2. Sending a second "actually, the shop is open"
+note to the same ~100 people eight days later is repetition, not reinforcement. Aug 9 belongs
+to Welcome Email 3.
+
+### Broadcast — Custom orders open (send Fri Aug 14 evening)
 
 **Subject:** Tomorrow, you can ask me for anything
 **Preheader:** Custom orders open in the morning.
 
-Short. Explain what custom covers (your print, your dimensions, a favorite piece
-recreated), what it costs (a range), and how long it takes. One CTA to the contact form.
+Short. Explain what custom covers (your print, your dimensions, a favourite piece recreated),
+what it costs (totes $50–100, bows $10–15, scrunchies $6–12, **$25 minimum**), and how long it
+takes (**10–14 days from agreeing the details, plus shipping**). One CTA, to `custom.html`.
 
-### New: Basket-abandoner segment
+Worth including: the **53-print fabric library**. "Pick your print" is the single most concrete
+thing about custom orders, and that page already exists.
 
-`wireNestForm()` already tags signups **`hero`** vs **`checkout`**. The `checkout` tag =
-someone who got to the cart and didn't finish. That segment deserves its own send:
+### Basket-abandoner segment — **BLOCKED, not forgotten**
 
-**Subject:** Still thinking about it?
-> No pressure — but the piece you were looking at is one of one, and I can't promise
-> it'll be there next week. `NEST10` still works.
+The `hero` / `checkout` tags are still recorded on every signup, but **sending to a subset needs
+the +$9/mo segmentation add-on**. Until that's paid for, this send cannot happen. The data keeps
+accruing, so nothing is lost by waiting.
 
-Send ~72h after signup, to the `checkout` tag only.
+Copy, for when it's possible:
+> **Subject:** Still thinking about it?
+> No pressure — but the piece you were looking at is one of one, and I can't promise it'll be
+> there next week.
+
+### New: post-purchase emails — **written, in the repo**
+
+`emails/order-updates.md` holds three hand-sent templates: **shipped**, **ready for local
+pickup**, and the **one-week follow-up that asks for a review**. That third one is the most
+valuable email the shop sends (§9). Writing to a buyer about their order is always fine;
+**adding them to the Nest list is not** unless they subscribed themselves — the templates
+invite, never enrol.
 
 ---
 
@@ -351,19 +370,23 @@ or into a set.
 
 These are the gaps the campaign will run into. Listed so they don't ambush you mid-month.
 
+**Done since the last version** — custom.html deployed and self-gating · welcome sequence
+rewritten evergreen · pre-Jul-10 subscribers back-filled · `shop.html` and `fabrics.html` in
+the sitemap · `aggregateRating` added · `shipping.html` now covers custom turnaround ·
+sold-out waitlist · product-page zoom · cross-category cross-sell · order-email templates.
+
 | Priority | Item |
 |---|---|
-| **High** | **Custom orders intake — BUILT 2026-07-30, not yet deployed.** `custom.html` + `js/custom.js`: explainer, what-I-will/won't-take, full terms (totes $50–100, bows $10–15, scrunchies $6–12, $25 minimum, 10–14 day make time plus shipping), and a request form on its own Web3Forms subject line, gated until Aug 15 (it opens itself — no deploy needed on the day). **Complete — the only thing left is pushing it.** |
-| **High** | Load the **rewritten welcome sequence** into Buttondown — new subscribers currently get silence. |
-| **High** | **Back-fill pre-2026-07-10 subscribers** out of Gmail. Web3Forms drops free-tier submissions after 30 days; those people exist nowhere else. |
-| Low | Bows stay capped at **1 per order** (decided 2026-07-30 — they're one-of-a-kind like the totes). Noted so it isn't reopened. |
-| Medium | `js/main.js` still holds a vestigial `PRODUCTS` copy with the **old $4/$9 scrunchie prices** (10 stale lines). It's unused — the homepage has no `.card-variant` — but it's a live trap for the next person who edits the wrong file. Prune it. |
-| Medium | `shop.html` is **missing from `sitemap.xml`** (only `/` and `custom.html` are listed). The full catalog is the page most worth indexing. |
-| Medium | `shipping.html` says nothing about **custom-order turnaround**, though `custom.html` links to it for returns. |
-| Medium | Add `aggregateRating` to the JSON-LD now that 3 real reviews exist — it's the rich-result win, and the reviews are already there. |
-| Medium | The **founder photo** is a phone selfie. The story pillar leans hard on her; a real shot of her at the machine is the single best photo investment available. |
-| Medium | Write the **post-purchase insert** copy down in the repo. |
-| Low | Prune the vestigial `PRODUCTS`/`VARIANTS` in `js/main.js` so product edits can't drift from `js/shop-data.js`. |
+| **High** | **The founder photo is still a phone selfie.** The story pillar (20% of all content) leans entirely on her, and this is the highest-trust element on the site. A real shot of her *at the machine, with her work* is the single best investment available — and it's the only High item left. |
+| **High** | **Get more reviews.** 2 exist; only 1 describes something buyable. Every order this month must end in an ask (§9). This is a marketing job, not a site job. |
+| Medium | Write the **post-purchase insert** copy down in the repo. Referenced repeatedly, still not written. |
+| Medium | `js/main.js` still holds a vestigial `PRODUCTS`/`VARIANTS` copy with the **old $4/$9 scrunchie prices**. Unused — the homepage has no `.card-variant` — but a live trap for whoever edits the wrong file next. Prune it. |
+| Low | Shop **category counts include sold-out items** ("Bows 4" when 2 are buyable). Harmless now, misleading as more sell. |
+| Low | `404.html` has no `noindex`; `assets/web-background.jpg` (346 KB) is tracked but referenced nowhere; WebP conversion would save ~2–3 MB. |
+| Low | Bows stay capped at **1 per order** (decided 2026-07-30 — one-of-a-kind like the totes). Noted so it isn't reopened. Scrunchies keep `maxQty: 3` because **multiples of each print are stocked** — also not a bug. |
+
+**None of the Medium or Low items will earn a sale.** Analytics say conversion is fine and
+traffic is the constraint. Do them when bored, not instead of sewing or posting.
 
 ---
 
@@ -371,26 +394,39 @@ These are the gaps the campaign will run into. Listed so they don't ambush you m
 
 Copy-paste. Swap the hashtag block per §6.
 
-**Strawberry Tote v2 (Jul 30)**
-> I made a strawberry tote once. It found a home, and I missed it.
+**The Storykeeper (Aug 3)** — the newest piece, and the most on-brand thing in the shop
+> Shelves of old books and apothecary bottles, stacked floor to ceiling on black.
 >
-> So I made another — not a copy. A knot-style tote this time, wild strawberries and
-> trailing vines on cream, fully lined, roomy enough for a hardback and everything else
-> you're carrying.
+> I called it The Storykeeper because that's what it is — the library you'd happily get
+> lost in, except you can carry it. Lined in black, long strap that sits at the hip, and
+> an outside pocket for whatever you need first.
 >
-> There's one. $35. When it goes, it goes. 🍓
+> There's one. $32. It's already sewn, so it goes out this week. 📚
+>
+> *(Pair with the lining shot — the little dragon label is the detail people reply to.)*
 
-**Sunflower sold out (Aug 2)**
-> The Sunflower Tote found a home this week.
+**Sold out — use whenever a piece goes (template)**
+> The [PIECE] found a home this week.
 >
-> I hand-wove those panels square by square — sunflowers, honeycomb, tiny bees. It took
-> longer than it should have and I loved every hour of it.
+> [One honest line about making it.]
 >
 > It isn't coming back. That's not a sales tactic, it's just how this works: I make one,
-> and then it belongs to someone. Its story moves over to the Stories page, and I start
-> the next chapter.
+> and then it belongs to someone. Its story moves to the Stories page, and I start the
+> next chapter.
 >
-> Six pieces still on the shelf. Link in bio. 🌻
+> Link in bio for what's still here. ✨
+>
+> *(Don't hard-code a count of remaining pieces — the old version of this caption said
+> "six still on the shelf" and was wrong within days. Say "what's still here" instead.)*
+
+**The coffee drop (when the restock lists, ~Aug 7)**
+> Some days the book is the point. Some days it's the cup.
+>
+> I've been sitting on a whole shelf of coffee prints — roasted roses, cinnamon marble,
+> the daily grind — and this week I finally cut into them.
+>
+> [Bows / totes], sewn and ready to ship. For anyone whose day doesn't start until the
+> kettle does. ☕
 
 **Founder story (Aug 4)**
 > People ask how this started, and the honest answer isn't a business plan.
@@ -410,8 +446,15 @@ Copy-paste. Swap the hashtag block per §6.
 > You don't have to leave wonder behind just because you grew up. 🧵
 
 **BookTok — what's in my book bag (Aug 5)**
-> book bag check 🦋 lily-of-the-valley tote, current read, and a scrunchie I refuse to
-> take off. tell me what you're reading and I'll tell you which tote it belongs in.
+> book bag check 📚 the storykeeper, current read, and a scrunchie I refuse to take off.
+> tell me what you're reading and I'll tell you which tote it belongs in.
+
+**Ready to ship — a line worth reusing everywhere**
+> Everything in the shop is already sewn. Not made-to-order, not a six-week wait — it's
+> finished, it's one of one, and it goes in the post within a few days.
+>
+> *(This is new as of Aug 3 and most handmade shops can't say it. Pair it with scarcity —
+> "one of a kind AND it ships this week" is stronger than either half alone.)*
 
 **Custom orders announcement (Aug 15)**
 > Starting today, you can ask me for something that doesn't exist yet.
