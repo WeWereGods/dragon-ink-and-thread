@@ -245,12 +245,33 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
       Sage Gingham Bow (`bow-sage-gingham`), Blue Rose Bow (`bow-blue-rose`).
     (Cozys `cozy-bee`/`cozy-daisy` and Blooms `bloom-cream`/`bloom-pink` were retired from the shop
     2026-07-27 → now in the Stories lookbook PAST_MAKES.)
-  Each print/style is its own cart id. **Price of record lives only in the `PRODUCTS` object**
-  (js/main.js) — the dropdown `<option>` labels are the print name only, and `initVariantCards()`
-  appends the "— $price" suffix from `PRODUCTS` at runtime (so a price is never duplicated).
-  Per-variant photos/blurb/details live in the `VARIANTS` map (js/main.js). To add a print: drop
-  the photo in assets/, add a `PRODUCTS` + `VARIANTS` entry, and an `<option>` (name only, no
-  price) to that select.
+  Each print/style is its own cart id. (The old homepage `<select>` flow described here is GONE —
+  see "ADDING A NEW PIECE" below for what actually works now.)
+
+## ⚠️ ADDING A NEW PIECE — the full checklist (3 steps fail SILENTLY)
+The old instructions ("add an `<option>` to that select") described the homepage variant cards,
+which **no longer exist**. Here is the real sequence. Everything lives in **js/shop-data.js**
+except where noted.
+
+1. **Photo → `assets/`**, 1400×1050 (4:3) at quality 82. Phone JPEGs carry **EXIF orientation** —
+   bake the rotation into pixels and strip EXIF (composite onto a fresh Jimp canvas; setting
+   `_exif = null` alone does NOT work) or it displays sideways.
+2. **`PRODUCTS`** — `{ name, price, art }`. Add `maxQty: 3` only for scrunchies; **omitting it
+   means 1**, which is what totes and bows want.
+3. **`VARIANTS`** — `alt`, `blurb`, `details` (size · strap drop · pocket), `images: [...]`.
+4. **`LINKS`** — ⚠️ **an id missing from `LINKS` silently renders "Coming soon" and cannot be
+   bought.** The value is now only an availability flag (the old Payment Links are never opened),
+   so any non-empty string works — but it must be present.
+5. **`CATALOG`** — add the id to that category's `ids` array, or it appears nowhere.
+6. **`PRICES` in `worker/checkout-worker.js`** (in **CENTS**) — ⚠️ **the Worker rejects any id it
+   doesn't know, so checkout fails without this**, however good the rest looks.
+7. **`wrangler deploy`** from `worker/` — step 6 does nothing until this runs.
+8. **`node tools/build-products.js`** — writes the new product page + refreshes sitemap.xml.
+9. **`node tools/bump-assets.js`** — restamps the `?v=` cache-busting tokens.
+10. **Commit + push.** Pages redeploys; the piece is live.
+
+The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Coming soon"; skip
+6 or 7 and it adds to the basket and then fails at checkout.
 - **Images**: `logo.png` is background-transparent (flood-filled from the original). Originals
   `logo-original.png` and `Tote.png` are kept locally but **gitignored**. Product cards use
   `<img>` with an `onerror` fallback to an emoji placeholder, so missing photos never look broken.
