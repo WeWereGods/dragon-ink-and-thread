@@ -85,6 +85,21 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
   **`catSlug()` is duplicated in js/shop.js and tools/build-products.js — keep them identical**,
   or product-page breadcrumbs will link to anchors that don't exist.
 
+## ⚠️ EVERYTHING IN THE SHOP IS ALREADY SEWN — never write "made to order" about it
+Confirmed by the owner 2026-08-03. Every tote, bow and scrunchie listed is a **finished piece
+sitting in stock**, not something cut after an order. The site used to say "made to order —
+please allow 5–10 business days" everywhere; that was untrue and actively cost sales, since a
+week-and-a-half wait on a bag that's already on the shelf is a reason to hesitate. It now says
+**"Sewn and ready to ship"**, with **1–3 business days** to post (FAQ + shipping.html).
+- **"Made to order" now means CUSTOM orders only** — those genuinely are cut from scratch,
+  **10–14 days** from agreeing the details, plus shipping. Keep the two clearly separate.
+- **Consequence: every shop piece is returnable** (14 days, unused). Only custom orders are
+  final sale — the old "made-to-order items are final sale" clause no longer covers anything.
+- **Scrunchies keep `maxQty: 3` because she stocks MULTIPLES of each print** (confirmed
+  2026-08-03) — that's not an overselling bug. Totes and bows stay at 1, genuinely one-of-a-kind.
+- shipping.html also used to claim postage was "calculated at checkout based on weight and
+  destination", which was never true — it's the flat tiered fee. Fixed 2026-08-03.
+
 ## Key facts / gotchas
 - **Domain/DNS**: registered at **Wix** (nameservers ns8/ns9.wixdns.net). `www` is a CNAME
   → `weweregods.github.io`; apex has the 4 GitHub A records. HTTPS cert is issued and
