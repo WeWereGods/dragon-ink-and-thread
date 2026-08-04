@@ -106,7 +106,8 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
 - **Checkout = real multi-item cart → Stripe Checkout via a Cloudflare Worker (wired 2026-07-29).**
   shop.html catalog buttons are **"Add to cart"** (`data-cart-add`), handled by **js/cart.js**
   (localStorage cart `dit-cart-v1`, header cart button + count badge, slide-out drawer + live
-  subtotal; **one of each item max** — one-of-a-kind, so no qty steppers). Checkout POSTs `[{id, qty}]` to the Worker at
+  subtotal; **one of each item max** — one-of-a-kind, so no qty steppers). Checkout POSTs **`{items: [{id, qty}]}`** (an object with an `items` array — NOT a bare
+  array; the Worker answers "Your cart is empty" to anything else) to the Worker at
   **`https://dit-checkout.dragoninkandthread.workers.dev`** (**worker/checkout-worker.js**), which
   builds a Stripe Checkout Session and returns its URL to redirect to. After payment →
   **success.html** (clears the cart). **success.html also ASKS for two things (2026-08-02)** — it's
