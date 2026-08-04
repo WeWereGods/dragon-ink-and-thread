@@ -204,12 +204,13 @@ node tools/build-products.js      # then commit the regenerated *.html + sitemap
     Signature verified via Web Crypto; push sent with `ctx.waitUntil` so Stripe gets a fast 200.
     **CONFIRMED WORKING on the first real sale (2026-08-02)** — the phone buzzed, so the keys and
     the whole Stripe → Worker → Pushover chain are proven in production.
-  - **⚠️ Stripe does NOT email receipts by default.** They only send if **Settings → Business →
-    Customer emails → Successful payments** is ON in the Dashboard; Checkout does not send one
-    just because it collected an email, and the Worker sets no `receipt_email` / `invoice_creation`.
-    success.html's wording is deliberately conditional because of this ("if it hasn't landed…
-    email me") — **don't "tidy" it back into a promise.** A missing receipt can be sent by hand:
-    Dashboard → Payments → the payment → Send receipt.
+  - **⚠️ Stripe does NOT email receipts by default** — they only send if **Settings → Business →
+    Customer emails → Successful payments** is ON; Checkout does not send one just because it
+    collected an email, and the Worker sets no `receipt_email` / `invoice_creation`.
+    **That toggle was found off and switched ON 2026-08-02**, so receipts now go out — but
+    success.html's wording stays deliberately conditional ("if it hasn't landed… email me")
+    because a receipt can still land in spam. **Don't "tidy" it back into a promise.**
+    A missing receipt can always be sent by hand: Dashboard → Payments → the payment → Send receipt.
   - **Order emails** (shipped / ready for pickup / the follow-up that earns reviews) are drafted in
     **emails/order-updates.md**. They're sent by hand from Gmail, one customer at a time. Writing to
     a buyer about their order is fine; **adding them to the Buttondown list is not** unless they
