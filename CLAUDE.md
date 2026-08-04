@@ -261,7 +261,7 @@ except where noted.
 3. **`VARIANTS`** — `alt`, `blurb`, `details` (size · strap drop · pocket), `images: [...]`.
 4. **`LINKS`** — ⚠️ **an id missing from `LINKS` silently renders "Coming soon" and cannot be
    bought.** The value is now only an availability flag (the old Payment Links are never opened),
-   so any non-empty string works — but it must be present.
+   so **new items just use the string `"cart"`** — that's the established convention.
 5. **`CATALOG`** — add the id to that category's `ids` array, or it appears nowhere.
 6. **`PRICES` in `worker/checkout-worker.js`** (in **CENTS**) — ⚠️ **the Worker rejects any id it
    doesn't know, so checkout fails without this**, however good the rest looks.

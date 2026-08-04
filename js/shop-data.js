@@ -46,6 +46,7 @@ window.DIT_SHOP = {
   SHIPPING: { standard: 6.5, small: 4.5, freeOver: 50 },
 
   PRODUCTS: {
+    "tote-storykeeper":   { name: "The Storykeeper",   price: 32.0, art: "📚" },
     "tote-sunflower":     { name: "Sunflower Tote",     price: 45.0, art: "🌻", soldOut: true },
     "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄", soldOut: true },
     "tote-mustard-floral":{ name: "Cottage Rose Tote",  price: 20.0, art: "🌹" },
@@ -69,6 +70,12 @@ window.DIT_SHOP = {
   },
 
   VARIANTS: {
+    "tote-storykeeper": {
+      alt: "Handmade tote printed with shelves of antique books and potion bottles on black, hanging from a long black strap",
+      blurb: "Shelves of old books and apothecary bottles stacked to the ceiling, printed deep on black — the library you'd happily get lost in. Lined in black, with a long strap that sits at the hip and an outside pocket for whatever you need first.",
+      details: "15″ × 12″ · 18″ strap drop · outside pocket · fully lined · spot clean. Made to order — please allow 5–10 business days.",
+      images: ["assets/tote-storykeeper.jpg", "assets/tote-storykeeper-2.jpg", "assets/tote-storykeeper-3.jpg"]
+    },
     "tote-sunflower": {
       alt: "Handmade puffy woven tote in a sunflower, honeycomb, and bee print",
       blurb: "Our puffy woven tote — hand-cut squares of sunflowers, honeycomb, and tiny bees, quilted into pillowy softness. A true statement piece that hugs whatever you carry.",
@@ -203,6 +210,7 @@ window.DIT_SHOP = {
     // Post-cart items: LINKS is now just an availability flag (checkout runs
     // through the cart + Worker, not these links), so new items use "cart".
     "tote-strawberry-v2":  "cart",
+    "tote-storykeeper":    "cart",
     "scrunchie-butterfly":      "https://buy.stripe.com/3cIaEX71o9eNdNE4T7fjG0f",
     "scrunchie-cherry-blossom": "https://buy.stripe.com/4gM5kDfxU8aJ3902KZfjG0g",
     "scrunchie-cherry":         "https://buy.stripe.com/cNi6oHfxUfDb5h8etHfjG0h",
@@ -232,7 +240,7 @@ window.DIT_SHOP = {
   /* Order + grouping shown on the full catalog page (shop.html). */
   CATALOG: [
     { label: "Totes",      note: "Roomy, made-to-order, and built to carry a hardback and everything else.",
-      ids: ["tote-strawberry-v2", "tote-sunflower", "tote-mushroom", "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
+      ids: ["tote-storykeeper", "tote-strawberry-v2", "tote-sunflower", "tote-mushroom", "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
     { label: "Scrunchies", note: "Soft, springy, gentle on hair — pick a print, or build your own trio.",
       ids: ["scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry", "scrunchie-orange-kitty",
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower", "scrunchie-strawberry",
