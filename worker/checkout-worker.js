@@ -41,6 +41,12 @@ const PRICES = {
   "bow-gingham":      { name: "Gingham Bow",      amount: 1000 },
   "bow-sage-gingham": { name: "Sage Gingham Bow", amount: 1000 },
   "bow-blue-rose":    { name: "Blue Rose Bow",    amount: 1000 },
+  "bow-cauldron-forged":   { name: "Cauldron Forged Bow",      amount: 1000 },
+  "bow-toffee-plaid":      { name: "Toffee Plaid Bow",         amount: 1000 },
+  "bow-roasted-roses":     { name: "Roasted Roses Bow",        amount: 1000 },
+  "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", amount: 1000 },
+  "bow-blushing-linen":    { name: "Blushing Linen Bow",       amount: 1000 },
+  "bandana-storykeeper":   { name: "The Storykeeper Bandana",  amount: 1800 },
 };
 
 /* Prints a "Build Your Own Bundle" may be built from: id → the short label

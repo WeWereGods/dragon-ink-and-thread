@@ -66,7 +66,13 @@ window.DIT_SHOP = {
     "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️", soldOut: true },
     "bow-gingham":      { name: "Gingham Bow",      price: 10.0, art: "🎀" },
     "bow-sage-gingham": { name: "Sage Gingham Bow", price: 10.0, art: "🎀" },
-    "bow-blue-rose":    { name: "Blue Rose Bow",    price: 10.0, art: "🎀", soldOut: true }
+    "bow-blue-rose":    { name: "Blue Rose Bow",    price: 10.0, art: "🎀", soldOut: true },
+    "bow-cauldron-forged":   { name: "Cauldron Forged Bow",     price: 10.0, art: "🖤" },
+    "bow-toffee-plaid":      { name: "Toffee Plaid Bow",        price: 10.0, art: "🎀" },
+    "bow-roasted-roses":     { name: "Roasted Roses Bow",       price: 10.0, art: "🌹" },
+    "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", price: 10.0, art: "☕" },
+    "bow-blushing-linen":    { name: "Blushing Linen Bow",      price: 10.0, art: "🎀" },
+    "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" }
   },
 
   VARIANTS: {
@@ -195,6 +201,46 @@ window.DIT_SHOP = {
       blurb: "Powder-blue cotton dotted with soft pink roses — a dreamy, storybook bow hand-tied with finished edges.",
       details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-blue-rose.jpg"]
+    },
+    "bow-cauldron-forged": {
+      alt: "Handmade midnight-navy sailor bow with a fine bronze crackle-web texture",
+      blurb: "Midnight navy shot through with a fine bronze web — like something cooled in the dark and lifted out still glinting. The moodiest bow in the shop, and the one that finally goes with black.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-cauldron-forged.jpg"]
+    },
+    "bow-toffee-plaid": {
+      alt: "Handmade brown toffee plaid sailor bow",
+      blurb: "Deep toffee plaid, hand-tied into a sailor bow — the colour of a cup left to steep too long and an armchair by the window. Finished edges, and it suits every coat you own.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-toffee-plaid.jpg"]
+    },
+    "bow-roasted-roses": {
+      alt: "Handmade olive sailor bow printed with cream roses and cups of coffee",
+      blurb: "Cream roses and little cups of coffee scattered across deep olive — a slow morning, tied into a bow. Hand-tied with finished edges.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-roasted-roses.jpg"]
+    },
+    "bow-daily-grind-ivory": {
+      alt: "Handmade ivory sailor bow printed with vintage coffee-shop lettering",
+      blurb: "Old sign-painter lettering on soft ivory — moka pots, grinders, and a hundred small reasons to take a coffee break. For the ones who read best with a cup in hand.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-daily-grind-ivory.jpg"]
+    },
+    "bow-blushing-linen": {
+      alt: "Handmade blush-pink sailor bow in a soft linen-textured cotton",
+      blurb: "The softest blush, woven with the slubby texture of well-loved linen — a quiet bow that doesn't compete with anything you put it near. Hand-tied with finished edges.",
+      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-blushing-linen.jpg"]
+    },
+    "bandana-storykeeper": {
+      alt: "Handmade pet bandana printed with antique books and potion bottles, shown flat and worn by a black dog",
+      blurb: "The Storykeeper print, cut down for the smallest reader in the house — shelves of antique books and potion bottles on deep black. It slips over the collar they already wear, so there's nothing to tie and nothing to lose. Matches the tote of the same name. This one is a Large; small and medium can be made to order, so just ask.",
+      details: "Size Large · small and medium available on request · slips over the collar · machine wash cold, hang to dry.",
+      images: [
+        "assets/bandana-storykeeper.jpg",
+        "assets/bandana-storykeeper-2.jpg",
+        "assets/bandana-storykeeper-3.jpg"
+      ]
     }
   },
 
@@ -224,7 +270,13 @@ window.DIT_SHOP = {
     "bow-sage":         "https://buy.stripe.com/dRmdR985scqZ7pgclzfjG0b",
     "bow-gingham":      "https://buy.stripe.com/dRmaEX4Tgez7dNEetHfjG0c",
     "bow-sage-gingham": "https://buy.stripe.com/cNi7sL3Pc1MldNEbhvfjG0d",
-    "bow-blue-rose":    "https://buy.stripe.com/eVqaEX0D0fDbdNE4T7fjG0e"
+    "bow-blue-rose":    "https://buy.stripe.com/eVqaEX0D0fDbdNE4T7fjG0e",
+    "bow-cauldron-forged":   "cart",
+    "bow-toffee-plaid":      "cart",
+    "bow-roasted-roses":     "cart",
+    "bow-daily-grind-ivory": "cart",
+    "bow-blushing-linen":    "cart",
+    "bandana-storykeeper":   "cart"
   },
 
   /* Prints a "Build Your Own Bundle" can be built from — the options in the
@@ -246,6 +298,9 @@ window.DIT_SHOP = {
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower", "scrunchie-strawberry",
             "scrunchie-bundle", "scrunchie-byo-bundle"] },
     { label: "Bows",       note: "Hand-tied sailor bows with finished edges, in storybook prints.",
-      ids: ["bow-sage", "bow-gingham", "bow-sage-gingham", "bow-blue-rose"] }
+      ids: ["bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
+            "bow-gingham", "bow-sage-gingham", "bow-sage", "bow-blue-rose"] },
+    { label: "Pet Bandanas", note: "Over-the-collar bandanas in the same storybook prints — for the one who waits by the door.",
+      ids: ["bandana-storykeeper"] }
   ]
 };

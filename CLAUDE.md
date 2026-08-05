@@ -257,8 +257,18 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       the flat shipping fee look absurd on a single scrunchie (62% of the order). Changed in
       js/shop-data.js, `PRICES` in worker/checkout-worker.js, and the scrunchie `AggregateOffer`
       JSON-LD in index.html.
-    - **Bows** $10 each — Sage Bow (`bow-sage`), Gingham Bow (`bow-gingham`, taupe),
-      Sage Gingham Bow (`bow-sage-gingham`), Blue Rose Bow (`bow-blue-rose`).
+    - **Bows** $10 each — **9 of them since 2026-08-05.** Cauldron Forged (`bow-cauldron-forged`,
+      midnight navy + bronze crackle, leads the row), Toffee Plaid (`bow-toffee-plaid`),
+      Roasted Roses (`bow-roasted-roses`), Daily Grind in Ivory (`bow-daily-grind-ivory`),
+      Blushing Linen (`bow-blushing-linen`), Gingham (`bow-gingham`, taupe),
+      Sage Gingham (`bow-sage-gingham`), then the two sold-out ones last —
+      Sage (`bow-sage`), Blue Rose (`bow-blue-rose`). Bow names come from the **fabric library**
+      (js/fabrics-data.js), so a bow and its swatch share a name.
+    - **Pet Bandanas** — a FOURTH category, added 2026-08-05. The Storykeeper Bandana
+      (`bandana-storykeeper`, $18, 3 photos) in the same books-and-potion-bottles print as
+      The Storykeeper tote. Over-the-collar, **size Large; small/medium made to order.**
+      Ships on the $4.50 small tier (no `tote-` prefix). A sunflower gingham one was made
+      2026-08-04 and **sold before it was ever listed** — don't add it.
     (Cozys `cozy-bee`/`cozy-daisy` and Blooms `bloom-cream`/`bloom-pink` were retired from the shop
     2026-07-27 → now in the Stories lookbook PAST_MAKES.)
   Each print/style is its own cart id. (The old homepage `<select>` flow described here is GONE —
@@ -269,9 +279,18 @@ The old instructions ("add an `<option>` to that select") described the homepage
 which **no longer exist**. Here is the real sequence. Everything lives in **js/shop-data.js**
 except where noted.
 
-1. **Photo → `assets/`**, 1400×1050 (4:3) at quality 82. Phone JPEGs carry **EXIF orientation** —
-   bake the rotation into pixels and strip EXIF (composite onto a fresh Jimp canvas; setting
-   `_exif = null` alone does NOT work) or it displays sideways.
+1. **Photo → `assets/`** at quality 82. **Either orientation works** — `.catalog-photo` is
+   `aspect-ratio: 4/3; object-fit: cover`, so the card crops whatever you give it. Landscape
+   **1400×1050** is the common case (all bows, most totes); **portrait 1050×1400** is used where
+   the piece is tall (Storykeeper tote, Strawberry v2, the bandana). Pick the one that loses less.
+   - ⚠️ **Check the subject fits the 4:3 window before cropping.** Cauldron Forged filled 813px of
+     a 1448px frame and the widest possible 4:3 crop is 814px — a centre crop cut the tails off at
+     both edges. Fixed by mirroring a narrow strip of plain background to buy margin; take the
+     filler from a **knot-free** band or the mirror is obvious.
+   - Phone photos carry **EXIF orientation** — bake the rotation into pixels and strip EXIF or the
+     image displays sideways. `sharp(...).rotate()` does both (it applies EXIF and re-encodes);
+     with Jimp, composite onto a fresh canvas — setting `_exif = null` alone does NOT work.
+     `sharp` is not a repo dependency (the site has none) — install it in a scratch dir.
 2. **`PRODUCTS`** — `{ name, price, art }`. Add `maxQty: 3` only for scrunchies; **omitting it
    means 1**, which is what totes and bows want.
 3. **`VARIANTS`** — `alt`, `blurb`, `details` (size · strap drop · pocket), `images: [...]`.
@@ -279,6 +298,12 @@ except where noted.
    bought.** The value is now only an availability flag (the old Payment Links are never opened),
    so **new items just use the string `"cart"`** — that's the established convention.
 5. **`CATALOG`** — add the id to that category's `ids` array, or it appears nowhere.
+   **A NEW CATEGORY is just one more `{ label, note, ids }` entry** — the jump button and the
+   `#<slug>` anchor are both generated from `catSlug(label)`, so shop.html needs no hand-editing
+   (done 2026-08-05 for **Pet Bandanas**). Two things do NOT follow automatically: a `Product`
+   JSON-LD block in index.html `<head>`, and the shipping tier — the Worker charges
+   `SHIP_STANDARD` only for ids starting `tote-`, so any new category lands on `SHIP_SMALL`.
+   Check that's actually right for what you're posting.
 6. **`PRICES` in `worker/checkout-worker.js`** (in **CENTS**) — ⚠️ **the Worker rejects any id it
    doesn't know, so checkout fails without this**, however good the rest looks.
 7. **`wrangler deploy`** from `worker/` — step 6 does nothing until this runs.
