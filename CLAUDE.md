@@ -269,15 +269,24 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       (`bow-cauldron-forged`, midnight navy + bronze crackle, leads the row), Toffee Plaid,
       Roasted Roses, Daily Grind in Ivory, Blushing Linen, Gingham (taupe), Sage Gingham.
       Bow names come from the **fabric library** (js/fabrics-data.js), so a bow and its swatch
-      share a name. ⚠️ **custom.html still quotes custom bows at "$10 to $15"**, which now starts
-      *below* the ready-made price and contradicts its own "the shop ones are the same lovely
-      thing for less" line — needs an owner number.
+      share a name.
     - **Pet Bandanas** — a FOURTH category, added 2026-08-05. The Storykeeper Bandana
       (`bandana-storykeeper`, $18, 3 photos) in the same books-and-potion-bottles print as
       The Storykeeper tote. Over-the-collar, **size Large, fits an 18″–23″ neck; small/medium
       made to order.** Ships on the $4.50 small tier (no `tote-` prefix). A sunflower gingham one
       was made 2026-08-04 and **sold before it was ever listed** — don't add it.
-      custom.html offers bandanas as a piece type but **carries no custom price band for them yet.**
+- **CUSTOM price bands (owner-supplied 2026-08-05, live on custom.html in TWO places — the
+  `custom-price-list` and the one-line summary above the form; change both together):**
+  Totes **$50–100** · Bows **$13–20** · Scrunchies **$6–12** · Pet bandanas **$20–25**.
+  ⚠️ **The bow floor is $13 ON PURPOSE, not $12** — it must stay *above* the $12 ready-made bow
+  so the minimum paragraph's promise ("the ready-made ones in the shop are the same lovely thing
+  for less") stays literally true. **If shop bows are ever repriced, move this floor with them.**
+  **"Buy more, save more" is applied BY HAND at quoting time — there is no coded discount**,
+  no promo code, and nothing in the Worker implements it. The bandana copy leans on it
+  deliberately ("so every one of your babies can match"), because a multi-pet household is the
+  natural multi-buy. **Scrunchies are the one band that still ties rather than beats the shop**
+  ($6 custom floor = $6 shop), and the minimum paragraph names scrunchies by name — worth an
+  owner decision if it ever matters; raising the custom floor to $8 would close it.
     (Cozys `cozy-bee`/`cozy-daisy` and Blooms `bloom-cream`/`bloom-pink` were retired from the shop
     2026-07-27 → now in the Stories lookbook PAST_MAKES.)
   Each print/style is its own cart id. (The old homepage `<select>` flow described here is GONE —
