@@ -20,8 +20,6 @@
 */
 
 const PRICES = {
-  "tote-sunflower":      { name: "Sunflower Tote",          amount: 4500 },
-  "tote-mushroom":       { name: "Mushroom Tote",           amount: 2500 },
   "tote-mustard-floral": { name: "Cottage Rose Tote",       amount: 2000 },
   "tote-blue-rose":      { name: "Blue Rose Mini Tote",     amount: 2000 },
   "tote-butterfly":      { name: "Butterfly Tote",          amount: 3800 },
@@ -37,15 +35,13 @@ const PRICES = {
   "scrunchie-strawberry":      { name: "Strawberry Scrunchie",      amount: 600, maxQty: 3 },
   "scrunchie-bundle":          { name: "Scrunchie Bundle (3)",      amount: 1500, maxQty: 3 },
   "scrunchie-byo-bundle":      { name: "Build Your Own Bundle",     amount: 1500, picks: 3 },
-  "bow-sage":         { name: "Sage Bow",         amount: 1000 },
-  "bow-gingham":      { name: "Gingham Bow",      amount: 1000 },
-  "bow-sage-gingham": { name: "Sage Gingham Bow", amount: 1000 },
-  "bow-blue-rose":    { name: "Blue Rose Bow",    amount: 1000 },
-  "bow-cauldron-forged":   { name: "Cauldron Forged Bow",      amount: 1000 },
-  "bow-toffee-plaid":      { name: "Toffee Plaid Bow",         amount: 1000 },
-  "bow-roasted-roses":     { name: "Roasted Roses Bow",        amount: 1000 },
-  "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", amount: 1000 },
-  "bow-blushing-linen":    { name: "Blushing Linen Bow",       amount: 1000 },
+  "bow-gingham":      { name: "Gingham Bow",      amount: 1200 },
+  "bow-sage-gingham": { name: "Sage Gingham Bow", amount: 1200 },
+  "bow-cauldron-forged":   { name: "Cauldron Forged Bow",      amount: 1200 },
+  "bow-toffee-plaid":      { name: "Toffee Plaid Bow",         amount: 1200 },
+  "bow-roasted-roses":     { name: "Roasted Roses Bow",        amount: 1200 },
+  "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", amount: 1200 },
+  "bow-blushing-linen":    { name: "Blushing Linen Bow",       amount: 1200 },
   "bandana-storykeeper":   { name: "The Storykeeper Bandana",  amount: 1800 },
 };
 

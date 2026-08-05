@@ -47,8 +47,6 @@ window.DIT_SHOP = {
 
   PRODUCTS: {
     "tote-storykeeper":   { name: "The Storykeeper",   price: 32.0, art: "📚" },
-    "tote-sunflower":     { name: "Sunflower Tote",     price: 45.0, art: "🌻", soldOut: true },
-    "tote-mushroom":      { name: "Mushroom Tote",      price: 25.0, art: "🍄", soldOut: true },
     "tote-mustard-floral":{ name: "Cottage Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
@@ -63,15 +61,13 @@ window.DIT_SHOP = {
     "scrunchie-strawberry":     { name: "Strawberry Scrunchie",      price: 6.0, art: "🍓", maxQty: 3 },
     "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 15.0, art: "🎀", maxQty: 3 },
     "scrunchie-byo-bundle":     { name: "Build Your Own Bundle",     price: 15.0, art: "🎀", picks: 3 },
-    "bow-sage":         { name: "Sage Bow",         price: 10.0, art: "🎗️", soldOut: true },
-    "bow-gingham":      { name: "Gingham Bow",      price: 10.0, art: "🎀" },
-    "bow-sage-gingham": { name: "Sage Gingham Bow", price: 10.0, art: "🎀" },
-    "bow-blue-rose":    { name: "Blue Rose Bow",    price: 10.0, art: "🎀", soldOut: true },
-    "bow-cauldron-forged":   { name: "Cauldron Forged Bow",     price: 10.0, art: "🖤" },
-    "bow-toffee-plaid":      { name: "Toffee Plaid Bow",        price: 10.0, art: "🎀" },
-    "bow-roasted-roses":     { name: "Roasted Roses Bow",       price: 10.0, art: "🌹" },
-    "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", price: 10.0, art: "☕" },
-    "bow-blushing-linen":    { name: "Blushing Linen Bow",      price: 10.0, art: "🎀" },
+    "bow-gingham":      { name: "Gingham Bow",      price: 12.0, art: "🎀" },
+    "bow-sage-gingham": { name: "Sage Gingham Bow", price: 12.0, art: "🎀" },
+    "bow-cauldron-forged":   { name: "Cauldron Forged Bow",     price: 12.0, art: "🖤" },
+    "bow-toffee-plaid":      { name: "Toffee Plaid Bow",        price: 12.0, art: "🎀" },
+    "bow-roasted-roses":     { name: "Roasted Roses Bow",       price: 12.0, art: "🌹" },
+    "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", price: 12.0, art: "☕" },
+    "bow-blushing-linen":    { name: "Blushing Linen Bow",      price: 12.0, art: "🎀" },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" }
   },
 
@@ -81,18 +77,6 @@ window.DIT_SHOP = {
       blurb: "Shelves of old books and apothecary bottles stacked to the ceiling, printed deep on black — the library you'd happily get lost in. Lined in black, with a long strap that sits at the hip and an outside pocket for whatever you need first.",
       details: "15″ × 12″ · 18″ strap drop · outside pocket · fully lined · spot clean. Sewn and ready to ship.",
       images: ["assets/tote-storykeeper.jpg", "assets/tote-storykeeper-2.jpg", "assets/tote-storykeeper-3.jpg"]
-    },
-    "tote-sunflower": {
-      alt: "Handmade puffy woven tote in a sunflower, honeycomb, and bee print",
-      blurb: "Our puffy woven tote — hand-cut squares of sunflowers, honeycomb, and tiny bees, quilted into pillowy softness. A true statement piece that hugs whatever you carry.",
-      details: "12″ × 12″ · 20″ strap drop · puffy hand-woven panels · roomy slouch shape · spot clean, reshape by hand. Sewn and ready to ship.",
-      images: ["assets/tote-sunflower.jpg", "assets/tote-sunflower-detail.jpg"]
-    },
-    "tote-mushroom": {
-      alt: "Handmade tote in an olive-green woodland mushroom print",
-      blurb: "Little red-capped mushrooms scattered across olive-green cotton — a walk through the forest floor, tucked under your arm. Made for foragers, readers, and cottage dreamers.",
-      details: "15″ × 14″ · 12″ strap drop · front pocket 7″ × 6″ · spot clean. Sewn and ready to ship.",
-      images: ["assets/tote-mushroom.jpg"]
     },
     "tote-mustard-floral": {
       alt: "Handmade tote in a golden mustard vintage rose floral print",
@@ -178,64 +162,52 @@ window.DIT_SHOP = {
       details: "Choose your 3 prints below · one size each · hand wash, lay flat to dry.",
       images: ["assets/scrunchie-bundle.jpg"]
     },
-    "bow-sage": {
-      alt: "Handmade sage-green floral sailor bow",
-      blurb: "A little extra magic, tucked right where you'll notice it. Hand-tied from cotton with finished edges and your choice of clip, elastic, or O-ring — proof that a small detail can still make a day feel special.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
-      images: ["assets/bow-sage.jpg"]
-    },
     "bow-gingham": {
       alt: "Handmade taupe gingham sailor bow",
       blurb: "Soft taupe gingham, hand-tied into a sweet sailor bow — a cozy little check that pairs with everything from sundresses to storybooks.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-gingham.jpg?v=2"]
     },
     "bow-sage-gingham": {
       alt: "Handmade sage-green gingham sailor bow scattered with tiny roses",
       blurb: "Sage-green gingham strewn with the tiniest pink roses — a garden picnic of a bow, hand-tied with finished edges.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-sage-gingham.jpg?v=2"]
-    },
-    "bow-blue-rose": {
-      alt: "Handmade powder-blue sailor bow with pink cottage roses",
-      blurb: "Powder-blue cotton dotted with soft pink roses — a dreamy, storybook bow hand-tied with finished edges.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
-      images: ["assets/bow-blue-rose.jpg"]
     },
     "bow-cauldron-forged": {
       alt: "Handmade midnight-navy sailor bow with a fine bronze crackle-web texture",
       blurb: "Midnight navy shot through with a fine bronze web — like something cooled in the dark and lifted out still glinting. The moodiest bow in the shop, and the one that finally goes with black.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-cauldron-forged.jpg"]
     },
     "bow-toffee-plaid": {
       alt: "Handmade brown toffee plaid sailor bow",
       blurb: "Deep toffee plaid, hand-tied into a sailor bow — the colour of a cup left to steep too long and an armchair by the window. Finished edges, and it suits every coat you own.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-toffee-plaid.jpg"]
     },
     "bow-roasted-roses": {
       alt: "Handmade olive sailor bow printed with cream roses and cups of coffee",
       blurb: "Cream roses and little cups of coffee scattered across deep olive — a slow morning, tied into a bow. Hand-tied with finished edges.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-roasted-roses.jpg"]
     },
     "bow-daily-grind-ivory": {
       alt: "Handmade ivory sailor bow printed with vintage coffee-shop lettering",
       blurb: "Old sign-painter lettering on soft ivory — moka pots, grinders, and a hundred small reasons to take a coffee break. For the ones who read best with a cup in hand.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-daily-grind-ivory.jpg"]
     },
     "bow-blushing-linen": {
       alt: "Handmade blush-pink sailor bow in a soft linen-textured cotton",
       blurb: "The softest blush, woven with the slubby texture of well-loved linen — a quiet bow that doesn't compete with anything you put it near. Hand-tied with finished edges.",
-      details: "6″ long × 7″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-blushing-linen.jpg"]
     },
     "bandana-storykeeper": {
       alt: "Handmade pet bandana printed with antique books and potion bottles, shown flat and worn by a black dog",
       blurb: "The Storykeeper print, cut down for the smallest reader in the house — shelves of antique books and potion bottles on deep black. It slips over the collar they already wear, so there's nothing to tie and nothing to lose. Matches the tote of the same name. This one is a Large; small and medium can be made to order, so just ask.",
-      details: "Size Large · small and medium available on request · slips over the collar · machine wash cold, hang to dry.",
+      details: "Size Large · fits an 18″–23″ neck · small and medium available on request · slips over the collar · machine wash cold, hang to dry.",
       images: [
         "assets/bandana-storykeeper.jpg",
         "assets/bandana-storykeeper-2.jpg",
@@ -248,8 +220,6 @@ window.DIT_SHOP = {
      Each opens that single item's hosted checkout ($6.50 shipping, US
      address, NEST10 + auto tax). An id missing here reads "Coming soon". */
   LINKS: {
-    "tote-sunflower":      "https://buy.stripe.com/28E28rbhEfDb9xoetHfjG05",
-    "tote-mushroom":       "https://buy.stripe.com/5kQcN53PcgHf5h8clzfjG06",
     "tote-mustard-floral": "https://buy.stripe.com/00w3cvetQ1MlbFw99nfjG07",
     "tote-blue-rose":      "https://buy.stripe.com/aFa5kD99w9eN9xo4T7fjG08",
     "tote-butterfly":      "https://buy.stripe.com/dRmeVd5XkgHfcJA2KZfjG09",
@@ -267,10 +237,8 @@ window.DIT_SHOP = {
     "scrunchie-strawberry":     "https://buy.stripe.com/dRmdR9clIez724WbhvfjG0m",
     "scrunchie-bundle":         "https://buy.stripe.com/00waEX1H48aJfVM1GVfjG04",
     "scrunchie-byo-bundle":     "https://buy.stripe.com/aFaeVd0D00Ih9xo71ffjG0r",
-    "bow-sage":         "https://buy.stripe.com/dRmdR985scqZ7pgclzfjG0b",
     "bow-gingham":      "https://buy.stripe.com/dRmaEX4Tgez7dNEetHfjG0c",
     "bow-sage-gingham": "https://buy.stripe.com/cNi7sL3Pc1MldNEbhvfjG0d",
-    "bow-blue-rose":    "https://buy.stripe.com/eVqaEX0D0fDbdNE4T7fjG0e",
     "bow-cauldron-forged":   "cart",
     "bow-toffee-plaid":      "cart",
     "bow-roasted-roses":     "cart",
@@ -292,14 +260,14 @@ window.DIT_SHOP = {
   /* Order + grouping shown on the full catalog page (shop.html). */
   CATALOG: [
     { label: "Totes",      note: "Roomy, ready to ship, and built to carry a hardback and everything else.",
-      ids: ["tote-storykeeper", "tote-strawberry-v2", "tote-sunflower", "tote-mushroom", "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
+      ids: ["tote-storykeeper", "tote-strawberry-v2",   "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
     { label: "Scrunchies", note: "Soft, springy, gentle on hair — pick a print, or build your own trio.",
       ids: ["scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry", "scrunchie-orange-kitty",
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower", "scrunchie-strawberry",
             "scrunchie-bundle", "scrunchie-byo-bundle"] },
     { label: "Bows",       note: "Hand-tied sailor bows with finished edges, in storybook prints.",
       ids: ["bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
-            "bow-gingham", "bow-sage-gingham", "bow-sage", "bow-blue-rose"] },
+            "bow-gingham", "bow-sage-gingham"  ] },
     { label: "Pet Bandanas", note: "Over-the-collar bandanas in the same storybook prints — for the one who waits by the door.",
       ids: ["bandana-storykeeper"] }
   ]

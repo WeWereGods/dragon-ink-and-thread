@@ -279,7 +279,15 @@
     { img: "assets/cozy-bee.jpg", art: "🐝", title: "Blue Bee Cozy",
       story: "A snug, fleece-lined sleeve for slim cans — dusty-blue cotton dotted with bees and dandelions, made to keep drinks cold and hands comfy. A cozy little make, now part of our story. 🐝" },
     { img: "assets/cozy-daisy.jpg", art: "🌼", title: "Daisy Cozy",
-      story: "A padded wrap for tumblers and cups in cheerful buttercream daisies — grippy, insulating, and impossibly sweet. Retired to the Nest's history. 🌼" }
+      story: "A padded wrap for tumblers and cups in cheerful buttercream daisies — grippy, insulating, and impossibly sweet. Retired to the Nest's history. 🌼" },
+    { img: "assets/tote-sunflower.jpg", art: "🌻", title: "Sunflower Tote",
+      story: "The puffy woven one — squares of sunflowers, honeycomb and tiny bees cut by hand and quilted into something pillowy enough to hug whatever you put in it. The most involved make in the shop, and it found its home. 🌻" },
+    { img: "assets/tote-mushroom.jpg", art: "🍄", title: "Mushroom Tote",
+      story: "Little red-capped mushrooms scattered across olive-green cotton — a walk along the forest floor, tucked under one arm. Made for foragers, readers and cottage dreamers, and claimed by one of them. 🍄" },
+    { img: "assets/bow-sage.jpg", art: "🎗️", title: "Sage Bow",
+      story: "Sage-green florals hand-tied into a sailor bow — the small detail that makes an ordinary day feel deliberate. This print has retired now. 🎗️" },
+    { img: "assets/bow-blue-rose.jpg", art: "🎀", title: "Blue Rose Bow",
+      story: "Powder-blue cotton dotted with soft pink roses, hand-tied with finished edges — a storybook of a bow, and gone to someone who'll wear it like one. 🎀" }
   ];
 
   var storiesGrid = document.getElementById("stories-grid");

@@ -166,7 +166,14 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
     **and** `PICKABLE`. `maxQty` stays 1 on the bundle: one cart line = one set of picks.
   - **One-of-a-kind:** set **`soldOut: true`** on a
     PRODUCTS entry in js/shop-data.js → dimmed card + "Sold" badge + disabled "Sold out"; cart
-    refuses it. **Currently soldOut: Sunflower Tote, Mushroom Tote, Sage Bow, Blue Rose Bow.**
+    refuses it. **Nothing is currently soldOut** — as of 2026-08-05 the owner's preference is to
+    **retire a sold piece to Stories rather than leave it on the shelf greyed out**, so
+    Sunflower Tote, Mushroom Tote, Sage Bow and Blue Rose Bow were removed from shop-data,
+    the Worker and their product pages, and added to `PAST_MAKES`.
+    ⚠️ **This retires the sold-out waitlist with them** — `js/waitlist.js` only ever runs on a
+    sold-out card or product page, so with nothing sold-out it never appears. The code is intact
+    and returns the moment any item carries `soldOut: true`. Raised with the owner; it was their
+    call. Retiring also **deletes that piece's product page**, so its URL starts 404ing.
   - **Sold-out waitlist (2026-08-02) — lives in `js/waitlist.js`.** A sold-out listing is a DEAD
     END, and in a one-of-a-kind shop every listing eventually becomes one. Anything carrying
     `data-waitlist="<id>" data-waitlist-name="<name>"` opens it: **shop.html catalog cards**
@@ -257,18 +264,20 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       the flat shipping fee look absurd on a single scrunchie (62% of the order). Changed in
       js/shop-data.js, `PRICES` in worker/checkout-worker.js, and the scrunchie `AggregateOffer`
       JSON-LD in index.html.
-    - **Bows** $10 each — **9 of them since 2026-08-05.** Cauldron Forged (`bow-cauldron-forged`,
-      midnight navy + bronze crackle, leads the row), Toffee Plaid (`bow-toffee-plaid`),
-      Roasted Roses (`bow-roasted-roses`), Daily Grind in Ivory (`bow-daily-grind-ivory`),
-      Blushing Linen (`bow-blushing-linen`), Gingham (`bow-gingham`, taupe),
-      Sage Gingham (`bow-sage-gingham`), then the two sold-out ones last —
-      Sage (`bow-sage`), Blue Rose (`bow-blue-rose`). Bow names come from the **fabric library**
-      (js/fabrics-data.js), so a bow and its swatch share a name.
+    - **Bows** — **$12 each since 2026-08-05** (was $10), and **6″ × 6″** (the details line said
+      6″ × 7″ for weeks; corrected by the owner). **7 of them:** Cauldron Forged
+      (`bow-cauldron-forged`, midnight navy + bronze crackle, leads the row), Toffee Plaid,
+      Roasted Roses, Daily Grind in Ivory, Blushing Linen, Gingham (taupe), Sage Gingham.
+      Bow names come from the **fabric library** (js/fabrics-data.js), so a bow and its swatch
+      share a name. ⚠️ **custom.html still quotes custom bows at "$10 to $15"**, which now starts
+      *below* the ready-made price and contradicts its own "the shop ones are the same lovely
+      thing for less" line — needs an owner number.
     - **Pet Bandanas** — a FOURTH category, added 2026-08-05. The Storykeeper Bandana
       (`bandana-storykeeper`, $18, 3 photos) in the same books-and-potion-bottles print as
-      The Storykeeper tote. Over-the-collar, **size Large; small/medium made to order.**
-      Ships on the $4.50 small tier (no `tote-` prefix). A sunflower gingham one was made
-      2026-08-04 and **sold before it was ever listed** — don't add it.
+      The Storykeeper tote. Over-the-collar, **size Large, fits an 18″–23″ neck; small/medium
+      made to order.** Ships on the $4.50 small tier (no `tote-` prefix). A sunflower gingham one
+      was made 2026-08-04 and **sold before it was ever listed** — don't add it.
+      custom.html offers bandanas as a piece type but **carries no custom price band for them yet.**
     (Cozys `cozy-bee`/`cozy-daisy` and Blooms `bloom-cream`/`bloom-pink` were retired from the shop
     2026-07-27 → now in the Stories lookbook PAST_MAKES.)
   Each print/style is its own cart id. (The old homepage `<select>` flow described here is GONE —
