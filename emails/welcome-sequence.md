@@ -9,7 +9,7 @@ unhurried, book-lover warmth. First person — these come from Ayla, not from a 
 | Email | Sent | Notes |
 |---|---|---|
 | 1 — Welcome | ✅ **2026-08-02** | Whole list. Carries NEST15. |
-| 2 — The story | ☐ due ~**2026-08-05** | ~3 days after Email 1 |
+| 2 — The story | ✅ **2026-08-05** | ~3 days after Email 1 |
 | 3 — What I make | ☐ due ~**2026-08-09** | ~7 days after Email 1 |
 
 ---

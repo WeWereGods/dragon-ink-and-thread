@@ -244,7 +244,7 @@ no expiry. (`NEST10` is fine in *social posts*, which are read the day they're p
 | Email | Sent | Notes |
 |---|---|---|
 | 1 — Welcome 🪺 | ✅ **2026-08-02** | Whole list. Carries NEST15. |
-| 2 — How the Nest really began | ☐ **~Aug 5** | The story email. Evergreen, no changes needed. |
+| 2 — How the Nest really began | ✅ **2026-08-05** | The story email. Evergreen, no changes needed. |
 | 3 — A proper look inside the Nest | ☐ **~Aug 9** | Check the shop first — it describes what's in it. |
 
 Live status table lives at the top of `emails/welcome-sequence.md`. Update it after each send.
