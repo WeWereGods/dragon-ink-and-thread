@@ -45,6 +45,12 @@ leaves my table.
 lining and how much fabric it takes. Matching sets are quoted together and usually come out
 kinder than the pieces separately. Custom orders start at $25.
 
+**And if it isn't a tote, a bow or a scrunchie —** ask anyway. I've made a padded Kindle case
+for travelling, a tote that hangs from a wheelchair, and a patchwork pouch, none of which were
+ever things you could buy from the shop. Anything sewn from fabric is worth asking about; I
+quote those on their own, because the price depends so much on the piece. The worst I'll say
+is that it isn't my craft.
+
 **How long it takes:** most pieces take 10–14 days to make, counted from the day you accept
 the quote — **plus** shipping time on top. Everything is sewn by one person around a small
 child, so work is booked in the order it arrives. If I can't hit a date you need, I'll tell
@@ -99,6 +105,9 @@ Long emails don't work in a DM. Use this, then send the full email if they bite.
 
 > Yes! Custom is your print, your size — totes usually $50–100, bows and scrunchies less,
 > $25 minimum. Takes 10–14 days once we've agreed the details, plus shipping.
+>
+> And it doesn't have to be a tote — I've made Kindle cases, pouches, a wheelchair tote. If
+> it's sewn from fabric, ask.
 >
 > Easiest thing is to tell me roughly what you're picturing and I'll come back with a price
 > — no commitment until you've seen it. There's a library of 53 prints on the site to browse
