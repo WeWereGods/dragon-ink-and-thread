@@ -96,6 +96,27 @@ window.DIT_FABRICS = {
         { file: "fabric-08.jpg", name: "Sage Windowpane" },
         { file: "fabric-19.jpg", name: "Peach Windowpane" }
       ]
+    },
+    {
+      label: "Unsorted — name these",
+      note: "Just imported — give these their names.",
+      items: [
+        { file: "fabric-54.jpg", name: "Once Upon a Woodland" },
+        { file: "fabric-55.jpg", name: "Blush and Whiskers" },
+        { file: "fabric-56.jpg", name: "Postcards and Pumpkins" },
+        { file: "fabric-57.jpg", name: "Tea with the Suriel" },
+        { file: "fabric-58.jpg", name: "Something Blue" },
+        { file: "fabric-59.jpg", name: "Sidra Vines" },
+        { file: "fabric-60.jpg", name: "Afternoon Tea" },
+        { file: "fabric-61.jpg", name: "Lace of Velaris" },
+        { file: "fabric-62.jpg", name: "Suriels Bouquet" },
+        { file: "fabric-63.jpg", name: "Bouncing Beginnings" },
+        { file: "fabric-64.jpg", name: "Thistles and Tails" },
+        { file: "fabric-65.jpg", name: "Twilight Owls" },
+        { file: "fabric-66.jpg", name: "Amber Wildflowers" },
+        { file: "fabric-67.jpg", name: "Pumpkin Patch Picnic" },
+        { file: "fabric-68.jpg", name: "Postmarked Sunshine" }
+      ]
     }
   ]
 };
