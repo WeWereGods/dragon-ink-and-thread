@@ -418,6 +418,30 @@ panel launches it via `.claude/launch.json` (config name `site`).
 - **Back-fill old subscribers into Buttondown** — anyone who joined before 2026-07-10 exists
   *only* as a Web3Forms notification in the Gmail inbox (free tier drops submissions after 30
   days). Export them from Gmail and import to Buttondown, or they never get the launch code.
+- **ABANDONED-CART RECOVERY — researched 2026-08-06, DEFERRED by the owner ("not now but keep on
+  agenda"). Don't build it unasked; don't re-research it either.** Two carts abandoned on
+  2026-08-05 (Cauldron Forged Bow $12; Daily Grind in Ivory $16.56 with NEST10 already applied),
+  which is what prompted this.
+  - ⚠️ **Stripe does NOT send recovery emails for you.** It fires `checkout.session.expired` with
+    `after_expiration.recovery.url` (a link that rebuilds the exact cart, valid 30 days) and you
+    send the mail yourself. Easy thing to get wrong when scoping it.
+  - ⚠️ **You only learn who they are if they entered an email AND ticked the consent box** before
+    leaving. Needs `consent_collection[promotions]='auto'`. Both 2026-08-05 carts had
+    `customer_details: null` — they left before typing anything, so recovery would NOT have
+    reached either of them. Temper expectations about what this recovers.
+  - Build: add `after_expiration[recovery][enabled]` (+ optional `allow_promotion_code`) and
+    `consent_collection` to the session in worker/checkout-worker.js; handle
+    `checkout.session.expired` on the **existing `/webhook` route** (it already verifies the Stripe
+    signature for `checkout.session.completed` → Pushover); push the item, their email and the
+    recovery URL to Pushover; **owner sends the email by hand from Gmail**, matching how
+    emails/order-updates.md already works. No new service, no monthly cost, no Buttondown
+    automation (paywalled). Then: add `checkout.session.expired` to the endpoint's events in the
+    Stripe Dashboard, and `wrangler deploy`.
+  - Also needed: **privacy.html must disclose** collecting emails from people who don't complete a
+    purchase and that you may email them — Stripe's terms require it and the policy is silent today.
+  - Optional: sessions expire after **24h** by default (min 30 min). Shortening to ~3h means the
+    alert arrives while intent is still warm; the shopper's own cart lives in localStorage
+    regardless, so they lose nothing but the Stripe tab.
 - **Post-Purchase note** packaging insert — drafted copy the owner referenced, not yet in repo.
 - Policies are plain-language, **not attorney-reviewed** — worth a Termly/TermsFeed pass before
   taking real payments.
