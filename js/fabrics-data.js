@@ -104,8 +104,7 @@ window.DIT_FABRICS = {
       items: [
         { file: "fabric-63.jpg", name: "Bouncing Beginnings" },
         { file: "fabric-64.jpg", name: "Thistles and Tails" },
-        { file: "fabric-65.jpg", name: "Twilight Owls" },
-        { file: "fabric-66.jpg", name: "Amber Wildflowers" }
+        { file: "fabric-65.jpg", name: "Twilight Owls" }
       ]
     },
     {
@@ -124,7 +123,8 @@ window.DIT_FABRICS = {
       note: "Autumn by post — sunflowers, pumpkins, and the last warm afternoons.",
       items: [
         { file: "fabric-67.jpg", name: "Pumpkin Patch Picnic" },
-        { file: "fabric-68.jpg", name: "Postmarked Sunshine" }
+        { file: "fabric-68.jpg", name: "Postmarked Sunshine" },
+        { file: "fabric-66.jpg", name: "Amber Wildflowers" }
       ]
     }
   ]

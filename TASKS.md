@@ -53,8 +53,8 @@ Two rules that keep this useful:
       If Pages recovers and it still hasn't gone out, push again.
 - [x] **The four new fabric collections are in — 53 → 65 prints** (imported 2026-08-06 with
       `node tools/import-fabrics.js`). Each collection is its own group on fabrics.html, so the
-      filter buttons match how the fabric is bought: **Once Upon a Woodland** 4, **Tea with the
-      Suriel** 5, **Postcards and Pumpkins** 2. **Blush and Whiskers** is a single print, filed
+      filter buttons match how the fabric is bought: **Once Upon a Woodland** 3, **Tea with the
+      Suriel** 5, **Postcards and Pumpkins** 3. **Blush and Whiskers** is a single print, filed
       under Creatures & Curiosities.
 - [ ] **Merge the fabric branch to `main`** — it's all on `claude/email-3-draft-7qis82` and
       the site deploys from `main`, so none of the 12 new prints are public yet.
