@@ -51,12 +51,12 @@ Two rules that keep this useful:
       away banner, the second-trip removal. Nothing is broken live; the last good build is
       serving. **Must be published before Fri Aug 14** for the away banner to appear.
       If Pages recovers and it still hasn't gone out, push again.
-- [ ] **Fabric on the way — 4 collections, 12 prints total** (noted 2026-08-06, no arrival date
+- [ ] **Fabric on the way — 4 collections, 13 prints total** (noted 2026-08-06, no arrival date
       given yet). **Not on the site until they're physically on the shelf** — `js/fabrics-data.js`
       is a promise about what someone can actually choose today.
       - **Blush and Whiskers** — a single fabric, not a collection
       - **Once Upon a Woodland** — 4
-      - **Tea with the Suriel** — 4
+      - **Tea with the Suriel** — 5
       - **Postcards and Pumpkins** — 3
 
       Only the collection names are known; the individual print names aren't, and the library
@@ -68,7 +68,7 @@ Two rules that keep this useful:
       Botanicals, Creatures & Curiosities, Blenders & Textures — Postcards and Pumpkins is
       seasonal and fits none of them cleanly. A group is just one more `{ label, note, items }`;
       the filter button and its count generate themselves.
-      ⚠️ **"53" is hand-typed in two places** and becomes **65**: `emails/custom-orders-enquiry.md`
+      ⚠️ **"53" is hand-typed in two places** and becomes **66**: `emails/custom-orders-enquiry.md`
       (Email 1 and the DM reply) and `CLAUDE.md`. Everything in `fabrics.html` — meta
       descriptions, the intro line, every filter count — is generated from the data, so the
       generator handles it.
