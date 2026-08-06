@@ -51,7 +51,7 @@ A hash changes exactly when the file changes and never when it doesn't. The two 
 generators call `hashOf()` themselves, so generated pages come out already correct.
 
 ## ⚠️ Fabric library is GENERATED — `node tools/build-fabrics.js`
-`fabrics.html` (53 fabrics for custom orders) is written from **js/fabrics-data.js**.
+`fabrics.html` (65 fabrics for custom orders) is written from **js/fabrics-data.js**.
 Add/remove a fabric there, then re-run. **js/fabrics.js** only adds the group filters and the
 tap-to-enlarge view; the swatches and names are static in the HTML.
 - Photos: `assets/fabrics/` at 640px long edge, q78 (~81 KB each). The raw phone originals in

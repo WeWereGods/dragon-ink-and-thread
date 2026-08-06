@@ -77,6 +77,7 @@ window.DIT_FABRICS = {
         { file: "fabric-33.jpg", name: "Little Goose Gingham" },
         { file: "fabric-30.jpg", name: "Gingham Teddy Bears" },
         { file: "fabric-25.jpg", name: "Nesta's Cats" },
+        { file: "fabric-55.jpg", name: "Blush and Whiskers" },
         { file: "fabric-49.jpg", name: "Mushrooms and Whimsy" },
         { file: "fabric-04.jpg", name: "Sealed in Wax" },
         { file: "fabric-46.jpg", name: "Sprite's Breath" },
@@ -98,22 +99,30 @@ window.DIT_FABRICS = {
       ]
     },
     {
-      label: "Unsorted — name these",
-      note: "Just imported — give these their names.",
+      label: "Once Upon a Woodland",
+      note: "Storybook creatures and the woods they live in — soft, faded, and half-remembered.",
       items: [
-        { file: "fabric-54.jpg", name: "Once Upon a Woodland" },
-        { file: "fabric-55.jpg", name: "Blush and Whiskers" },
-        { file: "fabric-56.jpg", name: "Postcards and Pumpkins" },
-        { file: "fabric-57.jpg", name: "Tea with the Suriel" },
+        { file: "fabric-63.jpg", name: "Bouncing Beginnings" },
+        { file: "fabric-64.jpg", name: "Thistles and Tails" },
+        { file: "fabric-65.jpg", name: "Twilight Owls" },
+        { file: "fabric-66.jpg", name: "Amber Wildflowers" }
+      ]
+    },
+    {
+      label: "Tea with the Suriel",
+      note: "Blue and white, florals and lace — the prettiest table in the house.",
+      items: [
         { file: "fabric-58.jpg", name: "Something Blue" },
         { file: "fabric-59.jpg", name: "Sidra Vines" },
         { file: "fabric-60.jpg", name: "Afternoon Tea" },
         { file: "fabric-61.jpg", name: "Lace of Velaris" },
-        { file: "fabric-62.jpg", name: "Suriels Bouquet" },
-        { file: "fabric-63.jpg", name: "Bouncing Beginnings" },
-        { file: "fabric-64.jpg", name: "Thistles and Tails" },
-        { file: "fabric-65.jpg", name: "Twilight Owls" },
-        { file: "fabric-66.jpg", name: "Amber Wildflowers" },
+        { file: "fabric-62.jpg", name: "Suriels Bouquet" }
+      ]
+    },
+    {
+      label: "Postcards and Pumpkins",
+      note: "Autumn by post — sunflowers, pumpkins, and the last warm afternoons.",
+      items: [
         { file: "fabric-67.jpg", name: "Pumpkin Patch Picnic" },
         { file: "fabric-68.jpg", name: "Postmarked Sunshine" }
       ]

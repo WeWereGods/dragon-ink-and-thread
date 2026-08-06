@@ -78,6 +78,18 @@ worker/.wrangler/
 # assets/fabrics/ — see js/fabrics-data.js. Never commit the originals.
 assets/Catalog/
 
+# More phone exports and working files that collected in assets/. These were
+# swept into a commit by `git add -A` once — 51 MB of photos nothing links to.
+# Matched by shape (the 8-4-4-4-12 name a phone gives an export) rather than by
+# extension, so a legitimate new .png here is still picked up normally.
+assets/????????-????-????-????-????????????.PNG
+assets/Cauldron Forged bow.PNG
+assets/strawberry tote 1.PNG
+assets/Screenshot *.png
+assets/ChatGPT Image *.png
+assets/QR code.png
+assets/image-*.webp
+
 # Staging folder for tools/import-fabrics.js — you drop raw photos here and it
 # writes the processed copies into assets/fabrics/. The originals stay behind
 # and must not be committed, same as assets/Catalog/. Both spellings, because
