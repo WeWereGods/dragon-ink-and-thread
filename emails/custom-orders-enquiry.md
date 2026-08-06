@@ -41,11 +41,13 @@ to walk away at any point up to it. Only once it's paid do I start cutting.
 **4. I sew it, and send you a photo before it ships** — so you see it finished before it
 leaves my table.
 
-**What it usually costs:** totes $50–100, bows $10–15, scrunchies $6–12, depending on size,
-lining and how much fabric it takes. Matching sets are quoted together and usually come out
-kinder than the pieces separately. Custom orders start at $25.
+**What it usually costs:** totes $50–100, bows $13–20, scrunchies $6–12, pet bandanas $20–25,
+depending on size, lining and how much fabric it takes. Matching sets are quoted together and
+usually come out kinder than the pieces separately — and with bandanas, the more of them there
+are, the better the price gets, so every one of your babies can match. Custom orders start
+at $25.
 
-**And if it isn't a tote, a bow or a scrunchie —** ask anyway. I've made a padded Kindle case
+**And if it isn't a tote, a bow, a scrunchie or a bandana —** ask anyway. I've made a padded Kindle case
 for travelling, a tote that hangs from a wheelchair, and a patchwork pouch, none of which were
 ever things you could buy from the shop. Anything sewn from fabric is worth asking about; I
 quote those on their own, because the price depends so much on the piece. The worst I'll say
@@ -103,8 +105,8 @@ this email with something to do.
 
 Long emails don't work in a DM. Use this, then send the full email if they bite.
 
-> Yes! Custom is your print, your size — totes usually $50–100, bows and scrunchies less,
-> $25 minimum. Takes 10–14 days once we've agreed the details, plus shipping.
+> Yes! Custom is your print, your size — totes usually $50–100, pet bandanas $20–25, bows and
+> scrunchies less, $25 minimum. Takes 10–14 days once we've agreed the details, plus shipping.
 >
 > And it doesn't have to be a tote — I've made Kindle cases, pouches, a wheelchair tote. If
 > it's sewn from fabric, ask.
