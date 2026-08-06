@@ -385,6 +385,12 @@ panel launches it via `.claude/launch.json` (config name `site`).
   stats at Cloudflare dashboard → Web Analytics. Works without moving DNS to Cloudflare.
 - **Social share card** = `assets/og-image.jpg` (1200×630); OG/Twitter meta live in index.html `<head>`.
 
+## ⚠️ The live task list is `TASKS.md` — read it at the start of a session
+Created 2026-08-06 because the outstanding work only existed in conversation, so the owner had
+to ask what was on it. **Customer-owed work sits at the top**; dates are absolute, never
+relative. Update it as things land rather than letting it rot — a stale task list is worse than
+none. The section below is longer-lived engineering context; **TASKS.md is what's actually due.**
+
 ## Open TODOs / nice-to-haves
 - **Founder photo** → `assets/about.jpg` is now live in the About/Our Story section, but it's a
   casual phone selfie used as a stand-in. Swap for a stronger shot (ideally the maker with her
