@@ -200,7 +200,7 @@
   ]
   </script>
 
-  <link rel="stylesheet" href="css/styles.css?v=5a4d7569" />
+  <link rel="stylesheet" href="css/styles.css?v=a70ab297" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -248,6 +248,11 @@
       <span class="countdown-label"><img class="ico-sparkle" src="assets/sparkle.png" alt="" aria-hidden="true" decoding="async" /> Shop open now · <span class="js-pre-open"><a href="custom.html">Custom orders open <span data-open-date>Monday, August 17</span></a></span><span class="js-post-open" hidden><a href="custom.html">Custom orders are open</a></span></span>
       <span class="countdown-clock" id="countdownClock" aria-hidden="true"></span>
       <a class="countdown-cta" href="#home"><span class="js-offer-on">Join the Nest — 10% off until <span data-offer-date="short">August 17</span> →</span><span class="js-offer-off" hidden>Join the Nest — 15% off orders over $25 →</span></a>
+    </div>
+    <!-- AWAY BANNER — shown ONLY while js/dates.js says a trip is running.
+         Self-expiring: nothing to remember, nothing to delete. -->
+    <div class="away-bar js-away" hidden role="status">
+      <span>The shop is open and you can order as normal &mdash; I'm away from the machine until <strong data-away-back>I'm back</strong>, so anything ordered now posts (or is ready to collect) that day.</span>
     </div>
 
     <!-- Hero — leads the page: brand moment + Join the Nest -->
@@ -522,7 +527,7 @@
     </div>
   </footer>
 
-  <script src="js/dates.js?v=163bd93f"></script>
+  <script src="js/dates.js?v=d45ea8ab"></script>
   <script src="js/main.js?v=89d125f0"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->

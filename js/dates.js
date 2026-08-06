@@ -56,8 +56,48 @@
   var OFFER_ENDS = "2026-08-17T23:59:59-05:00";
   var offerTs = new Date(OFFER_ENDS).getTime();
 
+  /* AWAY WINDOWS — dates the owner is travelling and cannot post orders or
+     hand over local pickups. Added 2026-08-06.
+
+     THE POINT OF DOING IT HERE: the first version of this was a hand-written
+     paragraph on custom.html with a comment saying "delete this on Aug 25".
+     That is a landmine — it only stays true if someone remembers. These
+     windows switch themselves on and off, so an away notice cannot outlive
+     the trip that caused it.
+
+     `back` is written out rather than derived, because the useful phrasing is
+     the day she is next AT THE MACHINE, which is not always the day she lands.
+
+     ⚠️ worker/checkout-worker.js keeps its OWN copy of these windows, to
+     relabel the local-pickup option at checkout. Change both together, then
+     `wrangler deploy` — the Worker is what a customer actually sees when
+     choosing pickup. */
+  var AWAY = [
+    { from: "2026-08-14T00:00:00-05:00", to: "2026-08-16T23:59:59-05:00", back: "Monday, August 17" },
+    { from: "2026-08-21T00:00:00-05:00", to: "2026-08-24T23:59:59-05:00", back: "Tuesday, August 25" }
+  ];
+  var awayWindows = AWAY.map(function (w) {
+    return { from: new Date(w.from).getTime(), to: new Date(w.to).getTime(), back: w.back };
+  });
+
   function isOpen() { return Date.now() >= ts; }
   function offerLive() { return Date.now() <= offerTs; }
+
+  /* The window we are inside right now, or null. */
+  function awayNow() {
+    var n = Date.now();
+    for (var i = 0; i < awayWindows.length; i++) {
+      if (n >= awayWindows[i].from && n <= awayWindows[i].to) return awayWindows[i];
+    }
+    return null;
+  }
+  /* True while ANY window is still to come or running — this drives the
+     advance notice on custom.html, so people asking for custom work know
+     before they ask. Goes false by itself once the last trip ends. */
+  function awayPending() {
+    var n = Date.now();
+    return awayWindows.some(function (w) { return n <= w.to; });
+  }
 
   /* Derived, never typed, so the words can't disagree with the date above.
        label()        -> "Saturday, August 15"  (banners, where it's the headline)
@@ -93,6 +133,19 @@
     document.querySelectorAll("[data-open-date]").forEach(function (el) {
       el.textContent = label(el.getAttribute("data-open-date"));
     });
+
+    // Away windows. .js-away shows ONLY while travelling; .js-away-notice is
+    // the advance warning and shows until the last trip is over. Both are
+    // written hidden in the HTML, so a no-JS visitor simply never sees them —
+    // they add information, they never remove any.
+    var now = awayNow();
+    document.querySelectorAll(".js-away").forEach(function (el) { el.hidden = !now; });
+    document.querySelectorAll(".js-away-notice").forEach(function (el) { el.hidden = !awayPending(); });
+    if (now) {
+      document.querySelectorAll("[data-away-back]").forEach(function (el) {
+        el.textContent = now.back;
+      });
+    }
   }
 
   window.DIT_DATES = {
@@ -104,6 +157,9 @@
     offerTs: offerTs,
     offerLive: offerLive,
     offerLabel: offerLabel,
+    AWAY: AWAY,
+    awayNow: awayNow,
+    awayPending: awayPending,
     apply: apply
   };
 

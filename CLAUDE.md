@@ -257,8 +257,24 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       Aug 17: all four pre-open phrases flip to "Custom orders are open" with no deploy.
     - Static fallbacks (for no-JS) and **terms.html** do NOT auto-update — terms.html hard-codes
       the date with no span. Both were hand-updated; check them if the date ever moves again.
-    - **custom.html carries an away notice for Aug 21–24 that has NO auto-expiry.**
-      ⚠️ **Delete that `<p class="custom-away">` on Aug 25** or it will sit there lying.
+- **AWAY WINDOWS — `AWAY` in js/dates.js (added 2026-08-06).** The owner travels
+  **Aug 14–16** and **Aug 21–24**. Two things key off it, and **both switch themselves off**:
+  - **`.js-away`** — a honey banner under the countdown bar on index/shop/custom, shown ONLY
+    while a trip is running. `[data-away-back]` is filled with that window's return date, so
+    the two trips say different things without duplicated markup.
+  - **`.js-away-notice`** — the advance warning inside custom.html's "how it works" steps.
+    Visible from now until the LAST window closes, then gone for good.
+  - The first version of this was a hand-written paragraph with a comment saying "delete this
+    on Aug 25". That is a landmine — it stays true only if someone remembers. **Don't
+    reintroduce hand-dated copy; add a window to `AWAY` instead.**
+  - `.away-bar[hidden]` and `.custom-away[hidden]` both need the explicit `display:none`
+    (same display-override gotcha as the cart drawer, fabric lightbox and waitlist modal).
+  - ⚠️ **worker/checkout-worker.js keeps its OWN copy of `AWAY`** and uses it to relabel the
+    local-pickup option to "Local pickup (San Antonio) — collect from Aug 17". Shipping is
+    fine while she's away (1–3 business days still holds if it posts on return); **pickup is
+    the one thing that genuinely breaks**, since someone expects to collect that afternoon.
+    **Change both files together, then `wrangler deploy`** — the Worker is what the customer
+    actually reads at the moment they choose.
   - The shop is **OPEN** (SHOP_OPENS is a past date in js/shop-data.js); **custom orders = when _custom_
     orders open** (countdown/badges). js/main.js's inline PRODUCTS/VARIANTS/LINKS + its vestigial
     per-item buy handler are unused by the current homepage.

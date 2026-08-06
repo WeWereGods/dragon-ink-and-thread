@@ -71,6 +71,27 @@ const SHIP_STANDARD  = 650;
 const SHIP_SMALL     = 450;
 const FREE_SHIP_OVER = 5000;
 
+/* AWAY WINDOWS — dates the owner is travelling (added 2026-08-06).
+   Local pickup is the one thing that genuinely breaks while she's away: a
+   customer picks the free $0 option expecting to collect that afternoon, and
+   nobody is home. Shipping is fine either way, because 1–3 business days
+   still holds if the parcel goes out the day she returns.
+
+   So during a window the pickup option keeps working but says WHEN it can be
+   collected, right there in Stripe Checkout where the choice is made.
+
+   ⚠️ MIRRORS `AWAY` in js/shop-data.js's sibling js/dates.js (which drives the
+   site banner). Change both together, then `wrangler deploy` — this file is
+   the one the customer actually reads at the moment of choosing. */
+const AWAY = [
+  { from: "2026-08-14T00:00:00-05:00", to: "2026-08-16T23:59:59-05:00", back: "Aug 17" },
+  { from: "2026-08-21T00:00:00-05:00", to: "2026-08-24T23:59:59-05:00", back: "Aug 25" },
+];
+function awayNow(now) {
+  const n = now === undefined ? Date.now() : now;
+  return AWAY.find((w) => n >= Date.parse(w.from) && n <= Date.parse(w.to)) || null;
+}
+
 // Where the site lives — used for success/cancel redirects and CORS.
 const SHOP_ORIGIN = "https://www.dragoninkandthread.com";
 // Origins allowed to call this Worker (production + local preview).
@@ -175,7 +196,12 @@ export default {
     params.append("shipping_options[0][shipping_rate_data][type]", "fixed_amount");
     params.append("shipping_options[0][shipping_rate_data][fixed_amount][amount]", String(shipAmount));
     params.append("shipping_options[0][shipping_rate_data][fixed_amount][currency]", "usd");
-    params.append("shipping_options[1][shipping_rate_data][display_name]", "Local pickup (San Antonio)");
+    // Local pickup says when it can actually be collected if she's travelling.
+    const away = awayNow();
+    const pickupLabel = away
+      ? "Local pickup (San Antonio) — collect from " + away.back
+      : "Local pickup (San Antonio)";
+    params.append("shipping_options[1][shipping_rate_data][display_name]", pickupLabel);
     params.append("shipping_options[1][shipping_rate_data][type]", "fixed_amount");
     params.append("shipping_options[1][shipping_rate_data][fixed_amount][amount]", "0");
     params.append("shipping_options[1][shipping_rate_data][fixed_amount][currency]", "usd");

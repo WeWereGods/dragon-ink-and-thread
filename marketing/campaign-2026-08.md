@@ -225,7 +225,7 @@ Frame it as *"now you can ask for yours."*
 | Fri Aug 14 – Sun Aug 16 | — | **AWAY.** Nothing scheduled. Shop orders keep arriving and Pushover keeps buzzing; they ship on the 17th, still inside the 1–3 business day promise. **No local pickups can be handed over.** |
 | **Mon Aug 17** | *(nothing)* | **The form quietly opens.** Deliberately no post — the announcement is saved for the 29th. Enquiries land in Gmail and wait. |
 | Tue Aug 18 – Thu Aug 20 | IG Story, light | **Make week.** Maurya's two quilted totes and Aubrea's bow clips are due. Film them being made — that footage *is* the Aug 29 launch content, and it's the only proof you'll have that custom work already delights people. |
-| Fri Aug 21 – Mon Aug 24 | — | **AWAY.** custom.html carries a note saying replies resume the 25th. **⚠️ Delete that note on Aug 25 — it has no auto-expiry.** |
+| Fri Aug 21 – Mon Aug 24 | — | **AWAY.** The site handles itself: a banner appears saying she's back on the 25th, custom.html warns in advance, and Stripe Checkout relabels local pickup to "collect from Aug 25". All of it switches off on its own — nothing to remember. |
 | Tue Aug 25 – Fri Aug 28 | IG + TikTok | **Rebuild the runway.** Countdown to Saturday: "custom orders are open, and on Saturday I'll show you what that means." |
 | **Sat Aug 29** | **Everything** | **CUSTOM ORDERS LAUNCH PUSH.** The runbook in §10. |
 
