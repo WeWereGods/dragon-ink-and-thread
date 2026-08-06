@@ -76,28 +76,33 @@ Dragon Ink and Thread · Handmade in San Antonio, Texas
 
 ---
 
-## Email 2 — the same, but BEFORE custom orders open (use until Aug 15, 2026)
+## Email 2 — the same, but BEFORE custom orders open (use until Aug 17, 2026)
 
 Identical to the above, but swap the opening two paragraphs for this, and change the closing
 CTA from the form to "reply to this email":
 
-> Thank you for asking — and your timing is good. Custom orders open on **Saturday, August
-> 15**, and you're on my list for the moment they do.
+> Thank you for asking — and your timing is good. Custom orders open on **Monday, August
+> 17**, and you're on my list for the moment they do.
 >
 > Custom just means your idea instead of mine: your print, your size, made for you or for
 > someone you love. So you know what to expect when it opens, here's how it goes.
 
 …then the four steps, price, and timing exactly as above, closing with:
 
-> The request form goes live on the 15th — but you don't have to wait for it. Reply to this
+> The request form goes live on the 17th — but you don't have to wait for it. Reply to this
 > email with what you're picturing and I'll have a price ready for you when the doors open.
 >
 > → [Have a browse of the fabric library][fabrics] in the meantime — picking a print is the
 > fun part, and it's the thing that makes a quote quick.
 
-**Why the early reply matters:** someone who has already described what they want on Aug 14
-is a booked order on Aug 15, not a cold enquiry. Anyone who asks before launch should leave
-this email with something to do.
+**Why the early reply matters:** someone who has already described what they want before the
+17th is a booked order the day the form opens, not a cold enquiry. Anyone who asks before
+launch should leave this email with something to do.
+
+⚠️ **Aug 14–16 is a travel window** (`AWAY` in js/dates.js). "Usually within a couple of days"
+still holds either side of it, but an enquiry that arrives during those three days won't be
+answered until the 17th — which is the day the form opens anyway. If you're replying from the
+road, say when you'll have a price rather than letting it go quiet.
 
 ---
 
