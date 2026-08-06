@@ -257,8 +257,11 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       Aug 17: all four pre-open phrases flip to "Custom orders are open" with no deploy.
     - Static fallbacks (for no-JS) and **terms.html** do NOT auto-update — terms.html hard-codes
       the date with no span. Both were hand-updated; check them if the date ever moves again.
-- **AWAY WINDOWS — `AWAY` in js/dates.js (added 2026-08-06).** The owner travels
-  **Aug 14–16** and **Aug 21–24**. Two things key off it, and **both switch themselves off**:
+- **AWAY WINDOWS — `AWAY` in js/dates.js (added 2026-08-06).** One confirmed trip:
+  **Aug 14–16**. A second, **Aug 21–24, is UNCONFIRMED and deliberately NOT on the site** —
+  an away banner is a promise about when a parcel moves, so it should only ever describe
+  travel that is actually happening. Both files carry a commented-out block to paste back if
+  it firms up. Two things key off `AWAY`, and **both switch themselves off**:
   - **`.js-away`** — a honey banner under the countdown bar on index/shop/custom, shown ONLY
     while a trip is running. `[data-away-back]` is filled with that window's return date, so
     the two trips say different things without duplicated markup.
