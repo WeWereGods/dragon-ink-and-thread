@@ -96,7 +96,7 @@
     }
     var link = LINKS[id];
     if (!link) return '<button class="btn btn-primary catalog-buy is-soldout" disabled>Coming soon</button>';
-    if (!shopOpen) return '<button class="btn btn-primary catalog-buy" disabled>Opens August 15</button>';
+    if (!shopOpen) return '<button class="btn btn-primary catalog-buy" disabled>Opening soon</button>';
     if (p && p.picks && BYO_PRINTS.length) {
       // Pre-select the first N prints so the button works without touching it.
       var defaults = BYO_PRINTS.slice(0, p.picks).join(",");

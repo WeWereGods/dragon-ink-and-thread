@@ -192,9 +192,28 @@ and the coffee collection being sewn this week.
 broadcast. Broadcast #1 has been deleted: Welcome Email 1 already said that on Aug 2, and
 sending twice to a list this small is how people unsubscribe.
 
-### Week 2 — Custom orders countdown (Mon Aug 10 – Sat Aug 15)
+### Week 2 — Custom orders countdown (Mon Aug 10 – Thu Aug 20)
 
-The Aug 15 beat. Frame it as *"now you can ask for yours."*
+> ## ⚠️ REVISED 2026-08-06 — THE OWNER IS TRAVELLING
+> **Away Aug 14–16 and again Aug 21–24.** That killed the original Sat Aug 15 launch and
+> also the obvious fallback of Sat Aug 22 — both fall inside a trip, and the 15th would
+> have opened custom orders into three days of silence.
+>
+> **The launch is now two separate things, because only one of them needs her present:**
+> - **Mon Aug 17 — the FORM OPENS.** Quiet. No campaign, no broadcast. `CUSTOM_OPENS` in
+>   js/dates.js does this by itself. The point is that anyone who saw the old August 15
+>   date and comes looking can still ask, rather than meeting a shut form.
+> - **Sat Aug 29 — the LAUNCH PUSH.** The full runbook in §10: email, posts, live Q&A.
+>   The first Saturday she is home with no travel either side.
+>
+> Nothing was ever promised publicly except the site's own copy, and the site rewords
+> itself from one constant — the **welcome emails deliberately carry no dates**, so the
+> list has never been told any launch date at all. Moving it costs almost nothing.
+>
+> Aug 17–20 is **not** free time: Maurya's two quilted totes and Aubrea's three bow clips
+> come due that week, straight off a trip. Don't stack content on top of it.
+
+Frame it as *"now you can ask for yours."*
 
 | Day | Channel | Post |
 |---|---|---|
@@ -203,10 +222,14 @@ The Aug 15 beat. Frame it as *"now you can ask for yours."*
 | Tue Aug 11 | IG Story | **Q&A sticker:** "What would you have me make?" Harvest the answers — they're both content and product research. |
 | Wed Aug 12 | TikTok | **Process: a tote start to finish**, compressed. The most shareable format you have. |
 | Thu Aug 13 | IG carousel | **Cottage Rose + Blue Rose Mini** together — both still in stock. Note the rename openly ("same tote, better name"). |
-| Fri Aug 14 | IG Story ×3 + Email | **Eve-of. Broadcast to the Nest: "Tomorrow, custom orders open — you first."** (§8) |
-| **Sat Aug 15** | **Everything** | **CUSTOM ORDERS OPEN.** See the launch-day runbook in §10 — times were revised to match real traffic. |
+| Fri Aug 14 – Sun Aug 16 | — | **AWAY.** Nothing scheduled. Shop orders keep arriving and Pushover keeps buzzing; they ship on the 17th, still inside the 1–3 business day promise. **No local pickups can be handed over.** |
+| **Mon Aug 17** | *(nothing)* | **The form quietly opens.** Deliberately no post — the announcement is saved for the 29th. Enquiries land in Gmail and wait. |
+| Tue Aug 18 – Thu Aug 20 | IG Story, light | **Make week.** Maurya's two quilted totes and Aubrea's bow clips are due. Film them being made — that footage *is* the Aug 29 launch content, and it's the only proof you'll have that custom work already delights people. |
+| Fri Aug 21 – Mon Aug 24 | — | **AWAY.** custom.html carries a note saying replies resume the 25th. **⚠️ Delete that note on Aug 25 — it has no auto-expiry.** |
+| Tue Aug 25 – Fri Aug 28 | IG + TikTok | **Rebuild the runway.** Countdown to Saturday: "custom orders are open, and on Saturday I'll show you what that means." |
+| **Sat Aug 29** | **Everything** | **CUSTOM ORDERS LAUNCH PUSH.** The runbook in §10. |
 
-### Weeks 3–4 — Sustain (Sun Aug 16 – Sun Aug 30)
+### Weeks 3–4 — Sustain (Sun Aug 30 onward)
 
 Drop to 3–4 posts/week. Post-launch is where solo shops burn out; protect the cadence.
 
@@ -306,10 +329,19 @@ than fake it, and that's the right call.
 
 ---
 
-## 10. Launch-day runbook — Saturday, Aug 15
+## 10. Launch-day runbook — Saturday, Aug 29
 
-**Night before:** confirm the site copy says custom orders open *today* (`index.html`
-countdown label, shop CTA note, FAQ). Confirm `NEST10` is active. Have 3 posts drafted.
+**⚠️ Moved from Aug 15 on 2026-08-06** (owner away Aug 14–16 and Aug 21–24 — see Week 2).
+By the 29th the **form has already been open since Aug 17**, so this is not "we're open
+now", it's **"here is what custom actually means, and here's what I've already made."**
+That's a stronger post: you'll have Maurya's quilted totes and Aubrea's bow clips finished
+and photographed, plus whatever early enquiries came in. Lead with the real work, not the
+announcement.
+
+**Night before:** confirm the site says custom orders **are open** (it flips itself, but
+look). Have 3 posts drafted. **`NEST10` is long dead by the 29th** — the standing offer is
+**NEST15**, 15% off orders over $25, and that $25 floor happens to match the custom-order
+minimum exactly, so it's the better offer for this launch anyway. Don't write "10% off".
 
 **⚠️ Times revised 2026-08-03 to match real traffic.** Cloudflare Web Analytics shows visits
 cluster around **11:00–13:00** and **17:00–21:00** CDT, with almost nothing before 9am. The

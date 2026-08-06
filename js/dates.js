@@ -26,7 +26,15 @@
 (function () {
   "use strict";
 
-  var CUSTOM_OPENS = "2026-08-15T09:00:00-05:00";
+  /* MOVED 2026-08-06, from Sat Aug 15 to Mon Aug 17. The owner is away
+     Aug 14–16 and again Aug 21–24, so the 15th would have opened custom
+     orders into three days of silence, and the next two Saturdays are both
+     inside a trip. The FORM opens here on the 17th; the promotional push
+     (email, posts, live Q&A — §10 of marketing/campaign-2026-08.md) is a
+     separate thing and now runs Sat Aug 29, the first Saturday she is home
+     with no travel either side. Opening quietly means anyone who saw the old
+     date and comes looking can still ask, instead of meeting a shut form. */
+  var CUSTOM_OPENS = "2026-08-17T09:00:00-05:00";
   var ts = new Date(CUSTOM_OPENS).getTime();
 
   /* THE NEST DISCOUNT DEADLINE.

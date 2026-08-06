@@ -1,9 +1,10 @@
 # Dragon Ink and Thread — website
 
-Marketing / pre-launch site for **Dragon Ink and Thread**, a veteran-owned, small-batch
-handmade sewn-goods shop in **San Antonio, Texas** (totes, scrunchies, bows). Opening
-**Saturday, August 15, 2026**. Brand voice: cozy cottagecore whimsy for book lovers and dreamers; the
-audience is invited to "join the Nest."
+Shop site for **Dragon Ink and Thread**, a veteran-owned, small-batch handmade sewn-goods
+shop in **San Antonio, Texas** (totes, scrunchies, bows, pet bandanas). **The ready-made shop
+has been OPEN since 2026-07-01** — this is no longer a pre-launch site. **Custom orders open
+Monday, August 17 2026** (moved from Aug 15; see below). Brand voice: cozy cottagecore whimsy
+for book lovers and dreamers; the audience is invited to "join the Nest."
 
 ## Tech stack
 - **Plain static site**: HTML + CSS + vanilla JS. **No build step, no framework, no deps.**
@@ -243,7 +244,22 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
     Mustard Rose Tote renamed **Cottage Rose Tote** (same id `tote-mustard-floral`).
   - The old per-item **Payment Links** (`LINKS` in js/shop-data.js) are **no longer opened**;
     `LINKS` now only flags **availability** — an id absent from `LINKS` is sold out ("Coming soon").
-  - The shop is **OPEN** (SHOP_OPENS is a past date in js/shop-data.js); **Aug 15 = when _custom_
+  - ⚠️ **CUSTOM-ORDER LAUNCH MOVED 2026-08-06 — Aug 15 → Mon Aug 17, push on Sat Aug 29.**
+    The owner is travelling **Aug 14–16 and again Aug 21–24**, which ruled out both the
+    original Saturday and the obvious fallback of Aug 22. The launch was split in two,
+    because only one half needs her present: **the FORM opens Mon Aug 17** (quiet, no
+    campaign — `CUSTOM_OPENS` in js/dates.js does it alone, so anyone who saw the old date
+    still finds an open form), and **the PUSH runs Sat Aug 29** (§10 runbook in
+    marketing/campaign-2026-08.md — the first Saturday she is home either side).
+    - **The date lives in ONE place: `CUSTOM_OPENS` in js/dates.js.** Every countdown, banner
+      and "opens August 17" phrase derives from it, including the weekday — `label()` formats
+      it, so the words can never disagree with the date. Verified 2026-08-06 by simulating
+      Aug 17: all four pre-open phrases flip to "Custom orders are open" with no deploy.
+    - Static fallbacks (for no-JS) and **terms.html** do NOT auto-update — terms.html hard-codes
+      the date with no span. Both were hand-updated; check them if the date ever moves again.
+    - **custom.html carries an away notice for Aug 21–24 that has NO auto-expiry.**
+      ⚠️ **Delete that `<p class="custom-away">` on Aug 25** or it will sit there lying.
+  - The shop is **OPEN** (SHOP_OPENS is a past date in js/shop-data.js); **custom orders = when _custom_
     orders open** (countdown/badges). js/main.js's inline PRODUCTS/VARIANTS/LINKS + its vestigial
     per-item buy handler are unused by the current homepage.
   - The Strawberry Tote, both cozys, and both blooms were RETIRED from the shop → Stories lookbook

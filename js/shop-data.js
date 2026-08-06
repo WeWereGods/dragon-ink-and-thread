@@ -31,8 +31,8 @@
 */
 window.DIT_SHOP = {
   // Ready-made shop is OPEN for orders (Buy buttons live). A past date keeps
-  // shopOpen === true. Custom (made-to-order/personalized) orders open Aug 15,
-  // 2026 — that date lives in the countdown (LAUNCH) in js/main.js.
+  // shopOpen === true. Custom (made-to-order/personalized) orders open Aug 17,
+  // 2026 — that date lives in CUSTOM_OPENS in js/dates.js and nowhere else.
   SHOP_OPENS: "2026-07-01T09:00:00-05:00",
 
   /* Display-only mirror of the Worker's shipping rules, in DOLLARS (the Worker
