@@ -13,6 +13,13 @@ desktop.ini
 *.log
 node_modules/
 
+# `npm install sharp` (for tools/import-fabrics.js) writes these into the repo
+# root. The SITE has no dependencies and no build step — a package.json sitting
+# here would say otherwise to the next person who opens the folder. The install
+# is a local tool, so it stays local.
+package.json
+package-lock.json
+
 # Saved-webpage artifacts / reference dumps accidentally dropped in assets/
 # (e.g. "... _ Free Photo.html" + its "..._files/" folder of scripts)
 *_files/
