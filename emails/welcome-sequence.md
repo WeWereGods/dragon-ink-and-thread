@@ -110,7 +110,7 @@ More soon — next I'll show you around what I actually make.
 ## Email 3 — What I make (sends ~7 days after Email 1)
 
 **Subject:** A proper look inside the Nest
-**Preheader:** Totes, scrunchies, bows — and the thing I'll make just for you.
+**Preheader:** Totes, scrunchies, bows, pet bandanas — and the thing I'll make just for you.
 
 Hi,
 
@@ -124,7 +124,13 @@ fully finished inside, because I can't help myself.
 **Scrunchies** — soft prints, gentle on your hair, sturdier than they look. $6 each, or
 build your own bundle of any three for $15. (I can never pick three either.)
 
-**Bows** — hand-tied sailor bows, $10. Small things that make an ordinary day feel considered.
+**Bows** — hand-tied sailor bows, $12. Small things that make an ordinary day feel considered.
+
+**Pet bandanas** — because the one who waits by the door deserves a storybook print too. The
+Storykeeper Bandana is $18, in the same antique-books-and-potion-bottles fabric as the tote of
+the same name, so you can match. It slips over the collar they already wear — nothing to tie,
+nothing to lose. This one's a Large (fits an 18″–23″ neck); small and medium I'll make for you,
+just ask.
 
 Everything is handmade in small batches, and most pieces are **one of a kind** — when one
 sells, that's genuinely it. If you see something you love, don't sit on it too long.
