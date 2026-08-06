@@ -70,3 +70,10 @@ worker/.wrangler/
 # Raw fabric photos from the phone (188 MB). Processed copies live in
 # assets/fabrics/ — see js/fabrics-data.js. Never commit the originals.
 assets/Catalog/
+
+# Staging folder for tools/import-fabrics.js — you drop raw photos here and it
+# writes the processed copies into assets/fabrics/. The originals stay behind
+# and must not be committed, same as assets/Catalog/. Both spellings, because
+# git's patterns are case-sensitive even where Windows isn't.
+assets/Incoming/
+assets/incoming/
