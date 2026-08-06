@@ -116,7 +116,7 @@ window.DIT_FABRICS = {
         { file: "fabric-59.jpg", name: "Sidra Vines" },
         { file: "fabric-60.jpg", name: "Afternoon Tea" },
         { file: "fabric-61.jpg", name: "Lace of Velaris" },
-        { file: "fabric-62.jpg", name: "Suriels Bouquet" }
+        { file: "fabric-62.jpg", name: "Suriel's Bouquet" }
       ]
     },
     {
