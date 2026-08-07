@@ -96,3 +96,9 @@ assets/image-*.webp
 # git's patterns are case-sensitive even where Windows isn't.
 assets/Incoming/
 assets/incoming/
+
+# Staging folder for tools/import-products.js — new product photos go here and
+# it writes the processed copies straight into assets/. Same deal: the raw
+# phone originals stay behind and must not be committed.
+assets/Incoming-Products/
+assets/incoming-products/

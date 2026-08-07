@@ -332,7 +332,14 @@ The old instructions ("add an `<option>` to that select") described the homepage
 which **no longer exist**. Here is the real sequence. Everything lives in **js/shop-data.js**
 except where noted.
 
-1. **Photo → `assets/`** at quality 82. **Either orientation works** — `.catalog-photo` is
+1. **Photo → `assets/`** — **`node tools/import-products.js <id>`** does this whole step. Drop
+   the photos in **`assets/Incoming-Products/`** (gitignored; the script creates it) and run it:
+   it bakes in EXIF rotation, resizes the long edge to 1400 at q82, writes `<id>.jpg`,
+   `<id>-2.jpg`… in filename order (**first = hero shot**), and prints a ready-to-paste block for
+   steps 2–7 below. `--crop` adds a 4:3 centre crop, off by default for the Cauldron Forged
+   reason noted below. It deliberately does NOT edit shop-data.js or the Worker — those need
+   decisions, and three of them fail silently. The manual equivalent, if you ever need it:
+   quality 82. **Either orientation works** — `.catalog-photo` is
    `aspect-ratio: 4/3; object-fit: cover`, so the card crops whatever you give it. Landscape
    **1400×1050** is the common case (all bows, most totes); **portrait 1050×1400** is used where
    the piece is tall (Storykeeper tote, Strawberry v2, the bandana). Pick the one that loses less.
