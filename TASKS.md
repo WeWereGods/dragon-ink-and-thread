@@ -47,6 +47,15 @@ Two rules that keep this useful:
 
 ## 🔵 Waiting on something else
 
+- [ ] ⚠️ **The Suriel bow set and the five singles are the SAME five bows.** Listed both ways
+      since 2026-08-07, and nothing in the shop tracks stock — so the moment one side sells,
+      the other side is still live and sellable to somebody else.
+      **The set sells → pull all five singles. Any single sells → pull the set.**
+      Pushover pings the phone on every sale, so you will know within seconds; the fix is to
+      set `soldOut: true` in js/shop-data.js and push, or retire the listing outright.
+      This resolves itself the day the set sells or the day you split it — until then it is a
+      live race, and it is the only overselling risk in the shop.
+
 - [ ] **GitHub Pages outage (2026-08-06).** Five commits queued — the Aug 17 launch date, the
       away banner, the second-trip removal. Nothing is broken live; the last good build is
       serving. **Must be published before Fri Aug 14** for the away banner to appear.
