@@ -71,6 +71,12 @@ window.DIT_SHOP = {
     "bow-roasted-roses":     { name: "Roasted Roses Bow",       price: 12.0, art: "🌹" },
     "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", price: 12.0, art: "☕" },
     "bow-blushing-linen":    { name: "Blushing Linen Bow",      price: 12.0, art: "🎀" },
+    "bow-something-blue":    { name: "Something Blue Bow",      price: 12.0, art: "🎀" },
+    "bow-sidra-vines":       { name: "Sidra Vines Bow",         price: 12.0, art: "🎀" },
+    "bow-afternoon-tea":     { name: "Afternoon Tea Bow",       price: 12.0, art: "🫖" },
+    "bow-lace-of-velaris":   { name: "Lace of Velaris Bow",     price: 12.0, art: "🎀" },
+    "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐" },
+    "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖" },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" }
   },
@@ -169,44 +175,80 @@ window.DIT_SHOP = {
     "bow-gingham": {
       alt: "Handmade taupe gingham sailor bow",
       blurb: "Soft taupe gingham, hand-tied into a sweet sailor bow — a cozy little check that pairs with everything from sundresses to storybooks.",
-      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-gingham.jpg?v=2"]
     },
     "bow-sage-gingham": {
       alt: "Handmade sage-green gingham sailor bow scattered with tiny roses",
       blurb: "Sage-green gingham strewn with the tiniest pink roses — a garden picnic of a bow, hand-tied with finished edges.",
-      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-sage-gingham.jpg?v=2"]
     },
     "bow-cauldron-forged": {
       alt: "Handmade midnight-navy sailor bow with a fine bronze crackle-web texture",
       blurb: "Midnight navy shot through with a fine bronze web — like something cooled in the dark and lifted out still glinting. The moodiest bow in the shop, and the one that finally goes with black.",
-      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-cauldron-forged.jpg"]
     },
     "bow-toffee-plaid": {
       alt: "Handmade brown toffee plaid sailor bow",
       blurb: "Deep toffee plaid, hand-tied into a sailor bow — the colour of a cup left to steep too long and an armchair by the window. Finished edges, and it suits every coat you own.",
-      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-toffee-plaid.jpg"]
     },
     "bow-roasted-roses": {
       alt: "Handmade olive sailor bow printed with cream roses and cups of coffee",
       blurb: "Cream roses and little cups of coffee scattered across deep olive — a slow morning, tied into a bow. Hand-tied with finished edges.",
-      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-roasted-roses.jpg"]
     },
     "bow-daily-grind-ivory": {
       alt: "Handmade ivory sailor bow printed with vintage coffee-shop lettering",
       blurb: "Old sign-painter lettering on soft ivory — moka pots, grinders, and a hundred small reasons to take a coffee break. For the ones who read best with a cup in hand.",
-      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-daily-grind-ivory.jpg"]
     },
     "bow-blushing-linen": {
       alt: "Handmade blush-pink sailor bow in a soft linen-textured cotton",
       blurb: "The softest blush, woven with the slubby texture of well-loved linen — a quiet bow that doesn't compete with anything you put it near. Hand-tied with finished edges.",
-      details: "6″ long × 6″ wide · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-blushing-linen.jpg"]
+    },
+    "bow-something-blue": {
+      alt: "Handmade sailor bow in a cream cotton scattered with small blue roses and sprigs",
+      blurb: "Small blue roses trailing over cream, the way they'd look pressed into an old book and forgotten there. The quietest bow of the five, and the one that goes with everything.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-something-blue.jpg", "assets/bow-something-blue-2.jpg"]
+    },
+    "bow-sidra-vines": {
+      alt: "Handmade sailor bow in white cotton with bold cobalt-blue floral bouquets",
+      blurb: "Full cobalt bouquets on white — the boldest blue in the set, and the one that reads from across a room. If the others are a whisper, this is the sentence said out loud.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-sidra-vines.jpg", "assets/bow-sidra-vines-2.jpg"]
+    },
+    "bow-afternoon-tea": {
+      alt: "Handmade sailor bow in a pale blue and cream lace-patterned floral cotton",
+      blurb: "Pale blue lacework and little flowers on cream, like the good china that only comes out for company. Soft enough to wear every day anyway.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-afternoon-tea.jpg", "assets/bow-afternoon-tea-2.jpg"]
+    },
+    "bow-lace-of-velaris": {
+      alt: "Handmade sailor bow in cornflower-blue cotton with white lace medallions and flowers",
+      blurb: "White lace medallions blooming over cornflower blue — the reverse of the others, dark ground and light pattern, which is why it's the one that stands out in the stack.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-lace-of-velaris.jpg", "assets/bow-lace-of-velaris-2.jpg"]
+    },
+    "bow-suriels-bouquet": {
+      alt: "Handmade sailor bow in blue cotton with fine white trailing floral vines",
+      blurb: "Fine white vines trailing over deep blue, small and endless, like a pattern on a teacup you keep turning to follow. Deepest colour of the five.",
+      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      images: ["assets/bow-suriels-bouquet.jpg", "assets/bow-suriels-bouquet-2.jpg"]
+    },
+    "bow-suriel-set": {
+      alt: "Five handmade sailor bows in blue and white floral cottons, laid out together on pale wood",
+      blurb: "All five. One bow in every print of the Tea with the Suriel collection — Something Blue, Sidra Vines, Afternoon Tea, Lace of Velaris and Suriel's Bouquet — for $55 instead of $60. They were cut from the same five bolts on the same afternoon, and once one of them goes the set isn't a set any more.",
+      details: "Five bows · 6″ long × 6″ wide each · all on slide-in clips · spot clean only · store away from direct sun to keep color true. Ships free.",
+      images: ["assets/bow-suriel-set.jpg"]
     },
     "bandana-storykeeper": {
       alt: "Handmade pet bandana printed with antique books and potion bottles, shown flat and worn by a black dog",
@@ -257,6 +299,12 @@ window.DIT_SHOP = {
     "bow-roasted-roses":     "cart",
     "bow-daily-grind-ivory": "cart",
     "bow-blushing-linen":    "cart",
+    "bow-something-blue":    "cart",
+    "bow-sidra-vines":       "cart",
+    "bow-afternoon-tea":     "cart",
+    "bow-lace-of-velaris":   "cart",
+    "bow-suriels-bouquet":   "cart",
+    "bow-suriel-set":        "cart",
     "bandana-storykeeper":   "cart",
     "sleeve-reading-nook":   "cart"
   },
@@ -280,7 +328,9 @@ window.DIT_SHOP = {
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower", "scrunchie-strawberry",
             "scrunchie-bundle", "scrunchie-byo-bundle"] },
     { label: "Bows",       note: "Hand-tied sailor bows with finished edges, in storybook prints.",
-      ids: ["bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
+      ids: ["bow-suriel-set", "bow-something-blue", "bow-sidra-vines", "bow-afternoon-tea", "bow-lace-of-velaris",
+            "bow-suriels-bouquet",
+            "bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
             "bow-gingham", "bow-sage-gingham"  ] },
     { label: "Pet Bandanas", note: "Over-the-collar bandanas in the same storybook prints — for the one who waits by the door.",
       ids: ["bandana-storykeeper"] },

@@ -42,6 +42,12 @@ const PRICES = {
   "bow-roasted-roses":     { name: "Roasted Roses Bow",        amount: 1200 },
   "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", amount: 1200 },
   "bow-blushing-linen":    { name: "Blushing Linen Bow",       amount: 1200 },
+  "bow-something-blue":    { name: "Something Blue Bow",       amount: 1200 },
+  "bow-sidra-vines":       { name: "Sidra Vines Bow",          amount: 1200 },
+  "bow-afternoon-tea":     { name: "Afternoon Tea Bow",        amount: 1200 },
+  "bow-lace-of-velaris":   { name: "Lace of Velaris Bow",      amount: 1200 },
+  "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",     amount: 1200 },
+  "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", amount: 5500 },
   "bandana-storykeeper":   { name: "The Storykeeper Bandana",  amount: 1800 },
   "sleeve-reading-nook":   { name: "Reading Nook Sleeve",      amount: 2800 },
 };

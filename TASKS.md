@@ -66,9 +66,8 @@ Two rules that keep this useful:
 
 ## ⚪ Decisions open
 
-- [ ] **Do the bows offer a choice of clip / elastic / O-ring?** The retired Sage Bow said so;
-      none of the seven current listings mention it. If true it's a real selling point and it's
-      currently invisible. One line in `details` fixes it.
+- [x] **Bows are on a slide-in clip** — answered 2026-08-07. There is no choice of elastic or
+      O-ring, whatever the retired Sage Bow said. Now stated in `details` on all thirteen.
 - [ ] **If the Aug 21–24 trip is cancelled, Sat Aug 22 reopens as a launch date** — it was the
       first choice before the travel ruled it out, and it's a week earlier than Aug 29.
 - [x] **What to make next — DECIDED, and the first one is live.** The **Reading Nook Sleeve**
