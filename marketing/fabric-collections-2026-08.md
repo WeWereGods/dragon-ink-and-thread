@@ -8,7 +8,7 @@ They live at **dragoninkandthread.com/fabrics.html**.
 
 | Collection | Prints | The names |
 |---|---|---|
-| **Tea with the Suriel** | 5 | Something Blue · Sidra Vines · Afternoon Tea · Lace of Velaris · Suriel's Bouquet |
+| **Tea with the Suriel** | 6 | Something Blue · Sidra Vines · Afternoon Tea · Lace of Velaris · Suriel's Bouquet · Porcelain Roses |
 | **Once Upon a Woodland** | 3 | Bouncing Beginnings · Thistles and Tails · Twilight Owls |
 | **Postcards and Pumpkins** | 3 | Pumpkin Patch Picnic · Postmarked Sunshine · Amber Wildflowers |
 | **Blush and Whiskers** | 1 | Blush and Whiskers |
@@ -43,7 +43,7 @@ Slotted around the pet bandana post and the five bows post, which are already wr
 | Date | Collection | Why then |
 |---|---|---|
 | **Fri Aug 8** | All four — the library teaser | One post says "eighteen new prints," which is a bigger event than any single collection. Sends traffic to fabrics.html before the countdown starts. |
-| **Mon Aug 11** | **Tea with the Suriel** | The strongest hook you have, spent at the start of countdown week. Romantasy readers are the audience most likely to want something made for them. |
+| **Mon Aug 11** | **Tea with the Suriel — the bows** | Now a PRODUCT post, not a fabric post: five bows exist and can be bought today. An immediate sale and a custom lead from one post, instead of a lead you nurse until the 17th. |
 | **Wed Aug 13** | **Once Upon a Woodland** | Schedule it before you travel. Baby-gift angle reaches a different audience than the bookish posts, so it doesn't compete. |
 | **Mon Aug 18** | **Blush and Whiskers** | The day after the form opens — a soft, low-stakes post that gets to say "custom orders are open now" without being a launch announcement. |
 | **Sat Aug 29** | **Postcards and Pumpkins** | Autumn content doesn't work in the first half of August and does by the end. Lands on the push date, where seasonal urgency is worth real money. |
@@ -78,22 +78,32 @@ close-up per print. Hashtags: the two sets in §6 of `campaign-2026-08.md`, 8–
 >
 > Link in bio.
 
-### Mon Aug 11 — Tea with the Suriel
+### Mon Aug 11 — Tea with the Suriel, the bows
 
-> Blue and white, florals and lace. Five prints, and I named every one of them after
-> something I loved reading.
+**This is a product post.** Five bows exist, they're sewn, and they can be bought today — so the
+CTA is the shop, not the enquiry form. Custom is the *second* ask, not the first.
+
+Carousel: the flat-lay of all five, then one shot per bow, then a back shot showing the clip.
+
+> Five bows, five blues, one very happy afternoon at the machine.
 >
-> Something Blue. Sidra Vines. Afternoon Tea. Lace of Velaris. Suriel's Bouquet.
+> **Something Blue** — the palest of them, powder blue under a fine lace tracery.
+> **Sidra Vines** — white vines trailing endlessly over cornflower.
+> **Porcelain Roses** — small blue roses on cream, like something pressed in a book and forgotten.
+> **Lace of Velaris** — dense white lace medallions, the one that looks like a plate you'd never dare eat off.
+> **Suriel's Bouquet** — bold cobalt bouquets on cream. The one you see from across a room.
 >
-> If you know, you know — and if you don't, they're still the prettiest blues I've brought
-> home all year. The kind of fabric that looks like a china cabinet and a garden had a
-> conversation.
+> Hand-tied sailor bows, 6 inches, on a slide-in clip. Already sewn, so they go in the post within
+> a few days.
 >
-> Custom orders open **Monday the 17th**, and this is the collection I most want someone to
-> ask me for. A tote sized for the exact book you're carrying. A bow in Lace of Velaris.
+> **$12 each — or all five for $55, and the set ships free.**
 >
-> You don't have to wait for the form — tell me now what you're picturing and I'll have a
-> price ready for you when the doors open. 📖
+> There is one of each. Once one goes, the set stops being a set. 🎀
+>
+> (And if you want the print but not the bow — custom orders open Monday the 17th, and any of
+> these can become a tote.)
+>
+> Link in bio.
 
 ### Wed Aug 13 — Once Upon a Woodland
 
@@ -172,6 +182,26 @@ Same photos. Three differences, and they matter:
 >
 > (San Antonio friends — local pickup is free, so nothing gets spent on postage.)
 
+### Mon Aug 11 — the bow collection (Facebook version)
+
+> Five bows came off the machine this weekend, and they're the prettiest blues I've made.
+>
+> Something Blue is the palest — powder blue under a fine lace tracery. Sidra Vines has white
+> vines trailing over cornflower. Porcelain Roses is small blue roses on cream, like something
+> pressed in a book and forgotten there. Lace of Velaris is dense white lace medallions. And
+> Suriel's Bouquet is bold cobalt on cream — the one you'd see from across a room.
+>
+> They're hand-tied sailor bows, 6 inches across, on a slide-in clip. Already sewn, so they post
+> within a few days.
+>
+> $12 each, or all five together for $55 — and the set ships free.
+>
+> There's one of each, so once one goes the set isn't a set any more.
+>
+> https://www.dragoninkandthread.com/shop.html
+>
+> (San Antonio — local pickup is free, so you can just come and collect them.)
+
 ### The other four
 
 Take the Instagram captions above, drop the hashtags, swap "link in bio" for the full URL, and
@@ -199,6 +229,21 @@ The dependable one. Stack the collection folded, then pull them apart one at a t
   with real audio than with a trend.
 - **Caption:** `named every one of these after a book I loved. custom orders open the 17th 📖`
 - **End frame text:** `71 prints in the library — pick yours`
+
+### Mon Aug 11 — the bow collection (the one to actually shoot)
+
+The set is already a video: five objects, one at a time, in a colour story.
+
+- **Frame 1 text:** `five bows. five blues. pick one.`
+- **Shots:** empty wood → a hand laying each bow down in turn, name captioned as it lands →
+  pull back to all five together → **flip one over to show the clip.**
+- **Sound:** no music. Fabric and the tap of each bow on the table.
+- **End frame:** `$12 each · all five $55 · one of each`
+- **Caption:** `named after books I love. there's one of each, so once one goes the set isn't a
+  set 🎀 #booktok #romantasy`
+
+**The back-flip shot matters more than it looks.** "How does it attach" is the question that
+stops a $12 purchase, and none of your bow listings answered it until this week.
 
 ### Format B — "tell me your book, I'll tell you your fabric"
 
@@ -245,6 +290,12 @@ Worth more than the posts, and takes minutes.
 - **Don't promise a date before Aug 17.** The form isn't open. "Tell me what you're picturing"
   is the ask; "order now" isn't true yet.
 - **Don't promise a fast reply across Aug 14–16.**
+- ⚠️ **Don't put NEST15 in a public caption.** It's 15% off over $25 with no expiry, and it's
+  the reason someone joins the Nest. Posting it publicly turns a list perk into a general
+  discount and there's no way to walk it back — the code can't be retired without breaking the
+  welcome emails.
+- ⚠️ **If the set sells, pull the five singles the same day** (and the reverse). They're the same
+  five bows listed twice; see TASKS.md. A post is exactly what makes that race start.
 - **Don't quote a custom price in a caption** beyond the bands already public on custom.html
   (totes $50–100 · bows $13–20 · scrunchies $6–12 · pet bandanas $20–25, $25 minimum). Quoting
   is done per piece, by you, in a reply.
