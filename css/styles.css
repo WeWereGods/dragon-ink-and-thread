@@ -1198,6 +1198,22 @@ h3 { font-size: 1.4rem; }
 }
 .contact-meta { font-weight: 700; }
 .contact-fine { font-size: 0.82rem; color: var(--ink-soft); font-style: italic; }
+/* Tells a custom enquiry what to put in the message. The form is a plain
+   name/email/message box, so without this the enquiries arrive with nothing
+   quotable in them and every one needs a round-trip before it can be priced. */
+.contact-hint {
+  max-width: 520px;
+  margin: 0.9rem auto 0;
+  padding: 0.85rem 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  text-align: left;
+  background: var(--rose-soft);
+  border: 1px solid var(--rose);
+  border-radius: var(--radius-sm);
+}
+.contact-hint strong { color: var(--ink); }
 
 /* Contact form ---------------------------------------------- */
 .contact-form {
