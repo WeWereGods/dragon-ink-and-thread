@@ -65,7 +65,9 @@ window.DIT_FABRICS = {
         { file: "fabric-23.jpg", name: "Silver Flames" },
         { file: "fabric-50.jpg", name: "Ashes and Ivy" },
         { file: "fabric-09.jpg", name: "The Fall Court" },
-        { file: "fabric-24.jpg", name: "Verdant Curse" }
+        { file: "fabric-24.jpg", name: "Verdant Curse" },
+        { file: "fabric-70.jpg", name: "Cottage Garden Chintz" },
+        { file: "fabric-71.jpg", name: "Pressed Sprigs" }
       ]
     },
     {
@@ -86,7 +88,9 @@ window.DIT_FABRICS = {
         { file: "fabric-46.jpg", name: "Sprite's Breath" },
         { file: "fabric-44.jpg", name: "Honey Field" },
         { file: "fabric-48.jpg", name: "Wings and Whimsy" },
-        { file: "fabric-51.jpg", name: "Wings and Ruin" }
+        { file: "fabric-51.jpg", name: "Wings and Ruin" },
+        { file: "fabric-72.jpg", name: "The Hollyhock Hive" },
+        { file: "fabric-73.jpg", name: "Toadstool Village" }
       ]
     },
     {
@@ -118,7 +122,8 @@ window.DIT_FABRICS = {
         { file: "fabric-59.jpg", name: "Sidra Vines" },
         { file: "fabric-60.jpg", name: "Afternoon Tea" },
         { file: "fabric-61.jpg", name: "Lace of Velaris" },
-        { file: "fabric-62.jpg", name: "Suriel's Bouquet" }
+        { file: "fabric-62.jpg", name: "Suriel's Bouquet" },
+        { file: "fabric-69.jpg", name: "Porcelain Roses" }
       ]
     },
     {
@@ -127,19 +132,8 @@ window.DIT_FABRICS = {
       items: [
         { file: "fabric-67.jpg", name: "Pumpkin Patch Picnic" },
         { file: "fabric-68.jpg", name: "Postmarked Sunshine" },
-        { file: "fabric-66.jpg", name: "Amber Wildflowers" }
-      ]
-    },
-    {
-      label: "Unsorted — name these",
-      note: "Just imported — give these their names.",
-      items: [
-        { file: "fabric-69.jpg", name: "IMG_7380" },
-        { file: "fabric-70.jpg", name: "IMG_7381" },
-        { file: "fabric-71.jpg", name: "IMG_7382" },
-        { file: "fabric-72.jpg", name: "IMG_7383" },
-        { file: "fabric-73.jpg", name: "IMG_7384" },
-        { file: "fabric-74.jpg", name: "IMG_7385" }
+        { file: "fabric-66.jpg", name: "Amber Wildflowers" },
+        { file: "fabric-74.jpg", name: "Friendly Hauntings" }
       ]
     }
   ]

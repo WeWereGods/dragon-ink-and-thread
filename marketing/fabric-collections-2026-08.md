@@ -1,7 +1,9 @@
 # New fabric collections — social copy
 ### Written 2026-08-06 · Instagram, Facebook, TikTok · covers Aug 8 → Aug 29
 
-Twelve new prints landed in the library on 2026-08-06, taking it from 53 to **65**.
+Eighteen new prints landed in the library on 2026-08-06/07, taking it from 53 to **71**.
+Twelve arrived as four named collections (below); six more came in loose and were filed
+straight into the existing groups.
 They live at **dragoninkandthread.com/fabrics.html**.
 
 | Collection | Prints | The names |
@@ -40,14 +42,14 @@ Slotted around the pet bandana post and the five bows post, which are already wr
 
 | Date | Collection | Why then |
 |---|---|---|
-| **Fri Aug 8** | All four — the library teaser | One post says "twelve new prints," which is a bigger event than any single collection. Sends traffic to fabrics.html before the countdown starts. |
+| **Fri Aug 8** | All four — the library teaser | One post says "eighteen new prints," which is a bigger event than any single collection. Sends traffic to fabrics.html before the countdown starts. |
 | **Mon Aug 11** | **Tea with the Suriel** | The strongest hook you have, spent at the start of countdown week. Romantasy readers are the audience most likely to want something made for them. |
 | **Wed Aug 13** | **Once Upon a Woodland** | Schedule it before you travel. Baby-gift angle reaches a different audience than the bookish posts, so it doesn't compete. |
 | **Mon Aug 18** | **Blush and Whiskers** | The day after the form opens — a soft, low-stakes post that gets to say "custom orders are open now" without being a launch announcement. |
 | **Sat Aug 29** | **Postcards and Pumpkins** | Autumn content doesn't work in the first half of August and does by the end. Lands on the push date, where seasonal urgency is worth real money. |
 
-**Don't post all four in one week.** Twelve prints spread over three weeks is three weeks of
-material; twelve prints in one week is one post and then silence.
+**Don't post all four in one week.** Eighteen prints spread over three weeks is three weeks of
+material; eighteen prints in one week is one post and then silence.
 
 ---
 
@@ -58,14 +60,17 @@ close-up per print. Hashtags: the two sets in §6 of `campaign-2026-08.md`, 8–
 
 ### Fri Aug 8 — the library teaser
 
-> Twelve new prints came home with me.
+> Eighteen new prints came home with me.
 >
 > I've been quietly building a library of fabric so that when someone asks me for something,
-> the answer can be *yes, and which one*. It's at sixty-five prints now.
+> the answer can be *yes, and which one*. It's at seventy-one prints now.
 >
 > There's a collection of blues and lace I named after a tea party. One that's all soft
 > woodland creatures. One that smells like October even though it's August. And a single
 > pink one, covered in cats, that I bought entirely for myself and then couldn't keep.
+>
+> And loose among them: toadstool cottages, a garden full of bee skeps, blue roses on cream,
+> and some very small ghosts.
 >
 > Every one of them can become a tote, a bow, a scrunchie or a bandana made just for you.
 >
@@ -150,12 +155,13 @@ Same photos. Three differences, and they matter:
 
 ### Fri Aug 8 — the library teaser (Facebook version)
 
-> Twelve new fabrics came home with me this week, which brings the library to sixty-five prints.
+> Eighteen new fabrics came home with me this week, which brings the library to seventy-one prints.
 >
 > The reason I keep a library at all is so that when somebody asks me for something, the answer
 > can be "yes — and which one?" There's a collection of blues and lace named after a tea party,
 > one full of soft woodland creatures, one that smells like October even though it's August,
-> and a single pink one covered in cats that I bought entirely for myself.
+> and a single pink one covered in cats that I bought entirely for myself. Loose among them:
+> toadstool cottages, a garden full of bee skeps, blue roses on cream, and some very small ghosts.
 >
 > Any of them can become a tote, a bow, a scrunchie or a pet bandana made just for you. Custom
 > orders open Monday, August 17 — and if you already know what you want, tell me now and I'll
@@ -192,7 +198,7 @@ The dependable one. Stack the collection folded, then pull them apart one at a t
 - **Sound:** no music. The fabric noise *is* the sound. Handmade accounts consistently do better
   with real audio than with a trend.
 - **Caption:** `named every one of these after a book I loved. custom orders open the 17th 📖`
-- **End frame text:** `65 prints in the library — pick yours`
+- **End frame text:** `71 prints in the library — pick yours`
 
 ### Format B — "tell me your book, I'll tell you your fabric"
 
@@ -200,7 +206,7 @@ The highest-comment format available to you, because it demands a reply.
 
 - **Text:** `tell me what you're reading and I'll pick your fabric`
 - 15 seconds of you turning over three or four swatches, then hold on one.
-- **Caption:** `this genuinely works, try me. 65 prints and I've read enough to be dangerous 🧵`
+- **Caption:** `this genuinely works, try me. 71 prints and I've read enough to be dangerous 🧵`
 - **Then answer every comment with a specific print name.** That's the whole point of the
   format — each reply is a custom-order conversation that started itself.
 

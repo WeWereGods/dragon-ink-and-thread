@@ -28,7 +28,7 @@ Custom just means your idea instead of mine: your print, your size, made for you
 someone you love. Here's how it goes, so there are no surprises.
 
 **1. You tell me what you're picturing.** As much or as little as you have — "a mushroom
-tote but bigger" is a perfectly good start. There's a [library of 65 fabrics][fabrics] I
+tote but bigger" is a perfectly good start. There's a [library of 71 fabrics][fabrics] I
 already have in stock; if one of them catches your eye, just give me its name. Found
 something elsewhere? Send a link and I'll try to source it.
 
@@ -117,7 +117,7 @@ Long emails don't work in a DM. Use this, then send the full email if they bite.
 > it's sewn from fabric, ask.
 >
 > Easiest thing is to tell me roughly what you're picturing and I'll come back with a price
-> — no commitment until you've seen it. There's a library of 65 prints on the site to browse
+> — no commitment until you've seen it. There's a library of 71 prints on the site to browse
 > if you want a starting point 🧵
 
 ---
