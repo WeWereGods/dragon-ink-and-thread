@@ -1849,6 +1849,11 @@ body.gallery-open { overflow: hidden; }
 .custom-gate p { font-size: 0.93rem; color: var(--ink-soft); margin: 0 0 0.5rem; }
 .custom-gate-title { font-family: var(--font-display); font-size: 1.05rem; color: var(--honey-deep); font-weight: 600; }
 .custom-gate-fine { font-size: 0.85rem !important; margin-bottom: 0 !important; }
+/* The "tell me what you're imagining" button inside the pre-open gate. Writing
+   to her is the main thing to do here before the form opens, so it gets a
+   button rather than a link buried in a sentence. */
+.custom-gate-actions { margin: 0.85rem 0 0.7rem !important; }
+.custom-gate-actions .btn { display: inline-block; }
 
 /* Request form bits the shared .contact-form rules don't cover */
 .custom-form fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }

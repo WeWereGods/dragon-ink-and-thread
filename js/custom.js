@@ -78,15 +78,27 @@
       fields.disabled = false;
     } else {
       gate.hidden = false;
+      /* Writing to her is the PRIMARY action before the doors open, not the
+         exception. This used to lead with the newsletter and leave contact in
+         the fine print behind "in a hurry?", which reads as "come back later" —
+         and someone who describes what they want now is a booked order on the
+         morning of the 17th instead of a cold enquiry. */
       gate.innerHTML =
         "<p class=\"custom-gate-title\">Custom orders open " + opensLabel + ".</p>" +
-        "<p>I'm finishing the last few ready-made pieces first, so the request form below opens that morning. " +
-        "<a href=\"index.html#home\">Join the Nest</a> and you'll hear the moment it does" +
+        "<p>The request form below opens that morning &mdash; but you don't have to wait for it. " +
+        "<strong>Tell me now what you're picturing</strong> and I'll have a price ready for you " +
+        "when the doors open. Nothing is charged, or even asked of you, until you've seen it " +
+        "and said yes.</p>" +
+        "<p class=\"custom-gate-actions\">" +
+        "<a class=\"btn btn-primary\" href=\"index.html#contact\">Tell me what you're imagining &rarr;</a>" +
+        "</p>" +
+        "<p class=\"custom-gate-fine\">Not sure yet? " +
+        "<a href=\"fabrics.html\">Have a browse of the fabric library</a> &mdash; picking a print is " +
+        "the fun part, and it's what makes a quote quick. Or " +
+        "<a href=\"index.html#home\">join the Nest</a> and you'll hear the moment the form opens" +
         // Only claim the discount while the code is actually redeemable.
         ((window.DIT_DATES && window.DIT_DATES.offerLive && window.DIT_DATES.offerLive())
-          ? " — along with 10% off." : ".") + "</p>" +
-        "<p class=\"custom-gate-fine\">In a hurry, or asking about a date before then? " +
-        "<a href=\"index.html#contact\">Send me a note</a> and we'll work it out.</p>";
+          ? " — along with 10% off." : ".") + "</p>";
       fields.disabled = true;
     }
   }
@@ -104,7 +116,7 @@
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     if (!isOpen) {
-      setStatus("Custom orders open " + opensLabel + " — join the Nest and you'll hear first.", "err");
+      setStatus("Custom orders open " + opensLabel + " — but send me a note now and I'll have a price ready for you that morning.", "err");
       return;
     }
     var data = new FormData(form);
