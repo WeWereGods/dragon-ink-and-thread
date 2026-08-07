@@ -221,7 +221,7 @@ window.DIT_SHOP = {
     "sleeve-reading-nook": {
       alt: "Handmade padded book sleeve pieced from toffee windowpane, coffee-print and cinnamon marble fabrics, with an open top",
       blurb: "Somewhere soft for whatever you're in the middle of. It's padded all the way round, so the rest of your bag stops pressing against the cover, and the top is left open on purpose — no button, no snap, nothing to undo when you've got one hand free and five minutes to read. Pieced from three of the coffee prints: Toffee Windowpane, The Daily Grind and Cinnamon Marble.",
-      details: "Padded throughout · open top, no closure, so it slides out one-handed · pieced from Toffee Windowpane, The Daily Grind and Cinnamon Marble · machine wash cold, hang to dry.",
+      details: "12″ × 8.5″ · comfortably takes a hardback, a paperback or an e-reader · padded throughout · open top, no closure, so it slides out one-handed · pieced from Toffee Windowpane, The Daily Grind and Cinnamon Marble · machine wash cold, hang to dry.",
       images: [
         "assets/sleeve-reading-nook.jpg",
         "assets/sleeve-reading-nook-2.jpg"
