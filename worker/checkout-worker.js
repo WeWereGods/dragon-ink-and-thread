@@ -43,6 +43,7 @@ const PRICES = {
   "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", amount: 1200 },
   "bow-blushing-linen":    { name: "Blushing Linen Bow",       amount: 1200 },
   "bandana-storykeeper":   { name: "The Storykeeper Bandana",  amount: 1800 },
+  "sleeve-reading-nook":   { name: "Reading Nook Sleeve",      amount: 2800 },
 };
 
 /* Prints a "Build Your Own Bundle" may be built from: id → the short label
@@ -61,15 +62,28 @@ const PICKABLE = {
 };
 
 /* Shipping, in CENTS. One fee per order (never per item).
-     SHIP_STANDARD  — the order has a tote, so it needs a real mailer.
-     SHIP_SMALL     — scrunchies/bows only; fits a small poly mailer, so a
-                      $6.50 fee on a $6 scrunchie stops looking absurd.
+     SHIP_STANDARD  — the order holds something that needs a real mailer.
+     SHIP_SMALL     — scrunchies/bows/bandanas only; fits a small poly mailer,
+                      so a $6.50 fee on a $6 scrunchie stops looking absurd.
      FREE_SHIP_OVER — spend this much (before tax) and shipping is free.
                       Set to 0 to switch the free-shipping threshold off.
    Local pickup (San Antonio) is always $0 and is offered on every order. */
 const SHIP_STANDARD  = 650;
 const SHIP_SMALL     = 450;
 const FREE_SHIP_OVER = 5000;
+
+/* Which ids need the bigger mailer, by id prefix. This was a bare check for
+   `tote-` until the Reading Nook Sleeve (2026-08-07): it is padded and rigid,
+   so it posts like a tote despite being smaller and cheaper than one. A new
+   category lands on SHIP_SMALL unless its prefix is listed here — so when you
+   add one, decide which tier it belongs in rather than letting the default
+   pick for you.
+   ⚠️ js/cart.js mirrors this list (SHIPPING.standardPrefixes in
+   js/shop-data.js) to write the drawer's shipping line. Change both together
+   or the drawer will quote a fee the customer is not charged. */
+const SHIP_STANDARD_PREFIXES = ["tote-", "sleeve-"];
+const needsBigMailer = (id) =>
+  SHIP_STANDARD_PREFIXES.some((p) => String(id).indexOf(p) === 0);
 
 /* AWAY WINDOWS — dates the owner is travelling (added 2026-08-06).
    Local pickup is the one thing that genuinely breaks while she's away: a
@@ -145,7 +159,7 @@ export default {
     const params = new URLSearchParams();
     let n = 0;
     let subtotal = 0;    // cents, pre-tax — decides the free-shipping threshold
-    let hasTote = false; // a tote needs the bigger (dearer) mailer
+    let bigMailer = false; // something in the cart needs the bigger (dearer) mailer
     for (const it of items) {
       const p = PRICES[it && it.id];
       if (!p) continue;
@@ -170,7 +184,7 @@ export default {
       }
 
       subtotal += p.amount * qty;
-      if (String(it.id).indexOf("tote-") === 0) hasTote = true;
+      if (needsBigMailer(it.id)) bigMailer = true;
       params.append(`line_items[${n}][quantity]`, String(qty));
       params.append(`line_items[${n}][price_data][currency]`, "usd");
       params.append(`line_items[${n}][price_data][unit_amount]`, String(p.amount));
@@ -189,7 +203,7 @@ export default {
     params.append("shipping_address_collection[allowed_countries][0]", "US");
     // One shipping fee per order + the local-pickup option. The fee depends on
     // what's in the cart (see the SHIP_* constants at the top of this file).
-    let shipAmount = hasTote ? SHIP_STANDARD : SHIP_SMALL;
+    let shipAmount = bigMailer ? SHIP_STANDARD : SHIP_SMALL;
     let shipLabel = "Standard shipping";
     if (FREE_SHIP_OVER > 0 && subtotal >= FREE_SHIP_OVER) {
       shipAmount = 0;

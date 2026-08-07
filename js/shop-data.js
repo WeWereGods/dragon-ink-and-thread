@@ -43,7 +43,10 @@ window.DIT_SHOP = {
      and tools/build-products.js (the free-shipping line on product pages), so
      the number lives in ONE place on the client instead of being retyped in
      each of them. */
-  SHIPPING: { standard: 6.5, small: 4.5, freeOver: 50 },
+  /* standardPrefixes = ids that need the bigger mailer and so pay `standard`.
+     Anything else pays `small`. MIRRORS SHIP_STANDARD_PREFIXES in
+     worker/checkout-worker.js, which is what a customer is actually charged. */
+  SHIPPING: { standard: 6.5, small: 4.5, freeOver: 50, standardPrefixes: ["tote-", "sleeve-"] },
 
   PRODUCTS: {
     "tote-storykeeper":   { name: "The Storykeeper",   price: 32.0, art: "📚" },
@@ -68,7 +71,8 @@ window.DIT_SHOP = {
     "bow-roasted-roses":     { name: "Roasted Roses Bow",       price: 12.0, art: "🌹" },
     "bow-daily-grind-ivory": { name: "Daily Grind Bow in Ivory", price: 12.0, art: "☕" },
     "bow-blushing-linen":    { name: "Blushing Linen Bow",      price: 12.0, art: "🎀" },
-    "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" }
+    "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
+    "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" }
   },
 
   VARIANTS: {
@@ -213,6 +217,15 @@ window.DIT_SHOP = {
         "assets/bandana-storykeeper-2.jpg",
         "assets/bandana-storykeeper-3.jpg"
       ]
+    },
+    "sleeve-reading-nook": {
+      alt: "Handmade padded book sleeve pieced from toffee windowpane, coffee-print and cinnamon marble fabrics, with an open top",
+      blurb: "Somewhere soft for whatever you're in the middle of. It's padded all the way round, so the rest of your bag stops pressing against the cover, and the top is left open on purpose — no button, no snap, nothing to undo when you've got one hand free and five minutes to read. Pieced from three of the coffee prints: Toffee Windowpane, The Daily Grind and Cinnamon Marble.",
+      details: "Padded throughout · open top, no closure, so it slides out one-handed · pieced from Toffee Windowpane, The Daily Grind and Cinnamon Marble · machine wash cold, hang to dry.",
+      images: [
+        "assets/sleeve-reading-nook.jpg",
+        "assets/sleeve-reading-nook-2.jpg"
+      ]
     }
   },
 
@@ -244,7 +257,8 @@ window.DIT_SHOP = {
     "bow-roasted-roses":     "cart",
     "bow-daily-grind-ivory": "cart",
     "bow-blushing-linen":    "cart",
-    "bandana-storykeeper":   "cart"
+    "bandana-storykeeper":   "cart",
+    "sleeve-reading-nook":   "cart"
   },
 
   /* Prints a "Build Your Own Bundle" can be built from — the options in the
@@ -269,6 +283,8 @@ window.DIT_SHOP = {
       ids: ["bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
             "bow-gingham", "bow-sage-gingham"  ] },
     { label: "Pet Bandanas", note: "Over-the-collar bandanas in the same storybook prints — for the one who waits by the door.",
-      ids: ["bandana-storykeeper"] }
+      ids: ["bandana-storykeeper"] },
+    { label: "Book Sleeves", note: "Padded, open-topped, and somewhere soft for whatever you're in the middle of.",
+      ids: ["sleeve-reading-nook"] }
   ]
 };

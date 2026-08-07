@@ -37,7 +37,17 @@
   function find(id) { for (var i = 0; i < cart.length; i++) { if (cart[i].id === id) return cart[i]; } return null; }
   function count() { return cart.reduce(function (s, x) { return s + x.qty; }, 0); }
   function subtotal() { return cart.reduce(function (s, x) { var p = PRODUCTS[x.id]; return s + (p ? p.price : 0) * x.qty; }, 0); }
-  function hasTote() { for (var i = 0; i < cart.length; i++) { if (cart[i].id.indexOf("tote-") === 0) return true; } return false; }
+  /* Which ids pay the standard fee. Mirrors SHIP_STANDARD_PREFIXES in the
+     Worker — this only writes the drawer's wording; the Worker sets the price. */
+  var STD_PREFIXES = SHIP.standardPrefixes || ["tote-"];
+  function needsBigMailer() {
+    for (var i = 0; i < cart.length; i++) {
+      for (var p = 0; p < STD_PREFIXES.length; p++) {
+        if (cart[i].id.indexOf(STD_PREFIXES[p]) === 0) return true;
+      }
+    }
+    return false;
+  }
 
   /* The shipping line under the subtotal. When free shipping is within reach,
      say how much is left — that nudge is the whole point of the threshold. */
@@ -46,7 +56,7 @@
     if (FREE_SHIP_OVER > 0 && sub >= FREE_SHIP_OVER) {
       return "<strong>Free shipping</strong> on this order &mdash; tax calculated at checkout.";
     }
-    var fee = hasTote() ? SHIP_STANDARD : SHIP_SMALL;
+    var fee = needsBigMailer() ? SHIP_STANDARD : SHIP_SMALL;
     var note = "Shipping " + money(fee) + " (one fee per order) &amp; tax calculated at checkout.";
     if (FREE_SHIP_OVER > 0) {
       note += " Add <strong>" + money(FREE_SHIP_OVER - sub) + "</strong> more for free shipping.";
