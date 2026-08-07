@@ -73,7 +73,7 @@ window.DIT_SHOP = {
     "bow-blushing-linen":    { name: "Blushing Linen Bow",      price: 12.0, art: "🎀" },
     "bow-something-blue":    { name: "Something Blue Bow",      price: 12.0, art: "🎀" },
     "bow-sidra-vines":       { name: "Sidra Vines Bow",         price: 12.0, art: "🎀" },
-    "bow-afternoon-tea":     { name: "Afternoon Tea Bow",       price: 12.0, art: "🫖" },
+    "bow-porcelain-roses":   { name: "Porcelain Roses Bow",     price: 12.0, art: "🌹" },
     "bow-lace-of-velaris":   { name: "Lace of Velaris Bow",     price: 12.0, art: "🎀" },
     "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐" },
     "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖" },
@@ -215,38 +215,38 @@ window.DIT_SHOP = {
       images: ["assets/bow-blushing-linen.jpg"]
     },
     "bow-something-blue": {
-      alt: "Handmade sailor bow in a cream cotton scattered with small blue roses and sprigs",
-      blurb: "Small blue roses trailing over cream, the way they'd look pressed into an old book and forgotten there. The quietest bow of the five, and the one that goes with everything.",
+      alt: "Handmade sailor bow in pale blue cotton with a fine white-and-blue lace floral pattern",
+      blurb: "The palest of the five — soft powder blue under a fine lace-like tracery of flowers, so light it reads almost silver from across a room. The one to reach for when you want the bow noticed but not announced.",
       details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-something-blue.jpg", "assets/bow-something-blue-2.jpg"]
     },
     "bow-sidra-vines": {
-      alt: "Handmade sailor bow in white cotton with bold cobalt-blue floral bouquets",
-      blurb: "Full cobalt bouquets on white — the boldest blue in the set, and the one that reads from across a room. If the others are a whisper, this is the sentence said out loud.",
+      alt: "Handmade sailor bow in cornflower-blue cotton with fine white trailing rose vines",
+      blurb: "Fine white vines trailing endlessly over cornflower blue, small roses tucked in where they fall — a pattern you keep turning to follow, like something painted round the side of a teacup.",
       details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-sidra-vines.jpg", "assets/bow-sidra-vines-2.jpg"]
     },
-    "bow-afternoon-tea": {
-      alt: "Handmade sailor bow in a pale blue and cream lace-patterned floral cotton",
-      blurb: "Pale blue lacework and little flowers on cream, like the good china that only comes out for company. Soft enough to wear every day anyway.",
+    "bow-porcelain-roses": {
+      alt: "Handmade sailor bow in cream cotton scattered with small blue roses and sprigs",
+      blurb: "Small blue roses trailing over cream, the way they'd look pressed into an old book and forgotten there. The quietest bow of the five, and the one that goes with everything.",
       details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
-      images: ["assets/bow-afternoon-tea.jpg", "assets/bow-afternoon-tea-2.jpg"]
+      images: ["assets/bow-porcelain-roses.jpg", "assets/bow-porcelain-roses-2.jpg"]
     },
     "bow-lace-of-velaris": {
-      alt: "Handmade sailor bow in cornflower-blue cotton with white lace medallions and flowers",
-      blurb: "White lace medallions blooming over cornflower blue — the reverse of the others, dark ground and light pattern, which is why it's the one that stands out in the stack.",
+      alt: "Handmade sailor bow in mid-blue cotton covered with white lace medallions and scalloped bands",
+      blurb: "White lace medallions and scalloped bands blooming right across mid-blue — the densest pattern of the five, and the one that looks most like a plate you'd never quite dare eat off.",
       details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-lace-of-velaris.jpg", "assets/bow-lace-of-velaris-2.jpg"]
     },
     "bow-suriels-bouquet": {
-      alt: "Handmade sailor bow in blue cotton with fine white trailing floral vines",
-      blurb: "Fine white vines trailing over deep blue, small and endless, like a pattern on a teacup you keep turning to follow. Deepest colour of the five.",
+      alt: "Handmade sailor bow in cream cotton with large cobalt-blue floral bouquets",
+      blurb: "Full cobalt bouquets thrown across cream — the boldest of the five, and the one that reads from across a room. If the others are a whisper, this is the sentence said out loud.",
       details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-suriels-bouquet.jpg", "assets/bow-suriels-bouquet-2.jpg"]
     },
     "bow-suriel-set": {
       alt: "Five handmade sailor bows in blue and white floral cottons, laid out together on pale wood",
-      blurb: "All five. One bow in every print of the Tea with the Suriel collection — Something Blue, Sidra Vines, Afternoon Tea, Lace of Velaris and Suriel's Bouquet — for $55 instead of $60. They were cut from the same five bolts on the same afternoon, and once one of them goes the set isn't a set any more.",
+      blurb: "All five. One bow each in Something Blue, Sidra Vines, Porcelain Roses, Lace of Velaris and Suriel's Bouquet — five of the blues from the Tea with the Suriel collection, for $55 instead of $60. They were cut from the same five bolts on the same afternoon, and once one of them goes the set isn't a set any more.",
       details: "Five bows · 6″ long × 6″ wide each · all on slide-in clips · spot clean only · store away from direct sun to keep color true. Ships free.",
       images: ["assets/bow-suriel-set.jpg"]
     },
@@ -301,7 +301,7 @@ window.DIT_SHOP = {
     "bow-blushing-linen":    "cart",
     "bow-something-blue":    "cart",
     "bow-sidra-vines":       "cart",
-    "bow-afternoon-tea":     "cart",
+    "bow-porcelain-roses":   "cart",
     "bow-lace-of-velaris":   "cart",
     "bow-suriels-bouquet":   "cart",
     "bow-suriel-set":        "cart",
@@ -328,7 +328,7 @@ window.DIT_SHOP = {
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower", "scrunchie-strawberry",
             "scrunchie-bundle", "scrunchie-byo-bundle"] },
     { label: "Bows",       note: "Hand-tied sailor bows with finished edges, in storybook prints.",
-      ids: ["bow-suriel-set", "bow-something-blue", "bow-sidra-vines", "bow-afternoon-tea", "bow-lace-of-velaris",
+      ids: ["bow-suriel-set", "bow-something-blue", "bow-sidra-vines", "bow-porcelain-roses", "bow-lace-of-velaris",
             "bow-suriels-bouquet",
             "bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
             "bow-gingham", "bow-sage-gingham"  ] },
