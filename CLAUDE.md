@@ -140,8 +140,9 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
     shop.html only (homepage teaser links there).
   - **Tiered shipping (2026-07-30):** the fee now depends on the cart, set by the
     `SHIP_STANDARD` / `SHIP_SMALL` / `FREE_SHIP_OVER` constants at the top of
-    worker/checkout-worker.js — **$6.50** if any `tote-*` id is in the cart, **$4.50** for
-    scrunchies/bows only (fits a small mailer), **free** at a subtotal ≥ **$50**
+    worker/checkout-worker.js — **$6.50** if the cart holds anything whose id starts with a
+    prefix in **`SHIP_STANDARD_PREFIXES`** (`tote-`, `sleeve-` as of 2026-08-07), **$4.50** for
+    scrunchies/bows/bandanas only (fits a small mailer), **free** at a subtotal ≥ **$50**
     (`FREE_SHIP_OVER = 0` turns the threshold off). Local pickup stays $0 on every order.
     **js/cart.js mirrors these three numbers** (in DOLLARS, not cents) purely to write the
     drawer's shipping line — including the "Add $X more for free shipping" nudge. The Worker
@@ -310,6 +311,13 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       The Storykeeper tote. Over-the-collar, **size Large, fits an 18″–23″ neck; small/medium
       made to order.** Ships on the $4.50 small tier (no `tote-` prefix). A sunflower gingham one
       was made 2026-08-04 and **sold before it was ever listed** — don't add it.
+    - **Book Sleeves** — a FIFTH category, added 2026-08-07. The Reading Nook Sleeve
+      (`sleeve-reading-nook`, **$28**, 2 photos), **12″ × 8.5″**, quilted and padded, **open top
+      with no closure** so it comes out one-handed. The Daily Grind outside under a Cinnamon
+      Marble band, lined in Toffee Windowpane. **Ships on the $6.50 standard tier** — padded and
+      rigid, so it posts like a tote; that's what `SHIP_STANDARD_PREFIXES` exists for. It also
+      fills the empty $20–30 band, so a sleeve + a bow clears $40 and the free-shipping nudge
+      finally has something to push toward.
 - **CUSTOM price bands (owner-supplied 2026-08-05, live on custom.html in TWO places — the
   `custom-price-list` and the one-line summary above the form; change both together):**
   Totes **$50–100** · Bows **$13–20** · Scrunchies **$6–12** · Pet bandanas **$20–25**.
@@ -362,8 +370,11 @@ except where noted.
    `#<slug>` anchor are both generated from `catSlug(label)`, so shop.html needs no hand-editing
    (done 2026-08-05 for **Pet Bandanas**). Two things do NOT follow automatically: a `Product`
    JSON-LD block in index.html `<head>`, and the shipping tier — the Worker charges
-   `SHIP_STANDARD` only for ids starting `tote-`, so any new category lands on `SHIP_SMALL`.
-   Check that's actually right for what you're posting.
+   `SHIP_STANDARD` only for ids whose prefix is in **`SHIP_STANDARD_PREFIXES`**, so any new
+   category lands on `SHIP_SMALL` unless you add its prefix there (and in
+   `SHIPPING.standardPrefixes` in js/shop-data.js, which the cart drawer reads).
+   **Decide the tier deliberately** — it was a bare `tote-` test until the Reading Nook Sleeve
+   needed tote postage on 2026-08-07, and the default would have quietly undercharged it.
 6. **`PRICES` in `worker/checkout-worker.js`** (in **CENTS**) — ⚠️ **the Worker rejects any id it
    doesn't know, so checkout fails without this**, however good the rest looks.
 7. **`wrangler deploy`** from `worker/` — step 6 does nothing until this runs.
