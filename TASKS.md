@@ -71,7 +71,9 @@ Two rules that keep this useful:
       currently invisible. One line in `details` fixes it.
 - [ ] **If the Aug 21–24 trip is cancelled, Sat Aug 22 reopens as a launch date** — it was the
       first choice before the travel ruled it out, and it's a week earlier than Aug 29.
-- [ ] **What to make next.** Recommendation on 2026-08-06 was **e-reader / book sleeves**: you
+- [x] **What to make next — DECIDED, and the first one is live.** The **Reading Nook Sleeve**
+      ($28, `sleeve-reading-nook`) opened a fifth category, Book Sleeves, on 2026-08-07.
+      Next in that direction: zip pouches, then more totes. The reasoning that picked it:
       hold a five-star review for the Road Trip Kindle Case that nobody can buy, it's the right
       audience, and it fills the empty $20–30 band that makes two-item baskets clear the $50
       free-shipping threshold. Then zip pouches, then more totes.
