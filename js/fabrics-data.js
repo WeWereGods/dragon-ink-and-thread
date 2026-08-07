@@ -8,6 +8,9 @@
      3. node tools/build-fabrics.js     (regenerates fabrics.html)
      4. node tools/bump-assets.js       (restamps cache tokens)
 
+   A FOLDER OF NEW PHOTOS: node tools/import-fabrics.js <folder> does all of
+   that for you — resize, rotate, number, and add them here to be named.
+
    REMOVE ONE when the bolt runs out: delete its entry and re-run. Better to
    remove it than to have someone fall in love with fabric you no longer have.
 
@@ -125,6 +128,18 @@ window.DIT_FABRICS = {
         { file: "fabric-67.jpg", name: "Pumpkin Patch Picnic" },
         { file: "fabric-68.jpg", name: "Postmarked Sunshine" },
         { file: "fabric-66.jpg", name: "Amber Wildflowers" }
+      ]
+    },
+    {
+      label: "Unsorted — name these",
+      note: "Just imported — give these their names.",
+      items: [
+        { file: "fabric-69.jpg", name: "IMG_7380" },
+        { file: "fabric-70.jpg", name: "IMG_7381" },
+        { file: "fabric-71.jpg", name: "IMG_7382" },
+        { file: "fabric-72.jpg", name: "IMG_7383" },
+        { file: "fabric-73.jpg", name: "IMG_7384" },
+        { file: "fabric-74.jpg", name: "IMG_7385" }
       ]
     }
   ]
