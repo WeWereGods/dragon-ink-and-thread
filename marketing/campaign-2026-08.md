@@ -562,13 +562,17 @@ Showing a finished Medium is what tells a small-dog household this is for them.*
 > lovely if your dog is a shepherd and no use at all if yours fits in the crook of your arm. So
 > here's proof the smaller sizes are real.
 >
-> **Medium — Toffee Windowpane.** Fits a 13 to 18 inch neck. A warm brown check, quiet and a
-> bit tweedy. The one for a dog who'd rather look like he's going to the pub than to a party.
+> **Medium — Toffee Windowpane.** Fits a 13 to 18 inch neck. A warm brown plaid, quiet and a
+> bit tweedy — the one for a dog who'd rather look like he's going to the pub than to a party.
+> Reversible, and the same plaid both sides, so there's no wrong way round.
 >
 > **Large — Brew and Bloom, reversible.** Fits an 18 to 23 inch neck. Lattes and pale flowers
 > on cream on one side; turn it round and it's Blushing Linen, a soft dusty pink, for the days
 > that call for something quieter. Two bandanas on one collar. Made for the dog who lies under
 > the table while you have your first cup of the morning.
+>
+> Both of these are **reversible**, which the Storykeeper one isn't — so if you've bought from
+> me before, these are finished differently, on purpose.
 >
 > Between the two of them that's 13 to 23 inches, which covers most of the dogs I know. $18 each.
 >

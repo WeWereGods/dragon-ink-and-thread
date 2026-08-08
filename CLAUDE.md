@@ -323,6 +323,10 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       Linen). The two sizes meet at 18″, so the range is continuous — the Medium is the first
       one in stock that isn't a Large, which is what makes small-dog households a real audience
       rather than a "made to order" footnote.
+      ⚠️ **Both new ones are REVERSIBLE; the Storykeeper is NOT** — Brew and Bloom flips to
+      Blushing Linen, Toffee Windowpane is the same plaid on both sides. The Storykeeper's
+      listing now says single-sided in as many words, because a returning customer comparing the
+      three would otherwise assume they are built the same way.
     - **Book Sleeves** — a FIFTH category, added 2026-08-07. The Reading Nook Sleeve
       (`sleeve-reading-nook`, **$28**, 2 photos), **12″ × 8.5″**, quilted and padded, **open top
       with no closure** so it comes out one-handed. The Daily Grind outside under a Cinnamon

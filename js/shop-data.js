@@ -255,7 +255,7 @@ window.DIT_SHOP = {
     "bandana-storykeeper": {
       alt: "Handmade pet bandana printed with antique books and potion bottles, shown flat and worn by a black dog",
       blurb: "The Storykeeper print, cut down for the smallest reader in the house — shelves of antique books and potion bottles on deep black. It slips over the collar they already wear, so there's nothing to tie and nothing to lose. Matches the tote of the same name. This one is a Large; small and medium can be made to order, so just ask.",
-      details: "Size Large · fits an 18″–23″ neck · small and medium available on request · slips over the collar · machine wash cold, hang to dry.",
+      details: "Size Large · fits an 18″–23″ neck · single-sided, not reversible (unlike the Toffee Windowpane and Brew and Bloom bandanas) · small and medium available on request · slips over the collar · machine wash cold, hang to dry.",
       images: [
         "assets/bandana-storykeeper.jpg",
         "assets/bandana-storykeeper-2.jpg",
@@ -264,8 +264,8 @@ window.DIT_SHOP = {
     },
     "bandana-toffee-windowpane": {
       alt: "Handmade pet bandana in a warm brown plaid, with a gathered channel that slips over a collar",
-      blurb: "Toffee brown plaid crossed with fine cream lines — quiet, a little tweedy, and the one for a dog who'd rather look like he's off to the pub than to a party. The top is gathered into a channel, so it slides straight onto the collar he already wears: nothing to tie, nothing to work loose halfway round the block.",
-      details: "Size Medium · fits a 13″–18″ neck · gathered channel slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
+      blurb: "Toffee brown plaid crossed with fine cream lines — quiet, a little tweedy, and the one for a dog who'd rather look like he's off to the pub than to a party. Reversible, and finished in the same plaid on both sides — so there's no wrong way round and no lining to go grubby. The top is gathered into a channel, so it slides straight onto the collar he already wears: nothing to tie, nothing to work loose halfway round the block.",
+      details: "Size Medium · fits a 13″–18″ neck · REVERSIBLE, finished in the same toffee plaid on both sides, so there is no wrong way round · gathered channel slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
       images: ["assets/bandana-toffee-windowpane.jpg", "assets/bandana-toffee-windowpane-2.jpg", "assets/bandana-toffee-windowpane-3.jpg"]
     },
     "bandana-brew-and-bloom": {
