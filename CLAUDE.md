@@ -488,6 +488,31 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
     leaving. Needs `consent_collection[promotions]='auto'`. Both 2026-08-05 carts had
     `customer_details: null` — they left before typing anything, so recovery would NOT have
     reached either of them. Temper expectations about what this recovers.
+  - **MEASURED 2026-08-08, whole account history — 31 Checkout sessions: 5 paid, 25 expired,
+    1 open.** Read from the Stripe API, not estimated.
+    - ⚠️ **ZERO of the 26 unpaid sessions captured an email.** Not one. Every session carries
+      `consent_collection.promotions: "none"` and `after_expiration: null`, so no recovery URL
+      was ever minted and there would have been nobody to send one to. The 2-cart finding above
+      now holds at 26 for 26. **This is the number that decides whether recovery is worth
+      building**: as things stand it would recover nothing, and it only starts working for carts
+      abandoned AFTER the consent box is switched on.
+    - Where they leave is now known: Stripe collects the email **on the payment page**, so these
+      people reached that page and left before typing. They bounced at first sight of the real
+      total, not mid-form.
+    - **The raw 25 badly overstates it.** The expired sessions cluster on build days — eight on
+      Jul 29 (cart + Worker went live), including `$45` three times and a `$141.50`, two in the
+      same minute; three on Jul 30 (tiered shipping day), `$41.50` twice six minutes apart; six
+      on Jul 14–15 before the cart existed. Those are almost certainly the owner's own testing.
+      One "sale" is a self-test too (`dragoninkandthread@gmail.com`, Jul 15, $10.10).
+    - **Genuine abandonments look like seven:** Jul 30 $19.50 · Aug 2 $21.11 · Aug 2 $45.05 ·
+      Aug 4 $38.50 · Aug 5 $16.56 · Aug 5 $12.00 · Aug 7 $34.50 (still open). Against 4 real
+      sales that is **~36% of people who reach the payment page paying** — unremarkable for a
+      shop this young, and not the emergency the raw count suggests.
+    - Worth a squint: `$45.05`, and `$41.50` twice, all sit **just under the $50 free-shipping
+      line**, where the buyer is shown $6.50 postage they could have avoided. The drawer's
+      "add $X more" nudge only appears once the drawer is open — never on the Stripe page where
+      they actually left. **Surfacing that earlier is a cheaper experiment than recovery**, and
+      it does not need consent, a webhook, or a privacy-policy change.
   - Build: add `after_expiration[recovery][enabled]` (+ optional `allow_promotion_code`) and
     `consent_collection` to the session in worker/checkout-worker.js; handle
     `checkout.session.expired` on the **existing `/webhook` route** (it already verifies the Stripe

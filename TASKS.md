@@ -95,6 +95,12 @@ Two rules that keep this useful:
 
 - **Abandoned-cart recovery.** Researched and deferred 2026-08-06. Full notes in `CLAUDE.md`,
   including the two things that are easy to get wrong. Don't re-research it.
+  **Measured 2026-08-08:** 31 Checkout sessions ever — 5 paid, 25 expired, 1 open, and **none of
+  the 26 unpaid ones captured an email**. Most of the expired ones are build-day testing; about
+  seven look real, which is ~36% of people reaching the payment page actually paying. So
+  recovery would currently reach nobody, and would only start working for carts abandoned after
+  the consent box is turned on. The cheaper experiment first: three of the abandons sat just
+  under the $50 free-shipping line.
 - **Selling patterns.** Digital goods owe EU VAT from the first sale, so it needs a merchant
   of record. Parked deliberately.
 
