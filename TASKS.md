@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-06.**
+**Last reviewed: 2026-08-08.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -39,8 +39,10 @@ Two rules that keep this useful:
 
 - [ ] **Pet bandana post — Instagram + Facebook.** Images and captions both done 2026-08-06.
       Carousel order: shepherd → second shot → flat lay. Ghost is named in the caption.
-- [ ] **Five bows post** — assets and captions done. Run it a couple of days after the bandana,
-      not the same day.
+- [ ] **Five bows post** — the Aug 5 bows (Cauldron Forged, Toffee Plaid, Roasted Roses, Daily
+      Grind in Ivory, Blushing Linen). Assets and captions done. Run it a couple of days after
+      the bandana, not the same day. **Not to be confused with the Tea with the Suriel five**,
+      which is the Mon Aug 11 post in `marketing/fabric-collections-2026-08.md`.
 - [ ] **TikTok DM from "The Stationary Corner"** (2026-08-05) — unclear whether it was answered.
 
 ---
@@ -56,17 +58,12 @@ Two rules that keep this useful:
       This resolves itself the day the set sells or the day you split it — until then it is a
       live race, and it is the only overselling risk in the shop.
 
-- [ ] **GitHub Pages outage (2026-08-06).** Five commits queued — the Aug 17 launch date, the
-      away banner, the second-trip removal. Nothing is broken live; the last good build is
-      serving. **Must be published before Fri Aug 14** for the away banner to appear.
-      If Pages recovers and it still hasn't gone out, push again.
-- [x] **The four new fabric collections are in — 53 → 65 prints** (imported 2026-08-06 with
-      `node tools/import-fabrics.js`). Each collection is its own group on fabrics.html, so the
+- [x] **The library is at 71 prints across 7 groups** (53 → 65 → 71, imported 2026-08-06/07 with
+      `node tools/import-fabrics.js`, live 2026-08-07). Each collection is its own group so the
       filter buttons match how the fabric is bought: **Once Upon a Woodland** 3, **Tea with the
-      Suriel** 5, **Postcards and Pumpkins** 3. **Blush and Whiskers** is a single print, filed
-      under Creatures & Curiosities.
-- [ ] **Merge the fabric branch to `main`** — it's all on `claude/email-3-draft-7qis82` and
-      the site deploys from `main`, so none of the 12 new prints are public yet.
+      Suriel** 6, **Postcards and Pumpkins** 4. Six later arrivals were filed into the existing
+      groups. ⚠️ "71" is hand-typed in `emails/custom-orders-enquiry.md` (twice) and `CLAUDE.md`
+      — everything on fabrics.html generates itself.
 - [ ] **Confirm Stripe auto-payouts took (from ~Aug 10).** Switched from manual on 2026-08-06.
       Proof: a payout appears around Aug 10 when the ~$144.57 clears, *without anyone requesting
       it*. If it just sits there, the setting didn't save.
