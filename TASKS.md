@@ -15,9 +15,31 @@ Two rules that keep this useful:
       $97.43 paid 2026-08-05 (invoice `VBQJFYMO-0001`, $100 less $10 for the pair, plus tax).
       Terms are 10–14 days from acceptance → **due ~Aug 15–19**. She's local (San Antonio).
       ⚠️ Away Aug 14–16, so the real window is **Aug 17–19**.
-- [ ] **Aubrea Pritt — 3 custom bow clips.** $36 paid 2026-08-05 (invoice `85VBHJQE-0001`).
-      Oakdale, **California** — these post, they aren't collected. Same week.
+      - **2026-08-08: the first tote is FINISHED**, photo sent, waiting on her approval before
+        the wheelchair tote is started. That's the process working as written — nothing moves
+        until she's seen it.
+      - ⚠️ **Don't let the wait be silent.** If there's no reply by **Mon Aug 11**, nudge once.
+        Two pieces in one order and only one of them started is the half that can still slip,
+        and she is local, so a pickup date is easy to agree once she's happy.
+      - 📸 **Photograph it properly before it leaves.** The Aug 29 broadcast is written to lead
+        with a real finished custom piece (§8 of `marketing/campaign-2026-08.md`), and right now
+        this is the only one that exists.
+- [ ] ⚠️ **Aubrea Pritt — 3 custom bow clips. BLOCKED ON FABRIC.** $36 paid 2026-08-05
+      (invoice `85VBHJQE-0001`). Oakdale, **California** — these post, they aren't collected.
       She's also the five-star review already on the homepage, so this order is worth getting right.
+      - **2026-08-08: the fabric still hasn't arrived.** Bow clips are quick once it's here, so
+        the make time isn't the problem — the delivery is, and it is the one part of this you
+        don't control.
+      - **The squeeze:** due ~Aug 15–19, and Aug 14–16 is a trip. If the fabric lands by
+        **Wed Aug 12** there's time to sew before leaving. If it lands after, the work happens
+        Aug 17–19 — still inside the window, but with no slack at all, and against Maurya's
+        two totes in the same days.
+      - **Do this today: check the tracking.** If it hasn't shipped, tell Aubrea now.
+        `emails/custom-orders-enquiry.md` promises "if I can't hit a date you need, I'll tell you
+        before you commit, not after" — the same honesty applies after. A message on the 8th
+        saying a supplier is slow reads as care; the same message on the 19th reads as an excuse.
+      - There is no template for this in `emails/order-updates.md`; those cover shipped, pickup
+        and the follow-up. Write it plainly, one short paragraph.
 
 ---
 
