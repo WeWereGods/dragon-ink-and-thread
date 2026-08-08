@@ -49,19 +49,43 @@
     return false;
   }
 
-  /* The shipping line under the subtotal. When free shipping is within reach,
-     say how much is left — that nudge is the whole point of the threshold. */
+  /* The shipping line under the subtotal — the plain facts, quietly.
+     The free-shipping nudge is NOT in here any more; it has its own element
+     (see nudgeMarkup) because it was a clause in the middle of a grey
+     paragraph, which is a place people do not read. */
   function shipNote() {
     var sub = subtotal();
     if (FREE_SHIP_OVER > 0 && sub >= FREE_SHIP_OVER) {
-      return "<strong>Free shipping</strong> on this order &mdash; tax calculated at checkout.";
+      return "Tax calculated at checkout.";
     }
     var fee = needsBigMailer() ? SHIP_STANDARD : SHIP_SMALL;
-    var note = "Shipping " + money(fee) + " (one fee per order) &amp; tax calculated at checkout.";
-    if (FREE_SHIP_OVER > 0) {
-      note += " Add <strong>" + money(FREE_SHIP_OVER - sub) + "</strong> more for free shipping.";
+    return "Shipping " + money(fee) + " (one fee per order) &amp; tax calculated at checkout. " +
+           "Local to San Antonio? Choose <strong>Local pickup</strong> to skip shipping.";
+  }
+
+  /* THE FREE-SHIPPING NUDGE (2026-08-08).
+     Stripe's own history says three abandoned carts sat just under the $50
+     line — the shopper reached the payment page, was shown $6.50 of postage
+     they could have avoided for a few dollars more, and left. The information
+     was already in the drawer; it was just set in the same small grey type as
+     the tax note, in the middle of a sentence.
+     So it gets its own block, a progress bar, and something to click. Shown
+     only while the threshold is live and reachable. */
+  function nudgeMarkup() {
+    if (!(FREE_SHIP_OVER > 0)) return "";
+    var sub = subtotal();
+    if (sub >= FREE_SHIP_OVER) {
+      return '<p class="cart-nudge is-won">Free shipping &mdash; this one\'s on me. &#10003;</p>';
     }
-    return note + " Local to San Antonio? Choose <strong>Local pickup</strong> to skip shipping.";
+    var left = FREE_SHIP_OVER - sub;
+    var pct = Math.max(0, Math.min(100, Math.round((sub / FREE_SHIP_OVER) * 100)));
+    return (
+      '<div class="cart-nudge">' +
+        '<p class="cart-nudge-text">You\'re <strong>' + money(left) + '</strong> from free shipping.</p>' +
+        '<div class="cart-nudge-track" role="presentation"><span style="width:' + pct + '%"></span></div>' +
+        '<button class="cart-nudge-link" type="button" data-cart-keep-looking>Keep looking &rarr;</button>' +
+      '</div>'
+    );
   }
 
   /* How many of this item one order may hold. Defaults to 1, so anything
@@ -98,7 +122,7 @@
   }
 
   /* ----- build the DOM (cart button in header, drawer + scrim) ----- */
-  var btn, badge, scrim, drawer, itemsEl, subtotalEl, shipNoteEl, checkoutBtn, emptyEl, footerEl;
+  var btn, badge, scrim, drawer, itemsEl, subtotalEl, shipNoteEl, nudgeEl, checkoutBtn, emptyEl, footerEl;
 
   function build() {
     // Cart button in the site header
@@ -131,6 +155,7 @@
       '<p class="cart-empty">Your basket is empty — <a href="shop.html">find something lovely</a>.</p>' +
       '<div class="cart-footer">' +
         '<div class="cart-subtotal-row"><span>Subtotal</span><span class="cart-subtotal">$0.00</span></div>' +
+        '<div class="cart-nudge-slot"></div>' +
         '<p class="cart-ship-note"></p>' +
         '<button class="btn btn-primary cart-checkout" type="button">Checkout →</button>' +
         '<p class="cart-checkout-note" role="status" aria-live="polite"></p>' +
@@ -144,6 +169,7 @@
     footerEl = drawer.querySelector(".cart-footer");
     subtotalEl = drawer.querySelector(".cart-subtotal");
     shipNoteEl = drawer.querySelector(".cart-ship-note");
+    nudgeEl = drawer.querySelector(".cart-nudge-slot");
     checkoutBtn = drawer.querySelector(".cart-checkout");
 
     btn.addEventListener("click", openDrawer);
@@ -151,6 +177,15 @@
     drawer.querySelector(".cart-close").addEventListener("click", closeDrawer);
     document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !drawer.hidden) closeDrawer(); });
     checkoutBtn.addEventListener("click", checkout);
+
+    /* "Keep looking" is the whole point of the nudge — telling someone they
+       are $4 short is useless if the next move is theirs to work out. On the
+       catalog it just closes the drawer; anywhere else it goes there. */
+    drawer.addEventListener("click", function (e) {
+      if (!e.target.closest("[data-cart-keep-looking]")) return;
+      closeDrawer();
+      if (!/shop\.html$/.test(location.pathname)) location.href = "shop.html";
+    });
 
     // Delegated qty/remove controls inside the drawer
     itemsEl.addEventListener("click", function (e) {
@@ -216,6 +251,7 @@
       );
     }).join("");
     subtotalEl.textContent = money(subtotal());
+    if (nudgeEl) nudgeEl.innerHTML = nudgeMarkup();
     if (shipNoteEl) shipNoteEl.innerHTML = shipNote();
   }
 

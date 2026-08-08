@@ -73,6 +73,30 @@ Two rules that keep this useful:
 
 ---
 
+## 🧪 Running experiment — free-shipping nudge (shipped 2026-08-08)
+
+The nudge used to be a clause inside the drawer's grey shipping paragraph. It is now its own
+honey panel with a progress bar and a "Keep looking →" button. Cost: one CSS block and one
+function. No consent, no webhook, no privacy-policy change — which is why it went first,
+ahead of abandoned-cart recovery.
+
+**Baseline, measured from the Stripe API on 2026-08-08** (whole account history, 31 sessions):
+- 4 real sales vs ~7 genuine abandonments → **~36% of people reaching the payment page paid**
+- **3 of those abandonments sat just under $50**: $45.05, and $41.50 twice
+- 0 of 26 unpaid sessions captured an email
+
+**Re-measure around 2026-09-08**, the same way — list Checkout sessions, drop the build-day
+test clusters, and ask two questions:
+1. Are carts still expiring in the $40–50 band? That band is what this targets.
+2. Has the average paid order moved? The nudge should push baskets up, not just convert them.
+
+⚠️ **A month of a small shop is a handful of sessions, so this cannot reach statistical
+significance.** Judge it on whether the $40–50 abandonments stop, and don't read anything into
+a single sale either way. If the band is still abandoning, the nudge is not the problem and
+recovery is worth reconsidering.
+
+---
+
 ## ⚪ Decisions open
 
 - [x] **Bows are on a slide-in clip** — answered 2026-08-07. There is no choice of elastic or

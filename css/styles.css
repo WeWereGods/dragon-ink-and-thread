@@ -1631,6 +1631,60 @@ h3 { font-size: 1.4rem; }
 .cart-footer { border-top: 1px solid var(--paper-deep); padding: 1rem 1.2rem 1.2rem; }
 .cart-subtotal-row { display: flex; justify-content: space-between; font-weight: 700; color: var(--ink); font-size: 1.05rem; margin-bottom: 0.5rem; }
 .cart-ship-note { font-size: 0.82rem; color: var(--ink-soft); margin: 0 0 0.8rem; line-height: 1.5; }
+
+/* Free-shipping nudge (2026-08-08). Was a clause inside .cart-ship-note, in
+   the same grey as the tax wording, which is where sentences go to be
+   skipped. Stripe's history showed three carts abandoned a few dollars under
+   the threshold, so it is now honey-toned, has a progress bar, and offers the
+   next move instead of leaving the shopper to work it out. */
+.cart-nudge {
+  margin: 0 0 0.8rem;
+  padding: 0.7rem 0.85rem;
+  background: rgba(215, 166, 64, 0.10);
+  border: 1px solid rgba(215, 166, 64, 0.35);
+  border-radius: var(--radius-sm);
+}
+.cart-nudge-text { font-size: 0.9rem; color: var(--ink); margin: 0 0 0.5rem; line-height: 1.4; }
+.cart-nudge-text strong { color: var(--honey-deep); }
+.cart-nudge-track {
+  height: 6px;
+  background: rgba(215, 166, 64, 0.22);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.cart-nudge-track > span {
+  display: block;
+  height: 100%;
+  background: var(--honey);
+  border-radius: 999px;
+  transition: width 0.35s ease;
+}
+.cart-nudge-link {
+  display: inline-block;
+  margin-top: 0.55rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--teal-deep);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.cart-nudge-link:hover { color: var(--clay-deep); }
+.cart-nudge.is-won {
+  margin: 0 0 0.8rem;
+  padding: 0.6rem 0.85rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--teal-deep);
+  background: rgba(74, 145, 152, 0.10);
+  border: 1px solid rgba(74, 145, 152, 0.32);
+  border-radius: var(--radius-sm);
+}
+@media (prefers-reduced-motion: reduce) { .cart-nudge-track > span { transition: none; } }
 .cart-checkout { width: 100%; }
 .cart-checkout-note { font-size: 0.85rem; color: var(--ink-soft); text-align: center; margin: 0.6rem 0 0; min-height: 1em; }
 /* .cart-drawer sets display:flex, which would override the [hidden]
