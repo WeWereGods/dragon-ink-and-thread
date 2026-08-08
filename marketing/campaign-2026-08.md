@@ -520,6 +520,93 @@ Copy-paste. Swap the hashtag block per §6.
 > *(Swap in a real piece and a real sentence about it. If nothing is finished, don't post this —
 > post the process footage instead and hold this until something is.)*
 
+**Post 6 replacement — Sat Aug 8, nine days out** *(the old one said "this time next Saturday, the Nest is open"; the shop opened July 1)*
+> In nine days, you'll be able to ask me for something that doesn't exist yet.
+>
+> Custom orders open **Monday, August 17**. That means your print, your size, made for you or
+> for someone you love — a tote sized to the exact book you carry, a bow in a friend's wedding
+> colours, a piece you saw here months ago remade in a fabric you picked yourself.
+>
+> There are seventy-one prints on my shelf right now, and picking one is genuinely the fun part.
+> Have a browse before the doors open — the people who already know what they want are the ones
+> I can quote straight away.
+>
+> And you don't have to wait for the form. Tell me now what you're picturing and I'll have a
+> price ready for you on the 17th. 🧵
+>
+> (San Antonio — local pickup is always free. Veteran-owned, sewn at my kitchen table.)
+
+**Post 7 replacement — Wed Aug 12, five days out** *(the old one was a "3 days" countdown to the ready-made shop opening)*
+> A tote, start to finish, in under a minute.
+>
+> Cutting, pinning, the lining, the strap, the last press. This is the part nobody sees, and
+> it's the part that takes the longest.
+>
+> **In five days you can ask me to make one of these for you** — your print, your size.
+> Custom orders open Monday the 17th.
+>
+> *(TikTok caption, shorter:)* a tote from bolt to finished, sped up. in 5 days you can pick the
+> print and I'll make you one 🪡 #handmade #processvideo #booktok
+>
+> *(Away Aug 14–16, so anything landing over that weekend gets its reply on the 17th — which is
+> the day the form opens anyway.)*
+
+**The fabric library — EVERGREEN, reusable any time**
+*Not the same post as the Aug 8 teaser. That one is news ("eighteen new prints") and will date;
+this one is about the page itself and works in any month. Don't run them within a fortnight.*
+
+Instagram — carousel: a screen-recording or screenshot of the library page first, then four or
+five swatches with their names captioned.
+> Flowers of Adarlan. Feyre's Garden. Court of the Owl King. Nesta's Cats. Wings and Ruin.
+>
+> Those aren't chapters. They're fabric.
+>
+> I keep a library of prints — **seventy-one** of them right now — and I've named every single
+> one, because "blue floral, number four" is nobody's idea of a good time. Some are named for
+> books I disappeared into. Some for what they look like at seven in the morning with a cup of
+> something. One is named after my cat's entire personality.
+>
+> They're sorted onto seven shelves: coffee prints, florals, creatures and curiosities, quiet
+> blenders, a woodland, a tea party, and one that's already thinking about autumn.
+>
+> Here's the part people don't expect — **you can pick one.** Browse the library, find the print
+> that stops you, note its name, and tell me. That's the whole process. I come back with a price,
+> and nothing is charged until you've said yes.
+>
+> Custom orders are open. Go and choose. 🧵
+>
+> Link in bio → the fabric library.
+
+*(Before Aug 17, swap the last line for: "Custom orders open Monday the 17th — but tell me now
+what you're picturing and I'll have a price ready for you when they do.")*
+
+Facebook — same, plus the link and the local line:
+> Flowers of Adarlan. Feyre's Garden. Court of the Owl King. Nesta's Cats. Wings and Ruin.
+>
+> Those aren't chapters — they're fabric. I keep a library of seventy-one prints and I've named
+> every one of them, because "blue floral number four" is nobody's idea of a good time.
+>
+> They're sorted onto seven shelves: coffee prints, florals, creatures and curiosities, quiet
+> blenders, a woodland, a tea party, and one already thinking about autumn.
+>
+> And you can pick one. Find the print that stops you, note its name, tell me what you're
+> picturing, and I'll come back with a price. Nothing is charged until you've said yes.
+>
+> https://www.dragoninkandthread.com/fabrics.html
+>
+> (San Antonio — local pickup is always free.)
+
+TikTok — the scroll:
+- **Frame 1 text:** `I named all 71 of my fabrics`
+- Screen-record scrolling the library slowly, then cut to three real swatches in hand.
+- **Sound:** none, or something quiet. Let the names land.
+- **End frame:** `pick one. I'll make you something.`
+- **Caption:** `named my whole fabric shelf after books I love. tell me which one you'd pick 🧵📖 #booktok #romantasy #handmade`
+
+**Why this one works:** every handmade shop offers "custom." Almost none show you the actual
+shelf and let you choose by name. The library is the most persuasive page on the site and the
+least visited — this post exists to fix that.
+
 **Build Your Own Bundle (Aug 21)**
 > Three scrunchies, any three prints, $15. 🎀
 >
