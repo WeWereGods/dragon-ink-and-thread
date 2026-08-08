@@ -408,7 +408,16 @@ panel launches it via `.claude/launch.json` (config name `site`).
 - **Analytics is live**: Cloudflare Web Analytics (cookieless, no consent banner needed) via a
   beacon in each page's footer (index/privacy/shipping); the token is public by design. View
   stats at Cloudflare dashboard → Web Analytics. Works without moving DNS to Cloudflare.
-- **Social share card** = `assets/og-image.jpg` (1200×630); OG/Twitter meta live in index.html `<head>`.
+- **Social share card** = **`assets/og-image-v2.jpg`** (1200×630), referenced by index, shop,
+  custom and fabrics. ⚠️ **The v1 file had "Opening Late August" baked into the pixels** and was
+  still being served as the Facebook preview after the shop opened. v2 is the same artwork
+  scaled and cropped so the dated line falls outside the frame — logo and wordmark kept, **no
+  text that can ever go stale**. Don't put a date in a share card; it is an image, so no amount
+  of editing HTML fixes it.
+  ⚠️ **Facebook caches OG images hard, keyed on URL.** That's why v2 is a NEW filename rather
+  than a replacement — new shares fetch it immediately. Anything already posted keeps the old
+  card until the URL is re-scraped in the **Sharing Debugger**
+  (developers.facebook.com/tools/debug → paste the URL → Scrape Again).
 
 ## ⚠️ The live task list is `TASKS.md` — read it at the start of a session
 Created 2026-08-06 because the outstanding work only existed in conversation, so the owner had
