@@ -21,15 +21,13 @@ They live at **dragoninkandthread.com/fabrics.html**.
 They buy a tote in that print. So every post here has the same job: get someone to look at the
 library, fall for one specific print, and tell you about it.
 
-That makes this the best fuel available for the **custom-orders countdown**. The form opens
-**Monday, August 17**; the campaign push is **Saturday, August 29**. New fabric is the thing to
-talk about in between, and it's genuinely new — not a countdown to a date, which is what makes
-the stale Aug 8 and Aug 12 posts unusable.
+⚠️ **UPDATED 2026-08-08 — custom orders are OPEN.** They were due to open Mon Aug 17 and the
+owner opened them early, so nothing here counts down any more. The campaign push is still
+**Saturday, August 29**; new fabric is what there is to talk about in between.
 
-**Before Aug 17 the call to action is not "order".** It's *"tell me what you're picturing."*
-That's deliberate, and it matches `emails/custom-orders-enquiry.md`: someone who has described
-what they want before the form opens is a booked order on day one, not a cold enquiry. Asking
-people to wait wastes the interest you just built.
+**The call to action is *"tell me what you're picturing"*, not "order now"** — and that hasn't
+changed just because the form is live. Custom starts with a conversation and a quote; nobody
+buys a custom piece from a button. It matches `emails/custom-orders-enquiry.md` exactly.
 
 ⚠️ **Away Aug 14–16.** Schedule anything landing in those three days ahead of time, and don't
 promise a same-day reply across them.
@@ -43,7 +41,7 @@ Slotted around the pet bandana post and the five bows post, which are already wr
 | Date | Collection | Why then |
 |---|---|---|
 | **Fri Aug 8** | All four — the library teaser | One post says "eighteen new prints," which is a bigger event than any single collection. Sends traffic to fabrics.html before the countdown starts. |
-| **Mon Aug 11** | **Tea with the Suriel — the bows** | Now a PRODUCT post, not a fabric post: five bows exist and can be bought today. An immediate sale and a custom lead from one post, instead of a lead you nurse until the 17th. |
+| **Mon Aug 11** | **Tea with the Suriel — the bows** | Now a PRODUCT post, not a fabric post: five bows exist and can be bought today. An immediate sale and a custom lead from one post. |
 | **Wed Aug 13** | **Once Upon a Woodland** | Schedule it before you travel. Baby-gift angle reaches a different audience than the bookish posts, so it doesn't compete. |
 | **Mon Aug 18** | **Blush and Whiskers** | The day after the form opens — a soft, low-stakes post that gets to say "custom orders are open now" without being a launch announcement. |
 | **Sat Aug 29** | **Postcards and Pumpkins** | Autumn content doesn't work in the first half of August and does by the end. Lands on the push date, where seasonal urgency is worth real money. |
@@ -72,9 +70,12 @@ close-up per print. Hashtags: the two sets in §6 of `campaign-2026-08.md`, 8–
 > And loose among them: toadstool cottages, a garden full of bee skeps, blue roses on cream,
 > and some very small ghosts.
 >
-> Every one of them can become a tote, a bow, a scrunchie or a bandana made just for you.
+> Every one of them can become a tote, a bow, a scrunchie or a bandana made just for you —
+> **custom orders are open**, so that's not a someday thing any more.
 >
-> Have a browse and tell me which one stops you — that's genuinely the fun part. 🧵
+> Have a browse and tell me which one stops you. That's genuinely the fun part, and it's how
+> every custom piece starts: you pick a print, I come back with a price, and nothing is
+> charged until you've said yes. 🧵
 >
 > Link in bio.
 
@@ -100,8 +101,8 @@ Carousel: the flat-lay of all five, then one shot per bow, then a back shot show
 >
 > There is one of each. Once one goes, the set stops being a set. 🎀
 >
-> (And if you want the print but not the bow — custom orders open Monday the 17th, and any of
-> these can become a tote.)
+> (And if you want the print but not the bow — custom orders are open, and any of these can
+> become a tote.)
 >
 > Link in bio.
 
@@ -117,8 +118,8 @@ Carousel: the flat-lay of all five, then one shot per bow, then a back shot show
 > A bandana for the dog who's about to become a big brother. A tote for the hospital bag
 > that isn't covered in cartoon dinosaurs.
 >
-> Custom orders open Monday. If there's a new baby in your life this autumn, start telling
-> me now. 🧸
+> Custom orders are open, so if there's a new baby in your life this autumn, tell me what
+> you're picturing. 🧸
 
 ### Mon Aug 18 — Blush and Whiskers
 
@@ -174,8 +175,8 @@ Same photos. Three differences, and they matter:
 > toadstool cottages, a garden full of bee skeps, blue roses on cream, and some very small ghosts.
 >
 > Any of them can become a tote, a bow, a scrunchie or a pet bandana made just for you. Custom
-> orders open Monday, August 17 — and if you already know what you want, tell me now and I'll
-> have a price ready for you when they do.
+> orders are open too — so if you already know what you want, tell me and I'll come back with
+> a price. Nothing is charged until you've said yes.
 >
 > Have a look and tell me which one stops you:
 > https://www.dragoninkandthread.com/fabrics.html
@@ -227,7 +228,7 @@ The dependable one. Stack the collection folded, then pull them apart one at a t
   it appears → last shot, all of them fanned out together.
 - **Sound:** no music. The fabric noise *is* the sound. Handmade accounts consistently do better
   with real audio than with a trend.
-- **Caption:** `named every one of these after a book I loved. custom orders open the 17th 📖`
+- **Caption:** `named every one of these after a book I loved. custom orders are open 📖`
 - **End frame text:** `71 prints in the library — pick yours`
 
 ### Mon Aug 11 — the bow collection (the one to actually shoot)
@@ -287,8 +288,9 @@ Worth more than the posts, and takes minutes.
 
 - **Don't say the shop sells these fabrics.** The library is for custom orders. Everything in
   the shop is already sewn — those are different sentences and mixing them confuses both.
-- **Don't promise a date before Aug 17.** The form isn't open. "Tell me what you're picturing"
-  is the ask; "order now" isn't true yet.
+- **The ask is still "tell me what you're picturing", not "order now".** Custom orders are open
+  (since 2026-08-08), but custom begins with a conversation and a quote — there is no button to
+  press, and implying one sets up a disappointment.
 - **Don't promise a fast reply across Aug 14–16.**
 - ⚠️ **Don't put NEST15 in a public caption.** It's 15% off over $25 with no expiry, and it's
   the reason someone joins the Nest. Posting it publicly turns a list perk into a general
