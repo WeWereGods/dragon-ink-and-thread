@@ -185,7 +185,7 @@ and the coffee collection being sewn this week.
 | Wed Aug 5 | TikTok | **"What's in my book bag"** — the Storykeeper, current read, a scrunchie on the wrist. Pure BookTok on-ramp. |
 | Thu Aug 6 | IG Reel | **Process: hand-tying the coffee bows.** Sound on, no voiceover. Teases the drop without promising a date. |
 | Fri Aug 7 | Site + IG Story | **List the restock** (coffee bows + totes — see the Aug 7 reminder). Then Story: **packing an order** — tissue, note, the whole ritual. Sets up the post-purchase ask. |
-| Sat Aug 8 | IG + FB | **REPLACES stale post 6.** Custom orders countdown — **nine days out** — folded together with the local San Antonio angle the slot was already for: what custom means, the fabric library, free local pickup, veteran-owned. Caption in §13. ⚠️ The fabric-library teaser is also booked today (`marketing/fabric-collections-2026-08.md`). **Pick one.** The teaser is the stronger post; if it runs, move this to Sun Aug 9. |
+| Sat Aug 8 | IG + FB | ⚠️ **SUPERSEDED 2026-08-08 — custom orders opened today, so a countdown post is wrong.** Use the evergreen fabric-library post in §13, or say plainly that the doors are open. Was: a countdown — folded together with the local San Antonio angle the slot was already for: what custom means, the fabric library, free local pickup, veteran-owned. Caption in §13. ⚠️ The fabric-library teaser is also booked today (`marketing/fabric-collections-2026-08.md`). **Pick one.** The teaser is the stronger post; if it runs, move this to Sun Aug 9. |
 | Sun Aug 9 | **Email** | **Welcome Email 3 — "A proper look inside the Nest,"** carrying the coffee drop and teasing Aug 17. **This replaces the old "Broadcast #1"** (see §8). |
 
 **⚠️ Aug 9 used to have two emails on it** — Welcome Email 3 *and* a "the shop's been open"
@@ -217,10 +217,10 @@ Frame it as *"now you can ask for yours."*
 
 | Day | Channel | Post |
 |---|---|---|
-| Mon Aug 10 | IG + TikTok | **Announce it.** "In one week you can ask me to make something that doesn't exist yet." Explain what custom means: your print, your size, your person. Point at the **71-print fabric library** — it's the most persuasive custom-orders asset on the site and nothing currently drives traffic to it. ⚠️ This row used to say "in 5 days" and "53-print"; the launch moved to Aug 17 and the library grew. |
+| Mon Aug 10 | IG + TikTok | **Announce it.** ⚠️ Not "in one week" — custom orders opened Aug 8. "You can now ask me to make something that doesn't exist yet." Explain what custom means: your print, your size, your person. Point at the **71-print fabric library** — it's the most persuasive custom-orders asset on the site and nothing currently drives traffic to it. ⚠️ This row used to say "in 5 days" and "53-print"; the launch moved to Aug 17 and the library grew. |
 | Mon Aug 10 | **Email (personal)** | **Follow up with all 3 customers** — how did it settle in, and would you send a line or a photo? This is the review engine (§9). Reminder is already scheduled. |
 | Tue Aug 11 | IG Story | **Q&A sticker:** "What would you have me make?" Harvest the answers — they're both content and product research. |
-| Wed Aug 12 | TikTok | **REPLACES stale post 7.** Same process clip — a tote start to finish, compressed, the most shareable format you have — but it now ends on the countdown: **five days out**. Process footage plus "you can ask me for one of these on Monday" is a better post than either half. Caption in §13. |
+| Wed Aug 12 | TikTok | Same process clip — a tote start to finish, compressed, the most shareable format you have. ⚠️ **The countdown ending is dead** (opened Aug 8): end on "you can ask me for one of these today" instead. Process footage plus "you can ask me for one of these on Monday" is a better post than either half. Caption in §13. |
 | Thu Aug 13 | IG carousel | **Cottage Rose + Blue Rose Mini** together — both still in stock. Note the rename openly ("same tote, better name"). |
 | Fri Aug 14 – Sun Aug 16 | — | **AWAY.** Nothing scheduled. Shop orders keep arriving and Pushover keeps buzzing; they ship on the 17th, still inside the 1–3 business day promise. **No local pickups can be handed over.** |
 | **Mon Aug 17** | *(nothing)* | **The form quietly opens.** Deliberately no post — the announcement is saved for the 29th. Enquiries land in Gmail and wait. |

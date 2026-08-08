@@ -26,15 +26,23 @@
 (function () {
   "use strict";
 
-  /* MOVED 2026-08-06, from Sat Aug 15 to Mon Aug 17. The owner is away
-     Aug 14–16 and again Aug 21–24, so the 15th would have opened custom
-     orders into three days of silence, and the next two Saturdays are both
-     inside a trip. The FORM opens here on the 17th; the promotional push
-     (email, posts, live Q&A — §10 of marketing/campaign-2026-08.md) is a
-     separate thing and now runs Sat Aug 29, the first Saturday she is home
-     with no travel either side. Opening quietly means anyone who saw the old
-     date and comes looking can still ask, instead of meeting a shut form. */
-  var CUSTOM_OPENS = "2026-08-17T09:00:00-05:00";
+  /* OPENED EARLY 2026-08-08, by the owner, from Mon Aug 17.
+
+     History: Sat Aug 15 originally, moved to Mon Aug 17 on 2026-08-06 around a
+     trip on Aug 14–16, then opened on the 8th instead — there was no longer a
+     reason to make anyone wait, and an enquiry arriving now can be quoted and
+     agreed BEFORE the trip rather than after it.
+
+     The launch PUSH is a separate thing and still runs Sat Aug 29 (§10 of
+     marketing/campaign-2026-08.md). Opening quietly ahead of it is the same
+     logic as before: the doors are open for whoever comes looking, and the
+     announcement waits for the day she is home to answer it.
+
+     ⚠️ This date is now in the PAST, so the static no-JS wording in the HTML
+     was INVERTED to match: .js-post-open is the unhidden default and
+     .js-pre-open carries `hidden`. If the date is ever moved forward again,
+     invert them back, or anyone with JS off reads the wrong thing. */
+  var CUSTOM_OPENS = "2026-08-08T06:00:00-05:00";
   var ts = new Date(CUSTOM_OPENS).getTime();
 
   /* THE NEST DISCOUNT DEADLINE.

@@ -1,9 +1,10 @@
 # Dragon Ink and Thread — website
 
 Shop site for **Dragon Ink and Thread**, a veteran-owned, small-batch handmade sewn-goods
-shop in **San Antonio, Texas** (totes, scrunchies, bows, pet bandanas). **The ready-made shop
-has been OPEN since 2026-07-01** — this is no longer a pre-launch site. **Custom orders open
-Monday, August 17 2026** (moved from Aug 15; see below). Brand voice: cozy cottagecore whimsy
+shop in **San Antonio, Texas** (totes, scrunchies, bows, pet bandanas, book sleeves). **The
+ready-made shop has been OPEN since 2026-07-01** and **CUSTOM ORDERS HAVE BEEN OPEN SINCE
+2026-08-08** — this is no longer a pre-launch site in any sense. (Custom was Aug 15, then
+Aug 17, then opened early; see below.) The launch PUSH is still Sat Aug 29. Brand voice: cozy cottagecore whimsy
 for book lovers and dreamers; the audience is invited to "join the Nest."
 
 ## Tech stack
@@ -245,6 +246,12 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
     Mustard Rose Tote renamed **Cottage Rose Tote** (same id `tote-mustard-floral`).
   - The old per-item **Payment Links** (`LINKS` in js/shop-data.js) are **no longer opened**;
     `LINKS` now only flags **availability** — an id absent from `LINKS` is sold out ("Coming soon").
+  - ⚠️ **CUSTOM ORDERS OPENED EARLY, 2026-08-08.** `CUSTOM_OPENS` is now a past date, so the
+    form is live and every countdown phrase has flipped to "Custom orders are open" on its own.
+    **The static no-JS fallbacks were INVERTED to match** — `.js-post-open` is the unhidden
+    default and `.js-pre-open` carries `hidden`, in index.html (×4), shop.html and custom.html.
+    If the date is ever moved forward again, invert them back. terms.html was hand-edited too
+    (it hard-codes, no span). The **push is still Sat Aug 29**. History follows:
   - ⚠️ **CUSTOM-ORDER LAUNCH MOVED 2026-08-06 — Aug 15 → Mon Aug 17, push on Sat Aug 29.**
     The owner is travelling **Aug 14–16 and again Aug 21–24**, which ruled out both the
     original Saturday and the obvious fallback of Aug 22. The launch was split in two,

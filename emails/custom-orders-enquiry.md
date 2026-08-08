@@ -76,10 +76,15 @@ Dragon Ink and Thread · Handmade in San Antonio, Texas
 
 ---
 
-## Email 2 — the same, but BEFORE custom orders open (use until Aug 17, 2026)
+## Email 2 — RETIRED 2026-08-08, custom orders are open (kept only as a pattern)
 
-Identical to the above, but swap the opening two paragraphs for this, and change the closing
-CTA from the form to "reply to this email":
+⚠️ **Do not send this.** Custom orders opened on 2026-08-08, so Email 1 above is the reply to
+everyone. This is kept only because the shape of it — "you don't have to wait, tell me now and
+I'll have a price ready" — is worth reaching for the next time anything is announced ahead of
+its opening.
+
+It was: identical to the above, but swapping the opening two paragraphs for this, and changing
+the closing CTA from the form to "reply to this email":
 
 > Thank you for asking — and your timing is good. Custom orders open on **Monday, August
 > 17**, and you're on my list for the moment they do.

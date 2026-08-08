@@ -23,6 +23,13 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
+- [ ] ⚠️ **CUSTOM ORDERS OPENED 2026-08-08** — the form is live and enquiries can arrive today.
+      **Aug 17–20 was already full**: Maurya's two quilted totes and Aubrea's three bow clips are
+      due that week, straight off the Aug 14–16 trip. Quote new enquiries a timeline that admits
+      that, rather than promising 10–14 days on top of work already owed.
+      The launch **push is still Sat Aug 29** — opening quietly now just means anyone who comes
+      looking can ask.
+
 - [ ] **Welcome Email 3 — due ~Sun Aug 9.** The last of the three, sent by hand as a Buttondown
       broadcast (automations are paywalled; see `emails/welcome-sequence.md`).
       ⚠️ **Read it against the live shop before sending** — it describes what's in stock, and the
