@@ -318,6 +318,11 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       The Storykeeper tote. Over-the-collar, **size Large, fits an 18″–23″ neck; small/medium
       made to order.** Ships on the $4.50 small tier (no `tote-` prefix). A sunflower gingham one
       was made 2026-08-04 and **sold before it was ever listed** — don't add it.
+      **Two more added 2026-08-08, both $18:** `bandana-toffee-windowpane` (**Medium, 13″–18″
+      neck**) and `bandana-brew-and-bloom` (**Large, 18″–23″**, Brew and Bloom with Blushing
+      Linen). The two sizes meet at 18″, so the range is continuous — the Medium is the first
+      one in stock that isn't a Large, which is what makes small-dog households a real audience
+      rather than a "made to order" footnote.
     - **Book Sleeves** — a FIFTH category, added 2026-08-07. The Reading Nook Sleeve
       (`sleeve-reading-nook`, **$28**, 2 photos), **12″ × 8.5″**, quilted and padded, **open top
       with no closure** so it comes out one-handed. The Daily Grind outside under a Cinnamon

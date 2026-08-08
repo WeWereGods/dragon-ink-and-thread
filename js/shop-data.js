@@ -265,7 +265,7 @@ window.DIT_SHOP = {
     "bandana-toffee-windowpane": {
       alt: "Handmade pet bandana in a warm brown windowpane check, worn over a dog's collar",
       blurb: "A warm brown windowpane check — quiet, a little tweedy, and the one for a dog who'd rather look like he's off to the pub than to a party. Slips over the collar he already wears, so there's nothing to tie and nothing to work loose halfway round the block.",
-      details: "Size Medium · fits a NECK RANGE TBC neck · slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
+      details: "Size Medium · fits a 13″–18″ neck · slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
       images: ["assets/bandana-toffee-windowpane.jpg"]
     },
     "bandana-brew-and-bloom": {

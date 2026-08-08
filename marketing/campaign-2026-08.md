@@ -562,12 +562,14 @@ Showing a finished Medium is what tells a small-dog household this is for them.*
 > lovely if your dog is a shepherd and no use at all if yours fits in the crook of your arm. So
 > here's proof the smaller sizes are real.
 >
-> **Medium — Toffee Windowpane.** A warm brown check, quiet and a bit tweedy. The one for a dog
-> who'd rather look like he's going to the pub than to a party.
+> **Medium — Toffee Windowpane.** Fits a 13 to 18 inch neck. A warm brown check, quiet and a
+> bit tweedy. The one for a dog who'd rather look like he's going to the pub than to a party.
 >
-> **Large — Blushing Linen and Brew and Bloom.** Soft blush linen texture with the coffee print,
-> roses and cups and all. Made for the dog who sits under the table while you have your first
-> cup of the morning.
+> **Large — Blushing Linen and Brew and Bloom.** Fits an 18 to 23 inch neck. Soft blush linen
+> texture with the coffee print, roses and cups and all. Made for the dog who sits under the
+> table while you have your first cup of the morning.
+>
+> Between the two of them that's 13 to 23 inches, which covers most of the dogs I know. $18 each.
 >
 > They go over the collar they already wear — nothing to tie, nothing to work loose, nothing to
 > lose on a walk. Machine wash cold, hang to dry, because they will need it.
@@ -584,9 +586,11 @@ Showing a finished Medium is what tells a small-dog household this is for them.*
 a tape measure or a hand in frame. **The scale shot is the one that sells the Medium** — "Medium"
 means nothing until it's next to something.
 
-⚠️ **Before posting:** confirm the price. The Storykeeper Bandana is **$18**; if these are the
-same, say so in the post — Facebook buries link previews and a price in the text converts better.
-And they need adding to the shop (`sleeve`-style checklist in CLAUDE.md) or the link lands on a
+**Sizes confirmed 2026-08-08:** Medium 13″–18″, Large 18″–23″. They meet at 18 inches, so the
+two together are a continuous range with no gap — worth saying out loud, because a shopper whose
+dog measures 17 shouldn't have to work out which one to trust.
+
+⚠️ **Both must be listed and `wrangler deploy`'d before this posts**, or the link lands on a shop
 page that doesn't show them.
 
 **The scroll — screen-recording the library into custom orders (EVERGREEN)**
