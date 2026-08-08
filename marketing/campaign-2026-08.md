@@ -551,6 +551,55 @@ Copy-paste. Swap the hashtag block per §6.
 > *(Away Aug 14–16, so anything landing over that weekend gets its reply on the 17th — which is
 > the day the form opens anyway.)*
 
+**The Reading Nook Sleeve — Facebook + Instagram (live since 2026-08-07, never announced)**
+*The angle is Rebekah's review. She left five stars for the Road Trip Kindle Case — a one-off
+that went to her and was never a listing, so for months the shop has carried a glowing review
+for something nobody could buy. This is the first time that review points at a thing on the
+shelf. Quote it verbatim; it is real and it is already on the homepage.*
+
+**Facebook:**
+> Months ago I made a padded case for someone's Kindle so she could travel with it. She wrote
+> to me afterwards and said:
+>
+> *"Thank you for my custom kindle/book case, I adore it! So happy I can travel with it now in
+> my bag!!"*
+>
+> It was a one-off. There was never one to buy — until now.
+>
+> The **Reading Nook Sleeve** is 12 by 8.5 inches, quilted and padded the whole way round, so
+> whatever else is in your bag stops pressing against the cover. It takes a hardback, a
+> paperback or an e-reader.
+>
+> The top is open on purpose. No button, no snap, nothing to undo when you've got one hand free
+> and five minutes to read — it just slides out.
+>
+> The Daily Grind on the outside under a band of Cinnamon Marble, and a Toffee Windowpane lining
+> that nobody but you will ever see. $28, already sewn, one of one.
+>
+> https://www.dragoninkandthread.com/shop.html
+>
+> (San Antonio — local pickup is free.)
+
+**Instagram** — carousel: the sleeve closed → the lining shot → a book half out of it →
+optionally a screenshot of Rebekah's review.
+> Somewhere soft for whatever you're in the middle of.
+>
+> Quilted and padded all the way round, 12 by 8.5 inches, and open at the top on purpose — no
+> button, no snap, nothing to undo when you've got one hand free and five minutes to read.
+>
+> The Daily Grind on the outside under a band of Cinnamon Marble. Toffee Windowpane inside,
+> where only you will see it.
+>
+> I made a padded case like this for someone months ago and she still tells me she travels with
+> it. That one was a one-off. This one you can actually have. 📖
+>
+> $28. There's one.
+>
+> Link in bio.
+
+⚠️ **Shows the piece off best with a book in it.** A book sleeve photographed empty is a flat
+brown rectangle; photographed with a paperback half out of it, it's obvious what it does.
+
 **Two new pet bandanas — Facebook (2026-08-08)**
 *A Medium exists now. That's the headline, not the fabric: the shop's only bandana until today
 was a Large, and "small and medium available on request" is a sentence people don't act on.
