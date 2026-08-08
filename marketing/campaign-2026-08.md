@@ -565,9 +565,10 @@ Showing a finished Medium is what tells a small-dog household this is for them.*
 > **Medium — Toffee Windowpane.** Fits a 13 to 18 inch neck. A warm brown check, quiet and a
 > bit tweedy. The one for a dog who'd rather look like he's going to the pub than to a party.
 >
-> **Large — Blushing Linen and Brew and Bloom.** Fits an 18 to 23 inch neck. Soft blush linen
-> texture with the coffee print, roses and cups and all. Made for the dog who sits under the
-> table while you have your first cup of the morning.
+> **Large — Brew and Bloom, reversible.** Fits an 18 to 23 inch neck. Lattes and pale flowers
+> on cream on one side; turn it round and it's Blushing Linen, a soft dusty pink, for the days
+> that call for something quieter. Two bandanas on one collar. Made for the dog who lies under
+> the table while you have your first cup of the morning.
 >
 > Between the two of them that's 13 to 23 inches, which covers most of the dogs I know. $18 each.
 >
@@ -582,9 +583,10 @@ Showing a finished Medium is what tells a small-dog household this is for them.*
 >
 > (San Antonio — local pickup is free, so you can collect and skip the postage entirely.)
 
-**Photos, in order:** the Medium worn → the Large worn → the two flat together for scale, with
-a tape measure or a hand in frame. **The scale shot is the one that sells the Medium** — "Medium"
-means nothing until it's next to something.
+**Photos, in order:** the Large's coffee side → the Large flipped to the blush side (this is the
+one that earns the post — reversible is a surprise) → the Medium → the two flat together for
+scale with a hand in frame. **The scale shot is what sells the Medium**; "Medium" means nothing
+until it's next to something.
 
 **Sizes confirmed 2026-08-08:** Medium 13″–18″, Large 18″–23″. They meet at 18 inches, so the
 two together are a continuous range with no gap — worth saying out loud, because a shopper whose

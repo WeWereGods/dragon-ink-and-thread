@@ -263,16 +263,16 @@ window.DIT_SHOP = {
       ]
     },
     "bandana-toffee-windowpane": {
-      alt: "Handmade pet bandana in a warm brown windowpane check, worn over a dog's collar",
-      blurb: "A warm brown windowpane check — quiet, a little tweedy, and the one for a dog who'd rather look like he's off to the pub than to a party. Slips over the collar he already wears, so there's nothing to tie and nothing to work loose halfway round the block.",
-      details: "Size Medium · fits a 13″–18″ neck · slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
-      images: ["assets/bandana-toffee-windowpane.jpg"]
+      alt: "Handmade pet bandana in a warm brown plaid, with a gathered channel that slips over a collar",
+      blurb: "Toffee brown plaid crossed with fine cream lines — quiet, a little tweedy, and the one for a dog who'd rather look like he's off to the pub than to a party. The top is gathered into a channel, so it slides straight onto the collar he already wears: nothing to tie, nothing to work loose halfway round the block.",
+      details: "Size Medium · fits a 13″–18″ neck · gathered channel slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
+      images: ["assets/bandana-toffee-windowpane.jpg", "assets/bandana-toffee-windowpane-2.jpg", "assets/bandana-toffee-windowpane-3.jpg"]
     },
     "bandana-brew-and-bloom": {
-      alt: "Handmade pet bandana in a coffee-and-roses print with a soft blush linen-textured fabric",
-      blurb: "Brew and Bloom — roses and coffee cups and the whole slow morning — set against the soft slub of Blushing Linen. Made for the dog who lies under the table while you have your first cup and waits for you to be a person again.",
-      details: "Size Large · fits an 18″–23″ neck · slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
-      images: ["assets/bandana-brew-and-bloom.jpg"]
+      alt: "Reversible handmade pet bandana, coffee cups and flowers on cream one side, soft blush linen the other",
+      blurb: "Lattes, iced coffees and pale flowers scattered over cream — the whole slow morning, for the dog who lies under the table while you have your first cup and waits for you to be a person again. **Reversible:** turn it round and it's Blushing Linen, a soft dusty pink, for the days that call for something quieter. Two bandanas, one collar.",
+      details: "Size Large · fits an 18″–23″ neck · REVERSIBLE — Brew and Bloom one side, Blushing Linen the other · gathered channel slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
+      images: ["assets/bandana-brew-and-bloom.jpg", "assets/bandana-brew-and-bloom-2.jpg", "assets/bandana-brew-and-bloom-3.jpg"]
     },
     "sleeve-reading-nook": {
       alt: "Handmade quilted book sleeve in a dark coffee-house print with a cream marble band, shown open to a toffee windowpane lining",
