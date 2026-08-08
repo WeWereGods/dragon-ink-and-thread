@@ -85,8 +85,11 @@ ahead of abandoned-cart recovery.
 - **3 of those abandonments sat just under $50**: $45.05, and $41.50 twice
 - 0 of 26 unpaid sessions captured an email
 
-**Re-measure around 2026-09-08**, the same way — list Checkout sessions, drop the build-day
-test clusters, and ask two questions:
+**Re-measure on 2026-09-08** — a reminder is scheduled (trigger `trig_01LsZGATD8bKPacFutiekxnj`,
+fires 9am Central, push + email) and carries the baseline with it. ⚠️ It was created from a
+CLI session, so it holds **no Stripe connector** — the session it opens may have to ask for the
+numbers by hand. Re-creating it from the claude.ai routines UI would attach Stripe properly.
+Method: list Checkout sessions, drop the build-day test clusters, and ask two questions:
 1. Are carts still expiring in the $40–50 band? That band is what this targets.
 2. Has the average paid order moved? The nudge should push baskets up, not just convert them.
 
