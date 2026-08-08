@@ -551,6 +551,44 @@ Copy-paste. Swap the hashtag block per §6.
 > *(Away Aug 14–16, so anything landing over that weekend gets its reply on the 17th — which is
 > the day the form opens anyway.)*
 
+**Two new pet bandanas — Facebook (2026-08-08)**
+*A Medium exists now. That's the headline, not the fabric: the shop's only bandana until today
+was a Large, and "small and medium available on request" is a sentence people don't act on.
+Showing a finished Medium is what tells a small-dog household this is for them.*
+
+> Two more bandanas came off the machine this week — and one of them is a **Medium**.
+>
+> That matters more than it sounds. Until now the only one in the shop was a Large, which is
+> lovely if your dog is a shepherd and no use at all if yours fits in the crook of your arm. So
+> here's proof the smaller sizes are real.
+>
+> **Medium — Toffee Windowpane.** A warm brown check, quiet and a bit tweedy. The one for a dog
+> who'd rather look like he's going to the pub than to a party.
+>
+> **Large — Blushing Linen and Brew and Bloom.** Soft blush linen texture with the coffee print,
+> roses and cups and all. Made for the dog who sits under the table while you have your first
+> cup of the morning.
+>
+> They go over the collar they already wear — nothing to tie, nothing to work loose, nothing to
+> lose on a walk. Machine wash cold, hang to dry, because they will need it.
+>
+> And if neither size is yours, that's the whole point of custom: tell me your dog's neck
+> measurement and pick a print from the library. The more of them there are, the better the
+> price gets, so a whole household can match.
+>
+> https://www.dragoninkandthread.com/shop.html
+>
+> (San Antonio — local pickup is free, so you can collect and skip the postage entirely.)
+
+**Photos, in order:** the Medium worn → the Large worn → the two flat together for scale, with
+a tape measure or a hand in frame. **The scale shot is the one that sells the Medium** — "Medium"
+means nothing until it's next to something.
+
+⚠️ **Before posting:** confirm the price. The Storykeeper Bandana is **$18**; if these are the
+same, say so in the post — Facebook buries link previews and a price in the text converts better.
+And they need adding to the shop (`sleeve`-style checklist in CLAUDE.md) or the link lands on a
+page that doesn't show them.
+
 **The scroll — screen-recording the library into custom orders (EVERGREEN)**
 *The video version of the post below. Shoot it once; it works on TikTok, Reels and Facebook,
 and it keeps working for as long as the library exists.*
