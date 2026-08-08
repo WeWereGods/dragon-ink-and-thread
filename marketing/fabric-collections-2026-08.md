@@ -40,7 +40,7 @@ Slotted around the pet bandana post and the five bows post, which are already wr
 
 | Date | Collection | Why then |
 |---|---|---|
-| **Fri Aug 8** | All four — the library teaser | One post says "eighteen new prints," which is a bigger event than any single collection. Sends traffic to fabrics.html before the countdown starts. |
+| **Fri Aug 8** | All four — the library teaser | One post says "eighteen new prints," which is a bigger event than any single collection. Sends traffic to fabrics.html, which is where every custom order starts. |
 | **Mon Aug 11** | **Tea with the Suriel — the bows** | Now a PRODUCT post, not a fabric post: five bows exist and can be bought today. An immediate sale and a custom lead from one post. |
 | **Wed Aug 13** | **Once Upon a Woodland** | Schedule it before you travel. Baby-gift angle reaches a different audience than the bookish posts, so it doesn't compete. |
 | **Mon Aug 18** | **Blush and Whiskers** | The day after the form opens — a soft, low-stakes post that gets to say "custom orders are open now" without being a launch announcement. |
@@ -217,6 +217,22 @@ Fabric is *made* for TikTok: it moves, it unfolds, it has sound. No talking head
 trending audio required. Film in daylight near a window, phone flat overhead.
 
 **The hook has to land in two seconds.** On-screen text from the first frame, always.
+
+### Fri Aug 8 — the library teaser (the eighteen)
+
+The teaser's own video. Bigger claim than any single collection, so it gets the bigger number.
+
+- **On-screen text, frame 1:** `eighteen new prints`
+- **Shots:** the four collections stacked in four piles → hands lifting each pile in turn →
+  a fast flick through the individual folds, no captions, let it blur → settle on all of them
+  spread across the table.
+- **Sound:** no music. Fabric only.
+- **End frame text:** `71 prints in the library — pick yours`
+- **Caption:** `eighteen new ones this week, and I named nearly all of them after books. custom
+  orders are open — tell me which one you'd pick 🧵📖 #booktok #cottagecore`
+
+⚠️ **Eighteen, not twelve.** Twelve arrived as the four named collections and six more came in
+loose afterwards. If any frame or caption says twelve, it was written between the two deliveries.
 
 ### Format A — the fold reveal (use for each collection)
 
