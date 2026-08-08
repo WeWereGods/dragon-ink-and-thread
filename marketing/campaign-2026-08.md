@@ -43,8 +43,8 @@ anticipation angle. That's a stronger position for a solo maker, because:
   badge is the single most persuasive thing on the catalog page. Post about it.
 - **The Stories lookbook makes scarcity feel warm, not aggressive.** Retired pieces
   "found a home" — that's cottagecore-safe FOMO. Nobody feels manipulated.
-- **Aug 15 becomes an upgrade, not a delay.** Framing: *"You've seen what I make.
-  Starting Aug 15, you can ask me to make yours."*
+- **Custom orders are an upgrade, not a delay.** Framing: *"You've seen what I make.
+  Now you can ask me to make yours."* The form opens Mon Aug 17; the list hears on Sat Aug 29.
 
 **Positioning statement (use this to sanity-check every post):**
 > Dragon Ink and Thread makes one-of-a-kind, small-batch sewn goods for readers and
@@ -63,7 +63,7 @@ baseline yet. Track them weekly in a note; don't build a dashboard.
 | Nest subscribers | **150** (crosses the Buttondown free tier — budget ~$9/mo) | Buttondown |
 | Orders | **12** total (3 in already), of which ≥3 are multi-item | Stripe + Pushover pings |
 | Average order value | **$38+** (see the attach-rate problem in §5) | Stripe |
-| Custom order inquiries | **5** after Aug 15 | Web3Forms → Gmail |
+| Custom order inquiries | **5** after Aug 17 | Web3Forms → Gmail |
 | **Reviews** | **5 total** — i.e. **3 more** on top of the 2 that exist | Manual → `TESTIMONIALS` |
 | Daily visits | **50/day** (from ~20) — the real bottleneck | Cloudflare Web Analytics |
 | Instagram followers | **300** | IG |
@@ -131,7 +131,7 @@ one on Instagram as its own graphic, and make every order this month end in an a
 **Never invent testimonials** — real ones only, quoted verbatim.
 
 One is for the **"Road Trip Kindle Case"** — a retired *custom* make in the Stories
-lookbook. That's a gift for the Aug 15 beat: a real customer, in her own words, delighted
+lookbook. That's a gift for the Aug 29 push: a real customer, in her own words, delighted
 by a **custom** piece. Use that quote in the custom-orders launch post. It is the only
 proof you have that the thing you're about to sell already works.
 
@@ -186,7 +186,7 @@ and the coffee collection being sewn this week.
 | Thu Aug 6 | IG Reel | **Process: hand-tying the coffee bows.** Sound on, no voiceover. Teases the drop without promising a date. |
 | Fri Aug 7 | Site + IG Story | **List the restock** (coffee bows + totes — see the Aug 7 reminder). Then Story: **packing an order** — tissue, note, the whole ritual. Sets up the post-purchase ask. |
 | Sat Aug 8 | IG + FB | **REPLACES stale post 6.** Custom orders countdown — **nine days out** — folded together with the local San Antonio angle the slot was already for: what custom means, the fabric library, free local pickup, veteran-owned. Caption in §13. ⚠️ The fabric-library teaser is also booked today (`marketing/fabric-collections-2026-08.md`). **Pick one.** The teaser is the stronger post; if it runs, move this to Sun Aug 9. |
-| Sun Aug 9 | **Email** | **Welcome Email 3 — "A proper look inside the Nest,"** carrying the coffee drop and teasing Aug 15. **This replaces the old "Broadcast #1"** (see §8). |
+| Sun Aug 9 | **Email** | **Welcome Email 3 — "A proper look inside the Nest,"** carrying the coffee drop and teasing Aug 17. **This replaces the old "Broadcast #1"** (see §8). |
 
 **⚠️ Aug 9 used to have two emails on it** — Welcome Email 3 *and* a "the shop's been open"
 broadcast. Broadcast #1 has been deleted: Welcome Email 1 already said that on Aug 2, and
@@ -278,17 +278,32 @@ Its job was done by Welcome Email 1 on Aug 2. Sending a second "actually, the sh
 note to the same ~100 people eight days later is repetition, not reinforcement. Aug 9 belongs
 to Welcome Email 3.
 
-### Broadcast — Custom orders open (send Fri Aug 14 evening)
+### Broadcast — Custom orders are open (send **Sat Aug 29**, the push date)
 
-**Subject:** Tomorrow, you can ask me for anything
-**Preheader:** Custom orders open in the morning.
+**DECIDED 2026-08-08.** It was written for Fri Aug 14 evening, subject "Tomorrow, you can ask me
+for anything" — which would have sent from inside the Aug 14–16 trip, about a date that had
+already moved. The form now opens quietly on **Mon Aug 17** with no email at all, and the list
+hears about it on the **29th**, with the rest of the push.
 
-Short. Explain what custom covers (your print, your dimensions, a favourite piece recreated),
-what it costs (totes $50–100, bows $10–15, scrunchies $6–12, **$25 minimum**), and how long it
-takes (**10–14 days from agreeing the details, plus shipping**). One CTA, to `custom.html`.
+**That delay is an advantage, not a compromise.** By the 29th custom orders have been open for
+twelve days, and Maurya's two quilted totes and Aubrea's three bow clips are finished (due
+Aug 17–19). So this email shows a real custom piece somebody actually asked for instead of
+describing a hypothetical one — which is the single biggest thing it can do.
 
-Worth including: the **53-print fabric library**. "Pick your print" is the single most concrete
+**Subject:** You can ask me for anything
+**Preheader:** Custom orders are open — here's what that looks like.
+
+Lead with the finished work: a photo of one of the custom pieces made this month, and one line
+about what she asked for. Then explain what custom covers (your print, your dimensions, a
+favourite piece recreated), what it costs (totes **$50–100**, bows **$13–20**, scrunchies
+**$6–12**, pet bandanas **$20–25**, **$25 minimum**), and how long it takes (**10–14 days from
+agreeing the details, plus shipping**). One CTA, to `custom.html`.
+
+Worth including: the **71-print fabric library**. "Pick your print" is the single most concrete
 thing about custom orders, and that page already exists.
+
+⚠️ **Don't say "opens today"** — it opened on the 17th, and anyone who already sent an enquiry
+will notice. "Are open" is the tense.
 
 ### Basket-abandoner segment — **BLOCKED, not forgotten**
 
@@ -358,7 +373,7 @@ channels apart on launch day, tag the links: `?ref=ig` in the bio, `?ref=tt` on 
 
 | Time | Action |
 |---|---|
-| 9:00a | **Email Broadcast #3** to the Nest: custom orders are open. Email sits and waits, so morning is still right. |
+| 9:00a | **Email Broadcast #3** to the Nest: custom orders are open. Copy and subject line are in §8. Email sits and waits, so morning is still right. Lead with a finished custom piece — by now there is one. |
 | **11:30a** | **IG post + TikTok** — the announcement, at the start of the lunch peak. Explain custom in plain words. |
 | **11:45a** | **IG Story series** — 5 frames: what custom means, examples, price range, turnaround, how to ask. Link sticker → contact form. |
 | 12:00–1:00p | Story: answer the questions coming in, publicly, while people are actually there. Q&A *is* the content. |
@@ -488,50 +503,22 @@ Copy-paste. Swap the hashtag block per §6.
 > *(This is new as of Aug 3 and most handmade shops can't say it. Pair it with scarcity —
 > "one of a kind AND it ships this week" is stronger than either half alone.)*
 
-**Custom orders announcement (Aug 15)**
-> Starting today, you can ask me for something that doesn't exist yet.
+**Custom orders announcement (Sat Aug 29 — the push)**
+> This is the part I've been waiting to show you.
 >
-> Custom orders are open. That means: your print, your dimensions, a favorite piece
-> recreated with your own twist. A tote sized for the exact book you carry. A bow in
-> the color of someone's wedding.
+> Custom orders are open. That means: your print, your dimensions, a favourite piece recreated
+> with your own twist. A tote sized for the exact book you carry. A bow in the colour of
+> someone's wedding.
 >
-> I take a small number at a time, because I don't rush the process — handmade should
-> mean something.
+> This one [above / in the first photo] was made for someone who asked for [X]. That's how it
+> works — you tell me what you're picturing, I come back with a price, and nothing is charged
+> until you've said yes.
 >
-> Tell me what you're imagining. Link in bio. ✨
-
-**Post 6 replacement — Sat Aug 8, nine days out** *(the old one said "this time next Saturday, the Nest is open" — the shop opened July 1)*
-> In nine days, you'll be able to ask me for something that doesn't exist yet.
+> Seventy-one prints on the shelf to choose from, and I take a small number at a time, because
+> I don't rush the process — handmade should mean something. ✨
 >
-> Custom orders open **Monday, August 17**. That means your print, your size, made for you or
-> for someone you love — a tote sized to the exact book you carry, a bow in a friend's wedding
-> colours, a piece you saw here months ago remade in a fabric you picked yourself.
->
-> There are seventy-one prints on my shelf right now, and picking one is genuinely the fun part.
-> Have a browse before the doors open — the people who already know what they want are the ones
-> I can quote straight away.
->
-> And you don't have to wait for the form. Tell me now what you're picturing and I'll have a
-> price ready for you on the 17th. 🧵
->
-> (San Antonio — local pickup is always free. Veteran-owned, sewn at my kitchen table.)
->
-> *(Link in bio → the fabric library.)*
-
-**Post 7 replacement — Wed Aug 12, five days out** *(the old one was a "3 days" countdown to the ready-made shop opening)*
-> A tote, start to finish, in under a minute.
->
-> Cutting, pinning, the lining, the strap, the last press. This is the part nobody sees, and
-> it's the part that takes the longest.
->
-> **In five days you can ask me to make one of these for you** — your print, your size.
-> Custom orders open Monday the 17th.
->
-> *(TikTok caption, shorter:)* a tote from bolt to finished, sped up. in 5 days you can pick the
-> print and I'll make you one 🪡 #handmade #processvideo #booktok
->
-> *(Away Aug 14–16, so anything that lands over that weekend gets its reply on the 17th — which
-> is the day the form opens anyway. Say so if anyone asks.)*
+> *(Swap in a real piece and a real sentence about it. If nothing is finished, don't post this —
+> post the process footage instead and hold this until something is.)*
 
 **Build Your Own Bundle (Aug 21)**
 > Three scrunchies, any three prints, $15. 🎀

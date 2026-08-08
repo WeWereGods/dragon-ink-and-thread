@@ -28,10 +28,12 @@ Two rules that keep this useful:
       ⚠️ **Read it against the live shop before sending** — it describes what's in stock, and the
       shop changed a lot on Aug 5 (five bows added, bows now $12, Pet Bandanas opened, four sold
       pieces retired to Stories).
-- [ ] **Posts 6 and 7 are STALE — Sat Aug 8 and Wed Aug 12 on the calendar.** Both were written
-      in July as launch countdowns for the *ready-made shop* ("This time next Saturday, the Nest
-      is open", "3 days"). The shop opened **July 1**. As written they'll confuse people who have
-      already bought. **Rewrite them to count down to custom orders, or delete them.**
+- [ ] **Paste the rewritten posts 6 and 7 over the scheduled ones.** New copy is in §13 of
+      `marketing/campaign-2026-08.md` — they count down to custom orders (nine days out on
+      Aug 8, five on Aug 12) instead of to a shop that opened July 1. The drafts live in the
+      scheduler, not the repo, so this is a copy-paste job only you can do.
+      ⚠️ **Aug 8 has two posts booked** — this one and the fabric-library teaser. Run the
+      teaser; move the countdown to Sun Aug 9.
 
 ---
 
