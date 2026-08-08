@@ -185,7 +185,7 @@ and the coffee collection being sewn this week.
 | Wed Aug 5 | TikTok | **"What's in my book bag"** — the Storykeeper, current read, a scrunchie on the wrist. Pure BookTok on-ramp. |
 | Thu Aug 6 | IG Reel | **Process: hand-tying the coffee bows.** Sound on, no voiceover. Teases the drop without promising a date. |
 | Fri Aug 7 | Site + IG Story | **List the restock** (coffee bows + totes — see the Aug 7 reminder). Then Story: **packing an order** — tissue, note, the whole ritual. Sets up the post-purchase ask. |
-| Sat Aug 8 | IG post | **Local San Antonio post.** Lead with **free local pickup**. Veteran-owned. Tag SA small-business accounts. |
+| Sat Aug 8 | IG + FB | **REPLACES stale post 6.** Custom orders countdown — **nine days out** — folded together with the local San Antonio angle the slot was already for: what custom means, the fabric library, free local pickup, veteran-owned. Caption in §13. ⚠️ The fabric-library teaser is also booked today (`marketing/fabric-collections-2026-08.md`). **Pick one.** The teaser is the stronger post; if it runs, move this to Sun Aug 9. |
 | Sun Aug 9 | **Email** | **Welcome Email 3 — "A proper look inside the Nest,"** carrying the coffee drop and teasing Aug 15. **This replaces the old "Broadcast #1"** (see §8). |
 
 **⚠️ Aug 9 used to have two emails on it** — Welcome Email 3 *and* a "the shop's been open"
@@ -217,10 +217,10 @@ Frame it as *"now you can ask for yours."*
 
 | Day | Channel | Post |
 |---|---|---|
-| Mon Aug 10 | IG + TikTok | **Announce it.** "In 5 days you can ask me to make something that doesn't exist yet." Explain what custom means: your print, your size, your person. Point at the **53-print fabric library** — it's the most persuasive custom-orders asset on the site and nothing currently drives traffic to it. |
+| Mon Aug 10 | IG + TikTok | **Announce it.** "In one week you can ask me to make something that doesn't exist yet." Explain what custom means: your print, your size, your person. Point at the **71-print fabric library** — it's the most persuasive custom-orders asset on the site and nothing currently drives traffic to it. ⚠️ This row used to say "in 5 days" and "53-print"; the launch moved to Aug 17 and the library grew. |
 | Mon Aug 10 | **Email (personal)** | **Follow up with all 3 customers** — how did it settle in, and would you send a line or a photo? This is the review engine (§9). Reminder is already scheduled. |
 | Tue Aug 11 | IG Story | **Q&A sticker:** "What would you have me make?" Harvest the answers — they're both content and product research. |
-| Wed Aug 12 | TikTok | **Process: a tote start to finish**, compressed. The most shareable format you have. |
+| Wed Aug 12 | TikTok | **REPLACES stale post 7.** Same process clip — a tote start to finish, compressed, the most shareable format you have — but it now ends on the countdown: **five days out**. Process footage plus "you can ask me for one of these on Monday" is a better post than either half. Caption in §13. |
 | Thu Aug 13 | IG carousel | **Cottage Rose + Blue Rose Mini** together — both still in stock. Note the rename openly ("same tote, better name"). |
 | Fri Aug 14 – Sun Aug 16 | — | **AWAY.** Nothing scheduled. Shop orders keep arriving and Pushover keeps buzzing; they ship on the 17th, still inside the 1–3 business day promise. **No local pickups can be handed over.** |
 | **Mon Aug 17** | *(nothing)* | **The form quietly opens.** Deliberately no post — the announcement is saved for the 29th. Enquiries land in Gmail and wait. |
@@ -499,6 +499,39 @@ Copy-paste. Swap the hashtag block per §6.
 > mean something.
 >
 > Tell me what you're imagining. Link in bio. ✨
+
+**Post 6 replacement — Sat Aug 8, nine days out** *(the old one said "this time next Saturday, the Nest is open" — the shop opened July 1)*
+> In nine days, you'll be able to ask me for something that doesn't exist yet.
+>
+> Custom orders open **Monday, August 17**. That means your print, your size, made for you or
+> for someone you love — a tote sized to the exact book you carry, a bow in a friend's wedding
+> colours, a piece you saw here months ago remade in a fabric you picked yourself.
+>
+> There are seventy-one prints on my shelf right now, and picking one is genuinely the fun part.
+> Have a browse before the doors open — the people who already know what they want are the ones
+> I can quote straight away.
+>
+> And you don't have to wait for the form. Tell me now what you're picturing and I'll have a
+> price ready for you on the 17th. 🧵
+>
+> (San Antonio — local pickup is always free. Veteran-owned, sewn at my kitchen table.)
+>
+> *(Link in bio → the fabric library.)*
+
+**Post 7 replacement — Wed Aug 12, five days out** *(the old one was a "3 days" countdown to the ready-made shop opening)*
+> A tote, start to finish, in under a minute.
+>
+> Cutting, pinning, the lining, the strap, the last press. This is the part nobody sees, and
+> it's the part that takes the longest.
+>
+> **In five days you can ask me to make one of these for you** — your print, your size.
+> Custom orders open Monday the 17th.
+>
+> *(TikTok caption, shorter:)* a tote from bolt to finished, sped up. in 5 days you can pick the
+> print and I'll make you one 🪡 #handmade #processvideo #booktok
+>
+> *(Away Aug 14–16, so anything that lands over that weekend gets its reply on the 17th — which
+> is the day the form opens anyway. Say so if anyone asks.)*
 
 **Build Your Own Bundle (Aug 21)**
 > Three scrunchies, any three prints, $15. 🎀
