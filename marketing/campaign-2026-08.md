@@ -551,6 +551,68 @@ Copy-paste. Swap the hashtag block per §6.
 > *(Away Aug 14–16, so anything landing over that weekend gets its reply on the 17th — which is
 > the day the form opens anyway.)*
 
+**The scroll — screen-recording the library into custom orders (EVERGREEN)**
+*The video version of the post below. Shoot it once; it works on TikTok, Reels and Facebook,
+and it keeps working for as long as the library exists.*
+
+**Why a screen recording beats a fabric flat-lay here:** the thing being sold is not the fabric,
+it's the *choosing*. Nobody knows they're allowed to pick until they watch someone do it. The
+scroll is the demonstration.
+
+**Shot list — 20 to 25 seconds, filmed on the phone, portrait:**
+1. **0–2s.** Open on the library already loaded, thumb resting. On-screen text: `this is my
+   entire fabric shelf`
+2. **2–4s.** Scroll slowly past the intro line — it reads *"These are the 71 fabrics on my shelf
+   right now"* — long enough to be read, not long enough to be boring.
+3. **4–8s.** Tap two of the group filters. `Tea with the Suriel 6`. `Postcards and Pumpkins 4`.
+   This is the beat that tells people the shelf is *sorted*, not a pile.
+4. **8–15s.** Scroll properly. Let the names go by — Flowers of Adarlan, Nesta's Cats, Court of
+   the Owl King, Toadstool Village. Slow to a stop on one. Tap it so it fills the screen.
+   On-screen text: `every one of them has a name`
+5. **15–20s.** Tap through to the custom page. Land on the heading: *"Ask me for something that
+   doesn't exist yet."* Let it sit for a full second — that line does the work.
+6. **20–25s.** End frame: `pick a print. I'll make you the thing.`
+
+**Sound:** this is the one post where silence doesn't work — a screen recording has no sound of
+its own. Something quiet and unhurried under it, no trending audio, no voiceover needed.
+
+**TikTok / Reels caption:**
+> people don't realise they get to choose. this is the whole shelf — 71 prints, all named, all
+> sitting in my house right now. pick one and I'll make you a tote, a bow, a bandana, whatever
+> you're picturing. custom orders are open 🧵📖 #booktok #cottagecore #handmade #smallbusiness
+
+**Instagram feed caption** (if posting as a Reel to the grid):
+> This is the part people don't expect.
+>
+> When someone asks me for something custom, they don't get a colour swatch and a guess — they
+> get the actual shelf. Seventy-one prints, sorted onto seven shelves, every one of them named,
+> every one of them already in my house.
+>
+> Flowers of Adarlan. Nesta's Cats. Court of the Owl King. Toadstool Village.
+>
+> You scroll it like a menu. Find the one that stops you, tell me what you're picturing, and I
+> come back with a price — nothing is charged until you've said yes.
+>
+> Custom orders are open. Go and choose. 🧵
+>
+> Link in bio → the fabric library.
+
+**Facebook caption:**
+> This is the part people don't expect about custom orders — you get to see the actual shelf.
+>
+> Seventy-one prints, sorted onto seven shelves, every one of them named and every one already
+> in my house. You scroll through it like a menu, find the one that stops you, and tell me what
+> you're picturing. I come back with a price, and nothing is charged until you've said yes.
+>
+> Custom orders are open.
+>
+> https://www.dragoninkandthread.com/fabrics.html
+>
+> (San Antonio — local pickup is always free.)
+
+⚠️ **Re-shoot it whenever the count changes.** The intro line on the page reads the number out
+loud, so a video showing "71" dates itself the day fabric 72 lands. It's a two-minute re-record.
+
 **The fabric library — EVERGREEN, reusable any time**
 *Not the same post as the Aug 8 teaser. That one is news ("eighteen new prints") and will date;
 this one is about the page itself and works in any month. Don't run them within a fortnight.*

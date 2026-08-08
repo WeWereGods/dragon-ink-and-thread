@@ -143,7 +143,7 @@ const html = `<!DOCTYPE html>
         <div class="section-head">
           <p class="eyebrow">The Fabric Shelf</p>
           <h1>What I have to sew with</h1>
-          <p class="section-sub">These are the ${total} fabrics on my shelf right now. Any of them can become a tote, a bow or a scrunchie made just for you — find one you love, note its name, and tell me on the custom order form.</p>
+          <p class="section-sub">These are the ${total} fabrics on my shelf right now. Any of them can become a tote, a bow, a scrunchie, a pet bandana or a book sleeve made just for you — find one you love, note its name, and tell me on the custom order form.</p>
           <p class="fabric-hero-note">Tap any swatch to see it larger. Colours shift a little between screens, and prints are photographed flat, so scale reads slightly smaller than it looks in hand.</p>
         </div>
       </div>
