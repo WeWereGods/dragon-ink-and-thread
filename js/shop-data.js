@@ -78,6 +78,8 @@ window.DIT_SHOP = {
     "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐" },
     "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖" },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
+    "bandana-toffee-windowpane": { name: "Toffee Windowpane Bandana", price: 18.0, art: "🐾" },
+    "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" }
   },
 
@@ -260,6 +262,18 @@ window.DIT_SHOP = {
         "assets/bandana-storykeeper-3.jpg"
       ]
     },
+    "bandana-toffee-windowpane": {
+      alt: "Handmade pet bandana in a warm brown windowpane check, worn over a dog's collar",
+      blurb: "A warm brown windowpane check — quiet, a little tweedy, and the one for a dog who'd rather look like he's off to the pub than to a party. Slips over the collar he already wears, so there's nothing to tie and nothing to work loose halfway round the block.",
+      details: "Size Medium · fits a NECK RANGE TBC neck · slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
+      images: ["assets/bandana-toffee-windowpane.jpg"]
+    },
+    "bandana-brew-and-bloom": {
+      alt: "Handmade pet bandana in a coffee-and-roses print with a soft blush linen-textured fabric",
+      blurb: "Brew and Bloom — roses and coffee cups and the whole slow morning — set against the soft slub of Blushing Linen. Made for the dog who lies under the table while you have your first cup and waits for you to be a person again.",
+      details: "Size Large · fits an 18″–23″ neck · slips over the collar · other sizes made to order · machine wash cold, hang to dry.",
+      images: ["assets/bandana-brew-and-bloom.jpg"]
+    },
     "sleeve-reading-nook": {
       alt: "Handmade quilted book sleeve in a dark coffee-house print with a cream marble band, shown open to a toffee windowpane lining",
       blurb: "Somewhere soft for whatever you're in the middle of. Quilted and padded all the way round, so the rest of your bag stops pressing against the cover, and the top is left open on purpose — no button, no snap, nothing to undo when you've got one hand free and five minutes to read. The Daily Grind on the outside under a band of Cinnamon Marble, and a Toffee Windowpane lining that nobody but you will see.",
@@ -306,6 +320,8 @@ window.DIT_SHOP = {
     "bow-suriels-bouquet":   "cart",
     "bow-suriel-set":        "cart",
     "bandana-storykeeper":   "cart",
+    "bandana-toffee-windowpane": "cart",
+    "bandana-brew-and-bloom":    "cart",
     "sleeve-reading-nook":   "cart"
   },
 
@@ -333,7 +349,7 @@ window.DIT_SHOP = {
             "bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
             "bow-gingham", "bow-sage-gingham"  ] },
     { label: "Pet Bandanas", note: "Over-the-collar bandanas in the same storybook prints — for the one who waits by the door.",
-      ids: ["bandana-storykeeper"] },
+      ids: ["bandana-storykeeper", "bandana-toffee-windowpane", "bandana-brew-and-bloom"] },
     { label: "Book Sleeves", note: "Padded, open-topped, and somewhere soft for whatever you're in the middle of.",
       ids: ["sleeve-reading-nook"] }
   ]
