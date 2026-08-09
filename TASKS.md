@@ -57,16 +57,24 @@ Two rules that keep this useful:
       ⚠️ **Read it against the live shop before sending** — it describes what's in stock, and the
       shop changed a lot on Aug 5 (five bows added, bows now $12, Pet Bandanas opened, four sold
       pieces retired to Stories).
-- [ ] **Paste the rewritten posts 6 and 7 over the scheduled ones.** New copy is in §13 of
-      `marketing/campaign-2026-08.md` — they count down to custom orders (nine days out on
-      Aug 8, five on Aug 12) instead of to a shop that opened July 1. The drafts live in the
-      scheduler, not the repo, so this is a copy-paste job only you can do.
-      ⚠️ **Aug 8 has two posts booked** — this one and the fabric-library teaser. Run the
-      teaser; move the countdown to Sun Aug 9.
+- [ ] **Delete the stale scheduled posts 6 and 7** from the scheduler. Their replacements
+      counted down to Aug 17 and custom orders opened on the 8th, so the countdown framing is
+      dead too — don't paste those either. Use the evergreen fabric-library post or the
+      Reading Nook Sleeve post from §13 of `marketing/campaign-2026-08.md` instead.
 
 ---
 
 ## 🟡 Ready to go — just needs sending
+
+- [ ] **Two new pet bandanas post** — Facebook copy in §13 of `marketing/campaign-2026-08.md`,
+      written 2026-08-08. Both are live in the shop at $18. Needs the scale shot (both flat
+      together, hand in frame) — "Medium" means nothing until it's next to something.
+- [ ] **Reading Nook Sleeve post** — Facebook + Instagram in §13. It went live Aug 7 and has
+      **never been announced**. Leads on Rebekah's five-star review for the Road Trip Kindle
+      Case, which until now pointed at something nobody could buy.
+      ⚠️ Needs one new photo: a book half out of the sleeve. Empty, it photographs as a flat
+      brown rectangle.
+- [x] **Fabric teaser — POSTED 2026-08-08** (eighteen new prints, seventy-one in the library).
 
 - [ ] **Pet bandana post — Instagram + Facebook.** Images and captions both done 2026-08-06.
       Carousel order: shepherd → second shot → flat lay. Ghost is named in the caption.

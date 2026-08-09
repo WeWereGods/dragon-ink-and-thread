@@ -131,6 +131,12 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   the moment of peak goodwill and used to ask for neither: a review/photo (mailto + Instagram; real
   reviews get added BY HAND to `TESTIMONIALS`, never invented) and a Join-the-Nest signup tagged
   **`purchased`**, wired by a small inline script since this page doesn't load main.js.
+  - ⚠️ **ALWAYS `wrangler deploy` FROM `main`, AFTER PULLING.** Learned the hard way 2026-08-08:
+    a deploy was run from a side branch that had the new photos but not the new `PRICES` entries,
+    so it succeeded, printed success, and shipped a Worker that had never heard of the two new
+    bandanas. The symptom is **"Your cart is empty"** at checkout on a brand-new item — the
+    Worker skips ids it doesn't know (`if (!p) continue`), and an all-unknown cart looks empty.
+    Nothing about the deploy looks wrong. `git checkout main && git pull` first, every time.
   - **SECURITY / source of truth for prices:** the Worker holds its OWN `PRICES` map (in cents).
     Client-sent prices are ignored. When you change a price or add/retire an item in
     **js/shop-data.js**, also update `PRICES` in worker/checkout-worker.js and re-run
