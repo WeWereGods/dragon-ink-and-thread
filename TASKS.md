@@ -125,6 +125,15 @@ Two rules that keep this useful:
         to Stories a few days later.** The product group refreshes every 24h, so retiring the
         same day leaves a live Pin pointing at a deleted page. `soldOut` keeps the page alive
         and the feed marks it out of stock instead.
+- [ ] **Finish the Pinterest board tidy-up** (2026-08-09, the rest of it is done — six boards
+      named, described, and three fabric Pins uploaded from `assets/pins/`, rebuildable with
+      `node tools/build-pin-images.js`).
+      - **Fill the five product boards from Catalogs → Product groups → "Save to board".** Uses
+        the Product Pins the catalog already generates; making fresh pins by hand would compete
+        with your own catalog for the same listings.
+      - **Make "Totes and Tutorials" private** (31 pins) if it holds other makers' work. It now
+        sits publicly beside "Handmade Book Tote Bags", so a shopper can't tell which totes are
+        yours — and the saved ones link to other shops.
 - [ ] **Confirm the Pinterest conversion fires on the NEXT REAL SALE.** Shipped 2026-08-09 and
       tested hard in the browser (fires once with the right value; silent on reload, on a stale
       order, on corrupt data, and when GPC has suppressed the tag) — but every one of those was
