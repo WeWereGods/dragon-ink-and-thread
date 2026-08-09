@@ -45,12 +45,13 @@ Two rules that keep this useful:
       The launch **push is still Sat Aug 29** — opening quietly now just means anyone who comes
       looking can ask.
 
-- [ ] **Welcome Email 3 — due ~Sun Aug 9. REWRITTEN 2026-08-09, ready to send.** The last of the
-      three, sent by hand as a Buttondown broadcast (automations are paywalled; see
-      `emails/welcome-sequence.md`). Checked against the live shop: Book Sleeves added, the
-      retired mushroom print removed, the bandana paragraph now says Medium *and* Large (13″–23″)
-      instead of "small and medium on request", and custom orders are stated as open with the
-      fabric library linked.
+- [x] **Welcome Email 3 — SENT 2026-08-09.** That completes the three-email welcome sequence;
+      the whole list has now had all of it, and everyone holds NEST15.
+      ⚠️ **The gap this leaves is people who subscribe from now on.** With no automation (it's a
+      +$29/mo Buttondown add-on), nobody new receives any of the three. Until that's paid for or
+      replaced, a new subscriber gets Buttondown's stock confirmation and nothing else — so the
+      Aug 29 push is the next thing that reaches them. Worth revisiting once signups arrive
+      steadily rather than in a lump; see "Sending" in `emails/welcome-sequence.md`.
 - [ ] **Overwrite scheduled posts 6 and 7 with the Aug 9 rewrites.** Copy is in §13 of
       `marketing/campaign-2026-08.md`. The drafts live in the scheduler, not the repo, so this is
       a copy-paste job only you can do.

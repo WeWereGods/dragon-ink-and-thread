@@ -10,7 +10,7 @@ unhurried, book-lover warmth. First person — these come from Ayla, not from a 
 |---|---|---|
 | 1 — Welcome | ✅ **2026-08-02** | Whole list. Carries NEST15. |
 | 2 — The story | ✅ **2026-08-05** | ~3 days after Email 1 |
-| 3 — What I make | ☐ due ~**2026-08-09** | ~7 days after Email 1. **Rewritten 2026-08-09** — see below. |
+| 3 — What I make | ✅ **2026-08-09** | Rewritten the same day against the live shop — see below. |
 
 ---
 
@@ -206,8 +206,14 @@ three. Email 1 goes to the whole list, then Email 2 about 3 days later, then Ema
 week after Email 1 — the same spacing the automation would have used. That clears the entire
 backlog and delivers NEST15 to everyone on the list.
 
-**Email 1 was sent to the whole list on 2026-08-02**, so NEST15 is now in every existing
-subscriber's inbox. Emails 2 and 3 are still to send — see the table at the top for dates.
+**All three have now gone out** (Aug 2, Aug 5, Aug 9), so the backlog is clear and every
+subscriber on the list at that point holds NEST15.
+
+⚠️ **From 2026-08-09 the sequence reaches NOBODY.** It was only ever three hand-sent
+broadcasts, and the backlog they were clearing is gone. Anyone who subscribes from now on gets
+Buttondown's stock confirmation and silence — no welcome, no story, no NEST15 — until someone
+sends them something by hand or an automation is paid for. **This is the cost that comes due
+now**, not a future risk, and it grows with every new signup.
 
 The gap this leaves is people who subscribe *after* a given broadcast: they pick up the
 sequence wherever it happens to be. Right now that's a handful of people, and the **Sat Aug 29**
