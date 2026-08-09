@@ -128,6 +128,15 @@ ahead of abandoned-cart recovery.
 - **3 of those abandonments sat just under $50**: $45.05, and $41.50 twice
 - 0 of 26 unpaid sessions captured an email
 
+⚠️ **KNOWN TEST SESSION — exclude it from the September count.**
+`cs_live_b1OZsP7iFlZwEnaK3AkV4gbdePwjhMhWC9qkUMn52cthEpkVsy6eZzKoV1`, created 2026-08-09,
+$26.50 (Quilted Court Bandana + $4.50 shipping). It is not a customer. It was created
+deliberately to prove the Worker knew the new bandana id after `wrangler deploy` — the Aug 8
+failure shipped a Worker that didn't, and a successful-looking deploy is exactly what hides it.
+There is no way to check that without letting a session be built. It self-expired ~Aug 10.
+**This is the cost of that check: one extra expired session in the data.** Worth it, but write
+future ones down here the same way rather than trying to identify them by eye later.
+
 **Re-measure on 2026-09-08** — a reminder is scheduled (trigger `trig_01LsZGATD8bKPacFutiekxnj`,
 fires 9am Central, push + email) and carries the baseline with it. ⚠️ It was created from a
 CLI session, so it holds **no Stripe connector** — the session it opens may have to ask for the
