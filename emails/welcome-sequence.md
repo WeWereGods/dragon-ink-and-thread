@@ -3,14 +3,14 @@
 Three emails sent to new "Join the Nest" subscribers. Voice is the site's: cozy,
 unhurried, book-lover warmth. First person — these come from Ayla, not from a brand.
 
-**Status:** copy is current as of 2026-07-31. **These are sent by hand, not by an automation**
+**Status:** copy is current as of 2026-08-09. **These are sent by hand, not by an automation**
 — see "Sending" at the bottom for why and how.
 
 | Email | Sent | Notes |
 |---|---|---|
 | 1 — Welcome | ✅ **2026-08-02** | Whole list. Carries NEST15. |
 | 2 — The story | ✅ **2026-08-05** | ~3 days after Email 1 |
-| 3 — What I make | ☐ due ~**2026-08-09** | ~7 days after Email 1 |
+| 3 — What I make | ☐ due ~**2026-08-09** | ~7 days after Email 1. **Rewritten 2026-08-09** — see below. |
 
 ---
 
@@ -32,6 +32,16 @@ email in someone's inbox cannot. So:
 
 The previous version broke all three rules: it promised "10% off" and said "the shop opens
 August 15" — which had already happened on July 1.
+
+**Email 3 was rewritten 2026-08-09** for the same reason — it had drifted from the shop in four
+weeks. It described totes in "woodland mushrooms" (retired to Stories 2026-07-27), it had no
+mention of **Book Sleeves** at all (a whole category, live since 2026-08-07), it named the
+Storykeeper Bandana individually, and it told readers the bandanas were Large with "small and
+medium I'll make for you, just ask" — a sentence the Medium added on 2026-08-08 exists
+specifically to stop needing. It also framed custom orders as something to ask about; they
+opened 2026-08-08 and the email now says so plainly and links the fabric library.
+**Read it against the live shop before every send.** This one is about what she makes, so it
+goes stale faster than the other two, and a category is the easiest thing to forget to add.
 
 ---
 
@@ -110,42 +120,53 @@ More soon — next I'll show you around what I actually make.
 ## Email 3 — What I make (sends ~7 days after Email 1)
 
 **Subject:** A proper look inside the Nest
-**Preheader:** Totes, scrunchies, bows, pet bandanas — and the thing I'll make just for you.
+**Preheader:** Totes, scrunchies, bows, bandanas, book sleeves — and the thing I'll make just for you.
 
 Hi,
 
 Here's what I've been sewing.
 
 **Totes** — roomy enough for a hardback and everything else you're carrying. Cottage florals,
-woodland mushrooms, wild strawberries, lily-of-the-valley and butterflies. Some are big
-slouchy everyday bags, some are little mini totes for just the essentials. Every one is
-fully finished inside, because I can't help myself.
+butterflies, wild berries, and shelves of antique books and apothecary bottles printed deep on
+black. Some are big slouchy everyday bags, some are mini totes for just the essentials. Every
+one is lined and fully finished inside, because I can't help myself.
 
 **Scrunchies** — soft prints, gentle on your hair, sturdier than they look. $6 each, or
 build your own bundle of any three for $15. (I can never pick three either.)
 
-**Bows** — hand-tied sailor bows, $12. Small things that make an ordinary day feel considered.
+**Bows** — sailor bows on a slide-in clip, $12 each, in everything from midnight and bronze to
+soft plaids and pale linen. Small things that make an ordinary day feel considered. Now and
+then a whole collection goes up together as a set.
 
-**Pet bandanas** — because the one who waits by the door deserves a storybook print too. The
-Storykeeper Bandana is $18, in the same antique-books-and-potion-bottles fabric as the tote of
-the same name, so you can match. It slips over the collar they already wear — nothing to tie,
-nothing to lose. This one's a Large (fits an 18″–23″ neck); small and medium I'll make for you,
-just ask.
+**Pet bandanas** — because the one who waits by the door deserves a storybook print too. $18.
+They slip over the collar they already wear: a gathered channel, nothing to tie, nothing to
+work loose halfway round the block. I sew them in Medium and Large, which between them cover
+roughly a 13 to 23 inch neck, and any other size I'll make to your dog's measurement. Some are
+reversible, so it's two bandanas on one collar.
+
+**Book sleeves** — quilted and padded the whole way round, so the rest of your bag stops
+pressing on the cover. The top is left open on purpose: no button, no snap, nothing to undo
+when you've got one hand free and five minutes to read. Takes a hardback, a paperback or an
+e-reader. $28.
 
 Everything is handmade in small batches, and most pieces are **one of a kind** — when one
 sells, that's genuinely it. If you see something you love, don't sit on it too long.
 
 → [Browse everything](https://www.dragoninkandthread.com/shop.html)
 
-**And if what you want doesn't exist yet — ask me.** Custom orders are your print, your size,
-made for you: a tote sized to the exact book you carry, bows in a friend's wedding colours, a
-retired piece remade in a new fabric. I'll quote you before anything begins, and you're free
-to walk away.
+**And if what you want doesn't exist yet — ask me.** Custom orders are open: your print, your
+size, made for you. A tote sized to the exact book you carry, bows in a friend's wedding
+colours, a bandana cut to your dog's measurements, a retired piece remade in a fabric you
+picked yourself. I keep my whole fabric shelf online so you can scroll it like a menu — every
+print named, all of it already in my house. Tell me what you're picturing and I'll come back
+with a price. Nothing is charged until you've said yes.
 
+→ [Scroll the fabric shelf](https://www.dragoninkandthread.com/fabrics.html)
 → [How custom orders work](https://www.dragoninkandthread.com/custom.html)
 
-A few practical things: shipping is one flat fee per order (free over $50), and if you're
-local to San Antonio you can choose **Local pickup** at checkout and skip it entirely.
+A few practical things: shipping is a single flat fee per order, however much you pile in —
+and it's free over $50. If you're local to San Antonio you can choose **Local pickup** at
+checkout and skip it entirely.
 
 Thanks for being here. It means more than you'd think.
 
@@ -188,11 +209,11 @@ backlog and delivers NEST15 to everyone on the list.
 subscriber's inbox. Emails 2 and 3 are still to send — see the table at the top for dates.
 
 The gap this leaves is people who subscribe *after* a given broadcast: they pick up the
-sequence wherever it happens to be. Pre-launch that's a handful of people, and the Aug 15
-launch email reaches them regardless. **Revisit after launch**, when signups arrive
+sequence wherever it happens to be. Right now that's a handful of people, and the **Sat Aug 29**
+custom-orders push reaches them regardless. **Revisit after that push**, when signups arrive
 continuously instead of in a lump — that's when $29/mo (or a platform with automations on its
-free tier) actually buys something. Migrating before launch would mean re-pointing both signup
-forms, re-importing the list and re-verifying sending, for no benefit on launch day.
+free tier) actually buys something. Migrating before then would mean re-pointing both signup
+forms, re-importing the list and re-verifying sending, for no benefit on the day.
 
 **Blocked, not forgotten:** the `checkout` tag identifies people who reached the basket and
 didn't finish, and that segment deserves its own one-off send (copy is in the marketing plan).

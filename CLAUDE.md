@@ -505,9 +505,11 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
 - **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
   are written but not yet set up as an automation in Buttondown, so new subscribers still get
   silence. Needs doing in the Buttondown dashboard (not in this repo).
-- **Back-fill old subscribers into Buttondown** — anyone who joined before 2026-07-10 exists
-  *only* as a Web3Forms notification in the Gmail inbox (free tier drops submissions after 30
-  days). Export them from Gmail and import to Buttondown, or they never get the launch code.
+- ~~Back-fill old subscribers into Buttondown~~ — **DONE 2026-07-31** (confirmed 2026-08-09).
+  Pre-2026-07-10 signups existed only as Web3Forms notifications in Gmail; they were exported and
+  imported, and Email 1 has since reached the whole list, so everyone holds NEST15. **Don't
+  re-raise it** — it stayed written as open here and in TASKS.md for over a week after it was
+  finished, which is how a task list starts costing more than it saves.
 - **ABANDONED-CART RECOVERY — researched 2026-08-06, DEFERRED by the owner ("not now but keep on
   agenda"). Don't build it unasked; don't re-research it either.** Two carts abandoned on
   2026-08-05 (Cauldron Forged Bow $12; Daily Grind in Ivory $16.56 with NEST10 already applied),

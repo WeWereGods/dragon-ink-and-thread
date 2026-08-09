@@ -520,36 +520,49 @@ Copy-paste. Swap the hashtag block per §6.
 > *(Swap in a real piece and a real sentence about it. If nothing is finished, don't post this —
 > post the process footage instead and hold this until something is.)*
 
-**Post 6 replacement — Sat Aug 8, nine days out** *(the old one said "this time next Saturday, the Nest is open"; the shop opened July 1)*
-> In nine days, you'll be able to ask me for something that doesn't exist yet.
+⚠️ **Posts 6 and 7 were rewritten AGAIN on 2026-08-09 — the countdown is dead.** The versions
+below the previous ones counted down to Monday Aug 17. **Custom orders opened early on Aug 8**
+(`CUSTOM_OPENS` in js/dates.js), so a countdown post now tells people to wait for something they
+can already have — worse than posting nothing, because the countdown *was* the hook. The site
+flipped itself; these captions had to be flipped by hand. **The big push is still Sat Aug 29** —
+these two are the quiet "it's open, ask me" posts that fill the gap.
+
+**Post 6 replacement — Sun Aug 9, open now** *(rewritten twice: the original said "this time next Saturday, the Nest is open" when the shop opened July 1; the second counted down to Aug 17, which the early opening killed)*
+> You can now ask me for something that doesn't exist yet.
 >
-> Custom orders open **Monday, August 17**. That means your print, your size, made for you or
-> for someone you love — a tote sized to the exact book you carry, a bow in a friend's wedding
-> colours, a piece you saw here months ago remade in a fabric you picked yourself.
+> Custom orders are **open**. Your print, your size, made for you or for someone you love — a
+> tote sized to the exact book you carry, a bow in a friend's wedding colours, a bandana cut to
+> your dog's actual neck, a piece you saw here months ago remade in a fabric you picked yourself.
 >
-> There are seventy-one prints on my shelf right now, and picking one is genuinely the fun part.
-> Have a browse before the doors open — the people who already know what they want are the ones
-> I can quote straight away.
+> There are seventy-one prints on my shelf right now, all named, all already in my house. Picking
+> one is genuinely the fun part, and you don't have to know the rest — tell me what you're
+> picturing and I'll come back with a price. Nothing is charged until you've said yes.
 >
-> And you don't have to wait for the form. Tell me now what you're picturing and I'll have a
-> price ready for you on the 17th. 🧵
+> I take a small number at a time, because I don't rush the process. So if there's something in
+> your head, now is a good moment to say it. 🧵
 >
 > (San Antonio — local pickup is always free. Veteran-owned, sewn at my kitchen table.)
 
-**Post 7 replacement — Wed Aug 12, five days out** *(the old one was a "3 days" countdown to the ready-made shop opening)*
+*Link the fabric library, not just the custom page — the shelf is what makes people realise they
+get to choose. **Don't quote a turnaround in the caption.** Aug 17–20 is already spoken for by
+Maurya's wheelchair tote and Aubrea's bow clips, and the trip is Aug 14–16; agree dates in the
+reply, per enquiry, where you can be honest about the queue.*
+
+**Post 7 replacement — Wed Aug 12, process video** *(the original was a "3 days" countdown to the ready-made shop opening; the second counted down to Aug 17)*
 > A tote, start to finish, in under a minute.
 >
 > Cutting, pinning, the lining, the strap, the last press. This is the part nobody sees, and
 > it's the part that takes the longest.
 >
-> **In five days you can ask me to make one of these for you** — your print, your size.
-> Custom orders open Monday the 17th.
+> **This is the bit you get to commission now** — custom orders are open, so you pick the print
+> and the size and I make you one of these from scratch. Seventy-one prints on the shelf to
+> choose from.
 >
-> *(TikTok caption, shorter:)* a tote from bolt to finished, sped up. in 5 days you can pick the
-> print and I'll make you one 🪡 #handmade #processvideo #booktok
+> *(TikTok caption, shorter:)* a tote from bolt to finished, sped up. custom orders are open —
+> pick the print, I'll make you one 🪡 #handmade #processvideo #booktok
 >
-> *(Away Aug 14–16, so anything landing over that weekend gets its reply on the 17th — which is
-> the day the form opens anyway.)*
+> *(Away Aug 14–16. Anything landing over that weekend gets its reply on the 17th — say so in the
+> reply, not in the caption; a post that leads with when you're unavailable sells nothing.)*
 
 **The Reading Nook Sleeve — Facebook + Instagram (live since 2026-08-07, never announced)**
 *The angle is Rebekah's review. She left five stars for the Road Trip Kindle Case — a one-off

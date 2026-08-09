@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-08.**
+**Last reviewed: 2026-08-09.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -15,31 +15,24 @@ Two rules that keep this useful:
       $97.43 paid 2026-08-05 (invoice `VBQJFYMO-0001`, $100 less $10 for the pair, plus tax).
       Terms are 10–14 days from acceptance → **due ~Aug 15–19**. She's local (San Antonio).
       ⚠️ Away Aug 14–16, so the real window is **Aug 17–19**.
-      - **2026-08-08: the first tote is FINISHED**, photo sent, waiting on her approval before
-        the wheelchair tote is started. That's the process working as written — nothing moves
-        until she's seen it.
-      - ⚠️ **Don't let the wait be silent.** If there's no reply by **Mon Aug 11**, nudge once.
-        Two pieces in one order and only one of them started is the half that can still slip,
-        and she is local, so a pickup date is easy to agree once she's happy.
+      - **2026-08-09: she replied and loved the first tote.** Approved, so the **wheelchair tote
+        is now the live piece of work** — the only thing left on this order.
+      - **Agree a pickup date while she's happy.** She's local, the tote is done, and the away
+        window is Aug 14–16; offering **Aug 17–19** now beats her asking later.
       - 📸 **Photograph it properly before it leaves.** The Aug 29 broadcast is written to lead
         with a real finished custom piece (§8 of `marketing/campaign-2026-08.md`), and right now
         this is the only one that exists.
-- [ ] ⚠️ **Aubrea Pritt — 3 custom bow clips. BLOCKED ON FABRIC.** $36 paid 2026-08-05
-      (invoice `85VBHJQE-0001`). Oakdale, **California** — these post, they aren't collected.
-      She's also the five-star review already on the homepage, so this order is worth getting right.
-      - **2026-08-08: the fabric still hasn't arrived.** Bow clips are quick once it's here, so
-        the make time isn't the problem — the delivery is, and it is the one part of this you
-        don't control.
-      - **The squeeze:** due ~Aug 15–19, and Aug 14–16 is a trip. If the fabric lands by
-        **Wed Aug 12** there's time to sew before leaving. If it lands after, the work happens
-        Aug 17–19 — still inside the window, but with no slack at all, and against Maurya's
-        two totes in the same days.
-      - **Do this today: check the tracking.** If it hasn't shipped, tell Aubrea now.
-        `emails/custom-orders-enquiry.md` promises "if I can't hit a date you need, I'll tell you
-        before you commit, not after" — the same honesty applies after. A message on the 8th
-        saying a supplier is slow reads as care; the same message on the 19th reads as an excuse.
-      - There is no template for this in `emails/order-updates.md`; those cover shipped, pickup
-        and the follow-up. Write it plainly, one short paragraph.
+- [ ] **Aubrea Pritt — 3 custom bow clips. Waiting on fabric, and that's agreed.** $36 paid
+      2026-08-05 (invoice `85VBHJQE-0001`). Oakdale, **California** — these post, they aren't
+      collected. She's also the five-star review on the homepage.
+      - **2026-08-09: fabric arrives Aug 14–19. Aubrea knows and is fine with it**, so this is
+        no longer a race — the honest conversation already happened.
+      - **Sewing lands Aug 17–19** (the trip is Aug 14–16), alongside Maurya's wheelchair tote.
+        Bow clips are quick; the two together are a full day, not a crisis.
+      - ⚠️ **The one thing still worth watching: nothing can post while she's away.** If the
+        fabric turns up on the 19th, cutting, sewing and posting to California all happen after
+        it — so the parcel moves later than the original ~Aug 15–19 window implied. Worth one
+        line to Aubrea with a real post date once the fabric is actually in hand.
 
 ---
 
@@ -52,15 +45,25 @@ Two rules that keep this useful:
       The launch **push is still Sat Aug 29** — opening quietly now just means anyone who comes
       looking can ask.
 
-- [ ] **Welcome Email 3 — due ~Sun Aug 9.** The last of the three, sent by hand as a Buttondown
-      broadcast (automations are paywalled; see `emails/welcome-sequence.md`).
-      ⚠️ **Read it against the live shop before sending** — it describes what's in stock, and the
-      shop changed a lot on Aug 5 (five bows added, bows now $12, Pet Bandanas opened, four sold
-      pieces retired to Stories).
-- [ ] **Delete the stale scheduled posts 6 and 7** from the scheduler. Their replacements
-      counted down to Aug 17 and custom orders opened on the 8th, so the countdown framing is
-      dead too — don't paste those either. Use the evergreen fabric-library post or the
-      Reading Nook Sleeve post from §13 of `marketing/campaign-2026-08.md` instead.
+- [ ] **Welcome Email 3 — due ~Sun Aug 9. REWRITTEN 2026-08-09, ready to send.** The last of the
+      three, sent by hand as a Buttondown broadcast (automations are paywalled; see
+      `emails/welcome-sequence.md`). Checked against the live shop: Book Sleeves added, the
+      retired mushroom print removed, the bandana paragraph now says Medium *and* Large (13″–23″)
+      instead of "small and medium on request", and custom orders are stated as open with the
+      fabric library linked.
+- [ ] **Overwrite scheduled posts 6 and 7 with the Aug 9 rewrites.** Copy is in §13 of
+      `marketing/campaign-2026-08.md`. The drafts live in the scheduler, not the repo, so this is
+      a copy-paste job only you can do.
+      ⚠️ **Rewritten a second time on 2026-08-09 — both are now "custom orders are open", not a
+      countdown.** They previously counted down to Aug 17; the early opening on Aug 8 killed that,
+      and a countdown to something already available tells people to wait. **Post 6 → Sun Aug 9
+      (today). Post 7 → Wed Aug 12** (process video).
+      ⚠️ The Aug 12 calendar event still holds the *original* launch-week copy ("3 days"), so
+      overwrite it rather than reading from it.
+      **Don't quote a turnaround in either caption** — Aug 17–20 is already full.
+      *(An Aug 8 session proposed deleting these two slots outright and running the evergreen
+      fabric-library or Reading Nook Sleeve posts instead. Owner chose the rewrite on Aug 9. The
+      Sleeve post is still unannounced and still wants a slot — it just isn't these two.)*
 
 ---
 
@@ -171,9 +174,9 @@ recovery is worth reconsidering.
 
 ## Older, still true
 
-- [ ] **Back-fill pre-2026-07-10 subscribers into Buttondown.** They exist only as Web3Forms
-      notifications in Gmail, and the free tier drops submissions after 30 days — so this gets
-      harder every week and eventually becomes impossible.
+- [x] **Back-fill pre-2026-07-10 subscribers into Buttondown — DONE 2026-07-31**, confirmed
+      2026-08-09. Everyone on the list has had Email 1, so NEST15 reached them all. This had
+      been sitting open in two files after it was already finished; it isn't outstanding.
 - [ ] **Founder photo** is still a casual phone selfie. Highest-trust element on the page.
 - [ ] **Post-purchase packaging insert** — drafted, never made it into the repo.
 - [ ] **Policies aren't attorney-reviewed.** Worth a pass now that real money is moving.
