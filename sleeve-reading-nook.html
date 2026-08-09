@@ -208,6 +208,36 @@
   
   <script src="js/cart.js?v=45b8496e"></script>
 
+  <!-- Pinterest Tag — ad measurement and retargeting. The tag id is public by
+       design, same as the Cloudflare token.
+
+       NO ENHANCED MATCH. Pinterest's copy-paste snippet ends with
+       {em: '<user_email_address>'} — that placeholder wants the VISITOR's
+       email, and this site has no login, so there is nobody's address to put
+       there. Pasted literally it posts the string "<user_email_address>" to
+       Pinterest on every page load. Do not add 'em' back unless there is a
+       real, consented address to send.
+
+       GPC. Unlike the Cloudflare beacon, this IS "sharing" for cross-context
+       behavioral advertising under California's CPRA, so it does not load for
+       anyone whose browser sends a Global Privacy Control signal. privacy.html
+       promises exactly this — change the two together or the policy lies.
+       The <noscript> pixel was deliberately dropped: it would fire regardless
+       of GPC, and that hole is worth more than the handful of JS-off visits. -->
+  <script>
+    if (navigator.globalPrivacyControl !== true) {
+      !function(e){if(!window.pintrk){window.pintrk = function () {
+      window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+        n=window.pintrk;n.queue=[],n.version="3.0";var
+        t=document.createElement("script");t.async=!0,t.src=e;var
+        r=document.getElementsByTagName("script")[0];
+        r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+      pintrk('load', '2614418318675');
+      pintrk('page');
+    }
+  </script>
+  <!-- end Pinterest Tag -->
+
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>
 </body>

@@ -435,9 +435,33 @@ If Python isn't installed, a tiny Node static server lives at `.claude/preview-s
 panel launches it via `.claude/launch.json` (config name `site`).
 
 ## Analytics & social
-- **Analytics is live**: Cloudflare Web Analytics (cookieless, no consent banner needed) via a
-  beacon in each page's footer (index/privacy/shipping); the token is public by design. View
-  stats at Cloudflare dashboard → Web Analytics. Works without moving DNS to Cloudflare.
+- **Analytics is live**: Cloudflare Web Analytics (cookieless) via a beacon in each page's
+  footer; the token is public by design. View stats at Cloudflare dashboard → Web Analytics.
+  Works without moving DNS to Cloudflare.
+- ⚠️ **PINTEREST TAG since 2026-08-09 — this is ADVERTISING, not analytics, and the rules
+  differ.** Tag `2614418318675`, sitting immediately above the Cloudflare beacon on all 41
+  pages (404.html has neither, matching the existing convention). Cloudflare is cookieless and
+  needs no consent; Pinterest **is "sharing" for cross-context behavioral advertising under
+  California's CPRA**, which is a defined legal term. Three things hold it together — change
+  them together or the policy starts lying:
+  - **No Enhanced Match.** Pinterest's copy-paste snippet ends `{em: '<user_email_address>'}`,
+    a placeholder for the VISITOR's email. This site has no login, so there is nobody's address
+    to send; pasted literally it posts the string `<user_email_address>` on every page load.
+    **Never add `em` back** without a real, consented address.
+  - **GPC gate.** The tag is wrapped in `if (navigator.globalPrivacyControl !== true)`, so it
+    never loads for visitors signalling opt-out. Verified 2026-08-09 by running the inline
+    script in an iframe with GPC forced both ways: on → `pintrk` undefined and no `s.pinimg.com`
+    script; off → both present. The `<noscript>` pixel was **deliberately dropped** — it would
+    fire regardless of GPC.
+  - **privacy.html says all of this** (sections 3, 8 and 10, "Last updated" bumped). It used to
+    promise "We will not sell or share personal information in the future", which the tag made
+    false on arrival. Section 8 also had to stop saying we ignore "any other mechanism that
+    automatically communicates your choice not to be tracked" — that flatly contradicted the
+    GPC gate.
+  - It lives in **both page generators**, so product and fabric pages keep it on rebuild.
+  - **Not yet done:** no conversion event. The tag only fires `page`, so Pinterest can build
+    audiences but cannot attribute revenue — that needs `pintrk('track', 'checkout', …)` on
+    success.html with a value and order id.
 - **Social share card** = **`assets/og-image-v2.jpg`** (1200×630), referenced by index, shop,
   custom and fabrics. ⚠️ **The v1 file had "Opening Late August" baked into the pixels** and was
   still being served as the Facebook preview after the shop opened. v2 is the same artwork
