@@ -96,6 +96,32 @@
     try { localStorage.removeItem("dit-cart-v1"); } catch (e) {}
     document.getElementById("year").textContent = new Date().getFullYear();
 
+    /* Tell Pinterest a sale happened, so it can attribute revenue to a Pin
+       instead of only counting clicks. js/cart.js stashes the subtotal in
+       "dit-pending-order" at the moment it hands off to Stripe.
+
+       Removed BEFORE firing and guarded by a freshness window, so one sale is
+       never counted twice — reloading this page, or bookmarking it, must not
+       invent a second order. `pintrk` is simply absent when the visitor sends
+       a Global Privacy Control signal, and the typeof check is what keeps that
+       opt-out honest here too. */
+    try {
+      var pending = localStorage.getItem("dit-pending-order");
+      localStorage.removeItem("dit-pending-order");
+      if (pending && typeof pintrk === "function") {
+        var o = JSON.parse(pending);
+        // Stripe checkout takes minutes, not hours. Anything older is a stale
+        // tab, not this purchase.
+        if (o && o.value > 0 && (Date.now() - (o.at || 0)) < 6 * 60 * 60 * 1000) {
+          pintrk("track", "checkout", {
+            value: o.value,
+            order_quantity: o.qty || 1,
+            currency: "USD"
+          });
+        }
+      }
+    } catch (e) {}
+
     /* Join the Nest, for buyers who aren't on the list yet. Same Buttondown
        contract as wireNestForm() in js/main.js — the responses are HTML, not
        JSON, so branch on status (ok = subscribed, 400 = bad/duplicate address).

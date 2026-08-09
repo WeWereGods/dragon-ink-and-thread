@@ -409,8 +409,10 @@ except where noted.
    doesn't know, so checkout fails without this**, however good the rest looks.
 7. **`wrangler deploy`** from `worker/` — step 6 does nothing until this runs.
 8. **`node tools/build-products.js`** — writes the new product page + refreshes sitemap.xml.
-9. **`node tools/bump-assets.js`** — restamps the `?v=` cache-busting tokens.
-10. **Commit + push.** Pages redeploys; the piece is live.
+9. **`node tools/build-catalog.js`** — rewrites `pinterest-catalog.csv`, the Pinterest
+   product feed. Skip it and Pinterest simply never learns the piece exists.
+10. **`node tools/bump-assets.js`** — restamps the `?v=` cache-busting tokens.
+11. **Commit + push.** Pages redeploys; the piece is live.
 
 The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Coming soon"; skip
 6 or 7 and it adds to the basket and then fails at checkout.
@@ -459,9 +461,31 @@ panel launches it via `.claude/launch.json` (config name `site`).
     automatically communicates your choice not to be tracked" — that flatly contradicted the
     GPC gate.
   - It lives in **both page generators**, so product and fabric pages keep it on rebuild.
-  - **Not yet done:** no conversion event. The tag only fires `page`, so Pinterest can build
-    audiences but cannot attribute revenue — that needs `pintrk('track', 'checkout', …)` on
-    success.html with a value and order id.
+  - **Conversion tracking is live (2026-08-09).** js/cart.js writes `dit-pending-order`
+    (subtotal + qty + timestamp) into localStorage **only once the Worker has returned a
+    checkout URL**, so an abandoned or failed attempt leaves nothing to be miscounted as a
+    sale. success.html reads it, **removes it before firing**, and reports
+    `pintrk('track', 'checkout', …)`. Two guards, both tested: the key is deleted first so a
+    reload or a bookmarked thank-you page cannot invent a second order, and anything older
+    than 6h is ignored as a stale tab. Value is the **subtotal only** — Stripe adds tax and
+    shipping afterwards, and the ad should not get credit for postage.
+- **⚠️ PINTEREST PRODUCT CATALOG — `node tools/build-catalog.js`** writes
+  **`pinterest-catalog.csv`** (33 products) at the repo root, generated from js/shop-data.js
+  like sitemap.xml. Pinterest fetches
+  `https://www.dragoninkandthread.com/pinterest-catalog.csv` on its own schedule and makes
+  each row a shoppable Product Pin. **Re-run it on any shop-data change** (it is step 9 of
+  ADDING A NEW PIECE).
+  - ⚠️ **THE ONE-OF-A-KIND TRAP: when a piece sells, set `soldOut: true` FIRST and retire it
+    to Stories a few days later.** The two exits behave differently — `soldOut` keeps the
+    product page alive, so the feed says "out of stock" and the Pin greys out; *retiring*
+    deletes the page, so until Pinterest re-reads the feed a Pin can land on a 404. This is
+    the only place that ordering matters, and it cuts against the 2026-08-05 preference for
+    retiring immediately. 404.html is a real page with a route back to the shop, so a stale
+    Pin is survivable — but it is the safety net, not the plan.
+  - "In stock" requires **both** `!soldOut` **and** presence in `LINKS` — an id missing from
+    `LINKS` can't actually be bought, so advertising it would send people to a dead end.
+  - **`id` must never be recycled** for a different piece; it is how Pinterest recognises a
+    product it has already seen.
 - **Social share card** = **`assets/og-image-v2.jpg`** (1200×630), referenced by index, shop,
   custom and fabrics. ⚠️ **The v1 file had "Opening Late August" baked into the pixels** and was
   still being served as the Facebook preview after the shop opened. v2 is the same artwork

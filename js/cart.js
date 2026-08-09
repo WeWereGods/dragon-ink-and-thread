@@ -274,7 +274,23 @@
     })
       .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
       .then(function (res) {
-        if (res.ok && res.d && res.d.url) { window.location.href = res.d.url; }
+        if (res.ok && res.d && res.d.url) {
+          /* Hand the order size to success.html so it can report the sale to
+             Pinterest. That page runs AFTER Stripe, by which point the cart is
+             gone, so this is the only moment the value is known client-side.
+             Subtotal only — no tax or shipping, which Stripe decides later;
+             it is what Pinterest should attribute to the ad either way.
+             Written only once checkout genuinely starts, so an abandoned or
+             failed attempt leaves nothing behind to be counted as a sale. */
+          try {
+            localStorage.setItem("dit-pending-order", JSON.stringify({
+              value: Number(subtotal().toFixed(2)),
+              qty: count(),
+              at: Date.now()
+            }));
+          } catch (e) {}
+          window.location.href = res.d.url;
+        }
         else { note.textContent = (res.d && res.d.error) || "Checkout couldn't start — please try again or email us."; checkoutBtn.disabled = false; }
       })
       .catch(function () { note.textContent = "Network hiccup — please try again in a moment."; checkoutBtn.disabled = false; });
