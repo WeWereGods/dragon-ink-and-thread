@@ -1,0 +1,149 @@
+/* Dragon Ink and Thread — Pinterest Pin images for the fabric library.
+   ============================================================================
+   RUN IT:  node tools/build-pin-images.js
+   Writes 1000x1500 JPEGs into  assets/pins/  — upload them by hand in
+   Pinterest's pin builder and point each at fabrics.html.
+
+   WHY THIS EXISTS, AND WHY NOT 71 PINS OF 71 SWATCHES:
+   The catalog feed already turns every PRODUCT into a Product Pin. The fabric
+   library is the one asset it cannot cover, because the 71 prints are not
+   products — and it is the most distinctive thing the shop has.
+
+   But a single fabric swatch is a flat 640px square, and Pinterest is a
+   vertical 2:3 medium. Pinned alone, a swatch is a small dull rectangle that
+   tells nobody what it is for. A GRID reads as a shelf, which is the actual
+   pitch: "there are this many, and you get to choose". One good pin beats
+   seventy weak ones.
+
+   NEEDS sharp (not a repo dependency): npm install sharp
+*/
+"use strict";
+
+const fs = require("fs");
+const path = require("path");
+const sharp = require("sharp");
+
+const ROOT = path.join(__dirname, "..");
+const OUT = path.join(ROOT, "assets", "pins");
+const SWATCHES = path.join(ROOT, "assets", "fabrics");
+
+global.window = {};
+require(path.join(ROOT, "js", "fabrics-data.js"));
+const GROUPS = global.window.DIT_FABRICS.GROUPS;
+const ALL = GROUPS.flatMap((g) => (g.fabrics || g.items || []).map((f) => ({ ...f, group: g.name || g.label })));
+
+const W = 1000, H = 1500;
+const CREAM = "#fdf8f0", TEAL = "#4a9198", INK = "#453a30";
+
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+/* Text is drawn as SVG and composited — sharp has no text primitive of its
+   own. Fraunces/Great Vibes are not installed here, so this uses generic
+   serif: the Pin has to be legible, not pixel-identical to the site. */
+function textLayer(lines) {
+  const svg = `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
+    ${lines.map((l) => `<text x="${l.x}" y="${l.y}" font-family="${l.font || "Georgia, serif"}"
+        font-size="${l.size}" fill="${l.fill || INK}" text-anchor="${l.anchor || "middle"}"
+        ${l.weight ? `font-weight="${l.weight}"` : ""}
+        ${l.spacing ? `letter-spacing="${l.spacing}"` : ""}>${esc(l.text)}</text>`).join("\n")}
+  </svg>`;
+  return Buffer.from(svg);
+}
+
+async function grid(files, cols, rows, cell, gap, x0, y0) {
+  const layers = [];
+  for (let i = 0; i < cols * rows && i < files.length; i++) {
+    const buf = await sharp(path.join(SWATCHES, files[i]))
+      .resize(cell, cell, { fit: "cover" })
+      .toBuffer();
+    layers.push({
+      input: buf,
+      left: x0 + (i % cols) * (cell + gap),
+      top: y0 + Math.floor(i / cols) * (cell + gap),
+    });
+  }
+  return layers;
+}
+
+/* Deterministic spread across the groups, so the grid looks like the whole
+   shelf rather than twelve florals. */
+function spread(n) {
+  const out = [], per = Math.ceil(n / GROUPS.length);
+  for (const g of GROUPS) {
+    const fs_ = (g.fabrics || g.items || []);
+    for (let i = 0; i < per && i < fs_.length; i++) out.push(fs_[i].file);
+  }
+  return out.slice(0, n);
+}
+
+async function pinShelf() {
+  /* 3x3 of large swatches, not 3x4 of small ones. The first version ran the
+     grid to y=1468 and the closing line sat at 1408, straight across the
+     bottom row — unreadable, and the kind of thing that only shows up when
+     you actually look at the file. Grid now ends at 1246, text starts at
+     1330. Keep that gap if you change the cell size. */
+  const cell = 300, gap = 18, cols = 3, rows = 3;
+  const gw = cols * cell + (cols - 1) * gap;
+  const layers = await grid(spread(9), cols, rows, cell, gap, Math.round((W - gw) / 2), 310);
+  const text = textLayer([
+    { text: "SEVENTY-ONE FABRICS", y: 150, x: W / 2, size: 40, fill: TEAL, spacing: 6 },
+    { text: "on my shelf right now", y: 225, x: W / 2, size: 56, fill: INK },
+    { text: "Pick one.", y: 1350, x: W / 2, size: 52, fill: INK },
+    { text: "I'll make you the thing.", y: 1412, x: W / 2, size: 52, fill: INK },
+    { text: "dragoninkandthread.com", y: 1468, x: W / 2, size: 30, fill: TEAL, spacing: 3 },
+  ]);
+  await sharp({ create: { width: W, height: H, channels: 3, background: CREAM } })
+    .composite([...layers, { input: text, top: 0, left: 0 }])
+    .jpeg({ quality: 86 })
+    .toFile(path.join(OUT, "pin-fabric-shelf.jpg"));
+}
+
+async function pinCustom() {
+  const cell = 300, gap = 18, cols = 3, rows = 2;
+  const gw = cols * cell + (cols - 1) * gap;
+  const layers = await grid(spread(6), cols, rows, cell, gap, Math.round((W - gw) / 2), 470);
+  const text = textLayer([
+    { text: "CUSTOM ORDERS ARE OPEN", y: 150, x: W / 2, size: 38, fill: TEAL, spacing: 5 },
+    { text: "Ask me for something", y: 250, x: W / 2, size: 62, fill: INK },
+    { text: "that doesn't exist yet", y: 330, x: W / 2, size: 62, fill: INK },
+    { text: "Your print. Your size. Made for you.", y: 1180, x: W / 2, size: 42, fill: INK },
+    { text: "Totes · Bows · Scrunchies", y: 1250, x: W / 2, size: 36, fill: INK },
+    { text: "Pet Bandanas · Book Sleeves", y: 1305, x: W / 2, size: 36, fill: INK },
+    { text: "Handmade in San Antonio, Texas", y: 1400, x: W / 2, size: 32, fill: TEAL },
+    { text: "dragoninkandthread.com", y: 1455, x: W / 2, size: 30, fill: TEAL, spacing: 3 },
+  ]);
+  await sharp({ create: { width: W, height: H, channels: 3, background: CREAM } })
+    .composite([...layers, { input: text, top: 0, left: 0 }])
+    .jpeg({ quality: 86 })
+    .toFile(path.join(OUT, "pin-custom-orders.jpg"));
+}
+
+/* One named collection, because "Tea with the Suriel" is the kind of phrase a
+   romantasy reader stops scrolling for — the names are the hook, not the
+   cotton. */
+async function pinCollection() {
+  const g = GROUPS.find((x) => (x.name || x.label) === "Tea with the Suriel") || GROUPS[0];
+  const files = (g.fabrics || g.items || []).map((f) => f.file);
+  const cell = 290, gap = 18, cols = 2, rows = 3;
+  const gw = cols * cell + (cols - 1) * gap;
+  const layers = await grid(files, cols, rows, cell, gap, Math.round((W - gw) / 2), 380);
+  const text = textLayer([
+    { text: "A NAMED COLLECTION", y: 140, x: W / 2, size: 36, fill: TEAL, spacing: 5 },
+    { text: g.name || g.label, y: 230, x: W / 2, size: 68, fill: INK },
+    { text: "Every print on my shelf has a name.", y: 1330, x: W / 2, size: 40, fill: INK },
+    { text: "Scroll them like a menu →", y: 1390, x: W / 2, size: 40, fill: INK },
+    { text: "dragoninkandthread.com", y: 1460, x: W / 2, size: 30, fill: TEAL, spacing: 3 },
+  ]);
+  await sharp({ create: { width: W, height: H, channels: 3, background: CREAM } })
+    .composite([...layers, { input: text, top: 0, left: 0 }])
+    .jpeg({ quality: 86 })
+    .toFile(path.join(OUT, "pin-collection-suriel.jpg"));
+}
+
+(async () => {
+  fs.mkdirSync(OUT, { recursive: true });
+  await pinShelf();
+  await pinCustom();
+  await pinCollection();
+  console.log(`Wrote 3 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
+})();
