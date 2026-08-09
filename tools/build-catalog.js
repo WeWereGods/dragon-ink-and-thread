@@ -74,9 +74,31 @@ function categoryOf(id) {
   return c ? c.label : "Shop";
 }
 
+/* Google Product Category, per shop category. Pinterest uses this to decide
+   which searches and shopping surfaces a piece can appear in; without it the
+   whole feed ingests but every row carries "Warning 157 — google_product_category
+   missing, which may limit visibility" (seen on the first ingestion, 2026-08-09,
+   33 of 33 rows).
+
+   These strings are NOT guesses — they were checked against Google's published
+   taxonomy (taxonomy-with-ids.en-US.txt), ids 3032 / 171 / 5004 / 6176. If you
+   add a category, look the value up there rather than inventing one; a value
+   that isn't in the taxonomy is treated as missing.
+
+   Bows and Scrunchies share Hair Accessories, which is correct — Google has no
+   finer split, and the bows are hair bows on a slide-in clip. */
+const GOOGLE_CATEGORY = {
+  "Totes":        "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+  "Scrunchies":   "Apparel & Accessories > Clothing Accessories > Hair Accessories",
+  "Bows":         "Apparel & Accessories > Clothing Accessories > Hair Accessories",
+  "Pet Bandanas": "Animals & Pet Supplies > Pet Supplies > Dog Supplies > Dog Apparel",
+  "Book Sleeves": "Office Supplies > Book Accessories > Book Covers",
+};
+
 const COLUMNS = [
   "id", "title", "description", "link", "image_link", "additional_image_link",
   "price", "availability", "brand", "condition", "product_type",
+  "google_product_category",
 ];
 
 const rows = [];
@@ -94,6 +116,12 @@ for (const cat of CATALOG) {
        advertising it as available would send people to a dead end. */
     const buyable = !p.soldOut && !!LINKS[id];
 
+    /* Fail loudly on a new category rather than quietly shipping 33 warnings
+       again — that is exactly how this went unnoticed the first time. */
+    const cat = categoryOf(id);
+    const gpc = GOOGLE_CATEGORY[cat];
+    if (!gpc) console.log(`!! no google_product_category for "${cat}" — add one to GOOGLE_CATEGORY (${id})`);
+
     rows.push([
       id,
       p.name,
@@ -105,7 +133,8 @@ for (const cat of CATALOG) {
       buyable ? "in stock" : "out of stock",
       "Dragon Ink and Thread",
       "new",
-      categoryOf(id),
+      cat,
+      gpc || "",
     ].map(cell).join(","));
   }
 }
