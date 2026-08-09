@@ -72,6 +72,10 @@ Two rules that keep this useful:
 - [ ] **Two new pet bandanas post** — Facebook copy in §13 of `marketing/campaign-2026-08.md`,
       written 2026-08-08. Both are live in the shop at $18. Needs the scale shot (both flat
       together, hand in frame) — "Medium" means nothing until it's next to something.
+- [ ] **The Quilted Court Bandana post** — listed 2026-08-09 at **$22**, no copy written yet.
+      The hooks: it's the only **patchwork** piece in the shop, it reverses to Blushing Linen,
+      and Ghost is already wearing it in photo 2. Being the priciest bandana, it wants the
+      piecing shown close up — that's what explains the $22 without saying "because it's harder".
 - [ ] **Reading Nook Sleeve post** — Facebook + Instagram in §13. It went live Aug 7 and has
       **never been announced**. Leads on Rebekah's five-star review for the Road Trip Kindle
       Case, which until now pointed at something nobody could buy.
