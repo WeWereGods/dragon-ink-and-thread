@@ -141,8 +141,9 @@ then a whole collection goes up together as a set.
 **Pet bandanas** — because the one who waits by the door deserves a storybook print too. $18.
 They slip over the collar they already wear: a gathered channel, nothing to tie, nothing to
 work loose halfway round the block. I sew them in Medium and Large, which between them cover
-roughly a 13 to 23 inch neck, and any other size I'll make to your dog's measurement. Some are
-reversible, so it's two bandanas on one collar.
+roughly a 13 to 23 inch neck, and any other size I'll make to your dog's measurement. Most are
+reversible — sometimes the same print both ways so there's no wrong way round, sometimes two
+quite different looks on one collar.
 
 **Book sleeves** — quilted and padded the whole way round, so the rest of your bag stops
 pressing on the cover. The top is left open on purpose: no button, no snap, nothing to undo
