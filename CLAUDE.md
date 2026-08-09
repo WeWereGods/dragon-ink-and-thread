@@ -37,6 +37,18 @@ assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
 emails/               Marketing email copy (not sent by the site; no platform wired up yet).
 ```
 
+## ⚠️ The REPO is the source of truth for copy — Google Drive is not
+Decided by the owner 2026-08-09, when a **Dragon Ink and Thread** Drive folder was created
+(subfolders: Orders, Bookkeeping, Photos, Policies, Marketing).
+
+- **`emails/` and `marketing/` are written and edited HERE.** Drive holds finished assets —
+  exported images, signed paperwork, receipts, the tax workbook — never the working copy of a
+  caption, email or campaign plan.
+- **Do not "sync" a copy of a repo file into Drive.** Two editable copies is exactly the drift
+  that had the homepage advertising three of five categories and a retired bow on 2026-08-09.
+  If something genuinely needs to live in Drive instead, move it and delete it here.
+- The folder is in the `dragoninkandthread@gmail.com` Drive, at the root.
+
 ## ⚠️ Cache-busting is AUTOMATIC now — but you must run the script
 `?v=` tokens are the **content hash** of each file (`tools/asset-hash.js`), not a hand-typed
 date. After editing any CSS or JS:
