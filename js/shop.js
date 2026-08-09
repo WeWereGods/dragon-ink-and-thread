@@ -19,6 +19,15 @@
     return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   };
 
+  /* Blurbs may carry **bold** — the one scrap of markdown allowed in
+     js/shop-data.js. Escape first, then promote, so the ** never reaches the
+     card as literal asterisks (which is how the Brew and Bloom shipped on
+     2026-08-08). tools/build-products.js carries the same pair — keep them
+     identical, or a card and its product page will disagree. */
+  var mdBold = function (s) {
+    return esc(s).replace(/\*\*([\s\S]+?)\*\*/g, "<strong>$1</strong>");
+  };
+
   /* ----- mobile nav toggle (mirrors js/main.js) ----- */
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.getElementById("site-nav");
@@ -133,7 +142,7 @@
         '<div class="catalog-body">' +
           '<h3 class="catalog-name"><a href="' + href + '">' + esc(p.name) + "</a></h3>" +
           '<p class="catalog-price">' + money(p.price) + "</p>" +
-          (v.blurb ? '<p class="catalog-blurb">' + esc(v.blurb) + "</p>" : "") +
+          (v.blurb ? '<p class="catalog-blurb">' + mdBold(v.blurb) + "</p>" : "") +
           buyMarkup(id) +
         "</div>" +
       "</article>"

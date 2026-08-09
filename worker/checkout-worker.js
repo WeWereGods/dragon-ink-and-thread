@@ -51,6 +51,7 @@ const PRICES = {
   "bandana-storykeeper":   { name: "The Storykeeper Bandana",  amount: 1800 },
   "bandana-toffee-windowpane": { name: "Toffee Windowpane Bandana", amount: 1800 },
   "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    amount: 1800 },
+  "bandana-quilted-court":     { name: "The Quilted Court Bandana", amount: 2200 },
   "sleeve-reading-nook":   { name: "Reading Nook Sleeve",      amount: 2800 },
 };
 

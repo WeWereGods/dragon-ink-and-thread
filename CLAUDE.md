@@ -333,6 +333,14 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       Blushing Linen, Toffee Windowpane is the same plaid on both sides. The Storykeeper's
       listing now says single-sided in as many words, because a returning customer comparing the
       three would otherwise assume they are built the same way.
+      **A fourth, 2026-08-09: `bandana-quilted-court`, "The Quilted Court Bandana", $22** —
+      **Medium, 13″–18″**, hand-pieced patchwork of blush/sage florals, plaids and dots, backed
+      in Blushing Linen (so reversible). **The first bandana that isn't $18**, priced up because
+      the piecing is genuinely the longest job in the category; the patchwork is visible in the
+      photo, which is what makes the gap defensible. Still `bandana-` prefixed → $4.50 small tier.
+      ⚠️ **ALL FOUR use an ELASTICATED channel that stretches over the collar** (owner, 2026-08-09).
+      The first three said "gathered channel slips over the collar", which described a different
+      construction and undersold it — corrected in all four `details` on 2026-08-09.
     - **Book Sleeves** — a FIFTH category, added 2026-08-07. The Reading Nook Sleeve
       (`sleeve-reading-nook`, **$28**, 2 photos), **12″ × 8.5″**, quilted and padded, **open top
       with no closure** so it comes out one-handed. The Daily Grind outside under a Cinnamon
@@ -406,6 +414,13 @@ except where noted.
 
 The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Coming soon"; skip
 6 or 7 and it adds to the basket and then fails at checkout.
+- **`**bold**` in a blurb now renders** (2026-08-09). `VARIANTS.blurb` in js/shop-data.js may
+  carry `**bold**` — the only markdown allowed there. It becomes `<strong>` on the catalog card
+  (`mdBold()` in js/shop.js) and the product page (`mdBold()` in tools/build-products.js), and is
+  **stripped** for the meta description and JSON-LD (`stripMd()`), where a tag would be worse than
+  the asterisks. Nothing rendered it before, so `**Reversible:**` sat on the live Brew and Bloom
+  card and page for a day with its asterisks showing. **The two `mdBold()` copies must stay
+  identical**, or a card and its product page will disagree — same rule as `catSlug()`.
 - **Images**: `logo.png` is background-transparent (flood-filled from the original). Originals
   `logo-original.png` and `Tote.png` are kept locally but **gitignored**. Product cards use
   `<img>` with an `onerror` fallback to an emoji placeholder, so missing photos never look broken.

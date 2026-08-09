@@ -40,6 +40,15 @@ const { PRODUCTS, VARIANTS, LINKS, CATALOG, BYO_PRINTS } = SHOP;
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+/* Blurbs in js/shop-data.js may carry **bold** — the one scrap of markdown
+   allowed in there, used to make "Reversible:" jump out of a paragraph.
+   Nothing rendered it, so `**Reversible:**` shipped to the live Brew and
+   Bloom page on 2026-08-08 with its asterisks showing. It becomes <strong>
+   in the page body and is stripped anywhere the text must stay plain — the
+   meta description, JSON-LD and alt attributes, where a tag would be worse
+   than the asterisks. Keep js/shop.js's copy of this identical. */
+const stripMd = (s) => String(s).replace(/\*\*([\s\S]+?)\*\*/g, "$1");
+const mdBold = (s) => esc(s).replace(/\*\*([\s\S]+?)\*\*/g, "<strong>$1</strong>");
 const money = (n) => "$" + Number(n).toFixed(2);
 /* Same, but without a trailing ".00" — for prices written into a sentence,
    where "$50.00" reads like a receipt and "$50" reads like English. */
@@ -62,7 +71,7 @@ function page(id) {
   const soldOut = !!p.soldOut;
   const available = !soldOut && !!LINKS[id];
   const title = `${p.name} — ${cat.label} | Dragon Ink and Thread`;
-  const desc = (v.blurb || p.name).replace(/\s+/g, " ").trim();
+  const desc = stripMd(v.blurb || p.name).replace(/\s+/g, " ").trim();
   const url = `${SITE}/${id}.html`;
 
   /* ---- structured data: the product itself + the breadcrumb trail ---- */
@@ -267,7 +276,7 @@ ${JSON.stringify(crumbLd, null, 2)}
           <p class="eyebrow"><a href="shop.html#${catSlug(cat.label)}">${esc(cat.label)}</a></p>
           <h1 class="pdp-name">${esc(p.name)}</h1>
           <p class="pdp-price">${money(p.price)}</p>
-          ${v.blurb ? `<p class="pdp-blurb">${esc(v.blurb)}</p>` : ""}
+          ${v.blurb ? `<p class="pdp-blurb">${mdBold(v.blurb)}</p>` : ""}
           ${v.details ? `<p class="pdp-details">${esc(v.details)}</p>` : ""}
           ${buy}
           <p class="pdp-ship">Ships from San Antonio, Texas · <a href="shipping.html">shipping &amp; returns</a> · San Antonio local? Choose <strong>Local pickup</strong> at checkout.</p>
