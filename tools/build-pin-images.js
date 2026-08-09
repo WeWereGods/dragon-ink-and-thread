@@ -140,10 +140,36 @@ async function pinCollection() {
     .toFile(path.join(OUT, "pin-collection-suriel.jpg"));
 }
 
+/* Behind the Seams. The only board the catalog cannot fill, so its pins have
+   to come from photos that already exist. The patchwork close-up is the right
+   one: two dozen pieced squares with the seams visible is the argument for
+   the $22, and it is the most process-revealing photo in the shop.
+
+   Unlike the fabric pins this is a PHOTO pin — the image carries it, so the
+   text sits in a band at the bottom rather than over the piecing. Covering
+   the seams to write about the seams would be a poor trade. */
+async function pinBehindTheSeams() {
+  const photoH = 1150;
+  const photo = await sharp(path.join(ROOT, "assets", "bandana-quilted-court.jpg"))
+    .resize(W, photoH, { fit: "cover", position: "centre" })
+    .toBuffer();
+  const text = textLayer([
+    { text: "BEHIND THE SEAMS", y: photoH + 90, x: W / 2, size: 38, fill: TEAL, spacing: 6 },
+    { text: "Two dozen little squares,", y: photoH + 165, x: W / 2, size: 46, fill: INK },
+    { text: "pieced one at a time.", y: photoH + 222, x: W / 2, size: 46, fill: INK },
+    { text: "dragoninkandthread.com", y: photoH + 300, x: W / 2, size: 30, fill: TEAL, spacing: 3 },
+  ]);
+  await sharp({ create: { width: W, height: H, channels: 3, background: CREAM } })
+    .composite([{ input: photo, top: 0, left: 0 }, { input: text, top: 0, left: 0 }])
+    .jpeg({ quality: 86 })
+    .toFile(path.join(OUT, "pin-behind-the-seams.jpg"));
+}
+
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   await pinShelf();
   await pinCustom();
   await pinCollection();
-  console.log(`Wrote 3 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
+  await pinBehindTheSeams();
+  console.log(`Wrote 4 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
 })();
