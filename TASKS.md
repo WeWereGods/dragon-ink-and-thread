@@ -125,15 +125,16 @@ Two rules that keep this useful:
         to Stories a few days later.** The product group refreshes every 24h, so retiring the
         same day leaves a live Pin pointing at a deleted page. `soldOut` keeps the page alive
         and the feed marks it out of stock instead.
-- [ ] **Finish the Pinterest board tidy-up** (2026-08-09, the rest of it is done — six boards
-      named, described, and three fabric Pins uploaded from `assets/pins/`, rebuildable with
-      `node tools/build-pin-images.js`).
-      - **Fill the five product boards from Catalogs → Product groups → "Save to board".** Uses
-        the Product Pins the catalog already generates; making fresh pins by hand would compete
-        with your own catalog for the same listings.
-      - **Make "Totes and Tutorials" private** (31 pins) if it holds other makers' work. It now
-        sits publicly beside "Handmade Book Tote Bags", so a shopper can't tell which totes are
-        yours — and the saved ones link to other shops.
+- [x] **Pinterest boards — DONE 2026-08-09.** Seven boards named, described and filled: the five
+      product boards (fed from Catalogs → Product groups → "Save to board", so they use the
+      Product Pins the catalog already generates rather than competing with them), **The Fabric
+      Library**, and **Behind the Seams**. "Totes and Tutorials" made private, so the only public
+      totes are the shop's own.
+      Four Pin images live in `assets/pins/`, rebuildable with `node tools/build-pin-images.js`
+      — three fabric composites plus the patchwork close-up. ⚠️ **Behind the Seams is the one
+      board the catalog can't feed**; it needs photos from the machine, so it will go stale
+      unless it's fed by hand. Next easy two: the elastic-channel shot
+      (`assets/bandana-quilted-court-5.jpg`) and the tote process video from Wed Aug 12.
 - [ ] **Confirm the Pinterest conversion fires on the NEXT REAL SALE.** Shipped 2026-08-09 and
       tested hard in the browser (fires once with the right value; silent on reload, on a stale
       order, on corrupt data, and when GPC has suppressed the tag) — but every one of those was
