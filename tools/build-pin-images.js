@@ -165,8 +165,68 @@ async function pinBehindTheSeams() {
     .toFile(path.join(OUT, "pin-behind-the-seams.jpg"));
 }
 
+/* ---------------------------------------------------------------------------
+   FACEBOOK composites. Different shape from the Pins: Facebook favours square
+   or 4:5, not 2:3, so these are 1080x1350 and live in assets/social/.
+   Sharing this file rather than starting another one, because textLayer() and
+   grid() would otherwise be copy-pasted and drift apart.
+   ------------------------------------------------------------------------- */
+const FB_W = 1080, FB_H = 1350;
+const SOCIAL = path.join(ROOT, "assets", "social");
+
+/* Every tote ever made: the five in the shop, and the four that sold. The sold
+   row is desaturated and paler on purpose — it reads as "gone" without a word
+   of explanation, and it is the honest way to include retired pieces in a post
+   that is also trying to sell the current ones. Do NOT drop the labels; a
+   shopper who falls for a sold tote and finds no way to buy it is a worse
+   outcome than not showing it. */
+const TOTES_FOR_SALE = [
+  "tote-storykeeper.jpg", "tote-butterfly.jpg", "tote-strawberry-v2.jpg",
+  "tote-mustard-floral.jpg", "tote-blue-rose.jpg",
+];
+const TOTES_RETIRED = [
+  "tote-sunflower.jpg", "tote-mushroom.jpg", "tote-strawberry.jpg", "tote-lavender-bee.jpg",
+];
+
+async function cells(files, cell, gap, x0, y0, faded) {
+  const out = [];
+  for (let i = 0; i < files.length; i++) {
+    let img = sharp(path.join(ROOT, "assets", files[i])).resize(cell, cell, { fit: "cover" });
+    if (faded) img = img.modulate({ saturation: 0.45, brightness: 1.08 });
+    out.push({ input: await img.toBuffer(), left: x0 + i * (cell + gap), top: y0 });
+  }
+  return out;
+}
+
+async function fbToteLineup() {
+  const gap = 16;
+  const big = 322;                       // 3 across, then 2 centred
+  const small = 239;                     // 4 across, the sold row
+  const row1 = await cells(TOTES_FOR_SALE.slice(0, 3), big, gap, 40, 250);
+  const row2 = await cells(TOTES_FOR_SALE.slice(3), big, gap, Math.round((FB_W - (2 * big + gap)) / 2), 250 + big + gap);
+  const row3 = await cells(TOTES_RETIRED, small, 14, 41, 985, true);
+
+  const text = textLayer([
+    { text: "EVERY TOTE I'VE MADE", y: 100, x: FB_W / 2, size: 44, fill: TEAL, spacing: 5 },
+    { text: "and the five you can still have", y: 165, x: FB_W / 2, size: 46, fill: INK },
+    { text: "AVAILABLE NOW", y: 225, x: 40, size: 28, fill: TEAL, anchor: "start", spacing: 4 },
+    { text: "FOUND A HOME", y: 960, x: 41, size: 28, fill: INK, anchor: "start", spacing: 4 },
+    { text: "dragoninkandthread.com", y: 1290, x: FB_W / 2, size: 32, fill: TEAL, spacing: 3 },
+  ]);
+  /* textLayer() draws on a Pin-sized canvas; give it the Facebook one. */
+  const svg = Buffer.from(text.toString("utf8").replace(`width="${W}" height="${H}"`, `width="${FB_W}" height="${FB_H}"`));
+
+  fs.mkdirSync(SOCIAL, { recursive: true });
+  await sharp({ create: { width: FB_W, height: FB_H, channels: 3, background: CREAM } })
+    .composite([...row1, ...row2, ...row3, { input: svg, top: 0, left: 0 }])
+    .jpeg({ quality: 88 })
+    .toFile(path.join(SOCIAL, "fb-tote-lineup.jpg"));
+  console.log(`Wrote assets/social/fb-tote-lineup.jpg (${FB_W}x${FB_H}) — ${TOTES_FOR_SALE.length} for sale, ${TOTES_RETIRED.length} retired.`);
+}
+
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
+  await fbToteLineup();
   await pinShelf();
   await pinCustom();
   await pinCollection();

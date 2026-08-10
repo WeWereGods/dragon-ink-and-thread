@@ -673,8 +673,13 @@ the two older gingham bows. Prices and dimensions are pulled from js/shop-data.j
 correct on 2026-08-10 — **re-check before posting if anything has sold**, since four of the five
 totes are one of a kind.*
 
-**1 — The tote line-up** *(highest-value neglected category)*
-> Five totes on the shelf right now, and no two the same.
+**1 — The tote line-up** *(highest-value neglected category. Owner chose 2026-08-10 to include
+the RETIRED totes as well, so this version covers all nine. Image:
+`assets/social/fb-tote-lineup.jpg`, built by `node tools/build-pin-images.js` — the sold four
+are desaturated under a "found a home" label, which is what keeps the post honest.)*
+> Every tote I've ever made, in one place.
+>
+> Five of them are still here:
 >
 > **The Storykeeper** — shelves of antique books and apothecary bottles, printed deep on black. 15″ × 12″, an 18″ strap that sits at the hip, outside pocket. $32.
 > **The Butterfly Tote** — lily-of-the-valley and pale pink butterflies on warm cream, with a front pocket for the things you need first. $38.
@@ -682,11 +687,17 @@ totes are one of a kind.*
 > **The Cottage Rose Tote** — dusty roses over mustard-gold, a little sun-faded, endlessly cozy. 10″ × 12″. $20.
 > **The Blue Rose Mini** — tiny pink roses on powder blue, 8″ × 4″, for days you only need the essentials. $20.
 >
-> Every one is fully lined and finished inside, because I can't help myself. They're already sewn, so they go in the post within a few days — and there's one of each. When a print's gone, it's gone.
+> The four along the bottom already found homes — the Sunflower, the Mushroom, the first Strawberry, and the Lavender and Honeybee wheelchair tote.
+>
+> That's how this works, and I wouldn't change it: I make one, and then it belongs to someone. Every tote is fully lined and finished inside, because I can't help myself, and they're already sewn — so they go in the post within a few days.
 >
 > https://www.dragoninkandthread.com/shop.html
 >
 > (San Antonio — local pickup is free. Orders over $50 ship free anywhere.)
+
+*⚠️ If any of the five sells before this posts, move it into the retired row and rebuild —
+otherwise the image advertises a tote that is gone, which is the one thing the "found a home"
+label exists to prevent.*
 
 **2 — Blue Rose Mini, on its own**
 > Not every day needs a big bag.
