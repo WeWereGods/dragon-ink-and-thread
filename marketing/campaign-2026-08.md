@@ -673,7 +673,7 @@ the two older gingham bows. Prices and dimensions are pulled from js/shop-data.j
 correct on 2026-08-10 — **re-check before posting if anything has sold**, since four of the five
 totes are one of a kind.*
 
-**1 — The tote line-up** *(highest-value neglected category. Owner chose 2026-08-10 to include
+**1 — The tote line-up ✅ POSTED 2026-08-10 (Facebook)** *(highest-value neglected category. Owner chose 2026-08-10 to include
 the RETIRED totes as well, so this version covers all nine. Image:
 `assets/social/fb-tote-lineup.jpg`, built by `node tools/build-pin-images.js` — the sold four
 are desaturated under a "found a home" label, which is what keeps the post honest.)*

@@ -178,6 +178,26 @@ normal baseline, not a dip. Referrers over the same window (146 attributed):
 
 ---
 
+## 🧪 Two Facebook posts, one day apart — compare them (2026-08-10)
+
+The first clean read on what this audience actually responds to. Same channel, same week,
+different asks:
+
+- **Mon Aug 10 morning — "custom orders are open"** (post 6). Drove a visible spike in views.
+  **As of midday it had produced zero checkout sessions.** An invitation to imagine something.
+- **Mon Aug 10 — the tote line-up**, nine totes, five buyable with prices. A request for a
+  decision, in the highest-value category.
+
+**Check tomorrow:** did either produce checkout sessions, and did the visit spikes differ in
+size? Traffic is not the goal — baskets are. If browsing posts spike views and selling posts
+produce carts, that settles what August's remaining slots should hold, and it should shape the
+Aug 29 push, which is currently written as an announcement rather than an ask.
+
+⚠️ **Don't read a single day as proof.** A handful of sessions either way is noise at this
+volume; the point is to start collecting it rather than guessing.
+
+---
+
 ## 🧪 Running experiment — free-shipping nudge (shipped 2026-08-08)
 
 The nudge used to be a clause inside the drawer's grey shipping paragraph. It is now its own
