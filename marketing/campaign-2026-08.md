@@ -661,6 +661,76 @@ dog measures 17 shouldn't have to work out which one to trust.
 ⚠️ **Both must be listed and `wrangler deploy`'d before this posts**, or the link lands on a shop
 page that doesn't show them.
 
+### Back-catalogue posts — FACEBOOK, written 2026-08-10
+
+*Why Facebook specifically: measured that day, Facebook was **44% of all site visits** (64 of
+146) and both traffic spikes of the week were Facebook posts, while **Instagram and TikTok sent
+zero attributable visits** — neither allows a clickable link in a post. Anything meant to sell
+goes here, with the URL in it. See the measurement table in TASKS.md.*
+
+*These cover the pieces that have never had their turn: the totes, the scrunchie bundles and
+the two older gingham bows. Prices and dimensions are pulled from js/shop-data.js and were
+correct on 2026-08-10 — **re-check before posting if anything has sold**, since four of the five
+totes are one of a kind.*
+
+**1 — The tote line-up** *(highest-value neglected category)*
+> Five totes on the shelf right now, and no two the same.
+>
+> **The Storykeeper** — shelves of antique books and apothecary bottles, printed deep on black. 15″ × 12″, an 18″ strap that sits at the hip, outside pocket. $32.
+> **The Butterfly Tote** — lily-of-the-valley and pale pink butterflies on warm cream, with a front pocket for the things you need first. $38.
+> **The Strawberry Tote** — Japanese knot-style, wild strawberries and trailing vines, slouchy and roomy. $35.
+> **The Cottage Rose Tote** — dusty roses over mustard-gold, a little sun-faded, endlessly cozy. 10″ × 12″. $20.
+> **The Blue Rose Mini** — tiny pink roses on powder blue, 8″ × 4″, for days you only need the essentials. $20.
+>
+> Every one is fully lined and finished inside, because I can't help myself. They're already sewn, so they go in the post within a few days — and there's one of each. When a print's gone, it's gone.
+>
+> https://www.dragoninkandthread.com/shop.html
+>
+> (San Antonio — local pickup is free. Orders over $50 ship free anywhere.)
+
+**2 — Blue Rose Mini, on its own**
+> Not every day needs a big bag.
+>
+> The Blue Rose Mini Tote is 8 inches by 4 — phone, keys, card, lip balm, and a slim paperback if you're careful. Tiny pink roses drifting over the softest powder blue, fully lined, with a 6 inch strap drop so it sits high and out of the way.
+>
+> It's the one for when carrying a whole handbag feels like too much.
+>
+> $20, and there's one.
+> https://www.dragoninkandthread.com/tote-blue-rose.html
+>
+> (San Antonio — local pickup is free.)
+
+**3 — Scrunchie bundles** *(never promote a single scrunchie — §5)*
+> Three scrunchies, $15.
+>
+> Two ways to do it: the classic trio in red, cream and navy — the ones that go with everything — or build your own from any three prints on the shelf. Butterflies, cherry blossom, wildflowers, strawberries, a very smug orange cat.
+>
+> Soft, springy, and sturdier than they look. Gentle enough for curly hair, strong enough to hold a thick ponytail through a whole day.
+>
+> Unlike most things here, these aren't one-of-a-kind — I keep a few of each print — so if your favourite is still listed, it's still there.
+>
+> https://www.dragoninkandthread.com/shop.html#scrunchies
+>
+> (San Antonio — local pickup is free.)
+
+*⚠️ The "not one of a kind" line is deliberate and must stay accurate: scrunchies carry
+`maxQty: 3` because multiples of each print are stocked. Don't copy the scarcity line from the
+tote posts onto them.*
+
+**4 — The two gingham bows**
+> Two gingham bows, quietly waiting.
+>
+> **Taupe Gingham** — a soft warm check that goes with everything from sundresses to storybooks.
+> **Sage Gingham** — sage green strewn with the tiniest pink roses, like a garden picnic.
+>
+> Both hand-tied sailor bows, 6 inches across, on a slide-in clip so they go straight in and stay put. $12 each.
+>
+> They're the ones I'd wear on an ordinary Tuesday, which is the highest compliment I can give a bow.
+>
+> https://www.dragoninkandthread.com/shop.html#bows
+>
+> (San Antonio — local pickup is free.)
+
 **The scroll — screen-recording the library into custom orders (EVERGREEN)**
 *The video version of the post below. Shoot it once; it works on TikTok, Reels and Facebook,
 and it keeps working for as long as the library exists.*
