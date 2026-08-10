@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-09.**
+**Last reviewed: 2026-08-10.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -90,6 +90,9 @@ Two rules that keep this useful:
       Grind in Ivory, Blushing Linen). Assets and captions done. Run it a couple of days after
       the bandana, not the same day. **Not to be confused with the Tea with the Suriel five**,
       which is the Mon Aug 11 post in `marketing/fabric-collections-2026-08.md`.
+- [ ] ⚠️ **TikTok message from Brea P — 2026-08-09, still unread.** She is the five-star
+      Strawberry Tote review on the homepage, i.e. an existing happy customer, which makes this
+      the highest-value unopened thing in the inbox. Read it before anything else marketing.
 - [ ] **TikTok DM from "The Stationary Corner"** (2026-08-05) — unclear whether it was answered.
 
 ---
@@ -141,9 +144,13 @@ Two rules that keep this useful:
       a simulation. Like the Pushover alert, it isn't proven until a real customer completes a
       real checkout. Proof: **Checkouts** stops reading 0 in Pinterest → Catalogs → Overview.
       If it stays 0 after a genuine sale, the handoff in js/cart.js is where to look.
-- [ ] **Confirm Stripe auto-payouts took (from ~Aug 10).** Switched from manual on 2026-08-06.
-      Proof: a payout appears around Aug 10 when the ~$144.57 clears, *without anyone requesting
-      it*. If it just sits there, the setting didn't save.
+- [x] **Stripe auto-payouts CONFIRMED WORKING 2026-08-10.** `po_1U2hP2Ghlm0fD4l8JXlbPCQT`,
+      **$143.17**, `automatic: true`, status paid, arriving Mon Aug 10 — nobody requested it.
+      The two before it were `automatic: false`, so this is the first that fired on its own and
+      the switch made on 2026-08-06 has held.
+      The amount is $143.17 rather than the expected $144.57 because the balance was **−$1.40**
+      the day before (a fee sitting ahead of the batch); 144.57 − 1.40 reconciles exactly.
+      Nothing more to watch here.
 
 ---
 
