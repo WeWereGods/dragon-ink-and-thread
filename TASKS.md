@@ -91,9 +91,6 @@ Two rules that keep this useful:
       Grind in Ivory, Blushing Linen). Assets and captions done. Run it a couple of days after
       the bandana, not the same day. **Not to be confused with the Tea with the Suriel five**,
       which is the Mon Aug 11 post in `marketing/fabric-collections-2026-08.md`.
-- [ ] ⚠️ **TikTok message from Brea P — 2026-08-09, still unread.** She is the five-star
-      Strawberry Tote review on the homepage, i.e. an existing happy customer, which makes this
-      the highest-value unopened thing in the inbox. Read it before anything else marketing.
 - [ ] **TikTok DM from "The Stationary Corner"** (2026-08-05) — unclear whether it was answered.
 
 ---
