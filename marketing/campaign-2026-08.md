@@ -728,6 +728,41 @@ label exists to prevent.*
 `maxQty: 3` because multiples of each print are stocked. Don't copy the scarcity line from the
 tote posts onto them.*
 
+**6 — Custom orders, PRICED — FACEBOOK, written 2026-08-10**
+
+*A second custom-orders post the same day as the announcement, at the owner's request. It works
+only because the entry point is different: post 6 said "you can ask me for something", this one
+answers the question nobody asks out loud — **what does custom cost?** People assume custom means
+expensive and quietly don't enquire. Repeating the announcement louder would have reached the
+same small audience with less news.*
+
+*Image: `assets/social/fb-custom-orders.jpg`, built by `node tools/build-pin-images.js`.*
+
+> Nobody asks what custom costs, so I'll just tell you.
+>
+> **Totes $50–100 · Pet bandanas $20–25 · Bows $13–20 · Scrunchies $6–12**
+>
+> That's the whole range. A tote sized to the exact book you carry, in a print you chose yourself, sits about where a decent shop bag does — except one person made it, and there's only ever going to be one.
+>
+> How it works: tell me what you're picturing, I come back with a price, and **nothing is charged until you've said yes**. If I can't make what you want, or can't do it for what you'd want to pay, I'll tell you at the start rather than after.
+>
+> Seventy-one prints on my shelf to choose from, and picking one is genuinely the fun part.
+>
+> I take a small number at a time, so if there's something in your head, say it and we'll see what it'd take.
+>
+> https://www.dragoninkandthread.com/custom.html
+>
+> (San Antonio — local pickup is free. Veteran-owned, sewn at my kitchen table.)
+
+*⚠️ **No turnaround is quoted, deliberately.** Aug 17–20 is already full with Maurya's wheelchair
+tote and Aubrea's bow clips, and Aug 14–16 is a trip. "I take a small number at a time" is the
+honest hedge; agree real dates per enquiry in the reply.*
+
+*⚠️ The bands must match `custom.html` (they appear in **two** places there) and `PRICE_BANDS` in
+tools/build-pin-images.js. **The bow floor is $13 on purpose** — above the $12 ready-made bow, so
+the minimum paragraph's promise stays literally true. "Buy more, save more" is applied BY HAND at
+quoting time; there is no coded discount, so don't put a specific multi-buy figure in a post.*
+
 **5 — The Quilted Court Bandana — FACEBOOK, written 2026-08-10**
 
 *The pricing problem this post has to solve: it is **$22 where every other bandana is $18**, and

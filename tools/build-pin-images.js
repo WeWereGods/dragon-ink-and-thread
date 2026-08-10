@@ -224,9 +224,61 @@ async function fbToteLineup() {
   console.log(`Wrote assets/social/fb-tote-lineup.jpg (${FB_W}x${FB_H}) — ${TOTES_FOR_SALE.length} for sale, ${TOTES_RETIRED.length} retired.`);
 }
 
+/* Custom orders, priced. The announcement has already run once, so a second
+   post needs a different entry point rather than the same news louder: the
+   unspoken objection is "custom must be expensive", and the bands answer it
+   at a glance.
+
+   ⚠️ The bands are owner-supplied and live in TWO places on custom.html as
+   well (the price list and the one-line summary). If they change, change them
+   here too. The bow floor is $13 ON PURPOSE — it must stay above the $12
+   ready-made bow, or the promise that the shop ones are "the same lovely
+   thing for less" stops being true. */
+const PRICE_BANDS = [
+  ["Totes", "$50–100"],
+  ["Pet bandanas", "$20–25"],
+  ["Bows", "$13–20"],
+  ["Scrunchies", "$6–12"],
+];
+
+async function fbCustomOrders() {
+  const cell = 239, gap = 14;
+  const row = await cells(
+    ["tote-butterfly.jpg", "bandana-quilted-court.jpg", "bow-sage-gingham.jpg", "scrunchie-strawberry.jpg"],
+    cell, gap, 41, 250
+  );
+
+  const bandLines = PRICE_BANDS.flatMap(([label, price], i) => {
+    const y = 640 + i * 78;
+    return [
+      { text: label, y, x: 250, size: 46, fill: INK, anchor: "start" },
+      { text: price, y, x: 830, size: 46, fill: TEAL, anchor: "end" },
+    ];
+  });
+
+  const text = textLayer([
+    { text: "CUSTOM ORDERS ARE OPEN", y: 105, x: FB_W / 2, size: 40, fill: TEAL, spacing: 5 },
+    { text: "and here's what it costs", y: 175, x: FB_W / 2, size: 50, fill: INK },
+    ...bandLines,
+    { text: "Nothing is charged until you've said yes.", y: 1035, x: FB_W / 2, size: 40, fill: INK },
+    { text: "Seventy-one prints to choose from.", y: 1095, x: FB_W / 2, size: 40, fill: INK },
+    { text: "Handmade in San Antonio, Texas", y: 1215, x: FB_W / 2, size: 32, fill: TEAL },
+    { text: "dragoninkandthread.com", y: 1270, x: FB_W / 2, size: 32, fill: TEAL, spacing: 3 },
+  ]);
+  const svg = Buffer.from(text.toString("utf8").replace(`width="${W}" height="${H}"`, `width="${FB_W}" height="${FB_H}"`));
+
+  fs.mkdirSync(SOCIAL, { recursive: true });
+  await sharp({ create: { width: FB_W, height: FB_H, channels: 3, background: CREAM } })
+    .composite([...row, { input: svg, top: 0, left: 0 }])
+    .jpeg({ quality: 88 })
+    .toFile(path.join(SOCIAL, "fb-custom-orders.jpg"));
+  console.log(`Wrote assets/social/fb-custom-orders.jpg (${FB_W}x${FB_H}).`);
+}
+
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   await fbToteLineup();
+  await fbCustomOrders();
   await pinShelf();
   await pinCustom();
   await pinCollection();
