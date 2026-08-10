@@ -728,6 +728,32 @@ label exists to prevent.*
 `maxQty: 3` because multiples of each print are stocked. Don't copy the scarcity line from the
 tote posts onto them.*
 
+**5 — The Quilted Court Bandana — FACEBOOK, written 2026-08-10**
+
+*The pricing problem this post has to solve: it is **$22 where every other bandana is $18**, and
+the shop has never had a price step inside a category before. The answer is not to explain that
+patchwork is harder — it is to lead with the photo of two dozen seams and let people conclude it
+themselves. Hence the photo order below; the flat shot is not the prettiest, it is the
+persuasive one.*
+
+> This one took the longest of anything I make in its size, and you can see why.
+>
+> Two dozen small squares — blush roses, pale plaids, dotted cream, a wash of sage — cut and pieced one at a time, every seam meeting the three around it. It's the only patchwork piece in the shop, and the reason it's $22 rather than $18 is sitting right there in the first photo.
+>
+> **The Quilted Court Bandana.** Size Medium, fits a 13 to 18 inch neck. Reversible — turn it round and it's Blushing Linen, a soft dusty pink, for the days the patchwork would be too much. The top is an elasticated channel, so it stretches straight over the collar they already wear: nothing to tie, nothing to work loose halfway round the block.
+>
+> Machine wash cold, hang to dry, because it will need it.
+>
+> There's one.
+> https://www.dragoninkandthread.com/bandana-quilted-court.html
+>
+> (San Antonio — local pickup is free.)
+
+**Photos, in order:** `bandana-quilted-court.jpg` (flat patchwork — the price justification, so
+it leads) → `-2.jpg` (worn by the dog — fit and warmth; **name him if it's Ghost**, the audience
+has met him) → `-3.jpg` (the Blushing Linen reverse — the surprise, better third than announced)
+→ `-5.jpg` (the elasticated channel — the practical detail that separates it from a printed one).
+
 **4 — The two gingham bows**
 > Two gingham bows, quietly waiting.
 >
