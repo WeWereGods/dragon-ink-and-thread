@@ -52,19 +52,20 @@ Two rules that keep this useful:
       replaced, a new subscriber gets Buttondown's stock confirmation and nothing else — so the
       Aug 29 push is the next thing that reaches them. Worth revisiting once signups arrive
       steadily rather than in a lump; see "Sending" in `emails/welcome-sequence.md`.
-- [ ] **Overwrite scheduled posts 6 and 7 with the Aug 9 rewrites.** Copy is in §13 of
-      `marketing/campaign-2026-08.md`. The drafts live in the scheduler, not the repo, so this is
-      a copy-paste job only you can do.
-      ⚠️ **Rewritten a second time on 2026-08-09 — both are now "custom orders are open", not a
-      countdown.** They previously counted down to Aug 17; the early opening on Aug 8 killed that,
-      and a countdown to something already available tells people to wait. **Post 6 → Sun Aug 9
-      (today). Post 7 → Wed Aug 12** (process video).
-      ⚠️ The Aug 12 calendar event still holds the *original* launch-week copy ("3 days"), so
-      overwrite it rather than reading from it.
-      **Don't quote a turnaround in either caption** — Aug 17–20 is already full.
-      *(An Aug 8 session proposed deleting these two slots outright and running the evergreen
-      fabric-library or Reading Nook Sleeve posts instead. Owner chose the rewrite on Aug 9. The
-      Sleeve post is still unannounced and still wants a slot — it just isn't these two.)*
+- [ ] **Post 7 — Wed Aug 12, the tote process video.** Copy is in §13 of
+      `marketing/campaign-2026-08.md`. The draft lives in the scheduler, not the repo, so it's a
+      copy-paste job only you can do.
+      ⚠️ **The Aug 12 calendar event still holds the ORIGINAL launch-week copy ("3 days")** —
+      overwrite it, don't read from it. The rewrite says "this is the bit you get to commission
+      now", because custom orders opened early and a countdown to something already available
+      tells people to wait.
+      **Don't quote a turnaround** — Aug 17–20 is already full.
+      📸 It needs the footage: a tote start to finish. If that isn't shot, the Reading Nook
+      Sleeve post is the better use of the slot — it went live Aug 7 and still hasn't been
+      announced at all.
+      - [x] **Post 6 — POSTED 2026-08-10** (a day later than slotted, which cost nothing: the
+        rewrite carries no dates, so it read the same on the 10th as it would have on the 9th.
+        That is the point of writing copy without dates in it.)
 
 ---
 
