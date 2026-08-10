@@ -243,8 +243,16 @@ const PRICE_BANDS = [
 
 async function fbCustomOrders() {
   const cell = 239, gap = 14;
+  /* The Storykeeper leads — it is the tote in Spellbound Shelves, the
+     bookshelf-and-apothecary print, and the most on-brand thing the shop has
+     made. ("The spellbound tote" is the fabric's name, not a product name;
+     there is no tote called Spellbound.)
+     ⚠️ Photo **-2**, not the hero. The hero is a room shot of the tote hanging
+     on a wall, and at 239px square the bag goes small and dark next to three
+     close-ups. -2 fills the frame, so the books and potion bottles still read
+     at thumbnail size. Pick per-crop, not per-listing. */
   const row = await cells(
-    ["tote-butterfly.jpg", "bandana-quilted-court.jpg", "bow-sage-gingham.jpg", "scrunchie-strawberry.jpg"],
+    ["tote-storykeeper-2.jpg", "bandana-quilted-court.jpg", "bow-sage-gingham.jpg", "scrunchie-strawberry.jpg"],
     cell, gap, 41, 250
   );
 
