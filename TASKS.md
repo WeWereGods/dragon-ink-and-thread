@@ -71,26 +71,24 @@ Two rules that keep this useful:
 
 ## 🟡 Ready to go — just needs sending
 
-- [ ] **Two new pet bandanas post** — Facebook copy in §13 of `marketing/campaign-2026-08.md`,
-      written 2026-08-08. Both are live in the shop at $18. Needs the scale shot (both flat
-      together, hand in frame) — "Medium" means nothing until it's next to something.
+⚠️ **This section was WRONG on 2026-08-10** — five items sat unticked that had all been posted,
+and a morning brief was built on them, concluding "you've barely posted in five days" when the
+opposite was true. **Nothing here is evidence of what hasn't happened; it only records what was
+written.** Ask before inferring a post didn't run.
+
+- [x] **Two new pet bandanas post — POSTED** (by 2026-08-10). Facebook copy in §13.
+- [x] **Reading Nook Sleeve post — POSTED** (by 2026-08-10). It had been live and unannounced
+      since Aug 7; that's closed.
+- [x] **Pet bandana post (Instagram + Facebook) — POSTED** (by 2026-08-10).
+- [x] **Five bows post — POSTED** (by 2026-08-10). Not to be confused with the Tea with the
+      Suriel five, which is the Mon Aug 11 post in `marketing/fabric-collections-2026-08.md`.
+- [x] **Fabric teaser — POSTED 2026-08-08** (eighteen new prints, seventy-one in the library).
+
 - [ ] **The Quilted Court Bandana post** — listed 2026-08-09 at **$22**, no copy written yet.
       The hooks: it's the only **patchwork** piece in the shop, it reverses to Blushing Linen,
       and Ghost is already wearing it in photo 2. Being the priciest bandana, it wants the
       piecing shown close up — that's what explains the $22 without saying "because it's harder".
-- [ ] **Reading Nook Sleeve post** — Facebook + Instagram in §13. It went live Aug 7 and has
-      **never been announced**. Leads on Rebekah's five-star review for the Road Trip Kindle
-      Case, which until now pointed at something nobody could buy.
-      ⚠️ Needs one new photo: a book half out of the sleeve. Empty, it photographs as a flat
-      brown rectangle.
-- [x] **Fabric teaser — POSTED 2026-08-08** (eighteen new prints, seventy-one in the library).
-
-- [ ] **Pet bandana post — Instagram + Facebook.** Images and captions both done 2026-08-06.
-      Carousel order: shepherd → second shot → flat lay. Ghost is named in the caption.
-- [ ] **Five bows post** — the Aug 5 bows (Cauldron Forged, Toffee Plaid, Roasted Roses, Daily
-      Grind in Ivory, Blushing Linen). Assets and captions done. Run it a couple of days after
-      the bandana, not the same day. **Not to be confused with the Tea with the Suriel five**,
-      which is the Mon Aug 11 post in `marketing/fabric-collections-2026-08.md`.
+      **Put it on Facebook with the shop link in it** — see the referrer measurement below.
 - [ ] **TikTok DM from "The Stationary Corner"** (2026-08-05) — unclear whether it was answered.
 
 ---
@@ -149,6 +147,34 @@ Two rules that keep this useful:
       The amount is $143.17 rather than the expected $144.57 because the balance was **−$1.40**
       the day before (a fee sitting ahead of the batch); 144.57 − 1.40 reconciles exactly.
       Nothing more to watch here.
+
+---
+
+## 📊 Measured 2026-08-10 — where traffic actually comes from
+
+Cloudflare Web Analytics, seven days to Mon Aug 10: **152 visits, ~22/day**, which is the
+normal baseline, not a dip. Referrers over the same window (146 attributed):
+
+| Source | Visits | Share |
+|---|---|---|
+| **Facebook** (www 38 + m 26) | **64** | **44%** |
+| None (direct) | 69 | 47% |
+| Google | 8 | 5% |
+| checkout.stripe.com (returns from checkout, not new) | 5 | 3% |
+
+- **Instagram and TikTok sent ZERO attributable visits**, across a week in which posts ran on
+  both. Neither allows a clickable link in a post, so the only route is the bio link. Caveat:
+  their in-app browsers often strip the referrer, so some of "direct" may be them — but
+  Facebook reports itself correctly, so attribution is working at least in part.
+- **Both traffic spikes in the week were Facebook posts.** Roughly a quarter of the week's
+  visits arrived in two hours, both Facebook.
+- **⚠️ The real constraint is REACH, not posting frequency.** Five posts went out in five days
+  and produced 64 Facebook visits. Posting more of the same reaches the same small audience.
+  This is the argument for Pinterest, which is search-driven rather than follower-driven, and
+  it is why the catalog went in on Aug 9.
+- **Practical rule: anything meant to sell goes on Facebook, with the shop URL in the post.**
+  Instagram and TikTok are recognition, not traffic — worth doing, but not measurable here.
+  If they're to earn anything, the bio link should point at `shop.html`, not the homepage.
 
 ---
 
