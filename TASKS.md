@@ -11,6 +11,21 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
+- [ ] **Linda — tea cover + quilt mending. $105 total, BOTH local pickup (San Antonio).**
+      Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**.
+      - **Tea cover, $30 — 90% done, needs binding only.** ⚠️ **Do this before Aug 14 and offer
+        her an early pickup.** It's an hour of work sitting in a week that is otherwise the
+        fullest of the month; finishing it now takes it off the Aug 17–20 pile entirely and
+        hands a customer something ahead of schedule.
+      - **Quilt mending, $75.** ⚠️ **This is the unknown, and the only unbounded job on the
+        list.** Mending an existing quilt can be an hour or a day depending on what's actually
+        wrong with it. Everything else owed is a known quantity. **Look at the damage properly
+        before Aug 14** — if it's worse than quoted, tell her early, which is what
+        `emails/custom-orders-enquiry.md` already promises.
+      - Quilt repair is **not a product category** and has no band on custom.html. It was
+        quoted ad hoc. Fine as a one-off; decide before advertising it.
+      - ❓ **Unconfirmed: has Linda paid, or is this quoted-and-agreed only?** Every other owed
+        entry records money taken. Fill this in.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       $97.43 paid 2026-08-05 (invoice `VBQJFYMO-0001`, $100 less $10 for the pair, plus tax).
       Terms are 10–14 days from acceptance → **due ~Aug 15–19**. She's local (San Antonio).
@@ -38,10 +53,15 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
-- [ ] ⚠️ **CUSTOM ORDERS OPENED 2026-08-08** — the form is live and enquiries can arrive today.
-      **Aug 17–20 was already full**: Maurya's two quilted totes and Aubrea's three bow clips are
-      due that week, straight off the Aug 14–16 trip. Quote new enquiries a timeline that admits
-      that, rather than promising 10–14 days on top of work already owed.
+- [ ] ⚠️ **CUSTOM ORDERS OPENED 2026-08-08 — and Aug 17–24 is now THREE customers deep.**
+      Maurya's wheelchair tote, Aubrea's three bow clips, and Linda's tea cover + quilt mending
+      all land in the same window, straight off the Aug 14–16 trip — and the unconfirmed second
+      trip is Aug 21–24, inside it.
+      **The only genuine slack is Aug 11–13.** Anything that can be finished before the trip
+      should be: Linda's binding is an hour and Aubrea's clips are quick if the fabric turns up.
+      ⚠️ **Quote NEW enquiries against that reality, not 10–14 days from an empty calendar.**
+      Today's two Facebook posts are both live and pointing at the custom form, so enquiries are
+      more likely this week than any week so far.
       The launch **push is still Sat Aug 29** — opening quietly now just means anyone who comes
       looking can ask.
 
