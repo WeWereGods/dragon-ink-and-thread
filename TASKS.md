@@ -16,20 +16,32 @@ Two rules that keep this useful:
       - **Tea cover, $30 — 90% done, needs binding.** ⚠️ **BLOCKED: binding not bought yet
         (2026-08-11).** Buy it today and it's an hour's work before the trip, which clears it
         off the Aug 17–20 pile entirely and hands a customer something early.
-        **Deliver it separately from the quilt** — two local pickups is barely more hassle than
-        one, and there is no reason a finished tea cover should wait on an unbounded repair.
+        ⚠️ **Linda wants BOTH delivered together (her call, 2026-08-11).** So the quilt is now
+        the critical path for the whole $105, not just its own $75. **Still finish the binding
+        this week** — hold the delivery, not the work, so that when the quilt is done there is
+        nothing else standing between her and collection.
       - **Quilt mending, $75.** ⚠️ **BLOCKED on finding a matching fabric (2026-08-11), and
         that search has no guaranteed end** — an old quilt's print may be long discontinued.
         This is now the SECOND order waiting on material she doesn't have, alongside Aubrea's
         bow-clip fabric, and both land in the same week as a trip.
-        **Three routes before this becomes a delivery problem:**
-        1. **Ask Linda if it must match.** Sympathetic or deliberately visible mending is normal
-           in quilt repair and some owners prefer it. A yes ends the search today. This is the
-           cheapest question available and it hasn't been asked.
-        2. **Harvest from the quilt itself** — backing, binding, or a seam allowance. Same cloth,
-           aged the same amount, so it's a true match. Check before buying anything.
-        3. **Photograph the print and ask** the fabric shop or a quilting group; fabric lines are
-           often recognised on sight.
+        **✅ 2026-08-11: the red check is FOUND. Only the cream-and-red ticking stripe is
+        outstanding.** It reads as woven/yarn-dyed, not printed — search "woven ticking stripe",
+        "homespun stripe", "yarn-dyed ticking" (Dunroven House, Diamond Textiles, Marcus
+        homespuns). A patch a few inches square is all that's needed.
+        **⚠️ Linda wants the patch to MATCH and the quilt to remain USABLE (asked and answered
+        2026-08-11).** That rules out sympathetic or visible mending, and it raises the bar:
+        1. **Harvest from the quilt itself — now the BEST option, not the fallback.** A seam
+           allowance, the underside of the binding, or a hem gives the same cloth faded the same
+           amount. New ticking off a bolt cannot match twenty years of washing; harvested cloth
+           is the only thing that truly can, which is exactly what she asked for.
+        2. **If buying new, PRE-WASH IT HARD before cutting.** The quilt has finished shrinking;
+           new quilting cotton has not. Skip this and her first wash puckers the patch and drags
+           at the seam — a repair that fails on a quilt meant to be used.
+        3. **Photograph the stripe and ask** the fabric shop or a quilting group — fabric lines
+           are often recognised on sight, and quilters give scraps away.
+        **"Usable" also means the repair must be structural, not cosmetic:** patch out onto sound
+        fabric (the cloth at the hole's edge is thinned and will tear again), and fill the batting
+        so there's no flat cold spot. Budget an afternoon, not an hour.
         ⚠️ **If it has to be ordered online, say so to Linda NOW.** Shipping would land during or
         after the Aug 14–16 trip against an Aug 17–24 due date. Aubrea's order already proved
         supplier delivery is the part that can't be controlled — and the fix there was telling
