@@ -11,21 +11,23 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
-- [ ] **Linda — tea cover + quilt mending. $105 total, BOTH local pickup (San Antonio).**
-      Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**.
+- [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
+      Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
       - **Tea cover, $30 — 90% done, needs binding only.** ⚠️ **Do this before Aug 14 and offer
         her an early pickup.** It's an hour of work sitting in a week that is otherwise the
         fullest of the month; finishing it now takes it off the Aug 17–20 pile entirely and
         hands a customer something ahead of schedule.
-      - **Quilt mending, $75.** ⚠️ **This is the unknown, and the only unbounded job on the
-        list.** Mending an existing quilt can be an hour or a day depending on what's actually
-        wrong with it. Everything else owed is a known quantity. **Look at the damage properly
-        before Aug 14** — if it's worse than quoted, tell her early, which is what
-        `emails/custom-orders-enquiry.md` already promises.
+      - **Quilt mending, $75.** ⚠️ **The only unbounded job on the list** — mending an existing
+        quilt can be an hour or most of a day depending on the damage. Everything else owed is a
+        known quantity. **Assess it before Aug 14**; if it's worse than quoted, tell her while
+        there's still time, which is what `emails/custom-orders-enquiry.md` already promises.
+      - ⚠️ **It is SOMEONE ELSE'S QUILT and it is in the house.** That's different from every
+        other job here — the others are her own fabric, and a mistake costs materials. This one
+        is likely irreplaceable to Linda and probably has history. Keep it stored away from the
+        cutting table and pets, and photograph its condition **before** starting, so there is a
+        record of what it looked like when it arrived.
       - Quilt repair is **not a product category** and has no band on custom.html. It was
         quoted ad hoc. Fine as a one-off; decide before advertising it.
-      - ❓ **Unconfirmed: has Linda paid, or is this quoted-and-agreed only?** Every other owed
-        entry records money taken. Fill this in.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       $97.43 paid 2026-08-05 (invoice `VBQJFYMO-0001`, $100 less $10 for the pair, plus tax).
       Terms are 10–14 days from acceptance → **due ~Aug 15–19**. She's local (San Antonio).
