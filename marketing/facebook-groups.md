@@ -15,6 +15,18 @@ proven to send traffic.
 
 ---
 
+## Pick groups by what's PERMITTED, not by who's in them
+
+The instinct is to chase the best-matched audience. That's backwards on Facebook, because the
+best-matched audiences sit in the strictest groups. Rank by permission:
+
+| Group type | Selling allowed? | Worth the effort |
+|---|---|---|
+| **Local San Antonio buy/sell/local makers** | Usually yes | **Best.** Free local pickup is a real advantage and only matters here |
+| **Quilting / sewing / craft** | Process yes, selling rarely | **Strong** — they engage with making, and template 3 sells nothing |
+| **Pet / dog** | Rarely | Moderate — a good dog photo is always welcome |
+| **Bookish / romantasy** | **Almost never** | **Skip** — see §4; use Pinterest and TikTok for readers instead |
+
 ## The rules that keep you welcome
 
 1. **Read the pinned rules before posting.** Most groups ban outright selling; many have a
@@ -76,20 +88,29 @@ Quilters engage hard with repair problems. Post the photo of the damage with it.
 > repair? I rather like visible mending on something that's clearly been loved — but it's her
 > quilt, not mine.
 
-## 4. Bookish / romantasy reader groups — the fabric library
+## 4. Bookish / romantasy reader groups — ⚠️ DON'T
 
-*Asks the group a question about themselves, which is what gets replies. What she does comes out
-as context rather than a pitch.*
+**Corrected 2026-08-11 by the owner: most book groups ban self-promotion outright.** An earlier
+draft here opened with a question and then said "I sew book totes and book sleeves" — that is
+still promotion, and it would be removed. Deleted rather than kept, because a template that gets
+you removed costs more than it earns.
 
-> A question for the book people: if someone made you a tote in absolutely any fabric you liked,
-> what would you pick?
->
-> I sew book totes and padded book sleeves, and I keep a shelf of about seventy prints —
-> bookshelves, apothecary bottles, coffee cups, one that's just cats. The part nobody expects is
-> that they get to choose the fabric.
->
-> Genuinely curious what this lot would go for. Someone once asked me for a tote sized to one
-> specific hardback, which I loved.
+**Readers are the audience this shop most wants and the one Facebook groups are worst at
+reaching.** Don't fight it. The channels that reach readers with **no gatekeeper** are already
+built:
+
+- **Pinterest** — search-driven. A Product Pin surfaces to a stranger who searched "book tote",
+  months later, with nobody's permission required. The catalog (33 products) went live
+  2026-08-09.
+- **TikTok** — reach doesn't depend on followers. It sends no measurable click-through (no
+  clickable links), but it builds the name recognition that shows up later as **direct** traffic,
+  which is 47% of all visits and the largest single bucket.
+
+**The only book-group move that reliably works: be a member who talks about books.** No post, no
+pitch. Answer "what are you reading", join the conversations. People click profiles of members
+they recognise. It is slow, it is free, and it never gets removed.
+
+If a book group *does* have a promo day, template 1 works there — but check, don't assume.
 
 ## 5. Dog groups — Ghost does the work
 
