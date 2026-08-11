@@ -11,6 +11,20 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
+> ⚠️ **2026-08-11: ALL THREE owed orders are blocked on material not in hand.** Maurya's
+> wheelchair tote is waiting on fabric, Aubrea's clips are waiting on fabric (Aug 14–19), and
+> Linda needs binding bought and ticking found. Everything is due **Aug 17–24**, straight off the
+> **Aug 14–16** trip, with an unconfirmed second trip **Aug 21–24** inside the window.
+>
+> **The durable lesson, worth applying to the next quote: 10–14 days assumes the fabric is
+> already on the shelf.** Three orders for three, it wasn't. Either quote from the date material
+> is expected to arrive, or don't start the clock until it's in hand — otherwise the promise is
+> made against a supplier's schedule, which is the one part that can't be controlled.
+>
+> **What that means this week:** the only work that can move is what needs no new fabric —
+> Linda's binding once bought, and photographing/filming what already exists. If any fabric is
+> going to land after Friday, say so to that customer NOW, while it still reads as care.
+
 - [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
       - **Tea cover, $30 — 90% done, needs binding.** ⚠️ **BLOCKED: binding not bought yet
@@ -61,6 +75,12 @@ Two rules that keep this useful:
       ⚠️ Away Aug 14–16, so the real window is **Aug 17–19**.
       - **2026-08-09: she replied and loved the first tote.** Approved, so the **wheelchair tote
         is now the live piece of work** — the only thing left on this order.
+      - ⚠️ **2026-08-11: BLOCKED — waiting on fabric.** ETA unrecorded; fill it in. If it lands
+        after Fri Aug 14 the Aug 17–19 window is tight, and after Aug 19 it's gone. **Tell Maurya
+        as soon as the arrival date is known** — she's been patient and responsive, and the same
+        early honesty is what stopped Aubrea's order being a crisis.
+      - 📸 This is the piece the **Aug 29 push** is built around. If it slips, the push needs
+        another finished custom piece — Linda's tea cover is the only other candidate.
       - **Agree a pickup date while she's happy.** She's local, the tote is done, and the away
         window is Aug 14–16; offering **Aug 17–19** now beats her asking later.
       - 📸 **Photograph it properly before it leaves.** The Aug 29 broadcast is written to lead
