@@ -13,14 +13,29 @@ Two rules that keep this useful:
 
 - [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
-      - **Tea cover, $30 — 90% done, needs binding only.** ⚠️ **Do this before Aug 14 and offer
-        her an early pickup.** It's an hour of work sitting in a week that is otherwise the
-        fullest of the month; finishing it now takes it off the Aug 17–20 pile entirely and
-        hands a customer something ahead of schedule.
-      - **Quilt mending, $75.** ⚠️ **The only unbounded job on the list** — mending an existing
-        quilt can be an hour or most of a day depending on the damage. Everything else owed is a
-        known quantity. **Assess it before Aug 14**; if it's worse than quoted, tell her while
-        there's still time, which is what `emails/custom-orders-enquiry.md` already promises.
+      - **Tea cover, $30 — 90% done, needs binding.** ⚠️ **BLOCKED: binding not bought yet
+        (2026-08-11).** Buy it today and it's an hour's work before the trip, which clears it
+        off the Aug 17–20 pile entirely and hands a customer something early.
+        **Deliver it separately from the quilt** — two local pickups is barely more hassle than
+        one, and there is no reason a finished tea cover should wait on an unbounded repair.
+      - **Quilt mending, $75.** ⚠️ **BLOCKED on finding a matching fabric (2026-08-11), and
+        that search has no guaranteed end** — an old quilt's print may be long discontinued.
+        This is now the SECOND order waiting on material she doesn't have, alongside Aubrea's
+        bow-clip fabric, and both land in the same week as a trip.
+        **Three routes before this becomes a delivery problem:**
+        1. **Ask Linda if it must match.** Sympathetic or deliberately visible mending is normal
+           in quilt repair and some owners prefer it. A yes ends the search today. This is the
+           cheapest question available and it hasn't been asked.
+        2. **Harvest from the quilt itself** — backing, binding, or a seam allowance. Same cloth,
+           aged the same amount, so it's a true match. Check before buying anything.
+        3. **Photograph the print and ask** the fabric shop or a quilting group; fabric lines are
+           often recognised on sight.
+        ⚠️ **If it has to be ordered online, say so to Linda NOW.** Shipping would land during or
+        after the Aug 14–16 trip against an Aug 17–24 due date. Aubrea's order already proved
+        supplier delivery is the part that can't be controlled — and the fix there was telling
+        her early, which is why that one stopped being a crisis.
+      - **Assess the damage properly before Aug 14** — it's the only owed job whose size is
+        still unknown, and it's in hand, so nothing prevents looking today.
       - ⚠️ **It is SOMEONE ELSE'S QUILT and it is in the house.** That's different from every
         other job here — the others are her own fabric, and a mistake costs materials. This one
         is likely irreplaceable to Linda and probably has history. Keep it stored away from the
