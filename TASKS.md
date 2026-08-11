@@ -11,19 +11,25 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
-> ⚠️ **2026-08-11: ALL THREE owed orders are blocked on material not in hand.** Maurya's
-> wheelchair tote is waiting on fabric, Aubrea's clips are waiting on fabric (Aug 14–19), and
-> Linda needs binding bought and ticking found. Everything is due **Aug 17–24**, straight off the
-> **Aug 14–16** trip, with an unconfirmed second trip **Aug 21–24** inside the window.
+> ### 📅 The week, as it actually stands (2026-08-11)
+>
+> | Day | Available | What it's for |
+> |---|---|---|
+> | **Tue 11** | errands | Maurya's fabric **arrives this evening**. Buy binding. |
+> | **Wed 12** | ✅ full day | **Wheelchair tote** — the biggest owed job. Post 7 due. |
+> | **Thu 13** | ✅ full day | Wheelchair tote. Aubrea's fabric **may** land (est. 13–15). |
+> | Fri 14 – Sun 16 | ✈️ away | — |
+> | **Mon 17 – Wed 20** | ✅ | Whatever didn't finish + Aubrea's clips + Linda's quilt |
+> | Thu 21 – Sun 24 | ❓ possible 2nd trip | Unconfirmed |
+>
+> **Wed 12 and Thu 13 are the whole game.** Two clear days before the trip, and the wheelchair
+> tote is the only owed job big enough to need them. Everything else is an hour or two.
 >
 > **The durable lesson, worth applying to the next quote: 10–14 days assumes the fabric is
-> already on the shelf.** Three orders for three, it wasn't. Either quote from the date material
-> is expected to arrive, or don't start the clock until it's in hand — otherwise the promise is
-> made against a supplier's schedule, which is the one part that can't be controlled.
->
-> **What that means this week:** the only work that can move is what needs no new fabric —
-> Linda's binding once bought, and photographing/filming what already exists. If any fabric is
-> going to land after Friday, say so to that customer NOW, while it still reads as care.
+> already on the shelf.** All three of these were quoted before the cloth existed in the house.
+> Either quote from the date material is expected, or don't start the clock until it's in hand —
+> otherwise the promise is made against a supplier's schedule, the one part that can't be
+> controlled.
 
 - [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
@@ -75,12 +81,14 @@ Two rules that keep this useful:
       ⚠️ Away Aug 14–16, so the real window is **Aug 17–19**.
       - **2026-08-09: she replied and loved the first tote.** Approved, so the **wheelchair tote
         is now the live piece of work** — the only thing left on this order.
-      - ⚠️ **2026-08-11: BLOCKED — waiting on fabric.** ETA unrecorded; fill it in. If it lands
-        after Fri Aug 14 the Aug 17–19 window is tight, and after Aug 19 it's gone. **Tell Maurya
-        as soon as the arrival date is known** — she's been patient and responsive, and the same
-        early honesty is what stopped Aubrea's order being a crisis.
-      - 📸 This is the piece the **Aug 29 push** is built around. If it slips, the push needs
-        another finished custom piece — Linda's tea cover is the only other candidate.
+      - ✅ **Fabric arrives the evening of Tue Aug 11**, so **Wed 12 and Thu 13 are clear days
+        to sew it** — comfortably ahead of the Aug 17–19 pickup rather than scrambling after the
+        trip. If it's finished before Friday, offer her an earlier collection.
+      - 📸 **Film and photograph this one.** It's the piece the **Aug 29 push** is built around,
+        and a *wheelchair* tote says far more about made-for-you work than a generic tote ever
+        could — it's the clearest possible answer to "why would I order custom". It also solves
+        **post 7**, which needs a tote start to finish and is due Wed Aug 12, the day this gets
+        cut. ⚠️ **Ask Maurya before publishing anything of her order.**
       - **Agree a pickup date while she's happy.** She's local, the tote is done, and the away
         window is Aug 14–16; offering **Aug 17–19** now beats her asking later.
       - 📸 **Photograph it properly before it leaves.** The Aug 29 broadcast is written to lead
@@ -89,10 +97,13 @@ Two rules that keep this useful:
 - [ ] **Aubrea Pritt — 3 custom bow clips. Waiting on fabric, and that's agreed.** $36 paid
       2026-08-05 (invoice `85VBHJQE-0001`). Oakdale, **California** — these post, they aren't
       collected. She's also the five-star review on the homepage.
-      - **2026-08-09: fabric arrives Aug 14–19. Aubrea knows and is fine with it**, so this is
-        no longer a race — the honest conversation already happened.
-      - **Sewing lands Aug 17–19** (the trip is Aug 14–16), alongside Maurya's wheelchair tote.
-        Bow clips are quick; the two together are a full day, not a crisis.
+      - **2026-08-11: revised ETA is Aug 13–15** (was 14–19). Aubrea knows about the delay and is
+        fine with it — that conversation already happened.
+      - **If it lands Thu 13, sew them that day** and they post before the trip. If 14–15, she's
+        away and they're sewn Mon 17. Clips are quick; the work isn't the problem.
+      - ⚠️ **These POST to California — they aren't collected.** Sewing on the 17th means posting
+        the 17th–18th and arriving roughly the 21st–23rd. Worth one line to Aubrea with a real
+        post date once the fabric is actually in hand.
       - ⚠️ **The one thing still worth watching: nothing can post while she's away.** If the
         fabric turns up on the 19th, cutting, sewing and posting to California all happen after
         it — so the parcel moves later than the original ~Aug 15–19 window implied. Worth one
