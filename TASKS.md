@@ -124,6 +124,17 @@ Two rules that keep this useful:
       more likely this week than any week so far.
       The launch **push is still Sat Aug 29** — opening quietly now just means anyone who comes
       looking can ask.
+      ✅ **2026-08-12: the push now has a written proof point it didn't have.** Cassidy E. left a
+      five-star review of a **custom** tote — music fabric found for her because she teaches music,
+      sized for her books and laptop, pockets placed for her keys. It's live in Kind Words.
+      Every other argument for custom orders on this site is the shop making a claim about itself;
+      this is a customer describing the part that's hard to photograph — being asked what she
+      needed and getting it. §8 of `marketing/campaign-2026-08.md` was written assuming the only
+      proof would be Maurya's tote *footage*, which still isn't shot. **Words are available now
+      and cost nothing to use.**
+      ⚠️ **The tote itself was never listed and has no photo in the repo** — so the review can be
+      quoted, but nothing can be linked or shown. If Cassidy has a photo and is happy to share it,
+      that is the single highest-value asset the Aug 29 push could gain; worth one message.
 
 - [x] **Welcome Email 3 — SENT 2026-08-09.** That completes the three-email welcome sequence;
       the whole list has now had all of it, and everyone holds NEST15.

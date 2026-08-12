@@ -323,7 +323,9 @@
     { quote: "Thank you for my custom kindle/book case, I adore it! So happy I can travel with it now in my bag!!",
       name: "Rebekah K.", where: "on the Road Trip Kindle Case", stars: 5 },
     { quote: "I recently got a strawberry tote and a matching scrunchie from you and let me just say I LOVE THEM!! They are so cute, the scrunchie is nice on my curly hair and the tote holds all of my items with no problem. Definitely going to be ordering more!!",
-      name: "Brea P.", where: "on the Strawberry Tote", stars: 5 }
+      name: "Brea P.", where: "on the Strawberry Tote", stars: 5 },
+    { quote: "Dragon Ink and Thread made the most beautiful tote! She found the most beautiful and unique music fabric for me as a music teacher! The tote is the perfect size for my books and laptop! It has perfectly placed pockets for my keys! Wonderfully made!",
+      name: "Cassidy E.", where: "on a custom music-print tote", stars: 5 }
   ];
 
   var testimonialsGrid = document.getElementById("testimonials-grid");
