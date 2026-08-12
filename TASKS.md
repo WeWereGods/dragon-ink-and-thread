@@ -78,16 +78,20 @@ Two rules that keep this useful:
       ⚠️ Away Aug 14–16, so the real window is **Aug 17–19**.
       - **2026-08-09: she replied and loved the first tote.** Approved, so the **wheelchair tote
         is now the live piece of work** — the only thing left on this order.
-      - ✅ **Fabric arrives the evening of Tue Aug 11**, so **Wed 12 and Thu 13 are clear days
-        to sew it** — comfortably ahead of the Aug 17–19 pickup rather than scrambling after the
-        trip. If it's finished before Friday, offer her an earlier collection.
+      - ✅ **Fabric arrived Tue Aug 11.** It was to have had Wed 12 and Thu 13; **Wed 12 went to
+        Linda's quilt, so Thu 13 is the only pre-trip day left.** Realistically this now finishes
+        **Aug 17–19** — still inside Maurya's window, but the earlier-collection upside is gone.
+        ⚠️ **That makes Aug 17–19 tight rather than comfortable**, since Aubrea's clips and the
+        rest of Linda's quilt land in the same three days.
       - 📸 **Film and photograph this one.** It's the piece the **Aug 29 push** is built around,
         and a *wheelchair* tote says far more about made-for-you work than a generic tote ever
-        could — it's the clearest possible answer to "why would I order custom". It also solves
-        **post 7**, which needs a tote start to finish and is due Wed Aug 12, the day this gets
-        cut. ⚠️ **Ask Maurya before publishing anything of her order.**
-      - **Agree a pickup date while she's happy.** She's local, the tote is done, and the away
-        window is Aug 14–16; offering **Aug 17–19** now beats her asking later.
+        could — it's the clearest possible answer to "why would I order custom".
+        ⚠️ **It was also going to solve post 7 (due Wed Aug 12) — that no longer works**, because
+        the tote isn't being cut today. Shoot it Thursday and post late, or give the slot to
+        something already photographed.
+        ⚠️ **Ask Maurya before publishing anything of her order.**
+      - **Agree a pickup date while she's happy.** She's local and the away window is Aug 14–16;
+        offering **Aug 17–19** now beats her asking later.
       - 📸 **Photograph it properly before it leaves.** The Aug 29 broadcast is written to lead
         with a real finished custom piece (§8 of `marketing/campaign-2026-08.md`), and right now
         this is the only one that exists.
