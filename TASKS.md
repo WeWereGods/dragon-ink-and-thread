@@ -170,7 +170,26 @@ Two rules that keep this useful:
       **Ask if it's for a date** — an anniversary, a birthday, a first Christmas without him. That
       single answer decides whether this is takeable at all.
       ⚠️ **Take a deposit**, 50% up front. Maurya, Aubrea and Linda all paid in full up front,
-      which is fine at $36–105; at $650+ half-and-half is the normal shape.
+      which is fine at $36–105; at $650+ half-and-half is the normal shape. If she supplies the
+      materials the outlay is near zero, so the deposit isn't covering cloth — it's covering 40+
+      hours nobody else can use if she walks.
+      ### If SHE buys the supplemental fabric (asked 2026-08-12)
+      Labour only, materials stripped out: **$600–800. Quote $700 for a 50×60 throw, floor $600.**
+      ⚠️ **Know what that rate is** — $700 over 40–50 hours is **$14–17/hr** on a job with
+      irreplaceable materials and no second attempt. $850 is the fair number, $700 the sellable
+      one against a $50–100 tote band. Fine to choose the sellable one; not fine to discover it at
+      hour 45.
+      ⚠️ **Better arrangement: SHE REIMBURSES AT COST, you buy.** Outlay is near zero either way,
+      and the wrong interfacing (heavyweight, or fusible *web* instead of woven) will show in an
+      heirloom carrying your name — discovered while pressing it onto a dead man's jacket.
+      If she does buy, give quantities, not categories: **6–8 yd lightweight WOVEN fusible**
+      (Pellon SF101) · **low-loft** batting 60×60+ (cotton or 80/20, never high-loft — the wool is
+      heavy enough) · backing 3.5 yd of 44″ or 2 yd of 108″ wide (flannel is lovely here) · 0.5 yd
+      binding, or cut it from leftover garment cloth · 1–2 spools 50wt neutral cotton thread.
+      ~$120–170 retail.
+      ⚠️ **Splitting the number can backfire.** "$700 plus you buy $150 of supplies" often reads
+      worse than "$850, everything included" — the labour figure sits bare with nothing visibly
+      attached. Reimbursement-at-cost lets her feel she's helping without exposing the split.
       ⚠️ **Be honest about it being a first.** A tailored-garment memory quilt is advanced work.
       That's not a reason to refuse — it's a reason to quote the hours truthfully, build in a test
       block, and not promise a date that assumes everything goes right first time.
