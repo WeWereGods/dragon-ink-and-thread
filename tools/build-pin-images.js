@@ -236,9 +236,11 @@ async function fbToteLineup() {
    thing for less" stops being true. */
 const PRICE_BANDS = [
   ["Totes", "$50–100"],
-  ["Pet bandanas", "$20–25"],
+  ["Book sleeves", "$35–50"],
+  ["Home pieces", "$30–60"],
+  ["Pet bandanas", "$22–35"],
   ["Bows", "$13–20"],
-  ["Scrunchies", "$6–12"],
+  ["Scrunchies", "$8–12"],
 ];
 
 async function fbCustomOrders() {
@@ -256,11 +258,18 @@ async function fbCustomOrders() {
     cell, gap, 41, 250
   );
 
+  /* Six bands, not four (2026-08-11). Rows were 78px apart starting at 640,
+     which put a sixth row at 1030 — straight through the closing line at
+     1035. Tightened to 68px from 580 so the block ends at 920 and leaves
+     room. If a seventh band is ever added, move the start up again rather
+     than shrinking the gap further; below ~60px the list stops reading as a
+     list. Repairs are deliberately NOT here — "from $40, quoted after
+     seeing it" is a sentence, not a number, and it belongs on the page. */
   const bandLines = PRICE_BANDS.flatMap(([label, price], i) => {
-    const y = 640 + i * 78;
+    const y = 580 + i * 68;
     return [
-      { text: label, y, x: 250, size: 46, fill: INK, anchor: "start" },
-      { text: price, y, x: 830, size: 46, fill: TEAL, anchor: "end" },
+      { text: label, y, x: 250, size: 42, fill: INK, anchor: "start" },
+      { text: price, y, x: 830, size: 42, fill: TEAL, anchor: "end" },
     ];
   });
 
@@ -268,10 +277,10 @@ async function fbCustomOrders() {
     { text: "CUSTOM ORDERS ARE OPEN", y: 105, x: FB_W / 2, size: 40, fill: TEAL, spacing: 5 },
     { text: "and here's what it costs", y: 175, x: FB_W / 2, size: 50, fill: INK },
     ...bandLines,
-    { text: "Nothing is charged until you've said yes.", y: 1035, x: FB_W / 2, size: 40, fill: INK },
-    { text: "Seventy-one prints to choose from.", y: 1095, x: FB_W / 2, size: 40, fill: INK },
-    { text: "Handmade in San Antonio, Texas", y: 1215, x: FB_W / 2, size: 32, fill: TEAL },
-    { text: "dragoninkandthread.com", y: 1270, x: FB_W / 2, size: 32, fill: TEAL, spacing: 3 },
+    { text: "Nothing is charged until you've said yes.", y: 1030, x: FB_W / 2, size: 40, fill: INK },
+    { text: "Seventy-one prints to choose from.", y: 1090, x: FB_W / 2, size: 40, fill: INK },
+    { text: "Handmade in San Antonio, Texas", y: 1210, x: FB_W / 2, size: 32, fill: TEAL },
+    { text: "dragoninkandthread.com", y: 1268, x: FB_W / 2, size: 32, fill: TEAL, spacing: 3 },
   ]);
   const svg = Buffer.from(text.toString("utf8").replace(`width="${W}" height="${H}"`, `width="${FB_W}" height="${FB_H}"`));
 

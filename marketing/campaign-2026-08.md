@@ -295,8 +295,9 @@ describing a hypothetical one — which is the single biggest thing it can do.
 
 Lead with the finished work: a photo of one of the custom pieces made this month, and one line
 about what she asked for. Then explain what custom covers (your print, your dimensions, a
-favourite piece recreated), what it costs (totes **$50–100**, bows **$13–20**, scrunchies
-**$6–12**, pet bandanas **$20–25**, **$25 minimum**), and how long it takes (**10–14 days from
+favourite piece recreated), what it costs (totes **$50–100**, book sleeves **$35–50**, home
+pieces **$30–60**, pet bandanas **$22–35**, bows **$13–20**, scrunchies **$8–12**, repairs
+**from $40**, **$25 minimum**), and how long it takes (**10–14 days from
 agreeing the details, plus shipping**). One CTA, to `custom.html`.
 
 Worth including: the **71-print fabric library**. "Pick your print" is the single most concrete
@@ -740,7 +741,9 @@ same small audience with less news.*
 
 > Nobody asks what custom costs, so I'll just tell you.
 >
-> **Totes $50–100 · Pet bandanas $20–25 · Bows $13–20 · Scrunchies $6–12**
+> **Totes $50–100 · Book sleeves $35–50 · Home pieces $30–60 · Pet bandanas $22–35 · Bows $13–20 · Scrunchies $8–12**
+>
+> **And repairs and mending, from $40** — bring me the quilt with the worn patch and I'll tell you honestly what it needs.
 >
 > That's the whole range. A tote sized to the exact book you carry, in a print you chose yourself, sits about where a decent shop bag does — except one person made it, and there's only ever going to be one.
 >
@@ -758,10 +761,18 @@ same small audience with less news.*
 tote and Aubrea's bow clips, and Aug 14–16 is a trip. "I take a small number at a time" is the
 honest hedge; agree real dates per enquiry in the reply.*
 
-*⚠️ The bands must match `custom.html` (they appear in **two** places there) and `PRICE_BANDS` in
-tools/build-pin-images.js. **The bow floor is $13 on purpose** — above the $12 ready-made bow, so
-the minimum paragraph's promise stays literally true. "Buy more, save more" is applied BY HAND at
-quoting time; there is no coded discount, so don't put a specific multi-buy figure in a post.*
+*⚠️ **Bands revised 2026-08-11** and now live in FOUR places: `custom.html` (twice),
+`PRICE_BANDS` in tools/build-pin-images.js, and here. Change all four together.*
+
+*⚠️ **Every floor sits ABOVE the ready-made equivalent on purpose** — bows $13 vs $12, sleeves
+$35 vs $28, bandanas $22 vs $18 — so the minimum paragraph's promise that "the ready-made ones
+in the shop are the same lovely thing for less" stays literally true. Scrunchies went $6→$8
+because $6 **tied** the shop price and made that sentence false for that one category.*
+
+*⚠️ **Repairs carry no ceiling deliberately.** One contained hole was $75; three tears and a
+rotten binding is a different afternoon, and a published range would be a promise made before
+seeing the damage. "Buy more, save more" is applied BY HAND at quoting time — no coded discount,
+so never put a specific multi-buy figure in a post.*
 
 **5 — The Quilted Court Bandana — FACEBOOK, written 2026-08-10**
 

@@ -315,7 +315,8 @@ Worth more than the posts, and takes minutes.
 - ⚠️ **If the set sells, pull the five singles the same day** (and the reverse). They're the same
   five bows listed twice; see TASKS.md. A post is exactly what makes that race start.
 - **Don't quote a custom price in a caption** beyond the bands already public on custom.html
-  (totes $50–100 · bows $13–20 · scrunchies $6–12 · pet bandanas $20–25, $25 minimum). Quoting
+  (totes $50–100 · book sleeves $35–50 · home pieces $30–60 · pet bandanas $22–35 · bows $13–20
+  · scrunchies $8–12 · repairs from $40, $25 minimum). Quoting
   is done per piece, by you, in a reply.
 - **Don't name the characters in Once Upon a Woodland.** Describe them — "a tiger who bounces,"
   "a gloomy little donkey." Sewing with licensed fabric you bought is ordinary and fine; using

@@ -362,10 +362,23 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
       finally has something to push toward.
 - **CUSTOM price bands (owner-supplied 2026-08-05, live on custom.html in TWO places — the
   `custom-price-list` and the one-line summary above the form; change both together):**
-  Totes **$50–100** · Bows **$13–20** · Scrunchies **$6–12** · Pet bandanas **$20–25**.
-  ⚠️ **The bow floor is $13 ON PURPOSE, not $12** — it must stay *above* the $12 ready-made bow
-  so the minimum paragraph's promise ("the ready-made ones in the shop are the same lovely thing
-  for less") stays literally true. **If shop bows are ever repriced, move this floor with them.**
+  **REVISED 2026-08-11 — and they live in SEVEN places, not two.** Totes **$50–100** ·
+  Book sleeves **$35–50** · Home pieces **$30–60** · Pet bandanas **$22–35** · Bows **$13–20** ·
+  Scrunchies **$8–12** · **Repairs & mending from $40, no ceiling.**
+  The seven: `custom.html` (×2), `PRICE_BANDS` in tools/build-pin-images.js, §13 and §8 of
+  `marketing/campaign-2026-08.md`, `marketing/fabric-collections-2026-08.md`, and — the one most
+  easily missed and the one customers actually read — `emails/custom-orders-enquiry.md` (×2).
+  ⚠️ **Book sleeves, home pieces and repairs were added because orders had already been taken in
+  all three with no published band** (Linda's tea cover at $30 and quilt repair at $75, both
+  quoted ad hoc). Publishing a band is what stops the next one being invented under pressure.
+  ⚠️ **Repairs have NO ceiling on purpose** — one contained hole was $75; three tears and a
+  rotten binding is a different job, and a range would be a promise made before seeing it.
+  ⚠️ **EVERY CUSTOM FLOOR MUST SIT ABOVE ITS READY-MADE EQUIVALENT** — bows $13 vs $12, sleeves
+  $35 vs $28, bandanas $22 vs $18 — or the minimum paragraph's promise ("the ready-made ones in
+  the shop are the same lovely thing for less") stops being literally true. **Scrunchies were
+  $6–12, which TIED the $6 shop price and made that sentence false for that one category; the
+  floor moved to $8 on 2026-08-11 to fix it.** If a shop price is ever changed, move its custom
+  floor with it.
   **"Buy more, save more" is applied BY HAND at quoting time — there is no coded discount**,
   no promo code, and nothing in the Worker implements it. The bandana copy leans on it
   deliberately ("so every one of your babies can match"), because a multi-pet household is the

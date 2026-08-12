@@ -41,8 +41,9 @@ to walk away at any point up to it. Only once it's paid do I start cutting.
 **4. I sew it, and send you a photo before it ships** — so you see it finished before it
 leaves my table.
 
-**What it usually costs:** totes $50–100, bows $13–20, scrunchies $6–12, pet bandanas $20–25,
-depending on size, lining and how much fabric it takes. Matching sets are quoted together and
+**What it usually costs:** totes $50–100, book sleeves $35–50, home pieces like tea cosies
+$30–60, pet bandanas $22–35, bows $13–20, scrunchies $8–12 — and repairs and mending from $40,
+once I've seen the piece. It depends on size, lining and how much fabric it takes. Matching sets are quoted together and
 usually come out kinder than the pieces separately — and with bandanas, the more of them there
 are, the better the price gets, so every one of your babies can match. Custom orders start
 at $25.
@@ -115,8 +116,9 @@ road, say when you'll have a price rather than letting it go quiet.
 
 Long emails don't work in a DM. Use this, then send the full email if they bite.
 
-> Yes! Custom is your print, your size — totes usually $50–100, pet bandanas $20–25, bows and
-> scrunchies less, $25 minimum. Takes 10–14 days once we've agreed the details, plus shipping.
+> Yes! Custom is your print, your size — totes usually $50–100, book sleeves $35–50, pet
+> bandanas $22–35, bows and scrunchies less, $25 minimum. I mend things too, from $40. Takes
+> 10–14 days once we've agreed the details, plus shipping.
 >
 > And it doesn't have to be a tote — I've made Kindle cases, pouches, a wheelchair tote. If
 > it's sewn from fabric, ask.
