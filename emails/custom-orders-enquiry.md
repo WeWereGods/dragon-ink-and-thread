@@ -42,7 +42,8 @@ to walk away at any point up to it. Only once it's paid do I start cutting.
 leaves my table.
 
 **What it usually costs:** totes $50–100, book sleeves $35–50, home pieces like tea cosies
-$30–60, pet bandanas $22–35, bows $13–20, scrunchies $8–12 — and repairs and mending from $40,
+$30–60, pet bandanas $22–35, bows $13–20, scrunchies $8–12, quilts from $350 — heirloom quilts
+pieced from someone's clothes start at $650 — and repairs and mending from $40,
 once I've seen the piece. It depends on size, lining and how much fabric it takes. Matching sets are quoted together and
 usually come out kinder than the pieces separately — and with bandanas, the more of them there
 are, the better the price gets, so every one of your babies can match. Custom orders start
@@ -55,9 +56,10 @@ quote those on their own, because the price depends so much on the piece. The wo
 is that it isn't my craft.
 
 **How long it takes:** most pieces take 10–14 days to make, counted from the day you accept
-the quote — **plus** shipping time on top. Everything is sewn by one person around a small
-child, so work is booked in the order it arrives. If I can't hit a date you need, I'll tell
-you before you commit, not after.
+the quote — **plus** shipping time on top. **Quilts are the exception, at 8–12 weeks**, because
+a quilt is forty-odd hours rather than an afternoon. Everything is sewn by one person around a
+small child, so work is booked in the order it arrives. If I can't hit a date you need, I'll
+tell you before you commit, not after.
 
 One honest note: because a custom piece is made to your specification, it can't be returned
 unless it arrives damaged or wrong. That's why I send the photo first.
@@ -117,8 +119,9 @@ road, say when you'll have a price rather than letting it go quiet.
 Long emails don't work in a DM. Use this, then send the full email if they bite.
 
 > Yes! Custom is your print, your size — totes usually $50–100, book sleeves $35–50, pet
-> bandanas $22–35, bows and scrunchies less, $25 minimum. I mend things too, from $40. Takes
-> 10–14 days once we've agreed the details, plus shipping.
+> bandanas $22–35, bows and scrunchies less, $25 minimum. I mend things too, from $40, and I
+> make quilts from $350. Takes 10–14 days once we've agreed the details, plus shipping —
+> quilts are longer, 8–12 weeks.
 >
 > And it doesn't have to be a tote — I've made Kindle cases, pouches, a wheelchair tote. If
 > it's sewn from fabric, ask.

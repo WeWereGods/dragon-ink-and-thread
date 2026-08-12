@@ -106,7 +106,8 @@ please allow 5–10 business days" everywhere; that was untrue and actively cost
 week-and-a-half wait on a bag that's already on the shelf is a reason to hesitate. It now says
 **"Sewn and ready to ship"**, with **1–3 business days** to post (FAQ + shipping.html).
 - **"Made to order" now means CUSTOM orders only** — those genuinely are cut from scratch,
-  **10–14 days** from agreeing the details, plus shipping. Keep the two clearly separate.
+  **10–14 days** from agreeing the details, plus shipping (**quilts excepted: 8–12 weeks**, see
+  the price-bands note). Keep the two clearly separate.
 - **Consequence: every shop piece is returnable** (14 days, unused). Only custom orders are
   final sale — the old "made-to-order items are final sale" clause no longer covers anything.
 - **Scrunchies keep `maxQty: 3` because she stocks MULTIPLES of each print** (confirmed
@@ -364,7 +365,15 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   `custom-price-list` and the one-line summary above the form; change both together):**
   **REVISED 2026-08-11 — and they live in SEVEN places, not two.** Totes **$50–100** ·
   Book sleeves **$35–50** · Home pieces **$30–60** · Pet bandanas **$22–35** · Bows **$13–20** ·
-  Scrunchies **$8–12** · **Repairs & mending from $40, no ceiling.**
+  Scrunchies **$8–12** · **Quilts from $350, heirloom quilts from clothing from $650** ·
+  **Repairs & mending from $40, no ceiling.**
+  ⚠️ **QUILTS BREAK THE TURNAROUND (added 2026-08-12).** Every other band is a 10–14 day piece;
+  a quilt is **8–12 weeks**. So the quilt band could not just be dropped into the seven lists —
+  **every place that pairs a band with "10–14 days" also had to name the exception**, or the page
+  publishes a price beside a promise it can't keep. That's custom.html (list + summary + the
+  Timing paragraph), `emails/custom-orders-enquiry.md` (the costs line, the "How long it takes"
+  paragraph, AND the DM quick reply), and both marketing files. **If a band with an unusual
+  turnaround is ever added again, the timing copy is part of the change, not a follow-up.**
   The seven: `custom.html` (×2), `PRICE_BANDS` in tools/build-pin-images.js, §13 and §8 of
   `marketing/campaign-2026-08.md`, `marketing/fabric-collections-2026-08.md`, and — the one most
   easily missed and the one customers actually read — `emails/custom-orders-enquiry.md` (×2).

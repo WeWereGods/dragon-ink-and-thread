@@ -316,8 +316,10 @@ Worth more than the posts, and takes minutes.
   five bows listed twice; see TASKS.md. A post is exactly what makes that race start.
 - **Don't quote a custom price in a caption** beyond the bands already public on custom.html
   (totes $50–100 · book sleeves $35–50 · home pieces $30–60 · pet bandanas $22–35 · bows $13–20
-  · scrunchies $8–12 · repairs from $40, $25 minimum). Quoting
-  is done per piece, by you, in a reply.
+  · scrunchies $8–12 · quilts from $350, heirloom quilts from clothing from $650 · repairs from
+  $40, $25 minimum). Quoting is done per piece, by you, in a reply.
+  ⚠️ **If a caption mentions quilts, it must say 8–12 weeks** — every other band on this list is
+  a 10–14 day piece, so the turnaround line that's safe everywhere else is wrong for that one.
 - **Don't name the characters in Once Upon a Woodland.** Describe them — "a tiger who bounces,"
   "a gloomy little donkey." Sewing with licensed fabric you bought is ordinary and fine; using
   the character names in your own marketing reads as a claim you're associated with the brand

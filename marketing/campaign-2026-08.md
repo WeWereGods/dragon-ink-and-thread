@@ -296,9 +296,11 @@ describing a hypothetical one — which is the single biggest thing it can do.
 Lead with the finished work: a photo of one of the custom pieces made this month, and one line
 about what she asked for. Then explain what custom covers (your print, your dimensions, a
 favourite piece recreated), what it costs (totes **$50–100**, book sleeves **$35–50**, home
-pieces **$30–60**, pet bandanas **$22–35**, bows **$13–20**, scrunchies **$8–12**, repairs
+pieces **$30–60**, pet bandanas **$22–35**, bows **$13–20**, scrunchies **$8–12**, quilts
+**from $350** — heirloom quilts pieced from someone's clothes **from $650** — repairs
 **from $40**, **$25 minimum**), and how long it takes (**10–14 days from
-agreeing the details, plus shipping**). One CTA, to `custom.html`.
+agreeing the details, plus shipping** — ⚠️ **quilts are 8–12 weeks**, so if a quilt is named in
+this email the timing line has to name it too). One CTA, to `custom.html`.
 
 Worth including: the **71-print fabric library**. "Pick your print" is the single most concrete
 thing about custom orders, and that page already exists.
@@ -386,10 +388,14 @@ channels apart on launch day, tag the links: `?ref=ig` in the bio, `?ref=tt` on 
 `custom.html`, so the honest answer to each is "it's on the page," and the page is the
 link you put in every bio and story:
 
-- *What does custom cost?* → totes **$50–$100**, bows **$10–$15**, scrunchies **$6–$12**.
+- *What does custom cost?* → totes **$50–$100**, bows **$13–$20**, scrunchies **$8–$12**,
+  quilts **from $350**. (⚠️ These read $10–15 and $6–12 until 2026-08-12 — stale since the
+  2026-08-11 revision. Answers drift the moment a band moves; the canonical list is the
+  price-bands note in CLAUDE.md.)
 - *Can you copy a piece you've retired?* → yes, never identically ("What people ask for").
 - *How long does it take?* → **10–14 days** to make, from quote acceptance, **plus**
-  shipping. Say "plus shipping" out loud in replies — it's the bit people mishear.
+  shipping — **except quilts, which are 8–12 weeks**. Say "plus shipping" out loud in replies —
+  it's the bit people mishear.
 
 There's also a **$25 minimum** on custom orders, which is the polite way to say "a single
 $6 scrunchie isn't worth a bespoke conversation" — it steers those requests to the shop
@@ -741,9 +747,11 @@ same small audience with less news.*
 
 > Nobody asks what custom costs, so I'll just tell you.
 >
-> **Totes $50–100 · Book sleeves $35–50 · Home pieces $30–60 · Pet bandanas $22–35 · Bows $13–20 · Scrunchies $8–12**
+> **Totes $50–100 · Book sleeves $35–50 · Home pieces $30–60 · Pet bandanas $22–35 · Bows $13–20 · Scrunchies $8–12 · Quilts from $350**
 >
 > **And repairs and mending, from $40** — bring me the quilt with the worn patch and I'll tell you honestly what it needs.
+>
+> **Quilts take 8 to 12 weeks**, not the two weeks everything else takes — and if you want one pieced from someone's clothes, a jacket or a favourite shirt, that starts at $650 and it's the slowest, most careful thing I do.
 >
 > That's the whole range. A tote sized to the exact book you carry, in a print you chose yourself, sits about where a decent shop bag does — except one person made it, and there's only ever going to be one.
 >

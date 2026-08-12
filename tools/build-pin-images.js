@@ -234,6 +234,12 @@ async function fbToteLineup() {
    here too. The bow floor is $13 ON PURPOSE — it must stay above the $12
    ready-made bow, or the promise that the shop ones are "the same lovely
    thing for less" stops being true. */
+/* Keep in step with the price list on custom.html — see the maintenance note
+   there for all seven places. Quilts are a FLOOR, not a range (added
+   2026-08-12): a crib quilt and a king are not the same object, so a ceiling
+   would be a promise made before knowing the size. Heirloom-from-clothing sits
+   at $650 and is deliberately left off this image — seven rows is already the
+   most that fits, and the nuance needs a sentence the layout can't give it. */
 const PRICE_BANDS = [
   ["Totes", "$50–100"],
   ["Book sleeves", "$35–50"],
@@ -241,6 +247,7 @@ const PRICE_BANDS = [
   ["Pet bandanas", "$22–35"],
   ["Bows", "$13–20"],
   ["Scrunchies", "$8–12"],
+  ["Quilts", "from $350"],
 ];
 
 async function fbCustomOrders() {
@@ -261,12 +268,17 @@ async function fbCustomOrders() {
   /* Six bands, not four (2026-08-11). Rows were 78px apart starting at 640,
      which put a sixth row at 1030 — straight through the closing line at
      1035. Tightened to 68px from 580 so the block ends at 920 and leaves
-     room. If a seventh band is ever added, move the start up again rather
-     than shrinking the gap further; below ~60px the list stops reading as a
-     list. Repairs are deliberately NOT here — "from $40, quoted after
-     seeing it" is a sentence, not a number, and it belongs on the page. */
+     room. Repairs are deliberately NOT here — "from $40, quoted after
+     seeing it" is a sentence, not a number, and it belongs on the page.
+     SEVENTH band added 2026-08-12 (Quilts), which is the case that comment
+     anticipated: start moved up 580→540 and the gap eased 68→65, so the block
+     runs 540–930 and still clears the closing line at 1030. Both limits are
+     real — the photo row ends at y=489 and these y values are SVG baselines,
+     so a 42px row starting much above ~525 collides with the photos, and the
+     comment's ~60px floor is where the list stops reading as a list. An
+     eighth band does not fit; it would need the photo row to shrink. */
   const bandLines = PRICE_BANDS.flatMap(([label, price], i) => {
-    const y = 580 + i * 68;
+    const y = 540 + i * 65;
     return [
       { text: label, y, x: 250, size: 42, fill: INK, anchor: "start" },
       { text: price, y, x: 830, size: 42, fill: TEAL, anchor: "end" },
