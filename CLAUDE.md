@@ -554,7 +554,9 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   renders. **REAL reviews only — never invent them.** Add `{ quote, name, where?, stars? }` objects
   to populate. NOTE: **two of the three rate CUSTOM makes, not shop listings** — the **"Road Trip
   Kindle Case"** (a retired make, correctly in Stories PAST_MAKES) and **Cassidy E.'s music-print
-  tote** (added 2026-08-12, a one-off commission that was never listed). Reviews of unbuyable
+  tote** (added 2026-08-12, a one-off commission that was never listed; **she left an actual
+  five-star rating — the stars on that card are hers, not inferred from the tone**, confirmed by
+  the owner the day it went in). Reviews of unbuyable
   pieces are fine, and are the best proof custom work already delights people; they just can't be
   clicked through to a listing — and both are deliberately **excluded from the `aggregateRating`
   markup** (see below), since neither rates a shop category. ⚠️ **Cassidy's is the only review the
