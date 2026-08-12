@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-10.**
+**Last reviewed: 2026-08-12.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -11,19 +11,27 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
-> ### 📅 The week, as it actually stands (2026-08-11)
+> ### 📅 The week, as it actually stands (updated 2026-08-12)
 >
 > | Day | Available | What it's for |
 > |---|---|---|
-> | **Tue 11** | errands | Maurya's fabric **arrives this evening**. Buy binding. |
-> | **Wed 12** | ✅ full day | **Wheelchair tote** — the biggest owed job. Post 7 due. |
-> | **Thu 13** | ✅ full day | Wheelchair tote. Aubrea's fabric **may** land (est. 13–15). |
+> | ~~Tue 11~~ | errands | Maurya's fabric arrived. Binding bought. |
+> | **Wed 12** | ✅ full day | ✅ Linda's tea cover **bound and DELIVERED** · 🔨 Linda's quilt patch **in progress** |
+> | **Thu 13** | ✅ full day | **Wheelchair tote — now the only pre-trip day it has.** Aubrea's fabric **may** land (est. 13–15). |
 > | Fri 14 – Sun 16 | ✈️ away | — |
-> | **Mon 17 – Wed 20** | ✅ | Whatever didn't finish + Aubrea's clips + Linda's quilt |
+> | **Mon 17 – Wed 20** | ✅ | Wheelchair tote finish + Aubrea's clips + anything left of Linda's quilt |
 > | Thu 21 – Sun 24 | ❓ possible 2nd trip | Unconfirmed |
 >
-> **Wed 12 and Thu 13 are the whole game.** Two clear days before the trip, and the wheelchair
-> tote is the only owed job big enough to need them. Everything else is an hour or two.
+> ⚠️ **Wed 12 and Thu 13 were both meant to be the wheelchair tote; Wed 12 went to Linda's
+> quilt instead.** Not a mistake — the quilt had been blocked on cloth since Aug 11 and
+> unblocking it was worth taking, and Linda now has a finished piece in her hands. But the
+> knock-on is real and worth seeing rather than discovering on Thursday night:
+> - **The wheelchair tote has ONE pre-trip day left**, and it's the biggest owed job. Finishing
+>   it Thu 13 was already ambitious; realistically it now lands **Aug 17–19**, which still meets
+>   Maurya's window but kills the "offer her an earlier collection" upside.
+> - **Post 7 is due today and wanted a tote start to finish.** That footage isn't happening
+>   today. Either shoot the tote Thursday and post late, or use the slot for something already
+>   shot — the Quilted Court Bandana is the obvious candidate and its copy is still unwritten.
 >
 > **The durable lesson, worth applying to the next quote: 10–14 days assumes the fabric is
 > already on the shelf.** All three of these were quoted before the cloth existed in the house.
@@ -33,41 +41,30 @@ Two rules that keep this useful:
 
 - [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
-      - **Tea cover, $30 — 90% done, needs binding.** ⚠️ **BLOCKED: binding not bought yet
-        (2026-08-11).** Buy it today and it's an hour's work before the trip, which clears it
-        off the Aug 17–20 pile entirely and hands a customer something early.
-        ⚠️ **Linda wants BOTH delivered together (her call, 2026-08-11).** So the quilt is now
-        the critical path for the whole $105, not just its own $75. **Still finish the binding
-        this week** — hold the delivery, not the work, so that when the quilt is done there is
-        nothing else standing between her and collection.
-      - **Quilt mending, $75.** ⚠️ **BLOCKED on finding a matching fabric (2026-08-11), and
-        that search has no guaranteed end** — an old quilt's print may be long discontinued.
-        This is now the SECOND order waiting on material she doesn't have, alongside Aubrea's
-        bow-clip fabric, and both land in the same week as a trip.
-        **✅ 2026-08-11: the red check is FOUND. Only the cream-and-red ticking stripe is
-        outstanding.** It reads as woven/yarn-dyed, not printed — search "woven ticking stripe",
-        "homespun stripe", "yarn-dyed ticking" (Dunroven House, Diamond Textiles, Marcus
-        homespuns). A patch a few inches square is all that's needed.
-        **⚠️ Linda wants the patch to MATCH and the quilt to remain USABLE (asked and answered
-        2026-08-11).** That rules out sympathetic or visible mending, and it raises the bar:
-        1. **Harvest from the quilt itself — now the BEST option, not the fallback.** A seam
-           allowance, the underside of the binding, or a hem gives the same cloth faded the same
-           amount. New ticking off a bolt cannot match twenty years of washing; harvested cloth
-           is the only thing that truly can, which is exactly what she asked for.
-        2. **If buying new, PRE-WASH IT HARD before cutting.** The quilt has finished shrinking;
-           new quilting cotton has not. Skip this and her first wash puckers the patch and drags
-           at the seam — a repair that fails on a quilt meant to be used.
-        3. **Photograph the stripe and ask** the fabric shop or a quilting group — fabric lines
-           are often recognised on sight, and quilters give scraps away.
-        **"Usable" also means the repair must be structural, not cosmetic:** patch out onto sound
-        fabric (the cloth at the hole's edge is thinned and will tear again), and fill the batting
-        so there's no flat cold spot. Budget an afternoon, not an hour.
-        ⚠️ **If it has to be ordered online, say so to Linda NOW.** Shipping would land during or
-        after the Aug 14–16 trip against an Aug 17–24 due date. Aubrea's order already proved
-        supplier delivery is the part that can't be controlled — and the fix there was telling
-        her early, which is why that one stopped being a crisis.
-      - **Assess the damage properly before Aug 14** — it's the only owed job whose size is
-        still unknown, and it's in hand, so nothing prevents looking today.
+      - [x] **Tea cover, $30 — DONE AND DELIVERED 2026-08-12.** Bound and handed over, five days
+        inside the Aug 17–24 window and before the trip rather than after it.
+        📝 **Note it went separately.** The plan on 2026-08-11 was that Linda wanted both pieces
+        together, which is why the quilt was called the critical path for the whole $105. It
+        didn't go that way, and that's fine — but it means **the quilt is now the only thing
+        outstanding on this order**, and she has already had something in her hands, which buys
+        patience the earlier plan didn't.
+      - **Quilt mending, $75 — 🔨 IN PROGRESS 2026-08-12.** No longer blocked; the patch is
+        being worked on now. (Was blocked 2026-08-11 on finding matching cloth — that search had
+        no guaranteed end, since an old quilt's print may be long discontinued.)
+        **Cloth sourcing is resolved in practice** — the red check was found 2026-08-11 and the
+        cream-and-red ticking stripe is no longer holding the job up. ❓ **Record which way it went
+        once known** (harvested from the quilt's own seam allowance/binding/hem, or bought new),
+        because it decides the next line and it's the sort of detail that's obvious today and
+        gone in a month.
+        ⚠️ **If the ticking was BOUGHT NEW, it must be pre-washed hard before cutting.** The quilt
+        finished shrinking decades ago; new cotton hasn't. Skip it and Linda's first wash puckers
+        the patch and drags at the seam — a repair that fails on a quilt whose whole brief was to
+        stay usable. (Harvested cloth needs none of this, which is why it was the better option.)
+        **⚠️ "Usable" means the repair must be STRUCTURAL, not cosmetic** — the live constraint
+        while the work is happening. **Patch out onto sound fabric**: the cloth at the hole's edge
+        is thinned and will tear again, so the patch has to reach past it onto cloth that still
+        has strength. **Fill the batting** so there's no flat cold spot. Budget an afternoon, not
+        an hour.
       - ⚠️ **It is SOMEONE ELSE'S QUILT and it is in the house.** That's different from every
         other job here — the others are her own fabric, and a mistake costs materials. This one
         is likely irreplaceable to Linda and probably has history. Keep it stored away from the
