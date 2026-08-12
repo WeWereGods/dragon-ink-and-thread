@@ -373,9 +373,11 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   quoted ad hoc). Publishing a band is what stops the next one being invented under pressure.
   ⚠️ **Repairs have NO ceiling on purpose** — one contained hole was $75; three tears and a
   rotten binding is a different job, and a range would be a promise made before seeing it.
-  ⚠️ **WHOLE QUILTS have no band, and an enquiry is live as of 2026-08-12** (see TASKS.md). Do not
-  reach for the tote band: a pieced throw is 20–35 hours on $80–150 of materials, so the honest
-  floor is several hundred dollars, and a bed size is four figures. This is the third category to
+  ⚠️ **WHOLE QUILTS have no band, and an enquiry is live as of 2026-08-12** — an **heirloom memory
+  quilt** from a husband's wool jacket, wool trousers and poly-cotton shirts (full brief in
+  TASKS.md). Do not reach for the tote band: that job is 35–55 hours and prices at **$650–950** for
+  a throw. Memory quilts from tailored garments are the premium end of this — irreversible cutting,
+  every piece interfaced, and not machine-washable afterwards. This is the third category to
   be *asked for* before it was priced — book sleeves, home pieces and repairs all got their bands
   retroactively, after a number had already been invented under pressure. **If a quilt is
   accepted, publish the band in all seven places before the next one is asked for.**

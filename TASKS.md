@@ -113,36 +113,67 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
-- [ ] 🆕 **A custom QUILT enquiry is live (2026-08-12) — someone is on the hook, nothing quoted
-      yet. Do not price it off the tote band.** This is the largest thing anyone has asked for,
-      and there is **no published band for quilts** — the exact gap that had Linda's tea cover and
-      quilt repair invented under pressure a week ago. Quilts are now the SECOND quilt job in two
-      weeks; that stops being a one-off.
-      **Five questions before any number is said:**
-      1. **Size.** Crib ~36×52 · throw ~50×60 · twin · queen ~90×90. Price tracks area — and a
-         queen wrestled through a domestic machine is a *different job* from a throw, not a bigger
-         one.
-      2. **How pieced?** Plain squares, intricate blocks, or appliqué. This is where the hours are.
-      3. **Is it a memory or T-shirt quilt?** Very common ask, and it changes everything —
-         stabiliser, irreplaceable garments, and the same someone-else's-belongings care Linda's
-         quilt already needs.
-      4. **Who buys the fabric, and is there a deadline?** A quilt is 8–12+ yards plus batting and
-         backing. ⚠️ **Don't start the clock until it's in hand** — that lesson has now cost three
-         orders in a row.
-      5. **Quilted how?** On the domestic machine, or sent out to a longarm service (roughly
-         $0.02–0.04/sq in → ~$60–120 a throw, ~$160–320 a queen). If it goes out, that is real cash
-         out and has to sit inside the quote, not come out of the margin.
-      ⚠️ **The honest number is much bigger than it will feel.** A pieced throw is 20–35 hours
-      before it is even quilted, on $80–150 of materials. At any wage worth getting out of bed for
-      that is **$450–800 for a throw**, and four figures for a bed size. The instinct will be to
-      price it like a big tote — the tote band tops out at $100, and that would be a thirty-hour
-      job at under $5/hr that also eats September.
-      ⚠️ **Turnaround is NOT 10–14 days.** Aug 17–24 is already three customers deep with a
-      possible second trip inside it. A throw is realistically **4–8 weeks from fabric-in-hand**,
-      and saying so now is far cheaper than saying it in September.
-      ⚠️ **Take a deposit.** Maurya, Aubrea and Linda all paid in full up front, which is fine at
-      $36–105. At $500+ the normal shape is **50% up front, 50% on completion** — and at minimum
-      the deposit must cover the fabric before a yard of it is bought.
+- [ ] 🆕 **HEIRLOOM MEMORY QUILT — enquiry live 2026-08-12, nothing quoted yet.** Throw size,
+      pieced from **her husband's wool sports jacket, his wool trousers, and cotton/poly-blend
+      shirts**. This is the hardest and highest-stakes thing anyone has asked for, and there is
+      **no published band for quilts** — the exact gap that had Linda's tea cover and quilt repair
+      invented under pressure a week ago. Second quilt job in two weeks; that stops being a
+      one-off.
+      ### ⚠️ It is irreversible, and the cloth is finite
+      - **Photograph every garment before a stitch is unpicked**, same rule as Linda's quilt but
+        harder — that one has to survive, this one has to be *cut up*. Once the jacket is cut
+        there is no more jacket.
+      - **Ask what she wants kept whole.** A breast pocket, one sleeve, the collar, the maker's
+        label inside the jacket. Ask BEFORE cutting, not after; it cannot be undone.
+      - **Inventory the usable yardage before designing anything.** A tailored jacket yields far
+        less than it looks: the fronts are backed with canvas, there's lining, shoulder pads,
+        darts, buttonholes and pockets to work around — realistically ~1–1.5 yd equivalent in
+        awkward shapes. Trousers give two good leg panels. **A 50×60 throw needs ~3+ yd of usable
+        cloth.** ⚠️ **There may genuinely not be enough**, and finding that out mid-build is the
+        worst possible time. Lay it all out first.
+      - **Dry-clean the garments before cutting.** They've been worn, and it settles any shrinkage
+        before the pieces are locked into seams.
+      - **Keep the buttons, labels and a working pocket in the design.** That is the difference
+        between an heirloom and a blanket, and it costs almost nothing.
+      ### ⚠️ The technical problem: wool and poly-cotton do not behave alike
+      Suiting wool is heavy, drapey and ravels; shirting is light, stable and thin. Put them in one
+      top untreated and the seams pucker and the quilt hangs crooked.
+      - **Fusible interfacing on the back of EVERY piece** is the standard fix and the single most
+        important step — it equalises the weights, stops the stretch and stops the ravelling, and
+        makes garment cloth behave like quilting cotton. Budget 6–8 yd of it.
+      - ⚠️ **Test the fusible on a hidden scrap of the wool first** (inside a seam allowance or
+        hem). Too much heat shines, scorches or shrinks wool, and poly-blend shirting can melt.
+        Press cloth, low heat, test — on someone's husband's jacket there is no second attempt.
+      - **Big simple blocks, not intricate piecing.** Thick wool at a busy seam intersection is
+        miserable and bulky. **Press seams open**, not to one side.
+      - ⚠️ **This quilt will NOT be washable** — mixed wool and poly can't go in a machine
+        together. **Tell her that before she agrees, not on handover.** Linda's brief was "keep it
+        usable"; this one's honest answer is spot-clean and air, and store it away from moths.
+        A customer who learns that at the end feels sold something.
+      - **Low-loft batting.** Wool suiting is already heavy; a lofty batt makes a throw nobody
+        picks up.
+      - **Quilting it will be the fight.** Bulky and uneven under a domestic machine. Straight-line
+        quilting, big-stitch hand quilting or **tying** are all traditionally right for a wool
+        memory quilt and dodge the bulk. ⚠️ **Many longarmers refuse garment quilts** — ask before
+        assuming that's an option.
+      ### The number
+      Roughly **35–55 hours**: unpicking garments 3–6, interfacing 3–5, cutting around darts and
+      pockets 3–4, piecing thick wool 12–20, quilting 8–15, binding 3–4. Materials are lighter than
+      usual because she supplies the cloth, but interfacing, batting, backing and thread still run
+      **$120–200**.
+      ⚠️ **That puts an honest throw at $650–950**, and it should sit **above** a plain pieced
+      throw, not below — the sentiment is exactly why it mustn't go wrong. **Do not discount it for
+      being emotional.** The instinct will be to price it like a big tote; the tote band tops out
+      at $100.
+      ⚠️ **Turnaround: 8–12 weeks, not 10–14 days.** Aug 17–24 is already three customers deep with
+      a possible second trip inside it, and this is 40+ hours of careful work.
+      **Ask if it's for a date** — an anniversary, a birthday, a first Christmas without him. That
+      single answer decides whether this is takeable at all.
+      ⚠️ **Take a deposit**, 50% up front. Maurya, Aubrea and Linda all paid in full up front,
+      which is fine at $36–105; at $650+ half-and-half is the normal shape.
+      ⚠️ **Be honest about it being a first.** A tailored-garment memory quilt is advanced work.
+      That's not a reason to refuse — it's a reason to quote the hours truthfully, build in a test
+      block, and not promise a date that assumes everything goes right first time.
       **If this is accepted, publish a quilt band on custom.html before the NEXT one is asked
       for** (seven places — see CLAUDE.md). One ad-hoc quote is a one-off; two is a category
       being sold with no price.
