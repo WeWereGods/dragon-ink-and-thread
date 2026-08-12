@@ -47,7 +47,7 @@
     "@type": "Offer",
     "priceCurrency": "USD",
     "price": "18.00",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "url": "https://www.dragoninkandthread.com/bandana-toffee-windowpane.html",
     "seller": {
       "@type": "Organization",
@@ -141,10 +141,10 @@
     <section class="section pdp">
       <div class="container pdp-grid">
         <div class="pdp-media">
-          <div class="pdp-hero" data-zoom tabindex="0" role="button"
+          <div class="pdp-hero is-soldout" data-zoom tabindex="0" role="button"
                aria-label="Enlarge photo of Toffee Windowpane Bandana">
             <img class="pdp-photo" id="pdpPhoto" src="assets/bandana-toffee-windowpane.jpg" alt="Handmade pet bandana in a warm brown plaid, with a gathered channel that slips over a collar" decoding="async" />
-            
+            <span class="sold-badge">Sold</span>
             <span class="gallery-hint" data-zoom-hint>⤢ Zoom</span>
           </div>
           <div class="pdp-thumbs" role="list"><button class="pdp-thumb is-active" type="button" role="listitem" data-pdp-img="assets/bandana-toffee-windowpane.jpg" aria-label="View photo 1 of 3"><img src="assets/bandana-toffee-windowpane.jpg" alt="" loading="lazy" decoding="async" /></button><button class="pdp-thumb" type="button" role="listitem" data-pdp-img="assets/bandana-toffee-windowpane-2.jpg" aria-label="View photo 2 of 3"><img src="assets/bandana-toffee-windowpane-2.jpg" alt="" loading="lazy" decoding="async" /></button><button class="pdp-thumb" type="button" role="listitem" data-pdp-img="assets/bandana-toffee-windowpane-3.jpg" aria-label="View photo 3 of 3"><img src="assets/bandana-toffee-windowpane-3.jpg" alt="" loading="lazy" decoding="async" /></button></div>
@@ -156,7 +156,9 @@
           <p class="pdp-price">$18.00</p>
           <p class="pdp-blurb">Toffee brown plaid crossed with fine cream lines — quiet, a little tweedy, and the one for a dog who&#39;d rather look like he&#39;s off to the pub than to a party. Reversible, and finished in the same plaid on both sides — so there&#39;s no wrong way round and no lining to go grubby. The top is an elasticated channel, so it stretches straight onto the collar he already wears: nothing to tie, nothing to work loose halfway round the block.</p>
           <p class="pdp-details">Size Medium · fits a 13″–18″ neck · REVERSIBLE, finished in the same toffee plaid on both sides, so there is no wrong way round · elasticated channel stretches over the collar · other sizes made to order · machine wash cold, hang to dry.</p>
-          <button class="btn btn-primary pdp-buy" type="button" data-cart-add="bandana-toffee-windowpane">Add to cart</button>
+          <button class="btn btn-primary pdp-buy is-soldout" disabled>Sold out</button>
+          <button class="btn btn-ghost pdp-waitlist" type="button" data-waitlist="bandana-toffee-windowpane" data-waitlist-name="Toffee Windowpane Bandana">Tell me when something like this appears</button>
+          <p class="pdp-soldout-note">This one has found a home. <a href="custom.html">Ask about a custom piece</a> and I can often make something in the same spirit.</p>
           <p class="pdp-ship">Ships from San Antonio, Texas · <a href="shipping.html">shipping &amp; returns</a> · San Antonio local? Choose <strong>Local pickup</strong> at checkout.</p>
         </div>
       </div>
@@ -220,11 +222,12 @@
   </footer>
 
   <script src="js/dates.js?v=5c07fa40"></script>
-  <script src="js/shop-data.js?v=f38fefc0"></script>
+  <script src="js/shop-data.js?v=0a7bc88f"></script>
   <script src="js/product.js?v=b79c44d6"></script>
   <!-- Double-click (tap on touch) the main photo to see it full screen. -->
   <script src="js/zoom.js?v=8a66e5e6"></script>
-  
+  <!-- Sold-out waitlist: injects its own modal, shared with shop.html. -->
+  <script src="js/waitlist.js?v=d44ca4cb"></script>
   <script src="js/cart.js?v=c0170cb0"></script>
 
   <!-- Pinterest Tag — ad measurement and retargeting. The tag id is public by

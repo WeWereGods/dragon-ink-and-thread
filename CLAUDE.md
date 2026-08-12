@@ -600,10 +600,18 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   (e.g. `scrunchie-orange-kitty.jpg`, the gingham bows), browsers/CDN serve the stale copy.
   Bump the `?v=N` query on that image's path in the `VARIANTS` map (orange-kitty + both gingham
   bows currently use `?v=2`). New filenames don't need this.
-- **Product structured data is live** → **3** `Product` JSON-LD blocks (Totes / Scrunchies / Bows)
+- **Product structured data is live** → **5** `Product` JSON-LD blocks (Totes / Scrunchies / Bows /
+  Pet Bandanas / Book Sleeves)
   with `AggregateOffer` price ranges sit in index.html `<head>`, alongside the brand-level `Store`
   block. Prices are **static** there — keep them in sync with **js/shop-data.js** (NOT main.js,
   whose PRODUCTS copy is vestigial and still carries the pre-2026-07-30 prices).
+  ⚠️ **NOTHING REGENERATES THESE — they drift silently.** The Pet Bandanas block sat at
+  `highPrice: 18.00` from 2026-08-09, when the $22 Quilted Court was added, until 2026-08-12.
+  No build step touches index.html, so a new piece or a `soldOut` flag updates the cards, the
+  product pages, the sitemap and the Pinterest feed while the markup quietly keeps saying the
+  old thing. **Audit is one command** — recompute in-stock count and min/max price per category
+  from `CATALOG`/`PRODUCTS`/`LINKS` and diff against the blocks; do it after ANY shop-data change,
+  not just a price change.
   `availability` is already `schema.org/InStock` on all three (the shop is open).
   **`aggregateRating` + `review` are live on the Totes block only (2026-08-02)** — 5★, one review,
   Brea P.'s Strawberry Tote note, copied verbatim from `TESTIMONIALS` in js/main.js. **The other two

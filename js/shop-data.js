@@ -78,7 +78,8 @@ window.DIT_SHOP = {
     "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐" },
     "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖" },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
-    "bandana-toffee-windowpane": { name: "Toffee Windowpane Bandana", price: 18.0, art: "🐾" },
+    // SOLD 2026-08-12. soldOut first, retire to Stories on/after Aug 15 — see TASKS.md.
+    "bandana-toffee-windowpane": { name: "Toffee Windowpane Bandana", price: 18.0, art: "🐾", soldOut: true },
     "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
     "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾" },
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" }

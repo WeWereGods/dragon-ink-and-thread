@@ -245,6 +245,29 @@ Two rules that keep this useful:
 
 ---
 
+## 🟢 Sold — finish the two-step exit
+
+- [ ] **Toffee Windowpane Bandana SOLD 2026-08-12 — `soldOut: true` is live; RETIRE IT ON OR
+      AFTER FRI AUG 15.** Step one is done: the card is dimmed with a Sold badge, the button is
+      disabled, the cart refuses it, it's out of the sitemap, and the Pinterest feed says out of
+      stock. **The product page deliberately still exists** — that's the whole point of the
+      order. Retiring deletes the page, and until Pinterest re-reads the feed (~24h) a live Pin
+      would land on a 404.
+      **Step two, on/after Aug 15:** remove it from `PRODUCTS`/`VARIANTS`/`LINKS`/`CATALOG` in
+      js/shop-data.js, delete its line from `PRICES` in worker/checkout-worker.js **and
+      `wrangler deploy` from main**, add a `PAST_MAKES` entry in js/main.js, then re-run
+      `build-products` → `build-catalog` → `bump-assets`.
+      ⚠️ **Re-check the Pet Bandanas JSON-LD block in index.html by hand** — nothing regenerates
+      it, and it was already stale before this sale.
+      📌 **The waitlist is BACK.** `js/waitlist.js` only ever runs on a sold-out card or product
+      page, and nothing has been sold-out since Aug 5 — so this is the first live test of it
+      since it was built. Worth watching whether anyone actually signs up before retiring the
+      page, because that answers whether the feature earns its keep.
+      🐕 **Size coverage is fine.** This was the first Medium (13″–18″) in stock, but the Quilted
+      Court is also Medium, so small-dog households still have something to buy. No panic.
+
+---
+
 ## 🟡 Ready to go — just needs sending
 
 ⚠️ **This section was WRONG on 2026-08-10** — five items sat unticked that had all been posted,
