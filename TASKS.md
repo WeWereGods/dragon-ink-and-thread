@@ -113,6 +113,40 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
+- [ ] 🆕 **A custom QUILT enquiry is live (2026-08-12) — someone is on the hook, nothing quoted
+      yet. Do not price it off the tote band.** This is the largest thing anyone has asked for,
+      and there is **no published band for quilts** — the exact gap that had Linda's tea cover and
+      quilt repair invented under pressure a week ago. Quilts are now the SECOND quilt job in two
+      weeks; that stops being a one-off.
+      **Five questions before any number is said:**
+      1. **Size.** Crib ~36×52 · throw ~50×60 · twin · queen ~90×90. Price tracks area — and a
+         queen wrestled through a domestic machine is a *different job* from a throw, not a bigger
+         one.
+      2. **How pieced?** Plain squares, intricate blocks, or appliqué. This is where the hours are.
+      3. **Is it a memory or T-shirt quilt?** Very common ask, and it changes everything —
+         stabiliser, irreplaceable garments, and the same someone-else's-belongings care Linda's
+         quilt already needs.
+      4. **Who buys the fabric, and is there a deadline?** A quilt is 8–12+ yards plus batting and
+         backing. ⚠️ **Don't start the clock until it's in hand** — that lesson has now cost three
+         orders in a row.
+      5. **Quilted how?** On the domestic machine, or sent out to a longarm service (roughly
+         $0.02–0.04/sq in → ~$60–120 a throw, ~$160–320 a queen). If it goes out, that is real cash
+         out and has to sit inside the quote, not come out of the margin.
+      ⚠️ **The honest number is much bigger than it will feel.** A pieced throw is 20–35 hours
+      before it is even quilted, on $80–150 of materials. At any wage worth getting out of bed for
+      that is **$450–800 for a throw**, and four figures for a bed size. The instinct will be to
+      price it like a big tote — the tote band tops out at $100, and that would be a thirty-hour
+      job at under $5/hr that also eats September.
+      ⚠️ **Turnaround is NOT 10–14 days.** Aug 17–24 is already three customers deep with a
+      possible second trip inside it. A throw is realistically **4–8 weeks from fabric-in-hand**,
+      and saying so now is far cheaper than saying it in September.
+      ⚠️ **Take a deposit.** Maurya, Aubrea and Linda all paid in full up front, which is fine at
+      $36–105. At $500+ the normal shape is **50% up front, 50% on completion** — and at minimum
+      the deposit must cover the fabric before a yard of it is bought.
+      **If this is accepted, publish a quilt band on custom.html before the NEXT one is asked
+      for** (seven places — see CLAUDE.md). One ad-hoc quote is a one-off; two is a category
+      being sold with no price.
+
 - [ ] ⚠️ **CUSTOM ORDERS OPENED 2026-08-08 — and Aug 17–24 is now THREE customers deep.**
       Maurya's wheelchair tote, Aubrea's three bow clips, and Linda's tea cover + quilt mending
       all land in the same window, straight off the Aug 14–16 trip — and the unconfirmed second
