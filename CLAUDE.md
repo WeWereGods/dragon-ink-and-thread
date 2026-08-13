@@ -382,9 +382,15 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   quoted ad hoc). Publishing a band is what stops the next one being invented under pressure.
   ⚠️ **Repairs have NO ceiling on purpose** — one contained hole was $75; three tears and a
   rotten binding is a different job, and a range would be a promise made before seeing it.
-  ⚠️ **WHOLE QUILTS have no band, and an enquiry is live as of 2026-08-12** — an **heirloom memory
-  quilt** from a husband's wool jacket, wool trousers and poly-cotton shirts (full brief in
-  TASKS.md). Do not reach for the tote band: that job is 35–55 hours and prices at **$650–950** for
+  ⚠️ **QUILTS were banded 2026-08-12** — from **$350**, heirloom-from-clothing from **$650**.
+  Prompted by an enquiry for a memory quilt from a husband's wool jacket, trousers and
+  poly-cotton shirts; **she withdrew on 2026-08-13 once she learned a wool quilt can't be machine
+  washed.** Nothing was cut and no quote was sent, which is the disclosure working — the
+  alternative was 40 hours in with a jacket already in pieces. **The band stays regardless**; it
+  exists so a number can't be invented under pressure. custom.html now separates **cotton
+  garments (washable) from wool (dry-clean only)**, because that distinction is what the lost
+  enquiry turned on and most memory quilts are T-shirt quilts, which are unaffected. Full brief
+  in TASKS.md. Do not reach for the tote band: that job is 35–55 hours and prices at **$650–950** for
   a throw. Memory quilts from tailored garments are the premium end of this — irreversible cutting,
   every piece interfaced, and not machine-washable afterwards. This is the third category to
   be *asked for* before it was priced — book sleeves, home pieces and repairs all got their bands

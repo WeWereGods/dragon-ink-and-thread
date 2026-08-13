@@ -125,7 +125,24 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
-- [ ] 🆕 **HEIRLOOM MEMORY QUILT — enquiry live 2026-08-12, nothing quoted yet.** Throw size,
+- [x] ❌ **HEIRLOOM MEMORY QUILT — DECLINED BY THE CUSTOMER 2026-08-13, on the wool.** She
+      withdrew once she learned a quilt pieced from wool suiting can't be machine washed
+      afterwards. **No quote was ever sent and nothing was cut.**
+      ✅ **This is the disclosure working, not a lost sale.** TASKS.md said to tell her before she
+      agreed rather than on handover, precisely because "a customer who learns that at the end
+      feels sold something." The alternative outcome was 40 hours in, with a husband's jacket
+      already cut into pieces that cannot be un-cut, and a customer who didn't want the result.
+      **Losing it in a conversation is the cheapest possible way to lose it.**
+      📌 **The lesson, and it changed the site (2026-08-13):** washability was the deal-breaker,
+      and custom.html didn't mention it — the quilt band went up on Aug 12 saying "heirloom
+      quilts from clothing, from $650" and nothing else, so the next person would have spent the
+      same conversation reaching the same dead end. The bullet now separates the two cases:
+      **cotton garments (shirts, T-shirts, denim) wash normally; wool ones don't.** That is a
+      real distinction, not a warning — most memory quilts are T-shirt quilts, and those are
+      completely unaffected. Written to self-select before either side invests time.
+      ⚠️ **The published band STAYS.** It was put up so a number couldn't be invented under
+      pressure, and that holds whether or not this particular order happened. Don't unpublish it.
+      ~~🆕 HEIRLOOM MEMORY QUILT — enquiry live 2026-08-12, nothing quoted yet.~~ Throw size,
       pieced from **her husband's wool sports jacket, his wool trousers, and cotton/poly-blend
       shirts**. This is the hardest and highest-stakes thing anyone has asked for, and there is
       **no published band for quilts** — the exact gap that had Linda's tea cover and quilt repair
