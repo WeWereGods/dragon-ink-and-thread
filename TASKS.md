@@ -72,28 +72,18 @@ Two rules that keep this useful:
         the cream-and-red ticking match the twenty-year-old originals in scale, colour and
         fade, which was the whole difficulty (the ticking was the last outstanding blocker on
         Aug 11 and reads woven/yarn-dyed, not printed).
-        📸 **Retake the "after" to match the "before".** The before is a tight close-up of the
-        damage; the after is a wide shot from another angle and distance, so the pair doesn't
-        actually prove the repair — it asks to be taken on trust. Same distance, same angle.
+        ✅ **Matched-light reshoot done 2026-08-13 and LIVE on custom.html** as the before/after
+        under the repairs line. The patch can't be picked out of it, the ticking stripe runs true,
+        and the loft is even where the hole was.
         ⚠️ **Check the binding either side of the patch before it goes back.** The damage is at
         the EDGE, which takes far more handling than the middle — dragging, tucking, pulling up
-        — so this patch gets stress-tested harder than a central one would.
-        ❓ **Still worth recording: harvested or bought new?** If new, it needed a hard pre-wash
-        before cutting (the quilt finished shrinking decades ago). Obvious today, gone in a month.
-        **Cloth sourcing is resolved in practice** — the red check was found 2026-08-11 and the
-        cream-and-red ticking stripe is no longer holding the job up. ❓ **Record which way it went
-        once known** (harvested from the quilt's own seam allowance/binding/hem, or bought new),
-        because it decides the next line and it's the sort of detail that's obvious today and
-        gone in a month.
-        ⚠️ **If the ticking was BOUGHT NEW, it must be pre-washed hard before cutting.** The quilt
-        finished shrinking decades ago; new cotton hasn't. Skip it and Linda's first wash puckers
-        the patch and drags at the seam — a repair that fails on a quilt whose whole brief was to
-        stay usable. (Harvested cloth needs none of this, which is why it was the better option.)
-        **⚠️ "Usable" means the repair must be STRUCTURAL, not cosmetic** — the live constraint
-        while the work is happening. **Patch out onto sound fabric**: the cloth at the hole's edge
-        is thinned and will tear again, so the patch has to reach past it onto cloth that still
-        has strength. **Fill the batting** so there's no flat cold spot. Budget an afternoon, not
-        an hour.
+        — so this patch gets stress-tested harder than a central one would. **Last thing before
+        handover.**
+        ❓ **One detail still unrecorded: was the ticking harvested from the quilt itself, or
+        bought new?** Obvious today, gone in a month — and it matters, because bought-new cotton
+        needed a hard pre-wash before cutting (the quilt finished shrinking decades ago; skip that
+        and Linda's first wash puckers the patch). Harvested cloth needs none of it, which is why
+        it was the better option.
       - ⚠️ **CORRECTION 2026-08-13: the wall hanging is NOT this patchwork quilt.** It was logged
         here for a few hours as "Linda wants the mended quilt hung", which was a misreading.
         **Linda is the memory-piece customer** — the wall hanging is a NEW piece to be made from
