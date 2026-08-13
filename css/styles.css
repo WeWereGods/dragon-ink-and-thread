@@ -2139,3 +2139,28 @@ body.fabric-lightbox-open { overflow: hidden; }
   background: rgba(255, 255, 255, 0.16); color: var(--white); font-size: 1.6rem; line-height: 1;
 }
 @media (hover: hover) { .fabric-lightbox-close:hover { background: rgba(255, 255, 255, 0.3); } }
+
+/* Repair before/after proof pair on custom.html (2026-08-13). Portrait phone
+   shots, so the pair is constrained rather than left full-bleed — two 1050×1400
+   images side by side would otherwise tower over the notes above them. */
+.repair-proof { margin: 1.6rem auto 0; max-width: 640px; }
+.repair-proof-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
+.repair-proof-shot { position: relative; display: block; }
+.repair-proof-shot img {
+  display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover;
+  border-radius: var(--radius-sm); border: 1px solid var(--paper-deep);
+}
+.repair-proof-label {
+  position: absolute; left: 0.6rem; bottom: 0.6rem;
+  background: rgba(69, 58, 48, 0.82); color: #fff;
+  font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 0.2rem 0.55rem; border-radius: 999px;
+}
+.repair-proof figcaption {
+  margin-top: 0.85rem; font-size: 0.9rem; color: var(--ink-soft);
+  text-align: center; text-wrap: pretty;
+}
+@media (max-width: 420px) {
+  .repair-proof-pair { gap: 0.5rem; }
+  .repair-proof figcaption { font-size: 0.86rem; }
+}

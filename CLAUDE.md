@@ -382,6 +382,11 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   quoted ad hoc). Publishing a band is what stops the next one being invented under pressure.
   ⚠️ **Repairs have NO ceiling on purpose** — one contained hole was $75; three tears and a
   rotten binding is a different job, and a range would be a promise made before seeing it.
+  ⚠️ **custom.html's "Happily" / "Not my craft" lists are part of the bands — check them too.**
+  Found 2026-08-13 listing **quilts** and **repairs and alterations** as NOT my craft, on the same
+  page that sold both, two days after their bands went up and on the day a mending post started
+  driving traffic to it. A price list and a refusal list that disagree is worse than either alone.
+  Both moved to "Happily", and the repairs claim now carries a before/after of the quilt mend.
   ⚠️ **QUILTS were banded 2026-08-12** — from **$350**, heirloom-from-clothing from **$650**.
   Prompted by an enquiry for a memory quilt from a husband's wool jacket, trousers and
   poly-cotton shirts; **she withdrew on 2026-08-13 once she learned a wool quilt can't be machine

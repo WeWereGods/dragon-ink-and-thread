@@ -556,20 +556,22 @@ anywhere, `assets/incoming/` is fine). **Upload both together and it's ten minut
       review and the object finally point at each other.
 - [ ] **Midnight Garden Tea Cosy → Stories.** Linda's $30 tea cover, delivered 2026-08-12. Entry
       already drafted under her order above. Ask her first.
-- [ ] **The matched-light reshoot of the quilt repair** (shot 2026-08-13). Same distance, angle
-      and light as the damage close-up, which the first after-shot wasn't — it was warm lamplight
-      against a cooler, brighter before, and a sceptic would wonder whether the light was doing
-      the hiding. This one closes that.
-      ⚠️ **Don't disturb the live Facebook post for it.** Adding a photo to a running post is
-      fiddle for little gain, and the post is already doing its job. Its real uses are ahead:
-      - ⭐ **Attach it to mending enquiry replies.** The quick reply in
-        `emails/custom-orders-enquiry.md` asks *them* for photos; sending this one back is the
-        single most persuasive thing available when someone is deciding whether to hand over
-        something irreplaceable. **This is where it earns its keep.**
-      - **A repairs image for custom.html.** That line is "from $40" and a paragraph of text with
-        nothing to look at, in a category that has now produced a $1,100 follow-on commission.
-      - **Reuse in the Aug 29 push** — proof that custom work is trusted with things that cannot
-        be replaced, which is exactly the anxiety a memory-piece customer has.
+- [x] ✅ **Quilt repair before/after — LIVE ON custom.html 2026-08-13.** Uploaded via GitHub's
+      web UI (which bypasses .gitignore), then baked the EXIF rotation in — both were orientation
+      6 and would have displayed sideways — resized to 1050×1400 at q82, and set as a before/after
+      pair under "Before you ask".
+      ⭐ **Finding it a home turned up something much worse than a missing photo.** The
+      **"Not my craft"** list on that page still read *"Clothing, **quilts**, or anything that
+      needs to fit a body"* and *"**Repairs and alterations** to something you already own"* — on
+      the same page that sells quilts from $350 and repairs from $40, **two days** after those
+      bands went up, and on the day a mending post started sending people straight there. Anyone
+      arriving from that post read "repairs — not my craft" inches from "mending starts at $40".
+      Both moved to **Happily**, and the repairs line now has the before/after under it as proof.
+      📌 **Still worth doing: attach these to mending enquiry replies.** The quick reply in
+      `emails/custom-orders-enquiry.md` asks *them* for photos; sending these back is the most
+      persuasive thing available to someone deciding whether to hand over something irreplaceable.
+      📌 And reuse them in the Aug 29 push — proof that custom work is trusted with things that
+      cannot be replaced, which is exactly a memory-piece customer's anxiety.
 
 Both are `PAST_MAKES` entries in js/main.js; both need the photo at 1400px long edge, q82, EXIF
 baked in. Together they take Stories from 12 makes to **14**.
