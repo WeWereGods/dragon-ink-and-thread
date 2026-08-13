@@ -283,7 +283,24 @@ Two rules that keep this useful:
       triangles as the only piecing, cream pocket square as the single cream accent, jacket cloth
       as the border. **Every piece is his — nothing bought in**, which is the whole difference
       from the reference image and the strongest thing to say when showing it to her.
-      **Send it, get a yes, then quote and cut.**
+      **Send it, get a yes, then quote and cut.** ✅ **SENT TO LINDA 2026-08-13.**
+      ### 💵 If SHE (the maker) buys the materials — asked 2026-08-13
+      ⚠️ **THE DRAWING ALREADY SENT CARRIES "$900–1,100" AND DOESN'T SAY WHETHER MATERIALS ARE IN
+      IT.** Linda may well read it as all-in. **So quote $1,100 ALL-IN** — the top of a band she
+      has already seen, absorbing the supplies, with no number changing on her side. Raising a
+      figure after sending a drawing with a figure printed on it is the one move that costs
+      goodwill here.
+      Materials at 40×50: interfacing ~$40 · batting or flannel ~$20 · backing ~$32 · binding,
+      dowel and thread ~$28 = **$120–150**, call it **$170 loaded** for sourcing time, tax and
+      the risk of buying wrong.
+      ⚠️ **That leaves ~$930 of labour over 40–60 h = $15.50–23/hr.** Fine at the low hour count,
+      thin at the high one. **So $1,100 holds for the design AS DRAWN only** — if it grows
+      (bigger, more blocks, a fourth feature) that is a new quote, and say so when sending it.
+      ✅ **Her buying is the better arrangement regardless**, and worth the margin: the wrong
+      interfacing won't reveal itself until it's being pressed onto a dead man's jacket, and it's
+      her name on the finished piece, not the shop Linda bought the supplies from.
+      ⚠️ **Buy nothing until the deposit clears.** 50% of $1,100 is $550 and covers materials
+      several times over, so there is no point at which she should be out of pocket.
 
       ### If she wants a harder design (asked 2026-08-13)
       ⚠️ **THE QUOTE FOLLOWS THE DESIGN, NOT THE OTHER WAY ROUND.** Agree a sketched layout
