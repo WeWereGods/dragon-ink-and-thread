@@ -255,6 +255,14 @@ Two rules that keep this useful:
       ⚠️ **So do not promise the image. Promise a drawing.** Sketch an achievable design, agree
       it, quote it, then cut. Committing to a picture that was never made is how a job ends with
       a customer comparing a real object to something that never existed.
+      ✅ **THE DRAWING EXISTS: `designs/linda-memory-wall-hanging.png`** (source `.svg` beside it).
+      40″ × 50″: jacket front kept whole as the centre medallion with the shirt collar set into
+      the neck, trousers as the background field, three garment-feature blocks along the bottom
+      (shirt breast pocket · cuff with his button · trouser welt pocket), four half-square
+      triangles as the only piecing, cream pocket square as the single cream accent, jacket cloth
+      as the border. **Every piece is his — nothing bought in**, which is the whole difference
+      from the reference image and the strongest thing to say when showing it to her.
+      **Send it, get a yes, then quote and cut.**
 
       ### If she wants a harder design (asked 2026-08-13)
       ⚠️ **THE QUOTE FOLLOWS THE DESIGN, NOT THE OTHER WAY ROUND.** Agree a sketched layout
