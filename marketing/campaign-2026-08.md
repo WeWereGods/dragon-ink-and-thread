@@ -951,6 +951,77 @@ least visited — this post exists to fix that.
 
 ---
 
+### Mending — written 2026-08-13, from the quilt repair finished Aug 12
+
+⚠️ **CUSTOMER PERMISSION FIRST. This is Linda's family quilt.** The same rule that applies to
+Maurya's order applies here: ask before publishing anything of someone's order. The photos don't
+name her, but it is her heirloom shown in a state she may not want the internet to see. One
+message. If she says no, the copy still works the day another repair comes in.
+
+⚠️ **TIMING — consider holding this until Mon Aug 17 or later.** It is a post designed to
+generate "can you fix mine?" enquiries, and it would land into the Aug 14–16 away window
+followed by an Aug 17–20 that already holds the wheelchair tote, Aubrea's clips and Linda's
+handover. Either post it once that clears, or post it now knowing replies wait until Monday and
+quoting accordingly. **Don't quote a turnaround in the post** — repairs are priced after seeing
+the piece, which is the whole point of the band.
+
+📸 **Photo order is damage FIRST, finished second**, and crop both. The wide shot has packaging
+clutter in the top corner and the close-up has a storage tote and floor in frame; on Instagram
+especially that costs more than the copy earns. **The strongest version needs a photo that
+doesn't exist yet** — a close-up of the repair from the same distance and angle as the damage
+shot. Three images beats two: damage → same view healed → whole quilt.
+
+**FACEBOOK** *(the selling one — link goes in the post, per the referrer measurement in TASKS.md)*
+
+> This is what "loved to pieces" actually looks like.
+>
+> A customer brought me her quilt with a hole clean through it. The cloth around it had gone to lint, the batting was coming out, and it had happened right where four seams meet, at the very edge — where every tug and drag and pull-up-in-the-night lands.
+>
+> She asked for two things. That the patch match. And that the quilt stay *usable* — she wanted to keep using it, not fold it away in tissue paper.
+>
+> That second one is the harder ask, and it's the one people don't think to say out loud. A repair that only looks right is a repair that fails in the wash. So the patch reaches out past the worn edge onto cloth that still has strength in it — the fabric right at a hole is already thin, and left alone it simply tears again — and the batting was filled back in, so there's no cold flat spot where the hole used to be.
+>
+> The matching was the slow part. Fabric off a bolt has never been washed. Put it beside cloth that's been through the machine for years and it sits there looking exactly as new as it is.
+>
+> The second photo is the same quilt, finished. I'll let you hunt for it.
+>
+> Mending starts at $40, and I'd rather look at a piece before I give you a number — one worn patch and a quilt that needs three seams rebuilt are very different afternoons. Bring it to me, or send me a photo, and I'll tell you honestly what it needs. Including if it's beyond me.
+>
+> One last thing, because I think it matters: this quilt was never going to be thrown away. It was going to be folded up and quietly stop being used, which is its own kind of ending. It's back on a bed instead.
+>
+> https://www.dragoninkandthread.com/custom.html
+
+**INSTAGRAM** *(no clickable link — bio only. Carousel, damage first.)*
+
+> Loved to pieces. And now, not.
+>
+> A hole clean through — the cloth around it gone to lint, batting coming out, right where four seams meet at the edge of the quilt.
+>
+> She asked two things of me: that the patch match, and that the quilt stay usable. The second is the harder one. A repair that only looks right is a repair that fails in the wash — so the patch reaches past the thin cloth onto fabric that still has strength, and the batting is filled back so there's no cold spot where the hole was.
+>
+> Swipe to see the same quilt finished. Have a hunt for it. 🧵
+>
+> Mending from $40 — I'd rather see a piece before I name a number. Link in bio.
+>
+> #cottagecore #handmadewithlove #sewingsmallbusiness #veteranowned #shopsmall #sanantoniosmallbusiness #madeintexas #quiltrepair #mendingmatters #slowstitch #heirloomquilt
+
+*Hashtags: the house handmade/cottagecore set from §6, plus four mending-specific ones
+(`#quiltrepair #mendingmatters #slowstitch #heirloomquilt`) that aren't in either set yet. 11
+total, inside the 8–12 rule. **If they pull anything, add them to the §6 handmade set** — mending
+is a different audience from totes and the existing sets don't reach it.*
+
+✏️ **One line worth adding IF it's true — I don't know and didn't want to invent it:** if the
+matching cloth was harvested from the quilt itself (a seam allowance, the underside of the
+binding, a hem) rather than bought, say so. *"The patch is cut from the quilt's own hem, because
+nothing you can buy has been washed as many times as it has."* That is the single best sentence
+available here and it can't be written unless it happened.
+
+⚠️ **Deliberately NOT claimed in either version:** the quilt's age (nobody measured it), how the
+cloth was sourced (see above), and any turnaround. Also no before/after "miracle" framing — the
+restraint is what makes it read as craft rather than advertising.
+
+---
+
 ## 14. Weekly rhythm — 45 minutes, once a week
 
 Sustainable beats ambitious. Every Sunday:

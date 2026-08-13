@@ -336,6 +336,15 @@ written.** Ask before inferring a post didn't run.
       Suriel five, which is the Mon Aug 11 post in `marketing/fabric-collections-2026-08.md`.
 - [x] **Fabric teaser — POSTED 2026-08-08** (eighteen new prints, seventy-one in the library).
 
+- [ ] **Mending post (Facebook + Instagram) — WRITTEN 2026-08-13**, in §13 of
+      `marketing/campaign-2026-08.md`, built on the before/after of Linda's quilt.
+      ⚠️ **BLOCKED ON LINDA'S PERMISSION** — it's her family quilt, shown holed. Same rule as
+      Maurya's order. One message; if she says no the copy keeps for the next repair.
+      ⚠️ **Probably hold until Mon Aug 17+.** It's designed to pull "can you fix mine?"
+      enquiries, and it would land in the away window ahead of an Aug 17–20 that already holds
+      three jobs. Post it when there's room to answer.
+      📸 Needs a crop on both photos, and ideally a third shot that doesn't exist yet: the repair
+      from the same angle and distance as the damage close-up.
 - [ ] **The Quilted Court Bandana post** — listed 2026-08-09 at **$22**, no copy written yet.
       The hooks: it's the only **patchwork** piece in the shop, it reverses to Blushing Linen,
       and Ghost is already wearing it in photo 2. Being the priciest bandana, it wants the
