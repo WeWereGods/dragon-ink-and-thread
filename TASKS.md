@@ -90,40 +90,16 @@ Two rules that keep this useful:
         is thinned and will tear again, so the patch has to reach past it onto cloth that still
         has strength. **Fill the batting** so there's no flat cold spot. Budget an afternoon, not
         an hour.
-      - [ ] 🆕 **NEW JOB, 2026-08-13: Linda wants the quilt turned into an heirloom WALL HANGING.**
-        Nothing quoted. **The quilt is still in the house**, so this is done before the handover
-        rather than delivering and getting it back — that's a genuine saving, and it means the
-        $75 repair simply doesn't get closed out yet.
-        ⚠️ **ASK FIRST, BEFORE ANY NUMBER: is this the WHOLE quilt on the wall, or a SECTION cut
-        down to display size?** They are different jobs at different prices, and one of them is
-        irreversible. "Turn it into a wall hanging" reads naturally as either. This is the same
-        trap as the memory quilt — find out before anything is cut, not after.
-        - **Whole quilt, sleeve added:** a full-width hanging sleeve hand-stitched across the
-          back, squared and blocked flat, optional label. Reversible; the quilt stays a quilt.
-          Roughly **$50–85** — 2–3 hours, most of it hand-stitching the sleeve, plus half a yard
-          and a dowel.
-        - **Cut down to a panel:** trim, re-bind, sleeve, label. **$120–200**, and ⚠️ **it cannot
-          be undone** — a quilt someone's family made becomes a smaller object permanently.
-          If she wants this, get it in writing and photograph the whole quilt first.
-        ⚠️ **A FULL-WIDTH SLEEVE, never corner tabs or clips.** Hung cloth carries its own weight
-        every hour of every year, and this quilt has *already* blown a hole where it was thin.
-        Two tabs concentrate all of that into two points and will start the next tear.
-        ⚠️ **Tell her the wall is not automatically kinder than the bed.** Everyone assumes
-        hanging something protects it. For an old quilt it introduces constant tension and, worse,
-        **UV** — this palette is already faded, and a sunny wall will keep fading it, unevenly and
-        permanently. Recommend a wall out of direct sun and taking it down to rest occasionally.
-        📌 **A label on the back is the thing that makes it an heirloom rather than décor** — who
-        made it, roughly when, and that it was mended in 2026. Cheap to add, and it's the detail
-        the next generation actually needs. Offer it.
-        📌 **Category note: this is another job asked for before it was priced** — the fourth
-        after book sleeves, home pieces and repairs. For now it's fairly "Something else
-        entirely, quoted on its own" on custom.html. **If a second one comes in, band it.**
-        📣 ⚠️ **TODAY'S LIVE FACEBOOK POST NOW SAYS SOMETHING UNTRUE ABOUT THIS QUILT** — "she
-        wanted to keep using it, not fold it away" and "It's back on a bed instead." True when
-        written this morning, false by this afternoon. Low stakes and nobody is harmed, but Linda
-        may well read it. **Either edit those two lines or leave it and know why.** The better
-        move is the follow-up: *she liked the repair enough to want it on the wall* is a stronger
-        story than the original post, and it's hers to give permission for.
+      - ⚠️ **CORRECTION 2026-08-13: the wall hanging is NOT this patchwork quilt.** It was logged
+        here for a few hours as "Linda wants the mended quilt hung", which was a misreading.
+        **Linda is the memory-piece customer** — the wall hanging is a NEW piece to be made from
+        her husband's suit, and it lives in its own entry further down. The two got conflated
+        because "the quilt" meant this one in every earlier sentence.
+        Two things that misreading produced, both now void:
+        - There is **no whole-quilt-vs-cut-it-down question** about this quilt. **Nothing is
+          being done to it.** It is repaired and awaiting handover, unchanged.
+        - **Today's Facebook post is TRUE and needs no edit.** It was flagged as having gone
+          stale ("it's back on a bed instead") purely on the bad assumption. Leave it alone.
       - ⚠️ **It is SOMEONE ELSE'S QUILT and it is in the house.** That's different from every
         other job here — the others are her own fabric, and a mistake costs materials. This one
         is likely irreplaceable to Linda and probably has history. Keep it stored away from the
@@ -184,9 +160,19 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
-- [ ] 🔄 **HEIRLOOM MEMORY PIECE — BACK ON, 2026-08-13, REFRAMED AS A WALL HANGING.** She
-      withdrew in the morning on the wool (can't be machine washed) and returned the same day
+- [ ] 🔄 **LINDA — HEIRLOOM MEMORY WALL HANGING from her husband's suit. BACK ON 2026-08-13.**
+      ⚠️ **The memory-piece customer is LINDA** — the same customer as the tea cover and the quilt
+      repair, not a separate enquiry. Logged as anonymous for a day and corrected 2026-08-13.
+      She withdrew in the morning on the wool (can't be machine washed) and returned the same day
       wanting it **hung rather than used**, which makes the entire objection irrelevant.
+      💷 **This makes Linda comfortably the shop's biggest customer**: $30 tea cover + $75 quilt
+      repair already paid, and a **$650–750** commission on the table. That is more than every
+      other custom order this month put together.
+      ⭐ **AND IT IS THE $75 REPAIR THAT EARNED IT.** She handed over a family quilt with a hole
+      in it, got it back invisibly mended, and then trusted the same hands with her husband's
+      suit. **The small job was the audition.** Worth remembering next time a $40 mend looks like
+      it isn't worth the afternoon — and it is the single best argument for the mending post that
+      went live today.
       **Garments photographed 2026-08-13:** a **Hugo Boss** suit jacket (label inside the pocket),
       matching trousers, a **Geoffrey Beene** dress shirt, and a cream pocket square. Charcoal,
       grey, cornflower blue and cream — a genuinely good palette, which is not a given here.
@@ -227,9 +213,11 @@ Two rules that keep this useful:
       which a bed quilt never needs. **It is smaller but held to a higher standard, and the
       published band says heirloom-from-clothing starts at $650. Don't undercut your own floor
       because the object got smaller.** Materials still hers; 50% up front; 8–12 weeks.
-      📌 **SECOND wall-hanging request TODAY** (Linda's quilt is the other). No band, no mention
-      anywhere on the site. **Two in one day is a category knocking.** If a third arrives, band it
-      — that's the rule that already caught book sleeves, home pieces, repairs and quilts late.
+      📌 **Wall hangings have no band and no mention anywhere on the site.** ⚠️ This was briefly
+      written up as "two requests in one day, a category knocking" — that was the same conflation
+      error: **it is ONE request, not two.** One is an enquiry, not a pattern. Don't band it yet;
+      band it if a genuinely separate customer asks. That restraint is the point of the rule, not
+      an exception to it.
 
 - [x] ~~❌ HEIRLOOM MEMORY QUILT — declined 2026-08-13 on the wool.~~ **Superseded above.** She
       withdrew once she learned a quilt pieced from wool suiting can't be machine washed
