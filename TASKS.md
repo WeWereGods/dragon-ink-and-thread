@@ -336,18 +336,21 @@ written.** Ask before inferring a post didn't run.
       Suriel five, which is the Mon Aug 11 post in `marketing/fabric-collections-2026-08.md`.
 - [x] **Fabric teaser — POSTED 2026-08-08** (eighteen new prints, seventy-one in the library).
 
-- [ ] **Mending post (Facebook + Instagram) — WRITTEN 2026-08-13**, in §13 of
-      `marketing/campaign-2026-08.md`, built on the before/after of Linda's quilt.
-      ⚠️ **BLOCKED ON LINDA'S PERMISSION** — it's her family quilt, shown holed. Same rule as
-      Maurya's order. One message; if she says no the copy keeps for the next repair.
-      ⚠️ **Probably hold until Mon Aug 17+.** It's designed to pull "can you fix mine?"
-      enquiries, and it would land in the away window ahead of an Aug 17–20 that already holds
-      three jobs. Post it when there's room to answer.
-      📸 **The healed close-up was shot 2026-08-13 and is the chosen "after" image** — the patch
-      can't be picked out of it, the ticking stripe runs true, and the loft is even with no
-      depression where the hole was. Order: damage → healed close-up → whole quilt.
-      Minor, not blocking: it's in warm lamplight where the damage shot is cooler and brighter,
-      so a reshoot in matching light would make the pair unarguable.
+- [x] **Mending post — POSTED 2026-08-13**, same day it was written. Copy in §13 of
+      `marketing/campaign-2026-08.md`, built on the before/after of Linda's quilt, led by the
+      healed close-up (the patch can't be picked out of it, the ticking stripe runs true, and the
+      loft is even where the hole was).
+      📌 **This is the first post that advertises MENDING as a thing you do**, rather than a line
+      item on the custom page. Repairs have been a published band since Aug 11 and had never been
+      spoken about. **Watch what it pulls** — it's the cheapest available read on whether repairs
+      are a real category or a favour you occasionally do.
+      ⏳ **Replies wait until Mon Aug 17** (away Aug 14–16). A **mending quick reply is now in
+      `emails/custom-orders-enquiry.md`** — ask for photos, never quote from a description, and
+      say when they'll get a price rather than going quiet.
+      📮 **If Linda hasn't been told it's up, tell her before she finds it.** Cheap, and she still
+      has a collection outstanding.
+      📸 Optional polish: the healed close-up is warm-lit where the damage shot is cooler and
+      brighter. A reshoot in matching light would make the pair unarguable for reuse later.
 - [ ] **The Quilted Court Bandana post** — listed 2026-08-09 at **$22**, no copy written yet.
       The hooks: it's the only **patchwork** piece in the shop, it reverses to Blushing Linen,
       and Ghost is already wearing it in photo 2. Being the priciest bandana, it wants the

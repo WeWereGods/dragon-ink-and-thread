@@ -132,6 +132,38 @@ Long emails don't work in a DM. Use this, then send the full email if they bite.
 
 ---
 
+## Quick reply — MENDING enquiries (added 2026-08-13)
+
+The mending post went live 2026-08-13 with the shop URL in it, so "can you fix mine?" is now a
+question that arrives on its own rather than only when someone already knows you do it.
+
+⚠️ **Never quote a repair from a description.** The whole reason the band is "from $40, no
+ceiling" is that one contained hole was $75 and three tears with a rotten binding is a different
+job. **Ask for a photo first, every time** — that is the reply, not a delay before the reply.
+
+> Yes, I do — thank you for asking 🧵
+>
+> Mending starts at $40, but I'd honestly rather see it before I give you a number. A single
+> worn patch and a quilt that needs seams rebuilt are very different afternoons, and I'd rather
+> quote you the real thing than guess high to be safe.
+>
+> Send me a photo of the damage and one of the whole piece, and tell me how you want to use it
+> afterwards — whether it needs to go back on a bed and through the wash, or whether it's
+> something you're keeping folded away. That changes how I'd repair it more than anything else.
+>
+> I'll come back with a price and be honest with you if it's beyond me.
+
+**Why the "how will you use it" question is in there:** it's the thing that separates a cosmetic
+patch from a structural one, and customers don't know to volunteer it. Linda's brief turned
+entirely on wanting the quilt to stay usable, which ruled out visible mending and meant patching
+out onto sound cloth and refilling the batting.
+
+⏳ **If a reply has to wait** — an away window, or a week already full — say when they'll get a
+price rather than going quiet. Aubrea's delay stopped being a problem the moment she was told
+early, and that is the whole lesson of this month.
+
+---
+
 ## What to say no to
 
 From `custom.html`, so the answers stay consistent. Saying no kindly and quickly is better
