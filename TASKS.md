@@ -17,7 +17,7 @@ Two rules that keep this useful:
 > |---|---|---|
 > | ~~Tue 11~~ | errands | Maurya's fabric arrived. Binding bought. |
 > | ~~Wed 12~~ | ✅ used | ✅ Linda's tea cover **bound and DELIVERED** · ✅ Linda's quilt patch **sewn** |
-> | **Thu 13 — TODAY** | ⏳ **blocked on batting** | Wheelchair tote **cannot start until batting lands today**. Aubrea's fabric now **won't come before the trip**. |
+> | **Thu 13 — TODAY** | ⏳ batting lands **mid-afternoon** | **Prep the tote NOW, quilt it when the batting arrives.** ✅ Aubrea told. |
 > | Fri 14 – Sun 16 | ✈️ away | Nothing moves. No sewing, no posting, no pickups. |
 > | **Mon 17 – Wed 20** | ✅ | Wheelchair tote + Aubrea's clips + Linda's handover — **all three now land here** |
 > | Thu 21 – Sun 24 | ❓ possible 2nd trip | Unconfirmed |
@@ -123,15 +123,18 @@ Two rules that keep this useful:
       ⚠️ Away Aug 14–16, so the real window is **Aug 17–19**.
       - **2026-08-09: she replied and loved the first tote.** Approved, so the **wheelchair tote
         is now the live piece of work** — the only thing left on this order.
-      - ⚠️ **BLOCKED ON BATTING as of 2026-08-13** — an order due to land today, and the tote
-        can't be quilted without it. Fabric arrived Aug 11, but that turned out not to be the
-        whole material list.
-        **Do the batting-free work today anyway**: cut exterior, lining and pockets, piece the
-        top, make up the straps and the chair ties. That prep decides whether Monday is "quilt
-        and assemble" or "start from nothing".
-        **If the batting misses today → tell Maurya before you travel and propose Aug 19**, not
-        Aug 17. She's local and expecting Aug 17–19; letting her assume the 17th and ask on the
-        18th is the one avoidable version of this.
+      - ⏳ **BATTING CONFIRMED FOR MID-AFTERNOON 2026-08-13** (1–3 hours out, told ~14:20 local).
+        Fabric arrived Aug 11; the batting turned out not to be on that list.
+        **Use the gap: do the batting-free work first** — cut exterior, lining and pockets, piece
+        the top, make up the straps and the chair ties. Then the batting lands and it's straight
+        to quilting and assembly rather than a cold start.
+        ✅ **No message to Maurya needed.** The "propose Aug 19" trigger was for the batting
+        missing today entirely. Prep this afternoon → quilt tonight if it goes well, Monday
+        morning if it doesn't. **Both land inside her Aug 17–19 window.**
+        📸 **FILM THE PREP — it solves post 7 at zero cost.** Cutting, the machine running,
+        pressing seams *is* the footage; §6 of the campaign calls process content the
+        highest-performing thing for handmade by a wide margin. Post 7 has wanted tote footage
+        for two days and had none, and the batting-free half of the job is the photogenic half.
         ⚠️ **Aug 17–19 now holds all three remaining jobs** — this tote, Aubrea's clips and
         Linda's handover. It was tight before the batting; it is tighter now.
       - 📸 **Film and photograph this one.** It's the piece the **Aug 29 push** is built around,
