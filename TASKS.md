@@ -206,6 +206,56 @@ Two rules that keep this useful:
         Same advice as Linda's: a wall out of direct sun.
       - 📌 **A label on the back matters more here than on anything else** — whose clothes, and
         when. It is the entire point of the object.
+      ### ⚠️ A REFERENCE IMAGE ARRIVED 2026-08-13 — and it does not fit the cloth
+      Centre medallion of an intact jacket front with the shirt collar at the neck, surrounded by
+      sashed sampler blocks: eight-pointed and sawtooth stars, half-square triangles, plus blocks
+      preserving a shirt pocket, a cuff with its button, a placket and a welt pocket. Navy
+      sashing throughout, dense allover quilting, **bed-sized** (shown covering a queen).
+      ⚠️ **THERE IS NOT ENOUGH CLOTH IN THE FOUR GARMENTS TO MAKE IT.** Say this before anything
+      else, because it surfaces mid-build otherwise:
+      - The **cream** in those stars and backgrounds is 2+ yards. She has **one pocket square**.
+      - The navy sashing runs through the whole quilt **and** the medallion is an intact jacket
+        front. **One jacket cannot be both** — keep the front whole and the jacket is spent.
+      - The blocks show many distinct blues and greys; there is one shirt and one pair of trousers.
+      **So it needs bought-in yardage, which turns "made from his clothes" into "made WITH his
+      clothes."** That is a real difference and it is hers to choose knowingly.
+      ⚠️ **It is also a BED QUILT, not the wall hanging agreed this afternoon.**
+      ⚠️ **It reads as a generated reference, not a photo of a real quilt** — nobody can be asked
+      how it was done and parts may not be physically consistent. **Treat it as direction, draw
+      an achievable version, get THAT signed off before cutting.**
+      **Quoted three ways:**
+      - **As shown, bed-sized:** 90–130 h → **$1,800–2,600**, 5–7 months. Not advisable.
+      - **Wall size (~40×50), same character:** 60–95 h → **$1,200–1,600**, 12–20 weeks.
+      - **Simplified — medallion + garment features, fewer and simpler stars:** 40–60 h →
+        **$900–1,100**, 10–14 weeks. ⭐ **Recommend this one.**
+      ⭐ **Why the simplified version is the better piece, not just the cheaper one:** the elements
+      that will move her are the jacket front, the collar at the neck, the cuff and its button,
+      the pockets — and those are the *cheap* part. The expensive part is a dozen pieced stars,
+      which in interfaced wool suiting come out with **blunt points however well they are sewn**,
+      because the seam allowances stack. She would pay several hundred extra for the one element
+      most likely to disappoint.
+      ⚠️ **The medallion is harder than it looks:** a tailored jacket front carries canvas, lining
+      and shaped lapels built specifically NOT to lie flat. Getting it flat and stable is 8–14 h
+      on its own.
+      ⚠️ **The dense allover quilting shown is a longarm job** — brutal on wool through a domestic
+      machine. **Many longarmers refuse garment quilts. Check before promising it.**
+      ### Is it realistic? — three separate questions, three different answers
+      1. **Is the TECHNIQUE real?** Yes. Jacket fronts kept as medallions, pockets and cuffs and
+         plackets preserved as blocks — that is established memory-quilt practice, not fantasy.
+         Pieces like this genuinely exist.
+      2. **Is THAT IMAGE a real quilt?** Almost certainly not. The lapels lie impossibly flat, the
+         collar is rendered with depth cloth doesn't have, and the quilting texture is too even.
+         **Nobody can be asked how they did it, because nobody did.**
+      3. **Is it realistic for THESE garments and THIS maker, now?** ⚠️ **The full version, no.**
+         Not enough cloth (above), and 90–130 hours is 4–6 months of actual available capacity
+         for one person sewing around a small child — with the wheelchair tote, Aubrea's clips
+         and Linda's handover all landing Aug 17–20 and the Aug 29 push after. **It would also be
+         her first garment memory piece**, on materials that cannot be replaced.
+         ✅ **The simplified version, yes** — genuinely achievable and genuinely lovely.
+      ⚠️ **So do not promise the image. Promise a drawing.** Sketch an achievable design, agree
+      it, quote it, then cut. Committing to a picture that was never made is how a job ends with
+      a customer comparing a real object to something that never existed.
+
       ### If she wants a harder design (asked 2026-08-13)
       ⚠️ **THE QUOTE FOLLOWS THE DESIGN, NOT THE OTHER WAY ROUND.** Agree a sketched layout
       first, then price it. Quoting "a memory wall hanging" and letting the design grow
