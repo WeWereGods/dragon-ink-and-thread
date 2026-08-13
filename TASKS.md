@@ -553,6 +553,20 @@ anywhere, `assets/incoming/` is fine). **Upload both together and it's ten minut
       review and the object finally point at each other.
 - [ ] **Midnight Garden Tea Cosy → Stories.** Linda's $30 tea cover, delivered 2026-08-12. Entry
       already drafted under her order above. Ask her first.
+- [ ] **The matched-light reshoot of the quilt repair** (shot 2026-08-13). Same distance, angle
+      and light as the damage close-up, which the first after-shot wasn't — it was warm lamplight
+      against a cooler, brighter before, and a sceptic would wonder whether the light was doing
+      the hiding. This one closes that.
+      ⚠️ **Don't disturb the live Facebook post for it.** Adding a photo to a running post is
+      fiddle for little gain, and the post is already doing its job. Its real uses are ahead:
+      - ⭐ **Attach it to mending enquiry replies.** The quick reply in
+        `emails/custom-orders-enquiry.md` asks *them* for photos; sending this one back is the
+        single most persuasive thing available when someone is deciding whether to hand over
+        something irreplaceable. **This is where it earns its keep.**
+      - **A repairs image for custom.html.** That line is "from $40" and a paragraph of text with
+        nothing to look at, in a category that has now produced a $1,100 follow-on commission.
+      - **Reuse in the Aug 29 push** — proof that custom work is trusted with things that cannot
+        be replaced, which is exactly the anxiety a memory-piece customer has.
 
 Both are `PAST_MAKES` entries in js/main.js; both need the photo at 1400px long edge, q82, EXIF
 baked in. Together they take Stories from 12 makes to **14**.
