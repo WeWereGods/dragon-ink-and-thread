@@ -418,6 +418,16 @@ The old instructions ("add an `<option>` to that select") described the homepage
 which **no longer exist**. Here is the real sequence. Everything lives in **js/shop-data.js**
 except where noted.
 
+0. ⚠️ **GETTING A PHOTO INTO THE REPO AT ALL — this fails SILENTLY (learned 2026-08-13).**
+   `assets/incoming/`, `assets/Incoming/`, `assets/Incoming-Products/` and `assets/Catalog/` are
+   **gitignored**, and so is anything named `assets/IMG_*.jpg|jpeg|png`. A photo dropped in any of
+   those is skipped by `git add` without a word, the commit succeeds, the push succeeds, and the
+   branch arrives **empty** — which is exactly what happened when a photos branch was pushed with
+   nothing on it. **Put uploads straight in `assets/` under an ordinary name**, then run
+   `git status` and confirm the files are actually listed *before* committing. `git add -f` forces
+   past the ignore; `git check-ignore -v <path>` says whether a given file is being swallowed.
+   (The ignores are deliberate — they keep 188 MB of phone originals out of the repo. The trap is
+   only that they are invisible.)
 1. **Photo → `assets/`** — **`node tools/import-products.js <id>`** does this whole step. Drop
    the photos in **`assets/Incoming-Products/`** (gitignored; the script creates it) and run it:
    it bakes in EXIF rotation, resizes the long edge to 1400 at q82, writes `<id>.jpg`,
