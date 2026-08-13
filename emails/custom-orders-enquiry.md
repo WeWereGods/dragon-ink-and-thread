@@ -157,6 +157,12 @@ job. **Ask for a photo first, every time** — that is the reply, not a delay be
 patch from a structural one, and customers don't know to volunteer it. Linda's brief turned
 entirely on wanting the quilt to stay usable, which ruled out visible mending and meant patching
 out onto sound cloth and refilling the batting.
+⚠️ **And ask it again at the end, because the answer moves.** Linda came back the same week
+wanting the mended quilt turned into a wall hanging — the opposite of the brief the repair was
+built to. No harm done (a structural repair suits a display piece fine, and the reverse would
+not have been true), but had that been known first, sympathetic or visible mending was on the
+table and isn't now. **"What will it be doing in a year?" is a better question than "how do you
+want it repaired?"**
 
 ⏳ **If a reply has to wait** — an away window, or a week already full — say when they'll get a
 price rather than going quiet. Aubrea's delay stopped being a problem the moment she was told

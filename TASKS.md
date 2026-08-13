@@ -90,6 +90,40 @@ Two rules that keep this useful:
         is thinned and will tear again, so the patch has to reach past it onto cloth that still
         has strength. **Fill the batting** so there's no flat cold spot. Budget an afternoon, not
         an hour.
+      - [ ] 🆕 **NEW JOB, 2026-08-13: Linda wants the quilt turned into an heirloom WALL HANGING.**
+        Nothing quoted. **The quilt is still in the house**, so this is done before the handover
+        rather than delivering and getting it back — that's a genuine saving, and it means the
+        $75 repair simply doesn't get closed out yet.
+        ⚠️ **ASK FIRST, BEFORE ANY NUMBER: is this the WHOLE quilt on the wall, or a SECTION cut
+        down to display size?** They are different jobs at different prices, and one of them is
+        irreversible. "Turn it into a wall hanging" reads naturally as either. This is the same
+        trap as the memory quilt — find out before anything is cut, not after.
+        - **Whole quilt, sleeve added:** a full-width hanging sleeve hand-stitched across the
+          back, squared and blocked flat, optional label. Reversible; the quilt stays a quilt.
+          Roughly **$50–85** — 2–3 hours, most of it hand-stitching the sleeve, plus half a yard
+          and a dowel.
+        - **Cut down to a panel:** trim, re-bind, sleeve, label. **$120–200**, and ⚠️ **it cannot
+          be undone** — a quilt someone's family made becomes a smaller object permanently.
+          If she wants this, get it in writing and photograph the whole quilt first.
+        ⚠️ **A FULL-WIDTH SLEEVE, never corner tabs or clips.** Hung cloth carries its own weight
+        every hour of every year, and this quilt has *already* blown a hole where it was thin.
+        Two tabs concentrate all of that into two points and will start the next tear.
+        ⚠️ **Tell her the wall is not automatically kinder than the bed.** Everyone assumes
+        hanging something protects it. For an old quilt it introduces constant tension and, worse,
+        **UV** — this palette is already faded, and a sunny wall will keep fading it, unevenly and
+        permanently. Recommend a wall out of direct sun and taking it down to rest occasionally.
+        📌 **A label on the back is the thing that makes it an heirloom rather than décor** — who
+        made it, roughly when, and that it was mended in 2026. Cheap to add, and it's the detail
+        the next generation actually needs. Offer it.
+        📌 **Category note: this is another job asked for before it was priced** — the fourth
+        after book sleeves, home pieces and repairs. For now it's fairly "Something else
+        entirely, quoted on its own" on custom.html. **If a second one comes in, band it.**
+        📣 ⚠️ **TODAY'S LIVE FACEBOOK POST NOW SAYS SOMETHING UNTRUE ABOUT THIS QUILT** — "she
+        wanted to keep using it, not fold it away" and "It's back on a bed instead." True when
+        written this morning, false by this afternoon. Low stakes and nobody is harmed, but Linda
+        may well read it. **Either edit those two lines or leave it and know why.** The better
+        move is the follow-up: *she liked the repair enough to want it on the wall* is a stronger
+        story than the original post, and it's hers to give permission for.
       - ⚠️ **It is SOMEONE ELSE'S QUILT and it is in the house.** That's different from every
         other job here — the others are her own fabric, and a mistake costs materials. This one
         is likely irreplaceable to Linda and probably has history. Keep it stored away from the
