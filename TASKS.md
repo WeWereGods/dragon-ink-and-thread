@@ -17,7 +17,7 @@ Two rules that keep this useful:
 > |---|---|---|
 > | ~~Tue 11~~ | errands | Maurya's fabric arrived. Binding bought. |
 > | ~~Wed 12~~ | ✅ used | ✅ Linda's tea cover **bound and DELIVERED** · ✅ Linda's quilt patch **sewn** |
-> | **Thu 13 — TODAY** | ⏳ batting lands **mid-afternoon** | **Prep the tote NOW, quilt it when the batting arrives.** ✅ Aubrea told. |
+> | **Thu 13 — TODAY** | ⏳ waiting on batting | ✅ **Tote CUT.** Quilt + assemble when it lands. ✅ Aubrea told. ✅ Quilt repair live on custom.html. |
 > | Fri 14 – Sun 16 | ✈️ away | Nothing moves. No sewing, no posting, no pickups. |
 > | **Mon 17 – Wed 20** | ✅ | Wheelchair tote + Aubrea's clips + Linda's handover — **all three now land here** |
 > | Thu 21 – Sun 24 | ❓ possible 2nd trip | Unconfirmed |
@@ -125,9 +125,10 @@ Two rules that keep this useful:
         is now the live piece of work** — the only thing left on this order.
       - ⏳ **BATTING CONFIRMED FOR MID-AFTERNOON 2026-08-13** (1–3 hours out, told ~14:20 local).
         Fabric arrived Aug 11; the batting turned out not to be on that list.
-        **Use the gap: do the batting-free work first** — cut exterior, lining and pockets, piece
-        the top, make up the straps and the chair ties. Then the batting lands and it's straight
-        to quilting and assembly rather than a cold start.
+        ✅ **CUT 2026-08-13, before the batting arrived** — so the delivery is followed by
+        quilting and assembly rather than a standing start. **Straps, chair ties, pocket bags and
+        the lining can all still be sewn while waiting**; only the quilted panels actually need
+        the batting.
         ✅ **No message to Maurya needed.** The "propose Aug 19" trigger was for the batting
         missing today entirely. Prep this afternoon → quilt tonight if it goes well, Monday
         morning if it doesn't. **Both land inside her Aug 17–19 window.**
