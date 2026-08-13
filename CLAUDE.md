@@ -574,7 +574,13 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
 - **"Kind Words" testimonials section is LIVE and SHOWING** (added 2026-07-27, a professionalism pass
   inspired by a competitor site). `#kind-words` starts `hidden` and JS reveals it once the
   `TESTIMONIALS` array in js/main.js has ≥1 entry — it now holds **3 real reviews**, so the section
-  renders. **REAL reviews only — never invent them.** Add `{ quote, name, where?, stars? }` objects
+  renders. **REAL reviews only — never invent them.**
+  ⚠️ **"Brea P." IS Aubrea Pritt**, the custom bow-clip customer in TASKS.md (confirmed by the
+  owner 2026-08-13). Two names for one person across the repo — **don't count her as two
+  customers**. She bought a tote and a scrunchie, reviewed them five stars, then commissioned
+  custom work; Linda went the same way from a $30 tea cover to a $1,100 commission. **Both repeat
+  customers converted from a small first purchase**, which is the Aug 29 push's best argument and
+  is currently unused in the campaign copy. Add `{ quote, name, where?, stars? }` objects
   to populate. NOTE: **two of the three rate CUSTOM makes, not shop listings** — the **"Road Trip
   Kindle Case"** (a retired make, correctly in Stories PAST_MAKES) and **Cassidy E.'s music-print
   tote** (added 2026-08-12, a one-off commission that was never listed; **she left an actual

@@ -138,13 +138,26 @@ Two rules that keep this useful:
         this is the only one that exists.
 - [ ] **Aubrea Pritt — 3 custom bow clips. Waiting on fabric, and that's agreed.** $36 paid
       2026-08-05 (invoice `85VBHJQE-0001`). Oakdale, **California** — these post, they aren't
-      collected. She's also the five-star review on the homepage.
+      collected.
+      ⚠️ **AUBREA PRITT AND "BREA P." ARE THE SAME PERSON** (confirmed by the owner 2026-08-13).
+      She is the Strawberry-Tote-and-scrunchie five-star review in `TESTIMONIALS` — the one
+      carried in the Totes `aggregateRating` markup — **and** this custom customer. Two names for
+      one person across TASKS.md, TESTIMONIALS and the campaign file. **Don't count her twice**
+      when counting customers; her shop order and her custom order are two transactions, not two
+      people.
+      ⭐ **She is also the second proof of the same pattern: the small first sale is the
+      audition.** She bought a tote and a scrunchie, left a five-star review, then commissioned
+      custom work. Linda did the identical thing from the other direction — a $30 tea cover and a
+      $75 repair, then a **$1,100** commission. **Both of the shop's repeat customers converted
+      from a small first purchase into custom.** That is the strongest argument the Aug 29 push
+      has, it is evidence rather than assertion, and nothing in the campaign copy uses it yet.
       - ⚠️ **2026-08-13: the fabric now arrives AFTER the trip.** That is the **third** revision
         (Aug 14–19 → Aug 13–15 → post-trip), and it settles the question — nothing can be sewn or
         posted before Mon 17.
       - **Realistic chain: sewn Mon 17, posted 17–18, arriving California ~21–23.** Clips are
         quick; the work was never the problem.
-      - 📮 **Tell her TODAY, before the three silent days.** She already knows about the earlier
+      - [x] 📮 **TOLD HER 2026-08-13 ✅** — sent before the trip, which is the whole point. She
+        already knows about the earlier
         delay and was fine — and that is precisely because she was told early rather than left to
         wonder. A third slip discovered by silence reads completely differently from a third slip
         she was walked through.
