@@ -197,8 +197,29 @@ Two rules that keep this useful:
         (already the plan), keep it modest in size, and use a **full-width hanging sleeve, never
         corner tabs**. For a smaller piece, **mounting on a stretched frame is worth offering** —
         for heavy wool it beats a sleeve outright.
-      - **Low loft or no batting.** Flat displays better and weighs less, which is the same
-        problem as the sag. A bed quilt wants warmth; this wants to hang straight.
+      - **BACKING: always.** It hides the seam allowances, interfacing and the back of the
+        appliqué, it is what the hanging sleeve attaches to, and it carries the label. Plain
+        cotton in a tone that sits with the greys.
+      - **BATTING: low-loft cotton, or cotton FLANNEL instead of batting entirely.** Asked
+        2026-08-13, and the answer is thinner than instinct suggests:
+        - **Weight is the enemy** — wool suiting is 9–12oz before every piece gets interfaced,
+          and this hangs off a sleeve for decades without being allowed to elongate.
+        - **A wall piece wants to hang FLAT.** Loft puffs and waves; on a bed that reads cosy,
+          on a wall it reads badly made.
+        - **The medallion has its own structure** — a jacket front keeps shaping even with the
+          canvas out, and batting under it makes it puffier and harder to keep flat.
+        - **It licenses sparser quilting**, which matters because dense quilting through
+          interfaced wool is brutal on a domestic machine.
+        ⚠️ **NOT polyester** — springy, adds unwanted loft, and it can beard through wool.
+        ⚠️ **NOT wool batting**, which is exactly what someone would reach for on a wool quilt:
+        **it doubles the moth risk** on a piece designed to hang undisturbed for years. No reason
+        to feed that from the inside as well.
+        **Flannel is the quiet answer** — body without loft, almost no weight, blocks dead flat.
+      - 🛒 **Materials list for the 40×50 (she supplies):** ~4–5 yd lightweight woven fusible
+        interfacing · crib-size (45×60) low-loft cotton batting **or** 1.6 yd cotton flannel ·
+        backing 1.6 yd of 108″ wide, **or** 3.2 yd of 44″ seamed down the middle (44″ alone is
+        too narrow for a 40″ piece plus overhang) · 0.5 yd for the sleeve, can come off the
+        backing · 0.5 yd binding · 42″ dowel or flat rod · 50wt neutral thread.
       - ⚠️ **MOTHS. Say this out loud to her.** Wool, on a wall, undisturbed for years is exactly
         what moths want, and nobody thinks of it. It needs occasional inspection — and it is the
         one risk here that can destroy the piece after it's finished and paid for.
