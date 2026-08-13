@@ -206,6 +206,35 @@ Two rules that keep this useful:
         Same advice as Linda's: a wall out of direct sun.
       - 📌 **A label on the back matters more here than on anything else** — whose clothes, and
         when. It is the entire point of the object.
+      ### If she wants a harder design (asked 2026-08-13)
+      ⚠️ **THE QUOTE FOLLOWS THE DESIGN, NOT THE OTHER WAY ROUND.** Agree a sketched layout
+      first, then price it. Quoting "a memory wall hanging" and letting the design grow
+      afterwards is the classic way a custom job goes underwater, and on irreplaceable cloth
+      there is no renegotiating once it's cut. **A sketch she signs off on protects both of you.**
+      - **Base — large simple blocks** (squares and rectangles, calm fields): 25–43 h →
+        **$650–750**, as quoted.
+      - **Moderate — smaller pieces, a simple repeating block** (nine-patch, rail fence, some
+        half-square triangles), or **garment features worked in** as design elements: +8–15 h →
+        **$800–950**.
+      - **Difficult — pieced stars and points throughout, curved piecing, or appliquéd lettering,
+        a monogram, his name and dates**: +20–40 h over base → **$1,000–1,400**.
+      - **Art piece — an original designed composition, pictorial or portrait**: **$1,400+**,
+        quoted per design. ⚠️ Honestly probably beyond a sensible first garment commission.
+      ⚠️ **TIMING SCALES TOO.** 8–12 weeks covers the base. Difficult is 60+ hours and means
+      **12–16 weeks**. Naming a price without moving the date is how the quilt band nearly went
+      wrong; don't repeat it here.
+      ⚠️ **WOOL SUITING FIGHTS INTRICATE PIECING — this is steering, not just pricing.** Thick
+      seam allowances stack at every intersection, and pieced points come out blunt no matter how
+      carefully they're sewn. A 1″ finished square in interfaced suiting is miserable work that
+      looks worse than a 4″ one. **If she wants stars, appliqué them, or piece the points from
+      the blue shirt cotton and keep the wool for the fields.**
+      ⭐ **THE ANSWER SHE PROBABLY WANTS IS "MORE MEANINGFUL", NOT "MORE COMPLICATED".** Ask which
+      she's actually after. **Working in the real pocket, the lapel, the buttons, the Boss label,
+      a shirt cuff** costs far less than complex piecing and is worth immeasurably more to the
+      person who has to look at it — a stranger sees clever patchwork, she sees his pocket.
+      Wool reads as texture and depth: large calm fields with a few sharp accents (the cream
+      pocket square, the cornflower shirt) will look better than busy geometry AND cost less.
+      **Offer that before quoting $1,400.**
       ### The number
       **Quote $650–750. Hold the $650 floor.** Roughly 25–43 hours: deconstruction, cutting
       around darts and canvas, and interfacing barely shrink with size, so a smaller piece is
