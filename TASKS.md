@@ -48,9 +48,20 @@ Two rules that keep this useful:
         didn't go that way, and that's fine — but it means **the quilt is now the only thing
         outstanding on this order**, and she has already had something in her hands, which buys
         patience the earlier plan didn't.
-      - **Quilt mending, $75 — 🔨 IN PROGRESS 2026-08-12.** No longer blocked; the patch is
-        being worked on now. (Was blocked 2026-08-11 on finding matching cloth — that search had
-        no guaranteed end, since an old quilt's print may be long discontinued.)
+      - **Quilt mending, $75 — ✅ PATCH SEWN 2026-08-12, not yet delivered.** Before/after photos
+        taken. The damage was a blowout at a four-seam junction near the quilt's edge — cloth
+        gone to lint, batting out. **The repair is invisible in the wide shot**: the gingham and
+        the cream-and-red ticking match the twenty-year-old originals in scale, colour and
+        fade, which was the whole difficulty (the ticking was the last outstanding blocker on
+        Aug 11 and reads woven/yarn-dyed, not printed).
+        📸 **Retake the "after" to match the "before".** The before is a tight close-up of the
+        damage; the after is a wide shot from another angle and distance, so the pair doesn't
+        actually prove the repair — it asks to be taken on trust. Same distance, same angle.
+        ⚠️ **Check the binding either side of the patch before it goes back.** The damage is at
+        the EDGE, which takes far more handling than the middle — dragging, tucking, pulling up
+        — so this patch gets stress-tested harder than a central one would.
+        ❓ **Still worth recording: harvested or bought new?** If new, it needed a hard pre-wash
+        before cutting (the quilt finished shrinking decades ago). Obvious today, gone in a month.
         **Cloth sourcing is resolved in practice** — the red check was found 2026-08-11 and the
         cream-and-red ticking stripe is no longer holding the job up. ❓ **Record which way it went
         once known** (harvested from the quilt's own seam allowance/binding/hem, or bought new),
