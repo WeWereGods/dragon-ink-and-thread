@@ -441,7 +441,18 @@ normal baseline, not a dip. Referrers over the same window (146 attributed):
   it is why the catalog went in on Aug 9.
 - **Practical rule: anything meant to sell goes on Facebook, with the shop URL in the post.**
   Instagram and TikTok are recognition, not traffic — worth doing, but not measurable here.
-  If they're to earn anything, the bio link should point at `shop.html`, not the homepage.
+  If they're to earn anything, the bio link should point at a page that answers the post, not the
+  homepage.
+- 🔗 **BIO LINK = `https://www.dragoninkandthread.com/custom.html` (set 2026-08-13).** Changed
+  from the `shop.html` recommendation above because **August's whole story is custom**: mending
+  went live Aug 13, custom orders opened Aug 8, and the **Aug 29 push is a custom push**. A post
+  about repairing someone's quilt that sends people to a page with no mending on it wastes the
+  only clickable link Instagram allows.
+  ⚠️ **This is a manual change on Instagram and TikTok — nothing in this repo controls it.**
+  Recorded here so the two don't silently disagree.
+  📅 **Revisit after Sat Aug 29.** Once the push is done, the right target is whatever the next
+  month is selling — likely back to `shop.html` for ready-made stock. **Not a landmine**: it's a
+  live decision with a review date, not a temporary hack waiting to be remembered.
 
 ---
 
