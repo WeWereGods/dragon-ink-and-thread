@@ -270,6 +270,8 @@
       story: "A roomy tie-on tote made to hang from a wheelchair (or the back of a chair), in a lavender, hollyhock, and honeybee-skep print lined in soft buttercup yellow — keeping your essentials close at hand. 🐝" },
     { img: "assets/pouch-patchwork.jpg", art: "🌸", title: "Cottage Patchwork Pouch",
       story: "Sage, blush, and powder-blue florals pieced by hand into a zippered pouch — a little keeper for makeup, notions, or small treasures. 🌸" },
+    { img: "assets/tea-cosy-midnight-garden.jpg", art: "🌹", title: "Midnight Garden Tea Cosy",
+      story: "Cabbage roses and golden peonies strewn across black cotton, quilted and padded with a little loop to lift it by — made to keep a pot hot for as long as the conversation lasts. A custom order, boxed and on its way to her table. 🌹" },
     { img: "assets/tote-strawberry.jpg", art: "🍓", title: "Strawberry Tote",
       story: "One of the very first totes I ever made — cream canvas tumbling with wild strawberries and trailing green vines, fully lined. A true one-of-a-kind that found its home early on. This print has retired now, but it holds a sweet little place in the Nest's beginnings. 🍓" },
     { img: "assets/bloom-cream.jpg", art: "🌸", title: "Cream Bloom",

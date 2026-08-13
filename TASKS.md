@@ -51,16 +51,10 @@ Two rules that keep this useful:
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
       - [x] **Tea cover, $30 — DONE AND DELIVERED 2026-08-12.** Bound and handed over, five days
         inside the Aug 17–24 window and before the trip rather than after it.
-        📸 **TO ADD TO STORIES once the photo is in the repo** (2026-08-13). Black cotton strewn
-        with cabbage roses and golden peonies, quilted, with a loop to lift it by. A custom make
-        that was never a shop listing, so it belongs in `PAST_MAKES` beside the Road Trip Kindle
-        Case and the Cottage Patchwork Pouch. Entry ready to paste into js/main.js:
-        `{ img: "assets/tea-cosy-midnight-garden.jpg", art: "🌹", title: "Midnight Garden Tea Cosy",`
-        `  story: "Cabbage roses and golden peonies strewn across black cotton, quilted and padded`
-        `  with a little loop to lift it by — made to keep a pot hot for as long as the`
-        `  conversation lasts. 🌹" }`
-        Then `node tools/bump-assets.js`, commit, push. Takes `PAST_MAKES` to **13**.
-        ⚠️ **Ask Linda first** — same rule as Maurya's order. It's her piece.
+        ✅ **IN STORIES 2026-08-13 — "Midnight Garden Tea Cosy"**, `PAST_MAKES` is now 13.
+        Photographed in its branded box on the worktable, which is a better shot than a plain
+        product one: the piece finished and about to go to its person.
+        ⚠️ **Tell Linda it's up** — same rule as Maurya's order. It's her piece.
         📝 **Note it went separately.** The plan on 2026-08-11 was that Linda wanted both pieces
         together, which is why the quilt was called the critical path for the whole $105. It
         didn't go that way, and that's fine — but it means **the quilt is now the only thing
@@ -99,8 +93,10 @@ Two rules that keep this useful:
         is likely irreplaceable to Linda and probably has history. Keep it stored away from the
         cutting table and pets, and photograph its condition **before** starting, so there is a
         record of what it looked like when it arrived.
-      - Quilt repair is **not a product category** and has no band on custom.html. It was
-        quoted ad hoc. Fine as a one-off; decide before advertising it.
+      - ✅ **Quilt repair IS a product category now.** It was quoted ad hoc here, then banded on
+        2026-08-11 (**from $40, no ceiling**), advertised in the mending post on 2026-08-13, and
+        this job's before/after is the proof image on custom.html. The "decide before advertising
+        it" note is spent.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       $97.43 paid 2026-08-05 (invoice `VBQJFYMO-0001`, $100 less $10 for the pair, plus tax).
       Terms are 10–14 days from acceptance → **due ~Aug 15–19**. She's local (San Antonio).
@@ -528,19 +524,21 @@ Two rules that keep this useful:
 
 ---
 
-## 📸 Blocked on one photo upload — clear both in a single go
+## 📸 One photo still outstanding
 
-Two finished things are waiting on the same trivial step: **a photo file landing in the repo.**
-Neither can be done from a picture pasted into a chat — it has to be an actual file (drop them
-anywhere, `assets/incoming/` is fine). **Upload both together and it's ten minutes of work.**
+⚠️ **Photos have to arrive as FILES, and the reliable route is GitHub's web uploader** —
+`https://github.com/WeWereGods/dragon-ink-and-thread/upload/main/assets` — because a web upload
+is a server-side commit and **.gitignore does not apply to it**. Three local pushes on 2026-08-13
+staged nothing at all: `assets/incoming/`, `assets/Incoming-Products/`, `assets/Catalog/`,
+`assets/IMG_*` and `assets/ChatGPT Image *` are all ignored, so `git add` skipped everything
+silently and every command reported success. **Rename off `IMG_*` first.**
 
 - [ ] **The Music Teacher's Tote → Stories.** Cassidy E.'s custom music-print tote. Her five-star
       review is already live in Kind Words but points at nothing, because the piece was never
       listed and has no photo in the repo. Adding it lets the review's attribution change from
       the generic "on a custom music-print tote" to **"on The Music Teacher's Tote"**, so the
       review and the object finally point at each other.
-- [ ] **Midnight Garden Tea Cosy → Stories.** Linda's $30 tea cover, delivered 2026-08-12. Entry
-      already drafted under her order above. Ask her first.
+- [x] ✅ **Midnight Garden Tea Cosy → Stories, done 2026-08-13.** `PAST_MAKES` is now 13.
 - [x] ✅ **Quilt repair before/after — LIVE ON custom.html 2026-08-13.** Uploaded via GitHub's
       web UI (which bypasses .gitignore), then baked the EXIF rotation in — both were orientation
       6 and would have displayed sideways — resized to 1050×1400 at q82, and set as a before/after
