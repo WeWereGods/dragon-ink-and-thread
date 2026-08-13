@@ -11,33 +11,47 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
-> ### 📅 The week, as it actually stands (updated 2026-08-12)
+> ### 📅 The week, as it actually stands (updated 2026-08-13)
 >
 > | Day | Available | What it's for |
 > |---|---|---|
 > | ~~Tue 11~~ | errands | Maurya's fabric arrived. Binding bought. |
-> | **Wed 12** | ✅ full day | ✅ Linda's tea cover **bound and DELIVERED** · 🔨 Linda's quilt patch **in progress** |
-> | **Thu 13** | ✅ full day | **Wheelchair tote — now the only pre-trip day it has.** Aubrea's fabric **may** land (est. 13–15). |
-> | Fri 14 – Sun 16 | ✈️ away | — |
-> | **Mon 17 – Wed 20** | ✅ | Wheelchair tote finish + Aubrea's clips + anything left of Linda's quilt |
+> | ~~Wed 12~~ | ✅ used | ✅ Linda's tea cover **bound and DELIVERED** · ✅ Linda's quilt patch **sewn** |
+> | **Thu 13 — TODAY** | ⏳ **blocked on batting** | Wheelchair tote **cannot start until batting lands today**. Aubrea's fabric now **won't come before the trip**. |
+> | Fri 14 – Sun 16 | ✈️ away | Nothing moves. No sewing, no posting, no pickups. |
+> | **Mon 17 – Wed 20** | ✅ | Wheelchair tote + Aubrea's clips + Linda's handover — **all three now land here** |
 > | Thu 21 – Sun 24 | ❓ possible 2nd trip | Unconfirmed |
 >
-> ⚠️ **Wed 12 and Thu 13 were both meant to be the wheelchair tote; Wed 12 went to Linda's
-> quilt instead.** Not a mistake — the quilt had been blocked on cloth since Aug 11 and
-> unblocking it was worth taking, and Linda now has a finished piece in her hands. But the
-> knock-on is real and worth seeing rather than discovering on Thursday night:
-> - **The wheelchair tote has ONE pre-trip day left**, and it's the biggest owed job. Finishing
->   it Thu 13 was already ambitious; realistically it now lands **Aug 17–19**, which still meets
->   Maurya's window but kills the "offer her an earlier collection" upside.
-> - **Post 7 is due today and wanted a tote start to finish.** That footage isn't happening
->   today. Either shoot the tote Thursday and post late, or use the slot for something already
->   shot — the Quilted Court Bandana is the obvious candidate and its copy is still unwritten.
+> ⚠️ **BOTH pre-trip days have now gone to something other than the wheelchair tote.** Wed 12
+> went to Linda's quilt (a fair trade — it was blocked and now it's done). Thu 13 is blocked on
+> a batting delivery that hasn't arrived. So the biggest owed job may reach the trip **without a
+> single stitch in it**.
+> - **Don't wait idle for the batting.** Everything except quilting and assembly can be done
+>   today: cut the exterior, lining and pockets, piece the top, make up the straps and the ties
+>   that hang it on the chair. If the batting lands late afternoon, that prep is the difference
+>   between Monday being "quilt and assemble" and Monday being "start".
+> - **The fork is tonight.** Batting today → Mon 17–Tue 18 finishes it and Maurya's Aug 17–19
+>   window holds. No batting today → Mon 17 starts from scratch, and **Aug 19 is the realistic
+>   pickup, not Aug 17**.
+> - 📸 **Post 7 needed tote footage and still has none.** Two days running now. Give the slot to
+>   the Quilted Court Bandana, which is already photographed and whose copy is the last unwritten
+>   item in "Ready to go".
 >
-> **The durable lesson, worth applying to the next quote: 10–14 days assumes the fabric is
-> already on the shelf.** All three of these were quoted before the cloth existed in the house.
-> Either quote from the date material is expected, or don't start the clock until it's in hand —
-> otherwise the promise is made against a supplier's schedule, the one part that can't be
-> controlled.
+> ⚠️ **SAY SOMETHING TODAY — it is the last chance before three silent days.** Nothing moves
+> Aug 14–16, and silence during a delay is what turns a delay into a complaint. Aubrea's earlier
+> slip stopped being a crisis purely because she was told early. Two short messages, both worth
+> more than any sewing done today:
+> 1. **Aubrea** — her fabric now arrives after the trip. Give her the honest chain: sewn Mon 17,
+>    posted 17–18, California by roughly 21–23.
+> 2. **Maurya** — only if the batting misses today. Propose **Aug 19** rather than letting her
+>    assume the 17th and ask on the 18th.
+>
+> **The durable lesson, now FOUR for four: a quote of 10–14 days assumes the materials are
+> already in the house.** Maurya's fabric, Aubrea's fabric, Linda's ticking — and now Maurya's
+> batting, which proves it isn't only about the feature cloth. **Batting, interfacing, binding
+> and thread block a job exactly as hard as the print does.** Either quote from the date the
+> materials are expected, or don't start the clock until they're in hand; otherwise the promise
+> is made against a supplier's schedule, the one part that can't be controlled.
 
 - [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
@@ -89,11 +103,17 @@ Two rules that keep this useful:
       ⚠️ Away Aug 14–16, so the real window is **Aug 17–19**.
       - **2026-08-09: she replied and loved the first tote.** Approved, so the **wheelchair tote
         is now the live piece of work** — the only thing left on this order.
-      - ✅ **Fabric arrived Tue Aug 11.** It was to have had Wed 12 and Thu 13; **Wed 12 went to
-        Linda's quilt, so Thu 13 is the only pre-trip day left.** Realistically this now finishes
-        **Aug 17–19** — still inside Maurya's window, but the earlier-collection upside is gone.
-        ⚠️ **That makes Aug 17–19 tight rather than comfortable**, since Aubrea's clips and the
-        rest of Linda's quilt land in the same three days.
+      - ⚠️ **BLOCKED ON BATTING as of 2026-08-13** — an order due to land today, and the tote
+        can't be quilted without it. Fabric arrived Aug 11, but that turned out not to be the
+        whole material list.
+        **Do the batting-free work today anyway**: cut exterior, lining and pockets, piece the
+        top, make up the straps and the chair ties. That prep decides whether Monday is "quilt
+        and assemble" or "start from nothing".
+        **If the batting misses today → tell Maurya before you travel and propose Aug 19**, not
+        Aug 17. She's local and expecting Aug 17–19; letting her assume the 17th and ask on the
+        18th is the one avoidable version of this.
+        ⚠️ **Aug 17–19 now holds all three remaining jobs** — this tote, Aubrea's clips and
+        Linda's handover. It was tight before the batting; it is tighter now.
       - 📸 **Film and photograph this one.** It's the piece the **Aug 29 push** is built around,
         and a *wheelchair* tote says far more about made-for-you work than a generic tote ever
         could — it's the clearest possible answer to "why would I order custom".
@@ -109,10 +129,15 @@ Two rules that keep this useful:
 - [ ] **Aubrea Pritt — 3 custom bow clips. Waiting on fabric, and that's agreed.** $36 paid
       2026-08-05 (invoice `85VBHJQE-0001`). Oakdale, **California** — these post, they aren't
       collected. She's also the five-star review on the homepage.
-      - **2026-08-11: revised ETA is Aug 13–15** (was 14–19). Aubrea knows about the delay and is
-        fine with it — that conversation already happened.
-      - **If it lands Thu 13, sew them that day** and they post before the trip. If 14–15, she's
-        away and they're sewn Mon 17. Clips are quick; the work isn't the problem.
+      - ⚠️ **2026-08-13: the fabric now arrives AFTER the trip.** That is the **third** revision
+        (Aug 14–19 → Aug 13–15 → post-trip), and it settles the question — nothing can be sewn or
+        posted before Mon 17.
+      - **Realistic chain: sewn Mon 17, posted 17–18, arriving California ~21–23.** Clips are
+        quick; the work was never the problem.
+      - 📮 **Tell her TODAY, before the three silent days.** She already knows about the earlier
+        delay and was fine — and that is precisely because she was told early rather than left to
+        wonder. A third slip discovered by silence reads completely differently from a third slip
+        she was walked through.
       - ⚠️ **These POST to California — they aren't collected.** Sewing on the 17th means posting
         the 17th–18th and arriving roughly the 21st–23rd. Worth one line to Aubrea with a real
         post date once the fabric is actually in hand.
