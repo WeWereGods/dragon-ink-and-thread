@@ -184,9 +184,58 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
-- [x] ❌ **HEIRLOOM MEMORY QUILT — DECLINED BY THE CUSTOMER 2026-08-13, on the wool.** She
+- [ ] 🔄 **HEIRLOOM MEMORY PIECE — BACK ON, 2026-08-13, REFRAMED AS A WALL HANGING.** She
+      withdrew in the morning on the wool (can't be machine washed) and returned the same day
+      wanting it **hung rather than used**, which makes the entire objection irrelevant.
+      **Garments photographed 2026-08-13:** a **Hugo Boss** suit jacket (label inside the pocket),
+      matching trousers, a **Geoffrey Beene** dress shirt, and a cream pocket square. Charcoal,
+      grey, cornflower blue and cream — a genuinely good palette, which is not a given here.
+      ✅ **THE DISCLOSURE DIDN'T COST THE ORDER, IT RESHAPED IT.** Wool suiting was always a poor
+      choice for a washable bed quilt and a good one for a wall piece. Telling her the truth in
+      the morning is what found the right product by the afternoon. **custom.html now says so**
+      — the wool line offers the wall-hanging route instead of dead-ending.
+      ⚠️ **STILL READ THE CONTENT LABELS** in the jacket and trousers. Less critical now that
+      washing is off the table, but it decides how the piece behaves — how much it will sag hung,
+      how it presses, and whether the "wool" framing is even accurate.
+      ### What changes now it hangs instead of covers
+      - ✅ **The yardage risk largely goes away.** A wall hanging is far smaller than a 50×60
+        throw, and the earlier worry was that one jacket, one pair of trousers and one shirt gave
+        ~3–4 yd usable against the 3+ a throw needs, with no margin. At wall size there's room.
+        **Still confirm how many shirts exist** — the original brief said shirts, plural; one
+        was photographed.
+      - ⚠️ **The precision bar goes UP, not down.** A throw is used and forgiven; a wall hanging
+        is looked at from eighteen inches, on a wall, forever. Every seam intersection that
+        doesn't meet is permanent and visible. **It must be blocked square** — wonk never shows
+        on a bed and is glaring on a wall.
+      - ⚠️ **Wool hung vertically sags over time under its own weight.** Interface everything
+        (already the plan), keep it modest in size, and use a **full-width hanging sleeve, never
+        corner tabs**. For a smaller piece, **mounting on a stretched frame is worth offering** —
+        for heavy wool it beats a sleeve outright.
+      - **Low loft or no batting.** Flat displays better and weighs less, which is the same
+        problem as the sag. A bed quilt wants warmth; this wants to hang straight.
+      - ⚠️ **MOTHS. Say this out loud to her.** Wool, on a wall, undisturbed for years is exactly
+        what moths want, and nobody thinks of it. It needs occasional inspection — and it is the
+        one risk here that can destroy the piece after it's finished and paid for.
+      - ⚠️ **UV.** Dark navy and charcoal will fade on a sunny wall, unevenly and permanently.
+        Same advice as Linda's: a wall out of direct sun.
+      - 📌 **A label on the back matters more here than on anything else** — whose clothes, and
+        when. It is the entire point of the object.
+      ### The number
+      **Quote $650–750. Hold the $650 floor.** Roughly 25–43 hours: deconstruction, cutting
+      around darts and canvas, and interfacing barely shrink with size, so a smaller piece is
+      ~70–80% of a throw's hours for ~58% of the area — plus blocking, squaring and the sleeve,
+      which a bed quilt never needs. **It is smaller but held to a higher standard, and the
+      published band says heirloom-from-clothing starts at $650. Don't undercut your own floor
+      because the object got smaller.** Materials still hers; 50% up front; 8–12 weeks.
+      📌 **SECOND wall-hanging request TODAY** (Linda's quilt is the other). No band, no mention
+      anywhere on the site. **Two in one day is a category knocking.** If a third arrives, band it
+      — that's the rule that already caught book sleeves, home pieces, repairs and quilts late.
+
+- [x] ~~❌ HEIRLOOM MEMORY QUILT — declined 2026-08-13 on the wool.~~ **Superseded above.** She
       withdrew once she learned a quilt pieced from wool suiting can't be machine washed
-      afterwards. **No quote was ever sent and nothing was cut.**
+      afterwards. **No quote was ever sent and nothing was cut** — the disclosure worked exactly
+      as intended, and the record of it is kept because the lesson stands regardless of the
+      order coming back.
       ✅ **This is the disclosure working, not a lost sale.** TASKS.md said to tell her before she
       agreed rather than on handover, precisely because "a customer who learns that at the end
       feels sold something." The alternative outcome was 40 hours in, with a husband's jacket
