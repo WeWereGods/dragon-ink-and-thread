@@ -965,11 +965,16 @@ handover. Either post it once that clears, or post it now knowing replies wait u
 quoting accordingly. **Don't quote a turnaround in the post** — repairs are priced after seeing
 the piece, which is the whole point of the band.
 
-📸 **Photo order is damage FIRST, finished second**, and crop both. The wide shot has packaging
-clutter in the top corner and the close-up has a storage tote and floor in frame; on Instagram
-especially that costs more than the copy earns. **The strongest version needs a photo that
-doesn't exist yet** — a close-up of the repair from the same distance and angle as the damage
-shot. Three images beats two: damage → same view healed → whole quilt.
+📸 **THREE images, in this order: damage close-up → the same view healed → the whole quilt.**
+The healed close-up was shot 2026-08-13 and it is the one that carries the post — the patch
+cannot be picked out of it, the stripe runs true across the ticking, and the loft is even with no
+depression where the hole was.
+- **Crop the other two.** The wide shot has packaging clutter in the top corner and the damage
+  close-up has a storage tote and floor in frame. On Instagram that costs more than the copy earns.
+- ⚠️ **The healed close-up is in warm lamplight; the damage shot is cooler and brighter.** Nobody
+  will say it out loud, but a sceptical viewer wonders whether the light is doing the hiding.
+  **If there's ever a spare minute, reshoot it in the same light as the damage photo** — that
+  turns "looks mended" into "find it, then." Worth doing, not worth delaying the post for.
 
 **FACEBOOK** *(the selling one — link goes in the post, per the referrer measurement in TASKS.md)*
 

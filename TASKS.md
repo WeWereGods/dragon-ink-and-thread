@@ -343,8 +343,11 @@ written.** Ask before inferring a post didn't run.
       ⚠️ **Probably hold until Mon Aug 17+.** It's designed to pull "can you fix mine?"
       enquiries, and it would land in the away window ahead of an Aug 17–20 that already holds
       three jobs. Post it when there's room to answer.
-      📸 Needs a crop on both photos, and ideally a third shot that doesn't exist yet: the repair
-      from the same angle and distance as the damage close-up.
+      📸 **The healed close-up was shot 2026-08-13 and is the chosen "after" image** — the patch
+      can't be picked out of it, the ticking stripe runs true, and the loft is even with no
+      depression where the hole was. Order: damage → healed close-up → whole quilt.
+      Minor, not blocking: it's in warm lamplight where the damage shot is cooler and brighter,
+      so a reshoot in matching light would make the pair unarguable.
 - [ ] **The Quilted Court Bandana post** — listed 2026-08-09 at **$22**, no copy written yet.
       The hooks: it's the only **patchwork** piece in the shop, it reverses to Blushing Linen,
       and Ghost is already wearing it in photo 2. Being the priciest bandana, it wants the
