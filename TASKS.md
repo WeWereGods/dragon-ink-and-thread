@@ -57,6 +57,16 @@ Two rules that keep this useful:
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
       - [x] **Tea cover, $30 — DONE AND DELIVERED 2026-08-12.** Bound and handed over, five days
         inside the Aug 17–24 window and before the trip rather than after it.
+        📸 **TO ADD TO STORIES once the photo is in the repo** (2026-08-13). Black cotton strewn
+        with cabbage roses and golden peonies, quilted, with a loop to lift it by. A custom make
+        that was never a shop listing, so it belongs in `PAST_MAKES` beside the Road Trip Kindle
+        Case and the Cottage Patchwork Pouch. Entry ready to paste into js/main.js:
+        `{ img: "assets/tea-cosy-midnight-garden.jpg", art: "🌹", title: "Midnight Garden Tea Cosy",`
+        `  story: "Cabbage roses and golden peonies strewn across black cotton, quilted and padded`
+        `  with a little loop to lift it by — made to keep a pot hot for as long as the`
+        `  conversation lasts. 🌹" }`
+        Then `node tools/bump-assets.js`, commit, push. Takes `PAST_MAKES` to **13**.
+        ⚠️ **Ask Linda first** — same rule as Maurya's order. It's her piece.
         📝 **Note it went separately.** The plan on 2026-08-11 was that Linda wanted both pieces
         together, which is why the quilt was called the critical path for the whole $105. It
         didn't go that way, and that's fine — but it means **the quilt is now the only thing
@@ -527,6 +537,25 @@ Two rules that keep this useful:
       page, because that answers whether the feature earns its keep.
       🐕 **Size coverage is fine.** This was the first Medium (13″–18″) in stock, but the Quilted
       Court is also Medium, so small-dog households still have something to buy. No panic.
+
+---
+
+## 📸 Blocked on one photo upload — clear both in a single go
+
+Two finished things are waiting on the same trivial step: **a photo file landing in the repo.**
+Neither can be done from a picture pasted into a chat — it has to be an actual file (drop them
+anywhere, `assets/incoming/` is fine). **Upload both together and it's ten minutes of work.**
+
+- [ ] **The Music Teacher's Tote → Stories.** Cassidy E.'s custom music-print tote. Her five-star
+      review is already live in Kind Words but points at nothing, because the piece was never
+      listed and has no photo in the repo. Adding it lets the review's attribution change from
+      the generic "on a custom music-print tote" to **"on The Music Teacher's Tote"**, so the
+      review and the object finally point at each other.
+- [ ] **Midnight Garden Tea Cosy → Stories.** Linda's $30 tea cover, delivered 2026-08-12. Entry
+      already drafted under her order above. Ask her first.
+
+Both are `PAST_MAKES` entries in js/main.js; both need the photo at 1400px long edge, q82, EXIF
+baked in. Together they take Stories from 12 makes to **14**.
 
 ---
 
