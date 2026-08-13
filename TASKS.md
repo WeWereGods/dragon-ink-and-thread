@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-12.**
+**Last reviewed: 2026-08-13.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -22,29 +22,23 @@ Two rules that keep this useful:
 > | **Mon 17 – Wed 20** | ✅ | Wheelchair tote + Aubrea's clips + Linda's handover — **all three now land here** |
 > | Thu 21 – Sun 24 | ❓ possible 2nd trip | Unconfirmed |
 >
-> ⚠️ **BOTH pre-trip days have now gone to something other than the wheelchair tote.** Wed 12
-> went to Linda's quilt (a fair trade — it was blocked and now it's done). Thu 13 is blocked on
-> a batting delivery that hasn't arrived. So the biggest owed job may reach the trip **without a
-> single stitch in it**.
-> - **Don't wait idle for the batting.** Everything except quilting and assembly can be done
->   today: cut the exterior, lining and pockets, piece the top, make up the straps and the ties
->   that hang it on the chair. If the batting lands late afternoon, that prep is the difference
->   between Monday being "quilt and assemble" and Monday being "start".
-> - **The fork is tonight.** Batting today → Mon 17–Tue 18 finishes it and Maurya's Aug 17–19
->   window holds. No batting today → Mon 17 starts from scratch, and **Aug 19 is the realistic
->   pickup, not Aug 17**.
-> - 📸 **Post 7 needed tote footage and still has none.** Two days running now. Give the slot to
->   the Quilted Court Bandana, which is already photographed and whose copy is the last unwritten
->   item in "Ready to go".
+> ✅ **Thursday ended better than it started.** Both pre-trip days had gone elsewhere — Wed 12
+> to Linda's quilt (a fair trade; it had been blocked and is now sewn), Thu 13 to a batting
+> delivery that hadn't arrived — and the risk was the biggest owed job reaching the trip without
+> a stitch in it. **The tote was cut anyway, ahead of the batting**, so the delivery is followed
+> by quilting and assembly rather than a standing start, and **Maurya's Aug 17–19 window holds
+> without needing a warning message.**
+> - **Still sewable while waiting:** straps, chair ties, pocket bags, lining. Only the quilted
+>   panels actually need batting.
+> - ✅ **Aubrea told** her fabric slipped past the trip — sewn Mon 17, posted 17–18, California
+>   ~21–23. That went before the silent days, which is the whole reason her first delay never
+>   became a complaint.
+> - 📸 **Post 7 still has no tote footage** unless the cutting got filmed. If not, the machine
+>   work tonight or Monday counts, or give the slot to the Quilted Court Bandana — already
+>   photographed, and its copy is the last unwritten item in "Ready to go".
 >
-> ⚠️ **SAY SOMETHING TODAY — it is the last chance before three silent days.** Nothing moves
-> Aug 14–16, and silence during a delay is what turns a delay into a complaint. Aubrea's earlier
-> slip stopped being a crisis purely because she was told early. Two short messages, both worth
-> more than any sewing done today:
-> 1. **Aubrea** — her fabric now arrives after the trip. Give her the honest chain: sewn Mon 17,
->    posted 17–18, California by roughly 21–23.
-> 2. **Maurya** — only if the batting misses today. Propose **Aug 19** rather than letting her
->    assume the 17th and ask on the 18th.
+> ⚠️ **Nothing else needs saying before Aug 14–16.** Linda has her drawing and her $1,100 all-in
+> number, Aubrea knows, and Maurya doesn't need warning about a date that's going to be met.
 >
 > **The durable lesson, now FOUR for four: a quote of 10–14 days assumes the materials are
 > already in the house.** Maurya's fabric, Aubrea's fabric, Linda's ticking — and now Maurya's
