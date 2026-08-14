@@ -270,6 +270,8 @@
       story: "A roomy tie-on tote made to hang from a wheelchair (or the back of a chair), in a lavender, hollyhock, and honeybee-skep print lined in soft buttercup yellow — keeping your essentials close at hand. 🐝" },
     { img: "assets/pouch-patchwork.jpg", art: "🌸", title: "Cottage Patchwork Pouch",
       story: "Sage, blush, and powder-blue florals pieced by hand into a zippered pouch — a little keeper for makeup, notions, or small treasures. 🌸" },
+    { img: "assets/tote-music-teacher.jpg", art: "🎶", title: "The Music Teacher's Tote",
+      story: "Three music prints, found one at a time: powder-blue sheet music for the outside, a scatter of cream notes on black for the lining, and handwritten manuscript tucked inside the pocket. Made for a music teacher — sized for her books and her laptop, with the pockets set where her keys actually live, and a matching scrunchie tied to the strap. 🎶" },
     { img: "assets/tea-cosy-midnight-garden.jpg", art: "🌹", title: "Midnight Garden Tea Cosy",
       story: "Cabbage roses and golden peonies strewn across black cotton, quilted and padded with a little loop to lift it by — made to keep a pot hot for as long as the conversation lasts. A custom order, boxed and on its way to her table. 🌹" },
     { img: "assets/tote-strawberry.jpg", art: "🍓", title: "Strawberry Tote",
@@ -327,7 +329,7 @@
     { quote: "I recently got a strawberry tote and a matching scrunchie from you and let me just say I LOVE THEM!! They are so cute, the scrunchie is nice on my curly hair and the tote holds all of my items with no problem. Definitely going to be ordering more!!",
       name: "Brea P.", where: "on the Strawberry Tote", stars: 5 },
     { quote: "Dragon Ink and Thread made the most beautiful tote! She found the most beautiful and unique music fabric for me as a music teacher! The tote is the perfect size for my books and laptop! It has perfectly placed pockets for my keys! Wonderfully made!",
-      name: "Cassidy E.", where: "on a custom music-print tote", stars: 5 }
+      name: "Cassidy E.", where: "on The Music Teacher's Tote", stars: 5 }
   ];
 
   var testimonialsGrid = document.getElementById("testimonials-grid");

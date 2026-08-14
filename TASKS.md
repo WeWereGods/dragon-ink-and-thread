@@ -533,12 +533,13 @@ staged nothing at all: `assets/incoming/`, `assets/Incoming-Products/`, `assets/
 `assets/IMG_*` and `assets/ChatGPT Image *` are all ignored, so `git add` skipped everything
 silently and every command reported success. **Rename off `IMG_*` first.**
 
-- [ ] **The Music Teacher's Tote → Stories.** Cassidy E.'s custom music-print tote. Her five-star
-      review is already live in Kind Words but points at nothing, because the piece was never
-      listed and has no photo in the repo. Adding it lets the review's attribution change from
-      the generic "on a custom music-print tote" to **"on The Music Teacher's Tote"**, so the
-      review and the object finally point at each other.
-- [x] ✅ **Midnight Garden Tea Cosy → Stories, done 2026-08-13.** `PAST_MAKES` is now 13.
+- [x] ✅ **The Music Teacher's Tote → Stories, done 2026-08-13.** `PAST_MAKES` is now **14**, and
+      **Cassidy E.'s review now reads "on The Music Teacher's Tote"** instead of the generic
+      "on a custom music-print tote" — the review and the object finally point at each other.
+      Two photos processed; the exterior is the Stories hero, the interior (`-2`) is kept for
+      later use.
+      ⚠️ **Still excluded from the Totes `aggregateRating`, deliberately** — it's a commission,
+      not one of the listings that block declares InStock. `reviewCount` stays 1.
 - [x] ✅ **Quilt repair before/after — LIVE ON custom.html 2026-08-13.** Uploaded via GitHub's
       web UI (which bypasses .gitignore), then baked the EXIF rotation in — both were orientation
       6 and would have displayed sideways — resized to 1050×1400 at q82, and set as a before/after
