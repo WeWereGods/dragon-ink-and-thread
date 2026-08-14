@@ -46,7 +46,7 @@ window.DIT_SHOP = {
   /* standardPrefixes = ids that need the bigger mailer and so pay `standard`.
      Anything else pays `small`. MIRRORS SHIP_STANDARD_PREFIXES in
      worker/checkout-worker.js, which is what a customer is actually charged. */
-  SHIPPING: { standard: 6.5, small: 4.5, freeOver: 50, standardPrefixes: ["tote-", "sleeve-"] },
+  SHIPPING: { standard: 6.5, small: 4.5, freeOver: 50, standardPrefixes: ["tote-", "sleeve-", "home-"] },
 
   PRODUCTS: {
     "tote-storykeeper":   { name: "The Storykeeper",   price: 32.0, art: "📚" },
@@ -82,7 +82,8 @@ window.DIT_SHOP = {
     "bandana-toffee-windowpane": { name: "Toffee Windowpane Bandana", price: 18.0, art: "🐾", soldOut: true },
     "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
     "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾" },
-    "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" }
+    "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" },
+    "home-suriel-tea-cover": { name: "The Suriel Tea Cover",    price: 35.0, art: "🫖" }
   },
 
   VARIANTS: {
@@ -296,6 +297,15 @@ window.DIT_SHOP = {
         "assets/sleeve-reading-nook.jpg",
         "assets/sleeve-reading-nook-2.jpg"
       ]
+    },
+    "home-suriel-tea-cover": {
+      alt: "Handmade patchwork tea cover in blue and white florals, paisleys and lace prints, with a bound cream hem",
+      blurb: "Blue-and-white prints from the **Tea with the Suriel** shelf, hand-pieced into one small cover — paisley, lace, and a scatter of roses across the front. The prettiest table in the house, if you want it to be. Piecing is the slowest thing I do at this size, and it's the only way to get this many prints into one piece.",
+      details: "12″ × 9″ · hand-pieced patchwork · bound hem · spot clean. Sewn and ready to ship.",
+      images: [
+        "assets/home-suriel-tea-cover.jpg",
+        "assets/home-suriel-tea-cover-2.jpg"
+      ]
     }
   },
 
@@ -337,7 +347,8 @@ window.DIT_SHOP = {
     "bandana-toffee-windowpane": "cart",
     "bandana-brew-and-bloom":    "cart",
     "bandana-quilted-court":     "cart",
-    "sleeve-reading-nook":   "cart"
+    "sleeve-reading-nook":   "cart",
+    "home-suriel-tea-cover": "cart"
   },
 
   /* Prints a "Build Your Own Bundle" can be built from — the options in the
@@ -366,6 +377,8 @@ window.DIT_SHOP = {
     { label: "Pet Bandanas", note: "Over-the-collar bandanas in the same storybook prints — for the one who waits by the door.",
       ids: ["bandana-quilted-court", "bandana-storykeeper", "bandana-toffee-windowpane", "bandana-brew-and-bloom"] },
     { label: "Book Sleeves", note: "Padded, open-topped, and somewhere soft for whatever you're in the middle of.",
-      ids: ["sleeve-reading-nook"] }
+      ids: ["sleeve-reading-nook"] },
+    { label: "Home",       note: "Tea covers and the small soft things that make a kitchen feel looked after.",
+      ids: ["home-suriel-tea-cover"] }
   ]
 };

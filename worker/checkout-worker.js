@@ -53,6 +53,7 @@ const PRICES = {
   "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    amount: 1800 },
   "bandana-quilted-court":     { name: "The Quilted Court Bandana", amount: 2200 },
   "sleeve-reading-nook":   { name: "Reading Nook Sleeve",      amount: 2800 },
+  "home-suriel-tea-cover": { name: "The Suriel Tea Cover",     amount: 3500 },
 };
 
 /* Prints a "Build Your Own Bundle" may be built from: id → the short label
@@ -90,7 +91,7 @@ const FREE_SHIP_OVER = 5000;
    ⚠️ js/cart.js mirrors this list (SHIPPING.standardPrefixes in
    js/shop-data.js) to write the drawer's shipping line. Change both together
    or the drawer will quote a fee the customer is not charged. */
-const SHIP_STANDARD_PREFIXES = ["tote-", "sleeve-"];
+const SHIP_STANDARD_PREFIXES = ["tote-", "sleeve-", "home-"];
 const needsBigMailer = (id) =>
   SHIP_STANDARD_PREFIXES.some((p) => String(id).indexOf(p) === 0);
 
