@@ -524,6 +524,25 @@ Two rules that keep this useful:
 
 ---
 
+## 🆕 Live today
+
+- [x] ✅ **The Suriel Tea Cover — $35, LIVE AND BUYABLE 2026-08-13.** Blue-and-white patchwork,
+      12″ × 9″, pieced from the *Tea with the Suriel* prints — the same fabric family as
+      `bow-suriel-set`, so the two read as a pair and are worth cross-selling.
+      **Checkout tested end to end: $35 + $6.50 shipping.** That confirms the Worker's `PRICES`
+      entry AND the new `home-` shipping prefix are both live, not just committed.
+      📌 **It opened a SIXTH category, "Home"** — mug rugs and appliance covers now have
+      somewhere to go, matching the "home pieces" vocabulary on custom.html.
+      ⚠️ **The first deploy failed exactly the Aug 8 way** — `wrangler deploy` ran from a checkout
+      that predated the commit, succeeded, printed success, and shipped a Worker with no such id.
+      Symptom was "Your cart is empty" on a card that otherwise looked perfect. **Pull first. The
+      one-line check is `grep <new-id> worker/checkout-worker.js` before deploying**, and the
+      one-line proof is a curl at the Worker with the id in it.
+      📣 **Nothing has announced it.** No post, no email, and it isn't in any campaign copy — the
+      shop's newest and joint-second-dearest piece is currently sitting there unmentioned.
+
+---
+
 ## 📸 One photo still outstanding
 
 ⚠️ **Photos have to arrive as FILES, and the reliable route is GitHub's web uploader** —
