@@ -42,7 +42,7 @@ to walk away at any point up to it. Only once it's paid do I start cutting.
 leaves my table.
 
 **What it usually costs:** totes $50–100, book sleeves $35–50, home pieces like tea cosies
-$30–60, pet bandanas $22–35, bows $13–20, scrunchies $8–12, quilts from $350 — heirloom quilts
+$40–60, pet bandanas $22–35, bows $13–20, scrunchies $8–12, quilts from $350 — heirloom quilts
 pieced from someone's clothes start at $650 — and repairs and mending from $40,
 once I've seen the piece. It depends on size, lining and how much fabric it takes. Matching sets are quoted together and
 usually come out kinder than the pieces separately — and with bandanas, the more of them there

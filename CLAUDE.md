@@ -364,7 +364,7 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
 - **CUSTOM price bands (owner-supplied 2026-08-05, live on custom.html in TWO places — the
   `custom-price-list` and the one-line summary above the form; change both together):**
   **REVISED 2026-08-11 — and they live in SEVEN places, not two.** Totes **$50–100** ·
-  Book sleeves **$35–50** · Home pieces **$30–60** · Pet bandanas **$22–35** · Bows **$13–20** ·
+  Book sleeves **$35–50** · Home pieces **$40–60** · Pet bandanas **$22–35** · Bows **$13–20** ·
   Scrunchies **$8–12** · **Quilts from $350, heirloom quilts from clothing from $650** ·
   **Repairs & mending from $40, no ceiling.**
   ⚠️ **QUILTS BREAK THE TURNAROUND (added 2026-08-12).** Every other band is a 10–14 day piece;
@@ -402,8 +402,20 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   retroactively, after a number had already been invented under pressure. **If a quilt is
   accepted, publish the band in all seven places before the next one is asked for.**
   ⚠️ **EVERY CUSTOM FLOOR MUST SIT ABOVE ITS READY-MADE EQUIVALENT** — bows $13 vs $12, sleeves
-  $35 vs $28, bandanas $22 vs $18 — or the minimum paragraph's promise ("the ready-made ones in
-  the shop are the same lovely thing for less") stops being literally true. **Scrunchies were
+  $35 vs $28, bandanas $22 vs $18, **home pieces $40 vs $35** — or the minimum paragraph's promise
+  ("the ready-made ones in the shop are the same lovely thing for less") stops being literally true.
+  ⚠️ **Home pieces went $30–60 → $40–60 on 2026-08-13**, the day The Suriel Tea Cover was listed
+  at **$35**.
+  ⚠️ **PET BANDANAS NOW TIE: floor $22 vs the $22 Quilted Court** (found by audit 2026-08-13, not
+  yet changed — the owner's call). The $22 vs $18 comparison written here was true until the
+  Quilted Court was listed at $22 on Aug 9. Same shape as the scrunchie tie that forced the $6→$8
+  move; **$25 would clear it.**
+  🔍 **Audit it like-for-like — SINGLES ONLY.** Comparing a floor against the dearest item in a
+  category falsely flags `bow-suriel-set` ($55) and `scrunchie-bundle` ($15), which price per
+  piece. Exclude ids matching `-set|bundle`, then check each floor against the dearest single. A $30 custom floor under a $35 shop piece means a customer could commission one for
+  less than buying it off the shelf. **This is the rule's real trigger: it fires when a SHOP piece
+  is ADDED, not only when a custom band is edited.** Adding the first item in a category is
+  exactly when nobody thinks to check the band. **Scrunchies were
   $6–12, which TIED the $6 shop price and made that sentence false for that one category; the
   floor moved to $8 on 2026-08-11 to fix it.** If a shop price is ever changed, move its custom
   floor with it.

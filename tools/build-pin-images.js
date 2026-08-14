@@ -243,7 +243,7 @@ async function fbToteLineup() {
 const PRICE_BANDS = [
   ["Totes", "$50–100"],
   ["Book sleeves", "$35–50"],
-  ["Home pieces", "$30–60"],
+  ["Home pieces", "$40–60"],
   ["Pet bandanas", "$22–35"],
   ["Bows", "$13–20"],
   ["Scrunchies", "$8–12"],
