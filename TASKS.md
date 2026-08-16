@@ -20,7 +20,7 @@ Two rules that keep this useful:
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | **Mon 17** | ✅ full day | **Maurya's wheelchair tote — quilt + assemble.** It's cut and the batting is here, so this is a short day's work, not a build from nothing. |
 > | **Tue 18 – Wed 20** | ✅ | Aubrea's clips (if her fabric landed) · Linda's handover · finish anything left |
-> | Thu 21 – Sun 24 | ❓ **possible 2nd trip, STILL UNCONFIRMED** | ⚠️ Confirm it Monday. It decides what can be promised this week. |
+> | **Thu 21 – Sun 24** | ✅ **FREE — trip CANCELLED 2026-08-16** | Four clear days: push prep, the two unannounced pieces, and slack for anything that slips |
 >
 > **Monday's order, and why:**
 > 1. **Maurya's tote first.** It's the only thing with a date on it — Aug 17–19 pickup — and
@@ -34,6 +34,15 @@ Two rules that keep this useful:
 >    anyone tagged `waitlist` BEFORE deleting the page**: this is the first sold-out item since
 >    Aug 5 and so the first real test of `js/waitlist.js`. Retire it first and you lose both the
 >    signup and the page they'd land on.
+>
+> ✅ **The Aug 21–24 trip is CANCELLED**, so the week is no longer three days wide. That is four
+> extra working days before the **Sat Aug 29 push** — the first real slack this month. Best uses,
+> in order: **Maurya's tote footage and the Aug 29 broadcast** (§8/§10 of the campaign, still
+> written around proof that doesn't exist yet), the two unannounced listings, and Linda's wall
+> hanging if she says yes to the drawing.
+> ⚠️ **Nothing on the site ever mentioned this trip** — it was deliberately kept out of `AWAY`
+> while unconfirmed, so there is nothing to retract. That judgement is now vindicated: had it
+> gone up as a maybe, today would have meant editing a promise already made to customers.
 >
 > 📣 **Two live pieces have never been announced** — The Suriel Tea Cover ($35) and the Quilted
 > Court Bandana ($22). The Quilted Court's copy is the last unwritten item in "Ready to go".
