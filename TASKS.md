@@ -11,41 +11,39 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
-> ### 📅 The week, as it actually stands (updated 2026-08-13)
+> ### 📅 The week ahead (rolled forward 2026-08-16, Sunday evening)
 >
 > | Day | Available | What it's for |
 > |---|---|---|
-> | ~~Tue 11~~ | errands | Maurya's fabric arrived. Binding bought. |
-> | ~~Wed 12~~ | ✅ used | ✅ Linda's tea cover **bound and DELIVERED** · ✅ Linda's quilt patch **sewn** |
-> | **Thu 13 — TODAY** | ⏳ waiting on batting | ✅ **Tote CUT.** Quilt + assemble when it lands. ✅ Aubrea told. ✅ Quilt repair live on custom.html. |
-> | Fri 14 – Sun 16 | ✈️ away | Nothing moves. No sewing, no posting, no pickups. |
-> | **Mon 17 – Wed 20** | ✅ | Wheelchair tote + Aubrea's clips + Linda's handover — **all three now land here** |
-> | Thu 21 – Sun 24 | ❓ possible 2nd trip | Unconfirmed |
+> | ~~Wed 12~~ | ✅ done | Linda's tea cover **delivered** · her quilt patch **sewn** |
+> | ~~Thu 13~~ | ✅ done | Maurya's tote **CUT** · Aubrea told · a lot of site work shipped |
+> | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
+> | **Mon 17** | ✅ full day | **Maurya's wheelchair tote — quilt + assemble.** It's cut and the batting is here, so this is a short day's work, not a build from nothing. |
+> | **Tue 18 – Wed 20** | ✅ | Aubrea's clips (if her fabric landed) · Linda's handover · finish anything left |
+> | Thu 21 – Sun 24 | ❓ **possible 2nd trip, STILL UNCONFIRMED** | ⚠️ Confirm it Monday. It decides what can be promised this week. |
 >
-> ✅ **Thursday ended better than it started.** Both pre-trip days had gone elsewhere — Wed 12
-> to Linda's quilt (a fair trade; it had been blocked and is now sewn), Thu 13 to a batting
-> delivery that hadn't arrived — and the risk was the biggest owed job reaching the trip without
-> a stitch in it. **The tote was cut anyway, ahead of the batting**, so the delivery is followed
-> by quilting and assembly rather than a standing start, and **Maurya's Aug 17–19 window holds
-> without needing a warning message.**
-> - **Still sewable while waiting:** straps, chair ties, pocket bags, lining. Only the quilted
->   panels actually need batting.
-> - ✅ **Aubrea told** her fabric slipped past the trip — sewn Mon 17, posted 17–18, California
->   ~21–23. That went before the silent days, which is the whole reason her first delay never
->   became a complaint.
-> - 📸 **Post 7 still has no tote footage** unless the cutting got filmed. If not, the machine
->   work tonight or Monday counts, or give the slot to the Quilted Court Bandana — already
->   photographed, and its copy is the last unwritten item in "Ready to go".
+> **Monday's order, and why:**
+> 1. **Maurya's tote first.** It's the only thing with a date on it — Aug 17–19 pickup — and
+>    it's the closest to done. **Offer her a pickup slot the moment it's finished** rather than
+>    letting her ask.
+> 2. **Check whether Aubrea's fabric arrived.** If yes the clips are quick and post Mon–Tue,
+>    reaching California ~21–23, which is what she's been told.
+> 3. **Linda's handover** — ⚠️ **run a hand along the binding either side of the patch first.**
+>    It's an edge repair and edges get handled hardest. Tell her the tea cosy is in Stories too.
+> 4. **Toffee Windowpane retire** — was due Fri 15, deliberately held. ⚠️ **Check Buttondown for
+>    anyone tagged `waitlist` BEFORE deleting the page**: this is the first sold-out item since
+>    Aug 5 and so the first real test of `js/waitlist.js`. Retire it first and you lose both the
+>    signup and the page they'd land on.
 >
-> ⚠️ **Nothing else needs saying before Aug 14–16.** Linda has her drawing and her $1,100 all-in
-> number, Aubrea knows, and Maurya doesn't need warning about a date that's going to be met.
+> 📣 **Two live pieces have never been announced** — The Suriel Tea Cover ($35) and the Quilted
+> Court Bandana ($22). The Quilted Court's copy is the last unwritten item in "Ready to go".
+> Posting doesn't need you at the machine; replying does, so post early in the day.
 >
-> **The durable lesson, now FOUR for four: a quote of 10–14 days assumes the materials are
-> already in the house.** Maurya's fabric, Aubrea's fabric, Linda's ticking — and now Maurya's
-> batting, which proves it isn't only about the feature cloth. **Batting, interfacing, binding
-> and thread block a job exactly as hard as the print does.** Either quote from the date the
-> materials are expected, or don't start the clock until they're in hand; otherwise the promise
-> is made against a supplier's schedule, the one part that can't be controlled.
+> **The durable lesson, FOUR for four: a quote of 10–14 days assumes the materials are already in
+> the house.** Maurya's fabric, Aubrea's fabric, Linda's ticking, and Maurya's batting — which
+> proved it isn't only the feature cloth. **Batting, interfacing, binding and thread block a job
+> exactly as hard as the print does.** Either quote from the date materials are expected, or
+> don't start the clock until they're in hand.
 
 - [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
