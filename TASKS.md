@@ -301,6 +301,28 @@ Two rules that keep this useful:
       as the border. **Every piece is his — nothing bought in**, which is the whole difference
       from the reference image and the strongest thing to say when showing it to her.
       **Send it, get a yes, then quote and cut.** ✅ **SENT TO LINDA 2026-08-13.**
+      ### 📅 TIMELINE EXTENDED 2026-08-17 — ready Jan–Feb 2027
+      The house is going on the market, and **Linda knows about the move and is understanding**,
+      so the build gets another 2–3 months. 10–14 weeks from 17 Aug would have been late Oct to
+      late Nov; **+2–3 months puts it at January–February 2027.**
+      ✅ **The drawing has been reissued** (`designs/linda-memory-wall-hanging.*`) reading
+      **$1,100 all in · ready Jan–Feb 2027**, with a line saying the extension is by agreement.
+      ⚠️ **She holds the old one, which says 10–14 weeks.** Send the new one — a drawing with a
+      date printed on it is a promise, exactly like the price was.
+      ❓ **ASK WHETHER IT IS FOR A DATE — this is now urgent, not optional.** It was raised on
+      Aug 13 and never answered. Jan–Feb clears Christmas entirely. If this was ever meant as a
+      Christmas gift, or is tied to an anniversary or the date he died, **the extension breaks it
+      and she needs to say so now**, while nothing has been cut.
+      ⚠️ **DO NOT TAKE THE GARMENTS UNTIL AFTER THE MOVE.** A six-month build means his jacket,
+      trousers and shirt sit in the house through packing, a van and possibly storage. They are
+      irreplaceable and there is no version of losing or damp-spotting them that can be fixed.
+      **Either leave them with Linda until the machine is set up again, or agree one box that
+      never goes in the removal load.** This is the single largest risk the extension introduces
+      and it is entirely avoidable.
+      💷 **Deposit still 50% up front**, but the gap to delivery is now months rather than weeks —
+      worth saying plainly so it doesn't feel like silence later. **Send her a photo at each
+      stage** (garments laid out, blocks pieced, top assembled); it costs nothing and it is what
+      makes a long wait feel like progress rather than a void.
       ### 💵 If SHE (the maker) buys the materials — asked 2026-08-13
       ⚠️ **THE DRAWING ALREADY SENT CARRIES "$900–1,100" AND DOESN'T SAY WHETHER MATERIALS ARE IN
       IT.** Linda may well read it as all-in. **So quote $1,100 ALL-IN** — the top of a band she
