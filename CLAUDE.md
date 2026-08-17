@@ -677,7 +677,11 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   `VAR=value command` form in most docs is a **bash-ism that fails on cmd** with *"'X' is not
   recognized as an internal or external command"* — which reads like a broken script when it in
   fact never ran. Use:
-  `set BUTTONDOWN_API_KEY=your_key` then `node tools/…` (no quotes, no spaces round the `=`);
+  `set BUTTONDOWN_API_KEY=paste_the_key_here` then `node tools/…` (no quotes, no spaces round
+  the `=`). ⚠️ **NEVER write a cmd example with `<angle brackets>` round the placeholder** — cmd
+  reads them as redirection, so the line dies with *"The syntax of the command is incorrect"* and
+  silently sets nothing, leaving the previous value in place to fail confusingly on the next run.
+  That happened here on 2026-08-18, from an error message this repo printed.
   PowerShell wants `$env:BUTTONDOWN_API_KEY="your_key"`. **Any future instruction that sets an
   env var needs the cmd form**, and the script's own error message now prints all three.
   ✅ **The HTTP path is proven** — a real run on 2026-08-18 reached Buttondown and returned 401

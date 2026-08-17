@@ -95,11 +95,13 @@ async function fetchAll(base) {
       die(`Buttondown rejected the key (HTTP ${res.status}).\n\n` +
           `  The call reached Buttondown, so the network and the URL are fine —\n` +
           `  it just didn't like the key.\n\n` +
-          `  Most likely: the placeholder was set literally. Check with\n` +
-          `    echo %BUTTONDOWN_API_KEY%          (cmd)\n` +
-          `  If that prints "your_key" or "your_actual_key", set the REAL key:\n` +
-          `    set BUTTONDOWN_API_KEY=<the key from buttondown.com>\n\n` +
-          `  It's at buttondown.com → Settings → Programming → API key.`);
+          `  See what is actually set:   echo %BUTTONDOWN_API_KEY%\n\n` +
+          `  Then paste the key with NOTHING around it — no angle brackets, no\n` +
+          `  quotes, no spaces either side of the = :\n` +
+          `    set BUTTONDOWN_API_KEY=paste_the_key_here\n\n` +
+          `  (cmd reads < and > as redirection, so a bracketed placeholder fails\n` +
+          `   with "The syntax of the command is incorrect" and sets nothing.)\n\n` +
+          `  The key is at buttondown.com → Settings → Programming → API key.`);
     }
     if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
     const body = await res.json();
@@ -123,7 +125,7 @@ function bar(n, of, width = 24) {
        command", which looks like the script is broken when it never ran. */
     die("No BUTTONDOWN_API_KEY set.\n\n" +
         "  Windows (cmd) — no quotes, no spaces around the = :\n" +
-        "    set BUTTONDOWN_API_KEY=your_key\n" +
+        "    set BUTTONDOWN_API_KEY=paste_the_key_here\n" +
         "    node tools/buttondown-report.js\n\n" +
         "  PowerShell:\n" +
         "    $env:BUTTONDOWN_API_KEY=\"your_key\"\n" +
