@@ -23,14 +23,16 @@ Two rules that keep this useful:
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — CONFIRMED 2026-08-16** | Nothing moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 – Fri 28** | ✅ | The run-up to the push — four days |
 >
-> ⚠️ **Mon 17 turned out fragmented** (car repair, realtor about selling the house, school run at
-> 2:15), so the order flips: **short jobs fit short gaps.**
-> 1. **Aubrea's 3 bow clips — her fabric arrived.** Quick, and finishing them today means they
->    post today rather than tomorrow, which is a day earlier into California. **This is the job
->    that fits a fragmented day.**
-> 2. **Maurya's tote needs a contiguous run**, so evening or Tue 18. It's cut with the batting to
->    hand, and the window is Aug 17–19, so Tuesday still lands comfortably. **Offer her a pickup
->    slot the moment it's done** rather than letting her ask.
+> **Mon 17 (car repair, realtor about the house sale, school run 2:15):**
+> 1. 🔨 **Maurya's wheelchair tote — being worked off and on today** (owner's call; quilting takes
+>    chunks well). Cut, batting to hand, window Aug 17–19. **Offer her a pickup slot the moment
+>    it's done** rather than letting her ask.
+> 2. **Aubrea's clips held to Tue 18.** Her fabric has arrived, so nothing blocks them now.
+> ⚠️⚠️ **THE POST OFFICE DEADLINE IS THURSDAY 20.** Aubrea is in California and the trip runs
+> Fri 21 → Mon 24, so **anything not in the post by Thu 20 does not move until Tue 25** — which
+> would put her clips in California around **Aug 27–29 instead of the 21–23 she has been told.**
+> Sewn Tue 18, posted Tue or Wed, and the promise holds with a day to spare. **Slipping them past
+> Thursday costs a week, not a day.**
 > 3. **Linda's handover** — ⚠️ **run a hand along the binding either side of the patch first.**
 >    It's an edge repair and edges get handled hardest. Tell her the tea cosy is in Stories too.
 > 4. **Toffee Windowpane retire** — was due Fri 15, deliberately held. ⚠️ **Check Buttondown for
