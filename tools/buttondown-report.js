@@ -24,11 +24,14 @@
  * the Worker's Stripe secret. Never paste it into this file or into TASKS.md.
  * Get one at buttondown.com → Settings → Programming → API key.
  *
- * ⚠️ UNTESTED AGAINST THE LIVE API. It was written without a key and without
- * network access, so treat the first run as the real test. It is deliberately
- * lenient about response shapes — Buttondown has moved host (buttondown.email →
- * buttondown.com) and renamed subscriber fields across versions, so both spellings
- * are accepted rather than assumed. If it fails, the error tells you which.
+ * ✅ THE HTTP PATH IS PROVEN (2026-08-18): a first real run reached Buttondown
+ * and came back 401 on a placeholder key — which means the host, the URL and the
+ * auth header are all right. What is still unproven is the SHAPE of a successful
+ * response; that is exercised against stubs only. It is deliberately lenient —
+ * Buttondown has moved host (buttondown.email → buttondown.com) and renamed
+ * subscriber fields across versions, so both spellings are accepted.
+ *
+ * ⚠️ WINDOWS: never call process.exit() from the async flow here. See die().
  *
  * No dependencies — the site has none and this keeps it that way.
  */
@@ -49,9 +52,17 @@ const KNOWN_TAGS = ["hero", "checkout", "purchased", "waitlist"];
    unactivated, unsubscribed and spam-flagged records. */
 const ACTIVE = new Set(["regular", "premium", "gifted"]);
 
+/* Exiting: set process.exitCode and unwind, NEVER process.exit().
+   Calling process.exit() from inside the async flow kills the process while
+   libuv still has handles closing, and on Windows that trips
+   "Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), src\\win\\async.c" —
+   an ugly crash stapled to an otherwise clean error message. Setting the code
+   and letting Node drain exits with the same status and no noise. */
+class Bail extends Error {}
 function die(msg, code = 1) {
   console.error("\n  " + msg + "\n");
-  process.exit(code);
+  process.exitCode = code;
+  throw new Bail();
 }
 
 /* Tags have been both bare strings and {name} objects across API versions. */
@@ -81,8 +92,14 @@ async function fetchAll(base) {
       headers: { Authorization: `Token ${KEY}`, Accept: "application/json" },
     });
     if (res.status === 401 || res.status === 403) {
-      die(`Buttondown rejected the key (HTTP ${res.status}).\n  ` +
-          `Check BUTTONDOWN_API_KEY — it's at buttondown.com → Settings → Programming.`);
+      die(`Buttondown rejected the key (HTTP ${res.status}).\n\n` +
+          `  The call reached Buttondown, so the network and the URL are fine —\n` +
+          `  it just didn't like the key.\n\n` +
+          `  Most likely: the placeholder was set literally. Check with\n` +
+          `    echo %BUTTONDOWN_API_KEY%          (cmd)\n` +
+          `  If that prints "your_key" or "your_actual_key", set the REAL key:\n` +
+          `    set BUTTONDOWN_API_KEY=<the key from buttondown.com>\n\n` +
+          `  It's at buttondown.com → Settings → Programming → API key.`);
     }
     if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
     const body = await res.json();
@@ -120,7 +137,13 @@ function bar(n, of, width = 24) {
   let subs = null, lastErr = null;
   for (const base of HOSTS) {
     try { subs = await fetchAll(base); break; }
-    catch (e) { lastErr = e; }
+    catch (e) {
+      /* A rejected key is a real answer from a reachable server — let it through
+         rather than swallowing it and trying the other host, which would report
+         "couldn't reach Buttondown" for what is actually a bad key. */
+      if (e instanceof Bail) throw e;
+      lastErr = e;
+    }
   }
   if (!subs) {
     die(`Couldn't reach Buttondown.\n  Last error: ${lastErr && lastErr.message}\n` +
@@ -199,4 +222,8 @@ function bar(n, of, width = 24) {
     L("  whether the feature works.");
   }
   console.log("");
-})().catch((e) => die("Unexpected failure: " + (e && e.stack || e)));
+})().catch((e) => {
+  if (e instanceof Bail) return;          // already reported, exit code already set
+  console.error("\n  Unexpected failure: " + ((e && e.stack) || e) + "\n");
+  process.exitCode = 1;
+});

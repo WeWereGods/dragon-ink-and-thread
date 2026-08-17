@@ -680,9 +680,13 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   `set BUTTONDOWN_API_KEY=your_key` then `node tools/…` (no quotes, no spaces round the `=`);
   PowerShell wants `$env:BUTTONDOWN_API_KEY="your_key"`. **Any future instruction that sets an
   env var needs the cmd form**, and the script's own error message now prints all three.
-  ⚠️ **Written and tested against stubbed data only** — no key or network was available. The
-  rendering, pagination, active-vs-unsubscribed filtering and both tag shapes are exercised; the
-  live API call is not. It tries `api.buttondown.com` then `api.buttondown.email` because the
+  ✅ **The HTTP path is proven** — a real run on 2026-08-18 reached Buttondown and returned 401
+  on a placeholder key, so host, URL and auth header are all correct. **Still unproven: the shape
+  of a SUCCESSFUL response**, which is exercised against stubs only.
+  ⚠️ **Never `process.exit()` from the async flow in a Node script run on this machine.** Doing so
+  killed the process mid-teardown and Windows printed
+  `Assertion failed: !(handle->flags & UV_HANDLE_CLOSING), src\win\async.c` on top of an
+  otherwise clean error. Set `process.exitCode` and unwind instead. It tries `api.buttondown.com` then `api.buttondown.email` because the
   host moved, and accepts both `subscriber_type` and `type`. **Treat the first real run as the
   test**; the failure messages say which part broke.
 - **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
