@@ -540,24 +540,22 @@ Two rules that keep this useful:
 
 ## 🟢 Sold — finish the two-step exit
 
-- [ ] **Toffee Windowpane Bandana SOLD 2026-08-12 — `soldOut: true` is live; RETIRE IT ON OR
-      AFTER FRI AUG 15.** Step one is done: the card is dimmed with a Sold badge, the button is
-      disabled, the cart refuses it, it's out of the sitemap, and the Pinterest feed says out of
-      stock. **The product page deliberately still exists** — that's the whole point of the
-      order. Retiring deletes the page, and until Pinterest re-reads the feed (~24h) a live Pin
-      would land on a 404.
-      **Step two, on/after Aug 15:** remove it from `PRODUCTS`/`VARIANTS`/`LINKS`/`CATALOG` in
-      js/shop-data.js, delete its line from `PRICES` in worker/checkout-worker.js **and
-      `wrangler deploy` from main**, add a `PAST_MAKES` entry in js/main.js, then re-run
-      `build-products` → `build-catalog` → `bump-assets`.
-      ⚠️ **Re-check the Pet Bandanas JSON-LD block in index.html by hand** — nothing regenerates
-      it, and it was already stale before this sale.
-      📌 **The waitlist is BACK.** `js/waitlist.js` only ever runs on a sold-out card or product
-      page, and nothing has been sold-out since Aug 5 — so this is the first live test of it
-      since it was built. Worth watching whether anyone actually signs up before retiring the
-      page, because that answers whether the feature earns its keep.
-      🐕 **Size coverage is fine.** This was the first Medium (13″–18″) in stock, but the Quilted
-      Court is also Medium, so small-dog households still have something to buy. No panic.
+- [x] ✅ **Toffee Windowpane Bandana RETIRED 2026-08-18.** Sold Aug 12, held sold-out for six
+      days, now fully retired: out of `PRODUCTS`/`VARIANTS`/`LINKS`/`CATALOG`, out of the Worker's
+      `PRICES`, product page deleted, out of the sitemap and the Pinterest feed, and **in Stories
+      as `PAST_MAKES` #15**. Pet Bandanas is back to three.
+      ⚠️ **`wrangler deploy` still needed** to drop it from the Worker — harmless either way now
+      (nothing can add it to a cart), but it should go with the next deploy.
+      📊 **THE WAITLIST TEST RETURNED ZERO.** `js/waitlist.js` was live on this one card for six
+      days and collected **no signups** — checked via `tools/buttondown-report.js`.
+      ⚠️ **Do NOT read that as "the feature doesn't work".** It is one item, for six days, on a
+      shop with modest traffic; that is a measure of exposure, not of the idea. **The honest
+      conclusion is that it hasn't been tested yet.** The next genuinely popular piece to sell out
+      is the real trial — and the code is intact and appears the moment anything carries
+      `soldOut: true`.
+      📌 The Pinterest feed re-reads on its own schedule, so a Pin for this piece may briefly land
+      on 404.html until it does. That page is a real page with a route back to the shop, which is
+      exactly why the sold-out-first ordering exists.
 
 ---
 

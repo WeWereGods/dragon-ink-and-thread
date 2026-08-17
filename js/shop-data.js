@@ -78,8 +78,6 @@ window.DIT_SHOP = {
     "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐" },
     "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖" },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
-    // SOLD 2026-08-12. soldOut first, retire to Stories on/after Aug 15 — see TASKS.md.
-    "bandana-toffee-windowpane": { name: "Toffee Windowpane Bandana", price: 18.0, art: "🐾", soldOut: true },
     "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
     "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾" },
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" },
@@ -265,12 +263,6 @@ window.DIT_SHOP = {
         "assets/bandana-storykeeper-3.jpg"
       ]
     },
-    "bandana-toffee-windowpane": {
-      alt: "Handmade pet bandana in a warm brown plaid, with a gathered channel that slips over a collar",
-      blurb: "Toffee brown plaid crossed with fine cream lines — quiet, a little tweedy, and the one for a dog who'd rather look like he's off to the pub than to a party. Reversible, and finished in the same plaid on both sides — so there's no wrong way round and no lining to go grubby. The top is an elasticated channel, so it stretches straight onto the collar he already wears: nothing to tie, nothing to work loose halfway round the block.",
-      details: "Size Medium · fits a 13″–18″ neck · REVERSIBLE, finished in the same toffee plaid on both sides, so there is no wrong way round · elasticated channel stretches over the collar · other sizes made to order · machine wash cold, hang to dry.",
-      images: ["assets/bandana-toffee-windowpane.jpg", "assets/bandana-toffee-windowpane-2.jpg", "assets/bandana-toffee-windowpane-3.jpg"]
-    },
     "bandana-brew-and-bloom": {
       alt: "Reversible handmade pet bandana, coffee cups and flowers on cream one side, soft blush linen the other",
       blurb: "Lattes, iced coffees and pale flowers scattered over cream — the whole slow morning, for the dog who lies under the table while you have your first cup and waits for you to be a person again. **Reversible:** turn it round and it's Blushing Linen, a soft dusty pink, for the days that call for something quieter. Two bandanas, one collar.",
@@ -344,7 +336,6 @@ window.DIT_SHOP = {
     "bow-suriels-bouquet":   "cart",
     "bow-suriel-set":        "cart",
     "bandana-storykeeper":   "cart",
-    "bandana-toffee-windowpane": "cart",
     "bandana-brew-and-bloom":    "cart",
     "bandana-quilted-court":     "cart",
     "sleeve-reading-nook":   "cart",
@@ -375,7 +366,7 @@ window.DIT_SHOP = {
             "bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
             "bow-gingham", "bow-sage-gingham"  ] },
     { label: "Pet Bandanas", note: "Over-the-collar bandanas in the same storybook prints — for the one who waits by the door.",
-      ids: ["bandana-quilted-court", "bandana-storykeeper", "bandana-toffee-windowpane", "bandana-brew-and-bloom"] },
+      ids: ["bandana-quilted-court", "bandana-storykeeper", "bandana-brew-and-bloom"] },
     { label: "Book Sleeves", note: "Padded, open-topped, and somewhere soft for whatever you're in the middle of.",
       ids: ["sleeve-reading-nook"] },
     { label: "Home",       note: "Tea covers and the small soft things that make a kitchen feel looked after.",

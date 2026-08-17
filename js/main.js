@@ -270,6 +270,8 @@
       story: "A roomy tie-on tote made to hang from a wheelchair (or the back of a chair), in a lavender, hollyhock, and honeybee-skep print lined in soft buttercup yellow — keeping your essentials close at hand. 🐝" },
     { img: "assets/pouch-patchwork.jpg", art: "🌸", title: "Cottage Patchwork Pouch",
       story: "Sage, blush, and powder-blue florals pieced by hand into a zippered pouch — a little keeper for makeup, notions, or small treasures. 🌸" },
+    { img: "assets/bandana-toffee-windowpane.jpg", art: "🐾", title: "Toffee Windowpane Bandana",
+      story: "Toffee brown plaid crossed with fine cream lines — quiet, a little tweedy, and the one for a dog who'd rather look like he's off to the pub than to a party. Reversible, the same plaid on both sides, on an elasticated channel that stretched straight onto the collar he already wore. Found his home. 🐾" },
     { img: "assets/tote-music-teacher.jpg", art: "🎶", title: "The Music Teacher's Tote",
       story: "Three music prints, found one at a time: powder-blue sheet music for the outside, a scatter of cream notes on black for the lining, and handwritten manuscript tucked inside the pocket. Made for a music teacher — sized for her books and her laptop, with the pockets set where her keys actually live, and a matching scrunchie tied to the strap. 🎶" },
     { img: "assets/tea-cosy-midnight-garden.jpg", art: "🌹", title: "Midnight Garden Tea Cosy",

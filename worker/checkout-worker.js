@@ -49,7 +49,6 @@ const PRICES = {
   "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",     amount: 1200 },
   "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", amount: 5500 },
   "bandana-storykeeper":   { name: "The Storykeeper Bandana",  amount: 1800 },
-  "bandana-toffee-windowpane": { name: "Toffee Windowpane Bandana", amount: 1800 },
   "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    amount: 1800 },
   "bandana-quilted-court":     { name: "The Quilted Court Bandana", amount: 2200 },
   "sleeve-reading-nook":   { name: "Reading Nook Sleeve",      amount: 2800 },
