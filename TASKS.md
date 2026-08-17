@@ -18,17 +18,19 @@ Two rules that keep this useful:
 > | ~~Wed 12~~ | ✅ done | Linda's tea cover **delivered** · her quilt patch **sewn** |
 > | ~~Thu 13~~ | ✅ done | Maurya's tote **CUT** · Aubrea told · a lot of site work shipped |
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
-> | **Mon 17** | ✅ full day | **Maurya's wheelchair tote — quilt + assemble.** It's cut and the batting is here, so this is a short day's work, not a build from nothing. |
-> | **Tue 18 – Wed 20** | ✅ | Aubrea's clips (if her fabric landed) · Linda's handover · finish anything left |
+> | **Mon 17 — TODAY** | ⚠️ **fragmented** | Car repair · realtor (selling the house) · school run 2:15. ✅ **Aubrea's fabric ARRIVED.** Clips in the gaps, tote in the evening or Tue. |
+> | **Tue 18 – Thu 20** | ✅ | **Wheelchair tote if it doesn't finish tonight** · Linda's handover · post Aubrea's clips |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — CONFIRMED 2026-08-16** | Nothing moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 – Fri 28** | ✅ | The run-up to the push — four days |
 >
-> **Monday's order, and why:**
-> 1. **Maurya's tote first.** It's the only thing with a date on it — Aug 17–19 pickup — and
->    it's the closest to done. **Offer her a pickup slot the moment it's finished** rather than
->    letting her ask.
-> 2. **Check whether Aubrea's fabric arrived.** If yes the clips are quick and post Mon–Tue,
->    reaching California ~21–23, which is what she's been told.
+> ⚠️ **Mon 17 turned out fragmented** (car repair, realtor about selling the house, school run at
+> 2:15), so the order flips: **short jobs fit short gaps.**
+> 1. **Aubrea's 3 bow clips — her fabric arrived.** Quick, and finishing them today means they
+>    post today rather than tomorrow, which is a day earlier into California. **This is the job
+>    that fits a fragmented day.**
+> 2. **Maurya's tote needs a contiguous run**, so evening or Tue 18. It's cut with the batting to
+>    hand, and the window is Aug 17–19, so Tuesday still lands comfortably. **Offer her a pickup
+>    slot the moment it's done** rather than letting her ask.
 > 3. **Linda's handover** — ⚠️ **run a hand along the binding either side of the patch first.**
 >    It's an edge repair and edges get handled hardest. Tell her the tea cosy is in Stories too.
 > 4. **Toffee Windowpane retire** — was due Fri 15, deliberately held. ⚠️ **Check Buttondown for
