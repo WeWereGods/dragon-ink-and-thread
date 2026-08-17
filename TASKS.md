@@ -38,14 +38,17 @@ Two rules that keep this useful:
 >    Aug 5 and so the first real test of `js/waitlist.js`. Retire it first and you lose both the
 >    signup and the page they'd land on.
 >
-> ✅ **The Aug 21–24 trip is CANCELLED**, so the week is no longer three days wide. That is four
-> extra working days before the **Sat Aug 29 push** — the first real slack this month. Best uses,
-> in order: **Maurya's tote footage and the Aug 29 broadcast** (§8/§10 of the campaign, still
-> written around proof that doesn't exist yet), the two unannounced listings, and Linda's wall
-> hanging if she says yes to the drawing.
-> ⚠️ **Nothing on the site ever mentioned this trip** — it was deliberately kept out of `AWAY`
-> while unconfirmed, so there is nothing to retract. That judgement is now vindicated: had it
-> gone up as a maybe, today would have meant editing a promise already made to customers.
+> ✈️ **The trip is CONFIRMED: Fri 21 → Mon 24, back at the machine Tue 25.** It was floated as
+> Thu–Sun, cancelled, then re-confirmed with different dates inside an evening — which is exactly
+> why nothing about travel goes on the site until it's certain. Nothing had to be retracted.
+> ✅ **Both halves are LIVE** — `AWAY` in js/dates.js pushed, and `wrangler deploy` run
+> 2026-08-17 for the Worker's local-pickup label. The banner and the label switch themselves on
+> Friday and off Monday night. **Nothing further to do.**
+> 📌 **Checking it today shows nothing, and that's correct** — the pickup option reads normally
+> until the window actually opens on Friday.
+> ⚠️ **Mon 24 is NOT a working day.** So the week is **Mon 17 – Thu 20, then Tue 25 – Fri 28** —
+> and the first of those is the only clear run before the push. Maurya's tote footage belongs in
+> it, because §8 and §10 of the campaign are still written around proof that doesn't exist.
 >
 > 📣 **Two live pieces have never been announced** — The Suriel Tea Cover ($35) and the Quilted
 > Court Bandana ($22). The Quilted Court's copy is the last unwritten item in "Ready to go".
