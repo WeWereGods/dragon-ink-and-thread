@@ -101,10 +101,20 @@ function bar(n, of, width = 24) {
 
 (async () => {
   if (!KEY) {
+    /* The shop machine is Windows, so lead with cmd.exe — `VAR=value cmd` is a
+       bash-ism and fails there with "not recognized as an internal or external
+       command", which looks like the script is broken when it never ran. */
     die("No BUTTONDOWN_API_KEY set.\n\n" +
-        "  Run it like this (the key never gets written to disk):\n" +
+        "  Windows (cmd) — no quotes, no spaces around the = :\n" +
+        "    set BUTTONDOWN_API_KEY=your_key\n" +
+        "    node tools/buttondown-report.js\n\n" +
+        "  PowerShell:\n" +
+        "    $env:BUTTONDOWN_API_KEY=\"your_key\"\n" +
+        "    node tools/buttondown-report.js\n\n" +
+        "  macOS / Linux:\n" +
         "    BUTTONDOWN_API_KEY=your_key node tools/buttondown-report.js\n\n" +
-        "  Find the key at buttondown.com → Settings → Programming → API key.");
+        "  The key is at buttondown.com → Settings → Programming → API key.\n" +
+        "  Set this way it never gets written to disk or into the repo.");
   }
 
   let subs = null, lastErr = null;

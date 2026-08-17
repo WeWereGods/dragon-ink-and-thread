@@ -672,7 +672,14 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   **the email addresses tagged `waitlist`**, who each asked to be told when a sold-out piece
   returns. `--json` for machine output.
   ⚠️ **The key comes from `BUTTONDOWN_API_KEY` in the environment, never the repo** (same rule as
-  the Worker's Stripe secret): `BUTTONDOWN_API_KEY=xxx node tools/buttondown-report.js`.
+  the Worker's Stripe secret).
+  ⚠️ **THE SHOP MACHINE IS WINDOWS** (`C:\Users\pritt\dragon-ink-and-thread`, cmd.exe). The
+  `VAR=value command` form in most docs is a **bash-ism that fails on cmd** with *"'X' is not
+  recognized as an internal or external command"* — which reads like a broken script when it in
+  fact never ran. Use:
+  `set BUTTONDOWN_API_KEY=your_key` then `node tools/…` (no quotes, no spaces round the `=`);
+  PowerShell wants `$env:BUTTONDOWN_API_KEY="your_key"`. **Any future instruction that sets an
+  env var needs the cmd form**, and the script's own error message now prints all three.
   ⚠️ **Written and tested against stubbed data only** — no key or network was available. The
   rendering, pagination, active-vs-unsubscribed filtering and both tag shapes are exercised; the
   live API call is not. It tries `api.buttondown.com` then `api.buttondown.email` because the
