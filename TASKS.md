@@ -20,7 +20,8 @@ Two rules that keep this useful:
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | **Mon 17** | ✅ full day | **Maurya's wheelchair tote — quilt + assemble.** It's cut and the batting is here, so this is a short day's work, not a build from nothing. |
 > | **Tue 18 – Wed 20** | ✅ | Aubrea's clips (if her fabric landed) · Linda's handover · finish anything left |
-> | **Thu 21 – Sun 24** | ✅ **FREE — trip CANCELLED 2026-08-16** | Four clear days: push prep, the two unannounced pieces, and slack for anything that slips |
+> | **Fri 21 – Mon 24** | ✈️ **AWAY — CONFIRMED 2026-08-16** | Nothing moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
+> | **Tue 25 – Fri 28** | ✅ | The run-up to the push — four days |
 >
 > **Monday's order, and why:**
 > 1. **Maurya's tote first.** It's the only thing with a date on it — Aug 17–19 pickup — and

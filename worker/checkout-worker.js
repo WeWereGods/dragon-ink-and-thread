@@ -109,7 +109,9 @@ const needsBigMailer = (id) =>
    the one the customer actually reads at the moment of choosing. */
 const AWAY = [
   { from: "2026-08-14T00:00:00-05:00", to: "2026-08-16T23:59:59-05:00", back: "Aug 17" },
-  /* Aug 21–24 is CANCELLED (2026-08-16) and was never added — it was a maybe, and
+  /* CONFIRMED 2026-08-16: Fri Aug 21 → Mon Aug 24, collectable again Tue Aug 25. */
+  { from: "2026-08-21T00:00:00-05:00", to: "2026-08-24T23:59:59-05:00", back: "Aug 25" },
+  /* The earlier unconfirmed version of this trip was never added — it was a maybe, and
      this label is a promise about when a customer can collect. To add a real trip:
      one more { from, to, back } here AND in js/dates.js, then `wrangler deploy`. */
 ];

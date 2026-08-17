@@ -81,14 +81,19 @@
      `wrangler deploy` — the Worker is what a customer actually sees when
      choosing pickup. */
   var AWAY = [
-    { from: "2026-08-14T00:00:00-05:00", to: "2026-08-16T23:59:59-05:00", back: "Monday, August 17" }
-    /* The Aug 21–24 trip is CANCELLED (owner, 2026-08-16) — it was never added
-       here, because it was only ever a maybe and an away banner is a promise
-       about when a parcel moves. Announcing a maybe is worse than announcing
-       nothing, and that judgement is now vindicated: nothing had to be undone.
-       TO ADD A REAL TRIP: one more { from, to, back } object above, the same
-       window in worker/checkout-worker.js, then `wrangler deploy`. Both switch
-       themselves on and off; never hand-write a dated notice instead. */
+    { from: "2026-08-14T00:00:00-05:00", to: "2026-08-16T23:59:59-05:00", back: "Monday, August 17" },
+    /* CONFIRMED 2026-08-16: Fri Aug 21 → Mon Aug 24, back at the machine Tue Aug 25.
+       This replaces the Thu 21–Sun 24 shape that was floated and dropped; the real
+       trip runs Friday to Monday, so Monday the 24th is NOT a working day. */
+    { from: "2026-08-21T00:00:00-05:00", to: "2026-08-24T23:59:59-05:00", back: "Tuesday, August 25" }
+    /* The earlier UNCONFIRMED version of this trip was deliberately kept off the site until it firmed up,
+       which is why nothing had to be retracted when the dates moved. An away banner
+       is a promise about when a parcel moves — only ever announce travel that is
+       actually happening.
+       TO ADD A TRIP: one more { from, to, back } object above, the same window in
+       worker/checkout-worker.js, then `wrangler deploy`. Both switch themselves on
+       and off. ⚠️ custom.html's `.js-away-notice` names the dates IN PROSE and does
+       NOT auto-update — edit it by hand whenever a window changes. */
   ];
   var awayWindows = AWAY.map(function (w) {
     return { from: new Date(w.from).getTime(), to: new Date(w.to).getTime(), back: w.back };
