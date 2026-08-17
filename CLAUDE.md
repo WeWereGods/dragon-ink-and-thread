@@ -664,6 +664,20 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   page), one review is counted once, and self-serving reviews may **not** go on the `Store` block.
   **Never invent a review or pad `reviewCount`** — add markup only when a real `TESTIMONIALS` entry
   backs it, and update both by hand.
+- **📊 `node tools/buttondown-report.js` — the ONLY way to read the list back** (added
+  2026-08-17). Everything the site does with Buttondown is write-only: both signup forms and
+  `js/waitlist.js` just POST, so the `hero` / `checkout` / `purchased` / `waitlist` tags were
+  being collected and never once looked at. The script reports active subscribers against the
+  **100 free-tier ceiling**, 7- and 30-day growth, the tag split, and — the actionable part —
+  **the email addresses tagged `waitlist`**, who each asked to be told when a sold-out piece
+  returns. `--json` for machine output.
+  ⚠️ **The key comes from `BUTTONDOWN_API_KEY` in the environment, never the repo** (same rule as
+  the Worker's Stripe secret): `BUTTONDOWN_API_KEY=xxx node tools/buttondown-report.js`.
+  ⚠️ **Written and tested against stubbed data only** — no key or network was available. The
+  rendering, pagination, active-vs-unsubscribed filtering and both tag shapes are exercised; the
+  live API call is not. It tries `api.buttondown.com` then `api.buttondown.email` because the
+  host moved, and accepts both `subscriber_type` and `type`. **Treat the first real run as the
+  test**; the failure messages say which part broke.
 - **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
   are written but not yet set up as an automation in Buttondown, so new subscribers still get
   silence. Needs doing in the Buttondown dashboard (not in this repo).
