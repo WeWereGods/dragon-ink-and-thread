@@ -241,11 +241,12 @@ Two rules that keep this useful:
         they'd wait for Tue 25 and land Aug 27–29, which is the week's slip the old Thursday
         deadline existed to prevent. **Sew them first, ahead of the wheelchair tote**, since the
         tote's customer is local and can absorb a day where Aubrea can't.
-      - [ ] 📮 **TELL HER — she's expecting a parcel.** She's been told to expect the clips
-        posted, arriving ~Aug 21–23, so she'll be waiting on a post date and tracking that are
-        never coming. One line saying they're coming with you. **Fourth time she's been kept
-        ahead of a change rather than left to notice one** — the reason the three earlier slips
-        cost nothing.
+      - [x] 📮 **TOLD HER 2026-08-18 ✅ — texted.** She'd been told to expect a posted parcel
+        arriving ~Aug 21–23, so she was waiting on a post date and tracking that were never
+        coming. Sent as a text rather than an order email: she's the owner's sister, and the
+        `emails/order-updates.md` register would have read strangely.
+        ⭐ **Fourth time she's been kept ahead of a change rather than left to notice one** —
+        which is exactly why three slips on this order have cost nothing.
       - 📌 **Postage saved, and no post office errand** on a week that had a car repair, a
         realtor and a school run in it.
 
