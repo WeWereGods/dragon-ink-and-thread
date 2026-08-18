@@ -624,8 +624,12 @@ Two rules that keep this useful:
       days, now fully retired: out of `PRODUCTS`/`VARIANTS`/`LINKS`/`CATALOG`, out of the Worker's
       `PRICES`, product page deleted, out of the sitemap and the Pinterest feed, and **in Stories
       as `PAST_MAKES` #15**. Pet Bandanas is back to three.
-      ⚠️ **`wrangler deploy` still needed** to drop it from the Worker — harmless either way now
-      (nothing can add it to a cart), but it should go with the next deploy.
+      ✅ **`wrangler deploy` RUN 2026-08-18** — version `976d34b0`. The source had dropped the id
+      on Aug 18, but the *deployed* Worker still knew it until now; the two are back in step.
+      **Proved rather than assumed**: POSTing `bandana-toffee-windowpane` to the Worker returns
+      "Your cart is empty", which is what an unknown id looks like.
+      📌 Only the negative case was tested on purpose — a valid cart would mint a real Stripe
+      Checkout session and add a phantom abandonment to the figures in the recovery section below.
       📊 **THE WAITLIST TEST RETURNED ZERO.** `js/waitlist.js` was live on this one card for six
       days and collected **no signups** — checked via `tools/buttondown-report.js`.
       ⚠️ **Do NOT read that as "the feature doesn't work".** It is one item, for six days, on a
