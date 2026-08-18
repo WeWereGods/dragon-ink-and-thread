@@ -19,8 +19,9 @@ Two rules that keep this useful:
 > | ~~Thu 13~~ | ✅ done | Maurya's tote **CUT** · Aubrea told · a lot of site work shipped |
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | ~~Mon 17~~ | ⚠️ fragmented | Car repair · realtor · school run. ✅ **Aubrea's fabric ARRIVED.** Toffee Windowpane retired. |
-> | **Tue 18 — TODAY** | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames), drop-off this evening. ⚠️ **Photos still need to reach `assets/`.** |
-> | **Wed 19 – Thu 20** | ✅ | **Linda's quilt handover (Wed 19, binding checked ✅)** · **Aubrea's clips — both evenings, then the bag.** No post office run needed. |
+> | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
+> | **Wed 19 — TODAY** | ✅ **the clear day** | **Linda's quilt handover** (binding checked ✅) + the wall-hanging talk · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
+> | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 – Fri 28** | ✅ | The run-up to the push — four days |
 >
@@ -34,8 +35,11 @@ Two rules that keep this useful:
 > 2. **Wed 19 — Linda's quilt handover.** ✅ Binding checked either side of the patch. Tell her
 >    the tea cosy is in Stories, and see her entry: the wall hanging is the natural conversation
 >    to have while the mended quilt is in her hands.
-> 3. ✈️ **Wed 19 – Thu 20 — Aubrea's clips, then the bag.** Hand-delivered now, not posted. Two
->    evenings, and clips are quick — but that is now the whole margin, so they don't slide again.
+> 3. ✈️ **Aubrea's clips — WED 19, not "Wed or Thu".** Hand-delivered now, not posted.
+>    ⚠️ **Thursday stopped being a spare evening on 2026-08-18**: Maurya's drop-off moved onto it
+>    at her request, and Friday is a flight, so Thu 20 now holds an errand out of the house *and*
+>    packing. **Treat Wednesday as the plan and Thursday as the buffer** — the other way round and
+>    a late clip delivery collides with everything at once.
 > ✅ **THE THURSDAY POST OFFICE DEADLINE IS GONE.** It was the hard edge of this week: Aubrea is
 > in California, the trip runs Fri 21 → Mon 24, and anything not posted by Thu 20 wouldn't have
 > moved until Tue 25. Flying to her removes the errand entirely — **no business-hours post office
@@ -157,10 +161,18 @@ Two rules that keep this useful:
       - ~~📸 **Film the prep / shoot it Thursday.**~~ Overtaken — it's finished. The process
         footage §6 of the campaign wanted is whatever was captured along the way; **the finished
         piece is the shot that still has to be taken, and the window is now.**
-      - [x] ✅ **TOTE FINISHED 2026-08-18; drop-off this evening.** Inside the Aug 17–19 window
-        with a day in hand, and she never had to ask for a slot — which was the whole point of
-        offering one early.
-      - [x] 📸 **PHOTOGRAPHED 2026-08-18, before it left — six frames.** Flat lay on pine
+      - [x] ✅ **TOTE FINISHED 2026-08-18.** ⚠️ **DROP-OFF MOVED TO THU 20 AT MAURYA'S REQUEST**
+        (2026-08-18). **RECORD THAT IT WAS HER CALL, NOT A SLIP** — Thu 20 is one day outside
+        the Aug 17–19 window, and in a month this entry is all anyone will have to tell a
+        customer-requested reschedule from a missed deadline. **The piece was done on the 18th,
+        inside the window, and offered.** Nothing was late.
+      - [ ] 🎁 **RESHOOT — the drop-off moved to Thu 20, so the tote is in the house two more
+        days.** All three weaknesses below can be fixed rather than lived with:
+        **① turn the chair so the window is to the SIDE** (both front-on frames were backlit and
+        sit a stop dark), **② one sharp frame of the ties**, **③ the interior and pocket bags**,
+        which nothing currently shows. **Do it in daylight Wednesday**, not the night before it
+        goes — that was the mistake the first time.
+      - [x] 📸 **PHOTOGRAPHED 2026-08-18 — six frames.** Flat lay on pine
         (quilting sharp), two front-on on a chair back showing the ties bowed over the top rail,
         a tie close-up, and two hanging from the long strap with the dark lining visible.
         **Hero = the strap shot** (best light, shape and depth both read). **Craft shot = the flat
@@ -181,7 +193,7 @@ Two rules that keep this useful:
         off the chair and goes with you**, which for a wheelchair user is the difference between a
         caddy and a bag. ⚠️ **Owner to confirm that reading**, then it belongs in the custom copy
         and in the Aug 29 push.
-        ⚠️ **Ask Maurya before publishing anything of her order** — tonight, while she's in front
+        ⚠️ **Ask Maurya before publishing anything of her order** — Thu 20, while she's in front
         of you and pleased. **Ask for two other things at the same time**: a photo of it in use
         (see above — this one matters), and a review. She is the shop's third custom customer and
         there is no review of a custom piece from a *local* customer anywhere on the site.
