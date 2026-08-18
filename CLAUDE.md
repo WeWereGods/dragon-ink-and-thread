@@ -693,6 +693,14 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   otherwise clean error. Set `process.exitCode` and unwind instead. It tries `api.buttondown.com` then `api.buttondown.email` because the
   host moved, and accepts both `subscriber_type` and `type`. **Treat the first real run as the
   test**; the failure messages say which part broke.
+  ✅ **`node tools/buttondown-report.test.mjs` — the repo's only test, and it needs no key and no
+  network** (added 2026-08-18). It stubs `fetch` and runs each case in its own child process
+  (the report is a top-level script, so a second `import` in one process would just hit the
+  module cache). 45 checks: pagination, active-vs-unsubscribed, both tag shapes, the
+  empty-waitlist path, `--json`, host fallback, 401, and no-key. **It also pins the two Windows
+  rules above** — that the cmd form is what's printed, and that no example carries
+  `<angle brackets>` — because both of those fail *silently* on the shop machine and neither
+  would ever show up as a failed assertion elsewhere. **Run it after touching the report.**
 - **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
   are written but not yet set up as an automation in Buttondown, so new subscribers still get
   silence. Needs doing in the Buttondown dashboard (not in this repo).

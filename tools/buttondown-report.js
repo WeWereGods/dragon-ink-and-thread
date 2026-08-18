@@ -33,6 +33,12 @@
  *
  * ⚠️ WINDOWS: never call process.exit() from the async flow here. See die().
  *
+ * TESTS: `node tools/buttondown-report.test.mjs` — no key, no network. It stubs
+ * fetch to cover pagination, the active/unsubscribed split, both tag shapes, the
+ * empty-waitlist path, --json, host fallback, 401 and no-key. It also pins the
+ * Windows rules above, since a broken cmd example fails silently rather than
+ * loudly. Run it after touching anything in this file.
+ *
  * No dependencies — the site has none and this keeps it that way.
  */
 
