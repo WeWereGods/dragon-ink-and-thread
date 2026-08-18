@@ -178,79 +178,79 @@ window.DIT_SHOP = {
     "bow-gingham": {
       alt: "Handmade taupe gingham sailor bow",
       blurb: "Soft taupe gingham, hand-tied into a sweet sailor bow — a cozy little check that pairs with everything from sundresses to storybooks.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-gingham.jpg?v=2"]
     },
     "bow-sage-gingham": {
       alt: "Handmade sage-green gingham sailor bow scattered with tiny roses",
       blurb: "Sage-green gingham strewn with the tiniest pink roses — a garden picnic of a bow, hand-tied with finished edges.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-sage-gingham.jpg?v=2"]
     },
     "bow-cauldron-forged": {
       alt: "Handmade midnight-navy sailor bow with a fine bronze crackle-web texture",
       blurb: "Midnight navy shot through with a fine bronze web — like something cooled in the dark and lifted out still glinting. The moodiest bow in the shop, and the one that finally goes with black.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-cauldron-forged.jpg"]
     },
     "bow-toffee-plaid": {
       alt: "Handmade brown toffee plaid sailor bow",
       blurb: "Deep toffee plaid, hand-tied into a sailor bow — the colour of a cup left to steep too long and an armchair by the window. Finished edges, and it suits every coat you own.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-toffee-plaid.jpg"]
     },
     "bow-roasted-roses": {
       alt: "Handmade olive sailor bow printed with cream roses and cups of coffee",
       blurb: "Cream roses and little cups of coffee scattered across deep olive — a slow morning, tied into a bow. Hand-tied with finished edges.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-roasted-roses.jpg"]
     },
     "bow-daily-grind-ivory": {
       alt: "Handmade ivory sailor bow printed with vintage coffee-shop lettering",
       blurb: "Old sign-painter lettering on soft ivory — moka pots, grinders, and a hundred small reasons to take a coffee break. For the ones who read best with a cup in hand.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-daily-grind-ivory.jpg"]
     },
     "bow-blushing-linen": {
       alt: "Handmade blush-pink sailor bow in a soft linen-textured cotton",
       blurb: "The softest blush, woven with the slubby texture of well-loved linen — a quiet bow that doesn't compete with anything you put it near. Hand-tied with finished edges.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-blushing-linen.jpg"]
     },
     "bow-something-blue": {
       alt: "Handmade sailor bow in pale blue cotton with a fine white-and-blue lace floral pattern",
       blurb: "The palest of the five — soft powder blue under a fine lace-like tracery of flowers, so light it reads almost silver from across a room. The one to reach for when you want the bow noticed but not announced.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-something-blue.jpg", "assets/bow-something-blue-2.jpg"]
     },
     "bow-sidra-vines": {
       alt: "Handmade sailor bow in cornflower-blue cotton with fine white trailing rose vines",
       blurb: "Fine white vines trailing endlessly over cornflower blue, small roses tucked in where they fall — a pattern you keep turning to follow, like something painted round the side of a teacup.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-sidra-vines.jpg", "assets/bow-sidra-vines-2.jpg"]
     },
     "bow-porcelain-roses": {
       alt: "Handmade sailor bow in cream cotton scattered with small blue roses and sprigs",
       blurb: "Small blue roses trailing over cream, the way they'd look pressed into an old book and forgotten there. The quietest bow of the five, and the one that goes with everything.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-porcelain-roses.jpg", "assets/bow-porcelain-roses-2.jpg"]
     },
     "bow-lace-of-velaris": {
       alt: "Handmade sailor bow in mid-blue cotton covered with white lace medallions and scalloped bands",
       blurb: "White lace medallions and scalloped bands blooming right across mid-blue — the densest pattern of the five, and the one that looks most like a plate you'd never quite dare eat off.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-lace-of-velaris.jpg", "assets/bow-lace-of-velaris-2.jpg"]
     },
     "bow-suriels-bouquet": {
       alt: "Handmade sailor bow in cream cotton with large cobalt-blue floral bouquets",
       blurb: "Full cobalt bouquets thrown across cream — the boldest of the five, and the one that reads from across a room. If the others are a whisper, this is the sentence said out loud.",
-      details: "6″ long × 6″ wide · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
+      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-suriels-bouquet.jpg", "assets/bow-suriels-bouquet-2.jpg"]
     },
     "bow-suriel-set": {
       alt: "Five handmade sailor bows in blue and white floral cottons, laid out together on pale wood",
       blurb: "All five. One bow each in Something Blue, Sidra Vines, Porcelain Roses, Lace of Velaris and Suriel's Bouquet — five of the blues from the Tea with the Suriel collection, for $55 instead of $60. They were cut from the same five bolts on the same afternoon, and once one of them goes the set isn't a set any more.",
-      details: "Five bows · 6″ long × 6″ wide each · all on slide-in clips · spot clean only · store away from direct sun to keep color true. Ships free.",
+      details: "Five bows · 6″ long × 6″ wide each · finished edges · all on slide-in clips · spot clean only · store away from direct sun to keep color true. Ships free.",
       images: ["assets/bow-suriel-set.jpg"]
     },
     "bandana-storykeeper": {

@@ -93,6 +93,10 @@ const GOOGLE_CATEGORY = {
   "Bows":         "Apparel & Accessories > Clothing Accessories > Hair Accessories",
   "Pet Bandanas": "Animals & Pet Supplies > Pet Supplies > Dog Supplies > Dog Apparel",
   "Book Sleeves": "Office Supplies > Book Accessories > Book Covers",
+  // "Home" covers the tea cover today and mug rugs / appliance covers next. Kitchen Linens is
+  // deliberately the broad node: it is a real entry in Google's taxonomy (an invented deeper one
+  // gets the row rejected), and it fits every piece this category is heading toward.
+  "Home":         "Home & Garden > Linens & Bedding > Kitchen Linens",
 };
 
 const COLUMNS = [

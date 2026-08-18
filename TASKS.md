@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-13.**
+**Last reviewed: 2026-08-18.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -11,34 +11,43 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
-> ### 📅 The week ahead (rolled forward 2026-08-16, Sunday evening)
+> ### 📅 The week ahead (rolled forward 2026-08-18, Tuesday morning)
 >
 > | Day | Available | What it's for |
 > |---|---|---|
 > | ~~Wed 12~~ | ✅ done | Linda's tea cover **delivered** · her quilt patch **sewn** |
 > | ~~Thu 13~~ | ✅ done | Maurya's tote **CUT** · Aubrea told · a lot of site work shipped |
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
-> | **Mon 17 — TODAY** | ⚠️ **fragmented** | Car repair · realtor (selling the house) · school run 2:15. ✅ **Aubrea's fabric ARRIVED.** Clips in the gaps, tote in the evening or Tue. |
-> | **Tue 18 – Thu 20** | ✅ | **Wheelchair tote if it doesn't finish tonight** · Linda's handover · post Aubrea's clips |
-> | **Fri 21 – Mon 24** | ✈️ **AWAY — CONFIRMED 2026-08-16** | Nothing moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
+> | ~~Mon 17~~ | ⚠️ fragmented | Car repair · realtor · school run. ✅ **Aubrea's fabric ARRIVED.** Toffee Windowpane retired. |
+> | **Tue 18 — TODAY** | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames), drop-off this evening. ⚠️ **Photos still need to reach `assets/`.** |
+> | **Wed 19 – Thu 20** | ✅ | **Linda's quilt handover (Wed 19, binding checked ✅)** · **Aubrea's clips — both evenings, then the bag.** No post office run needed. |
+> | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 – Fri 28** | ✅ | The run-up to the push — four days |
 >
-> **Mon 17 (car repair, realtor about the house sale, school run 2:15):**
-> 1. 🔨 **Maurya's wheelchair tote — being worked off and on today** (owner's call; quilting takes
->    chunks well). Cut, batting to hand, window Aug 17–19. **Offer her a pickup slot the moment
->    it's done** rather than letting her ask.
-> 2. **Aubrea's clips held to Tue 18.** Her fabric has arrived, so nothing blocks them now.
-> ⚠️⚠️ **THE POST OFFICE DEADLINE IS THURSDAY 20.** Aubrea is in California and the trip runs
-> Fri 21 → Mon 24, so **anything not in the post by Thu 20 does not move until Tue 25** — which
-> would put her clips in California around **Aug 27–29 instead of the 21–23 she has been told.**
-> Sewn Tue 18, posted Tue or Wed, and the promise holds with a day to spare. **Slipping them past
-> Thursday costs a week, not a day.**
-> 3. **Linda's handover** — ⚠️ **run a hand along the binding either side of the patch first.**
->    It's an edge repair and edges get handled hardest. Tell her the tea cosy is in Stories too.
-> 4. **Toffee Windowpane retire** — was due Fri 15, deliberately held. ⚠️ **Check Buttondown for
->    anyone tagged `waitlist` BEFORE deleting the page**: this is the first sold-out item since
->    Aug 5 and so the first real test of `js/waitlist.js`. Retire it first and you lose both the
->    signup and the page they'd land on.
+> **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
+> 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
+>    $97.43 order, a day inside the Aug 17–19 window.
+>    🚨 📸 **LAST CHANCE FOR THE PHOTOS — it leaves the house tonight and does not come back.**
+>    §8 and §10 of `marketing/campaign-2026-08.md` are written around a real finished custom
+>    piece, this is the only one that exists, and after this evening it is gone. **Ask Maurya
+>    before publishing anything of her order — and ask for a photo in use and a review too.**
+> 2. **Wed 19 — Linda's quilt handover.** ✅ Binding checked either side of the patch. Tell her
+>    the tea cosy is in Stories, and see her entry: the wall hanging is the natural conversation
+>    to have while the mended quilt is in her hands.
+> 3. ✈️ **Wed 19 – Thu 20 — Aubrea's clips, then the bag.** Hand-delivered now, not posted. Two
+>    evenings, and clips are quick — but that is now the whole margin, so they don't slide again.
+> ✅ **THE THURSDAY POST OFFICE DEADLINE IS GONE.** It was the hard edge of this week: Aubrea is
+> in California, the trip runs Fri 21 → Mon 24, and anything not posted by Thu 20 wouldn't have
+> moved until Tue 25. Flying to her removes the errand entirely — **no business-hours post office
+> trip on a fragmented week, no postage, no tracking, and she gets them by hand.**
+> ⚠️ **The deadline moved, it didn't vanish.** The clips must be **finished and packed before the
+> flight**, so the real cut-off is Thursday night rather than Thursday's counter hours — about a
+> day of extra slack, and it's *evening* slack, which is the kind this week actually has. **Miss
+> the flight and carrying them does NOT rescue the slip**: they don't post either, so it's Tue 25
+> and California around Aug 27–29 — the exact same week's slip the Thursday deadline existed to
+> prevent. The penalty is unchanged; only the errand went away.
+> 📮 **Tell Aubrea.** She has been told a parcel is coming and roughly when; she'll be watching
+> for a post date and tracking that will never arrive. One line.
 >
 > ✈️ **The trip is CONFIRMED: Fri 21 → Mon 24, back at the machine Tue 25.** It was floated as
 > Thu–Sun, cancelled, then re-confirmed with different dates inside an evening — which is exactly
@@ -56,11 +65,16 @@ Two rules that keep this useful:
 > Court Bandana ($22). The Quilted Court's copy is the last unwritten item in "Ready to go".
 > Posting doesn't need you at the machine; replying does, so post early in the day.
 >
-> **The durable lesson, FOUR for four: a quote of 10–14 days assumes the materials are already in
-> the house.** Maurya's fabric, Aubrea's fabric, Linda's ticking, and Maurya's batting — which
-> proved it isn't only the feature cloth. **Batting, interfacing, binding and thread block a job
-> exactly as hard as the print does.** Either quote from the date materials are expected, or
-> don't start the clock until they're in hand.
+> **The durable lesson, now FIVE for five: a quote of 10–14 days assumes the materials are already
+> in the house.** Maurya's fabric, Aubrea's fabric, Linda's ticking, Maurya's batting — and, as of
+> 2026-08-18, **Aubrea's CLIPS**, which is the first time it's been hardware rather than cloth.
+> **Batting, interfacing, binding, thread — and clips, rings and fasteners — block a job exactly
+> as hard as the print does.** Either quote from the date materials are expected, or don't start
+> the clock until they're in hand.
+> 🔁 **The counter-move is proven twice now: build everything the missing part doesn't block.**
+> Maurya's tote was cut before the batting landed and made its window; Aubrea's bows are being
+> sewn before the clips land. In both cases the delivery meets a half-built job instead of a
+> standing start.
 
 - [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
@@ -84,10 +98,12 @@ Two rules that keep this useful:
         ✅ **Matched-light reshoot done 2026-08-13 and LIVE on custom.html** as the before/after
         under the repairs line. The patch can't be picked out of it, the ticking stripe runs true,
         and the loft is even where the hole was.
-        ⚠️ **Check the binding either side of the patch before it goes back.** The damage is at
-        the EDGE, which takes far more handling than the middle — dragging, tucking, pulling up
-        — so this patch gets stress-tested harder than a central one would. **Last thing before
-        handover.**
+        ✅ **BINDING CHECKED 2026-08-18** either side of the patch — the last thing that stood
+        between this and handover. **Handover is Wed 19**, which closes Linda's $105 order
+        (the tea cover went separately on Aug 12).
+        *Why it mattered:* the damage is at the EDGE, which takes far more handling than the
+        middle — dragging, tucking, pulling up — so this patch gets stress-tested harder than a
+        central one would.
         ❓ **One detail still unrecorded: was the ticking harvested from the quilt itself, or
         bought new?** Obvious today, gone in a month — and it matters, because bought-new cotton
         needed a hard pre-wash before cutting (the quilt finished shrinking decades ago; skip that
@@ -113,9 +129,14 @@ Two rules that keep this useful:
         this job's before/after is the proof image on custom.html. The "decide before advertising
         it" note is spent.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
+      ✅ **WHEELCHAIR TOTE COMPLETE 2026-08-18.** Both pieces are made; **drop-off is this
+      evening** and then the order is closed.
       $97.43 paid 2026-08-05 (invoice `VBQJFYMO-0001`, $100 less $10 for the pair, plus tax).
       Terms are 10–14 days from acceptance → **due ~Aug 15–19**. She's local (San Antonio).
-      ⚠️ Away Aug 14–16, so the real window is **Aug 17–19**.
+      **Delivered Aug 18, a day inside the window** — and that window survived a fabric delay,
+      a batting delay and a three-day trip. The thing that saved it was cutting on Aug 13 while
+      the batting was still in transit, so the delivery met a half-built tote instead of a
+      standing start.
       - **2026-08-09: she replied and loved the first tote.** Approved, so the **wheelchair tote
         is now the live piece of work** — the only thing left on this order.
       - ⏳ **BATTING CONFIRMED FOR MID-AFTERNOON 2026-08-13** (1–3 hours out, told ~14:20 local).
@@ -133,21 +154,45 @@ Two rules that keep this useful:
         for two days and had none, and the batting-free half of the job is the photogenic half.
         ⚠️ **Aug 17–19 now holds all three remaining jobs** — this tote, Aubrea's clips and
         Linda's handover. It was tight before the batting; it is tighter now.
-      - 📸 **Film and photograph this one.** It's the piece the **Aug 29 push** is built around,
-        and a *wheelchair* tote says far more about made-for-you work than a generic tote ever
-        could — it's the clearest possible answer to "why would I order custom".
-        ⚠️ **It was also going to solve post 7 (due Wed Aug 12) — that no longer works**, because
-        the tote isn't being cut today. Shoot it Thursday and post late, or give the slot to
-        something already photographed.
-        ⚠️ **Ask Maurya before publishing anything of her order.**
-      - **Agree a pickup date while she's happy.** She's local and the away window is Aug 14–16;
-        offering **Aug 17–19** now beats her asking later.
-      - 📸 **Photograph it properly before it leaves.** The Aug 29 broadcast is written to lead
-        with a real finished custom piece (§8 of `marketing/campaign-2026-08.md`), and right now
-        this is the only one that exists.
-- [ ] **Aubrea Pritt — 3 custom bow clips. Waiting on fabric, and that's agreed.** $36 paid
-      2026-08-05 (invoice `85VBHJQE-0001`). Oakdale, **California** — these post, they aren't
-      collected.
+      - ~~📸 **Film the prep / shoot it Thursday.**~~ Overtaken — it's finished. The process
+        footage §6 of the campaign wanted is whatever was captured along the way; **the finished
+        piece is the shot that still has to be taken, and the window is now.**
+      - [x] ✅ **TOTE FINISHED 2026-08-18; drop-off this evening.** Inside the Aug 17–19 window
+        with a day in hand, and she never had to ask for a slot — which was the whole point of
+        offering one early.
+      - [x] 📸 **PHOTOGRAPHED 2026-08-18, before it left — six frames.** Flat lay on pine
+        (quilting sharp), two front-on on a chair back showing the ties bowed over the top rail,
+        a tie close-up, and two hanging from the long strap with the dark lining visible.
+        **Hero = the strap shot** (best light, shape and depth both read). **Craft shot = the flat
+        lay** (only frame where the diamond quilting is genuinely sharp).
+        ⚠️ **Known weaknesses, recorded so they aren't rediscovered:** the two front-on frames are
+        **backlit** — window behind the chair, so the bag sits a stop dark and the print muddies;
+        the tie close-up is **out of focus on the near bow**; and **nothing shows the pocket bags
+        or the interior**, which was on the shot list and is the detail that reads as *considered*
+        rather than merely *sewn*.
+        🚨 **THE REAL GAP: none of these say WHEELCHAIR — they say dining chair.** That was what
+        was available, and it is not a criticism of the photos, but §8 of
+        `marketing/campaign-2026-08.md` leans on the wheelchair *specifically*, because that is
+        what makes the made-for-you argument unanswerable. A tote tied to a kitchen chair is just
+        a nice tote. **So Maurya's in-use photo is no longer a nice-to-have — it is the shot the
+        push actually needs**, and nobody else can take it.
+      - 💡 **NEW SELLING POINT, unwritten anywhere:** the photos show it working **two ways** —
+        tied onto the chair back, and carried from the long strap like a shoulder bag. **It comes
+        off the chair and goes with you**, which for a wheelchair user is the difference between a
+        caddy and a bag. ⚠️ **Owner to confirm that reading**, then it belongs in the custom copy
+        and in the Aug 29 push.
+        ⚠️ **Ask Maurya before publishing anything of her order** — tonight, while she's in front
+        of you and pleased. **Ask for two other things at the same time**: a photo of it in use
+        (see above — this one matters), and a review. She is the shop's third custom customer and
+        there is no review of a custom piece from a *local* customer anywhere on the site.
+        📌 Then **Stories** — a finished wheelchair tote belongs in `PAST_MAKES` (currently 15),
+        with her permission and tonight's photos.
+- [ ] **Aubrea Pritt — 3 custom bow clips. Fabric IN HAND (Aug 17); HAND-DELIVERED, not posted.**
+      $36 paid 2026-08-05 (invoice `85VBHJQE-0001`). Oakdale, **California**.
+      ✈️ **CHANGED 2026-08-18: the owner is flying to Aubrea on the Aug 21–24 trip and taking the
+      clips with her.** Everything below that talks about posting, post dates and tracking is
+      superseded — kept because it's the record of how the date moved three times, not because
+      any of it is still the plan.
       ⚠️ **AUBREA PRITT AND "BREA P." ARE THE SAME PERSON** (confirmed by the owner 2026-08-13).
       She is the Strawberry-Tote-and-scrunchie five-star review in `TESTIMONIALS` — the one
       carried in the Totes `aggregateRating` markup — **and** this custom customer. Two names for
@@ -170,19 +215,53 @@ Two rules that keep this useful:
         delay and was fine — and that is precisely because she was told early rather than left to
         wonder. A third slip discovered by silence reads completely differently from a third slip
         she was walked through.
-      - ⚠️ **These POST to California — they aren't collected.** Sewing on the 17th means posting
-        the 17th–18th and arriving roughly the 21st–23rd. Worth one line to Aubrea with a real
-        post date once the fabric is actually in hand.
-      - ⚠️ **The one thing still worth watching: nothing can post while she's away.** If the
-        fabric turns up on the 19th, cutting, sewing and posting to California all happen after
-        it — so the parcel moves later than the original ~Aug 15–19 window implied. Worth one
-        line to Aubrea with a real post date once the fabric is actually in hand.
+      - ~~⚠️ **These POST to California — they aren't collected.**~~ **VOID 2026-08-18 — they're
+        being carried.** The whole postal chain this entry was built around (post by Thu 20 or
+        slip to Tue 25, arriving 27–29) no longer applies.
+      - 🔨 **BOWS BEING SEWN 2026-08-18 (evening).** ⚠️ **THE CLIPS ARE ON ORDER — due Wed 19.**
+        So the bows get made tonight and **Wednesday is assembly, not a standing start** — the
+        same trick that saved Maurya's tote when her batting was late. Sequencing is right.
+        ⚠️ **FIFTH TIME, and the SECOND on this one order.** Maurya's fabric, Aubrea's fabric,
+        Linda's ticking, Maurya's batting — and now **hardware**. The lesson below says batting,
+        interfacing, binding and thread block a job as hard as the print does; **clips, rings and
+        fasteners belong on that list.** Aubrea's fabric slipped three separate times, so
+        "arrives tomorrow" on this order carries a history.
+        📦 **Check the tracking on Tue 18, not on Wed 19.** A delay found tonight leaves Wed AND
+        Thu to work with; found Wednesday evening it leaves one day before a flight.
+        🔧 **FALLBACK WORTH CHECKING BEFORE IT'S NEEDED: are there slide-in clips already in the
+        house?** Every bow in the shop is on one (decided 2026-08-07). If there are spares, this
+        is a preference and not a blocker — owner's call on whether they match what Aubrea
+        expects.
+      - ✈️ **New chain: bows Tue 18, clips Wed 19, assembled Wed–Thu, packed before the flight,
+        in her hands Aug 21–24.** Previously stated as:
+        That is at worst the same as the posted estimate she was given and at best three days
+        earlier, with no carrier in the middle of it.
+      - ⚠️ **The remaining risk is packing, not postage.** They must be **finished and in the bag
+        before the flight** — that's the deadline now. If they miss it they don't post either;
+        they'd wait for Tue 25 and land Aug 27–29, which is the week's slip the old Thursday
+        deadline existed to prevent. **Sew them first, ahead of the wheelchair tote**, since the
+        tote's customer is local and can absorb a day where Aubrea can't.
+      - [ ] 📮 **TELL HER — she's expecting a parcel.** She's been told to expect the clips
+        posted, arriving ~Aug 21–23, so she'll be waiting on a post date and tracking that are
+        never coming. One line saying they're coming with you. **Fourth time she's been kept
+        ahead of a change rather than left to notice one** — the reason the three earlier slips
+        cost nothing.
+      - 📌 **Postage saved, and no post office errand** on a week that had a car repair, a
+        realtor and a school run in it.
 
 ---
 
 ## 🟠 Dated — this week
 
 - [ ] 🔄 **LINDA — HEIRLOOM MEMORY WALL HANGING from her husband's suit. BACK ON 2026-08-13.**
+      📅 **WED 19 IS THE CONVERSATION.** The mended quilt is handed back that day, so she is in
+      the room, holding the proof, with the $650–750 piece open between you — and there is a
+      short list here that can only be settled in person: **read the content labels** in the
+      jacket and trousers, **count the shirts** (the brief said shirts plural; one was
+      photographed), say the **moths** and **UV** warnings out loud, and — the awkward one —
+      tell her **the reference image cannot be made from four garments** before anything is cut.
+      None of that survives being emailed as well as it survives being said. **Take the garments
+      out while she's there.**
       ⚠️ **The memory-piece customer is LINDA** — the same customer as the tea cover and the quilt
       repair, not a separate enquiry. Logged as anonymous for a day and corrected 2026-08-13.
       She withdrew in the morning on the wool (can't be machine washed) and returned the same day
