@@ -20,7 +20,7 @@ Two rules that keep this useful:
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | ~~Mon 17~~ | ⚠️ fragmented | Car repair · realtor · school run. ✅ **Aubrea's fabric ARRIVED.** Toffee Windowpane retired. |
 > | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
-> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20, priced $700 all-in** · 🆕 **plus a SECOND commission, a ~$300–350 shadow box (her own deep box) — invoice CLEARED to send; ✅ no suit conflict, it's a wizard hat + gold leopard top; 🚨 measure the hat against the box** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
+> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20, priced $700 all-in, invoice sent** · 🚨 **his garments are all in the house now — FREEZE THE WOOL** · 🆕 **plus a SECOND commission, a ~$300–350 shadow box (her own deep box) — invoice CLEARED to send; ✅ no suit conflict, it's a wizard hat + gold leopard top; 🚨 measure the hat against the box** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
@@ -45,6 +45,11 @@ Two rules that keep this useful:
 >    draft invoice is correct, and **it can go out.** Two boxes, nothing double-charged.
 >    ✅ **NO SUIT CONFLICT — the suit is for the quilt.** She has handed over two other garments
 >    for the box: a **velvet wizard hat** and a **gold leopard-print top**, both photographed.
+>    🚨 **ALL SIX GARMENTS ARE IN THE HOUSE** — the "don't take them until after the move" rule
+>    is void, so the risk is managed instead: **freeze the wool TODAY** (sealed, thaw sealed,
+>    repeat), one rigid labelled box that travels in the car and never joins the removal load,
+>    and confirm the Aug 13 photos actually got committed. **Nothing unpicked before the deposit
+>    and her yes to the drawing.**
 >    ✅ **Aug 13 checklist closed: ONE shirt, and the suit is 100% WOOL** — so the moth risk is
 >    real for the panel (freeze mandatory, its box must seal) and her box instinct was right,
 >    just attached to the wrong piece.
@@ -454,11 +459,12 @@ Two rules that keep this useful:
       object that no longer exists. If it was ever meant for Christmas or an anniversary, **it may
       now be comfortably achievable**, and she should be asked rather than left with the extended
       date. ⚠️ **The move is still the real constraint on the machine, not the sewing hours.**
-      ⚠️ **NOTE 2026-08-19: the SHADOW-BOX garments are already in the house** (the hat and the
-      top were handed over). The "leave them with Linda until after the move" rule was written
-      about the **suit**, and still holds for the suit. **These two now need the same care the
-      quilt got: stored away from the cutting table and pets, and not in the removal load.**
-      ✅ **What has NOT changed:** the suit stays with her until after the move, 50% deposit
+      ⚠️ **UPDATE 2026-08-19: ALL SIX GARMENTS ARE NOW IN THE HOUSE** — the hat and top for this
+      box, and the suit, trousers, shirt and pocket square for the panel. **The "leave them with
+      Linda until after the move" rule is void**; see the **custody protocol** in the panel entry,
+      which covers both piles. **Freeze the wool today; the hat and top are almost certainly
+      synthetic and need storage, not freezing.**
+      ✅ **What has NOT changed:** 50% deposit
       before anything is bought or cut, photos at each stage, and the label on the back naming
       whose clothes and when — which matters *more* in a box, where the piece may outlive
       everyone who could explain it. ⭐ **Use the SAME label wording and placement on both pieces**
@@ -577,11 +583,10 @@ Two rules that keep this useful:
           Linda's; **now it is a specification, not a preference.** A 100% wool panel in an
           unsealed box, undisturbed for decades, is the exact scenario that eats the piece after
           it is finished and paid for.
-      - 🏠 **TELL LINDA HOW TO STORE THEM IN THE MEANTIME — this is new and it matters.** The
-        garments stay with her until after the move, which is **months**, and 100% wool sitting
-        undisturbed is precisely the risk. **Ask her to keep them clean and SEALED** (a zipped bag
-        or lidded box, not a wardrobe), away from the removal load. Cheap, and it protects the
-        piece before it exists.
+      - 🏠 ⛔ **MOOT AS OF 2026-08-19 — the garments are already HERE, not with Linda.** This said
+        to tell her how to store them; there is nothing for her to store. **The storage problem is
+        the shop's now** — see the **custody protocol** in this entry. **Freezing moved from
+        "insurance" to "today".**
       - 🔥 **PRESSING: press cloth, always, and press from the BACK.** 100% wool worsted goes
         **shiny** under a direct iron and the shine does not come out. On a piece where a jacket
         front is the focal element, a shine mark is the whole thing ruined.
@@ -727,12 +732,49 @@ Two rules that keep this useful:
       Aug 13 and never answered. Jan–Feb clears Christmas entirely. If this was ever meant as a
       Christmas gift, or is tied to an anniversary or the date he died, **the extension breaks it
       and she needs to say so now**, while nothing has been cut.
-      ⚠️ **DO NOT TAKE THE GARMENTS UNTIL AFTER THE MOVE.** A six-month build means his jacket,
-      trousers and shirt sit in the house through packing, a van and possibly storage. They are
-      irreplaceable and there is no version of losing or damp-spotting them that can be fixed.
-      **Either leave them with Linda until the machine is set up again, or agree one box that
-      never goes in the removal load.** This is the single largest risk the extension introduces
-      and it is entirely avoidable.
+      ### ⛔ THE "DON'T TAKE THEM UNTIL AFTER THE MOVE" RULE IS VOID — THEY ARE ALREADY HERE
+      **Confirmed 2026-08-19: the garments are in the house.** The rule below was written to
+      *avoid* this risk; it can't now, so **the risk gets MANAGED instead**, and that needs to be
+      deliberate rather than assumed. ~~Do not take the garments until after the move.~~
+      🚨 **SIX IRREPLACEABLE ITEMS ARE NOW IN A HOUSE THAT IS ABOUT TO BE PACKED** — jacket,
+      trousers, shirt and pocket square for the panel, plus the hat and the top for the shadow
+      box. **All of one dead man's clothes, all in one place, through packing, a van and possibly
+      storage.** There is no version of losing or damp-spotting these that can be fixed.
+      ### 📦 CUSTODY PROTOCOL — do this now, not after the deposit clears
+      1. ⛔ **FREEZE THE WOOL IMMEDIATELY.** It was already mandatory (100% wool); it is now
+         **urgent**, because these will sit sealed for months and anything already in them has
+         that long to work. Sealed bag → several days at freezer temperature → thaw → repeat.
+         ⚠️ **THAW IT STILL SEALED, to room temperature, before opening.** Open a bag of cold wool
+         in a warm room and **condensation forms on the cloth** — you will have introduced damp to
+         the one material that must not get damp. This is the non-obvious half of the technique.
+         ✅ **Freezing is not "starting work"** — nothing is cut, nothing is committed, and it does
+         not need the deposit or her sign-off. **It is the one thing that should happen today.**
+      2. 📦 **ONE RIGID, SEALED, LABELLED BOX — and it travels in the CAR, not the van.** Marked
+         with her name and **DO NOT PACK**. Not the removal load, not a storage unit, not the
+         garage — **heat and damp are as dangerous as moths and much faster.**
+      3. 🐾 **Away from the cutting table and the pets**, the same rule her quilt got. That quilt
+         was one item for a few weeks; this is six items for months.
+      4. 📸 **Confirm the Aug 13 photographs are actually FILED in the repo**, not just taken.
+         ⚠️ Photos fail *silently* here — `assets/Incoming*` and `assets/IMG_*` are gitignored and
+         `git add` skips them without a word. **These are the only record of what his clothes
+         looked like before anyone touched them.** Check with `git check-ignore -v`, and add the
+         hat and top photos from today at the same time.
+      5. ⛔ **NOTHING IS UNPICKED OR CUT** until the deposit clears **and** she has said yes to the
+         16 × 20 drawing. Freezing and storing are protective; unpicking is irreversible.
+      ### ⭐ AND THERE IS AN UPSIDE — THIS UNBLOCKS WORK, IF IT'S SEQUENCED RIGHT
+      The Jan–Feb 2027 date was set because the move takes the machine down. **But the garments
+      being here now means the parts that DON'T need a machine can happen before the move**, which
+      is this file's own proven counter-move: *"build everything the missing part doesn't
+      block"* — Maurya's tote was cut before the batting landed, Aubrea's bows sewn before the
+      clips arrived, and both made their windows.
+      **Pre-move, once the deposit and the drawing are agreed:** freezing, deconstruction,
+      steam-shrinking and interfacing are bench-and-iron work, not machine work. **Getting the
+      suit unpicked and stabilised before the machine is packed turns the reassembly into a
+      half-built job instead of a standing start** — and it means the fragile, irreversible
+      decisions get made while she is calm and set up, not in a new house among boxes.
+      ⚠️ **Do not let that argument rush step 5.** The order is still deposit → drawing → yes →
+      cut. The upside is only available if those land before the move; if they don't, **freeze and
+      store, and lose nothing.**
       💷 **Deposit still 50% up front**, but the gap to delivery is now months rather than weeks —
       worth saying plainly so it doesn't feel like silence later. **Send her a photo at each
       stage** (garments laid out, blocks pieced, top assembled); it costs nothing and it is what
