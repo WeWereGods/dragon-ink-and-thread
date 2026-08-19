@@ -44,6 +44,9 @@ Two rules that keep this useful:
 >    draft invoice is correct, and **it can go out.** Two boxes, nothing double-charged.
 >    ✅ **NO SUIT CONFLICT — the suit is for the quilt.** She has handed over two other garments
 >    for the box: a **velvet wizard hat** and a **gold leopard-print top**, both photographed.
+>    🤍 **BOTH COMMISSIONS ARE MEMORIALS TO HER HUSBAND** — the quilt is him in his suit, the box
+>    is him in a party hat. **They are a pair: buy the panel's box to MATCH hers**, and match the
+>    labels. Get his name, his dates, and the story behind the hat **now**.
 >    🚨 **New blocker in its place: MEASURE THE HAT.** A tall rigid cone may fill a 16 × 20 on its
 >    own, and velvet crushed under glass never recovers.
 >    ❓ Still not recorded from this slot: whether she was told the tea cosy is in Stories, the
@@ -454,7 +457,9 @@ Two rules that keep this useful:
       ✅ **What has NOT changed:** the suit stays with her until after the move, 50% deposit
       before anything is bought or cut, photos at each stage, and the label on the back naming
       whose clothes and when — which matters *more* in a box, where the piece may outlive
-      everyone who could explain it.
+      everyone who could explain it. ⭐ **Use the SAME label wording and placement on both pieces**
+      (see her shadow-box entry): they are two halves of one memorial to her husband, and the
+      label is the element they will certainly share.
       ### 💵 THE INVOICE — what is blocking it, and what must be on it
       ⛔ **DO NOT SEND $1,100.** ⛔ **Do not invent a number to unblock her either** — that is the
       exact failure this repo has now made four times (book sleeves, home pieces, repairs and
@@ -475,6 +480,12 @@ Two rules that keep this useful:
       best-paid job in this file, and defensible precisely because the hours don't shrink with the
       area. ⚠️ **It holds for the design as newly drawn only** — same rule that voided $1,100.
       ### 📦 THE BOX IS NOW THE SHOP'S JOB — two consequences, both practical
+      - 🎯 **BUY IT TO MATCH LINDA'S.** ⚠️ **Added 2026-08-19, once both projects were confirmed as
+        memorials to the same man:** her shadow box is also 16 × 20, and the two pieces may well
+        sit side by side for decades. **Match the finish and frame profile as closely as you can
+        find, and match the labels.** Measure and photograph hers while it is in hand. Two
+        mismatched boxes read as two purchases; a matched pair reads as one memorial. **This is
+        unfixable after the fact and free to get right now.**
       - 🎯 **BUY THE BOX BEFORE DRAWING, AND DRAW TO ITS WINDOW, NOT TO "16 × 20".** A 16 × 20
         shadow box is 16 × 20 on the *outside*; the visible opening is smaller once the rabbet and
         any mat are taken off. **Measure the actual opening and size the panel to that.** Getting
@@ -840,12 +851,42 @@ Two rules that keep this useful:
       ⚠️ **Two things to check rather than assume:** whether the **velvet is silk** (silk velvet
       *is* protein and moths do eat it), and whether the hat has any **wool felt** in its
       structure. **If either, freeze it** — cheap insurance, and it costs nothing to do anyway.
-      ### ❓ Whose are they, and what were they for?
-      ⚠️ **Not established.** A sparkly wizard hat and a gold leopard top are a *very* different
-      register from a Hugo Boss suit — which may be exactly the point (**the quilt holds the
-      formal side, the box holds the fun one**, and that is a lovely thing to say to her), or may
-      mean these belonged to someone else entirely. **It decides what goes on the label**, and the
-      label is the entire point of a memory piece: **whose, and when.** Ask.
+      ### ✅ CONFIRMED 2026-08-19: BOTH PROJECTS ARE IN MEMORY OF HER HUSBAND
+      **They are his clothes in both cases** — the Hugo Boss suit in the quilt, the wizard hat and
+      the gold leopard top in the box. ⭐ **So the two commissions are one thing in two halves:
+      the quilt holds the man in his suit, the box holds the man in a party hat.** That contrast
+      is not an accident of what was left in the wardrobe; **it is the story, and it is what the
+      pair is for.** Say it to her in those words — it is also the strongest reason to make the
+      two pieces feel related rather than treating them as two unconnected jobs.
+      ### 🎯 THEY ARE A PAIR — AND THE SHOP IS STILL BUYING ONE OF THE TWO BOXES
+      🚨 **ACTIONABLE, AND EASY TO MISS: the panel's box has NOT been bought yet.** Both pieces are
+      **16 × 20**, both are memorials to the same man, and both will be displayed — quite possibly
+      side by side, in the same room, for decades.
+      ⭐ **So buy the panel's box to MATCH HERS.** Same finish, same frame profile, as close as can
+      be found. It costs nothing extra to choose well and it is unfixable later: two mismatched
+      boxes on one wall look like two purchases, **a matched pair looks like one memorial.**
+      **Measure and photograph her box while it is in hand** so the second can be matched to it.
+      - 📌 **Match the LABELS too** — same wording, same placement, same hand. Whose, and when, on
+        both. It is the one element they will certainly share.
+      - ⚠️ **This is the only genuinely time-critical consequence of learning they're a pair**, so
+        it goes before the panel's box is ordered, not after.
+      ### 📝 GET THE STORY WHILE SHE IS ENGAGED — it is the label, and it decays
+      Ask now, not at handover: **his name and dates**, and — for the box — **when and where he
+      wore the hat and the top**, and whether they were worn together. A wizard hat and a gold
+      leopard print is a costume with an occasion attached, and **she is the only person alive who
+      can say what it was.** ⚠️ Same lesson as the ticking on her quilt: obvious today, gone in a
+      month, and unanswerable once it is gone. **A memory piece whose story nobody recorded is
+      just an old hat in a box** — to everyone except her, and eventually to her family too.
+      ### 🤍 Two consequences of "both are memorials"
+      - ⭐ **DELIVER THE BOX FIRST, and the staging argument gets stronger, not weaker.** The panel
+        is a 2027 piece; the box is weeks. Giving her the lighter, funnier half early — while the
+        long, formal one is still being made — is the right order emotionally as well as
+        practically. **A year of waiting with nothing in her hands is a long time in grief.**
+      - ⚠️ **DO NOT REACH FOR THIS IN THE CAMPAIGN.** A memorial commission is the most sensitive
+        thing this shop could publish, and the existing rule already says ask before publishing
+        anything of a customer's order. **Here the answer must be an explicit yes, from her, after
+        delivery** — and the panel isn't finished until 2027, so it cannot serve the Aug 29 push
+        anyway. **Nothing about these two pieces goes anywhere near marketing on assumption.**
       ### ✅ SETTLED 2026-08-19: 16 × 20 IT IS, AND **SHE HAS ALREADY BOUGHT THE BOX**
       **Her decision, and the box is purchased — the size is locked and the shop no longer
       supplies it.** The "expect 20 × 24" warning above is overtaken; **design to 16 × 20.**
