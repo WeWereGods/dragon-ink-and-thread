@@ -146,8 +146,10 @@ Two rules that keep this useful:
         ⚠️ **NO STAR RATING — she left words, not stars, so the card carries none.** Stars are
         never inferred from tone (the rule Cassidy's rating was confirmed against). **If she
         gave a rating anywhere, add `stars` to her entry; otherwise leave it off.**
-        ⚠️ **No surname on record**, so the card reads just "Linda" against a house style of
-        "First L." — **ask her for an initial** if she's happy to be named that way.
+        ✅ **Surname initial supplied by the owner 2026-08-19 — the card reads "Linda M."**,
+        matching the house style the other three use. (It went up as bare "Linda" for the few
+        minutes before that; nothing else in the repo carries her initial, so **TASKS.md still
+        says just "Linda" everywhere else** — that's fine, it's the public card that needed it.)
         ⚠️ **Deliberately NOT in any `Product` JSON-LD.** It names a tea cover and there is now
         a Tea Covers block, but hers was the bespoke Midnight Garden piece, not the $35 Suriel
         listing that block offers. Reasoning is written into the comment above the blocks in
