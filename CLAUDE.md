@@ -491,6 +491,13 @@ except where noted.
    `SHIPPING.standardPrefixes` in js/shop-data.js, which the cart drawer reads).
    **Decide the tier deliberately** — it was a bare `tote-` test until the Reading Nook Sleeve
    needed tote postage on 2026-08-07, and the default would have quietly undercharged it.
+   ⚠️ **A NEW CATEGORY ALSO MEANS EDITING `shipping.html` BY HAND — it names the tiers in PROSE
+   and nothing generates it.** Found broken 2026-08-19: it still read *"$6.50 if your order
+   includes a tote, $4.50 for scrunchies and bows only"*, written on Jul 4 and never touched when
+   Book Sleeves (Aug 7) and Home (Aug 13) were added to `SHIP_STANDARD_PREFIXES`. **So a customer
+   buying a $28 book sleeve or the $35 tea cover was told $4.50 and charged $6.50** — the policy
+   page promising less than the Worker takes. Adding a category updates the Worker, the cart
+   drawer and the product pages; **this page is the one nothing points at.**
 6. **`PRICES` in `worker/checkout-worker.js`** (in **CENTS**) — ⚠️ **the Worker rejects any id it
    doesn't know, so checkout fails without this**, however good the rest looks.
 7. **`wrangler deploy`** from `worker/` — step 6 does nothing until this runs.
