@@ -405,7 +405,12 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   $35 vs $28, bandanas $22 vs $18, **home pieces $40 vs $35** — or the minimum paragraph's promise
   ("the ready-made ones in the shop are the same lovely thing for less") stops being literally true.
   ⚠️ **Home pieces went $30–60 → $40–60 on 2026-08-13**, the day The Suriel Tea Cover was listed
-  at **$35**.
+  at **$35**. ⚠️ **That change MISSED one of the seven places and sat wrong for six days** — found
+  2026-08-19: custom.html's `custom-price-list` said $40–60 while the **one-line summary above the
+  form** still said **$30–60**, i.e. a floor *under* the $35 shop piece, on the same page, in the
+  sentence a customer reads immediately before enquiring. Fixed. **The two custom.html copies are
+  the pair most easily half-updated** — they sit ~40 lines apart and only one of them is in a list
+  that looks like a price list. Grep the number, don't eyeball the page.
   ✅ **PET BANDANAS: the $22 floor STAYS at $22 — DECIDED BY THE OWNER 2026-08-19. Do not re-raise
   it, and do not "fix" it to $25.** The audit flags floor $22 vs the $22 Quilted Court as a tie,
   and the flag is a **false positive** here:
@@ -618,7 +623,7 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   `PAST_MAKES`. (The old low-res / placeholder-dims Strawberry Tote TODOs are moot — it left the shop.)
 - **"Kind Words" testimonials section is LIVE and SHOWING** (added 2026-07-27, a professionalism pass
   inspired by a competitor site). `#kind-words` starts `hidden` and JS reveals it once the
-  `TESTIMONIALS` array in js/main.js has ≥1 entry — it now holds **3 real reviews**, so the section
+  `TESTIMONIALS` array in js/main.js has ≥1 entry — it now holds **4 real reviews**, so the section
   renders. **REAL reviews only — never invent them.**
   ⚠️ **"Brea P." IS Aubrea Pritt**, the custom bow-clip customer in TASKS.md (confirmed by the
   owner 2026-08-13). Two names for one person across the repo — **don't count her as two
@@ -626,17 +631,37 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   custom work; Linda went the same way from a $30 tea cover to a $1,100 commission. **Both repeat
   customers converted from a small first purchase**, which is the Aug 29 push's best argument and
   is currently unused in the campaign copy. Add `{ quote, name, where?, stars? }` objects
-  to populate. NOTE: **two of the three rate CUSTOM makes, not shop listings** — the **"Road Trip
+  to populate. NOTE: **three of the four rate CUSTOM makes, not shop listings** — the **"Road Trip
   Kindle Case"** (a retired make, correctly in Stories PAST_MAKES) and **Cassidy E.'s music-print
   tote** (added 2026-08-12, a one-off commission that was never listed; **she left an actual
   five-star rating — the stars on that card are hers, not inferred from the tone**, confirmed by
-  the owner the day it went in). Reviews of unbuyable
+  the owner the day it went in), and **Linda's** (added 2026-08-19).
+  Reviews of unbuyable
   pieces are fine, and are the best proof custom work already delights people; they just can't be
-  clicked through to a listing — and both are deliberately **excluded from the `aggregateRating`
-  markup** (see below), since neither rates a shop category. ⚠️ **Cassidy's is the only review the
+  clicked through to a listing — and all three are deliberately **excluded from the `aggregateRating`
+  markup** (see below), since none rates a shop category. ⚠️ **Cassidy's is the only review the
   site holds that describes the custom PROCESS** ("she found the most beautiful and unique music
   fabric for me as a music teacher") rather than a finished object — which is exactly the thing the
-  Aug 29 push has to argue. Same pass also: `text-wrap: balance` on
+  Aug 29 push has to argue.
+  ⚠️ **LINDA'S REVIEW (2026-08-19) CARRIES NO `stars` — that is correct, not an omission.**
+  She wrote words and gave no rating, and a rating is **never** inferred from how warm a review
+  reads (the rule Cassidy's five stars were explicitly confirmed against). `stars` is optional in
+  the render, so the card simply shows the quote. **Don't "complete" it with five stars.**
+  It also covers **two things in one review** — her $75 quilt repair and her custom Midnight
+  Garden tea cover — so `where` reads "on a quilt repair and a custom tea cover" rather than
+  naming one piece. It is the site's **first review of a repair** and its **first from a local
+  customer**, and the repair half is the only public proof that mending is a real service rather
+  than a favour.
+  ⚠️ **It is the sharpest `aggregateRating` trap on the page — sharper than Cassidy's.** It says
+  "tea cover" and there is now a **Handmade Patchwork Tea Covers** `Product` block. It does not
+  belong there: that block offers exactly one listing, **The Suriel Tea Cover ($35)**, and Linda's
+  was a bespoke piece that was never sold from the site and now lives in Stories. (It has no stars
+  to aggregate either.) The full reasoning is written into the comment above the JSON-LD in
+  index.html so nobody has to rediscover it.
+  📝 **Her spelling and punctuation were lightly corrected — nothing reworded** — and **her exact
+  original words are preserved in a comment directly above the entry** in js/main.js. Do that for
+  any future review rather than silently smoothing a customer's words away.
+  Same pass also: `text-wrap: balance` on
   headings, more `.section` whitespace, and `.badge` dashed→solid hairline.
 - **HOMEPAGE + CATALOG REDESIGN (2026-07-28, "luxury cottagecore"):**
   - **New full catalog page `shop.html`** — every item as its own tile in a grid (Totes/Scrunchies/Bows),
@@ -671,13 +696,18 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   not just a price change.
   `availability` is already `schema.org/InStock` on all three (the shop is open).
   **`aggregateRating` + `review` are live on the Totes block only (2026-08-02)** — 5★, one review,
-  Brea P.'s Strawberry Tote note, copied verbatim from `TESTIMONIALS` in js/main.js. **The other two
-  real reviews both rate custom makes and are excluded**: the Road Trip Kindle Case (retired, no
-  `Product` block) and Cassidy E.'s music-print tote (a commission, not one of the totes the block
-  offers). ⚠️ **Cassidy's is the tempting one — it is literally about a tote, so it looks like it
-  belongs in the Totes block.** It doesn't: that block declares `InStock` over a fixed set of
-  listings, and its rating may only reflect reviews OF those listings. `reviewCount` stays **1**.
-  Scrunchies and Bows have no reviews and carry no rating. Rules: markup must
+  Brea P.'s Strawberry Tote note, copied verbatim from `TESTIMONIALS` in js/main.js. **The other
+  three real reviews all rate custom makes and are excluded**: the Road Trip Kindle Case (retired,
+  no `Product` block), Cassidy E.'s music-print tote (a commission, not one of the totes the block
+  offers), and Linda's quilt repair + bespoke tea cover (a service and a one-off, and no stars).
+  ⚠️ **Two of them are tempting for the same reason — each names something a block now sells.**
+  Cassidy's is literally about a tote; **Linda's is literally about a tea cover, and Tea Covers got
+  a block on 2026-08-13.** Neither belongs: those blocks declare `InStock` over a fixed set of
+  listings, and a block's rating may only reflect reviews OF those listings. `reviewCount` stays
+  **1**. 🔍 **The general rule, since this has now happened twice: a review of a CUSTOM piece
+  becomes more dangerous, not less, when the shop later adds a category that sounds like it** —
+  so re-check the exclusions whenever a new `Product` block is added, not only when a review is.
+  Scrunchies, Bows, Pet Bandanas, Book Sleeves and Tea Covers have no reviews and carry no rating. Rules: markup must
   mirror what Kind Words actually renders (Google requires marked-up reviews be visible on the
   page), one review is counted once, and self-serving reviews may **not** go on the `Store` block.
   **Never invent a review or pad `reviewCount`** — add markup only when a real `TESTIMONIALS` entry

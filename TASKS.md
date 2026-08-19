@@ -133,6 +133,27 @@ Two rules that keep this useful:
         needed a hard pre-wash before cutting (the quilt finished shrinking decades ago; skip that
         and Linda's first wash puckers the patch). Harvested cloth needs none of it, which is why
         it was the better option.
+      - ⭐ **REVIEW IN, 2026-08-19 — and it covers BOTH halves of the order.** Live in Kind
+        Words (`TESTIMONIALS` in js/main.js, now **4**). She wrote about the quilt first —
+        *"an heirloom handmade quilt … in my family for 30 years … now you can't even tell.
+        Now I can pass it on to my daughter!"* — and the tea cover second, naming **a matching
+        tea mat** that was nowhere in this file or in the Stories entry until today (both now
+        say it).
+        📌 **This is the site's FIRST review of a REPAIR, and its first from a LOCAL customer.**
+        It lands the same week the mending post is being watched for what it pulls, and it says
+        the one thing a before/after photo cannot: that the mend held up to being looked at by
+        the person who owns the quilt.
+        ⚠️ **NO STAR RATING — she left words, not stars, so the card carries none.** Stars are
+        never inferred from tone (the rule Cassidy's rating was confirmed against). **If she
+        gave a rating anywhere, add `stars` to her entry; otherwise leave it off.**
+        ⚠️ **No surname on record**, so the card reads just "Linda" against a house style of
+        "First L." — **ask her for an initial** if she's happy to be named that way.
+        ⚠️ **Deliberately NOT in any `Product` JSON-LD.** It names a tea cover and there is now
+        a Tea Covers block, but hers was the bespoke Midnight Garden piece, not the $35 Suriel
+        listing that block offers. Reasoning is written into the comment above the blocks in
+        index.html so it isn't re-litigated.
+        📮 The review reads as though she has **already seen the mended quilt** — worth
+        squaring against the Wed 19 handover before anyone treats that box as still open.
       - ⚠️ **CORRECTION 2026-08-13: the wall hanging is NOT this patchwork quilt.** It was logged
         here for a few hours as "Linda wants the mended quilt hung", which was a misreading.
         **Linda is the memory-piece customer** — the wall hanging is a NEW piece to be made from
@@ -241,8 +262,11 @@ Two rules that keep this useful:
         custom-process story instead, and that is better known before the 29th than during it.
         ⚠️ **Ask Maurya before publishing anything of her order** — Thu 20, while she's in front
         of you and pleased. **Ask for two other things at the same time**: a photo of it in use
-        (see above — this one matters), and a review. She is the shop's third custom customer and
-        there is no review of a custom piece from a *local* customer anywhere on the site.
+        (see above — this one matters), and a review. She is the shop's third custom customer.
+        ⚠️ **This line used to read "there is no review of a custom piece from a *local*
+        customer anywhere on the site" — that stopped being true on 2026-08-19**, when Linda's
+        landed. Still worth asking: hers is a repair and a tea cover, and nothing on the site
+        yet shows a custom tote *in use by the person it was made for*.
         📌 Then **Stories** — a finished wheelchair tote belongs in `PAST_MAKES` (currently 15),
         with her permission and tonight's photos.
 - [ ] **Aubrea Pritt — 3 custom bow clips. Fabric IN HAND (Aug 17); HAND-DELIVERED, not posted.**
@@ -263,6 +287,9 @@ Two rules that keep this useful:
       $75 repair, then a **$1,100** commission. **Both of the shop's repeat customers converted
       from a small first purchase into custom.** That is the strongest argument the Aug 29 push
       has, it is evidence rather than assertion, and nothing in the campaign copy uses it yet.
+      ⭐ **As of 2026-08-19 BOTH halves of that pattern are quotable on the site** — Brea's
+      five-star tote-and-scrunchie review and Linda's quilt-and-tea-cover one are now side by
+      side in Kind Words. The push no longer has to assert the pattern; it can point at it.
       - ⚠️ **2026-08-13: the fabric now arrives AFTER the trip.** That is the **third** revision
         (Aug 14–19 → Aug 13–15 → post-trip), and it settles the question — nothing can be sewn or
         posted before Mon 17.

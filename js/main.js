@@ -275,7 +275,7 @@
     { img: "assets/tote-music-teacher.jpg", art: "🎶", title: "The Music Teacher's Tote",
       story: "Three music prints, found one at a time: powder-blue sheet music for the outside, a scatter of cream notes on black for the lining, and handwritten manuscript tucked inside the pocket. Made for a music teacher — sized for her books and her laptop, with the pockets set where her keys actually live, and a matching scrunchie tied to the strap. 🎶" },
     { img: "assets/tea-cosy-midnight-garden.jpg", art: "🌹", title: "Midnight Garden Tea Cosy",
-      story: "Cabbage roses and golden peonies strewn across black cotton, quilted and padded with a little loop to lift it by — made to keep a pot hot for as long as the conversation lasts. A custom order, boxed and on its way to her table. 🌹" },
+      story: "Cabbage roses and golden peonies strewn across black cotton, quilted and padded with a little loop to lift it by — made to keep a pot hot for as long as the conversation lasts, with a matching mat cut from the same garden to stand it on. A custom order, boxed and on its way to her table. 🌹" },
     { img: "assets/tote-strawberry.jpg", art: "🍓", title: "Strawberry Tote",
       story: "One of the very first totes I ever made — cream canvas tumbling with wild strawberries and trailing green vines, fully lined. A true one-of-a-kind that found its home early on. This print has retired now, but it holds a sweet little place in the Nest's beginnings. 🍓" },
     { img: "assets/bloom-cream.jpg", art: "🌸", title: "Cream Bloom",
@@ -331,7 +331,18 @@
     { quote: "I recently got a strawberry tote and a matching scrunchie from you and let me just say I LOVE THEM!! They are so cute, the scrunchie is nice on my curly hair and the tote holds all of my items with no problem. Definitely going to be ordering more!!",
       name: "Brea P.", where: "on the Strawberry Tote", stars: 5 },
     { quote: "Dragon Ink and Thread made the most beautiful tote! She found the most beautiful and unique music fabric for me as a music teacher! The tote is the perfect size for my books and laptop! It has perfectly placed pockets for my keys! Wonderfully made!",
-      name: "Cassidy E.", where: "on The Music Teacher's Tote", stars: 5 }
+      name: "Cassidy E.", where: "on The Music Teacher's Tote", stars: 5 },
+    // Linda, 2026-08-19. Covers BOTH halves of her $105 order: the $75 quilt repair and the
+    // custom Midnight Garden Tea Cosy (+ matching mat). NO `stars` — she left words, not a
+    // rating, and a rating is never inferred from the tone (same rule that governs Cassidy's).
+    // Spelling and punctuation lightly corrected; nothing reworded. Her words verbatim:
+    // "I loved Ayla's work. She took a heirloom hand maid quilt, that has been in my family for
+    //  30 year's. It was passed down to me from mother. I wanted to pass it down but we found a
+    //  hole that needed fixing first. Ayla was able to mend it fast and beautifully, now you
+    //  can't even tell. Now I can pass it on to my daughter! Ayla also created a custom tea
+    //  cover with a matching tea mat that are both unique and wonderfully made."
+    { quote: "I loved Ayla’s work. She took an heirloom handmade quilt that has been in my family for 30 years. It was passed down to me from my mother. I wanted to pass it down, but we found a hole that needed fixing first. Ayla was able to mend it fast and beautifully — now you can’t even tell. Now I can pass it on to my daughter! Ayla also created a custom tea cover with a matching tea mat that are both unique and wonderfully made.",
+      name: "Linda", where: "on a quilt repair and a custom tea cover" }
   ];
 
   var testimonialsGrid = document.getElementById("testimonials-grid");
