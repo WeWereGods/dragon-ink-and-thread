@@ -20,7 +20,7 @@ Two rules that keep this useful:
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | ~~Mon 17~~ | ⚠️ fragmented | Car repair · realtor · school run. ✅ **Aubrea's fabric ARRIVED.** Toffee Windowpane retired. |
 > | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
-> | **Wed 19 — TODAY** | ✅ **the clear day** | **Linda's quilt handover** (binding checked ✅) + the wall-hanging talk · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
+> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · wall-hanging talk (outcome not recorded) · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
@@ -33,9 +33,12 @@ Two rules that keep this useful:
 >    §8 and §10 of `marketing/campaign-2026-08.md` are written around a real finished custom
 >    piece, this is the only one that exists, and after this evening it is gone. **Ask Maurya
 >    before publishing anything of her order — and ask for a photo in use and a review too.**
-> 2. **Wed 19 — Linda's quilt handover.** ✅ Binding checked either side of the patch. Tell her
->    the tea cosy is in Stories, and see her entry: the wall hanging is the natural conversation
->    to have while the mended quilt is in her hands.
+> 2. ✅ **Wed 19 — Linda's quilt handover: DONE.** Binding was checked either side of the patch
+>    beforehand; the quilt is back with her and the $105 order is closed. **She left a five-star
+>    review of the repair and the tea cover the same day** — now live in Kind Words.
+>    ❓ Two things from this slot are **not** recorded: whether she was told the tea cosy is in
+>    Stories, and how the **wall-hanging** conversation went. Both were the point of doing it in
+>    person; see her entries below.
 > 3. ✈️ **Aubrea's clips — WED 19, not "Wed or Thu".** Hand-delivered now, not posted.
 >    ⚠️ **Thursday stopped being a spare evening on 2026-08-18**: Maurya's drop-off moved onto it
 >    at her request, and Friday is a flight, so Thu 20 now holds an errand out of the house *and*
@@ -100,20 +103,27 @@ Two rules that keep this useful:
 > sewn before the clips land. In both cases the delivery meets a half-built job instead of a
 > standing start.
 
-- [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
-      Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
+- [x] **Linda M. — tea cover + quilt mending. $105 PAID. ✅ ORDER CLOSED 2026-08-19.**
+      Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. Both pieces local pickup (San
+      Antonio), delivered separately: **tea cover Aug 12, quilt handed back Aug 19** — inside
+      the window, and the quilt is out of the house.
+      ⭐ **She left a five-star review of both halves the same day** (see below). A $105 order
+      that closed on time and produced the site's first review of a repair.
       - [x] **Tea cover, $30 — DONE AND DELIVERED 2026-08-12.** Bound and handed over, five days
         inside the Aug 17–24 window and before the trip rather than after it.
         ✅ **IN STORIES 2026-08-13 — "Midnight Garden Tea Cosy"**, `PAST_MAKES` is now 13.
         Photographed in its branded box on the worktable, which is a better shot than a plain
         product one: the piece finished and about to go to its person.
-        ⚠️ **Tell Linda it's up** — same rule as Maurya's order. It's her piece.
+        ⚠️ **Tell Linda it's up** — same rule as Maurya's order. It's her piece. **Wed 19 was
+        the moment for it** (she was there, holding the quilt). Her review landing the same day
+        says she's pleased; it does *not* confirm she's been shown the Stories entry. **Tick this
+        only if she was actually told.**
         📝 **Note it went separately.** The plan on 2026-08-11 was that Linda wanted both pieces
         together, which is why the quilt was called the critical path for the whole $105. It
         didn't go that way, and that's fine — but it means **the quilt is now the only thing
         outstanding on this order**, and she has already had something in her hands, which buys
         patience the earlier plan didn't.
-      - **Quilt mending, $75 — ✅ PATCH SEWN 2026-08-12, not yet delivered.** Before/after photos
+      - [x] **Quilt mending, $75 — ✅ HANDED BACK 2026-08-19.** Patch sewn Aug 12. Before/after photos
         taken. The damage was a blowout at a four-seam junction near the quilt's edge — cloth
         gone to lint, batting out. **The repair is invisible in the wide shot**: the gingham and
         the cream-and-red ticking match the twenty-year-old originals in scale, colour and
@@ -123,13 +133,21 @@ Two rules that keep this useful:
         under the repairs line. The patch can't be picked out of it, the ticking stripe runs true,
         and the loft is even where the hole was.
         ✅ **BINDING CHECKED 2026-08-18** either side of the patch — the last thing that stood
-        between this and handover. **Handover is Wed 19**, which closes Linda's $105 order
+        between this and handover. ✅ **HANDED OVER WED 19 AS PLANNED**, closing the $105 order
         (the tea cover went separately on Aug 12).
+        ⚠️ **The quilt has LEFT THE HOUSE.** Anything not written down about this repair is now
+        memory only — see the ticking question below, which just got harder to answer, and note
+        that the before/after pair on custom.html is the only record of it that survives.
+        ❓ **Was the wall-hanging conversation had?** Wed 19 was chosen as the day for it
+        precisely because she'd be holding the mended quilt. If it happened, her entry further
+        down needs the outcome; if it didn't, that $650–1,100 piece is now waiting on a
+        conversation with no scheduled slot before the trip.
         *Why it mattered:* the damage is at the EDGE, which takes far more handling than the
         middle — dragging, tucking, pulling up — so this patch gets stress-tested harder than a
         central one would.
         ❓ **One detail still unrecorded: was the ticking harvested from the quilt itself, or
-        bought new?** Obvious today, gone in a month — and it matters, because bought-new cotton
+        bought new?** ⚠️ **Now answerable ONLY from memory — the quilt went back on Aug 19**, so
+        it can no longer be settled by looking. Obvious today, gone in a month — and it matters, because bought-new cotton
         needed a hard pre-wash before cutting (the quilt finished shrinking decades ago; skip that
         and Linda's first wash puckers the patch). Harvested cloth needs none of it, which is why
         it was the better option.
@@ -352,7 +370,14 @@ Two rules that keep this useful:
 ## 🟠 Dated — this week
 
 - [ ] 🔄 **LINDA — HEIRLOOM MEMORY WALL HANGING from her husband's suit. BACK ON 2026-08-13.**
-      📅 **WED 19 IS THE CONVERSATION.** The mended quilt is handed back that day, so she is in
+      📅 **WED 19 WAS THE CONVERSATION — and the handover HAPPENED, but the outcome of the talk
+      is NOT RECORDED.** ⚠️ **Settle this before the Fri 21 flight.** The window that was chosen
+      for it has now passed, so either it was had (in which case write down what she said, and
+      the answers to the checklist below) or it wasn't (in which case the next in-person slot is
+      **Tue 25**, after the trip, and everything below has to survive being emailed instead).
+      Either way the list is unanswered on paper, which for a $650–1,100 commission is the same
+      as not having asked. The original framing, still the right one if it hasn't happened:
+      the mended quilt is handed back that day, so she is in
       the room, holding the proof, with the $650–750 piece open between you — and there is a
       short list here that can only be settled in person: **read the content labels** in the
       jacket and trousers, **count the shirts** (the brief said shirts plural; one was
