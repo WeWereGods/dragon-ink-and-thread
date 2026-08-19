@@ -47,7 +47,10 @@ const PRICES = {
   "bow-porcelain-roses":   { name: "Porcelain Roses Bow",      amount: 1200 },
   "bow-lace-of-velaris":   { name: "Lace of Velaris Bow",      amount: 1200 },
   "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",     amount: 1200 },
-  "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", amount: 5500 },
+  // ⛔ PULLED FOR THE Aug 21–24 TRIP (2026-08-19) — see js/shop-data.js LINKS.
+  // Removed here too so a set already sitting in someone's localStorage cart cannot check out.
+  // ↩️ RESTORE ON Tue 25, then wrangler deploy.
+  // "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", amount: 5500 },
   "bandana-storykeeper":   { name: "The Storykeeper Bandana",  amount: 1800 },
   "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    amount: 1800 },
   "bandana-quilted-court":     { name: "The Quilted Court Bandana", amount: 2200 },

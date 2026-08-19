@@ -753,6 +753,24 @@ written.** Ask before inferring a post didn't run.
 
 ## 🔵 Waiting on something else
 
+- [ ] 🔁 **↩️ RESTORE THE SURIEL SET ON TUE 25 — it was pulled for the trip, not retired.**
+      Pulled 2026-08-19 because Fri 21 – Mon 24 is four days with nobody able to touch a listing,
+      and the set/singles race below is the shop's only overselling risk. **The SET came down and
+      the five singles stayed up**: five live listings beat one, $12 converts better than $55, and
+      anyone wanting all five can still buy them as singles for $60 — so nothing became unbuyable.
+      **How it was done** (deliberately NOT `soldOut: true`, which prints a "Sold" badge that is
+      false and fires the waitlist for a piece that hasn't sold):
+      - `LINKS` entry commented out in **js/shop-data.js** → button reads "Coming soon", card stays
+        visible, **product page stays alive so no Pinterest Pin lands on a 404**.
+      - `PRICES` entry commented out in **worker/checkout-worker.js** + deployed, so a set already
+        sitting in someone's localStorage cart can't check out either. Half-closing it would have
+        left exactly the hole the pull exists to close.
+      - **index.html Bows block: offerCount 13 → 12 AND highPrice 55.00 → 12.00.** The set was the
+        only bow above $12, so pulling it changed the *range*, not just the count. Nothing
+        regenerates that block.
+      ⚠️ **All four have to be reversed together on Tue 25**, then `wrangler deploy` from `main`.
+      ⚠️ **The `gameday-bows` branch has offerCount 14** from before this pull — reconcile when it
+      merges (12 + Autumn Court = 13, unless the set is back by then, in which case 14).
 - [ ] ⚠️ **The Suriel bow set and the five singles are the SAME five bows.** Listed both ways
       since 2026-08-07, and nothing in the shop tracks stock — so the moment one side sells,
       the other side is still live and sellable to somebody else.

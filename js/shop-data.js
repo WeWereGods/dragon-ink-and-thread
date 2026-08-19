@@ -334,7 +334,14 @@ window.DIT_SHOP = {
     "bow-porcelain-roses":   "cart",
     "bow-lace-of-velaris":   "cart",
     "bow-suriels-bouquet":   "cart",
-    "bow-suriel-set":        "cart",
+    /* ⛔ PULLED FOR THE Aug 21–24 TRIP (2026-08-19). The set and the five singles are
+       the SAME five bows, and nothing tracks stock — with nobody able to pull a listing for
+       four days, one sale on either side would oversell the other. Removing it from LINKS (not
+       soldOut, which would print a "Sold" badge that is false and fire the waitlist) leaves the
+       card visible but unbuyable and the page alive.
+       ↩️ RESTORE ON Tue 25: uncomment the line below, restore the Worker PRICES entry,
+       rebuild, push, wrangler deploy, and put Bows offerCount back to 13 / highPrice to 55.00.
+    "bow-suriel-set":        "cart", */
     "bandana-storykeeper":   "cart",
     "bandana-brew-and-bloom":    "cart",
     "bandana-quilted-court":     "cart",
