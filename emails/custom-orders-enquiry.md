@@ -237,11 +237,11 @@ grows, that's a new quote and it gets said out loud at the time.
 >
 > — Ayla
 
-⚠️ **HOLD THIS DRAFT — two things changed on 2026-08-19 after it was written.** She has since
-commissioned a **second** piece (a shadow box of an outfit, photos and memorabilia, ~$300) **and
-bought a 16 × 20 box herself**. This draft says the $700 "covers the box", so **if the box she
-bought was meant for the panel, the letter overcharges her by ~$75.** Establish which piece her
-box is for, and whether both projects want the same suit, before this goes anywhere. See TASKS.md.
+✅ **CLEARED TO SEND 2026-08-19.** She has since commissioned a **second** piece (a shadow box
+of an outfit, photos and memorabilia, ~$300) and bought a box for it herself — **that box is for
+the shadow box, not this panel**, so the "$700 covers the box" line is correct and nothing is
+double-charged. The two pieces are billed separately. ⚠️ **Settling whether both projects want
+the same suit is still outstanding, but it gates CUTTING, not this letter.**
 
 ⚠️ **Fill in the ready date before sending.** Jan–Feb 2027 was set for a piece six times bigger
 and has not been re-agreed for this one; and it was never established whether the piece is for a

@@ -20,7 +20,7 @@ Two rules that keep this useful:
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | ~~Mon 17~~ | ⚠️ fragmented | Car repair · realtor · school run. ✅ **Aubrea's fabric ARRIVED.** Toffee Windowpane retired. |
 > | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
-> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20, priced $700 all-in** · 🆕 **plus a SECOND commission, a ~$300 shadow box (her own box) — 🚨 settle which box is whose and whether both want the same suit, BEFORE invoicing** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
+> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20, priced $700 all-in** · 🆕 **plus a SECOND commission, a ~$300 shadow box (her own deep box) — invoice CLEARED to send; 🚨 settle whether both projects want the same suit before cutting** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
@@ -40,9 +40,10 @@ Two rules that keep this useful:
 >    ✅ **Priced $700 all-in, box included; covering note drafted and ready to send.**
 >    🆕 **She has since asked for a SECOND piece — a shadow box of an outfit, photos and
 >    memorabilia (~$300, 16 × 20, box already bought by her), taking her to ~$1,105.**
->    🚨 **Two things to settle before the invoice:** whether both projects want the same suit (the
->    panel destroys the jacket, the box needs it whole), and **which project her bought box is
->    for** — the $700 is quoted box-included, so if it was for the panel that price drops ~$75.
+>    ✅ **Her box is for the SHADOW BOX and is a deep one** — so the $700 stays box-included, the
+>    draft invoice is correct, and **it can go out.** Two boxes, nothing double-charged.
+>    🚨 **ONE thing still to settle, and it comes before any CUTTING: do both projects want the
+>    same suit?** The panel destroys the jacket; the shadow box needs it whole.
 >    ❓ Still not recorded from this slot: whether she was told the tea cosy is in Stories, the
 >    content labels, the shirt count, and whether the piece is for a date.
 > 3. ✈️ **Aubrea's clips — WED 19, not "Wed or Thu".** Hand-delivered now, not posted.
@@ -510,9 +511,9 @@ Two rules that keep this useful:
       panel and ~$300 for a separate shadow box** (she has bought that box herself), so about
       **$1,105 all told**. Several times more than every other custom order this month put
       together.
-      ⚠️ **BUT SEE "WHICH PROJECT IS THE BOUGHT BOX FOR?" BELOW BEFORE INVOICING.** This $700 is
-      quoted **box-included**, and Linda has just bought a 16 × 20 box. If it was meant for this
-      piece, **$700 drops to ~$625** and the draft invoice is wrong as written.
+      ✅ **CHECKED AND CLEAR 2026-08-19:** the 16 × 20 box Linda has bought is for the **shadow
+      box**, not this piece. **$700 stays box-included and the draft invoice is correct — send
+      it.** Two boxes; nothing double-charged.
       🚨 **SEE THE SHADOW-BOX ENTRY BELOW BEFORE CUTTING ANYTHING.** The two projects may want the
       same Hugo Boss suit — this panel is designed around **the jacket front kept whole**, which
       destroys it as a displayable outfit. **Only one of the two can have it.**
@@ -812,41 +813,31 @@ Two rules that keep this useful:
       **$300 leaves ~$240 of labour over 6–11 h = $22–40/hr**, in line with the $700 job.
       **Don't drop to $275** on "she bought the box" alone — that prices the saving and ignores
       the constraint she bought with it.
-      ### 🚨🚨 WHICH PROJECT IS THE BOUGHT BOX FOR? — ASK BEFORE THE INVOICE GOES OUT
-      ⚠️ **BOTH of Linda's commissions are "16 × 20 in a box", and the shop's $700 quote INCLUDES
-      buying one.** She has now bought a box. **Nobody has established which piece she bought it
-      for**, and the two readings have different prices:
-      - **She bought it for the SHADOW BOX** (assumed above) → panel unchanged at **$700 with the
-        shop's box included**; shadow box **~$300**. Two boxes exist. Total **~$1,000**.
-      - **She bought it for the PANEL** → **the $700 must come DOWN by ~$75** (it is priced
-        box-included and the draft invoice says so in as many words: *"That covers the box, the
-        materials and the making"*), and the **shadow box then needs a box of its own** — either
-        hers to buy again or ~$75 back on that side.
-      - ⚠️ **Or she thinks ONE box holds both.** ⛔ **It cannot.** A quilted panel fills its
-        window; an outfit with photos and memorabilia fills its own. **Two pieces, two boxes** —
-        say it plainly if there is any doubt.
-      🚨 **Settle this BEFORE sending the $700 invoice.** The draft promises a box inside the
-      price; if she has already bought that box, the invoice overcharges her by ~$75 on the first
-      bill of a $1,000 relationship. **That is the kind of error a five-star customer notices and
-      never mentions.**
-      ### 🚨 MEASURE HER BOX BEFORE ANYTHING ELSE — she has already spent the money
-      Three things to check **in person, this week**, because they are now discoveries rather than
-      choices and every one of them is her money already gone:
-      1. 🚨 **DEPTH — the likeliest problem by far.** Most off-the-shelf shadow boxes are **~1–1.5″
-         deep**. A folded adult shirt is 1.5–2″ on its own; add trousers, a jacket or anything
-         three-dimensional and it's 2–3″+. **If the box is shallow, the glass will not close — or
-         worse, it will close and crush the contents flat**, which looks dead and is exactly what
-         careful mounting exists to prevent. **Measure the internal depth against the actual
-         garment, folded as it will sit.** Better to find this out today than at assembly.
-      2. ⚠️ **DOES IT SEAL?** She chose a box **specifically to keep moths off** — that reasoning
-         only works if it closes properly. Many craft shadow boxes have an open or panel-pinned
-         back. **The shop can no longer choose a sealing one, so inspect hers**: if it doesn't
-         seal it can usually be improved (gasket tape behind the backing board), and if it can't,
-         **say so** rather than letting the moth assumption ride. ⚠️ **Freezing the outfit before
-         it goes in matters MORE now, not less**, since it's the protection still fully in your
-         hands.
-      3. ⚠️ **INTERNAL WINDOW, not the nominal 16 × 20.** Whatever it says on the box, the visible
-         opening is smaller once the rabbet and any mat are off. **Design to the measured opening.**
+      ### ✅ RESOLVED 2026-08-19 — HER BOX IS FOR THE SHADOW BOX, AND IT IS A DEEP ONE
+      Both open questions about the box are answered, and both came back the good way:
+      - ✅ **It is for THIS piece, not the memory panel.** So **the $700 panel is unchanged and
+        box-included, and its draft invoice is correct as written — the hold is lifted, send it.**
+        **Two boxes exist**, one bought by her for the shadow box and one the shop buys for the
+        panel. Nothing is double-charged in either direction.
+      - ✅ **"Deeper than usual" — which clears the biggest risk on this job.** The standard
+        ~1–1.5″ box was the real threat: a folded adult shirt is 1.5–2″ on its own, and a shallow
+        box either won't close or closes and **crushes the contents flat.**
+        ⭐ **Depth isn't just clearance, it is the difference between a garment and a pressed
+        flower.** It is what allows the outfit to be **shaped with acid-free tissue or batting so
+        it reads as clothing** — the 2–4 h step that is the whole craft here. In a shallow box
+        that step is impossible and the piece is flat no matter how well it is mounted. **She has
+        accidentally bought the thing that makes the good version achievable.** Tell her so.
+      ### ⚠️ Still measure it — two smaller checks, not risks
+      1. **Internal depth against the garment folded as it will actually sit**, once. "Deeper than
+         usual" is the right direction; the number is what the layout gets designed to.
+      2. ⚠️ **DOES IT SEAL? — still unknown, and still matters.** She chose a box **specifically
+         to keep moths off**, and depth says nothing about closure; plenty of deep shadow boxes
+         have a panel-pinned or open back. **Inspect hers.** If it doesn't seal it can usually be
+         improved (gasket tape behind the backing board). If it can't, **say so** rather than
+         letting the moth assumption ride. ⚠️ **Freezing the outfit before it goes in matters MORE
+         now, not less** — it is the protection still entirely in your hands.
+      3. **Design to the measured internal window**, not the nominal 16 × 20 — the visible opening
+         is smaller once the rabbet and any mat come off.
       ### 🎯 How to make 16 × 20 actually work — this is the design brief
       The outfit **cannot go in spread out**, and trying is what produces a crammed box. Instead:
       - **Fold it to show what's recognisably HIS** — the collar, one cuff with its button, a
