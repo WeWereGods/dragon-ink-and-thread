@@ -102,6 +102,13 @@ Two rules that keep this useful:
 
 - [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
+      🎁 **A MATCHING TEA MAT WENT WITH IT, FREE, AS A GIFT** (surfaced 2026-08-19 in
+        Linda's own review — it was nowhere in this file). The $105 order was tea cover $30 +
+        quilt mending $75; **the mat was never invoiced and never recorded.** Noted so the
+        delivery record matches what she actually received.
+        💡 **And it is a product.** She names "a custom tea cover with a matching tea mat" as one
+        thing. Home currently holds a single item — **a cover-and-mat SET is the obvious second**,
+        and it has already been made once and loved.
       - [x] **Tea cover, $30 — DONE AND DELIVERED 2026-08-12.** Bound and handed over, five days
         inside the Aug 17–24 window and before the trip rather than after it.
         ✅ **IN STORIES 2026-08-13 — "Midnight Garden Tea Cosy"**, `PAST_MAKES` is now 13.

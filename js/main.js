@@ -335,7 +335,7 @@
     // Linda, 2026-08-19. Her own words; typos fixed (spelling and one missing word),
     // nothing reworded. She wrote "five stars" herself — the rating is hers, not inferred.
     { quote: "I loved Ayla's work. She took an heirloom handmade quilt that has been in my family for 30 years. It was passed down to me from my mother. I wanted to pass it down but we found a hole that needed fixing first. Ayla was able to mend it fast and beautifully — now you can't even tell. Now I can pass it on to my daughter! Ayla also created a custom tea cover with a matching tea mat that are both unique and wonderfully made.",
-      name: "Linda", where: "on a quilt repair and a custom tea cover", stars: 5 }
+      name: "Linda M.", where: "on a quilt repair and a custom tea cover", stars: 5 }
   ];
 
   var testimonialsGrid = document.getElementById("testimonials-grid");

@@ -2164,3 +2164,35 @@ body.fabric-lightbox-open { overflow: hidden; }
   .repair-proof-pair { gap: 0.5rem; }
   .repair-proof figcaption { font-size: 0.86rem; }
 }
+
+/* Find the repair ------------------------------------------- */
+/* Mirrors .about-grid but with the photo on the RIGHT, so it doesn't
+   read as a second About block further down the same page. */
+.repair-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(1.5rem, 5vw, 3.5rem);
+  align-items: center;
+}
+.repair-art { order: 2; }
+.repair-copy { order: 1; }
+.repair-photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transform: rotate(1deg);
+  display: block;
+}
+.repair-attr {
+  font-family: var(--font-script);
+  font-size: 1.25rem;
+  color: var(--ink-soft, #6b6259);
+  margin-top: 0.4rem;
+}
+@media (max-width: 780px) {
+  .repair-grid { grid-template-columns: 1fr; }
+  .repair-art { order: 1; max-width: 340px; margin: 0 auto; }
+  .repair-copy { order: 2; }
+}
