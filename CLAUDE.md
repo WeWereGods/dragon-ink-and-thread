@@ -35,6 +35,12 @@ js/main.js            Mobile nav, scroll-reveal, footer year, countdown, Join-th
                       VARIANTS, LINKS + the variant-card picker).
 assets/               logo.png (transparent), tote.jpg. See assets/README.txt.
 emails/               Marketing email copy (not sent by the site; no platform wired up yet).
+                      Also **custom-order-terms.md** — REUSABLE invoice/quote blocks for
+                      custom orders (irreversible cutting, customer-supplied materials, the
+                      archival warning, clock-starts-on-arrival, scope-locked-to-the-drawing,
+                      final sale, care, turnaround exceptions). Each carries its CHARACTER
+                      COUNT because Stripe's terms field wants ~500. Pasted by hand; no code
+                      reads it. Written 2026-08-19 out of Linda's two-piece commission.
 ```
 
 ## ⚠️ The REPO is the source of truth for copy — Google Drive is not
