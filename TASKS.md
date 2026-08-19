@@ -100,7 +100,12 @@ Two rules that keep this useful:
 > sewn before the clips land. In both cases the delivery meets a half-built job instead of a
 > standing start.
 
-- [ ] **Linda — tea cover + quilt mending. $105 PAID, BOTH local pickup (San Antonio).**
+- [x] ✅ **Linda — tea cover + quilt mending. $105 PAID. BOTH DELIVERED; ORDER CLOSED 2026-08-19.**
+      Tea cover handed over Aug 12, quilt handed back Aug 19 — both inside the quoted window.
+      ⭐ **And it earned the next one.** She came back the same day with a two-piece commission
+      ($1,050) and wrote the site's best review. **The $75 repair was the audition** — that is
+      the Aug 29 push's argument, now with a named customer behind it.
+      📌 The heirloom wall hanging + shadow box are a SEPARATE, still-open job further down.
       Agreed 2026-08-10, quoted **7–14 days → due Aug 17–24**. **The quilt is already in hand.**
       🎁 **A MATCHING TEA MAT WENT WITH IT, FREE, AS A GIFT** (surfaced 2026-08-19 in
         Linda's own review — it was nowhere in this file). The $105 order was tea cover $30 +
@@ -120,7 +125,9 @@ Two rules that keep this useful:
         didn't go that way, and that's fine — but it means **the quilt is now the only thing
         outstanding on this order**, and she has already had something in her hands, which buys
         patience the earlier plan didn't.
-      - **Quilt mending, $75 — ✅ PATCH SEWN 2026-08-12, not yet delivered.** Before/after photos
+      - [x] **Quilt mending, $75 — ✅ DELIVERED 2026-08-19. THIS ORDER IS CLOSED.** Patch sewn
+        Aug 12, binding checked Aug 18, handed back Aug 19 — inside the Aug 17–24 window it was
+        quoted for. Before/after photos
         taken. The damage was a blowout at a four-seam junction near the quilt's edge — cloth
         gone to lint, batting out. **The repair is invisible in the wide shot**: the gingham and
         the cream-and-red ticking match the twenty-year-old originals in scale, colour and
@@ -135,7 +142,7 @@ Two rules that keep this useful:
         *Why it mattered:* the damage is at the EDGE, which takes far more handling than the
         middle — dragging, tucking, pulling up — so this patch gets stress-tested harder than a
         central one would.
-        ❓ **One detail still unrecorded: was the ticking harvested from the quilt itself, or
+        ⚠️ **LAST CHANCE, THE QUILT HAS GONE BACK: was the ticking harvested from the quilt itself, or
         bought new?** Obvious today, gone in a month — and it matters, because bought-new cotton
         needed a hard pre-wash before cutting (the quilt finished shrinking decades ago; skip that
         and Linda's first wash puckers the patch). Harvested cloth needs none of it, which is why
