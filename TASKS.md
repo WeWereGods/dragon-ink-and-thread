@@ -186,12 +186,14 @@ Two rules that keep this useful:
         the Aug 17–19 window, and in a month this entry is all anyone will have to tell a
         customer-requested reschedule from a missed deadline. **The piece was done on the 18th,
         inside the window, and offered.** Nothing was late.
-      - [ ] 🎁 **RESHOOT — the drop-off moved to Thu 20, so the tote is in the house two more
-        days.** All three weaknesses below can be fixed rather than lived with:
-        **① turn the chair so the window is to the SIDE** (both front-on frames were backlit and
-        sit a stop dark), **② one sharp frame of the ties**, **③ the interior and pocket bags**,
-        which nothing currently shows. **Do it in daylight Wednesday**, not the night before it
-        goes — that was the mistake the first time.
+      - [x] ❌ **RESHOOT NOT HAPPENING — packed 2026-08-19.** Briefly possible when the drop-off
+        moved to Thu 20, then closed when the tote was packed. **Don't reopen it**: unpacking a
+        finished quilted tote to chase a better frame risks creasing it, on a day that already
+        holds a drop-off and packing for a flight. **The six frames below are final** — the
+        backlit pair, the soft tie close-up and the missing interior are permanent for this piece.
+        ➡️ **This is what makes Maurya's in-use photo load-bearing rather than nice-to-have** —
+        it is now the ONLY remaining route to an image that says *wheelchair* rather than
+        *dining chair*, which is the whole of §8's argument. **Ask her properly on Thu 20.**
       - [x] 📸 **PHOTOGRAPHED 2026-08-18 — six frames.** Flat lay on pine
         (quilting sharp), two front-on on a chair back showing the ties bowed over the top rail,
         a tie close-up, and two hanging from the long strap with the dark lining visible.
