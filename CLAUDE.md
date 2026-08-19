@@ -623,7 +623,7 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   ⚠️ **"Brea P." IS Aubrea Pritt**, the custom bow-clip customer in TASKS.md (confirmed by the
   owner 2026-08-13). Two names for one person across the repo — **don't count her as two
   customers**. She bought a tote and a scrunchie, reviewed them five stars, then commissioned
-  custom work; Linda went the same way from a $30 tea cover to a $1,000 commission. **Both repeat
+  custom work; Linda went the same way from a $30 tea cover to a $1,100 commission. **Both repeat
   customers converted from a small first purchase**, which is the Aug 29 push's best argument and
   is currently unused in the campaign copy. Add `{ quote, name, where?, stars? }` objects
   to populate. NOTE: **two of the three rate CUSTOM makes, not shop listings** — the **"Road Trip

@@ -260,7 +260,7 @@ Two rules that keep this useful:
       ⭐ **She is also the second proof of the same pattern: the small first sale is the
       audition.** She bought a tote and a scrunchie, left a five-star review, then commissioned
       custom work. Linda did the identical thing from the other direction — a $30 tea cover and a
-      $75 repair, then a **$1,000** two-piece commission. **Both of the shop's repeat customers converted
+      $75 repair, then a **$1,100** two-piece commission. **Both of the shop's repeat customers converted
       from a small first purchase into custom.** That is the strongest argument the Aug 29 push
       has, it is evidence rather than assertion, and nothing in the campaign copy uses it yet.
       - ⚠️ **2026-08-13: the fabric now arrives AFTER the trip.** That is the **third** revision
@@ -353,19 +353,36 @@ Two rules that keep this useful:
       | Piece | Price | Due | Materials |
       |---|---|---|---|
       | **Custom Shadow Box** *(NEW — from the Aug 19 handover)* | **$300** | **30 days → Sep 18, 2026** | **Linda supplies the box AND the display materials.** Shop supplies only what holds pieces in position. |
-      | **Heirloom Memory Wall Hanging** | **$700** | **6 months → Feb 19, 2027** | **Linda supplies.** |
-      | | **$1,000** + 8.25% tax = **$1,082.50** | | |
-      **Payment: 50% deposit ($541.25) to begin · $162.38 on the shadow box · $378.87 on the
-      wall hanging.**
-      ⚠️ **RECONCILE THIS AGAINST THE DRAWING SHE ALREADY HOLDS.** The reissued drawing reads
-      **"$1,100 all in"**, materials included (~$170 loaded), i.e. **~$930 of labour** on the wall
-      hanging. The agreed $700 with Linda supplying is **$230 less labour for the same piece** —
-      at the 40–60 h estimate below that is **$11.67–17.50/hr**, against a range this file already
-      called "thin at the high one" *at $930*. **Linda's total also drops $1,100 → $1,000 while
-      gaining a shadow box**: more, for less. **Owner's call and recorded as agreed** — but it is
-      a real change, not a rounding, and it is the number to revisit first if the hours run long.
-      ⚠️ **The drawing says $1,100. Send an updated one, or the paperwork disagrees with itself** —
-      the same rule that applied when the date moved: a figure printed on a drawing is a promise.
+      | **Heirloom Memory Wall Hanging** | **$800** *(raised from $700 on 2026-08-19)* | **6 months → Feb 19, 2027** | **Linda supplies.** |
+      | | **$1,100** + 8.25% tax = **$1,190.75** | | |
+      **Payment: IN FULL UP FRONT — one charge of $1,190.75** (owner's decision 2026-08-19; the
+      earlier deposit-and-milestone schedule is void). Same as Maurya and Aubrea, who both paid
+      in full at the start.
+      ⚠️ **THE DISCLAIMER WORDING HAD TO CHANGE WITH IT** — "the *deposit* is non-refundable once
+      work begins" describes a deposit that no longer exists. It now reads **"payment is
+      non-refundable once work begins"**. A clause referring to a payment structure you aren't
+      using is exactly the sentence that gets argued over.
+      ⚠️ **$1,190.75 held against work that finishes in February.** Not wrong, and it is the
+      shop's established pattern — but she has paid in full and will wait six months, so the
+      **photo-at-each-stage habit stops being a nicety.** Garments laid out, blocks pieced, top
+      assembled. It costs nothing and it is the difference between a long wait and a void.
+      ⚠️ **Also worth knowing: the income lands in the 2026 tax year, the work in 2027.** Fine on
+      a cash basis and arguably simpler — but flag it to whoever does the books rather than
+      discovering it at year end.
+      ✅ **$700 → $800 BECAUSE THE DESIGN ARRIVED.** The tiers below price "base" as large simple
+      blocks of squares and rectangles. The actual design — dark suiting framing an open jacket,
+      the cornflower shirt running full height, cream pocket square at the shoulders — has **four
+      long angled seams, a T-intersection that must be crisp, and left-right symmetry with nowhere
+      to hide.** Low piece count, high precision bar: that is **Moderate ($800–950)**, not base.
+      **This is the file's own rule working — the quote follows the design.**
+      📌 **Timeline unchanged.** Moderate would normally want 10–14 weeks; the six months quoted
+      for the house sale absorbs that with room to spare.
+      🚨 **NUMBER COLLISION — REISSUE THE DRAWING BEFORE THE INVOICE GOES OUT.** Linda's drawing
+      reads **"$1,100 all in"** meaning *the wall hanging alone, materials included*. The invoice
+      total is now **also $1,100**, meaning *both pieces, materials excluded*. Same figure,
+      different scope. She can reasonably read the invoice as "the quilt is the $1,100 I was
+      quoted and the box is extra", or that the box is free. **Reissue at $800**, or the two
+      documents actively mislead each other.
       💷 **Linda is comfortably the shop's biggest customer**: $30 tea cover + $75 quilt repair
       already paid, plus $1,000 agreed = **$1,105 lifetime.** More than every other custom order
       this month put together.
