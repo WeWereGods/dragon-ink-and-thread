@@ -560,11 +560,26 @@ Two rules that keep this useful:
       washing is off the table, but it decides how the piece behaves — how much it will sag hung,
       how it presses, and whether the "wool" framing is even accurate.
       ### What changes now it hangs instead of covers
-      - ✅ **The yardage risk largely goes away.** A wall hanging is far smaller than a 50×60
-        throw, and the earlier worry was that one jacket, one pair of trousers and one shirt gave
-        ~3–4 yd usable against the 3+ a throw needs, with no margin. At wall size there's room.
-        **Still confirm how many shirts exist** — the original brief said shirts, plural; one
-        was photographed.
+      - ✅ **The yardage risk is GONE — and the shirt count is finally answered.** ✅ **THERE IS
+        EXACTLY ONE SHIRT** (confirmed 2026-08-19; the original brief said "shirts", plural, and
+        only one was ever photographed — **the photograph was right and the brief was wrong**).
+        At **16 × 20** that is ample: the earlier worry was ~3–4 yd usable against the 3+ a 50×60
+        throw needs, and this piece is a sixth of a wall hanging. **Close the question — yardage
+        cannot fail this design.**
+        ⚠️ **BUT ONE SHIRT MEANS ONE COLLAR, AND THE COLLAR IS THE DESIGN.** The drawing sets
+        **the shirt collar into the neck of the jacket medallion** — that is the focal element,
+        and it is now confirmed **one of one**. There is no second collar, no other blue, and the
+        cream exists only as **a single pocket square**. **Every distinctive colour in this piece
+        comes from a garment there is exactly one of.**
+        ⭐ **So buy a $3–5 thrift-shop dress shirt and practise the collar-into-neckline join on
+        that first.** This file already says to build in a test block; **this is the specific
+        place it matters**, because it is the one cut with no recovery. Cheapest insurance
+        available on a $700 commission, and it needs buying before the machine is packed.
+        ✅ **It also confirms an objection that was only suspected.** The reference image showed
+        *"many distinct blues and greys"* against one shirt and one pair of trousers — that was
+        flagged as a reason the image couldn't be made from these garments. **With the count now
+        at one, that is established fact, not inference.** The simplified drawing already handles
+        it; nothing to change, but the argument to her is now firmer.
       - ⚠️ **The precision bar goes UP, not down.** A throw is used and forgiven; a wall hanging
         is looked at from eighteen inches, on a wall, forever. Every seam intersection that
         doesn't meet is permanent and visible. **It must be blocked square** — wonk never shows
@@ -615,6 +630,8 @@ Two rules that keep this useful:
       - The navy sashing runs through the whole quilt **and** the medallion is an intact jacket
         front. **One jacket cannot be both** — keep the front whole and the jacket is spent.
       - The blocks show many distinct blues and greys; there is one shirt and one pair of trousers.
+        ✅ **The shirt count was CONFIRMED at one on 2026-08-19** — this line was written as an
+        assumption from the photographs and is now established fact.
       **So it needs bought-in yardage, which turns "made from his clothes" into "made WITH his
       clothes."** That is a real difference and it is hers to choose knowingly.
       ⚠️ **It is also a BED QUILT, not the wall hanging agreed this afternoon.**
@@ -834,8 +851,8 @@ Two rules that keep this useful:
       - 📝 **Get his name, his dates, and the story of the hat and the top** — when, where, worn
         together or not. **The label is the entire point**, and she is the only person alive who
         can answer.
-      - 📋 **Read the suit's content labels** and **count the shirts** — still unanswered from
-        Aug 13, and they belong to the panel, not this piece.
+      - 📋 **Read the suit's content labels** — still unanswered from Aug 13, and it belongs to
+        the panel, not this piece. ✅ **The shirt count is answered: ONE.**
       - ❓ **Ask whether either piece is for a DATE.** Raised Aug 13, still open, and it is the one
         answer that could change the whole schedule.
       ### 🚨 THE HAT IS NOW THE WHOLE PROBLEM — MEASURE IT AGAINST THE BOX BEFORE COMMITTING
