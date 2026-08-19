@@ -706,6 +706,69 @@ Two rules that keep this useful:
       band it if a genuinely separate customer asks. That restraint is the point of the rule, not
       an exception to it.
 
+- [ ] 💵 **PRICING A MEMORY / SHADOW BOX — an OUTFIT + photos + memorabilia in a 16 × 20
+      (asked 2026-08-19).** ⚠️ **A DIFFERENT TRADE FROM THE $700 PANEL — do not price it off
+      that.** Linda's piece is *sewn*: a suit deconstructed, interfaced, pieced and quilted, and
+      the sewing is what the money is for. **This is mounting and display work** — composing,
+      shaping and invisibly securing objects behind glass. Anchoring on $700 overprices it;
+      dismissing it as "just arranging things" underprices it, because doing it so it still looks
+      right in twenty years is the whole skill.
+      ### The hours — 6–11 h for a typical one
+      - **Design and layout, 1–2 h.** A fixed 16 × 20 window, objects of different depths, and
+        one chance to get it right. More if she wants to be shown options first.
+      - **Preparing and mounting the outfit, 2–4 h — the real work.** A garment laid flat slumps
+        and looks dead; it has to be **shaped with acid-free tissue or batting** so it reads as
+        clothing, then **hand-stitched through to the mount board**. Never glue, never pins driven
+        through the cloth. This is the step that separates a keepsake from a bag in a frame, and
+        it is invisible when done well — which is exactly why it gets underquoted.
+      - **Photos, 0.5–1 h.** Archival corners or hinges; **nothing adhesive touching the print.**
+      - **Memorabilia, 1–2 h for "some".** ⚠️ **Genuinely variable, and the thing most likely to
+        blow the estimate.** A badge is ten minutes; a watch, a pair of shoes or anything heavy or
+        awkward needs its own solution at its own depth. **Count the items and see them before
+        quoting** — same rule as repairs.
+      - **Assembly, sealing, glazing, backing, hardware, label, 1–2 h.**
+      ### The materials — $100–155
+      Deep 16 × 20 shadow box **$60–90** · acid-free mount and backing board **$25–40** ·
+      archival tissue, hinges, thread and mounting sundries **$15–25**.
+      ### 💷 THE NUMBER: **band $250–450, and $350 all-in is the typical 16 × 20**
+      6–11 h at the **$23–41/hr** the $700 job established = $140–450 of labour, plus $100–155 of
+      materials. **$350 with the box included** for an outfit, a few photos and two or three small
+      items; **up to $450–500** where the memorabilia is bulky, awkward or numerous. **Knock ~$75
+      off if she supplies the box.** Cross-checked against the trade: proper conservation framers
+      charge $250–500 to mount a garment at this size, and small-maker memorial boxes run
+      $150–350 with the customer usually supplying the frame.
+      ✅ **Sitting below the $650 heirloom-quilt floor is CORRECT here and not a floor breach** —
+      it is a different product, not a cheap quilt. ⚠️ **But that only holds if it is published as
+      its own thing.** Quote it as "a cheaper version of the memory quilt" and the $650 band
+      immediately looks like a fiction.
+      ### 🚨 THREE THINGS TO SAY BEFORE QUOTING
+      1. ⚠️ **AN ADULT OUTFIT DOES NOT FIT IN 16 × 20 — check this FIRST.** The visible window is
+         smaller than 16 × 20 once the rabbet and mat come off, and a single adult shirt arranged
+         to display fills roughly that on its own. Add photos and memorabilia and it cannot be
+         done. **16 × 20 works for a baby or child's outfit** (a coming-home outfit, a christening
+         gown — far and away the commonest version of this job), **or for part of an adult
+         outfit**: a shirt folded to show the collar and one cuff, or a tie and pocket square.
+         **A full adult outfit plus contents wants 20 × 24 or bigger.** Say so before a number is
+         agreed, exactly as the reference image had to be called impossible before anything was
+         cut. **This is the question that changes the quote most and it is invisible on paper.**
+      2. ⚠️ **USE COPIES OF THE PHOTOS, NOT THE ORIGINALS.** Sealed behind glass for years, prints
+         fade and cannot be recovered, and the box is not meant to be opened. Reprints cost
+         pennies. Same class of irreversible mistake as cutting the only jacket.
+      3. ⚠️ **IF THE OUTFIT IS WOOL, THE MOTH RULE APPLIES UNCHANGED** — freeze it before it goes
+         in, and seal the box. A closed box is the environment moths prefer, not a defence.
+      ### ❓ Whose is this? — settle before it is quoted
+      ⚠️ **Not established whether this is LINDA's box re-scoped, or a NEW enquiry.** It matters
+      and the two answers do not overlap:
+      - **If it is Linda's**, then $700 was priced for a *sewn panel* and this is a different,
+        cheaper job — **the invoice must change BEFORE it is sent**, not after. A price falling
+        after it has been agreed is survivable; one that has to rise is not, and the $700 draft in
+        `emails/custom-orders-enquiry.md` is written and ready to go.
+      - **If it is a new enquiry**, this is a **genuinely separate customer asking**, which is the
+        exact condition the restraint above names for banding a category. It would be the **fifth**
+        thing asked for before it was priced, after book sleeves, home pieces, repairs and quilts.
+        **Publish the band before taking the order, not after** — that is the whole lesson those
+        four taught, and it is cheaper to do now than to retrofit.
+
 - [x] ~~❌ HEIRLOOM MEMORY QUILT — declined 2026-08-13 on the wool.~~ **Superseded above.** She
       withdrew once she learned a quilt pieced from wool suiting can't be machine washed
       afterwards. **No quote was ever sent and nothing was cut** — the disclosure worked exactly
