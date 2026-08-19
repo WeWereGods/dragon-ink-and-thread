@@ -20,7 +20,7 @@ Two rules that keep this useful:
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | ~~Mon 17~~ | ⚠️ fragmented | Car repair · realtor · school run. ✅ **Aubrea's fabric ARRIVED.** Toffee Windowpane retired. |
 > | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
-> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · wall-hanging talk (outcome not recorded) · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
+> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20 in a memory box** — 🚨 **she is now waiting on an invoice that can't go as priced, see her entry** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
@@ -36,9 +36,11 @@ Two rules that keep this useful:
 > 2. ✅ **Wed 19 — Linda's quilt handover: DONE.** Binding was checked either side of the patch
 >    beforehand; the quilt is back with her and the $105 order is closed. **She left a five-star
 >    review of the repair and the tea cover the same day** — now live in Kind Words.
->    ❓ Two things from this slot are **not** recorded: whether she was told the tea cosy is in
->    Stories, and how the **wall-hanging** conversation went. Both were the point of doing it in
->    person; see her entries below.
+>    ✅ **The memory-piece conversation happened and settled the size: 16 × 20, in a memory box.**
+>    🚨 **That makes the invoice the live blocker, and it cannot go out at $1,100** — the drawing
+>    and every number were built for a 40 × 50, six times the area. See her entry.
+>    ❓ Still not recorded from this slot: whether she was told the tea cosy is in Stories, the
+>    content labels, the shirt count, and whether the piece is for a date.
 > 3. ✈️ **Aubrea's clips — WED 19, not "Wed or Thu".** Hand-delivered now, not posted.
 >    ⚠️ **Thursday stopped being a spare evening on 2026-08-18**: Maurya's drop-off moved onto it
 >    at her request, and Friday is a flight, so Thu 20 now holds an errand out of the house *and*
@@ -369,22 +371,113 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
-- [ ] 🔄 **LINDA — HEIRLOOM MEMORY WALL HANGING from her husband's suit. BACK ON 2026-08-13.**
-      📅 **WED 19 WAS THE CONVERSATION — and the handover HAPPENED, but the outcome of the talk
-      is NOT RECORDED.** ⚠️ **Settle this before the Fri 21 flight.** The window that was chosen
-      for it has now passed, so either it was had (in which case write down what she said, and
-      the answers to the checklist below) or it wasn't (in which case the next in-person slot is
-      **Tue 25**, after the trip, and everything below has to survive being emailed instead).
-      Either way the list is unanswered on paper, which for a $650–1,100 commission is the same
-      as not having asked. The original framing, still the right one if it hasn't happened:
-      the mended quilt is handed back that day, so she is in
-      the room, holding the proof, with the $650–750 piece open between you — and there is a
-      short list here that can only be settled in person: **read the content labels** in the
-      jacket and trousers, **count the shirts** (the brief said shirts plural; one was
-      photographed), say the **moths** and **UV** warnings out loud, and — the awkward one —
-      tell her **the reference image cannot be made from four garments** before anything is cut.
-      None of that survives being emailed as well as it survives being said. **Take the garments
-      out while she's there.**
+- [ ] 🚨 **LINDA M. — HEIRLOOM MEMORY PIECE from her husband's suit. ⛔ SHE IS WAITING ON AN
+      INVOICE, AND IT CANNOT BE SENT AS PRICED. Blocking — see "the invoice" below.**
+      ✅ **WED 19 CONVERSATION HAPPENED, and it settled the single biggest variable: SIZE.**
+      **AGREED: 16″ × 20″, to sit in a MEMORY BOX rather than hang on a wall**, chosen to
+      protect it from moths.
+      ### 🚨 What 16 × 20 does to everything already agreed
+      **This is not "the same piece, smaller" — it is a different object, and almost every number
+      in this entry was calculated for 40 × 50.**
+      - 📐 **AREA: 320 sq in vs 2000. It is 16% of the piece that was drawn and quoted** — a
+        6¼× reduction. Nothing that was sized for the old one survives untouched.
+      - ⛔ **THE DRAWING IS VOID — the composition does not fit at this size.** It is built on
+        *the jacket front kept whole as the centre medallion*. A tailored jacket front is roughly
+        20″ wide before seam allowances; **it is wider than the finished piece.** The collar at
+        the neck, the three garment-feature blocks along the bottom, the four half-square
+        triangles, the pocket-square accent and the jacket-cloth border have nowhere to go.
+        **A new drawing is needed before an invoice, not after** — the whole discipline of this
+        job has been "agree a sketch, then price it", and the size just changed underneath the
+        sketch. **This is the THIRD version she'd be sent** (v1 10–14 weeks/$900–1,100; v2 $1,100
+        all-in/Jan–Feb 2027; now v3). She currently holds v1.
+      - 💷 **$1,100 CANNOT STAND, and this is the urgent part because she is waiting to be
+        billed.** That number was 40–60 h on a 40 × 50. **This entry already states the rule in
+        as many words: "$1,100 holds for the design AS DRAWN only — if it grows that is a new
+        quote."** It shrank by 84% instead, and the rule cuts identically both ways. Invoicing
+        $1,100 for a 16 × 20 would be the single worst thing this job could do to a customer who
+        has already paid $105 and left a five-star review.
+      - ⏱️ **BUT THE HOURS DO NOT FALL 6× — do not price this off the area.** This entry's own
+        reasoning, written when the piece went from throw to wall size: *"deconstruction, cutting
+        around darts and canvas, and interfacing barely shrink with size."* You still unpick the
+        same jacket, read the same canvas, interface every piece you use. **Rough shape: 15–25 h**
+        — deconstruction and interfacing barely move, composition and quilting shrink hard,
+        finishing is easier on a small flat panel. **Anyone pricing this at 16% of $1,100 (~$175)
+        would be badly wrong**, and so would anyone holding $1,100.
+      - 🧵 **CONSTRUCTION CHANGES, and some of it is work REMOVED.** No hanging sleeve, no dowel
+        or rod, no stretched frame — **the entire sagging problem disappears**, because it lies
+        flat in a box instead of hanging off a sleeve for decades. Interfacing, batting/flannel
+        and backing shrink to offcuts. **Open question: does it even want batting and binding,
+        or is it mounted flat on board inside the box?** Those are different jobs and different
+        quotes.
+      - 🛒 **The 40 × 50 materials list below is DEAD** (~4–5 yd interfacing, 108″ backing, 42″
+        dowel — all of it sized for a piece six times bigger). At 16 × 20 the materials are
+        offcuts and the "she supplies / $170 loaded" arithmetic no longer means anything.
+      - ❓ **WHO BUYS THE BOX?** 16 × 20 is a standard shadow-box size, which is presumably why
+        it was chosen. **Not recorded whether she has one, is buying one, or expects it
+        included.** A decent 16 × 20 shadow box is not trivial money, and this must be settled
+        **on the invoice**, not discovered at handover.
+      ### ⚠️ THE MOTH REASONING NEEDS ONE HONEST CORRECTION — say it before she pays
+      A memory box is a real improvement on an open wall, but **a box alone does not protect wool
+      from moths, and in one respect it is the environment they prefer**: dark, still, undisturbed
+      for years. It protects **only** if two things are true, and neither is automatic:
+      - **The wool goes in CLEAN and, better, FROZEN FIRST.** Larvae feed on wool that carries
+        body oils and perspiration — a worn suit is exactly that. Any eggs already in the cloth
+        hatch happily inside a closed box. **Freeze the garments before construction** (several
+        days at freezer temperature, thawed and repeated), which is free and is the single most
+        effective thing available here.
+      - **The box actually SEALS.** Most shadow boxes do not. An unsealed box is storage, not a
+        barrier; cedar and lavender are mild deterrents, not protection.
+      ⚠️ **She has chosen this partly BECAUSE she believes it solves moths.** If it is unsealed
+      and the wool goes in unfrozen, the box is closer to an incubator than a defence — and this
+      is the one risk that destroys the piece *after* it is finished and paid for. **Tell her
+      what actually does the work.** ✅ **The box does neatly solve UV**, which was the other
+      standing warning: in a box on a shelf, the charcoal and navy stop fading.
+      ### ❓ Still unanswered from Wed 19 — and now they gate the invoice
+      Not recorded: whether the **content labels** were read, how many **shirts** exist, whether
+      she was told the **reference image can't be made from four garments**, and — raised Aug 13,
+      still open — **whether the piece is for a DATE.** That last one changes shape completely
+      now: **a 16 × 20 is a fraction of the build**, so the Jan–Feb 2027 timeline was set for an
+      object that no longer exists. If it was ever meant for Christmas or an anniversary, **it may
+      now be comfortably achievable**, and she should be asked rather than left with the extended
+      date. ⚠️ **The move is still the real constraint on the machine, not the sewing hours.**
+      ✅ **What has NOT changed:** the garments stay with her until after the move, 50% deposit
+      before anything is bought or cut, photos at each stage, and the label on the back naming
+      whose clothes and when — which matters *more* in a box, where the piece may outlive
+      everyone who could explain it.
+      ### 💵 THE INVOICE — what is blocking it, and what must be on it
+      ⛔ **DO NOT SEND $1,100.** ⛔ **Do not invent a number to unblock her either** — that is the
+      exact failure this repo has now made four times (book sleeves, home pieces, repairs and
+      quilts all got published bands retroactively, *after* a figure was quoted ad hoc under
+      pressure). **A customer waiting is pressure.** Linda herself is the case study: her $30 tea
+      cover and $75 repair were both invented on the spot, which is why those bands exist now.
+      🔍 **AND THIS ONE IS ARGUABLY A FIFTH UNBANDED THING.** A 16 × 20 textile panel mounted in
+      a memory box is **not a quilt and not a wall hanging** — it is a framed memory panel, and
+      the site prices neither. The published band that comes closest, **heirloom quilts from
+      clothing from $650**, was written for a quilt. ⚠️ **Deciding "is this still the $650 band,
+      or a different product?" IS the pricing decision** — answer that and the number follows.
+      Two defensible readings, and it is the owner's call, not a calculation:
+      - **It is still the heirloom-from-clothing job** → **hold the published $650 floor.** The
+        entry's own rule: *"Don't undercut your own floor because the object got smaller."* The
+        deconstruction, the irreplaceable cloth and the it-must-be-perfect standard are all
+        unchanged; only the area shrank. Consistent with what the site publishes today.
+      - **It is a new, smaller product** → priced honestly off ~15–25 h it lands around
+        **$400–600**, below the published floor — in which case **the band needs a line for it
+        BEFORE the invoice goes out**, in all seven places, or the site is publishing a $650
+        minimum while the shop bills $450 for garment work. That is the same drift the seven-place
+        rule exists to stop, just running the other way.
+      ⭐ **Recommendation: quote the $650 floor, all-in, materials included.** It keeps the site
+      truthful with no edits, it is a long way below the $1,100 she is braced for so the number
+      *falls* rather than rises, and at 15–25 h it pays $26–43/hr — the first job in this file
+      that pays properly, which is defensible precisely because the hours don't shrink with the
+      area. **But it is a decision to be made, not assumed.**
+      **Whatever the figure, the invoice must carry:** the agreed **16 × 20** size · **whether the
+      memory box is included or hers** · **50% deposit** before anything is bought or cut · a
+      **ready date** revisited for the smaller build (Jan–Feb 2027 was set for the 40 × 50) ·
+      and that the price **holds for the design as newly drawn only**.
+      📌 **Order of operations, and it has not changed just because she is waiting:** new drawing
+      at 16 × 20 → her yes → invoice → deposit → cut. **The quote follows the design.** Sending a
+      price for a composition that has not been drawn yet is how this job goes underwater on
+      cloth that cannot be replaced.
       ⚠️ **The memory-piece customer is LINDA** — the same customer as the tea cover and the quilt
       repair, not a separate enquiry. Logged as anonymous for a day and corrected 2026-08-13.
       She withdrew in the morning on the wool (can't be machine washed) and returned the same day
@@ -439,7 +532,8 @@ Two rules that keep this useful:
         **it doubles the moth risk** on a piece designed to hang undisturbed for years. No reason
         to feed that from the inside as well.
         **Flannel is the quiet answer** — body without loft, almost no weight, blocks dead flat.
-      - 🛒 **Materials list for the 40×50 (she supplies):** ~4–5 yd lightweight woven fusible
+      - 🛒 ⛔ **DEAD — sized for the 40 × 50; at 16 × 20 these are offcuts. Kept for reference
+        only.** **Materials list for the 40×50 (she supplies):** ~4–5 yd lightweight woven fusible
         interfacing · crib-size (45×60) low-loft cotton batting **or** 1.6 yd cotton flannel ·
         backing 1.6 yd of 108″ wide, **or** 3.2 yd of 44″ seamed down the middle (44″ alone is
         too narrow for a 40″ piece plus overhang) · 0.5 yd for the sleeve, can come off the
@@ -500,6 +594,8 @@ Two rules that keep this useful:
       ⚠️ **So do not promise the image. Promise a drawing.** Sketch an achievable design, agree
       it, quote it, then cut. Committing to a picture that was never made is how a job ends with
       a customer comparing a real object to something that never existed.
+      ⛔ **SUPERSEDED 2026-08-19 BY THE 16 × 20 DECISION — this composition does not fit and
+      must be redrawn. Kept because the ELEMENT CHOICES are still right; the layout is not.**
       ✅ **THE DRAWING EXISTS: `designs/linda-memory-wall-hanging.png`** (source `.svg` beside it).
       40″ × 50″: jacket front kept whole as the centre medallion with the shirt collar set into
       the neck, trousers as the background field, three garment-feature blocks along the bottom
@@ -578,13 +674,19 @@ Two rules that keep this useful:
       pocket square, the cornflower shirt) will look better than busy geometry AND cost less.
       **Offer that before quoting $1,400.**
       ### The number
-      **Quote $650–750. Hold the $650 floor.** Roughly 25–43 hours: deconstruction, cutting
+      ⛔ **ALL FIGURES BELOW WERE CALCULATED AT 40 × 50 AND ARE SUPERSEDED** — see "THE INVOICE"
+      above. The *reasoning* is what still applies, and it survives the size change intact:
+      hours don't shrink with area, and the published floor doesn't move because the object got
+      smaller. **Quote $650–750. Hold the $650 floor.** Roughly 25–43 hours: deconstruction, cutting
       around darts and canvas, and interfacing barely shrink with size, so a smaller piece is
       ~70–80% of a throw's hours for ~58% of the area — plus blocking, squaring and the sleeve,
       which a bed quilt never needs. **It is smaller but held to a higher standard, and the
       published band says heirloom-from-clothing starts at $650. Don't undercut your own floor
       because the object got smaller.** Materials still hers; 50% up front; 8–12 weeks.
-      📌 **Wall hangings have no band and no mention anywhere on the site.** ⚠️ This was briefly
+      📌 **Wall hangings have no band and no mention anywhere on the site.** ⚠️ **And as of
+      2026-08-19 it is not even a wall hanging — a 16 × 20 boxed panel is a third unbanded thing.**
+      The restraint below still holds (one enquiry is not a category), but see "THE INVOICE": if
+      this is priced BELOW the published $650 heirloom floor, the site has to say so first. ⚠️ This was briefly
       written up as "two requests in one day, a category knocking" — that was the same conflation
       error: **it is ONE request, not two.** One is an enquiry, not a pattern. Don't band it yet;
       band it if a genuinely separate customer asks. That restraint is the point of the rule, not
