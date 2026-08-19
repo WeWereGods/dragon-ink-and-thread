@@ -643,10 +643,11 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   site holds that describes the custom PROCESS** ("she found the most beautiful and unique music
   fabric for me as a music teacher") rather than a finished object — which is exactly the thing the
   Aug 29 push has to argue.
-  ⚠️ **LINDA'S REVIEW (2026-08-19) CARRIES NO `stars` — that is correct, not an omission.**
-  She wrote words and gave no rating, and a rating is **never** inferred from how warm a review
-  reads (the rule Cassidy's five stars were explicitly confirmed against). `stars` is optional in
-  the render, so the card simply shows the quote. **Don't "complete" it with five stars.**
+  ⚠️ **LINDA M.'s REVIEW (2026-08-19) IS FIVE STARS, AND THE STARS WERE CONFIRMED, NOT READ OFF
+  THE TONE.** It went in star-less and stayed that way until the owner was asked — the same order
+  Cassidy's was settled in. That order is the rule: **a rating is never inferred from how warm a
+  review reads**, and `stars` is optional in the render precisely so a review can go live without
+  one while the question is outstanding.
   It also covers **two things in one review** — her $75 quilt repair and her custom Midnight
   Garden tea cover — so `where` reads "on a quilt repair and a custom tea cover" rather than
   naming one piece. It is the site's **first review of a repair** and its **first from a local
@@ -655,9 +656,11 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   ⚠️ **It is the sharpest `aggregateRating` trap on the page — sharper than Cassidy's.** It says
   "tea cover" and there is now a **Handmade Patchwork Tea Covers** `Product` block. It does not
   belong there: that block offers exactly one listing, **The Suriel Tea Cover ($35)**, and Linda's
-  was a bespoke piece that was never sold from the site and now lives in Stories. (It has no stars
-  to aggregate either.) The full reasoning is written into the comment above the JSON-LD in
-  index.html so nobody has to rediscover it.
+  was a bespoke piece that was never sold from the site and now lives in Stories. ⚠️ **Her five
+  stars do not change that** — for a few hours the exclusion had two reasons (wrong piece, no
+  rating) and now it has one, which is the only one that ever mattered. **A rating arriving is
+  not an objection being lifted.** The full reasoning is written into the comment above the
+  JSON-LD in index.html so nobody has to rediscover it.
   📝 **Her spelling and punctuation were lightly corrected — nothing reworded** — and **her exact
   original words are preserved in a comment directly above the entry** in js/main.js. Do that for
   any future review rather than silently smoothing a customer's words away.
@@ -699,7 +702,8 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   Brea P.'s Strawberry Tote note, copied verbatim from `TESTIMONIALS` in js/main.js. **The other
   three real reviews all rate custom makes and are excluded**: the Road Trip Kindle Case (retired,
   no `Product` block), Cassidy E.'s music-print tote (a commission, not one of the totes the block
-  offers), and Linda's quilt repair + bespoke tea cover (a service and a one-off, and no stars).
+  offers), and Linda M.'s quilt repair + bespoke tea cover (a service and a one-off — five stars,
+  but on neither of the things the Tea Covers block sells).
   ⚠️ **Two of them are tempting for the same reason — each names something a block now sells.**
   Cassidy's is literally about a tote; **Linda's is literally about a tea cover, and Tea Covers got
   a block on 2026-08-13.** Neither belongs: those blocks declare `InStock` over a fixed set of

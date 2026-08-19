@@ -332,9 +332,9 @@
       name: "Brea P.", where: "on the Strawberry Tote", stars: 5 },
     { quote: "Dragon Ink and Thread made the most beautiful tote! She found the most beautiful and unique music fabric for me as a music teacher! The tote is the perfect size for my books and laptop! It has perfectly placed pockets for my keys! Wonderfully made!",
       name: "Cassidy E.", where: "on The Music Teacher's Tote", stars: 5 },
-    // Linda, 2026-08-19. Covers BOTH halves of her $105 order: the $75 quilt repair and the
-    // custom Midnight Garden Tea Cosy (+ matching mat). NO `stars` — she left words, not a
-    // rating, and a rating is never inferred from the tone (same rule that governs Cassidy's).
+    // Linda M., 2026-08-19. Covers BOTH halves of her $105 order: the $75 quilt repair and the
+    // custom Midnight Garden Tea Cosy (+ matching mat). The five stars are HERS — confirmed by
+    // the owner, same as Cassidy's; a rating is never inferred from how warm a review reads.
     // Spelling and punctuation lightly corrected; nothing reworded. Her words verbatim:
     // "I loved Ayla's work. She took a heirloom hand maid quilt, that has been in my family for
     //  30 year's. It was passed down to me from mother. I wanted to pass it down but we found a
@@ -342,7 +342,7 @@
     //  can't even tell. Now I can pass it on to my daughter! Ayla also created a custom tea
     //  cover with a matching tea mat that are both unique and wonderfully made."
     { quote: "I loved Ayla’s work. She took an heirloom handmade quilt that has been in my family for 30 years. It was passed down to me from my mother. I wanted to pass it down, but we found a hole that needed fixing first. Ayla was able to mend it fast and beautifully — now you can’t even tell. Now I can pass it on to my daughter! Ayla also created a custom tea cover with a matching tea mat that are both unique and wonderfully made.",
-      name: "Linda M.", where: "on a quilt repair and a custom tea cover" }
+      name: "Linda M.", where: "on a quilt repair and a custom tea cover", stars: 5 }
   ];
 
   var testimonialsGrid = document.getElementById("testimonials-grid");

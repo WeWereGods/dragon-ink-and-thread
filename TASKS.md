@@ -143,9 +143,9 @@ Two rules that keep this useful:
         It lands the same week the mending post is being watched for what it pulls, and it says
         the one thing a before/after photo cannot: that the mend held up to being looked at by
         the person who owns the quilt.
-        ⚠️ **NO STAR RATING — she left words, not stars, so the card carries none.** Stars are
-        never inferred from tone (the rule Cassidy's rating was confirmed against). **If she
-        gave a rating anywhere, add `stars` to her entry; otherwise leave it off.**
+        ⭐ **FIVE STARS — confirmed by the owner 2026-08-19, so the card carries them.** They
+        are hers, not read off the tone; the entry went up star-less and stayed that way until
+        she was asked, which is the correct order and the same way Cassidy's were settled.
         ✅ **Surname initial supplied by the owner 2026-08-19 — the card reads "Linda M."**,
         matching the house style the other three use. (It went up as bare "Linda" for the few
         minutes before that; nothing else in the repo carries her initial, so **TASKS.md still
@@ -153,7 +153,9 @@ Two rules that keep this useful:
         ⚠️ **Deliberately NOT in any `Product` JSON-LD.** It names a tea cover and there is now
         a Tea Covers block, but hers was the bespoke Midnight Garden piece, not the $35 Suriel
         listing that block offers. Reasoning is written into the comment above the blocks in
-        index.html so it isn't re-litigated.
+        index.html so it isn't re-litigated. ⚠️ **The five stars do NOT change this** — what
+        keeps her review out is the piece it rates, not the absence of a number to aggregate.
+        Now that she has a rating it will look more droppable, not less; it isn't.
         📮 The review reads as though she has **already seen the mended quilt** — worth
         squaring against the Wed 19 handover before anyone treats that box as still open.
       - ⚠️ **CORRECTION 2026-08-13: the wall hanging is NOT this patchwork quilt.** It was logged
