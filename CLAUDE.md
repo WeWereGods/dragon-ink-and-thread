@@ -406,10 +406,21 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   ("the ready-made ones in the shop are the same lovely thing for less") stops being literally true.
   ⚠️ **Home pieces went $30–60 → $40–60 on 2026-08-13**, the day The Suriel Tea Cover was listed
   at **$35**.
-  ⚠️ **PET BANDANAS NOW TIE: floor $22 vs the $22 Quilted Court** (found by audit 2026-08-13, not
-  yet changed — the owner's call). The $22 vs $18 comparison written here was true until the
-  Quilted Court was listed at $22 on Aug 9. Same shape as the scrunchie tie that forced the $6→$8
-  move; **$25 would clear it.**
+  ✅ **PET BANDANAS: the $22 floor STAYS at $22 — DECIDED BY THE OWNER 2026-08-19. Do not re-raise
+  it, and do not "fix" it to $25.** The audit flags floor $22 vs the $22 Quilted Court as a tie,
+  and the flag is a **false positive** here:
+  - **The category now has TWO CONSTRUCTION TIERS** — $18 plain bandanas and the $22 hand-pieced
+    Quilted Court. The floor buys the *simplest* custom bandana, whose real comparison is the $18
+    ones, and **$22 clears $18**.
+  - A custom *patchwork* bandana would never be quoted at the floor; it sits up the $22–35 band.
+    So nobody can commission the Quilted Court's equivalent for less than buying it.
+  - Raising the floor to $25 would make the cheapest plain custom bandana $3 dearer **purely to
+    satisfy a sentence** — charging a real customer more to tidy up copy.
+  🔍 **REFINEMENT THIS PRODUCED: compare like-for-like on CONSTRUCTION TIER, not just category.**
+  The dearest-single test assumes one tier per category, which held until Pet Bandanas got a
+  second on 2026-08-09. Expect the same the moment any category gets a plain and an elaborate
+  version — **the rule is "you can't commission the same thing cheaper than buying it", and
+  "the same thing" means comparable construction.**
   🔍 **Audit it like-for-like — SINGLES ONLY.** Comparing a floor against the dearest item in a
   category falsely flags `bow-suriel-set` ($55) and `scrunchie-bundle` ($15), which price per
   piece. Exclude ids matching `-set|bundle`, then check each floor against the dearest single. A $30 custom floor under a $35 shop piece means a customer could commission one for
