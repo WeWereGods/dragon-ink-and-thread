@@ -382,7 +382,28 @@ Two rules that keep this useful:
       **This is the file's own rule working — the quote follows the design.**
       📌 **Timeline unchanged.** Moderate would normally want 10–14 weeks; the six months quoted
       for the house sale absorbs that with room to spare.
+      🚨 **SIZE CHANGED 2026-08-19: 40″ × 50″ → 16″ × 20″.** That is **320 sq in against 2,000 —
+      a SIXTH of the area** — and it invalidates most of what this entry was built on:
+      - **Hours: ~40–60 h → ~12–20 h.** Setup, design, blocking, sleeve and label barely scale;
+        cutting, piecing, quilting and binding all shrink hard.
+      - ⚠️ **$800 now works out at roughly $40–67/hr**, against the $15.50–23/hr benchmark used
+        everywhere else in this file. **Every earlier flag on this job pointed at UNDERpricing;
+        this one points the other way, and it is the customer's side of it that matters.**
+        **Confirm Linda knowingly chose the smaller size.** If she agreed $800 picturing a 40×50
+        piece and receives something a sixth of that, it will not feel right to her however good
+        it is — and she has already paid in full.
+      - ✅ **The sagging problem largely disappears.** Wool hung at 16×20 barely loads a sleeve.
+        **A stretched frame is now clearly the better mount** (this file already said it was worth
+        offering on smaller pieces), and it makes the hanging and the shadow box read as a pair —
+        which a five-foot quilt beside a shadow box never would.
+      - ✅ **The yardage worry is dead**, and the materials list below is now wildly oversized:
+        roughly **1 yd interfacing · a fat quarter of batting · 0.75 yd backing**, not 4–5 yd.
+      - 📌 **Six months for a 12–20 hour piece is very generous.** Fine — it was set by the house
+        move, not the work — but there is now a lot of slack in it.
       ✅ **DRAWING REISSUED 2026-08-19** — `designs/linda-memory-wall-hanging.svg` + `.png`.
+      Now reads **16″ × 20″ · ~12–20 hours · $800**, 1.5″ border, "hanging sleeve or stretched
+      frame". **Reissued twice in one day** — once for the new composition and price, once for
+      the size. Send only the latest.
       It now reads **"$800 · materials supplied by you · ready Jan–Feb 2027"**, and the $1,100
       number collision is gone entirely (the invoice total is $1,050).
       ⚠️ **THE ARTWORK WAS REDRAWN, NOT JUST THE PRICE.** The old drawing showed a completely

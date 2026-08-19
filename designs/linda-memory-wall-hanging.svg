@@ -15,11 +15,11 @@
   <rect width="1800" height="1820" fill="#faf6ee"/>
 
   <text class="h1" x="60" y="62">The Memory Wall Hanging</text>
-  <text class="s"  x="60" y="102">40″ × 50″  ·  ~40–60 hours  ·  $800  ·  materials supplied by you  ·  ready Jan–Feb 2027</text>
+  <text class="s"  x="60" y="102">16″ × 20″  ·  ~12–20 hours  ·  $800  ·  materials supplied by you  ·  ready Jan–Feb 2027</text>
   <text class="sm" x="60" y="134">A working drawing, not a picture of a finished quilt. Agree this, then cut.</text>
-  <text class="sm" x="60" y="162">Revised 19 Aug 2026 — new composition, and the price now excludes materials.</text>
+  <text class="sm" x="60" y="162">Revised 19 Aug 2026 — new composition, now 16″ × 20″, and the price excludes materials.</text>
 
-  <!-- ================= QUILT  (25px = 1 inch, origin 350,190) ================= -->
+  <!-- ================= QUILT  (62.5px = 1 inch at 16″ × 20″, origin 350,190) ================= -->
   <!-- ground: jacket cloth, border and everything not otherwise covered -->
   <rect x="350" y="190" width="1000" height="1250" fill="#2c313c"/>
   <rect x="425" y="265" width="850" height="1100" fill="#2e3440"/>
@@ -65,7 +65,7 @@
     <g><circle cx="388" cy="1400" r="19" fill="#faf6ee" stroke="#2f2a24" stroke-width="2"/><text class="num" x="388" y="1407" text-anchor="middle" fill="#2f2a24">6</text></g>
   </g>
 
-  <text class="sm" x="850" y="1490" text-anchor="middle">40″ wide · 50″ tall · 3″ border · low-loft batting · full-width hanging sleeve on the back</text>
+  <text class="sm" x="850" y="1490" text-anchor="middle">16″ wide · 20″ tall · 1.5″ border · low-loft batting · hanging sleeve or stretched frame</text>
 
   <!-- ================= KEY ================= -->
   <text class="h2" x="1400" y="238">The pieces</text>
@@ -85,7 +85,7 @@
 
     <text class="key" x="1400" y="616">5 · Shirt — shoulder band</text>
 
-    <text class="key" x="1400" y="676">6 · Border, 3″ — jacket cloth</text>
+    <text class="key" x="1400" y="676">6 · Border, 1.5″ — jacket cloth</text>
   </g>
 
   <g>
