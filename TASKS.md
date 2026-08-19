@@ -23,7 +23,8 @@ Two rules that keep this useful:
 > | **Wed 19 — TODAY** | ✅ **the clear day** | **Linda's quilt handover** (binding checked ✅) + the wall-hanging talk · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
-> | **Tue 25 – Fri 28** | ✅ | The run-up to the push — four days |
+> | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
+> | **Wed 26 – Fri 28** | ✅ | Sew the game-day bows · the run-up to the push |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
@@ -52,6 +53,25 @@ Two rules that keep this useful:
 > prevent. The penalty is unchanged; only the errand went away.
 > 📮 **Tell Aubrea.** She has been told a parcel is coming and roughly when; she'll be watching
 > for a post date and tracking that will never arrive. One line.
+>
+> ### ⛔ TUE 25 — do this before anything else
+> **↩️ Restore the Suriel set.** It was pulled on 2026-08-19 for the trip, **not retired**, and
+> a temporary pull nobody reverses is just a listing quietly lost. It is the shop's only $55
+> item and it is unbuyable until this is done.
+> **Four reversals, all together, then deploy:**
+> 1. Uncomment the `LINKS` entry in **js/shop-data.js**
+> 2. Uncomment the `PRICES` entry in **worker/checkout-worker.js**
+> 3. **index.html** Bows block → `offerCount` back to **13**, `highPrice` back to **"55.00"**
+> 4. `node tools/build-products.js && node tools/build-catalog.js && node tools/bump-assets.js`,
+>    commit, push — then **`wrangler deploy` from `main`, after pulling**
+> 💡 **If the game-day bows are sewn by then, merge `gameday-bows` FIRST and do ONE deploy for
+> both.** Reconcile `offerCount` in one go — 13 restored + Autumn Court = **14**.
+> ✅ **Verify on the site, not against the Worker** — the card should read "Add to cart" instead
+> of "Coming soon". That's free and it's enough. ⚠️ **Restoring inverts the cheap test**: it was
+> the *rejection* that cost nothing, and after the restore a POST to the Worker **succeeds** and
+> mints a real Stripe session. Only do that if the card looks wrong, and log the session next to
+> the recovery figures if you do.
+> Full context in the 🔁 entry further down.
 >
 > ✈️ **The trip is CONFIRMED: Fri 21 → Mon 24, back at the machine Tue 25.** It was floated as
 > Thu–Sun, cancelled, then re-confirmed with different dates inside an evening — which is exactly
