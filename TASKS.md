@@ -260,7 +260,7 @@ Two rules that keep this useful:
       ⭐ **She is also the second proof of the same pattern: the small first sale is the
       audition.** She bought a tote and a scrunchie, left a five-star review, then commissioned
       custom work. Linda did the identical thing from the other direction — a $30 tea cover and a
-      $75 repair, then a **$1,100** two-piece commission. **Both of the shop's repeat customers converted
+      $75 repair, then a **$1,050** two-piece commission. **Both of the shop's repeat customers converted
       from a small first purchase into custom.** That is the strongest argument the Aug 29 push
       has, it is evidence rather than assertion, and nothing in the campaign copy uses it yet.
       - ⚠️ **2026-08-13: the fabric now arrives AFTER the trip.** That is the **third** revision
@@ -352,10 +352,15 @@ Two rules that keep this useful:
       ## 💵 AGREED 2026-08-19 — $1,000 across TWO pieces
       | Piece | Price | Due | Materials |
       |---|---|---|---|
-      | **Custom Shadow Box** *(NEW — from the Aug 19 handover)* | **$300** | **30 days → Sep 18, 2026** | **Linda supplies the box AND the display materials.** Shop supplies only what holds pieces in position. |
+      | **Custom Shadow Box** *(NEW — from the Aug 19 handover)* | **$250** *(was $300, cut same day)* | **30 days → Sep 18, 2026** | **Linda supplies the box AND the display materials.** Shop supplies only what holds pieces in position. |
       | **Heirloom Memory Wall Hanging** | **$800** *(raised from $700 on 2026-08-19)* | **6 months → Feb 19, 2027** | **Linda supplies.** |
-      | | **$1,100** + 8.25% tax = **$1,190.75** | | |
-      **Payment: IN FULL UP FRONT — one charge of $1,190.75** (owner's decision 2026-08-19; the
+      | | **$1,050** + 8.25% tax = **$1,136.63** | | |
+      ⚠️ **THE SHADOW BOX IS PRICED WITH ITS SCOPE STILL UNKNOWN.** $250 was set before anyone
+      established what memorabilia actually goes in the box. Every other figure here is checked
+      against an hour estimate; **this one has none, anywhere.** If it turns out to hold framed
+      paper, medals and a costume needing individual mounts, $250 may not cover it — and it is
+      the piece due first, in 30 days. **Establish the contents before starting, not after.**
+      **Payment: IN FULL UP FRONT — one charge of $1,136.63** (owner's decision 2026-08-19; the
       earlier deposit-and-milestone schedule is void). Same as Maurya and Aubrea, who both paid
       in full at the start.
       ⚠️ **THE DISCLAIMER WORDING HAD TO CHANGE WITH IT** — "the *deposit* is non-refundable once
@@ -377,14 +382,26 @@ Two rules that keep this useful:
       **This is the file's own rule working — the quote follows the design.**
       📌 **Timeline unchanged.** Moderate would normally want 10–14 weeks; the six months quoted
       for the house sale absorbs that with room to spare.
-      🚨 **NUMBER COLLISION — REISSUE THE DRAWING BEFORE THE INVOICE GOES OUT.** Linda's drawing
-      reads **"$1,100 all in"** meaning *the wall hanging alone, materials included*. The invoice
-      total is now **also $1,100**, meaning *both pieces, materials excluded*. Same figure,
-      different scope. She can reasonably read the invoice as "the quilt is the $1,100 I was
-      quoted and the box is extra", or that the box is free. **Reissue at $800**, or the two
-      documents actively mislead each other.
+      ✅ **DRAWING REISSUED 2026-08-19** — `designs/linda-memory-wall-hanging.svg` + `.png`.
+      It now reads **"$800 · materials supplied by you · ready Jan–Feb 2027"**, and the $1,100
+      number collision is gone entirely (the invoice total is $1,050).
+      ⚠️ **THE ARTWORK WAS REDRAWN, NOT JUST THE PRICE.** The old drawing showed a completely
+      different design — a jacket-front medallion with lapels, buttons, both pockets, the shirt
+      cuff and the trouser welt. **The new composition is the one Linda chose**: dark ground,
+      cream pocket square at the shoulders, the shirt running full height, the trousers as two
+      tapered fronts. Editing only the price would have left a drawing of a piece nobody is
+      making — worse than not reissuing at all.
+      ⚠️ **THE NEW DESIGN DROPS EVERY LITERAL GARMENT FEATURE.** No pocket, no cuff, no buttons,
+      no Boss label — the old key listed six of them. This file's own steering says those are
+      worth *"immeasurably more to the person who has to look at it — a stranger sees clever
+      patchwork, she sees his pocket."* The new design is handsomer and reads better as a graphic;
+      it is also more anonymous. **Worth one question to Linda: would she like one real feature
+      worked in** — his button on the shirt column, or the Boss label in a corner? It costs
+      almost nothing and it is the difference between a nice abstract and *his* jacket.
+      📌 **Callout mapping is an inference from the palette** (navy = jacket, grey = trousers,
+      blue = shirt, cream = pocket square). Confirm before cutting.
       💷 **Linda is comfortably the shop's biggest customer**: $30 tea cover + $75 quilt repair
-      already paid, plus $1,000 agreed = **$1,105 lifetime.** More than every other custom order
+      already paid, plus $1,050 agreed = **$1,155 lifetime.** More than every other custom order
       this month put together.
       ⭐ **AND IT IS THE $75 REPAIR THAT EARNED IT.** She handed over a family quilt with a hole
       in it, got it back invisibly mended, and then trusted the same hands with her husband's

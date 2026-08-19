@@ -13,7 +13,7 @@ it in a scratch dir):
 Nothing here is referenced by the website. These are not web assets and do not
 belong in assets/ — they are records of a job.
 
-  linda-memory-wall-hanging.svg   2026-08-13. Linda's heirloom wall hanging from
+  linda-memory-wall-hanging.svg   2026-08-13, REDRAWN 2026-08-19. Linda's heirloom wall hanging from
                                   her husband's Boss jacket, trousers, Geoffrey
                                   Beene shirt and pocket square. The SIMPLIFIED
                                   design — see TASKS.md for why the reference
