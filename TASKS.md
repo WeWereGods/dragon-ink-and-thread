@@ -260,7 +260,7 @@ Two rules that keep this useful:
       ⭐ **She is also the second proof of the same pattern: the small first sale is the
       audition.** She bought a tote and a scrunchie, left a five-star review, then commissioned
       custom work. Linda did the identical thing from the other direction — a $30 tea cover and a
-      $75 repair, then a **$1,100** commission. **Both of the shop's repeat customers converted
+      $75 repair, then a **$1,000** two-piece commission. **Both of the shop's repeat customers converted
       from a small first purchase into custom.** That is the strongest argument the Aug 29 push
       has, it is evidence rather than assertion, and nothing in the campaign copy uses it yet.
       - ⚠️ **2026-08-13: the fabric now arrives AFTER the trip.** That is the **third** revision
@@ -333,9 +333,42 @@ Two rules that keep this useful:
       repair, not a separate enquiry. Logged as anonymous for a day and corrected 2026-08-13.
       She withdrew in the morning on the wool (can't be machine washed) and returned the same day
       wanting it **hung rather than used**, which makes the entire objection irrelevant.
-      💷 **This makes Linda comfortably the shop's biggest customer**: $30 tea cover + $75 quilt
-      repair already paid, and a **$650–750** commission on the table. That is more than every
-      other custom order this month put together.
+      ## 🖼️ THE SHADOW BOX — new piece, agreed 2026-08-19, $300, due Sep 18
+      Holds **his costume and memorabilia**, in a box Linda supplies. She supplies the box and the
+      display materials; the shop supplies only what is needed to hold pieces in position.
+      ⚠️ **"MEMORABILIA" NEEDS THE SAME DISCLOSURE THE WOOL GOT — and it isn't written yet.**
+      Ask what actually goes in before starting. **Paper and photographs are permanently damaged
+      by ordinary adhesives and non-acid-free board**, metal (medals, pins) can stain fabric, and
+      some mounting cannot be undone. This is the same shape as the washability conversation on
+      Aug 13 — **that disclosure didn't cost the order, it found the right product.**
+      ❓ **Say whether the mounting is REVERSIBLE.** Stitched to a covered board with removable
+      stitches, nothing cut or glued, is genuinely valuable to a widow and worth stating as a
+      feature. Anything irreversible needs the same written acknowledgement as the garments.
+      ⚠️ **30 days runs straight through the house move.** It also depends on Linda handing over
+      the box, the materials and the memorabilia — **the clock cannot start until all three are
+      in hand**, which is the five-for-five lesson again (fabric, fabric, ticking, batting, clips).
+      **Quote from the date the materials arrive, not from Aug 19.**
+
+      ## 💵 AGREED 2026-08-19 — $1,000 across TWO pieces
+      | Piece | Price | Due | Materials |
+      |---|---|---|---|
+      | **Custom Shadow Box** *(NEW — from the Aug 19 handover)* | **$300** | **30 days → Sep 18, 2026** | **Linda supplies the box AND the display materials.** Shop supplies only what holds pieces in position. |
+      | **Heirloom Memory Wall Hanging** | **$700** | **6 months → Feb 19, 2027** | **Linda supplies.** |
+      | | **$1,000** + 8.25% tax = **$1,082.50** | | |
+      **Payment: 50% deposit ($541.25) to begin · $162.38 on the shadow box · $378.87 on the
+      wall hanging.**
+      ⚠️ **RECONCILE THIS AGAINST THE DRAWING SHE ALREADY HOLDS.** The reissued drawing reads
+      **"$1,100 all in"**, materials included (~$170 loaded), i.e. **~$930 of labour** on the wall
+      hanging. The agreed $700 with Linda supplying is **$230 less labour for the same piece** —
+      at the 40–60 h estimate below that is **$11.67–17.50/hr**, against a range this file already
+      called "thin at the high one" *at $930*. **Linda's total also drops $1,100 → $1,000 while
+      gaining a shadow box**: more, for less. **Owner's call and recorded as agreed** — but it is
+      a real change, not a rounding, and it is the number to revisit first if the hours run long.
+      ⚠️ **The drawing says $1,100. Send an updated one, or the paperwork disagrees with itself** —
+      the same rule that applied when the date moved: a figure printed on a drawing is a promise.
+      💷 **Linda is comfortably the shop's biggest customer**: $30 tea cover + $75 quilt repair
+      already paid, plus $1,000 agreed = **$1,105 lifetime.** More than every other custom order
+      this month put together.
       ⭐ **AND IT IS THE $75 REPAIR THAT EARNED IT.** She handed over a family quilt with a hole
       in it, got it back invisibly mended, and then trusted the same hands with her husband's
       suit. **The small job was the audition.** Worth remembering next time a $40 mend looks like
