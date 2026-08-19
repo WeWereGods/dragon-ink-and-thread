@@ -893,6 +893,14 @@ function. No consent, no webhook, no privacy-policy change — which is why it w
 ahead of abandoned-cart recovery.
 
 **Baseline, measured from the Stripe API on 2026-08-08** (whole account history, 31 sessions):
+⚠️ **EXCLUDE ONE SESSION FROM ALL OF THIS: a `bow-lace-of-velaris` ($12) Checkout session was
+minted on 2026-08-19 as a TEST**, to prove the five singles still checked out after the Suriel
+set was pulled. It will expire unpaid and look exactly like a genuine abandonment. It isn't one.
+📌 The negative case (a pulled id → "Your cart is empty") costs nothing, because the Worker
+rejects before creating a session. Proving the *positive* case cannot be done without a real
+session — so do it only when something would actually be broken if it failed, and write the
+session down here when you do.
+
 - 4 real sales vs ~7 genuine abandonments → **~36% of people reaching the payment page paid**
 - **3 of those abandonments sat just under $50**: $45.05, and $41.50 twice
 - 0 of 26 unpaid sessions captured an email
