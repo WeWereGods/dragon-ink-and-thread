@@ -204,17 +204,30 @@ Two rules that keep this useful:
         the tie close-up is **out of focus on the near bow**; and **nothing shows the pocket bags
         or the interior**, which was on the shot list and is the detail that reads as *considered*
         rather than merely *sewn*.
+        ⚠️ **THE SIX FRAMES COVER BOTH TOTES, NOT ONE** (see the correction below) — so the
+        wheelchair tote actually has FEWER usable frames than the count suggests. Its
+        distinguishing feature, the **four ties that fasten it to the handle**, is visible, which
+        is the important part.
         🚨 **THE REAL GAP: none of these say WHEELCHAIR — they say dining chair.** That was what
         was available, and it is not a criticism of the photos, but §8 of
         `marketing/campaign-2026-08.md` leans on the wheelchair *specifically*, because that is
         what makes the made-for-you argument unanswerable. A tote tied to a kitchen chair is just
         a nice tote. **So Maurya's in-use photo is no longer a nice-to-have — it is the shot the
         push actually needs**, and nobody else can take it.
-      - 💡 **NEW SELLING POINT, unwritten anywhere:** the photos show it working **two ways** —
-        tied onto the chair back, and carried from the long strap like a shoulder bag. **It comes
-        off the chair and goes with you**, which for a wheelchair user is the difference between a
-        caddy and a bag. ⚠️ **Owner to confirm that reading**, then it belongs in the custom copy
-        and in the Aug 29 push.
+      - ❌ **VOID — "it works two ways" was WRONG (corrected by the owner 2026-08-19).** The
+        six frames are **TWO DIFFERENT TOTES**, not one dual-mode one:
+        - **The WHEELCHAIR tote** — the frames showing it tied to a chair back. **FOUR ties**
+          that fasten it to the handle (not the two bows visible at the top of the frame).
+        - **The TRADITIONAL tote** — the frames showing it hanging from a single long strap.
+          This is the first piece of her order, approved back on Aug 9.
+        ⚠️ **Do NOT write "comes off the chair and goes with you" anywhere.** It was inferred from
+        photos of two objects and it is not true of either. It had been queued for the custom copy
+        and the Aug 29 push.
+        📌 **The durable lesson: never derive a product FEATURE from photographs.** Dimensions,
+        construction and how a thing attaches come from the maker, full stop. A photo is evidence
+        that something exists, not evidence of how it works.
+        ❓ **Still to confirm: which tote is the flat-lay frame?** It reads as the traditional one
+        but that is another inference, which is exactly what went wrong here.
         ⚠️ **Ask Maurya before publishing anything of her order** — Thu 20, while she's in front
         of you and pleased. **Ask for two other things at the same time**: a photo of it in use
         (see above — this one matters), and a review. She is the shop's third custom customer and
