@@ -226,8 +226,19 @@ Two rules that keep this useful:
         📌 **The durable lesson: never derive a product FEATURE from photographs.** Dimensions,
         construction and how a thing attaches come from the maker, full stop. A photo is evidence
         that something exists, not evidence of how it works.
-        ❓ **Still to confirm: which tote is the flat-lay frame?** It reads as the traditional one
-        but that is another inference, which is exactly what went wrong here.
+        ✅ **FLAT LAY = TRADITIONAL, confirmed by the owner 2026-08-19.** So the split is 3 / 3:
+        - **TRADITIONAL (3):** flat lay + both long-strap frames.
+        - **WHEELCHAIR (3):** the two front-on chair-back frames + the tie close-up.
+        🚨 **BOTH FRAMES PICKED AS KEEPERS ARE THE TRADITIONAL TOTE.** The "hero" strap shot and
+        the "craft shot" flat lay are the wrong piece. **The wheelchair tote — the one §8 and §10
+        of the campaign are built on — has exactly three frames, and they are the three with
+        problems: two backlit and one out of focus.** There is no good photograph of the piece the
+        push depends on, and the tote is packed.
+        ➡️ **Maurya's in-use photo is now essential, not merely load-bearing.** It is the only way
+        the push gets a usable image of a wheelchair tote. **Ask for it on Thu 20 as a specific
+        request** — one photo of it on her chair — rather than a vague "send me a picture
+        sometime". If she says no, §8 needs rewriting around the traditional tote and the
+        custom-process story instead, and that is better known before the 29th than during it.
         ⚠️ **Ask Maurya before publishing anything of her order** — Thu 20, while she's in front
         of you and pleased. **Ask for two other things at the same time**: a photo of it in use
         (see above — this one matters), and a review. She is the shop's third custom customer and
