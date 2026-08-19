@@ -186,6 +186,64 @@ than a reluctant yes:
 
 ---
 
+## Sending the invoice on a BIG commission (added 2026-08-19)
+
+A four-figure-ish invoice for something that won't exist for months is not the same email as a
+$36 one. On a small custom order the invoice speaks for itself; here it arrives long before the
+object, so **it has to say what the money is doing and what happens next**, or a long silence
+starts the moment she pays.
+
+Four things belong on or beside it, and all four are lessons already paid for in this repo:
+
+1. **The size and what's included, in words.** Not just a total. A total alone is what lets a
+   piece quietly grow between agreeing and making.
+2. **What the deposit buys.** "This buys the materials and the box; nothing is cut until you've
+   seen the drawing and said yes" turns a bill into a plan.
+3. **What can't be cut yet, and why that's deliberate.** The quote follows the design here, not
+   the other way round.
+4. **When she'll hear from you next.** A months-long build needs photos at each stage; say so
+   up front so the wait reads as progress rather than a void.
+
+**Never let the price rise after a drawing with a number on it has been sent.** If the design
+grows, that's a new quote and it gets said out loud at the time.
+
+### Draft — Linda's memory panel, $700 all-in (2026-08-19)
+
+> Hi Linda,
+>
+> Thank you for trusting me with the quilt — I'm so glad it's back where it belongs, and your
+> words about it meant a great deal.
+>
+> Here's the invoice for his memory panel, as we agreed: **16 × 20, made from his jacket,
+> trousers and shirt, and mounted in a memory box — $700 all in.** That covers the box, the
+> materials and the making, so there's nothing further to add later. Half up front and half when
+> it's finished.
+>
+> What the deposit does straight away is buy the box and the interfacing. **Nothing of his gets
+> cut until you've seen a drawing and told me you're happy with it** — I'll send you one sized to
+> the box once I have it in my hands, because I want to measure the opening rather than guess it.
+>
+> Two things I want to say plainly, because they're the ones that matter later:
+>
+> The box was a good instinct, and it solves the fading problem completely. On the moths, though,
+> a box on its own isn't quite the protection it sounds like — it's dark and undisturbed, which
+> is what they like. What actually works is freezing the garments before I start, so nothing
+> already in the cloth survives, and a box that genuinely seals. I'll do both.
+>
+> And his clothes stay with you until after the move. There's no version of them going missing
+> in a van that I could put right.
+>
+> I'll send photos as it goes — laid out, pieced, and finished — so you're not waiting in silence.
+>
+> — Ayla
+
+⚠️ **Fill in the ready date before sending.** Jan–Feb 2027 was set for a piece six times bigger
+and has not been re-agreed for this one; and it was never established whether the piece is for a
+date. **Ask, don't assume** — if it was ever meant for Christmas or an anniversary, a panel this
+size may well make it.
+
+---
+
 ## After they say yes
 
 The order becomes an ordinary order. `emails/order-updates.md` covers shipping, local pickup,

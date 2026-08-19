@@ -372,7 +372,7 @@ Two rules that keep this useful:
 ## 🟠 Dated — this week
 
 - [ ] 🚨 **LINDA M. — HEIRLOOM MEMORY PIECE from her husband's suit. ⛔ SHE IS WAITING ON AN
-      INVOICE, AND IT CANNOT BE SENT AS PRICED. Blocking — see "the invoice" below.**
+      INVOICE: $700 all-in, agreed 2026-08-19 — SEND IT. Then buy the box, then redraw at 16 × 20.**
       ✅ **WED 19 CONVERSATION HAPPENED, and it settled the single biggest variable: SIZE.**
       **AGREED: 16″ × 20″, to sit in a MEMORY BOX rather than hang on a wall**, chosen to
       protect it from moths.
@@ -450,34 +450,48 @@ Two rules that keep this useful:
       quilts all got published bands retroactively, *after* a figure was quoted ad hoc under
       pressure). **A customer waiting is pressure.** Linda herself is the case study: her $30 tea
       cover and $75 repair were both invented on the spot, which is why those bands exist now.
-      🔍 **AND THIS ONE IS ARGUABLY A FIFTH UNBANDED THING.** A 16 × 20 textile panel mounted in
-      a memory box is **not a quilt and not a wall hanging** — it is a framed memory panel, and
-      the site prices neither. The published band that comes closest, **heirloom quilts from
-      clothing from $650**, was written for a quilt. ⚠️ **Deciding "is this still the $650 band,
-      or a different product?" IS the pricing decision** — answer that and the number follows.
-      Two defensible readings, and it is the owner's call, not a calculation:
-      - **It is still the heirloom-from-clothing job** → **hold the published $650 floor.** The
-        entry's own rule: *"Don't undercut your own floor because the object got smaller."* The
-        deconstruction, the irreplaceable cloth and the it-must-be-perfect standard are all
-        unchanged; only the area shrank. Consistent with what the site publishes today.
-      - **It is a new, smaller product** → priced honestly off ~15–25 h it lands around
-        **$400–600**, below the published floor — in which case **the band needs a line for it
-        BEFORE the invoice goes out**, in all seven places, or the site is publishing a $650
-        minimum while the shop bills $450 for garment work. That is the same drift the seven-place
-        rule exists to stop, just running the other way.
-      ⭐ **Recommendation: quote the $650 floor, all-in, materials included.** It keeps the site
-      truthful with no edits, it is a long way below the $1,100 she is braced for so the number
-      *falls* rather than rises, and at 15–25 h it pays $26–43/hr — the first job in this file
-      that pays properly, which is defensible precisely because the hours don't shrink with the
-      area. **But it is a decision to be made, not assumed.**
-      **Whatever the figure, the invoice must carry:** the agreed **16 × 20** size · **whether the
-      memory box is included or hers** · **50% deposit** before anything is bought or cut · a
-      **ready date** revisited for the smaller build (Jan–Feb 2027 was set for the 40 × 50) ·
-      and that the price **holds for the design as newly drawn only**.
-      📌 **Order of operations, and it has not changed just because she is waiting:** new drawing
-      at 16 × 20 → her yes → invoice → deposit → cut. **The quote follows the design.** Sending a
-      price for a composition that has not been drawn yet is how this job goes underwater on
-      cloth that cannot be replaced.
+      ### ✅ DECIDED BY THE OWNER 2026-08-19 — **$700 ALL-IN, MEMORY BOX INCLUDED**
+      **$700, 16 × 20, box supplied by the shop, materials included. 50% deposit = $350.**
+      ✅ **$700 CLEARS THE PUBLISHED $650 HEIRLOOM-FROM-CLOTHING FLOOR, so NO site edits are
+      needed** — the bands stay true as written and the seven-place rule isn't triggered. That
+      was the live risk in pricing this: anything under $650 would have meant editing the band in
+      all seven places *before* the invoice could go out.
+      ✅ **And the number FALLS from the $1,100 she is braced for**, which is the right direction
+      for a customer who has already paid $105 and left five stars.
+      💷 **What $700 actually buys, so it doesn't get eroded:** a 16 × 20 shadow box (£/$60–90 for
+      one worth putting a dead man's suit in) + materials, now offcuts rather than yardage
+      (~$25–40) → **~$570–615 of labour over the ~15–25 h estimate = $23–41/hr.** Genuinely the
+      best-paid job in this file, and defensible precisely because the hours don't shrink with the
+      area. ⚠️ **It holds for the design as newly drawn only** — same rule that voided $1,100.
+      ### 📦 THE BOX IS NOW THE SHOP'S JOB — two consequences, both practical
+      - 🎯 **BUY THE BOX BEFORE DRAWING, AND DRAW TO ITS WINDOW, NOT TO "16 × 20".** A 16 × 20
+        shadow box is 16 × 20 on the *outside*; the visible opening is smaller once the rabbet and
+        any mat are taken off. **Measure the actual opening and size the panel to that.** Getting
+        this backwards means a finished panel that won't sit in its box — on cloth that cannot be
+        recut.
+      - 📏 **GET A DEEP ONE.** This is not a flat photo. A jacket front, a welt pocket, a cuff
+        with its button and interfaced wool have real thickness; a standard ~1″ shadow box will
+        not close over it. **Depth is a spec, not a preference.**
+      - ✅ **Sourcing it is also the moth fix.** Because the shop buys it, the shop controls
+        whether it genuinely **seals** — which, with freezing the garments first, is what actually
+        protects the wool. That was previously out of her hands and is now in yours. **Do it.**
+      ### 📋 The invoice — what goes on it
+      **$700 all-in** · **16 × 20 memory panel from his suit, mounted in a supplied memory box** ·
+      **50% deposit ($350)** before anything is bought or cut · **ready date revisited** (Jan–Feb
+      2027 was set for the 40 × 50; a piece this size is a fraction of the build, so ask whether
+      it is for a date rather than leaving her with the extension) · price **holds for the design
+      as newly drawn**.
+      📌 **The drawing still comes before the CUTTING — but it needn't block the invoice.** The
+      order was "drawing → yes → invoice → deposit → cut", and with the price now settled the
+      invoice can go first without risk: **the deposit buys the box and the materials, and nothing
+      irreversible happens to the garments until she has signed off the new 16 × 20 layout.**
+      Say that on the invoice so it reads as a plan rather than a bill arriving ahead of a design.
+      ✅ **A COVERING NOTE IS DRAFTED — `emails/custom-orders-enquiry.md`**, in a new "Sending the
+      invoice on a BIG commission" section. It states the $700 and what it includes, what the
+      deposit buys, that nothing is cut until she signs off the drawing, the moth correction, the
+      garments-stay-with-her rule, and photos at each stage. ⚠️ **It has ONE blank: the ready
+      date** — see below.
+      ⚠️ **Still true: the garments stay with her until after the move.**
       ⚠️ **The memory-piece customer is LINDA** — the same customer as the tea cover and the quilt
       repair, not a separate enquiry. Logged as anonymous for a day and corrected 2026-08-13.
       She withdrew in the morning on the wool (can't be machine washed) and returned the same day
