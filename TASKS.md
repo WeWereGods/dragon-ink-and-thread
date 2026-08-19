@@ -45,6 +45,9 @@ Two rules that keep this useful:
 >    draft invoice is correct, and **it can go out.** Two boxes, nothing double-charged.
 >    ✅ **NO SUIT CONFLICT — the suit is for the quilt.** She has handed over two other garments
 >    for the box: a **velvet wizard hat** and a **gold leopard-print top**, both photographed.
+>    ✅ **Aug 13 checklist closed: ONE shirt, and the suit is 100% WOOL** — so the moth risk is
+>    real for the panel (freeze mandatory, its box must seal) and her box instinct was right,
+>    just attached to the wrong piece.
 >    🤍 **BOTH COMMISSIONS ARE MEMORIALS TO HER HUSBAND** — the quilt is him in his suit, the box
 >    is him in a party hat. **They are a pair: buy the panel's box to MATCH hers**, and match the
 >    labels. Get his name, his dates, and the story behind the hat **now**.
@@ -481,6 +484,9 @@ Two rules that keep this useful:
       best-paid job in this file, and defensible precisely because the hours don't shrink with the
       area. ⚠️ **It holds for the design as newly drawn only** — same rule that voided $1,100.
       ### 📦 THE BOX IS NOW THE SHOP'S JOB — two consequences, both practical
+      - 🚨 **IT MUST SEAL — a specification since the labels were read 2026-08-19.** The suit is
+        **100% wool**, so an unsealed box holding this panel undisturbed for decades is how the
+        finished piece gets eaten. **Check the closure before buying, not after.**
       - 🎯 **BUY IT TO MATCH LINDA'S.** ⚠️ **Added 2026-08-19, once both projects were confirmed as
         memorials to the same man:** her shadow box is also 16 × 20, and the two pieces may well
         sit side by side for decades. **Match the finish and frame profile as closely as you can
@@ -556,9 +562,35 @@ Two rules that keep this useful:
       choice for a washable bed quilt and a good one for a wall piece. Telling her the truth in
       the morning is what found the right product by the afternoon. **custom.html now says so**
       — the wool line offers the wall-hanging route instead of dead-ending.
-      ⚠️ **STILL READ THE CONTENT LABELS** in the jacket and trousers. Less critical now that
-      washing is off the table, but it decides how the piece behaves — how much it will sag hung,
-      how it presses, and whether the "wool" framing is even accurate.
+      ✅ **CONTENT LABELS READ 2026-08-19 — JACKET AND TROUSERS ARE 100% WOOL.** Not a blend.
+      That answers the last of the Aug 13 checklist and it changes four things:
+      - 🦋 **MOTH RISK IS CONFIRMED AT MAXIMUM — and it VINDICATES LINDA'S BOX.** 100% wool is
+        prime moth food, with no synthetic content to make it less appetising. ⭐ **Her instinct
+        that a memory box protects from moths was RIGHT — it was just attached to the wrong
+        piece.** It is right for **this** one, and largely decorative for the shadow box, whose
+        hat and top are almost certainly synthetic. **Say that to her the right way round.**
+        - ⛔ **FREEZING THE GARMENTS IS NOW MANDATORY, NOT INSURANCE.** Sealed in a bag, several
+          days at freezer temperature, thawed, and repeated — the second cycle is what kills eggs
+          that survived the first. Freezing does not harm wool. **Do it when the garments are
+          collected, before anything is cut.**
+        - 🚨 **THE BOX THE SHOP BUYS MUST GENUINELY SEAL.** This was already the plan for matching
+          Linda's; **now it is a specification, not a preference.** A 100% wool panel in an
+          unsealed box, undisturbed for decades, is the exact scenario that eats the piece after
+          it is finished and paid for.
+      - 🏠 **TELL LINDA HOW TO STORE THEM IN THE MEANTIME — this is new and it matters.** The
+        garments stay with her until after the move, which is **months**, and 100% wool sitting
+        undisturbed is precisely the risk. **Ask her to keep them clean and SEALED** (a zipped bag
+        or lidded box, not a wardrobe), away from the removal load. Cheap, and it protects the
+        piece before it exists.
+      - 🔥 **PRESSING: press cloth, always, and press from the BACK.** 100% wool worsted goes
+        **shiny** under a direct iron and the shine does not come out. On a piece where a jacket
+        front is the focal element, a shine mark is the whole thing ruined.
+      - ⚠️ **PRE-SHRINK THE WOOL WITH STEAM BEFORE FUSING ANYTHING.** Fusible interfacing is
+        applied with heat *and steam*, and **steam shrinks untreated wool**. Fuse first and the
+        wool relaxes afterwards, **bubbling and delaminating the interfacing** — on cloth that
+        cannot be recut. **Steam-shrink, let it dry flat and cool completely, then fuse — and
+        test on an offcut before committing.** This is the single most likely technical failure
+        on this build and it is entirely preventable.
       ### What changes now it hangs instead of covers
       - ✅ **The yardage risk is GONE — and the shirt count is finally answered.** ✅ **THERE IS
         EXACTLY ONE SHIRT** (confirmed 2026-08-19; the original brief said "shirts", plural, and
@@ -572,7 +604,10 @@ Two rules that keep this useful:
         cream exists only as **a single pocket square**. **Every distinctive colour in this piece
         comes from a garment there is exactly one of.**
         ⭐ **So buy a $3–5 thrift-shop dress shirt and practise the collar-into-neckline join on
-        that first.** This file already says to build in a test block; **this is the specific
+        that first** — ⚠️ **and with the suit confirmed as 100% wool, that join is now
+        cotton-shirting into WOOL**, two cloths of different weight, shrinkage and iron behaviour.
+        **Practise it against a wool offcut, not just the shirt**, or the test rehearses the easy
+        half. This file already says to build in a test block; **this is the specific
         place it matters**, because it is the one cut with no recovery. Cheapest insurance
         available on a $700 commission, and it needs buying before the machine is packed.
         ✅ **It also confirms an objection that was only suspected.** The reference image showed
@@ -851,8 +886,8 @@ Two rules that keep this useful:
       - 📝 **Get his name, his dates, and the story of the hat and the top** — when, where, worn
         together or not. **The label is the entire point**, and she is the only person alive who
         can answer.
-      - 📋 **Read the suit's content labels** — still unanswered from Aug 13, and it belongs to
-        the panel, not this piece. ✅ **The shirt count is answered: ONE.**
+      - ✅ **Both Aug 13 questions are now CLOSED: one shirt, and the suit is 100% wool.** What
+        remains from that list is whether either piece is for a **date**.
       - ❓ **Ask whether either piece is for a DATE.** Raised Aug 13, still open, and it is the one
         answer that could change the whole schedule.
       ### 🚨 THE HAT IS NOW THE WHOLE PROBLEM — MEASURE IT AGAINST THE BOX BEFORE COMMITTING
