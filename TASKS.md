@@ -1320,6 +1320,57 @@ written.** Ask before inferring a post didn't run.
 
 ---
 
+## 💰 What to do with $900 — asked 2026-08-19
+
+**Short answer: ring-fence about half, spend ~$270 on the memorial work and photography, and
+put NOTHING into fabric or ads this month.** Reasoning, from this repo's own numbers:
+
+**1. $900 is not $900.** ~$140–220 of it is already committed cost of goods on Linda's two
+pieces — the panel's box (bought to MATCH hers), panel materials, shadow-box mount board and
+archival supplies. And **the house move takes the machine offline**, which is why her panel
+already slipped to Jan–Feb 2027. Spending to zero before a move with a $700 job open is how you
+end up buying interfacing on a credit card.
+
+**2. ⛔ DO NOT BUY FABRIC.** This is the instinct and the numbers say no. **There are 33 live
+listings worth $543 retail sitting on the shelf, against FOUR real shop sales in seven weeks**
+(5 paid sessions, one of which was a self-test). Stock is not the constraint — **buying more
+fabric converts cash into inventory that already isn't moving.**
+
+**3. ⛔ DO NOT BUY DEMAND THIS MONTH EITHER.** Facebook is the only channel that measurably
+converts (44% of traffic; Instagram and TikTok sent *zero* attributable visits), so an ad would
+have to go there — but **Aug 17–20 is already three customers deep, she is away Aug 21–24, the
+push is Aug 29 and the move is imminent.** This file already warns to quote new enquiries
+against that reality. **Paying to generate enquiries you cannot serve is worse than not
+advertising.** Revisit after the move, on the mending/memorial angle — that is the proven
+pipeline.
+
+**4. ✅ WHERE THE MONEY ACTUALLY IS: custom, and specifically memorial work.** Three custom
+customers have paid **$238** between them and one of them has **$1,000 more on the table** —
+against four shop sales. ⭐ **And it was a $75 repair that earned the $1,000.** So the spend
+that returns most is the spend that makes the memorial work *good*, because it is both already
+sold and the thing that generates the next one.
+- **~$150 — archival and conservation supplies + the right tools.** Acid-free mount and backing
+  board, archival tissue and hinges, gasket tape to make Linda's box actually seal. Plus a
+  **walking foot** and **topstitch/denim needles** — this file already says dense quilting
+  through interfaced wool is brutal on a domestic machine, and she has *committed* to exactly
+  that on irreplaceable cloth with no second attempt. **~$50 of presser foot de-risks a $700
+  job.**
+- **~$120 — a light and a backdrop.** ⭐ **The one growth spend that compounds WHILE SHE IS
+  MOVING and costs her no time at the machine.** Reach is the measured constraint, and Pinterest
+  is the search-driven answer already wired up (catalog live since Aug 9) — but every Pin, every
+  listing and the **founder photo (still a phone selfie, and the highest-trust element on the
+  page)** are only as good as the photography. Better photos improve assets that are already
+  built and already earning.
+
+**5. Hold the remaining ~$400 through the move.** Not exciting, and probably the highest-return
+line here: her constraint is time and stability, not capital. Cash means the move doesn't force
+a bad decision on a customer's deadline.
+
+⚠️ **This is business judgement from the numbers in this repo, not a forecast** — and the two
+"don't"s are the load-bearing part, not the allocation.
+
+---
+
 ## 📊 Measured 2026-08-10 — where traffic actually comes from
 
 Cloudflare Web Analytics, seven days to Mon Aug 10: **152 visits, ~22/day**, which is the
