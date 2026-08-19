@@ -20,7 +20,7 @@ Two rules that keep this useful:
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | ~~Mon 17~~ | ⚠️ fragmented | Car repair · realtor · school run. ✅ **Aubrea's fabric ARRIVED.** Toffee Windowpane retired. |
 > | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
-> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20, priced $700 all-in** · 🆕 **plus a SECOND commission, a ~$350 shadow box — 🚨 both may want the same suit, settle before cutting** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
+> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20, priced $700 all-in** · 🆕 **plus a SECOND commission, a ~$300 shadow box (her own box) — 🚨 settle which box is whose and whether both want the same suit, BEFORE invoicing** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
@@ -39,8 +39,10 @@ Two rules that keep this useful:
 >    ✅ **The memory-piece conversation happened and settled the size: 16 × 20, in a memory box.**
 >    ✅ **Priced $700 all-in, box included; covering note drafted and ready to send.**
 >    🆕 **She has since asked for a SECOND piece — a shadow box of an outfit, photos and
->    memorabilia (~$350), taking her to ~$1,155.** 🚨 **Settle whether both projects want the same
->    suit before anything is cut** — the panel destroys the jacket, the box needs it whole.
+>    memorabilia (~$300, 16 × 20, box already bought by her), taking her to ~$1,105.**
+>    🚨 **Two things to settle before the invoice:** whether both projects want the same suit (the
+>    panel destroys the jacket, the box needs it whole), and **which project her bought box is
+>    for** — the $700 is quoted box-included, so if it was for the panel that price drops ~$75.
 >    ❓ Still not recorded from this slot: whether she was told the tea cosy is in Stories, the
 >    content labels, the shirt count, and whether the piece is for a date.
 > 3. ✈️ **Aubrea's clips — WED 19, not "Wed or Thu".** Hand-delivered now, not posted.
@@ -505,8 +507,12 @@ Two rules that keep this useful:
       wanting it **hung rather than used**, which makes the entire objection irrelevant.
       💷 **This makes Linda comfortably the shop's biggest customer**: $30 tea cover + $75 quilt
       repair already paid, and — as of 2026-08-19 — **TWO commissions on the table, $700 for this
-      panel and ~$350 for a separate shadow box**, so about **$1,155 all told**. Several times
-      more than every other custom order this month put together.
+      panel and ~$300 for a separate shadow box** (she has bought that box herself), so about
+      **$1,105 all told**. Several times more than every other custom order this month put
+      together.
+      ⚠️ **BUT SEE "WHICH PROJECT IS THE BOUGHT BOX FOR?" BELOW BEFORE INVOICING.** This $700 is
+      quoted **box-included**, and Linda has just bought a 16 × 20 box. If it was meant for this
+      piece, **$700 drops to ~$625** and the draft invoice is wrong as written.
       🚨 **SEE THE SHADOW-BOX ENTRY BELOW BEFORE CUTTING ANYTHING.** The two projects may want the
       same Hugo Boss suit — this panel is designed around **the jacket front kept whole**, which
       destroys it as a displayable outfit. **Only one of the two can have it.**
@@ -718,7 +724,8 @@ Two rules that keep this useful:
       an exception to it.
 
 - [ ] 🚨 **LINDA M. — SECOND PROJECT: a SHADOW BOX (outfit + photos + memorabilia), 2026-08-19.
-      ~$350, and it may CONFLICT WITH THE MEMORY PANEL over the same suit — see below.** ⚠️ **A DIFFERENT TRADE FROM THE $700 PANEL — do not price it off
+      ~$300 (SHE HAS BOUGHT THE BOX), 16 × 20 fixed. 🚨 MEASURE ITS DEPTH, and settle whether it
+      CONFLICTS WITH THE MEMORY PANEL over the same suit — see below.** ⚠️ **A DIFFERENT TRADE FROM THE $700 PANEL — do not price it off
       that.** Linda's piece is *sewn*: a suit deconstructed, interfaced, pieced and quilted, and
       the sewing is what the money is for. **This is mounting and display work** — composing,
       shaping and invisibly securing objects behind glass. Anchoring on $700 overprices it;
@@ -791,25 +798,87 @@ Two rules that keep this useful:
       📌 **This is the third time on this one customer that the honest, awkward sentence has been
       the valuable one** — the wool, the reference image, and now this. The pattern is established:
       **say it early, in person, before cutting.**
-      ### ⚠️ AND CHECK THE SIZE AGAINST THE CONTENTS
-      If the outfit is **his** — an adult outfit — **16 × 20 will not hold it plus photos plus
-      memorabilia**, per the warning above. She has landed on 16 × 20 twice now, probably because
-      it's the size settled for the panel, **not because it was measured against what's going in
-      it.** Expect this one to want **20 × 24 or larger**, which moves the price up the band.
+      ### ✅ SETTLED 2026-08-19: 16 × 20 IT IS, AND **SHE HAS ALREADY BOUGHT THE BOX**
+      **Her decision, and the box is purchased — the size is locked and the shop no longer
+      supplies it.** The "expect 20 × 24" warning above is overtaken; **design to 16 × 20.**
+      ### 💷 REVISED NUMBER: **~$300** (was ~$350 with the shop supplying the box)
+      Two movements that mostly cancel, and it's worth being straight about both:
+      - **−$60–90:** the box is the single biggest material cost and it's hers. Remaining materials
+        are mount and backing board plus archival sundries, **$40–65**.
+      - **+1–3 h:** ⚠️ **a box that is TIGHT for its contents is MORE work, not less.** A generous
+        box is quick — lay it out, mount it, done. A tight one is trial layouts, refolding, and
+        hunting for a composition that reads well without looking crammed. **This one is tight**,
+        which is the whole substance of the warning above.
+      **$300 leaves ~$240 of labour over 6–11 h = $22–40/hr**, in line with the $700 job.
+      **Don't drop to $275** on "she bought the box" alone — that prices the saving and ignores
+      the constraint she bought with it.
+      ### 🚨🚨 WHICH PROJECT IS THE BOUGHT BOX FOR? — ASK BEFORE THE INVOICE GOES OUT
+      ⚠️ **BOTH of Linda's commissions are "16 × 20 in a box", and the shop's $700 quote INCLUDES
+      buying one.** She has now bought a box. **Nobody has established which piece she bought it
+      for**, and the two readings have different prices:
+      - **She bought it for the SHADOW BOX** (assumed above) → panel unchanged at **$700 with the
+        shop's box included**; shadow box **~$300**. Two boxes exist. Total **~$1,000**.
+      - **She bought it for the PANEL** → **the $700 must come DOWN by ~$75** (it is priced
+        box-included and the draft invoice says so in as many words: *"That covers the box, the
+        materials and the making"*), and the **shadow box then needs a box of its own** — either
+        hers to buy again or ~$75 back on that side.
+      - ⚠️ **Or she thinks ONE box holds both.** ⛔ **It cannot.** A quilted panel fills its
+        window; an outfit with photos and memorabilia fills its own. **Two pieces, two boxes** —
+        say it plainly if there is any doubt.
+      🚨 **Settle this BEFORE sending the $700 invoice.** The draft promises a box inside the
+      price; if she has already bought that box, the invoice overcharges her by ~$75 on the first
+      bill of a $1,000 relationship. **That is the kind of error a five-star customer notices and
+      never mentions.**
+      ### 🚨 MEASURE HER BOX BEFORE ANYTHING ELSE — she has already spent the money
+      Three things to check **in person, this week**, because they are now discoveries rather than
+      choices and every one of them is her money already gone:
+      1. 🚨 **DEPTH — the likeliest problem by far.** Most off-the-shelf shadow boxes are **~1–1.5″
+         deep**. A folded adult shirt is 1.5–2″ on its own; add trousers, a jacket or anything
+         three-dimensional and it's 2–3″+. **If the box is shallow, the glass will not close — or
+         worse, it will close and crush the contents flat**, which looks dead and is exactly what
+         careful mounting exists to prevent. **Measure the internal depth against the actual
+         garment, folded as it will sit.** Better to find this out today than at assembly.
+      2. ⚠️ **DOES IT SEAL?** She chose a box **specifically to keep moths off** — that reasoning
+         only works if it closes properly. Many craft shadow boxes have an open or panel-pinned
+         back. **The shop can no longer choose a sealing one, so inspect hers**: if it doesn't
+         seal it can usually be improved (gasket tape behind the backing board), and if it can't,
+         **say so** rather than letting the moth assumption ride. ⚠️ **Freezing the outfit before
+         it goes in matters MORE now, not less**, since it's the protection still fully in your
+         hands.
+      3. ⚠️ **INTERNAL WINDOW, not the nominal 16 × 20.** Whatever it says on the box, the visible
+         opening is smaller once the rabbet and any mat are off. **Design to the measured opening.**
+      ### 🎯 How to make 16 × 20 actually work — this is the design brief
+      The outfit **cannot go in spread out**, and trying is what produces a crammed box. Instead:
+      - **Fold it to show what's recognisably HIS** — the collar, one cuff with its button, a
+        placket, a breast pocket. ⭐ **This is not a compromise; it is usually the better piece.**
+        A shirt folded to show collar and cuff reads as *his shirt* far more strongly than a whole
+        garment squashed flat, and it is the same instinct already written into the panel entry:
+        *"a stranger sees clever patchwork, she sees his pocket."*
+      - **Photos: two or three small ones, or one 4 × 6.** Not a gallery. ⚠️ **Reprints, never the
+        originals** — sealed behind glass they fade and the box is not meant to be reopened.
+      - **Memorabilia: choose three or four, not everything.** ⚠️ **The editing IS the job, and it
+        is the conversation to have with her** — three things displayed properly beat eight
+        crammed, and she is the only one who can say which three matter. **If there is more than
+        fits, offer a SECOND box later rather than forcing this one.** That is an honest upsell,
+        not a squeeze: the alternative is a box she is disappointed by forever.
+      ### 💷 What the deposit covers now
+      With the box hers, the shop's outlay is only **$40–65** of board and archival supplies, so
+      **50% up front is comfortably more than materials** — same as the panel. **Buy nothing until
+      it clears.**
       ### 💷 WHAT THIS DOES TO THE ORDER
-      **Linda now has ~$1,155 of work with the shop**: $30 tea cover + $75 repair (both paid and
-      delivered) + **$700 panel** + **~$350 shadow box**. That is comfortably more than every
-      other custom order this month combined, several times over.
+      **Linda now has ~$1,105 of work with the shop**: $30 tea cover + $75 repair (both paid and
+      delivered) + **$700 panel** + **~$300 shadow box** (she supplies the box). That is
+      comfortably more than every other custom order this month combined, several times over.
       ⭐ **AND IT IS STILL THE $75 REPAIR THAT EARNED IT.** That note is now much stronger than
       when it was written: **a $75 mend has produced $1,050 of commissions.** Next time a $40
       repair looks like it isn't worth the afternoon, this is the number.
       ### 📋 How to bill two projects at once
       - **One invoice, two clearly separate line items**, or two invoices sent together. Either
         works; **what must not happen is one lump sum**, which is how a piece quietly grows.
-      - ⚠️ **The shadow-box figure is an ESTIMATE until the contents are seen.** Memorabilia is
-        the variable that blows it — **count and look at the items before committing**, same rule
-        as repairs. Say "around $350, confirmed once I've seen everything" rather than a hard
-        number sight-unseen.
+      - ⚠️ **The shadow-box figure is an ESTIMATE until the contents AND THE BOX are seen.**
+        Memorabilia is the variable that blows it, and the box's depth is now a real unknown —
+        **look at both before committing**, same rule as repairs. Say "around $300, confirmed once
+        I've seen everything and measured the box" rather than a hard number sight-unseen.
       - ⭐ **STAGE THEM — the shadow box can land in WEEKS while the panel is months out.** The
         panel is gated on the house move and a long build; the box is 6–11 h of non-sewing work
         that needs no machine set up. **Doing the box first puts a real finished object in her
