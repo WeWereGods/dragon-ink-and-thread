@@ -237,7 +237,7 @@ grows, that's a new quote and it gets said out loud at the time.
 >
 > — Ayla
 
-✅ **CLEARED TO SEND 2026-08-19.** She has since commissioned a **second** piece (a shadow box
+✅ **SENT 2026-08-19 — payment awaited.** (Keep the draft: it is the pattern for the next big commission, and the notes below are what made it right.) She has since commissioned a **second** piece (a shadow box
 of an outfit, photos and memorabilia, ~$300) and bought a box for it herself — **that box is for
 the shadow box, not this panel**, so the "$700 covers the box" line is correct and nothing is
 double-charged. The two pieces are billed separately. ⚠️ **Settling whether both projects want

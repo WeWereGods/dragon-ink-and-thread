@@ -37,7 +37,8 @@ Two rules that keep this useful:
 >    beforehand; the quilt is back with her and the $105 order is closed. **She left a five-star
 >    review of the repair and the tea cover the same day** — now live in Kind Words.
 >    ✅ **The memory-piece conversation happened and settled the size: 16 × 20, in a memory box.**
->    ✅ **Priced $700 all-in, box included; covering note drafted and ready to send.**
+>    ✅ **Priced $700 all-in, box included — INVOICE SENT 2026-08-19, ⏳ awaiting payment ($350
+>    deposit). Buy nothing until it clears; nudge Fri 21 if silent, or it sits over the trip.**
 >    🆕 **She has since asked for a SECOND piece — a shadow box of an outfit, photos and
 >    memorabilia (~$300, 16 × 20, box already bought by her), taking her to ~$1,105.**
 >    ✅ **Her box is for the SHADOW BOX and is a deep one** — so the $700 stays box-included, the
@@ -503,11 +504,12 @@ Two rules that keep this useful:
       2027 was set for the 40 × 50; a piece this size is a fraction of the build, so ask whether
       it is for a date rather than leaving her with the extension) · price **holds for the design
       as newly drawn**.
-      🚨 **ONE THING NOW COMES BEFORE THE DRAWING: settle the suit conflict with her second
-      commission (the shadow box, below).** There is no point drawing a 16 × 20 medallion layout
-      around a jacket front that may be going into a display box intact. **Ask first, draw
-      second.** The invoice is unaffected — $700 is right either way, and the deposit buys the box
-      and materials, not a decision about the jacket.
+      ✅ **THE SUIT CONFLICT IS RESOLVED** — the suit is this piece's, the hat and top are the
+      shadow box's. Nothing blocks the drawing on that count any more.
+      ⏳ **ORDER OF WORK ONCE THE MONEY CLEARS:** buy the box **matched to Linda's** → measure its
+      internal window → **redraw at 16 × 20 to that window** → her yes → then cut. ⚠️ **Nothing
+      of his is cut before she has said yes to the new drawing** — that is what the invoice
+      promises her in as many words.
       📌 **The drawing still comes before the CUTTING — but it needn't block the invoice.** The
       order was "drawing → yes → invoice → deposit → cut", and with the price now settled the
       invoice can go first without risk: **the deposit buys the box and the materials, and nothing
@@ -528,9 +530,17 @@ Two rules that keep this useful:
       panel and ~$300 for a separate shadow box** (she has bought that box herself), so about
       **$1,105 all told**. Several times more than every other custom order this month put
       together.
-      ✅ **CHECKED AND CLEAR 2026-08-19:** the 16 × 20 box Linda has bought is for the **shadow
-      box**, not this piece. **$700 stays box-included and the draft invoice is correct — send
-      it.** Two boxes; nothing double-charged.
+      ✅ **INVOICE SENT 2026-08-19 — $700, box-included. ⏳ AWAITING PAYMENT (deposit $350).**
+      The box Linda bought is for the **shadow box**, not this piece, so nothing is
+      double-charged. **Two boxes.**
+      ⚠️ **BUY NOTHING UNTIL IT CLEARS** — the standing rule, and it matters more now that the
+      shop is supplying the panel's box: **that box has to be MATCHED to hers**, which needs her
+      box measured and photographed first anyway.
+      📅 **If nothing has landed by Fri 21, it sits over the Aug 21–24 trip.** A quiet nudge on
+      Friday morning costs nothing; four days of silence on a four-figure commission does not
+      read well in either direction. **She has paid in full and promptly three times** ($30, $75,
+      and both together as $105), so there is no reason to expect trouble — this is a diary note,
+      not a worry.
       🚨 **SEE THE SHADOW-BOX ENTRY BELOW BEFORE CUTTING ANYTHING.** The two projects may want the
       same Hugo Boss suit — this panel is designed around **the jacket front kept whole**, which
       destroys it as a displayable outfit. **Only one of the two can have it.**
@@ -811,6 +821,23 @@ Two rules that keep this useful:
       📌 **File these photos** — `assets/` under ordinary names, per the rule about `Incoming*`
       folders being gitignored and swallowing uploads silently. **They are the record of what the
       garments looked like on arrival**, which is the same discipline already applied to her quilt.
+      ### ⏳ THE PANEL'S INVOICE IS SENT AND UNPAID — BUT NONE OF THIS IS BLOCKED BY THAT
+      ⭐ **Waiting for money is not waiting.** Everything below costs nothing, needs no deposit,
+      and is all still open — and most of it **decays** if it isn't done while she is engaged and
+      the pieces are in hand:
+      - 📏 **Measure the hat** (tip-to-brim, brim width) and **her box** (internal window AND
+        depth). That is the one number standing between "~$300–350" and a confirmed quote.
+      - 🔍 **Check whether her box SEALS**, and whether the **velvet is silk** or the hat carries
+        **wool felt** — those decide whether the moth advice applies at all.
+      - 📸 **Measure and photograph HER box so the panel's can be MATCHED to it** — needed before
+        the panel's box is bought, which is the first thing the deposit pays for.
+      - 📝 **Get his name, his dates, and the story of the hat and the top** — when, where, worn
+        together or not. **The label is the entire point**, and she is the only person alive who
+        can answer.
+      - 📋 **Read the suit's content labels** and **count the shirts** — still unanswered from
+        Aug 13, and they belong to the panel, not this piece.
+      - ❓ **Ask whether either piece is for a DATE.** Raised Aug 13, still open, and it is the one
+        answer that could change the whole schedule.
       ### 🚨 THE HAT IS NOW THE WHOLE PROBLEM — MEASURE IT AGAINST THE BOX BEFORE COMMITTING
       ⚠️ **This is no longer a "fold a shirt" job. A rigid tall cone is one of the hardest things
       to put in a shadow box**, and it drives everything:
@@ -910,7 +937,7 @@ Two rules that keep this useful:
       ### ✅ RESOLVED 2026-08-19 — HER BOX IS FOR THE SHADOW BOX, AND IT IS A DEEP ONE
       Both open questions about the box are answered, and both came back the good way:
       - ✅ **It is for THIS piece, not the memory panel.** So **the $700 panel is unchanged and
-        box-included, and its draft invoice is correct as written — the hold is lifted, send it.**
+        box-included — its invoice was SENT 2026-08-19 and payment is awaited.**
         **Two boxes exist**, one bought by her for the shadow box and one the shop buys for the
         panel. Nothing is double-charged in either direction.
       - ✅ **"Deeper than usual" — which clears the biggest risk on this job.** The standard
