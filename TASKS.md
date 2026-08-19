@@ -20,7 +20,7 @@ Two rules that keep this useful:
 > | ~~Fri 14 – Sun 16~~ | ✈️ away | Away banner ran itself; switches off at midnight tonight |
 > | ~~Mon 17~~ | ⚠️ fragmented | Car repair · realtor · school run. ✅ **Aubrea's fabric ARRIVED.** Toffee Windowpane retired. |
 > | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
-> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20, priced $700 all-in** · 🆕 **plus a SECOND commission, a ~$300 shadow box (her own deep box) — invoice CLEARED to send; 🚨 settle whether both projects want the same suit before cutting** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
+> | **Wed 19 — TODAY** | ✅ **the clear day** | ✅ **Linda's quilt HANDED OVER — $105 order closed**, and she left a 5★ review of both pieces the same day · ✅ **memory piece AGREED AT 16 × 20, priced $700 all-in** · 🆕 **plus a SECOND commission, a ~$300–350 shadow box (her own deep box) — invoice CLEARED to send; ✅ no suit conflict, it's a wizard hat + gold leopard top; 🚨 measure the hat against the box** · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
@@ -42,8 +42,10 @@ Two rules that keep this useful:
 >    memorabilia (~$300, 16 × 20, box already bought by her), taking her to ~$1,105.**
 >    ✅ **Her box is for the SHADOW BOX and is a deep one** — so the $700 stays box-included, the
 >    draft invoice is correct, and **it can go out.** Two boxes, nothing double-charged.
->    🚨 **ONE thing still to settle, and it comes before any CUTTING: do both projects want the
->    same suit?** The panel destroys the jacket; the shadow box needs it whole.
+>    ✅ **NO SUIT CONFLICT — the suit is for the quilt.** She has handed over two other garments
+>    for the box: a **velvet wizard hat** and a **gold leopard-print top**, both photographed.
+>    🚨 **New blocker in its place: MEASURE THE HAT.** A tall rigid cone may fill a 16 × 20 on its
+>    own, and velvet crushed under glass never recovers.
 >    ❓ Still not recorded from this slot: whether she was told the tea cosy is in Stories, the
 >    content labels, the shirt count, and whether the piece is for a date.
 > 3. ✈️ **Aubrea's clips — WED 19, not "Wed or Thu".** Hand-delivered now, not posted.
@@ -445,7 +447,11 @@ Two rules that keep this useful:
       object that no longer exists. If it was ever meant for Christmas or an anniversary, **it may
       now be comfortably achievable**, and she should be asked rather than left with the extended
       date. ⚠️ **The move is still the real constraint on the machine, not the sewing hours.**
-      ✅ **What has NOT changed:** the garments stay with her until after the move, 50% deposit
+      ⚠️ **NOTE 2026-08-19: the SHADOW-BOX garments are already in the house** (the hat and the
+      top were handed over). The "leave them with Linda until after the move" rule was written
+      about the **suit**, and still holds for the suit. **These two now need the same care the
+      quilt got: stored away from the cutting table and pets, and not in the removal load.**
+      ✅ **What has NOT changed:** the suit stays with her until after the move, 50% deposit
       before anything is bought or cut, photos at each stage, and the label on the back naming
       whose clothes and when — which matters *more* in a box, where the piece may outlive
       everyone who could explain it.
@@ -725,8 +731,10 @@ Two rules that keep this useful:
       an exception to it.
 
 - [ ] 🚨 **LINDA M. — SECOND PROJECT: a SHADOW BOX (outfit + photos + memorabilia), 2026-08-19.
-      ~$300 (SHE HAS BOUGHT THE BOX), 16 × 20 fixed. 🚨 MEASURE ITS DEPTH, and settle whether it
-      CONFLICTS WITH THE MEMORY PANEL over the same suit — see below.** ⚠️ **A DIFFERENT TRADE FROM THE $700 PANEL — do not price it off
+      ~$300–350 (SHE HAS BOUGHT THE BOX, a deep one), 16 × 20 fixed. ✅ **No suit conflict — the
+      suit is for the quilt; she has given TWO other garments: a velvet wizard hat and a gold
+      leopard-print top.** 🚨 **MEASURE THE HAT AGAINST THE BOX before committing — it may fill
+      the window on its own, and the velvet must never be pressed.** ⚠️ **A DIFFERENT TRADE FROM THE $700 PANEL — do not price it off
       that.** Linda's piece is *sewn*: a suit deconstructed, interfaced, pieced and quilted, and
       the sewing is what the money is for. **This is mounting and display work** — composing,
       shaping and invisibly securing objects behind glass. Anchoring on $700 overprices it;
@@ -779,26 +787,65 @@ Two rules that keep this useful:
       **Not a re-scope of the memory panel. She is commissioning both.** The $700 panel stands
       exactly as agreed and **its invoice draft needs no change** — this is an additional piece
       alongside it.
-      ### 🚨🚨 BEFORE ANYTHING IS CUT: IS THE SHADOW-BOX OUTFIT THE SAME SUIT?
-      ⚠️ **THE TWO PROJECTS MAY BE COMPETING FOR THE SAME GARMENTS, AND ONLY ONE CAN WIN.**
-      The memory panel's entire design is *"jacket front kept whole as the centre medallion"* —
-      **that consumes the jacket.** A shadow box displaying an outfit needs the garments **intact
-      and wearable-looking**. ⛔ **You cannot cut the jacket into a panel and also display it
-      whole.** The trousers and shirt are in the same position.
-      **So establish, before a single seam is unpicked:**
-      - Is the shadow-box outfit **a different outfit of his**, or **the same Hugo Boss suit** the
-        panel is drawn around?
-      - If it is the same suit, **she has to choose**, and she has to choose knowingly — this is
-        the same disclosure that saved the wool quilt in the morning and found the right product
-        by the afternoon. Getting it wrong is unrecoverable: a jacket cut for a medallion cannot
-        be un-cut and put in a box.
-      - **A middle path exists and is worth offering:** the suit goes in the shadow box intact,
-        and the panel is made from a *different* garment — or the panel is dropped in favour of
-        the box. **Do not assume she has thought this through.** She asked for the two things in
-        separate conversations, which is exactly how this kind of collision happens.
-      📌 **This is the third time on this one customer that the honest, awkward sentence has been
-      the valuable one** — the wool, the reference image, and now this. The pattern is established:
-      **say it early, in person, before cutting.**
+      ### ✅ NO CONFLICT — RESOLVED 2026-08-19 WITH PHOTOS
+      **The suit is for the QUILT/PANEL. She has handed over TWO SEPARATE GARMENTS for the shadow
+      box.** The collision that was flagged does not exist; **the panel can be drawn around the
+      jacket front as planned, and nothing has to be given up.**
+      ### 👗 WHAT IS ACTUALLY GOING IN THE BOX (photographed 2026-08-19)
+      1. 🎩 **A tall conical wizard/witch hat.** Black velvet, scattered gold glitter stars and
+         moons, **two bands of gold braid**, and a **black sequinned brim**. Reads as a costume or
+         party piece, not formalwear.
+      2. 👚 **A lightweight top in black with a metallic GOLD LEOPARD-PRINT foil.** Long-sleeved,
+         with **sheer black mesh panels** at the upper sleeve/shoulder. Drapey, not structured.
+      📌 **File these photos** — `assets/` under ordinary names, per the rule about `Incoming*`
+      folders being gitignored and swallowing uploads silently. **They are the record of what the
+      garments looked like on arrival**, which is the same discipline already applied to her quilt.
+      ### 🚨 THE HAT IS NOW THE WHOLE PROBLEM — MEASURE IT AGAINST THE BOX BEFORE COMMITTING
+      ⚠️ **This is no longer a "fold a shirt" job. A rigid tall cone is one of the hardest things
+      to put in a shadow box**, and it drives everything:
+      - 📏 **HEIGHT.** From the photo it looks close to the box's own long dimension. **A hat that
+        is 16″ tip-to-brim fills a 16 × 20 window on its own**, leaving nothing for the top, the
+        photos or the memorabilia. **Measure tip-to-brim and brim width first** — that single
+        number decides whether the planned contents fit at all.
+      - 📐 **DEPTH, and this is where "deeper than usual" gets tested.** A cone projects. Even
+        laid on its side it stands proud by half the brim's width, and the sequinned brim looks
+        stiffened. **Deeper than usual is good news; it may still not be several inches.**
+      - ⛔ **THE VELVET CANNOT BE PRESSED.** ⚠️ **Crush marks in velvet are PERMANENT** — pile
+        that has been flattened under glass does not recover. **The hat must not be squeezed
+        against the glazing to make it close.** If it doesn't fit at its natural depth, the answer
+        is a different box, not more pressure. **Say this before anything is mounted.**
+      - **If it doesn't all fit, the honest options are:** hat as the hero with one or two small
+        items and the top left out · the top and photos in this box and **the hat in its own** ·
+        or a larger box. ⚠️ **Do not cram it.** She has bought this box, so if it has to change
+        that is a conversation to have now, not at assembly.
+      ### 🧵 Handling notes specific to these two
+      - ⚠️ **The gold on the top is a FOIL PRINT — it cracks and flakes along a hard crease.**
+        Fold it **softly over a padded roll**, never pressed into a sharp fold. This is the one
+        way to damage it permanently in the mounting itself.
+      - ⚠️ **The glitter stars on the hat can shed**, and against glazing they will eventually
+        mark it. Keep a small air gap between the hat and the glass — another argument for depth.
+      - **Sheer mesh panels snag.** Handle with the garment supported, and stitch through the
+        opaque cloth, never the mesh.
+      - 🎨 **Both pieces are BLACK, and the box will read as a dark hole without help.** ⭐ **Mount
+        them on a light backing — cream or warm stone** — so the gold stars, the braid and the
+        leopard foil actually carry. Black on black is the commonest way a memorial box comes out
+        looking flat, and it is free to avoid.
+      ### ✅ THE MOTH WORRY LARGELY DOESN'T APPLY TO THESE TWO — tell her
+      Moths eat **protein** fibres: wool, silk, fur, feathers. **A costume hat and a foil-print
+      party top are almost certainly synthetic**, and moths have no interest in polyester.
+      ⚠️ **The moth reasoning was really about the WOOL SUIT — which is going into the quilt, not
+      this box.** The box is still worth having (dust, handling, UV, and it keeps the pieces
+      together), but **she should not be left believing it is solving a problem these two garments
+      don't have.** Same honesty rule as the wool disclosure, which is what earned this job.
+      ⚠️ **Two things to check rather than assume:** whether the **velvet is silk** (silk velvet
+      *is* protein and moths do eat it), and whether the hat has any **wool felt** in its
+      structure. **If either, freeze it** — cheap insurance, and it costs nothing to do anyway.
+      ### ❓ Whose are they, and what were they for?
+      ⚠️ **Not established.** A sparkly wizard hat and a gold leopard top are a *very* different
+      register from a Hugo Boss suit — which may be exactly the point (**the quilt holds the
+      formal side, the box holds the fun one**, and that is a lovely thing to say to her), or may
+      mean these belonged to someone else entirely. **It decides what goes on the label**, and the
+      label is the entire point of a memory piece: **whose, and when.** Ask.
       ### ✅ SETTLED 2026-08-19: 16 × 20 IT IS, AND **SHE HAS ALREADY BOUGHT THE BOX**
       **Her decision, and the box is purchased — the size is locked and the shop no longer
       supplies it.** The "expect 20 × 24" warning above is overtaken; **design to 16 × 20.**
@@ -813,6 +860,12 @@ Two rules that keep this useful:
       **$300 leaves ~$240 of labour over 6–11 h = $22–40/hr**, in line with the $700 job.
       **Don't drop to $275** on "she bought the box" alone — that prices the saving and ignores
       the constraint she bought with it.
+      ⚠️ **UPDATED once the garments were seen (2026-08-19): this is a TOP-OF-RANGE job, ~$300–350.**
+      It is **two garments, not one**, and one of them is **a rigid 3-D cone** — mounting a tall
+      conical hat so it holds its shape, doesn't crush and doesn't touch the glass is at the hard
+      end of this work, not the easy end. **Confirm the number only after measuring the hat
+      against the box** (below); if the contents force a second box or a bigger one, that is a
+      new conversation and not something to absorb quietly.
       ### ✅ RESOLVED 2026-08-19 — HER BOX IS FOR THE SHADOW BOX, AND IT IS A DEEP ONE
       Both open questions about the box are answered, and both came back the good way:
       - ✅ **It is for THIS piece, not the memory panel.** So **the $700 panel is unchanged and
@@ -839,12 +892,16 @@ Two rules that keep this useful:
       3. **Design to the measured internal window**, not the nominal 16 × 20 — the visible opening
          is smaller once the rabbet and any mat come off.
       ### 🎯 How to make 16 × 20 actually work — this is the design brief
-      The outfit **cannot go in spread out**, and trying is what produces a crammed box. Instead:
-      - **Fold it to show what's recognisably HIS** — the collar, one cuff with its button, a
-        placket, a breast pocket. ⭐ **This is not a compromise; it is usually the better piece.**
-        A shirt folded to show collar and cuff reads as *his shirt* far more strongly than a whole
-        garment squashed flat, and it is the same instinct already written into the panel entry:
-        *"a stranger sees clever patchwork, she sees his pocket."*
+      The contents **cannot go in spread out**, and trying is what produces a crammed box. Instead:
+      - ⚠️ **REWRITTEN 2026-08-19 now the garments are known — it is a HAT and a TOP, not a
+        shirt.** The hat is rigid and three-dimensional and will not fold at all; **it is the
+        hero, and the layout gets built around it.** The top is drapey and forgiving, so **it is
+        the element that gives way** — folded softly (over a padded roll, never a hard crease,
+        because the gold is a foil print) to show the leopard and one sheer sleeve panel, tucked
+        behind or beside the hat rather than competing with it.
+      - ⭐ **Showing PART of a garment is not a compromise, it is usually the better piece** — the
+        same instinct already written into the panel entry: *"a stranger sees clever patchwork,
+        she sees his pocket."*
       - **Photos: two or three small ones, or one 4 × 6.** Not a gallery. ⚠️ **Reprints, never the
         originals** — sealed behind glass they fade and the box is not meant to be reopened.
       - **Memorabilia: choose three or four, not everything.** ⚠️ **The editing IS the job, and it
