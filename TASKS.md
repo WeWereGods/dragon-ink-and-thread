@@ -333,7 +333,40 @@ Two rules that keep this useful:
       repair, not a separate enquiry. Logged as anonymous for a day and corrected 2026-08-13.
       She withdrew in the morning on the wool (can't be machine washed) and returned the same day
       wanting it **hung rather than used**, which makes the entire objection irrelevant.
-      ## 🖼️ THE SHADOW BOX — new piece, agreed 2026-08-19, $300, due Sep 18
+      ## 📄 INVOICE COPY — written 2026-08-19, paste into Stripe
+      **Shadow box — description, materials and disclaimer in one block (494 chars):**
+      > Your husband's costume and memorabilia, arranged and secured in the display box you
+      > supply. You provide the box, backing and fixings; I provide what holds each piece in
+      > place. Please use acid-free board for anything on paper — ordinary board yellows
+      > photographs, and I can't guarantee materials I haven't supplied. Mounting is reversible
+      > where possible; anything permanent is agreed first. The 30 days begins when everything
+      > reaches me. Final sale; payment is non-refundable once work begins.
+
+      **Wall hanging — description:**
+      > **Heirloom Memory Wall Hanging** — 16″ × 20″, hand-pieced from your husband's own
+      > clothing: the Hugo Boss suit jacket and matching trousers, the Geoffrey Beene dress
+      > shirt, and the cream pocket square. Built to the layout in the drawing dated 19 Aug 2026,
+      > in charcoal, grey, cornflower blue and cream. The dark suiting frames an open jacket,
+      > with the cornflower shirt running the full height of the piece and the cream pocket
+      > square at the shoulders.
+      > Every piece is interfaced before it is cut, so the wool holds its shape and doesn't
+      > stretch. Low-loft batting, cotton backing, and a hanging sleeve or stretched frame.
+      > Blocked square, bound by hand, and finished with a fabric label on the back.
+      > Made to hang and be looked at, not to be used as a quilt.
+
+      **Wall hanging — disclaimer (471 chars):**
+      > Your husband's jacket, trousers, shirt and pocket square will be cut apart to make this
+      > piece and cannot be made back into clothing. Any cloth left over is returned to you with
+      > the finished hanging. This is a wall piece, not bedding: it is wool and cannot be washed.
+      > The price covers the design as drawn; changes must be agreed before cutting. Custom work
+      > is final sale, and payment is non-refundable once work begins.
+      > Keep out of direct sunlight; check for moths yearly.
+      📌 **Both disclaimers say "payment", not "deposit"** — she pays in full up front, and a
+      clause describing a payment structure you aren't using is the sentence that gets argued
+      over. **Fuller care notes (moths, sun, settling) go on a card that ships WITH the piece**,
+      not here; they are more use in her hands in 2027 than in an invoice from August.
+
+      ## 🖼️ THE SHADOW BOX — new piece, agreed 2026-08-19, $250, due Sep 18
       Holds **his costume and memorabilia**, in a box Linda supplies. She supplies the box and the
       display materials; the shop supplies only what is needed to hold pieces in position.
       ⚠️ **"MEMORABILIA" NEEDS THE SAME DISCLOSURE THE WOOL GOT — and it isn't written yet.**
