@@ -250,6 +250,14 @@ Two rules that keep this useful:
       - ~~⚠️ **These POST to California — they aren't collected.**~~ **VOID 2026-08-18 — they're
         being carried.** The whole postal chain this entry was built around (post by Thu 20 or
         slip to Tue 25, arriving 27–29) no longer applies.
+      - ⏳ **2026-08-19 midday: CLIPS STILL NOT HERE.** Sewing continues in the meantime, which is
+        right — but the margin is now one day, and **Thu 20 already holds Maurya's drop-off and
+        packing for a Friday flight.**
+        🔧 **SETTLE THE SPARE-CLIP QUESTION TODAY.** Every shop bow is on a slide-in clip; if
+        there are spares in the house this is a preference, not a blocker. Asked 2026-08-18 and
+        still unanswered — **Thursday evening is the wrong time to find out the answer is no.**
+        📦 **Check the tracking now, not tomorrow.** "Due Wednesday" with nothing by midday is
+        worth knowing while there are still two days of options rather than one.
       - 🔨 **BOWS BEING SEWN 2026-08-18 (evening).** ⚠️ **THE CLIPS ARE ON ORDER — due Wed 19.**
         So the bows get made tonight and **Wednesday is assembly, not a standing start** — the
         same trick that saved Maurya's tote when her batting was late. Sequencing is right.
