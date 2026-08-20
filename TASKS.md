@@ -942,6 +942,34 @@ Two rules that keep this useful:
 
 ## 🆕 Live today
 
+- [x] 🏈 ✅ **GAME DAY DARLING IS LIVE 2026-08-20.** Merged and deployed — Worker `b346169f`.
+  | id | name | price | maxQty |
+  |---|---|---|---|
+  | `bow-gameday-darling` | Game Day Darling Bow *(clip)* | $12 | 3 |
+  | `bow-gameday-darling-headband` | Game Day Darling Headband *(newborn)* | $14 | 2 |
+  ✅ **PROVED THE POSITIVE CASE, because this is the bug that has bitten twice** — a new piece
+  that adds to the cart perfectly and then dies at checkout because the Worker never heard of it.
+  A real POST for the headband returned a Stripe URL. It is known, it is buyable.
+  📌 **The scrunchie was dropped, not forgotten.** Never made, and the shop does not list things
+  that do not exist. Trivial to re-add.
+  🚨 **PHOTO PROVENANCE — the reason this took a second pass.** Two of the images first supplied
+  carried **OpenAI C2PA content credentials**, and one was byte-identical to a file named
+  `ChatGPT Image Aug 20, 2026...`. They were not photographs. **Both images that shipped were
+  checked for c2pa/jumb/openai markers first and are clean**, with real EXIF.
+  ⚠️ **THIS IS NOW A STANDING CHECK.** A generated product photo misrepresents the goods, breaks
+  terms.html's *"we photograph our work as accurately as we can"*, and **C2PA travels with the
+  file** — Google and Pinterest can read it. The repo already gitignored `assets/ChatGPT Image *`
+  before any of this. **Check any supplied image for those markers before it reaches a listing.**
+  ⚠️ **THE MERGE CONFLICTED IN 33 FILES, ALL GENERATED**, every one a `?v=` cache-bust hash plus
+  `shop.html`'s script tag. Resolved by taking the branch and **regenerating everything**, so the
+  hashes are right by construction rather than by picking a side. **Never hand-merge a generated
+  page.**
+  ✅ **Post-merge audit:** the two products present, scrunchie absent, and main's own recent work
+  all survived — strawberry still retired, Suriel set still pulled, the cart fix intact, the
+  finished-edges copy intact. All six JSON-LD blocks match counts computed from the data
+  (Bows 14 / $12–14). 34 pages, 34 ids, no orphans.
+
+
 - [ ] 🏈 **GAME DAY SET — staged on `gameday-bows`, NOT merged.** Three pieces from one $22 yard.
   | id | name | price | maxQty |
   |---|---|---|---|
@@ -1225,6 +1253,14 @@ ahead of abandoned-cart recovery.
 
 **Baseline, measured from the Stripe API on 2026-08-08** (whole account history, 31 sessions):
 ⚠️ **EXCLUDE ONE SESSION FROM ALL OF THIS: a `bow-lace-of-velaris` ($12) Checkout session was
+⚠️ **AND EXCLUDE UP TO THREE MORE, 2026-08-20:** `bow-gameday-darling-headband` sessions minted
+to prove the new listing actually checks out — the bug that has hit twice is an item that adds
+to the cart and then fails at the Worker, and the only way to disprove it is a real call. One at
+qty 1 and one or two at qty 9 (testing the clamp). **They will expire unpaid and look exactly
+like genuine abandonments. They are not.**
+📌 The qty clamp itself is **code-verified, not observed** — `Math.min(asked, p.maxQty || 1)` at
+worker/checkout-worker.js:184. The session URL does not reveal the line-item quantity, so if it
+ever matters, read the amount off the session in the Stripe Dashboard rather than trusting this.
 minted on 2026-08-19 as a TEST**, to prove the five singles still checked out after the Suriel
 set was pulled. It will expire unpaid and look exactly like a genuine abandonment. It isn't one.
 📌 The negative case (a pulled id → "Your cart is empty") costs nothing, because the Worker
