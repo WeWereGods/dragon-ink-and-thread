@@ -1150,6 +1150,28 @@ recovery is worth reconsidering.
 
 ## ⚫ Parked on purpose — don't start these unasked
 
+- **Pop-up booth kit — NOT NOW, decided 2026-08-20.** Raised when Linda's $1,136.63 invoice
+  went out. **Two separate reasons, and the money one is the sharper:**
+  - ⚠️ **That payment is not profit, it is PREPAID WAGES.** Paid in full for a shadow box due
+    Sep 18 and a wall hanging due Feb 2027, with **Linda supplying the materials** — so there is
+    almost no cost of goods in it and it is nearly all labour not yet performed. Spend it and
+    you work for free in February. It is also refundable money until the work is done.
+  - ⚠️ **$86.63 of it is Texas sales tax being held for the state**, and SE tax on the $1,050 is
+    roughly $160 before income tax. A few hundred is claimed before anything is spent.
+  - **No stock depth.** A booth wants a table that looks abundant — 30+ pieces. The shop is
+    one-of-a-kind; filling a table is weeks of sewing that is not going to the commission.
+  - **No hours.** A market day is 10–14 h with setup and teardown, around a small child. August
+    had five jobs slip on materials and timing; the thing that would slip is custom, which is
+    where the money actually is (Linda alone > every shop sale combined).
+  - **The house is on the market** — a tent, weights, tables and grid walls have to be stored
+    through a move.
+  ✅ **HOW TO TEST IT WITHOUT BUYING ANYTHING, when the time comes:** an **indoor** market that
+  rents tables — **no tent, which is the single biggest cost and often unnecessary**. Borrowed
+  folding table, fabric already owned as covering, printed sign, QR to the shop. ~$30–50 in
+  fees. **That answers "do people buy this in person" before $600 is spent finding out.**
+  📌 Worth testing eventually: both repeat customers converted from a small first purchase, and
+  a booth is a small-first-purchase machine. Just not with this money, and not this month.
+
 - **Abandoned-cart recovery.** Researched and deferred 2026-08-06. Full notes in `CLAUDE.md`,
   including the two things that are easy to get wrong. Don't re-research it.
   **Measured 2026-08-08:** 31 Checkout sessions ever — 5 paid, 25 expired, 1 open, and **none of
