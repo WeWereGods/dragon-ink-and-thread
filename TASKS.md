@@ -1155,6 +1155,39 @@ recovery is worth reconsidering.
 ⚠️ **Everything here needs confirming against the Comptroller and whoever does the books.**
 Thresholds and report requirements change yearly; this is the shape, not the ruling.
 
+### 💰 SET ASIDE RIGHT NOW — $329.34 (position as at 2026-08-20)
+From the owner's bookkeeping workbook, arithmetic independently re-checked — gross, net, SE tax
+and the 25% rule all tie out.
+
+| Bucket | Amount | What it is |
+|---|---|---|
+| **Texas sales tax** | **$88.62** | **NOT YOURS.** Already collected, held for the state. |
+| **Federal** | **$240.72** | 25% of net profit — beats the SE-only estimate of $136.05. |
+| **Total** | **$329.34** | |
+
+Underlying: product revenue **$1,250.43** + shipping $13.00 = gross **$1,263.43**; expenses
+**$300.55**; **net profit $962.88**.
+
+🚨 **UNRESOLVED — A $14.54 SALES-TAX GAP. Settle it before filing.**
+8.25% of $1,250.43 would be **$103.16**; **$88.62** was collected. The difference means roughly
+**$176 of revenue carried no sales tax.**
+That matches the two custom invoices that land on suspiciously round numbers: **Aubrea's $36**
+(exactly 3 × $12) and **Linda's first $105** (exactly $30 + $75). Neither shows a tax line;
+Maurya's ($90 + $7.43) and Linda's second ($892.50 + $73.63) both clearly do.
+⚠️ **If that revenue was taxable and tax wasn't collected, it is still owed — out of pocket,
+because the customer has gone.** $14.54 is nothing today; **the same habit on Linda's $892.50
+would have been $73.** Pull both invoices, then either explain the gap or add it to the pile
+(worst case the set-aside becomes **$343.88**).
+
+📌 **Linda's second invoice is 71% of all product revenue.** The entire tax position for 2026
+rests on one customer — worth remembering when the number looks healthy.
+📌 **And it is PREPAID.** That $892.50 is 2026 income on a cash basis, but the shadow box is due
+September and the wall hanging February. **Tax is owed this year on work done next year**, which
+is the concrete reason not to spend it (see the parked pop-up booth note).
+📌 **Quarterly payments — "not yet" is right on SE tax alone**, but that ignores federal income
+tax, which depends on the household's whole return. If there is other income the $1,000 trigger
+is nearer than $136.05 suggests. **CPA question.**
+
 ### Texas sales tax — the permit already held
 Frequency is **assigned by the Comptroller, not chosen**. Returns are due the **20th of the
 month after the period ends**. Annual (~under $1,000/yr owed) → **Jan 20**. Quarterly →
