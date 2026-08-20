@@ -302,6 +302,12 @@ Two rules that keep this useful:
         need nothing but hands), **any adhesive checked against carry-on liquid limits or put in
         the hold**, and the finished bows protected so they do not crush under a suitcase lid for
         four days.
+      📸 **PHOTOGRAPHED 2026-08-20 — three bows together, styled, branded card in shot.**
+        🚨 **THESE ARE AUBREA'S THREE, NOT SHOP STOCK. Do not use this photo on a listing.**
+        The  branch carries its OWN three Autumn Court bows in the same print,
+        still to be sewn. Two sets of three identical-looking bows exist in photographs and
+        only one set is sellable — **label the files before they are filed**, or this is the
+        two-totes confusion again with money attached.
       - ⏳ **2026-08-19 midday: CLIPS STILL NOT HERE.** Sewing continues in the meantime, which is
         right — but the margin is now one day, and **Thu 20 already holds Maurya's drop-off and
         packing for a Friday flight.**
