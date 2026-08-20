@@ -413,13 +413,33 @@ Two rules that keep this useful:
       |---|---|---|---|
       | **Custom Shadow Box** *(NEW — from the Aug 19 handover)* | **$250** *(was $300, cut same day)* | **30 days → Sep 18, 2026** | **Linda supplies the box AND the display materials.** Shop supplies only what holds pieces in position. |
       | **Heirloom Memory Wall Hanging** | **$800** *(raised from $700 on 2026-08-19)* | **6 months → Feb 19, 2027** | **Linda supplies.** |
-      | | **$1,050** + 8.25% tax = **$1,136.63** | | |
+      | | **$1,050** less 15% = $892.50, + 8.25% tax = **$966.13 — PAID 2026-08-20** | | |
       ⚠️ **THE SHADOW BOX IS PRICED WITH ITS SCOPE STILL UNKNOWN.** $250 was set before anyone
       established what memorabilia actually goes in the box. Every other figure here is checked
       against an hour estimate; **this one has none, anywhere.** If it turns out to hold framed
       paper, medals and a costume needing individual mounts, $250 may not cover it — and it is
       the piece due first, in 30 days. **Establish the contents before starting, not after.**
-      **Payment: IN FULL UP FRONT — one charge of $1,136.63** (owner's decision 2026-08-19; the
+      💳 **PAID IN FULL 2026-08-20 — $966.13**, with a **15% discount** applied.
+      | | |
+      |---|---|
+      | Subtotal (wall hanging $800 + shadow box $250) | $1,050.00 |
+      | Less 15% | −$157.50 |
+      | Discounted subtotal | $892.50 |
+      | Texas sales tax @ 8.25% | $73.63 |
+      | **Paid** | **$966.13** |
+      📌 Discount applied **pre-tax**, which is correct — sales tax is owed on what was actually
+      charged, not the list price. **The state's share is $73.63, not the $86.63 recorded before
+      the discount.**
+      ✅ **The economics still hold.** The wall hanging nets $680 for ~12–20 h — $34–57/hr, well
+      above the $15.50–23 benchmark used elsewhere in this file. The discount did not break it.
+      🚨 **FORWARD QUESTION, AND IT IS URGENT BECAUSE OF AUG 29: does the Nest discount apply to
+      CUSTOM work?** NEST15 is the newsletter welcome code, built to convert a *first small shop
+      purchase*. On a four-figure commission it gave away **$157.50** — more than the entire
+      shadow box. **The Aug 29 push goes to the whole Buttondown list, every one of whom holds
+      NEST15**, and the push is explicitly aimed at driving custom enquiries. If the next
+      commission is $1,000, that is another $150 off unless the rule is decided first.
+      **Owner's call** — but decide it before the 29th, not after the next one comes in.
+      **Payment: IN FULL UP FRONT — one charge — invoiced at $1,136.63, PAID $966.13 after a 15% discount** (owner's decision 2026-08-19; the
       earlier deposit-and-milestone schedule is void). Same as Maurya and Aubrea, who both paid
       in full at the start.
       ⚠️ **THE DISCLAIMER WORDING HAD TO CHANGE WITH IT** — "the *deposit* is non-refundable once
@@ -481,7 +501,7 @@ Two rules that keep this useful:
       📌 **Callout mapping is an inference from the palette** (navy = jacket, grey = trousers,
       blue = shirt, cream = pocket square). Confirm before cutting.
       💷 **Linda is comfortably the shop's biggest customer**: $30 tea cover + $75 quilt repair
-      already paid, plus $1,050 agreed = **$1,155 lifetime.** More than every other custom order
+      already paid, plus $892.50 net of discount = **$997.50 lifetime revenue** ($1,071.13 paid, incl. tax). More than every other custom order
       this month put together.
       ⭐ **AND IT IS THE $75 REPAIR THAT EARNED IT.** She handed over a family quilt with a hole
       in it, got it back invisibly mended, and then trusted the same hands with her husband's
@@ -1144,7 +1164,7 @@ assigned frequency and the real due dates, and the permit paperwork says it too.
 ⚠️ **A return is required even in a period with ZERO sales.** A missed zero-return still draws a
 penalty, and that is the usual way a small shop gets stung.
 📌 Collected sales tax is **not income** — it is held for the state. Linda's invoice alone
-carries **$86.63** of it.
+carries **$73.63** of it (after the 15% discount; it was $86.63 at list).
 
 ### Texas franchise tax — NEW, and only because of the LLC
 ⚠️ **This obligation arrived with the LLC and nothing in a normal week would ever surface it.**
@@ -1181,13 +1201,13 @@ self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15
 
 ## ⚫ Parked on purpose — don't start these unasked
 
-- **Pop-up booth kit — NOT NOW, decided 2026-08-20.** Raised when Linda's $1,136.63 invoice
+- **Pop-up booth kit — NOT NOW, decided 2026-08-20.** Raised when Linda's invoice (paid $966.13)
   went out. **Two separate reasons, and the money one is the sharper:**
   - ⚠️ **That payment is not profit, it is PREPAID WAGES.** Paid in full for a shadow box due
     Sep 18 and a wall hanging due Feb 2027, with **Linda supplying the materials** — so there is
     almost no cost of goods in it and it is nearly all labour not yet performed. Spend it and
     you work for free in February. It is also refundable money until the work is done.
-  - ⚠️ **$86.63 of it is Texas sales tax being held for the state**, and SE tax on the $1,050 is
+  - ⚠️ **$73.63 of it is Texas sales tax being held for the state**, and SE tax on the $892.50 is
     roughly $160 before income tax. A few hundred is claimed before anything is spent.
   - **No stock depth.** A booth wants a table that looks abundant — 30+ pieces. The shop is
     one-of-a-kind; filling a table is weeks of sewing that is not going to the commission.
