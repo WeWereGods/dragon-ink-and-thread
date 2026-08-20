@@ -46,6 +46,9 @@ const PRICES = {
   "bow-porcelain-roses":   { name: "Porcelain Roses Bow",      amount: 1200 },
   "bow-lace-of-velaris":   { name: "Lace of Velaris Bow",      amount: 1200 },
   "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",     amount: 1200 },
+  // Game Day — cut from one yard, so these carry maxQty like the scrunchies.
+  "bow-gameday-darling":      { name: "Game Day Darling Bow",      amount: 1200, maxQty: 3 },
+  "bow-gameday-darling-headband":   { name: "Game Day Darling Headband",      amount: 1400, maxQty: 2 },
   // ⛔ PULLED FOR THE Aug 21–24 TRIP (2026-08-19) — see js/shop-data.js LINKS.
   // Removed here too so a set already sitting in someone's localStorage cart cannot check out.
   // ↩️ RESTORE ON Tue 25, then wrangler deploy.

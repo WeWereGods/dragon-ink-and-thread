@@ -942,6 +942,52 @@ Two rules that keep this useful:
 
 ## 🆕 Live today
 
+- [ ] 🏈 **GAME DAY SET — staged on `gameday-bows`, NOT merged.** Three pieces from one $22 yard.
+  | id | name | price | maxQty |
+  |---|---|---|---|
+  | `bow-gameday-darling` | Game Day Darling Bow *(clip)* | $12 | 3 |
+  | `bow-gameday-darling-headband` | Game Day Darling Headband *(baby)* | $14 | 2 |
+  | `scrunchie-gameday-darling` | Game Day Darling Scrunchie | $6 | 3 |
+
+  ⚠️ **THE BRANCH WAS REBUILT FROM MAIN 2026-08-20 — the old one was poison.** It had drifted 33
+  commits behind, and merging it would have **resurrected the retired Strawberry Scrunchie and
+  un-pulled the Suriel set**, because both changes happened on main after the branch was cut.
+  Its `offerCount` numbers were stale too. **A stale product branch does not just miss new work,
+  it actively undoes it.** Rebased-from-scratch rather than merge-resolved, because 30 of the
+  conflicts were in generated pages that should be rebuilt, never hand-merged.
+
+  ✅ **NAME SETTLED 2026-08-20 — one family, "Game Day Darling".** The clip is **Game Day Darling Bow**, the baby
+  headband **Game Day Darling Headband**, the scrunchie **Game Day Darling Scrunchie**.
+  📌 **The IDS were renamed too, which is only safe because none of them ever shipped** — no
+  live page, no sitemap entry, no Pinterest feed row. Recycling a published id is the one thing
+  the feed cannot forgive; renaming an unpublished one costs nothing.
+  ⚠️ **Old generated pages had to be deleted by hand** (`bow-autumn-court.html`,
+  `scrunchie-autumn-court.html`). The generator writes new pages but never removes orphans —
+  same gap found when the Strawberry Scrunchie was retired.
+  🚨 **BABY PRODUCT — this is a new regulatory footing, not just a new SKU.** Children's products
+  in the US fall under **CPSIA** (tracking labels, and testing obligations for some categories).
+  Scrunchies and pet bandanas carry none of that. **Worth one question to a CPA or the CPSC small-
+  business page BEFORE listing**, since the shop is now an LLC selling to the public. Not a
+  reason to abandon it — a reason to check once. The listing already carries the standard safe-use
+  line: *"Never leave on a sleeping or unattended baby."*
+
+  ⚠️ **CUSTOM FLOOR AUDIT NOW TRIPS ON BOWS** — floor $13 vs the $14 headband. **Believed a false
+  positive on the same construction-tier reasoning that settled Pet Bandanas on 2026-08-19**: the
+  $13 floor buys the simplest custom *clip bow*, whose real comparison is the $12 clip bows, and
+  a custom *headband* would be quoted up the $13–20 band rather than at its floor.
+  🔍 **But note the rule needed stretching again.** The bandana case was plain-vs-elaborate within
+  one product type; this is a **different product type inside one category**. Same conclusion,
+  wider principle: *"the same thing" means comparable construction AND comparable product.*
+  **Owner to confirm, same as the bandana call.**
+
+  **BEFORE MERGING:** sew them · confirm the baby headband SIZE (the `details` line carries a
+  literal `[SIZE — CONFIRM]` placeholder) · photos into `assets/` as `bow-autumn-court.jpg`,
+  `bow-gameday-darling.jpg`, `scrunchie-autumn-court.jpg` · confirm the real scrunchie count
+  (maxQty 3 is the category default, not a counted figure) · then `wrangler deploy` from main.
+  ✅ **Verified in the browser:** headband caps at 2, Autumn Court at 3, both steppers correct,
+  all JSON-LD blocks parse, Bows 14 / high $14 and Scrunchies 10 computed from the data.
+
+
 - [x] ✅ **The Suriel Tea Cover — $35, LIVE AND BUYABLE 2026-08-13.** Blue-and-white patchwork,
       12″ × 9″, pieced from the *Tea with the Suriel* prints — the same fabric family as
       `bow-suriel-set`, so the two read as a pair and are worth cross-selling.
