@@ -142,11 +142,21 @@ Two rules that keep this useful:
         *Why it mattered:* the damage is at the EDGE, which takes far more handling than the
         middle — dragging, tucking, pulling up — so this patch gets stress-tested harder than a
         central one would.
-        ⚠️ **LAST CHANCE, THE QUILT HAS GONE BACK: was the ticking harvested from the quilt itself, or
+        🚨 **ANSWERED 2026-08-20: THE TICKING WAS BOUGHT NEW — so the pre-wash question is now LIVE.**
+        (was: harvested from the quilt itself, or
         bought new?** Obvious today, gone in a month — and it matters, because bought-new cotton
         needed a hard pre-wash before cutting (the quilt finished shrinking decades ago; skip that
         and Linda's first wash puckers the patch). Harvested cloth needs none of it, which is why
         it was the better option.
+        ❓ **THE ONE QUESTION THAT MATTERS NOW: WAS IT PRE-WASHED BEFORE CUTTING?**
+        New cotton shrinks on its first wash; this quilt finished shrinking decades ago. If the
+        ticking went in unwashed, **Linda's first wash puckers the patch** — on an heirloom she
+        intends to pass to her daughter. **The quilt is already back with her**, so this can no
+        longer be fixed quietly at the machine.
+        - **If it WAS pre-washed:** nothing to do. Worth writing down so it is never asked again.
+        - **If it was NOT:** tell her before she washes it. Cold wash, gentle, or better still
+          spot-clean only. A warning she gets first reads as care; the same warning after the
+          puckering reads as an excuse.
       - ⚠️ **CORRECTION 2026-08-13: the wall hanging is NOT this patchwork quilt.** It was logged
         here for a few hours as "Linda wants the mended quilt hung", which was a misreading.
         **Linda is the memory-piece customer** — the wall hanging is a NEW piece to be made from
@@ -195,6 +205,16 @@ Two rules that keep this useful:
       - ~~📸 **Film the prep / shoot it Thursday.**~~ Overtaken — it's finished. The process
         footage §6 of the campaign wanted is whatever was captured along the way; **the finished
         piece is the shot that still has to be taken, and the window is now.**
+      - ⏸️ **RESCHEDULED AGAIN 2026-08-20 — MAURYA IS UNWELL. Now next week (Tue 25+).**
+        **Her call again, and this one is illness** — record it as such. The piece has been
+        finished and offered since Aug 18, inside the window she was quoted. **Nothing is late;**
+        **the customer is simply not well.** Send a short get-well note rather than a delivery
+        chase — the order is complete on your side.
+        🎁 **AND THE RESHOOT IS BACK ON, for the second time.** The tote stays in the house for
+        another five days, so the three weak frames can finally be fixed: window to the SIDE
+        (both front-on shots are backlit), one sharp frame of the ties, and the interior with
+        the pocket bags. **Do it in daylight and do it before it is packed again** — that is
+        exactly how the chance was lost last time.
       - [x] ✅ **TOTE FINISHED 2026-08-18.** ⚠️ **DROP-OFF MOVED TO THU 20 AT MAURYA'S REQUEST**
         (2026-08-18). **RECORD THAT IT WAS HER CALL, NOT A SLIP** — Thu 20 is one day outside
         the Aug 17–19 window, and in a month this entry is all anyone will have to tell a
@@ -290,7 +310,10 @@ Two rules that keep this useful:
       - ~~⚠️ **These POST to California — they aren't collected.**~~ **VOID 2026-08-18 — they're
         being carried.** The whole postal chain this entry was built around (post by Thu 20 or
         slip to Tue 25, arriving 27–29) no longer applies.
-      - ✅ **2026-08-20: CLIPS DUE TODAY, AND THE DEADLINE HAS MOVED.** The owner will
+      - [x] ✅ **DONE AND PACKED 2026-08-20.** Clips arrived, all three assembled and in the bag.
+        Nothing left to make; they are hand-delivered on the trip. **Four slips, and she was told
+        before every one of them — which is why none of them cost anything.**
+      - ~~2026-08-20: clips due today, deadline moved~~ The owner will
         **finish them in California if needed** — bows, clips and tools go in the bag and get
         assembled at Aubrea's. **So the job is no longer "assemble before the flight", it is
         "have the clips in hand before the flight".** The Aug 27–29 slip scenario is off the
