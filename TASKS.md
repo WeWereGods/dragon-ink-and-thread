@@ -903,9 +903,9 @@ Two rules that keep this useful:
 - [ ] 🏈 **GAME DAY SET — staged on `gameday-bows`, NOT merged.** Three pieces from one $22 yard.
   | id | name | price | maxQty |
   |---|---|---|---|
-  | `bow-autumn-court` | The Autumn Court Bow | $12 | 3 |
-  | `bow-gameday-darling` | Game Day Darling Bow *(baby headband)* | $14 | 2 |
-  | `scrunchie-autumn-court` | Autumn Court Scrunchie | $6 | 3 |
+  | `bow-gameday-darling` | Game Day Darling Bow *(clip)* | $12 | 3 |
+  | `bow-gameday-darling-headband` | Game Day Darling Headband *(baby)* | $14 | 2 |
+  | `scrunchie-gameday-darling` | Game Day Darling Scrunchie | $6 | 3 |
 
   ⚠️ **THE BRANCH WAS REBUILT FROM MAIN 2026-08-20 — the old one was poison.** It had drifted 33
   commits behind, and merging it would have **resurrected the retired Strawberry Scrunchie and
@@ -914,12 +914,14 @@ Two rules that keep this useful:
   it actively undoes it.** Rebased-from-scratch rather than merge-resolved, because 30 of the
   conflicts were in generated pages that should be rebuilt, never hand-merged.
 
-  🚨 **NAME CLASH — OWNER TO DECIDE.** The clip bow is **The Autumn Court Bow**; the headband is
-  **Game Day Darling Bow**. Same fabric, same category, adjacent cards, two unrelated names.
-  Bow names normally come from the fabric library so a bow and its swatch match. **Recommend
-  making them an obvious pair** — one name family, either "Autumn Court" or "Game Day Darling"
-  for both. One line to change while the branch is parked.
-
+  ✅ **NAME SETTLED 2026-08-20 — one family, "Game Day Darling".** The clip is **Game Day Darling Bow**, the baby
+  headband **Game Day Darling Headband**, the scrunchie **Game Day Darling Scrunchie**.
+  📌 **The IDS were renamed too, which is only safe because none of them ever shipped** — no
+  live page, no sitemap entry, no Pinterest feed row. Recycling a published id is the one thing
+  the feed cannot forgive; renaming an unpublished one costs nothing.
+  ⚠️ **Old generated pages had to be deleted by hand** (,
+  ). The generator writes new pages but never removes orphans —
+  same gap found when the Strawberry Scrunchie was retired.
   🚨 **BABY PRODUCT — this is a new regulatory footing, not just a new SKU.** Children's products
   in the US fall under **CPSIA** (tracking labels, and testing obligations for some categories).
   Scrunchies and pet bandanas carry none of that. **Worth one question to a CPA or the CPSC small-

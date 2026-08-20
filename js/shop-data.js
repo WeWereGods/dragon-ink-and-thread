@@ -61,7 +61,7 @@ window.DIT_SHOP = {
     "scrunchie-pink-bumble-bee":{ name: "Pink Bumble Bee Scrunchie", price: 6.0, art: "🐝", maxQty: 3 },
     "scrunchie-pretty-in-pink": { name: "Pretty in Pink Scrunchie",  price: 6.0, art: "🎀", maxQty: 3 },
     "scrunchie-wildflower":     { name: "Wildflower Scrunchie",      price: 6.0, art: "🌼", maxQty: 3 },
-    "scrunchie-autumn-court":   { name: "Autumn Court Scrunchie",   price: 6.0, art: "🏈", maxQty: 3 },
+    "scrunchie-gameday-darling":   { name: "Game Day Darling Scrunchie",   price: 6.0, art: "🏈", maxQty: 3 },
     "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 15.0, art: "🎀", maxQty: 3 },
     "scrunchie-byo-bundle":     { name: "Build Your Own Bundle",     price: 15.0, art: "🎀", picks: 3 },
     "bow-gingham":      { name: "Gingham Bow",      price: 12.0, art: "🎀" },
@@ -76,12 +76,12 @@ window.DIT_SHOP = {
     "bow-porcelain-roses":   { name: "Porcelain Roses Bow",     price: 12.0, art: "🌹" },
     "bow-lace-of-velaris":   { name: "Lace of Velaris Bow",     price: 12.0, art: "🎀" },
     "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐" },
-    /* GAME DAY — three pieces from one yard of the football print, bought 2026-08-19.
+    /* GAME DAY DARLING — three pieces from one yard of the football print, bought 2026-08-19.
        These carry maxQty because they are stock cut from shared yardage, NOT one-of-a-kind.
        That does not reopen the 2026-07-30 "bows stay at 1" decision, which was about
        genuinely unique bows. */
-    "bow-autumn-court":      { name: "The Autumn Court Bow",      price: 12.0, art: "🏈", maxQty: 3 },
-    "bow-gameday-darling":   { name: "Game Day Darling Bow",      price: 14.0, art: "🏈", maxQty: 2 },
+    "bow-gameday-darling":      { name: "Game Day Darling Bow",      price: 12.0, art: "🏈", maxQty: 3 },
+    "bow-gameday-darling-headband":   { name: "Game Day Darling Headband",      price: 14.0, art: "🏈", maxQty: 2 },
     "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖" },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
     "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
@@ -91,23 +91,23 @@ window.DIT_SHOP = {
   },
 
   VARIANTS: {
-    "bow-autumn-court": {
+    "bow-gameday-darling": {
       alt: "Handmade sailor bow in a cream print scattered with russet footballs and little tied bows",
       blurb: "Russet footballs and little tied bows strewn across cream — Saturday afternoons, and the first morning of the year that's cool enough for sleeves. Cut from a textured knit rather than cotton, so it holds its shape from kickoff to the drive home. **Three were made, and that was the whole yard.**",
       details: "6″ long × 6″ wide · finished edges · textured knit · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
-      images: ["assets/bow-autumn-court.jpg"]
+      images: ["assets/bow-gameday-darling.jpg"]
     },
-    "bow-gameday-darling": {
+    "bow-gameday-darling-headband": {
       alt: "Baby headband in a cream print scattered with russet footballs and little tied bows, tied in a large bow at the front",
       blurb: "The same russet footballs and little tied bows, on a soft stretch headband for the smallest fan in the house. A textured knit that gives without digging in, tied in a generous bow at the front. **Two were made, and that was the whole yard.**",
       details: "Baby headband · [SIZE — CONFIRM] · soft stretch knit · spot clean only. ⚠️ Never leave on a sleeping or unattended baby.",
-      images: ["assets/bow-gameday-darling.jpg"]
+      images: ["assets/bow-gameday-darling-headband.jpg"]
     },
-    "scrunchie-autumn-court": {
+    "scrunchie-gameday-darling": {
       alt: "Handmade scrunchie in a cream print scattered with russet footballs and little tied bows",
       blurb: "The same russet footballs and little tied bows, gathered into a scrunchie — game day, in a size that fits in a pocket. A textured knit, so it springs back rather than going limp by the fourth quarter.",
       details: "One size · textured knit · gentle on hair · spot clean only. Sewn and ready to ship.",
-      images: ["assets/scrunchie-autumn-court.jpg"]
+      images: ["assets/scrunchie-gameday-darling.jpg"]
     },
     "tote-storykeeper": {
       alt: "Handmade tote printed with shelves of antique books and potion bottles on black, hanging from a long black strap",
@@ -351,9 +351,9 @@ window.DIT_SHOP = {
     "bow-porcelain-roses":   "cart",
     "bow-lace-of-velaris":   "cart",
     "bow-suriels-bouquet":   "cart",
-    "bow-autumn-court":       "cart",
-    "bow-gameday-darling":    "cart",
-    "scrunchie-autumn-court": "cart",
+    "bow-gameday-darling":       "cart",
+    "bow-gameday-darling-headband":    "cart",
+    "scrunchie-gameday-darling": "cart",
     /* ⛔ PULLED FOR THE Aug 21–24 TRIP (2026-08-19). The set and the five singles are
        the SAME five bows, and nothing tracks stock — with nobody able to pull a listing for
        four days, one sale on either side would oversell the other. Removing it from LINKS (not
@@ -386,11 +386,11 @@ window.DIT_SHOP = {
     { label: "Scrunchies", note: "Soft, springy, gentle on hair — pick a print, or build your own trio.",
       ids: ["scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry", "scrunchie-orange-kitty",
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower",
-            "scrunchie-autumn-court",
+            "scrunchie-gameday-darling",
             "scrunchie-bundle", "scrunchie-byo-bundle"] },
     { label: "Bows",       note: "Hand-tied sailor bows with finished edges, in storybook prints.",
       ids: ["bow-suriel-set", "bow-something-blue", "bow-sidra-vines", "bow-porcelain-roses", "bow-lace-of-velaris",
-            "bow-autumn-court", "bow-gameday-darling",
+            "bow-gameday-darling", "bow-gameday-darling-headband",
             "bow-suriels-bouquet",
             "bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
             "bow-gingham", "bow-sage-gingham"  ] },
