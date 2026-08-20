@@ -304,7 +304,7 @@ Two rules that keep this useful:
         four days.
       📸 **PHOTOGRAPHED 2026-08-20 — three bows together, styled, branded card in shot.**
         🚨 **THESE ARE AUBREA'S THREE, NOT SHOP STOCK. Do not use this photo on a listing.**
-        The  branch carries its OWN three Autumn Court bows in the same print,
+        The `gameday-bows` branch carries its OWN three Autumn Court bows in the same print,
         still to be sewn. Two sets of three identical-looking bows exist in photographs and
         only one set is sellable — **label the files before they are filed**, or this is the
         two-totes confusion again with money attached.
