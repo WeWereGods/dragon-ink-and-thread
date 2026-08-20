@@ -264,6 +264,8 @@
      missing (so a not-yet-added photo never looks broken).
      ========================================================= */
   var PAST_MAKES = [
+    { img: "assets/scrunchie-strawberry.jpg", art: "🍓", title: "Strawberry Scrunchie",
+      story: "Ripe little strawberries on leafy green — the sweetest bit of summer for your wrist or your hair. The shop's first customer bought one alongside her strawberry tote, entirely her own idea, and that pairing is the reason every product page now suggests something to go with it. 🍓" },
     { img: "assets/kindle-case.jpg", art: "📖", title: "Road Trip Kindle Case",
       story: "A padded, quilted e-reader sleeve in a vintage road-sign and Route 66 print, with a tie closure to keep your Kindle cozy and safe on every adventure. 📖" },
     { img: "assets/tote-lavender-bee.jpg", art: "🐝", title: "Lavender and Honeybee Wheelchair Tote",

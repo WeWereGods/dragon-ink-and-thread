@@ -32,7 +32,6 @@ const PRICES = {
   "scrunchie-pink-bumble-bee": { name: "Pink Bumble Bee Scrunchie", amount: 600, maxQty: 3 },
   "scrunchie-pretty-in-pink":  { name: "Pretty in Pink Scrunchie",  amount: 600, maxQty: 3 },
   "scrunchie-wildflower":      { name: "Wildflower Scrunchie",      amount: 600, maxQty: 3 },
-  "scrunchie-strawberry":      { name: "Strawberry Scrunchie",      amount: 600, maxQty: 3 },
   "scrunchie-bundle":          { name: "Scrunchie Bundle (3)",      amount: 1500, maxQty: 3 },
   "scrunchie-byo-bundle":      { name: "Build Your Own Bundle",     amount: 1500, picks: 3 },
   "bow-gingham":      { name: "Gingham Bow",      amount: 1200 },
@@ -70,7 +69,6 @@ const PICKABLE = {
   "scrunchie-pink-bumble-bee": "Pink Bumble Bee",
   "scrunchie-pretty-in-pink":  "Pretty in Pink",
   "scrunchie-wildflower":      "Wildflower",
-  "scrunchie-strawberry":      "Strawberry",
 };
 
 /* Shipping, in CENTS. One fee per order (never per item).

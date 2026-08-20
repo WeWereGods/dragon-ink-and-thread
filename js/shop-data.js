@@ -61,7 +61,6 @@ window.DIT_SHOP = {
     "scrunchie-pink-bumble-bee":{ name: "Pink Bumble Bee Scrunchie", price: 6.0, art: "🐝", maxQty: 3 },
     "scrunchie-pretty-in-pink": { name: "Pretty in Pink Scrunchie",  price: 6.0, art: "🎀", maxQty: 3 },
     "scrunchie-wildflower":     { name: "Wildflower Scrunchie",      price: 6.0, art: "🌼", maxQty: 3 },
-    "scrunchie-strawberry":     { name: "Strawberry Scrunchie",      price: 6.0, art: "🍓", maxQty: 3 },
     "scrunchie-bundle":         { name: "Scrunchie Bundle (3)",      price: 15.0, art: "🎀", maxQty: 3 },
     "scrunchie-byo-bundle":     { name: "Build Your Own Bundle",     price: 15.0, art: "🎀", picks: 3 },
     "bow-gingham":      { name: "Gingham Bow",      price: 12.0, art: "🎀" },
@@ -156,12 +155,6 @@ window.DIT_SHOP = {
       blurb: "A meadow's worth of tiny wildflowers on cream — our softest little garden.",
       details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
       images: ["assets/scrunchie-wildflower.jpg"]
-    },
-    "scrunchie-strawberry": {
-      alt: "Handmade scrunchie in a red strawberry and green leaf print",
-      blurb: "Ripe little strawberries on leafy green — the sweetest bit of summer for your wrist or your hair.",
-      details: "One size · soft & springy, gentle on hair · hand wash, lay flat to dry.",
-      images: ["assets/scrunchie-strawberry.jpg"]
     },
     "scrunchie-bundle": {
       alt: "Set of three handmade scrunchies in red, cream, and navy",
@@ -319,7 +312,6 @@ window.DIT_SHOP = {
     "scrunchie-pink-bumble-bee":"https://buy.stripe.com/dRm6oHclI3Ut4d4dpDfjG0j",
     "scrunchie-pretty-in-pink": "https://buy.stripe.com/00wdR9gBY3Ut6lc1GVfjG0k",
     "scrunchie-wildflower":     "https://buy.stripe.com/eVq7sLetQez710S1GVfjG0l",
-    "scrunchie-strawberry":     "https://buy.stripe.com/dRmdR9clIez724WbhvfjG0m",
     "scrunchie-bundle":         "https://buy.stripe.com/00waEX1H48aJfVM1GVfjG04",
     "scrunchie-byo-bundle":     "https://buy.stripe.com/aFaeVd0D00Ih9xo71ffjG0r",
     "bow-gingham":      "https://buy.stripe.com/dRmaEX4Tgez7dNEetHfjG0c",
@@ -356,7 +348,7 @@ window.DIT_SHOP = {
   BYO_PRINTS: [
     "scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry",
     "scrunchie-orange-kitty", "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink",
-    "scrunchie-wildflower", "scrunchie-strawberry"
+    "scrunchie-wildflower"
   ],
 
   /* Order + grouping shown on the full catalog page (shop.html). */
@@ -365,7 +357,7 @@ window.DIT_SHOP = {
       ids: ["tote-storykeeper", "tote-strawberry-v2",   "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
     { label: "Scrunchies", note: "Soft, springy, gentle on hair — pick a print, or build your own trio.",
       ids: ["scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry", "scrunchie-orange-kitty",
-            "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower", "scrunchie-strawberry",
+            "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower",
             "scrunchie-bundle", "scrunchie-byo-bundle"] },
     { label: "Bows",       note: "Hand-tied sailor bows with finished edges, in storybook prints.",
       ids: ["bow-suriel-set", "bow-something-blue", "bow-sidra-vines", "bow-porcelain-roses", "bow-lace-of-velaris",
