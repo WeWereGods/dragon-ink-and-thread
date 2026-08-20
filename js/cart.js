@@ -30,9 +30,54 @@
   var KEY = "dit-cart-v1";
 
   var money = function (n) { return "$" + n.toFixed(2); };
-  function load() { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { return []; } }
+  /* A saved cart outlives the shop. Pieces get retired routinely (three in two
+     weeks), carts persist in localStorage indefinitely, and nothing used to
+     reconcile the two — so a stale line rendered as its raw id at $0.00, and an
+     all-stale cart made the Worker answer "Your cart is empty" while the drawer
+     visibly showed items. clean() drops anything the shop can no longer sell
+     before the drawer ever sees it. */
+  var BYO_PRINTS = SHOP.BYO_PRINTS || [];
+  function clean(raw) {
+    if (!Array.isArray(raw)) return [];
+    var out = [];
+    for (var i = 0; i < raw.length; i++) {
+      var line = raw[i];
+      if (!line || typeof line.id !== "string") continue;
+      var p = PRODUCTS[line.id];
+      if (!p || p.soldOut) continue;              // retired, or no longer buyable
+      var q = Math.floor(Number(line.qty));
+      if (!(q > 0)) continue;
+      line.qty = Math.min(q, (p.maxQty || 1));    // maxQty may have been lowered since
+      if (p.picks) {
+        // A bundle whose chosen prints include a retired one is rejected by the
+        // Worker with "Please choose your 3 scrunchie prints" — confusing, and
+        // unfixable from the drawer. Drop it so they simply pick again.
+        var picks = line.picks || [];
+        if (picks.length !== p.picks) continue;
+        var ok = true;
+        for (var k = 0; k < picks.length; k++) {
+          if (BYO_PRINTS.indexOf(picks[k]) < 0 || !PRODUCTS[picks[k]]) { ok = false; break; }
+        }
+        if (!ok) continue;
+      }
+      out.push(line);
+    }
+    return out;
+  }
+  function load() {
+    var raw;
+    try { raw = JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { return []; }
+    return clean(raw);
+  }
   function persist() { try { localStorage.setItem(KEY, JSON.stringify(cart)); } catch (e) {} }
   var cart = load();
+  /* If clean() dropped or clamped anything, write the tidy version back rather
+     than re-filtering the same junk on every page load. */
+  (function () {
+    var stored = null;
+    try { stored = localStorage.getItem(KEY); } catch (e) { return; }
+    if (stored !== null && stored !== JSON.stringify(cart)) persist();
+  }());
 
   function find(id) { for (var i = 0; i < cart.length; i++) { if (cart[i].id === id) return cart[i]; } return null; }
   function count() { return cart.reduce(function (s, x) { return s + x.qty; }, 0); }
