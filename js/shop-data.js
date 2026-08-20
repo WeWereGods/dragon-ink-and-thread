@@ -99,7 +99,7 @@ window.DIT_SHOP = {
     "bow-gameday-darling-headband": {
       alt: "Baby headband in a cream print scattered with russet footballs and little tied bows, tied in a large bow at the front",
       blurb: "The same russet footballs and little tied bows, on a soft stretch headband for the smallest fan in the house. A textured knit that gives without digging in, tied in a generous bow at the front. **Two were made, and that was the whole yard.**",
-      details: "Baby headband · [SIZE — CONFIRM] · soft stretch knit · spot clean only. ⚠️ Never leave on a sleeping or unattended baby.",
+      details: "Baby headband · newborn size · soft stretch knit · spot clean only. ⚠️ Never leave on a sleeping or unattended baby.",
       images: ["assets/bow-gameday-darling-headband.jpg"]
     },
     "tote-storykeeper": {
