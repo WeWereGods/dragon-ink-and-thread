@@ -49,7 +49,6 @@ const PRICES = {
   // Game Day — cut from one yard, so these carry maxQty like the scrunchies.
   "bow-gameday-darling":      { name: "Game Day Darling Bow",      amount: 1200, maxQty: 3 },
   "bow-gameday-darling-headband":   { name: "Game Day Darling Headband",      amount: 1400, maxQty: 2 },
-  "scrunchie-gameday-darling":{ name: "Game Day Darling Scrunchie",    amount: 600,  maxQty: 3 },
   // ⛔ PULLED FOR THE Aug 21–24 TRIP (2026-08-19) — see js/shop-data.js LINKS.
   // Removed here too so a set already sitting in someone's localStorage cart cannot check out.
   // ↩️ RESTORE ON Tue 25, then wrangler deploy.
