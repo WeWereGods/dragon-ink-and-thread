@@ -1130,6 +1130,37 @@ recovery is worth reconsidering.
 
 ---
 
+## 📅 TAX DATES — added 2026-08-20, and NONE of this is professional advice
+
+⚠️ **Everything here needs confirming against the Comptroller and whoever does the books.**
+Thresholds and report requirements change yearly; this is the shape, not the ruling.
+
+### Texas sales tax — the permit already held
+Frequency is **assigned by the Comptroller, not chosen**. Returns are due the **20th of the
+month after the period ends**. Annual (~under $1,000/yr owed) → **Jan 20**. Quarterly →
+**Apr 20 · Jul 20 · Oct 20 · Jan 20**. Monthly → the 20th, every month.
+✅ **THE ANSWER IS ON RECORD, DON'T GUESS IT** — **Webfile at comptroller.texas.gov** shows the
+assigned frequency and the real due dates, and the permit paperwork says it too.
+⚠️ **A return is required even in a period with ZERO sales.** A missed zero-return still draws a
+penalty, and that is the usual way a small shop gets stung.
+📌 Collected sales tax is **not income** — it is held for the state. Linda's invoice alone
+carries **$86.63** of it.
+
+### Texas franchise tax — NEW, and only because of the LLC
+⚠️ **This obligation arrived with the LLC and nothing in a normal week would ever surface it.**
+Every Texas LLC is subject. **Reports are due MAY 15 annually.**
+- **Nothing will be owed** — the no-tax-due threshold is in the millions.
+- ⚠️ **Owing nothing and filing nothing are not the same.** The rules changed recently: the No
+  Tax Due Report was eliminated for small entities, but a **Public / Ownership Information
+  Report may still be required.** **Confirm this once**, then it is a five-minute job each May.
+
+### Federal — not Texas, and the one that actually bites
+No Texas personal income tax, so the real bill is federal: income tax **plus ~15.3%
+self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15**.
+🔴 **NEXT: Sep 15, 2026** — and Linda's $1,050 lands in this quarter.
+
+---
+
 ## ⚪ Decisions open
 
 - [x] **Bows are on a slide-in clip** — answered 2026-08-07. There is no choice of elastic or
