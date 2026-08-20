@@ -352,6 +352,30 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
+- [ ] 🐛 **BUG ON MAIN: a cart holding a RETIRED id renders a broken line.** Found 2026-08-20
+  while testing the Game Day renames; **not caused by them — this is live now.**
+  **What the customer sees** in the drawer:
+  ```
+  🧵  scrunchie-strawberry
+      $0.00 (3 × $0.00)
+  ```
+  The raw id as the product name, at zero dollars. **js/cart.js does not drop cart lines whose
+  id is no longer in `PRODUCTS`.**
+  ✅ **The subtotal is CORRECT** — the unknown line contributes nothing, and the Worker skips it
+  too, so nobody can be mischarged. It is cosmetic, but it looks broken at the worst possible
+  moment: the drawer, mid-purchase.
+  ⚠️ **Real people can be seeing this right now.** Anyone whose localStorage cart still holds
+  **Strawberry Scrunchie** (retired 2026-08-20) or **Toffee Windowpane** (retired 2026-08-18).
+  Carts persist indefinitely; the account has 26 abandoned sessions on record, so stale carts are
+  the norm here rather than the exception.
+  ⚠️ **AND IT GETS WORSE IF THE WHOLE CART IS STALE** — every line unknown means the Worker
+  returns **"Your cart is empty"** at checkout while the drawer visibly shows items. That is the
+  same confusing symptom as the twice-repeated deploy bug, from the opposite direction.
+  **The fix is small**: filter the stored cart against `PRODUCTS` on load in js/cart.js, and drop
+  anything unknown. **Retiring a piece is now a routine event** — three in two weeks — so this
+  will keep happening.
+
+
 - [ ] 🔄 **LINDA — HEIRLOOM MEMORY WALL HANGING from her husband's suit. BACK ON 2026-08-13.**
       📅 **WED 19 IS THE CONVERSATION.** The mended quilt is handed back that day, so she is in
       the room, holding the proof, with the $650–750 piece open between you — and there is a
