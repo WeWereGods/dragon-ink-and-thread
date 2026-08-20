@@ -10,9 +10,13 @@ Voice is the site's: first person, from Ayla. Unhurried, warm, specific. Never "
 a customer who's read the page and then gets a different process from the email will assume
 the shop is disorganised.
 
-**Don't promise a discount.** `NEST15` is written for shop checkout; whether it applies to a
-custom invoice depends how the invoice is raised, and a promise you have to walk back is worse
-than no promise. If you want to be generous on a custom order, say so *in the quote*.
+**NEST15 DOES apply to custom orders — decided by the owner 2026-08-20**, and first honoured on
+Linda's two-piece commission. So you may confirm it if a customer asks.
+⚠️ **It is NOT automatic on a custom invoice.** `allow_promotion_codes` lives on the Checkout
+session — the shop cart — not on Stripe invoices. **You have to apply the 15% by hand when you
+raise the invoice**, so it is on you to remember, not on Stripe to enforce.
+📌 Terms unchanged: **15% off orders over $25, no expiry.** Below $25 it does not apply, which
+is exactly what keeps the smallest custom pieces above their shop equivalents.
 
 ---
 

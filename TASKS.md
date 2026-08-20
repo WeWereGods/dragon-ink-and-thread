@@ -1183,6 +1183,31 @@ self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15
 
 ## ⚪ Decisions open
 
+- [x] ✅ **NEST15 APPLIES TO CUSTOM ORDERS — decided 2026-08-20. Don't re-raise.**
+  First honoured on Linda's commission ($1,050 → $892.50). The generous reading was chosen
+  deliberately: she is the shop's biggest customer, and both repeat customers converted from a
+  small first purchase, which is the behaviour the code exists to reward.
+  ⚠️ **IT IS NOT AUTOMATIC ON A CUSTOM INVOICE.** `allow_promotion_codes` is on the Checkout
+  session — the shop cart — **not** on Stripe invoices. **The 15% must be applied BY HAND when
+  raising the invoice.** Nothing enforces it, so a customer who asks and is forgotten gets a
+  worse deal than one who doesn't. Stated in `emails/custom-orders-enquiry.md`.
+  ✅ **CHECKED AGAINST THE MINIMUM PROMISE — it survives, in all six categories.** custom.html
+  says *"the ready-made ones in the shop are the same lovely thing for less"*, so a discount that
+  drags a custom floor under a shop price would make it false. It doesn't:
+  | | custom floor | shop dearest single | after −15% each |
+  |---|---|---|---|
+  | Totes | $50 | $38 | $42.50 vs $32.30 |
+  | Scrunchies | $8 | $6 | both under the $25 minimum |
+  | Bows | $13 | $12 | both under the $25 minimum |
+  | Pet Bandanas | $22 | $18 | both under the $25 minimum |
+  | Book Sleeves | $35 | $28 | $29.75 vs $23.80 |
+  | Home | $40 | $35 | $34.00 vs $29.75 |
+  🔍 **THE DURABLE RULE THIS EXPOSES: a PERCENTAGE discount can never invert the promise,
+  because it scales both sides equally. A FLAT-DOLLAR discount can.** "$10 off" would put a $13
+  custom bow at $3 against a $12 shop bow — instantly false. **If a flat-amount code is ever
+  issued, this table has to be rerun before it goes out.** The $25 minimum does the rest of the
+  work, keeping the smallest pieces undiscounted on both sides.
+
 - [x] **Bows are on a slide-in clip** — answered 2026-08-07. There is no choice of elastic or
       O-ring, whatever the retired Sage Bow said. Now stated in `details` on all thirteen.
 - [ ] **If the Aug 21–24 trip is cancelled, Sat Aug 22 reopens as a launch date** — it was the
