@@ -919,8 +919,8 @@ Two rules that keep this useful:
   📌 **The IDS were renamed too, which is only safe because none of them ever shipped** — no
   live page, no sitemap entry, no Pinterest feed row. Recycling a published id is the one thing
   the feed cannot forgive; renaming an unpublished one costs nothing.
-  ⚠️ **Old generated pages had to be deleted by hand** (,
-  ). The generator writes new pages but never removes orphans —
+  ⚠️ **Old generated pages had to be deleted by hand** (`bow-autumn-court.html`,
+  `scrunchie-autumn-court.html`). The generator writes new pages but never removes orphans —
   same gap found when the Strawberry Scrunchie was retired.
   🚨 **BABY PRODUCT — this is a new regulatory footing, not just a new SKU.** Children's products
   in the US fall under **CPSIA** (tracking labels, and testing obligations for some categories).
