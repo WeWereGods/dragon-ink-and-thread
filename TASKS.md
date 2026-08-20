@@ -290,6 +290,18 @@ Two rules that keep this useful:
       - ~~⚠️ **These POST to California — they aren't collected.**~~ **VOID 2026-08-18 — they're
         being carried.** The whole postal chain this entry was built around (post by Thu 20 or
         slip to Tue 25, arriving 27–29) no longer applies.
+      - ✅ **2026-08-20: CLIPS DUE TODAY, AND THE DEADLINE HAS MOVED.** The owner will
+        **finish them in California if needed** — bows, clips and tools go in the bag and get
+        assembled at Aubrea's. **So the job is no longer "assemble before the flight", it is
+        "have the clips in hand before the flight".** The Aug 27–29 slip scenario is off the
+        table as long as the delivery lands today.
+        ⚠️ **The remaining failure mode is a delivery that slips to Friday morning.** That is now
+        the only thing that stops them travelling. Confirm arrival today; nothing else about the
+        clips needs doing.
+        🧳 **Packing, if finishing there:** whatever assembly actually needs (slide-in clips may
+        need nothing but hands), **any adhesive checked against carry-on liquid limits or put in
+        the hold**, and the finished bows protected so they do not crush under a suitcase lid for
+        four days.
       - ⏳ **2026-08-19 midday: CLIPS STILL NOT HERE.** Sewing continues in the meantime, which is
         right — but the margin is now one day, and **Thu 20 already holds Maurya's drop-off and
         packing for a Friday flight.**
