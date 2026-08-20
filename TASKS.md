@@ -853,6 +853,22 @@ Two rules that keep this useful:
 
 ## 🟢 Sold — finish the two-step exit
 
+- [x] ✅ **Strawberry Scrunchie RETIRED 2026-08-20.** Out of `PRODUCTS`/`VARIANTS`/`LINKS`/
+      `BYO_PRINTS`/`CATALOG`, out of the Worker's `PRICES` and `PICKABLE`, product page deleted,
+      out of the sitemap and the Pinterest feed, and **in Stories as `PAST_MAKES` #16**.
+      Scrunchies is back to 7 prints + 2 bundles.
+      ✅ **`wrangler deploy` RUN — version `6a5875d9`.**
+      🔍 **THE BYO VALIDATION WAS PROVEN END TO END FOR THE FIRST TIME.** POSTing a Build Your
+      Own Bundle whose picks included the retired print returned **"Please choose your 3 scrunchie
+      prints"** rather than a checkout URL. That is the gotcha CLAUDE.md warns about — a retired
+      print left in `BYO_PRINTS`/`PICKABLE` renders a perfect card that dies at checkout — and it
+      is now confirmed working rather than assumed.
+      📌 All three verification calls were REJECTION cases, so no Stripe sessions were minted and
+      nothing was added to the abandoned-cart figures.
+      ⚠️ **The homepage Scrunchies teaser had been using the strawberry photo** — swapped to
+      Wildflower. Nothing generates that tile, so it would have advertised a retired piece
+      indefinitely. **Check the teasers whenever a category's photo subject is retired.**
+
 - [x] ✅ **Toffee Windowpane Bandana RETIRED 2026-08-18.** Sold Aug 12, held sold-out for six
       days, now fully retired: out of `PRODUCTS`/`VARIANTS`/`LINKS`/`CATALOG`, out of the Worker's
       `PRICES`, product page deleted, out of the sitemap and the Pinterest feed, and **in Stories
