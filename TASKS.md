@@ -1119,11 +1119,21 @@ written.** Ask before inferring a post didn't run.
       has a collection outstanding.
       📸 Optional polish: the healed close-up is warm-lit where the damage shot is cooler and
       brighter. A reshoot in matching light would make the pair unarguable for reuse later.
-- [ ] **The Quilted Court Bandana post** — listed 2026-08-09 at **$22**, no copy written yet.
-      The hooks: it's the only **patchwork** piece in the shop, it reverses to Blushing Linen,
-      and Ghost is already wearing it in photo 2. Being the priciest bandana, it wants the
-      piecing shown close up — that's what explains the $22 without saying "because it's harder".
-      **Put it on Facebook with the shop link in it** — see the referrer measurement below.
+- [ ] **The Quilted Court Bandana post — ⚠️ THE COPY EXISTS. It just hasn't been posted.**
+      ⚠️ **This entry said "no copy written yet" until 2026-08-22, and that was wrong** — the
+      Facebook version has been sitting in **§13 of `marketing/campaign-2026-08.md` since
+      2026-08-10**, finished and on-brief. **Second time this section has claimed work was
+      missing when it wasn't** (five items on 2026-08-10 were already posted). The header rule
+      applies to writing too: *this section records what was written, never what wasn't.*
+      ✅ **Instagram version written 2026-08-22**, so both halves now exist. Also resolved: the
+      "name him if it's Ghost" placeholder — it IS Ghost, confirmed against the dog-group
+      template in `marketing/facebook-groups.md` §5, where he models this same bandana.
+      📌 **All that's left is posting it.** Facebook carries the link (44% of site visits, and
+      the only channel where a link is clickable); Instagram is the carousel, bio link only.
+      **Photo order matters more than the copy here** — the flat patchwork shot leads both,
+      because it's what explains $22 against three $18 bandanas without anyone having to say
+      "patchwork is harder".
+      ⚠️ **Re-check it's still in stock before posting** — both versions say "there's one".
 - [ ] **TikTok DM from "The Stationary Corner"** (2026-08-05) — unclear whether it was answered.
 
 ---

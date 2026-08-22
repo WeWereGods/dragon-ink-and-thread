@@ -804,9 +804,38 @@ persuasive one.*
 > (San Antonio — local pickup is free.)
 
 **Photos, in order:** `bandana-quilted-court.jpg` (flat patchwork — the price justification, so
-it leads) → `-2.jpg` (worn by the dog — fit and warmth; **name him if it's Ghost**, the audience
-has met him) → `-3.jpg` (the Blushing Linen reverse — the surprise, better third than announced)
-→ `-5.jpg` (the elasticated channel — the practical detail that separates it from a printed one).
+it leads) → `-2.jpg` (**Ghost**, wearing it — fit and warmth; confirmed as him, and the audience
+has met him: he already models this exact bandana in the dog-group template in
+`marketing/facebook-groups.md` §5, so name him) → `-3.jpg` (the Blushing Linen reverse — the
+surprise, better third than announced) → `-5.jpg` (the elasticated channel — the practical detail
+that separates it from a printed one). All five files are in `assets/`; `-4.jpg` is the spare.
+
+**INSTAGRAM** *(no clickable link — bio only. Carousel, flat patchwork first, same order as above.)*
+
+> Two dozen small squares, and every seam has to meet the three around it.
+>
+> Blush roses, pale plaids, dotted cream, a wash of sage — cut and pieced one at a time into something that looks like a quilt made small. It's the only patchwork piece in the shop, and for its size it's the longest thing I make.
+>
+> Swipe and Ghost will show you how it sits. The third photo is the other side: Blushing Linen, a soft dusty pink, for the days the patchwork would be too much.
+>
+> Size Medium, 13 to 18 inches. The top is an elasticated channel, so it stretches straight over the collar he already wears — nothing to tie, nothing to work loose halfway round the block.
+>
+> There's one. Link in bio. 🐾
+>
+> #cottagecore #handmadewithlove #sewingsmallbusiness #veteranowned #shopsmall #sanantoniosmallbusiness #madeintexas #dogbandana #dogsofinstagram #handmadefordogs #patchwork
+
+*Hashtags: seven from the §6 handmade/cottagecore set plus four this post needs
+(`#dogbandana #dogsofinstagram #handmadefordogs #patchwork`). 11 total, inside the 8–12 rule.
+**Neither §6 set reaches pet owners** — same gap the mending post hit. If these pull, add them.*
+
+*⚠️ **The price justification is carried by the PHOTO, not the sentence** — that's why the flat
+shot leads both versions. The Instagram copy deliberately never says "$22" or "that's why it
+costs more": there's no link to click through to a price, so naming the number without the
+listing beside it just prices the thing in a vacuum. Facebook has the link and says it plainly.*
+
+*⚠️ **Don't reuse the scarcity line on the other three bandanas.** "There's one" is true here and
+of the Storykeeper and Brew and Bloom too — but bandanas are the category most likely to get a
+repeat make, and the day a second Quilted Court exists this line has to come out.*
 
 **4 — The two gingham bows**
 > Two gingham bows, quietly waiting.
