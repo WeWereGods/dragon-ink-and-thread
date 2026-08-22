@@ -22,7 +22,7 @@ Two rules that keep this useful:
 > | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
 > | **Wed 19 — TODAY** | ✅ **the clear day** | **Linda's quilt handover** (binding checked ✅) + the wall-hanging talk · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
-> | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
+> | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip WAS the delivery** | ✅ **Aubrea's three clips HANDED OVER Sat 22** — her $36 order is closed, four slips and no cost. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
 > | **Wed 26 – Fri 28** | ✅ | Sew the game-day bows · the run-up to the push |
 >
@@ -279,8 +279,26 @@ Two rules that keep this useful:
         there is no review of a custom piece from a *local* customer anywhere on the site.
         📌 Then **Stories** — a finished wheelchair tote belongs in `PAST_MAKES` (currently 15),
         with her permission and tonight's photos.
-- [ ] **Aubrea Pritt — 3 custom bow clips. Fabric IN HAND (Aug 17); HAND-DELIVERED, not posted.**
+- [x] ✅ **Aubrea Pritt — 3 custom bow clips. HAND-DELIVERED 2026-08-22. ORDER CLOSED.**
       $36 paid 2026-08-05 (invoice `85VBHJQE-0001`). Oakdale, **California**.
+      ✈️ **Carried in the bag and put in her hands on the trip** — no carrier, no postage, no
+      tracking, and no post-office errand on a week that held a car repair, a realtor and a
+      school run. **The date moved four times and every one of them was told to her in advance**,
+      which is why not one of them cost anything. That is the whole lesson of this order.
+      ⭐ **THE ASK, WHILE THE BOWS ARE IN HER HANDS — and this one is worth more than it looks.**
+      Two things: **a photo of them in use** and **a review of the CUSTOM work**.
+      ⚠️ **She has already reviewed the shop, not the commission.** "Brea P." in `TESTIMONIALS`
+      rates a Strawberry Tote and a scrunchie — shop listings. A review of these clips would be
+      only the **second** review the site holds that describes the custom *process* rather than a
+      finished object (Cassidy E.'s music-print tote is the first), and the Aug 29 push — **7 days
+      out** — is built on exactly that argument.
+      ⚠️ **If a review comes back, two rules apply and both are easy to get wrong:**
+      1. **It must NOT go into the Totes `aggregateRating`.** Custom bow clips are not one of the
+         listings that block declares `InStock` — same trap as Cassidy's tote. `reviewCount` stays 1.
+      2. **She is ONE customer, not two.** Aubrea Pritt = "Brea P.". Two transactions, one person;
+         a second card under a second name would double-count her on her own page.
+      📝 **And she is not a Buttondown signup** — she's the owner's sister and never subscribed.
+      Writing to a customer about their order is fine; enrolling them isn't.
       ✈️ **CHANGED 2026-08-18: the owner is flying to Aubrea on the Aug 21–24 trip and taking the
       clips with her.** Everything below that talks about posting, post dates and tracking is
       superseded — kept because it's the record of how the date moved three times, not because
