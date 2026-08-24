@@ -23,7 +23,7 @@ Two rules that keep this useful:
 > | **Wed 19 — TODAY** | ✅ **the clear day** | **Linda's quilt handover** (binding checked ✅) + the wall-hanging talk · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip WAS the delivery** | ✅ **Aubrea's three clips HANDED OVER Sat 22** — her $36 order is closed, four slips and no cost. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
-> | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
+> | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired — **offerCount 14 → 15, highPrice → "55.00"**) · **Maurya's drop-off** · then the run-up to the push |
 > | **Wed 26 – Fri 28** | ✅ | Sew the game-day bows · the run-up to the push |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
@@ -61,11 +61,21 @@ Two rules that keep this useful:
 > **Four reversals, all together, then deploy:**
 > 1. Uncomment the `LINKS` entry in **js/shop-data.js**
 > 2. Uncomment the `PRICES` entry in **worker/checkout-worker.js**
-> 3. **index.html** Bows block → `offerCount` back to **13**, `highPrice` back to **"55.00"**
+> 3. **index.html** Bows block → `offerCount` **14 → 15**, `highPrice` **"14.00" → "55.00"**.
+>    ⚠️ **RE-CHECKED 2026-08-24 AGAINST THE LIVE DATA — the old instruction here said 13, and 13
+>    is wrong.** Game Day Darling merged on Aug 20 as **TWO** items (the bow *and* the $14
+>    headband), so the block already sits at 14 and its `highPrice` already moved 12 → 14.
+>    Restoring the set adds one: **15**. `lowPrice` stays **"12.00"**.
+>    ✅ **The `image` array already lists `bow-suriel-set.jpg`** — it was never removed in the
+>    pull. **Don't add it again**, or the block carries a duplicate.
 > 4. `node tools/build-products.js && node tools/build-catalog.js && node tools/bump-assets.js`,
 >    commit, push — then **`wrangler deploy` from `main`, after pulling**
-> 💡 **If the game-day bows are sewn by then, merge `gameday-bows` FIRST and do ONE deploy for
-> both.** Reconcile `offerCount` in one go — 13 restored + Autumn Court = **14**.
+> ✅ **`gameday-bows` is already merged and live**, so there is no branch to reconcile — that
+> step is done and the only number in play is 14 → 15.
+> 🔍 **Audit command, run 2026-08-24 — all six blocks matched except this one pending item.**
+> Totes 5 · Scrunchies 9 · Bows 14 · Bandanas 3 · Sleeves 1 · Home 1, low/high correct on every
+> one. Re-run it after the restore: count ids per `CATALOG` that are in `PRODUCTS`, in `LINKS`
+> and not `soldOut`, then diff count + min/max price against index.html.
 > ✅ **Verify on the site, not against the Worker** — the card should read "Add to cart" instead
 > of "Coming soon". That's free and it's enough. ⚠️ **Restoring inverts the cheap test**: it was
 > the *rejection* that cost nothing, and after the restore a POST to the Worker **succeeds** and
@@ -1156,8 +1166,14 @@ written.** Ask before inferring a post didn't run.
         only bow above $12, so pulling it changed the *range*, not just the count. Nothing
         regenerates that block.
       ⚠️ **All four have to be reversed together on Tue 25**, then `wrangler deploy` from `main`.
-      ⚠️ **The `gameday-bows` branch has offerCount 14** from before this pull — reconcile when it
-      merges (12 + Autumn Court = 13, unless the set is back by then, in which case 14).
+      ✅ **`gameday-bows` MERGED 2026-08-20 — that reconciliation is done**, and it moved the
+      target. It landed **two** bows, not one (the $12 clip bow and the **$14 headband**), so the
+      block now reads **offerCount 14, highPrice "14.00"**. **The restore target is 15 / "55.00"**,
+      not the 13 or 14 this entry used to predict. Verified against js/shop-data.js 2026-08-24.
+      📌 **This is what the drift warning in CLAUDE.md looks like in practice** — the numbers
+      themselves were right all along, because whoever merged the headband updated them. What went
+      stale was *the instruction predicting them*, written before the merge. **A note that says
+      what a number should become is as perishable as the number.**
 - [ ] ⚠️ **The Suriel bow set and the five singles are the SAME five bows.** Listed both ways
       since 2026-08-07, and nothing in the shop tracks stock — so the moment one side sells,
       the other side is still live and sellable to somebody else.
