@@ -22,8 +22,8 @@ Two rules that keep this useful:
 > | ~~Tue 18~~ | ✅ **made + shot** | **Maurya's wheelchair tote COMPLETE**, photographed (6 frames). Worker deployed. ⚠️ **Photos still need to reach `assets/`.** |
 > | **Wed 19 — TODAY** | ✅ **the clear day** | **Linda's quilt handover** (binding checked ✅) + the wall-hanging talk · **Aubrea's clips — DO THEM TODAY** · reshoot the tote in daylight |
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
-> | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip IS the delivery** | Flying **to Aubrea**; her clips travel in the bag. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
-> | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired) · then the run-up to the push |
+> | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip WAS the delivery** | ✅ **Aubrea's three clips HANDED OVER Sat 22** — her $36 order is closed, four slips and no cost. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
+> | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired — **offerCount 14 → 15, highPrice → "55.00"**) · **Maurya's drop-off** · then the run-up to the push |
 > | **Wed 26 – Fri 28** | ✅ | Sew the game-day bows · the run-up to the push |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
@@ -61,11 +61,21 @@ Two rules that keep this useful:
 > **Four reversals, all together, then deploy:**
 > 1. Uncomment the `LINKS` entry in **js/shop-data.js**
 > 2. Uncomment the `PRICES` entry in **worker/checkout-worker.js**
-> 3. **index.html** Bows block → `offerCount` back to **13**, `highPrice` back to **"55.00"**
+> 3. **index.html** Bows block → `offerCount` **14 → 15**, `highPrice` **"14.00" → "55.00"**.
+>    ⚠️ **RE-CHECKED 2026-08-24 AGAINST THE LIVE DATA — the old instruction here said 13, and 13
+>    is wrong.** Game Day Darling merged on Aug 20 as **TWO** items (the bow *and* the $14
+>    headband), so the block already sits at 14 and its `highPrice` already moved 12 → 14.
+>    Restoring the set adds one: **15**. `lowPrice` stays **"12.00"**.
+>    ✅ **The `image` array already lists `bow-suriel-set.jpg`** — it was never removed in the
+>    pull. **Don't add it again**, or the block carries a duplicate.
 > 4. `node tools/build-products.js && node tools/build-catalog.js && node tools/bump-assets.js`,
 >    commit, push — then **`wrangler deploy` from `main`, after pulling**
-> 💡 **If the game-day bows are sewn by then, merge `gameday-bows` FIRST and do ONE deploy for
-> both.** Reconcile `offerCount` in one go — 13 restored + Autumn Court = **14**.
+> ✅ **`gameday-bows` is already merged and live**, so there is no branch to reconcile — that
+> step is done and the only number in play is 14 → 15.
+> 🔍 **Audit command, run 2026-08-24 — all six blocks matched except this one pending item.**
+> Totes 5 · Scrunchies 9 · Bows 14 · Bandanas 3 · Sleeves 1 · Home 1, low/high correct on every
+> one. Re-run it after the restore: count ids per `CATALOG` that are in `PRODUCTS`, in `LINKS`
+> and not `soldOut`, then diff count + min/max price against index.html.
 > ✅ **Verify on the site, not against the Worker** — the card should read "Add to cart" instead
 > of "Coming soon". That's free and it's enough. ⚠️ **Restoring inverts the cheap test**: it was
 > the *rejection* that cost nothing, and after the restore a POST to the Worker **succeeds** and
@@ -279,8 +289,26 @@ Two rules that keep this useful:
         there is no review of a custom piece from a *local* customer anywhere on the site.
         📌 Then **Stories** — a finished wheelchair tote belongs in `PAST_MAKES` (currently 15),
         with her permission and tonight's photos.
-- [ ] **Aubrea Pritt — 3 custom bow clips. Fabric IN HAND (Aug 17); HAND-DELIVERED, not posted.**
+- [x] ✅ **Aubrea Pritt — 3 custom bow clips. HAND-DELIVERED 2026-08-22. ORDER CLOSED.**
       $36 paid 2026-08-05 (invoice `85VBHJQE-0001`). Oakdale, **California**.
+      ✈️ **Carried in the bag and put in her hands on the trip** — no carrier, no postage, no
+      tracking, and no post-office errand on a week that held a car repair, a realtor and a
+      school run. **The date moved four times and every one of them was told to her in advance**,
+      which is why not one of them cost anything. That is the whole lesson of this order.
+      ⭐ **THE ASK, WHILE THE BOWS ARE IN HER HANDS — and this one is worth more than it looks.**
+      Two things: **a photo of them in use** and **a review of the CUSTOM work**.
+      ⚠️ **She has already reviewed the shop, not the commission.** "Brea P." in `TESTIMONIALS`
+      rates a Strawberry Tote and a scrunchie — shop listings. A review of these clips would be
+      only the **second** review the site holds that describes the custom *process* rather than a
+      finished object (Cassidy E.'s music-print tote is the first), and the Aug 29 push — **7 days
+      out** — is built on exactly that argument.
+      ⚠️ **If a review comes back, two rules apply and both are easy to get wrong:**
+      1. **It must NOT go into the Totes `aggregateRating`.** Custom bow clips are not one of the
+         listings that block declares `InStock` — same trap as Cassidy's tote. `reviewCount` stays 1.
+      2. **She is ONE customer, not two.** Aubrea Pritt = "Brea P.". Two transactions, one person;
+         a second card under a second name would double-count her on her own page.
+      📝 **And she is not a Buttondown signup** — she's the owner's sister and never subscribed.
+      Writing to a customer about their order is fine; enrolling them isn't.
       ✈️ **CHANGED 2026-08-18: the owner is flying to Aubrea on the Aug 21–24 trip and taking the
       clips with her.** Everything below that talks about posting, post dates and tracking is
       superseded — kept because it's the record of how the date moved three times, not because
@@ -1101,11 +1129,21 @@ written.** Ask before inferring a post didn't run.
       has a collection outstanding.
       📸 Optional polish: the healed close-up is warm-lit where the damage shot is cooler and
       brighter. A reshoot in matching light would make the pair unarguable for reuse later.
-- [ ] **The Quilted Court Bandana post** — listed 2026-08-09 at **$22**, no copy written yet.
-      The hooks: it's the only **patchwork** piece in the shop, it reverses to Blushing Linen,
-      and Ghost is already wearing it in photo 2. Being the priciest bandana, it wants the
-      piecing shown close up — that's what explains the $22 without saying "because it's harder".
-      **Put it on Facebook with the shop link in it** — see the referrer measurement below.
+- [ ] **The Quilted Court Bandana post — ⚠️ THE COPY EXISTS. It just hasn't been posted.**
+      ⚠️ **This entry said "no copy written yet" until 2026-08-22, and that was wrong** — the
+      Facebook version has been sitting in **§13 of `marketing/campaign-2026-08.md` since
+      2026-08-10**, finished and on-brief. **Second time this section has claimed work was
+      missing when it wasn't** (five items on 2026-08-10 were already posted). The header rule
+      applies to writing too: *this section records what was written, never what wasn't.*
+      ✅ **Instagram version written 2026-08-22**, so both halves now exist. Also resolved: the
+      "name him if it's Ghost" placeholder — it IS Ghost, confirmed against the dog-group
+      template in `marketing/facebook-groups.md` §5, where he models this same bandana.
+      📌 **All that's left is posting it.** Facebook carries the link (44% of site visits, and
+      the only channel where a link is clickable); Instagram is the carousel, bio link only.
+      **Photo order matters more than the copy here** — the flat patchwork shot leads both,
+      because it's what explains $22 against three $18 bandanas without anyone having to say
+      "patchwork is harder".
+      ⚠️ **Re-check it's still in stock before posting** — both versions say "there's one".
 - [ ] **TikTok DM from "The Stationary Corner"** (2026-08-05) — unclear whether it was answered.
 
 ---
@@ -1128,8 +1166,14 @@ written.** Ask before inferring a post didn't run.
         only bow above $12, so pulling it changed the *range*, not just the count. Nothing
         regenerates that block.
       ⚠️ **All four have to be reversed together on Tue 25**, then `wrangler deploy` from `main`.
-      ⚠️ **The `gameday-bows` branch has offerCount 14** from before this pull — reconcile when it
-      merges (12 + Autumn Court = 13, unless the set is back by then, in which case 14).
+      ✅ **`gameday-bows` MERGED 2026-08-20 — that reconciliation is done**, and it moved the
+      target. It landed **two** bows, not one (the $12 clip bow and the **$14 headband**), so the
+      block now reads **offerCount 14, highPrice "14.00"**. **The restore target is 15 / "55.00"**,
+      not the 13 or 14 this entry used to predict. Verified against js/shop-data.js 2026-08-24.
+      📌 **This is what the drift warning in CLAUDE.md looks like in practice** — the numbers
+      themselves were right all along, because whoever merged the headband updated them. What went
+      stale was *the instruction predicting them*, written before the merge. **A note that says
+      what a number should become is as perishable as the number.**
 - [ ] ⚠️ **The Suriel bow set and the five singles are the SAME five bows.** Listed both ways
       since 2026-08-07, and nothing in the shop tracks stock — so the moment one side sells,
       the other side is still live and sellable to somebody else.
