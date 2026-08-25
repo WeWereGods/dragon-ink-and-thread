@@ -112,6 +112,7 @@ const html = `<!DOCTYPE html>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="custom.html">Custom</a></li>
             <li><a href="fabrics.html" aria-current="page">Fabrics</a></li>
+            <li><a href="pattern.html">Free Pattern</a></li>
             <li><a href="index.html#about">Our Story</a></li>
             <li><a href="index.html#stories">Stories</a></li>
             <li><a href="index.html#contact" class="nav-cta">Contact</a></li>

@@ -1162,6 +1162,65 @@ written.** Ask before inferring a post didn't run.
 
 ## 🔵 Waiting on something else
 
+- [ ] 🧵 **FREE PATTERN PAGE — built and staged on `free-pattern`, NOT merged.** `pattern.html`
+  plus CSS. The web half is done; **the pattern itself is the work that remains.**
+  **How the gate works:** the form POSTs to Buttondown tagged **`pattern`**, and the download
+  block is revealed by JS on success. Same contract as `wireNestForm()` in js/main.js and the
+  inline handler in success.html — Buttondown answers HTML, not JSON, so it branches on status.
+  ⚠️ **A 400 STILL REVEALS THE DOWNLOAD, deliberately.** Buttondown returns 400 for an address
+  that is *already subscribed*, and refusing an existing subscriber their own free pattern would
+  be absurd — they are exactly who it is for. Only a genuine failure withholds it.
+  ⚠️ **THE GATE IS SOCIAL, NOT TECHNICAL.** The PDF sits at an ordinary URL on a static host, so
+  anyone with the link can pass it on. **That is fine.** The point is collecting addresses, not
+  preventing copying, and whoever shares the link was never going to subscribe. **Do not add
+  obfuscation believing it secures anything** — it would only break the download.
+  ✅ **Verified with a stubbed fetch (no real subscriber added):** 200 reveals, 400 reveals with
+  different wording, 500 and a network error both withhold and show the help line. The
+  `[hidden]` block is genuinely `display:none`, mobile collapses to one column, no overflow.
+
+  **BEFORE MERGING:**
+  - **Write the pattern.** Days, not hours: instructions someone can follow without you, cutting
+    layout, seam allowances stated, and **one other person sewing it start to finish** to find
+    the step you left out. A bad free pattern generates support email and looks amateur.
+  - Fill the `[BRACKETED]` copy — name, what it makes, what's in it, and the `[PATTERN-FILE].pdf`
+    href — and drop `assets/pattern-preview.jpg`.
+  - **Remove the `noindex`** and add the page to the nav. Not before: it currently promises a
+    download that does not exist.
+  - Put the download link in the Buttondown welcome email too, so a real address is worth giving.
+
+  ✅ **CEILING RESOLVED — 5 SUBSCRIBERS, measured 2026-08-25.** Buttondown is free to 100, so
+  there are **95 slots spare**. A pattern launch is very unlikely to reach the paid tier soon.
+  **This is settled; do not re-raise the $9/month as a reason to delay.**
+  📉 **And the number reframes the whole idea.** Seven weeks, two live signup forms, a back-fill,
+  and **five subscribers** — the list is not growing. The pattern stops being a nice-to-have and
+  becomes the most direct answer the shop has to its actual constraint.
+  ⚠️ **AUTOMATION IS NOT FREE — corrected by the owner 2026-08-25, and it changes the plan.**
+  Buttondown's automations are a paid feature, so **"set up the welcome sequence first" is not
+  a free prerequisite** and should not block this page.
+  ✅ **What follows from that:**
+  - **Do NOT pay ~$9/month to automate welcomes to a list of five.** Poor value now; revisit
+    when the list is big enough that sending by hand is a chore.
+  - **Nothing is emailed automatically, so the on-page reveal IS the delivery.** A line promising
+    the pattern would arrive by inbox was written into this page and has been removed — it was a
+    promise the free tier cannot keep. **Do not write it back.** The HTML carries the warning.
+  - **Welcome new subscribers BY HAND while volume is low.** The shop already does exactly this
+    for order emails (`emails/order-updates.md`, sent one at a time from Gmail). Broadcasts do
+    work on the free tier — Email 1 reached the whole list on 2026-08-02 — so it is only the
+    *triggered* sending that is paid.
+  - 📌 **The trigger to start paying is when manual welcomes become a chore.** By then the list
+    justifies the $9, which is the right order round.
+  ✅ **No VAT problem, unlike SELLING patterns.** Paid patterns are parked because digital goods
+  owe EU VAT from the first sale and need a merchant of record. **A free giveaway is not a sale**,
+  so this route sidesteps the reason patterns were shelved.
+  📌 **Very Pinterest-shaped** — free patterns are among the most-saved things there, and the tag,
+  the boards and the product feed are all already running.
+
+  🔍 **GOTCHA FOUND BUILDING THIS: `tools/bump-assets.js` only REWRITES an existing `?v=`, it
+  never adds one.** Its regex requires `?v=` to already be present, so a new page written without
+  a placeholder is silently skipped and ships with an unstamped stylesheet — no error, no warning.
+  **A new .html must be written with `?v=0` on its css/js links**, then stamped. Fixed here.
+
+
 - [x] ✅ **SURIEL SET RESTORED 2026-08-25 — the pull is fully reversed.** It came down on Aug 19
       for the Aug 21–24 trip, when nobody could pull a listing for four days and the set/singles
       race was the shop's only overselling risk. All four reversals done together:
