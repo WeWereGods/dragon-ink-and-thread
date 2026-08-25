@@ -234,6 +234,22 @@ Two rules that keep this useful:
         ➡️ **This is what makes Maurya's in-use photo load-bearing rather than nice-to-have** —
         it is now the ONLY remaining route to an image that says *wheelchair* rather than
         *dining chair*, which is the whole of §8's argument. **Ask her properly on Thu 20.**
+      - [x] ✅ **IN THE REPO 2026-08-25 — four files, and they are FINALLY off the phone.**
+        | file | what it is |
+        |---|---|
+        | `assets/tote-wheelchair-nestas-cats.jpg` | wheelchair tote, front-on, hero |
+        | `assets/tote-wheelchair-nestas-cats-2.jpg` | wheelchair tote, front-on, second angle |
+        | `assets/tote-wheelchair-nestas-cats-3.jpg` | the four ties, close |
+        | `assets/tote-nestas-cats.jpg` | **the TRADITIONAL tote**, on its long strap |
+        All four checked for C2PA/OpenAI markers first — clean, real EXIF. Rotation baked in
+        (the traditional one was orientation 6 and would have shipped sideways), resized to
+        1400 long edge at q82.
+        ⚠️ **NAMED SO THE TWO TOTES CANNOT BE CONFUSED AGAIN.** Three wheelchair, one
+        traditional — the split that was misread on Aug 19 and published as a "works two ways"
+        claim. The filenames now carry the distinction.
+        📌 **Only four of the six frames were saved.** The two long-strap shots of the
+        traditional tote did not make it out of the chat. Not a loss worth chasing — the
+        wheelchair tote is what §8 needs.
       - [x] 📸 **PHOTOGRAPHED 2026-08-18 — six frames.** Flat lay on pine
         (quilting sharp), two front-on on a chair back showing the ties bowed over the top rail,
         a tie close-up, and two hanging from the long strap with the dark lining visible.
