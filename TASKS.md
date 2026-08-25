@@ -1178,9 +1178,21 @@ written.** Ask before inferring a post didn't run.
   📉 **And the number reframes the whole idea.** Seven weeks, two live signup forms, a back-fill,
   and **five subscribers** — the list is not growing. The pattern stops being a nice-to-have and
   becomes the most direct answer the shop has to its actual constraint.
-  ⚠️ **BUT DO THE WELCOME AUTOMATION FIRST.** The three emails in `emails/welcome-sequence.md`
-  are still not set up in Buttondown, so a new subscriber gets **silence**. At five people that
-  has cost nothing; a working lead magnet scales the silence. **Automation, then launch this.**
+  ⚠️ **AUTOMATION IS NOT FREE — corrected by the owner 2026-08-25, and it changes the plan.**
+  Buttondown's automations are a paid feature, so **"set up the welcome sequence first" is not
+  a free prerequisite** and should not block this page.
+  ✅ **What follows from that:**
+  - **Do NOT pay ~$9/month to automate welcomes to a list of five.** Poor value now; revisit
+    when the list is big enough that sending by hand is a chore.
+  - **Nothing is emailed automatically, so the on-page reveal IS the delivery.** A line promising
+    the pattern would arrive by inbox was written into this page and has been removed — it was a
+    promise the free tier cannot keep. **Do not write it back.** The HTML carries the warning.
+  - **Welcome new subscribers BY HAND while volume is low.** The shop already does exactly this
+    for order emails (`emails/order-updates.md`, sent one at a time from Gmail). Broadcasts do
+    work on the free tier — Email 1 reached the whole list on 2026-08-02 — so it is only the
+    *triggered* sending that is paid.
+  - 📌 **The trigger to start paying is when manual welcomes become a chore.** By then the list
+    justifies the $9, which is the right order round.
   ✅ **No VAT problem, unlike SELLING patterns.** Paid patterns are parked because digital goods
   owe EU VAT from the first sale and need a merchant of record. **A free giveaway is not a sale**,
   so this route sidesteps the reason patterns were shelved.
