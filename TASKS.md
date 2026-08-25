@@ -152,20 +152,16 @@ Two rules that keep this useful:
         *Why it mattered:* the damage is at the EDGE, which takes far more handling than the
         middle — dragging, tucking, pulling up — so this patch gets stress-tested harder than a
         central one would.
-        🚨 **ANSWERED 2026-08-20: THE TICKING WAS BOUGHT NEW — so the pre-wash question is now LIVE.**
-        (was: harvested from the quilt itself, or
-        bought new?** Obvious today, gone in a month — and it matters, because bought-new cotton
-        needed a hard pre-wash before cutting (the quilt finished shrinking decades ago; skip that
-        and Linda's first wash puckers the patch). Harvested cloth needs none of it, which is why
-        it was the better option.
-        ❓ **THE ONE QUESTION THAT MATTERS NOW: WAS IT PRE-WASHED BEFORE CUTTING?**
-        New cotton shrinks on its first wash; this quilt finished shrinking decades ago. If the
-        ticking went in unwashed, **Linda's first wash puckers the patch** — on an heirloom she
-        intends to pass to her daughter. **The quilt is already back with her**, so this can no
-        longer be fixed quietly at the machine.
-        - **If it WAS pre-washed:** nothing to do. Worth writing down so it is never asked again.
-        - **If it was NOT:** tell her before she washes it. Cold wash, gentle, or better still
-          spot-clean only. A warning she gets first reads as care; the same warning after the
+        ✅ **RESOLVED 2026-08-25. Bought new, NOT pre-washed — and that is a DECISION, not an
+        oversight.** Owner's call: on a thirty-year-old quilt the slight puckering a shrinking
+        patch produces **reads as age and texture rather than as a fault** — antique quilts
+        pucker at the quilting lines anyway. Sound craft judgement, recorded so it is never
+        mistaken later for something that was missed.
+        📮 **STILL WORTH ONE LINE TO LINDA.** She does not know, and the quilt is already back
+        with her. If it puckers slightly on her first wash, *told in advance* reads as care and
+        *discovered afterwards* reads as a flaw — the same reason four slips on Aubrea's order
+        cost nothing. Something like: *"the patch may draw in very slightly the first time you
+        wash it — that's the new cloth settling to match the old, and it will look right."*
           puckering reads as an excuse.
       - ⚠️ **CORRECTION 2026-08-13: the wall hanging is NOT this patchwork quilt.** It was logged
         here for a few hours as "Linda wants the mended quilt hung", which was a misreading.
