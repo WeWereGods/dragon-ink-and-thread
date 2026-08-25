@@ -1283,6 +1283,9 @@ ahead of abandoned-cart recovery.
 
 **Baseline, measured from the Stripe API on 2026-08-08** (whole account history, 31 sessions):
 ⚠️ **EXCLUDE ONE SESSION FROM ALL OF THIS: a `bow-lace-of-velaris` ($12) Checkout session was
+⚠️ **AND ONE MORE, 2026-08-25:** a `bow-suriel-set` session, minted to prove the restore actually
+took — the whole point of the exercise was that the set becomes buyable again, and only a real
+call demonstrates that. It will expire unpaid. **Not a genuine abandonment.**
 ⚠️ **AND EXCLUDE UP TO THREE MORE, 2026-08-20:** `bow-gameday-darling-headband` sessions minted
 to prove the new listing actually checks out — the bug that has hit twice is an item that adds
 to the cart and then fails at the Worker, and the only way to disprove it is a real call. One at
