@@ -399,6 +399,22 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
+- [ ] 🚨 **THE AUG 29 PUSH CANNOT LEAN ON EMAIL — THE LIST IS 5 PEOPLE (measured 2026-08-25).**
+  §10's runbook is "email, posts, live Q&A", and a **Broadcast — Custom orders are open** is
+  scheduled for the push date. **That broadcast will reach five inboxes.** Not a reason to skip
+  it — it costs nothing — but **the push has to actually run on Instagram, Facebook and
+  Pinterest.** Any plan treating the email as a main channel is planning against a number that
+  does not exist. **Four days out; worth knowing now rather than Saturday.**
+  📉 **The underlying fact is worse than the push.** Two signup forms live since 2026-07-10, the
+  pre-July back-fill imported 07-31, shop open since July 1. **Seven weeks, two forms, five
+  subscribers.** The list is not growing slowly — it is not growing. That is the clearest
+  measurement yet that **traffic, not conversion, is the constraint**, and it is why the free
+  pattern is worth doing rather than a nice-to-have.
+  ⚠️ **DO THE WELCOME AUTOMATION BEFORE THE LEAD MAGNET.** The three emails in
+  `emails/welcome-sequence.md` are written but still not set up in Buttondown, so **anyone who
+  signs up today gets silence.** At five subscribers that has cost nothing. Drive signups first
+  and the silence scales — the worst possible moment to discover it. **Automation first.**
+
 - [x] ✅ **FIXED 2026-08-20 — a cart holding a RETIRED id used to render a broken line.**
   `js/cart.js` now runs `clean()` over the stored cart before anything sees it, and writes the
   tidied version back so the junk does not linger for the next page load. It drops:
