@@ -334,8 +334,12 @@
       name: "Brea P.", where: "on the Strawberry Tote", stars: 5 },
     { quote: "Dragon Ink and Thread made the most beautiful tote! She found the most beautiful and unique music fabric for me as a music teacher! The tote is the perfect size for my books and laptop! It has perfectly placed pockets for my keys! Wonderfully made!",
       name: "Cassidy E.", where: "on The Music Teacher's Tote", stars: 5 },
-    // Linda, 2026-08-19. Her own words; typos fixed (spelling and one missing word),
-    // nothing reworded. She wrote "five stars" herself — the rating is hers, not inferred.
+    // Linda Madrid, 2026-08-19. Her own words, sent through the site's contact form
+    // (Web3Forms, in Gmail) — typos fixed (spelling and one missing word), nothing reworded.
+    // ⚠️ The FORM submission does not contain "five stars" — it ends at "wonderfully made".
+    // She gave the rating separately, BY TEXT, confirmed by the owner 2026-08-25. The stars
+    // are hers, just from a different channel. Recorded because checking the form alone
+    // makes them look invented, which is exactly the wrong conclusion.
     { quote: "I loved Ayla's work. She took an heirloom handmade quilt that has been in my family for 30 years. It was passed down to me from my mother. I wanted to pass it down but we found a hole that needed fixing first. Ayla was able to mend it fast and beautifully — now you can't even tell. Now I can pass it on to my daughter! Ayla also created a custom tea cover with a matching tea mat that are both unique and wonderfully made.",
       name: "Linda M.", where: "on a quilt repair and a custom tea cover", stars: 5 }
   ];

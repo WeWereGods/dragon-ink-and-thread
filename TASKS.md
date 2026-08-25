@@ -1347,16 +1347,32 @@ and the 25% rule all tie out.
 Underlying: product revenue **$1,250.43** + shipping $13.00 = gross **$1,263.43**; expenses
 **$300.55**; **net profit $962.88**.
 
-🚨 **UNRESOLVED — A $14.54 SALES-TAX GAP. Settle it before filing.**
-8.25% of $1,250.43 would be **$103.16**; **$88.62** was collected. The difference means roughly
-**$176 of revenue carried no sales tax.**
-That matches the two custom invoices that land on suspiciously round numbers: **Aubrea's $36**
-(exactly 3 × $12) and **Linda's first $105** (exactly $30 + $75). Neither shows a tax line;
-Maurya's ($90 + $7.43) and Linda's second ($892.50 + $73.63) both clearly do.
-⚠️ **If that revenue was taxable and tax wasn't collected, it is still owed — out of pocket,
-because the customer has gone.** $14.54 is nothing today; **the same habit on Linda's $892.50
-would have been $73.** Pull both invoices, then either explain the gap or add it to the pile
-(worst case the set-aside becomes **$343.88**).
+🔴 **CORRECTION 2026-08-25 — MY EARLIER $14.54 GAP WAS WRONG, AND SO WAS THE REASONING.**
+I read TASKS.md's *"$105 PAID"* as a total. It is the **ex-tax** figure. The Stripe notifications
+in Gmail show Linda's first order as **two payments, $81.19 and $32.48** — that is $75 and $30
+**each plus 8.25%**. **Tax was collected on both.** Only one order actually looks untaxed:
+
+| Date | Paid | Implied ex-tax | Taxed? |
+|---|---|---|---|
+| Aug 6 | $97.43 | $90.00 | ✅ Maurya |
+| **Aug 6** | **$36.00** | **$33.26** | **❌ Aubrea — a round number, 3 × $12, no tax line** |
+| Aug 10 | $81.19 | $75.00 | ✅ Linda |
+| Aug 11 | $32.48 | $30.00 | ✅ Linda |
+| Aug 20 | $966.13 | $892.50 | ✅ Linda |
+| Aug 3 · Aug 3 · Aug 6 · Aug 12 | $31.50 · $24.50 · $19.49 · $19.49 | — | ✅ shop sales, `automatic_tax` |
+
+**So the exposure is Aubrea's invoice alone: about $2.97**, not $14.54.
+⚠️ **It is still owed if that sale was taxable** — she is the owner's sister, which changes
+nothing about Texas sales tax. Trivial money; worth fixing the habit, not the amount.
+
+⚠️ **AND A REAL DISCREPANCY TO CHASE, WHICH IS BIGGER THAN THE TAX POINT.** The ten Stripe
+notifications total **$1,318.31**. The workbook implies **$1,352.05** collected
+(1,250.43 product + 13.00 shipping + 88.62 tax). **A $33.74 difference.**
+📌 **Do NOT resolve this from Gmail.** Notification emails can be missing, filtered or deleted,
+and one of these ten is the owner's own Jul 15 self-test. **Stripe's Payments export is the only
+authoritative source** — that was the recommendation before the workbook arrived and it still is.
+The workbook is a record-keeping aid; Stripe is the record.
+
 
 📌 **Linda's second invoice is 71% of all product revenue.** The entire tax position for 2026
 rests on one customer — worth remembering when the number looks healthy.
