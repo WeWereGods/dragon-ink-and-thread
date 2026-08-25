@@ -295,6 +295,11 @@ Two rules that keep this useful:
         request** — one photo of it on her chair — rather than a vague "send me a picture
         sometime". If she says no, §8 needs rewriting around the traditional tote and the
         custom-process story instead, and that is better known before the 29th than during it.
+        ✅ **PERMISSION GIVEN, and both totes are IN STORIES 2026-08-25** — `PAST_MAKES` is now
+        **18**. Two separate entries, "The Nesta's Cats Wheelchair Tote" and "The Nesta's Cats
+        Tote", because they are two pieces and were once nearly published as one dual-mode bag.
+        📌 The wheelchair entry names the wheelchair plainly — that was asked about specifically,
+        since it says more about the customer than a plain tote would.
         ⚠️ **Ask Maurya before publishing anything of her order** — Thu 20, while she's in front
         of you and pleased. **Ask for two other things at the same time**: a photo of it in use
         (see above — this one matters), and a review. She is the shop's third custom customer and

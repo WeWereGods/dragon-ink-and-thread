@@ -264,6 +264,14 @@
      missing (so a not-yet-added photo never looks broken).
      ========================================================= */
   var PAST_MAKES = [
+    /* Maurya Buchanan's pair, added 2026-08-25 WITH HER PERMISSION, asked and given.
+       Two separate pieces, not one — the wheelchair tote ties on with four ties, the
+       traditional one hangs from a long strap. They were briefly read as a single
+       dual-mode bag from photographs; they are not. */
+    { img: "assets/tote-wheelchair-nestas-cats.jpg", art: "🐈‍⬛", title: "The Nesta's Cats Wheelchair Tote",
+      story: "A quilted tie-on tote made to hang from a wheelchair, in a print of black cats winding through dark florals. Four ties fasten it to the handles, and the pocket bags sit where a hand actually reaches. Made for a customer in San Antonio who wanted something that looked like hers rather than like equipment. 🐈‍⬛" },
+    { img: "assets/tote-nestas-cats.jpg", art: "🖤", title: "The Nesta's Cats Tote",
+      story: "The companion piece, in the same cats-and-florals print — quilted, lined in soft charcoal, and hung from a long strap that sits at the hip. Ordered together with the wheelchair tote so the two would match. 🖤" },
     { img: "assets/scrunchie-strawberry.jpg", art: "🍓", title: "Strawberry Scrunchie",
       story: "Ripe little strawberries on leafy green — the sweetest bit of summer for your wrist or your hair. The shop's first customer bought one alongside her strawberry tote, entirely her own idea, and that pairing is the reason every product page now suggests something to go with it. 🍓" },
     { img: "assets/kindle-case.jpg", art: "📖", title: "Road Trip Kindle Case",
