@@ -1162,21 +1162,27 @@ written.** Ask before inferring a post didn't run.
 
 ## 🔵 Waiting on something else
 
-- [ ] 🧵 **FREE PATTERN PAGE — built and staged on `free-pattern`, NOT merged.** `pattern.html`
-  plus CSS. The web half is done; **the pattern itself is the work that remains.**
-  **How the gate works:** the form POSTs to Buttondown tagged **`pattern`**, and the download
-  block is revealed by JS on success. Same contract as `wireNestForm()` in js/main.js and the
-  inline handler in success.html — Buttondown answers HTML, not JSON, so it branches on status.
-  ⚠️ **A 400 STILL REVEALS THE DOWNLOAD, deliberately.** Buttondown returns 400 for an address
-  that is *already subscribed*, and refusing an existing subscriber their own free pattern would
-  be absurd — they are exactly who it is for. Only a genuine failure withholds it.
-  ⚠️ **THE GATE IS SOCIAL, NOT TECHNICAL.** The PDF sits at an ordinary URL on a static host, so
-  anyone with the link can pass it on. **That is fine.** The point is collecting addresses, not
-  preventing copying, and whoever shares the link was never going to subscribe. **Do not add
-  obfuscation believing it secures anything** — it would only break the download.
-  ✅ **Verified with a stubbed fetch (no real subscriber added):** 200 reveals, 400 reveals with
-  different wording, 500 and a network error both withhold and show the help line. The
-  `[hidden]` block is genuinely `display:none`, mobile collapses to one column, no overflow.
+- [x] 🧵 ✅ **FREE PATTERN IS LIVE 2026-08-25** — `pattern.html`, linked in the nav on all 39
+  pages that carry one, in the sitemap, `noindex` removed. The Chunky Scrunchie: one rectangle,
+  one elastic, ~20 minutes.
+  **The gate:** email → Buttondown tagged **`pattern`** → the PDF is revealed. A 400 (already
+  subscribed) reveals it too, deliberately.
+  ⚠️ **NOTHING IS EMAILED AUTOMATICALLY** — automations are paid, this account is free-tier, so
+  the on-page reveal IS the delivery. **Send welcomes by hand while volume is low**, exactly as
+  order emails already work. Start paying only when doing it by hand becomes a chore; by then
+  the list justifies it.
+  🔍 **THE NAV LINK WENT INTO THE GENERATORS, NOT THE PAGES.** The first attempt edited all 38
+  .html files directly — it looked perfect and the next `build-products.js` run would have
+  silently wiped 34 of them. **Only index / shop / custom / pattern are hand-maintained;
+  everything else comes from tools/. Editing a generated page is always the wrong fix.**
+  📌 The PDF is regenerable: `node tools/pattern-to-pdf.js designs/scrunchie-pattern.dc.html
+  assets/chunky-scrunchie-pattern.pdf`. A `.dc.html` export does NOT open on its own — it loads
+  two scripts the export omits and hides itself until they define, so raw it is silently BLANK.
+  ⚠️ **The repo copy is the SOURCE; the Claude Design canvas is now stale.** Do not maintain both.
+  **STILL WORTH DOING:** a photo for step 5 (the burrito turn is the only counterintuitive move,
+  and where the support email will come from), and deciding whether "For personal use" should
+  allow selling finished items — many makers do, and it makes a pattern travel much further.
+
 
   **BEFORE MERGING:**
   - **Write the pattern.** Days, not hours: instructions someone can follow without you, cutting
