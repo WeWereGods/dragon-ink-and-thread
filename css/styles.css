@@ -2196,3 +2196,48 @@ body.fabric-lightbox-open { overflow: hidden; }
   .repair-art { order: 1; max-width: 340px; margin: 0 auto; }
   .repair-copy { order: 2; }
 }
+
+/* Free pattern page ----------------------------------------- */
+.pattern-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(1.5rem, 5vw, 3.5rem);
+  align-items: start;
+}
+.pattern-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transform: rotate(-1deg);
+  display: block;
+}
+.pattern-points { padding-left: 1.1rem; margin: 0.6rem 0 1.2rem; }
+.pattern-points li { margin: 0.3rem 0; }
+
+/* ⚠️ REQUIRED — [hidden] alone loses to the block/flex below, exactly like the
+   cart drawer, the fabric lightbox and the waitlist modal. */
+.pattern-download[hidden] { display: none; }
+.pattern-download {
+  display: block;
+  margin-top: 1.4rem;
+  padding: 1.2rem 1.4rem;
+  border-radius: var(--radius);
+  background: var(--rose-veil, rgba(214, 168, 168, 0.14));
+  border: 1px solid var(--paper-deep, #e6ddcd);
+}
+.pattern-ready {
+  font-family: var(--font-script);
+  font-size: 1.4rem;
+  margin: 0 0 0.6rem;
+}
+.pattern-note-small {
+  font-size: 0.85rem;
+  color: var(--ink-soft, #6b6259);
+  margin: 0.7rem 0 0;
+}
+@media (max-width: 780px) {
+  .pattern-grid { grid-template-columns: 1fr; }
+  .pattern-art { max-width: 340px; margin: 0 auto; }
+}

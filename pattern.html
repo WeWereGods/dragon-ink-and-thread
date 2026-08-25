@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Sewing Pattern | Dragon Ink and Thread</title>
+  <meta name="description" content="A free sewing pattern from Dragon Ink and Thread — join the Nest and it's yours to download, with the cutting layout and step-by-step instructions." />
+
+  <!-- ⚠️ noindex UNTIL THE PDF EXISTS. Remove this line when the file is in
+       assets/ and the page is linked from the nav — not before, or search
+       engines will index a page that promises a download it cannot deliver. -->
+  <meta name="robots" content="noindex" />
+
+  <link rel="canonical" href="https://www.dragoninkandthread.com/pattern.html" />
+  <meta name="theme-color" content="#4a9198" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Dragon Ink and Thread" />
+  <meta property="og:title" content="A free sewing pattern | Dragon Ink and Thread" />
+  <meta property="og:description" content="Join the Nest and the pattern is yours — cutting layout, seam allowances, and every step written out." />
+  <meta property="og:url" content="https://www.dragoninkandthread.com/pattern.html" />
+  <meta property="og:image" content="https://www.dragoninkandthread.com/assets/og-image-v2.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="A free sewing pattern | Dragon Ink and Thread" />
+  <meta name="twitter:description" content="Join the Nest and the pattern is yours." />
+  <meta name="twitter:image" content="https://www.dragoninkandthread.com/assets/og-image-v2.jpg" />
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Caveat:wght@500;600;700&family=Great+Vibes&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css?v=b19cd513" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Dragon Ink and Thread</span>
+          <span class="brand-tag">handmade in san antonio</span>
+        </span>
+      </a>
+
+      <div class="header-right">
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="custom.html">Custom</a></li>
+            <li><a href="fabrics.html">Fabrics</a></li>
+            <li><a href="index.html#about">Our Story</a></li>
+            <li><a href="index.html#stories">Stories</a></li>
+            <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section shop-hero reveal">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">A Gift from the Nest</p>
+          <h1>[PATTERN NAME] — free sewing pattern</h1>
+          <p class="section-sub">[One or two sentences: what they'll make, roughly how long it takes, and who it suits. Say plainly whether a beginner can manage it — that decides whether most people download it.]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container pattern-grid">
+        <div class="pattern-art">
+          <img class="pattern-photo" src="assets/pattern-preview.jpg" decoding="async"
+               alt="[Describe the finished piece the pattern makes]"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="placeholder placeholder-portrait" style="display:none;" aria-hidden="true">
+            <span>🧵</span>
+          </div>
+        </div>
+
+        <div class="pattern-copy">
+          <h2>What's in it</h2>
+          <ul class="pattern-points">
+            <li>[Finished size]</li>
+            <li>[Cutting layout — the thing people actually want]</li>
+            <li>[Step-by-step instructions, seam allowances stated]</li>
+            <li>[Fabric requirements, in yards]</li>
+          </ul>
+
+          <p>[A line in your voice about why you're giving it away — the honest version reads better than a marketing one.]</p>
+
+          <!-- The gate. Same Buttondown contract as wireNestForm() in js/main.js:
+               responses are HTML, not JSON, so branch on status. Tagged
+               `pattern` so this source can be told apart from hero / checkout /
+               purchased / waitlist in tools/buttondown-report.js. -->
+          <form class="nest-form" id="patternForm"
+                action="https://buttondown.com/api/emails/embed-subscribe/dragoninkandthread"
+                method="POST" aria-label="Get the free pattern">
+            <input type="hidden" name="tag" value="pattern" />
+            <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <label class="sr-only" for="patternEmail">Your email address</label>
+            <input type="email" id="patternEmail" name="email" placeholder="you@example.com" required autocomplete="email" />
+            <button type="submit" class="btn btn-primary">Send me the pattern</button>
+          </form>
+          <p class="nest-note" id="patternNote">Pop your email in and the download appears right here. You'll join the Nest too — I only write when there's something lovely to share, and you can leave any time.</p>
+
+          <!-- Revealed by JS once Buttondown accepts the address.
+               ⚠️ .pattern-download[hidden] needs an explicit display:none in the
+               CSS — same display-override gotcha as the cart drawer, the fabric
+               lightbox and the waitlist modal. -->
+          <div class="pattern-download" id="patternDownload" hidden>
+            <p class="pattern-ready">Here it is — happy sewing. 🧵</p>
+            <a class="btn btn-primary" id="patternLink" href="assets/[PATTERN-FILE].pdf" download>
+              Download the pattern (PDF)
+            </a>
+            <p class="pattern-note-small">It's on its way to your inbox as well, so you don't have to keep this tab open.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint reveal">
+      <div class="container">
+        <div class="section-head">
+          <h2>Rather not sew it yourself?</h2>
+          <p class="section-sub">Every piece in the shop is already made, by hand, in San Antonio — and if you'd like this in your own fabric, that's what custom orders are for.</p>
+          <p class="shop-hero-actions">
+            <a class="btn btn-primary" href="shop.html">Shop the collection →</a>
+            <a class="btn btn-ghost" href="custom.html">Ask for a custom piece →</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Dragon Ink and Thread</p>
+      <p class="footer-copy">Made with love in San Antonio · ★ Proudly Veteran-Owned</p>
+      <p class="footer-links">
+        <a href="privacy.html">Privacy Policy</a> ·
+        <a href="shipping.html">Shipping &amp; Returns</a> ·
+        <a href="terms.html">Terms of Service</a> ·
+        <a href="mailto:dragoninkandthread@gmail.com">Email</a>
+      </p>
+      <p class="footer-copy">&copy; <span id="year">2026</span> Dragon Ink and Thread 🧵</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    /* Mobile nav — this page doesn't load main.js, same as success.html. */
+    (function () {
+      var toggle = document.querySelector(".nav-toggle");
+      var nav = document.getElementById("site-nav");
+      if (!toggle || !nav) return;
+      toggle.addEventListener("click", function () {
+        var open = nav.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", String(open));
+        toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      });
+    })();
+
+    /* Reveal on scroll, so the page matches the rest of the site. */
+    (function () {
+      var els = document.querySelectorAll(".reveal");
+      if (!("IntersectionObserver" in window) || !els.length) {
+        els.forEach(function (el) { el.classList.add("is-visible"); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12 });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+
+    /* The gate.
+
+       Same Buttondown contract as wireNestForm() in js/main.js and the inline
+       handler in success.html — the endpoint returns HTML, not JSON, so branch
+       on status: ok = subscribed, 400 = bad or duplicate address.
+
+       ⚠️ A 400 STILL REVEALS THE DOWNLOAD. Buttondown answers 400 for an
+       address that is already subscribed, and refusing an existing subscriber
+       their own free pattern would be absurd — they are exactly the person
+       this is for. Only a genuine failure withholds it.
+
+       ⚠️ THIS GATE IS SOCIAL, NOT TECHNICAL. The PDF sits at an ordinary URL on
+       a static host; anyone who has the link can share it. That is fine and
+       expected — the point is collecting addresses, not preventing copying, and
+       someone passing the link on was never going to subscribe anyway. Do not
+       add obfuscation here believing it secures anything. */
+    (function () {
+      var form = document.getElementById("patternForm");
+      var note = document.getElementById("patternNote");
+      var box  = document.getElementById("patternDownload");
+      if (!form || !note || !box) return;
+
+      var HELP = "Something went wrong — email dragoninkandthread@gmail.com and I'll send it over myself.";
+
+      function reveal() {
+        box.hidden = false;
+        box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        if (form.querySelector('[name="botcheck"]:checked')) return; // honeypot
+        var em = form.querySelector('[name="email"]');
+        var tg = form.querySelector('[name="tag"]');
+        var data = new FormData();
+        data.append("email", em ? em.value : "");
+        if (tg && tg.value) data.append("tag", tg.value);
+
+        var btn = form.querySelector('button[type="submit"]');
+        if (btn) btn.disabled = true;
+        note.textContent = "One moment…";
+
+        fetch(form.action, { method: "POST", body: data })
+          .then(function (r) {
+            if (r.ok) {
+              form.reset();
+              note.textContent = "You're in the Nest! 🌿 The pattern is below.";
+              reveal();
+            } else if (r.status === 400) {
+              // Already subscribed, most likely. Give them the pattern.
+              note.textContent = "Looks like you're already in the Nest — here's the pattern anyway.";
+              reveal();
+            } else {
+              note.textContent = HELP;
+            }
+          })
+          .catch(function () { note.textContent = HELP; })
+          .finally(function () { if (btn) btn.disabled = false; });
+      });
+    })();
+  </script>
+
+  <!-- Pinterest Tag — ad measurement and retargeting. The tag id is public by
+       design, same as the Cloudflare token.
+
+       NO ENHANCED MATCH. Pinterest's copy-paste snippet ends with
+       {em: '<user_email_address>'} — that placeholder wants the VISITOR's
+       email, and this site has no login, so there is nobody's address to put
+       there. Pasted literally it posts the string "<user_email_address>" to
+       Pinterest on every page load. Do not add 'em' back unless there is a
+       real, consented address to send.
+
+       GPC. Unlike the Cloudflare beacon, this IS "sharing" for cross-context
+       behavioral advertising under California's CPRA, so it does not load for
+       anyone whose browser sends a Global Privacy Control signal. privacy.html
+       promises exactly this — change the two together or the policy lies.
+       The <noscript> pixel was deliberately dropped: it would fire regardless
+       of GPC, and that hole is worth more than the handful of JS-off visits. -->
+  <script>
+    if (navigator.globalPrivacyControl !== true) {
+      !function(e){if(!window.pintrk){window.pintrk = function () {
+      window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+        n=window.pintrk;n.queue=[],n.version="3.0";var
+        t=document.createElement("script");t.async=!0,t.src=e;var
+        r=document.getElementsByTagName("script")[0];
+        r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+      pintrk('load', '2614418318675');
+      pintrk('page');
+    }
+  </script>
+  <!-- end Pinterest Tag -->
+
+  <!-- Cloudflare Web Analytics — cookieless. -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>
+</body>
+</html>

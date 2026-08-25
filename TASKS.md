@@ -1146,6 +1146,48 @@ written.** Ask before inferring a post didn't run.
 
 ## 🔵 Waiting on something else
 
+- [ ] 🧵 **FREE PATTERN PAGE — built and staged on `free-pattern`, NOT merged.** `pattern.html`
+  plus CSS. The web half is done; **the pattern itself is the work that remains.**
+  **How the gate works:** the form POSTs to Buttondown tagged **`pattern`**, and the download
+  block is revealed by JS on success. Same contract as `wireNestForm()` in js/main.js and the
+  inline handler in success.html — Buttondown answers HTML, not JSON, so it branches on status.
+  ⚠️ **A 400 STILL REVEALS THE DOWNLOAD, deliberately.** Buttondown returns 400 for an address
+  that is *already subscribed*, and refusing an existing subscriber their own free pattern would
+  be absurd — they are exactly who it is for. Only a genuine failure withholds it.
+  ⚠️ **THE GATE IS SOCIAL, NOT TECHNICAL.** The PDF sits at an ordinary URL on a static host, so
+  anyone with the link can pass it on. **That is fine.** The point is collecting addresses, not
+  preventing copying, and whoever shares the link was never going to subscribe. **Do not add
+  obfuscation believing it secures anything** — it would only break the download.
+  ✅ **Verified with a stubbed fetch (no real subscriber added):** 200 reveals, 400 reveals with
+  different wording, 500 and a network error both withhold and show the help line. The
+  `[hidden]` block is genuinely `display:none`, mobile collapses to one column, no overflow.
+
+  **BEFORE MERGING:**
+  - **Write the pattern.** Days, not hours: instructions someone can follow without you, cutting
+    layout, seam allowances stated, and **one other person sewing it start to finish** to find
+    the step you left out. A bad free pattern generates support email and looks amateur.
+  - Fill the `[BRACKETED]` copy — name, what it makes, what's in it, and the `[PATTERN-FILE].pdf`
+    href — and drop `assets/pattern-preview.jpg`.
+  - **Remove the `noindex`** and add the page to the nav. Not before: it currently promises a
+    download that does not exist.
+  - Put the download link in the Buttondown welcome email too, so a real address is worth giving.
+
+  🚨 **THE COST NOBODY SEES: BUTTONDOWN IS FREE TO 100 SUBSCRIBERS, THEN ~$9/MONTH.** A lead
+  magnet exists to add subscribers fast. **The pattern is free; the list is not.** Run
+  `tools/buttondown-report.js` for the current headroom before launching this — that is precisely
+  what it was built for.
+  ✅ **No VAT problem, unlike SELLING patterns.** Paid patterns are parked because digital goods
+  owe EU VAT from the first sale and need a merchant of record. **A free giveaway is not a sale**,
+  so this route sidesteps the reason patterns were shelved.
+  📌 **Very Pinterest-shaped** — free patterns are among the most-saved things there, and the tag,
+  the boards and the product feed are all already running.
+
+  🔍 **GOTCHA FOUND BUILDING THIS: `tools/bump-assets.js` only REWRITES an existing `?v=`, it
+  never adds one.** Its regex requires `?v=` to already be present, so a new page written without
+  a placeholder is silently skipped and ships with an unstamped stylesheet — no error, no warning.
+  **A new .html must be written with `?v=0` on its css/js links**, then stamped. Fixed here.
+
+
 - [x] ✅ **SURIEL SET RESTORED 2026-08-25 — the pull is fully reversed.** It came down on Aug 19
       for the Aug 21–24 trip, when nobody could pull a listing for four days and the set/singles
       race was the shop's only overselling risk. All four reversals done together:
