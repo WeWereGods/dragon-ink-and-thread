@@ -1172,10 +1172,15 @@ written.** Ask before inferring a post didn't run.
     download that does not exist.
   - Put the download link in the Buttondown welcome email too, so a real address is worth giving.
 
-  🚨 **THE COST NOBODY SEES: BUTTONDOWN IS FREE TO 100 SUBSCRIBERS, THEN ~$9/MONTH.** A lead
-  magnet exists to add subscribers fast. **The pattern is free; the list is not.** Run
-  `tools/buttondown-report.js` for the current headroom before launching this — that is precisely
-  what it was built for.
+  ✅ **CEILING RESOLVED — 5 SUBSCRIBERS, measured 2026-08-25.** Buttondown is free to 100, so
+  there are **95 slots spare**. A pattern launch is very unlikely to reach the paid tier soon.
+  **This is settled; do not re-raise the $9/month as a reason to delay.**
+  📉 **And the number reframes the whole idea.** Seven weeks, two live signup forms, a back-fill,
+  and **five subscribers** — the list is not growing. The pattern stops being a nice-to-have and
+  becomes the most direct answer the shop has to its actual constraint.
+  ⚠️ **BUT DO THE WELCOME AUTOMATION FIRST.** The three emails in `emails/welcome-sequence.md`
+  are still not set up in Buttondown, so a new subscriber gets **silence**. At five people that
+  has cost nothing; a working lead magnet scales the silence. **Automation, then launch this.**
   ✅ **No VAT problem, unlike SELLING patterns.** Paid patterns are parked because digital goods
   owe EU VAT from the first sale and need a merchant of record. **A free giveaway is not a sale**,
   so this route sidesteps the reason patterns were shelved.
