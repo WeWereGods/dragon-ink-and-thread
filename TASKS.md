@@ -1146,30 +1146,20 @@ written.** Ask before inferring a post didn't run.
 
 ## 🔵 Waiting on something else
 
-- [ ] 🔁 **↩️ RESTORE THE SURIEL SET ON TUE 25 — it was pulled for the trip, not retired.**
-      Pulled 2026-08-19 because Fri 21 – Mon 24 is four days with nobody able to touch a listing,
-      and the set/singles race below is the shop's only overselling risk. **The SET came down and
-      the five singles stayed up**: five live listings beat one, $12 converts better than $55, and
-      anyone wanting all five can still buy them as singles for $60 — so nothing became unbuyable.
-      **How it was done** (deliberately NOT `soldOut: true`, which prints a "Sold" badge that is
-      false and fires the waitlist for a piece that hasn't sold):
-      - `LINKS` entry commented out in **js/shop-data.js** → button reads "Coming soon", card stays
-        visible, **product page stays alive so no Pinterest Pin lands on a 404**.
-      - `PRICES` entry commented out in **worker/checkout-worker.js** + deployed, so a set already
-        sitting in someone's localStorage cart can't check out either. Half-closing it would have
-        left exactly the hole the pull exists to close.
-      - **index.html Bows block: offerCount 13 → 12 AND highPrice 55.00 → 12.00.** The set was the
-        only bow above $12, so pulling it changed the *range*, not just the count. Nothing
-        regenerates that block.
-      ⚠️ **All four have to be reversed together on Tue 25**, then `wrangler deploy` from `main`.
-      ✅ **`gameday-bows` MERGED 2026-08-20 — that reconciliation is done**, and it moved the
-      target. It landed **two** bows, not one (the $12 clip bow and the **$14 headband**), so the
-      block now reads **offerCount 14, highPrice "14.00"**. **The restore target is 15 / "55.00"**,
-      not the 13 or 14 this entry used to predict. Verified against js/shop-data.js 2026-08-24.
-      📌 **This is what the drift warning in CLAUDE.md looks like in practice** — the numbers
-      themselves were right all along, because whoever merged the headband updated them. What went
-      stale was *the instruction predicting them*, written before the merge. **A note that says
-      what a number should become is as perishable as the number.**
+- [x] ✅ **SURIEL SET RESTORED 2026-08-25 — the pull is fully reversed.** It came down on Aug 19
+      for the Aug 21–24 trip, when nobody could pull a listing for four days and the set/singles
+      race was the shop's only overselling risk. All four reversals done together:
+      `LINKS` and the Worker `PRICES` uncommented, Bows JSON-LD **offerCount 14 → 15** and
+      **highPrice $14 → $55**, the set's photo back in the image array, everything rebuilt.
+      ⚠️ **THE NOTE SAID RESTORE TO 13 AND IT WAS WRONG** — written on Aug 19, before Game Day
+      Darling added two bows. **A hand-written future number goes stale the moment anything else
+      changes.** Recomputed from the live data instead: 15. A session over Aug 22–24 audited it
+      independently and reached 15 too.
+      ✅ Verified: card reads "Add to cart", no "Coming soon" anywhere, page and sitemap entry
+      back, feed reports 34 of 34 in stock.
+      🔁 **The race it protected against is still live** — the set and the five singles are the
+      same five bows. See the entry below. This restore does not solve that, it just ends the
+      trip-specific mitigation.
 - [ ] ⚠️ **The Suriel bow set and the five singles are the SAME five bows.** Listed both ways
       since 2026-08-07, and nothing in the shop tracks stock — so the moment one side sells,
       the other side is still live and sellable to somebody else.

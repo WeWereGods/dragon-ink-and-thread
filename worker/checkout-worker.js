@@ -49,10 +49,7 @@ const PRICES = {
   // Game Day — cut from one yard, so these carry maxQty like the scrunchies.
   "bow-gameday-darling":      { name: "Game Day Darling Bow",      amount: 1200, maxQty: 3 },
   "bow-gameday-darling-headband":   { name: "Game Day Darling Headband",      amount: 1400, maxQty: 2 },
-  // ⛔ PULLED FOR THE Aug 21–24 TRIP (2026-08-19) — see js/shop-data.js LINKS.
-  // Removed here too so a set already sitting in someone's localStorage cart cannot check out.
-  // ↩️ RESTORE ON Tue 25, then wrangler deploy.
-  // "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", amount: 5500 },
+  "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", amount: 5500 },
   "bandana-storykeeper":   { name: "The Storykeeper Bandana",  amount: 1800 },
   "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    amount: 1800 },
   "bandana-quilted-court":     { name: "The Quilted Court Bandana", amount: 2200 },
