@@ -165,6 +165,48 @@
         el.textContent = now.back;
       });
     }
+
+    // Every toggle above can change how tall the sticky header is, so the
+    // measurement goes LAST and lives here rather than in a page script.
+    syncHeaderHeight();
+  }
+
+  /* ---------------------------------------------------------
+     Sticky-header height → --header-h
+     In-page anchors (#join on the homepage, the shop's category jump
+     buttons, the fabric group links) must land BELOW .site-header, which is
+     position:sticky, top:0. Its height is NOT a constant — ~105px on desktop,
+     ~139px at 375px where the countdown bar wraps — and it changes again on
+     its own every time apply() above swaps a pre-open/post-open or
+     offer-on/offer-off pair. A hard-coded scroll-margin-top is therefore
+     wrong at some widths the day it is written and silently wrong again
+     whenever that copy flips. The CSS falls back to 105px without JS.
+
+     ⚠️ THIS LIVES IN dates.js ON PURPOSE. It is the only script all four
+     pages with a sticky header load (index, shop, fabrics, custom) — main.js
+     is homepage-only — and it is the file that causes the height to change.
+     Putting a copy in main.js, shop.js and fabrics.js would make three that
+     have to stay identical, which is the catSlug()/mdBold() hazard again.
+     --------------------------------------------------------- */
+  var headerEl = null;
+  function syncHeaderHeight() {
+    if (!headerEl) headerEl = document.querySelector(".site-header");
+    if (!headerEl) return;
+    document.documentElement.style.setProperty(
+      "--header-h", headerEl.getBoundingClientRect().height + "px"
+    );
+  }
+
+  function watchHeader() {
+    if (!headerEl) headerEl = document.querySelector(".site-header");
+    if (!headerEl) return;
+    // Webfonts swapping in and late images both resize the bar after apply().
+    window.addEventListener("load", syncHeaderHeight);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(syncHeaderHeight);
+    // ResizeObserver also catches the bar re-wrapping from a TEXT change,
+    // which a resize listener alone would miss.
+    if (window.ResizeObserver) new ResizeObserver(syncHeaderHeight).observe(headerEl);
+    else window.addEventListener("resize", syncHeaderHeight);
   }
 
   window.DIT_DATES = {
@@ -182,6 +224,7 @@
     apply: apply
   };
 
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", apply);
-  else apply();
+  function start() { apply(); watchHeader(); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+  else start();
 })();

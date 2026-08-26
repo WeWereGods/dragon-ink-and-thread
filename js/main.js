@@ -4,40 +4,9 @@
 (function () {
   "use strict";
 
-  /* ---------------------------------------------------------
-     Sticky-header height → --header-h
-     Anchor jumps (#join, from every "Join the Nest" link) must land BELOW
-     .site-header, which is position:sticky, top:0. Its height is not a
-     constant: it is ~105px on desktop but ~139px at 375px wide, because the
-     countdown bar wraps — and the bar's text changes on its own when the
-     offer flips (NEST10 → NEST15) or custom orders open. A hard-coded
-     scroll-margin-top is therefore wrong at some widths the day it is
-     written, and silently wrong again whenever that copy changes.
-     Measured here instead; the CSS falls back to 105px without JS.
-     --------------------------------------------------------- */
-  var headerEl = document.querySelector(".site-header");
-  function syncHeaderHeight() {
-    if (!headerEl) return;
-    document.documentElement.style.setProperty(
-      "--header-h", headerEl.getBoundingClientRect().height + "px"
-    );
-  }
-  if (headerEl) {
-    syncHeaderHeight();
-    /* ⚠️ The FIRST measurement is usually too big and must not be the last one.
-       At this point js/dates.js has not necessarily run, so BOTH halves of every
-       pre-open/post-open and offer-on/offer-off pair are still in the bar —
-       measured 186px on a 1280px viewport against a settled height of 105px.
-       Re-measure at each point the header can still change: after dates.js has
-       toggled (next frame), once webfonts swap in, and on full load. */
-    requestAnimationFrame(syncHeaderHeight);
-    window.addEventListener("load", syncHeaderHeight);
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(syncHeaderHeight);
-    // ResizeObserver also catches the bar re-wrapping from a TEXT change, which
-    // a resize listener alone would miss.
-    if (window.ResizeObserver) new ResizeObserver(syncHeaderHeight).observe(headerEl);
-    else window.addEventListener("resize", syncHeaderHeight);
-  }
+  /* The sticky header's height is measured into --header-h by js/dates.js,
+     which every page with that header loads and which is what changes its
+     height. Deliberately NOT duplicated here. */
 
   /* ---------------------------------------------------------
      Mobile nav toggle
