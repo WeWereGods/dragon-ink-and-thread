@@ -895,7 +895,13 @@ rotten binding is a different afternoon, and a published range would be a promis
 seeing the damage. "Buy more, save more" is applied BY HAND at quoting time — no coded discount,
 so never put a specific multi-buy figure in a post.*
 
-**5 — The Quilted Court Bandana — FACEBOOK, written 2026-08-10**
+**5 — The Quilted Court Bandana — FACEBOOK, written 2026-08-10 · ✅ POSTED 2026-08-26**
+
+*✅ **Posted 2026-08-26**, sixteen days after the Facebook copy was written and four after the
+Instagram version. In-stock, price, live page, photos and the "there's one" claim were all
+re-checked against the data first and all held. **Recorded here so this block cannot be read as
+outstanding a third time** — twice already this section has been believed to be missing work
+that was sitting finished inside it.*
 
 *The pricing problem this post has to solve: it is **$22 where every other bandana is $18**, and
 the shop has never had a price step inside a category before. The answer is not to explain that

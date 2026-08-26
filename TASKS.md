@@ -24,7 +24,7 @@ Two rules that keep this useful:
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip WAS the delivery** | ✅ **Aubrea's three clips HANDED OVER Sat 22** — her $36 order is closed, four slips and no cost. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired — **offerCount 14 → 15, highPrice → "55.00"**) · **Maurya's drop-off** · then the run-up to the push |
-> | **Wed 26 — TODAY** | ✅ | 📸 **Reshoot Maurya's tote in daylight — last chance, it leaves tomorrow** · post the Quilted Court (copy is written) · sew the Game Day scrunchie |
+> | **Wed 26 — TODAY** | ✅ | ✅ **Quilted Court POSTED** · 📸 **Reshoot Maurya's tote in daylight — last chance, it leaves tomorrow** · sew the Game Day scrunchie |
 > | **Thu 27** | ⚠️ | **Maurya's drop-off — 4th date, "hopefully", she is still ill** · treat as likely, not fixed |
 > | **Fri 28** | ✅ | Last clear day before the push. §8 fallback decided, posts queued |
 > | **Sat 29 — THE PUSH** | 🚀 | ⚠️ **Instagram + Facebook + Pinterest carry it. The email list is 5 people.** |
@@ -1191,7 +1191,22 @@ written.** Ask before inferring a post didn't run.
       has a collection outstanding.
       📸 Optional polish: the healed close-up is warm-lit where the damage shot is cooler and
       brighter. A reshoot in matching light would make the pair unarguable for reuse later.
-- [ ] **The Quilted Court Bandana post — ⚠️ THE COPY EXISTS. It just hasn't been posted.**
+- [x] ✅ **POSTED 2026-08-26.** Written 2026-08-10 (Facebook) and 2026-08-22 (Instagram); it sat
+      finished for sixteen days. **The copy was never the bottleneck — posting was.**
+      ✅ **Pre-post checks all passed** and are worth repeating for the next one: no `soldOut`
+      flag, present in `LINKS`, $22 in js/shop-data.js matching 2200 in the Worker, live page
+      loads and reads **"Add to cart"** not "Coming soon", all five photos in `assets/`, and only
+      one Quilted Court exists — so **"There's one" was true at the moment it went out.**
+      🚨 **IF IT SELLS: `soldOut: true` FIRST, retire to Stories a few days later.** A post
+      pointing traffic at a one-of-a-kind piece is exactly when the Pinterest trap in CLAUDE.md
+      goes live — retiring deletes the product page, and until Pinterest re-reads the feed a Pin
+      lands on a 404. `soldOut` keeps the page alive and greys the Pin out instead. **This is the
+      one place ordering matters, and it cuts against the 2026-08-05 retire-immediately
+      preference.** It also brings `js/waitlist.js` back, which has had nothing to attach to
+      since Aug 5.
+      📌 **Still unannounced: The Suriel Tea Cover ($35).** It was one of two live pieces nobody
+      had been told about; now it's the only one. It also opened the Home category, so it's the
+      only thing advertising that category exists.
       ⚠️ **This entry said "no copy written yet" until 2026-08-22, and that was wrong** — the
       Facebook version has been sitting in **§13 of `marketing/campaign-2026-08.md` since
       2026-08-10**, finished and on-brief. **Second time this section has claimed work was
@@ -1205,7 +1220,7 @@ written.** Ask before inferring a post didn't run.
       **Photo order matters more than the copy here** — the flat patchwork shot leads both,
       because it's what explains $22 against three $18 bandanas without anyone having to say
       "patchwork is harder".
-      ⚠️ **Re-check it's still in stock before posting** — both versions say "there's one".
+      ⚠️ ~~**Re-check it's still in stock before posting**~~ — done, it was.
 - [ ] **TikTok DM from "The Stationary Corner"** (2026-08-05) — unclear whether it was answered.
 
 ---
