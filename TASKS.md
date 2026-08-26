@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-18.**
+**Last reviewed: 2026-08-26.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -24,7 +24,10 @@ Two rules that keep this useful:
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip WAS the delivery** | ✅ **Aubrea's three clips HANDED OVER Sat 22** — her $36 order is closed, four slips and no cost. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired — **offerCount 14 → 15, highPrice → "55.00"**) · **Maurya's drop-off** · then the run-up to the push |
-> | **Wed 26 – Fri 28** | ✅ | Sew the game-day bows · the run-up to the push |
+> | **Wed 26 — TODAY** | ✅ | 📸 **Reshoot Maurya's tote in daylight — last chance, it leaves tomorrow** · post the Quilted Court (copy is written) · sew the Game Day scrunchie |
+> | **Thu 27** | ⚠️ | **Maurya's drop-off — 4th date, "hopefully", she is still ill** · treat as likely, not fixed |
+> | **Fri 28** | ✅ | Last clear day before the push. §8 fallback decided, posts queued |
+> | **Sat 29 — THE PUSH** | 🚀 | ⚠️ **Instagram + Facebook + Pinterest carry it. The email list is 5 people.** |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
@@ -183,14 +186,21 @@ Two rules that keep this useful:
         this job's before/after is the proof image on custom.html. The "decide before advertising
         it" note is spent.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
-      ✅ **WHEELCHAIR TOTE COMPLETE 2026-08-18.** Both pieces are made; **drop-off is this
-      evening** and then the order is closed.
+      ✅ **BOTH PIECES COMPLETE 2026-08-18 — but NOT YET HANDED OVER.**
+      📅 **DROP-OFF IS NOW THU AUG 27, "hopefully" (told 2026-08-26). She is STILL ILL.**
+      ⚠️ **THIS HEADER USED TO SAY "delivered Aug 18, inside the window" AND THAT WAS NEVER TRUE**
+      — it was written on the 18th describing that evening's plan, and the plan then moved four
+      times. Corrected 2026-08-26. **The made-date and the handover-date are different facts and
+      this entry conflated them for eight days.**
       $97.43 paid 2026-08-05 (invoice `VBQJFYMO-0001`, $100 less $10 for the pair, plus tax).
       Terms are 10–14 days from acceptance → **due ~Aug 15–19**. She's local (San Antonio).
-      **Delivered Aug 18, a day inside the window** — and that window survived a fabric delay,
-      a batting delay and a three-day trip. The thing that saved it was cutting on Aug 13 while
-      the batting was still in transit, so the delivery met a half-built tote instead of a
-      standing start.
+      ✅ **NOTHING HERE IS LATE, AND THE RECORD SHOULD SAY SO PLAINLY.** The work was **finished
+      and offered on Aug 18**, inside the quoted window — which survived a fabric delay, a
+      batting delay and a three-day trip, because it was cut on Aug 13 while the batting was
+      still in transit. **Every slip since has been the customer's**, three of the four on
+      illness. Delivery date ≠ delivery failure.
+      📮 **Send a get-well line, not a delivery chase.** Fourth reschedule; the piece has been sat
+      finished for nine days. She knows. A note that asks nothing is the right message.
       - **2026-08-09: she replied and loved the first tote.** Approved, so the **wheelchair tote
         is now the live piece of work** — the only thing left on this order.
       - ⏳ **BATTING CONFIRMED FOR MID-AFTERNOON 2026-08-13** (1–3 hours out, told ~14:20 local).
@@ -211,7 +221,26 @@ Two rules that keep this useful:
       - ~~📸 **Film the prep / shoot it Thursday.**~~ Overtaken — it's finished. The process
         footage §6 of the campaign wanted is whatever was captured along the way; **the finished
         piece is the shot that still has to be taken, and the window is now.**
-      - ⏸️ **RESCHEDULED AGAIN 2026-08-20 — MAURYA IS UNWELL. Now next week (Tue 25+).**
+      - ⏸️ **RESCHEDULED A FOURTH TIME 2026-08-26 — STILL UNWELL. Now THU AUG 27, "hopefully".**
+        Wed 19 → Thu 20 → Tue 25+ → **Thu 27**. The "hopefully" is hers and is recorded as hers:
+        **treat Thu 27 as likely, not fixed**, and don't build anything on it that can't slip
+        again. Six days of illness is not a customer going quiet.
+        🚨 **THE PUSH IS SAT AUG 29 — TWO DAYS AFTER A DATE THAT MAY MOVE AGAIN.** Maurya's
+        in-use photo is the only route to an image that says *wheelchair*, and §8 of
+        `marketing/campaign-2026-08.md` is written around it. **§8 now needs a version that does
+        not depend on her**, decided before Saturday rather than during it. If the photo arrives,
+        use it; if it doesn't, the fallback is already written. **Do not let the push's main
+        argument hang on a fourth-time-rescheduled visit from someone who is ill.**
+        📌 **And don't ask her for the photo/review on the 27th if she's still poorly.** The ask
+        was scoped for a well customer pleased with her tote. Hand it over, be kind, ask later.
+      - 🎁 **THE DAYLIGHT RESHOOT IS STILL OPEN AND HAS NOW BEEN OPEN FOR SIX DAYS.** It was
+        called "back on" 2026-08-20 because the tote stayed in the house; it is **still here** on
+        2026-08-26 and it did NOT happen. The four files in the repo are the original Aug 18
+        frames, weaknesses and all. **This is a free, no-customer-dependency fix for the exact
+        gap §8 has** — window to the SIDE (both front-on shots are backlit), one sharp frame of
+        the ties, and the interior with the pocket bags. **Today is the day it is easiest**;
+        it leaves the house tomorrow.
+      - ⏸️ **RESCHEDULED 2026-08-20 — MAURYA IS UNWELL. Was: next week (Tue 25+).**
         **Her call again, and this one is illness** — record it as such. The piece has been
         finished and offered since Aug 18, inside the window she was quoted. **Nothing is late;**
         **the customer is simply not well.** Send a short get-well note rather than a delivery
