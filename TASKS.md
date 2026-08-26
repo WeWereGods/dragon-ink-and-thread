@@ -460,6 +460,13 @@ Two rules that keep this useful:
   subscribers.** The list is not growing slowly — it is not growing. That is the clearest
   measurement yet that **traffic, not conversion, is the constraint**, and it is why the free
   pattern is worth doing rather than a nice-to-have.
+  📊 **SHARPENED 2026-08-26 by the pattern's first day** (full figures at the pattern entry):
+  **20 visits in 24 hours, 86% of them from one Facebook post.** So the site *can* pull traffic
+  when something worth clicking is posted to Facebook — which is a real argument for how Saturday
+  should be run, and against treating any channel other than Facebook and Instagram as the spine
+  of it. ⚠️ **What is still unmeasured is whether that traffic CONVERTS** — the `pattern` tag in
+  Buttondown, unread as of this writing. **Run `tools/buttondown-report.js` before Saturday**; it
+  is the one number that would tell you whether the push should lead with the pattern at all.
   ⚠️ **DO THE WELCOME AUTOMATION BEFORE THE LEAD MAGNET.** The three emails in
   `emails/welcome-sequence.md` are written but still not set up in Buttondown, so **anyone who
   signs up today gets silence.** At five subscribers that has cost nothing. Drive signups first
@@ -1232,6 +1239,49 @@ written.** Ask before inferring a post didn't run.
   one elastic, ~20 minutes.
   **The gate:** email → Buttondown tagged **`pattern`** → the PDF is revealed. A 400 (already
   subscribed) reveals it too, deliberately.
+
+  📊 **FIRST 24 HOURS — MEASURED 2026-08-26 in Cloudflare Web Analytics, bots excluded.**
+  | | |
+  |---|---|
+  | `/pattern.html` page views | **22** |
+  | `/pattern.html` visits | **20** |
+  | Share of ALL site traffic, same 24h | **81%** (22 of 27 views) |
+  | Share of the last 7 days | 46% (22 of 48) — **all of it in one day** |
+
+  **For scale, the same 7 days:** homepage **17** · `/fabrics.html` **4** · `/shop.html` **4**.
+  **The pattern page out-drew the shop five to one, and the homepage too**, on one day of
+  existing. Nothing this site has published has ever done that.
+
+  🔍 **WHERE IT CAME FROM — filtered to `/pattern.html` alone. This is the real finding.**
+  | referrer | views |
+  |---|---|
+  | www.facebook.com | 11 |
+  | m.facebook.com | 7 |
+  | lm.facebook.com | 1 |
+  | **Facebook total** | **19 of 22 — 86%** |
+  | own site (nav) | 2 |
+  | direct | 1 |
+
+  ✅ **It is genuinely external.** Only 3 of 22 were internal or direct, so this is **not** the
+  owner reloading the page while building it — the exact trap that inflated the Stripe
+  abandoned-cart count on build days. **Referral data is what rules it out**; a raw view count
+  never could have.
+  ⚠️ **BUT FACEBOOK DID THE WORK, NOT THE PATTERN.** 86% from one post. **Google sent 2 visits to
+  the ENTIRE SITE in 7 days.** The long-term case for a free pattern is search and Pinterest
+  finding it forever, and **none of that has started** — so this measures "a Facebook post about
+  a free pattern performed well", which is a different and much smaller claim.
+  ⚠️ **IT IS A SPIKE, NOT A STREAM.** 18 of the 22 landed in a single hour around 15:00 on
+  Aug 25; near-flat since. **One day proves the post worked, not that the pattern works.**
+  Re-measure around **2026-09-08** before concluding anything about sustained traffic.
+  🚨 **TRAFFIC IS NOT THE NUMBER THIS PAGE EXISTS FOR.** The page is email-gated; the question is
+  how many of those **20 visits gave an address**. That is the **`pattern`** tag in Buttondown and
+  it is **still unmeasured** — `node tools/buttondown-report.js` with `BUTTONDOWN_API_KEY` set
+  (cmd: `set BUTTONDOWN_API_KEY=paste_the_key_here` on its own line first, **no angle brackets**).
+  **Run it before Saturday.** The list was **5 subscribers after seven weeks and two forms**; if
+  the pattern converted even a handful of those 20, it did in one day what the forms did not do
+  in seven weeks — **and that changes what the Aug 29 push should lead with.**
+  📌 Until that number exists, this entry proves the shop can *get* traffic, which was the open
+  question, but not that it can *keep* any of it.
   ⚠️ **NOTHING IS EMAILED AUTOMATICALLY** — automations are paid, this account is free-tier, so
   the on-page reveal IS the delivery. **Send welcomes by hand while volume is low**, exactly as
   order emails already work. Start paying only when doing it by hand becomes a chore; by then
