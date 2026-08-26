@@ -355,6 +355,24 @@ h3 { font-size: 1.4rem; }
   margin: 0.1rem 0 0;
   text-wrap: balance;
 }
+/* Anchor offset for the Join the Nest section (2026-08-26).
+   .site-header is position:sticky, top:0, so an anchor jump without this
+   parks the section heading UNDERNEATH the header — the signup card is on
+   screen but the reason for it is not.
+   --header-h is measured by js/main.js because the header is NOT a fixed
+   height: ~105px on desktop, ~139px at 375px wide where the countdown bar
+   wraps, and it moves again whenever the bar's text changes on its own (the
+   offer flipping NEST10 → NEST15, custom orders opening). The 105px fallback
+   is the desktop measurement, used when JS has not run.
+   ⚠️ The older .catalog-cat / .fabric-group rules hard-code 96px — 9px short
+   of the desktop header and ~43px short on mobile, so those jump links land
+   slightly under it too. NOT fixed here: shop.html and fabrics.html do not
+   load js/main.js, so --header-h is undefined there and they would silently
+   take the 105px fallback. Fixing them properly means adding the same
+   measurement to js/shop.js and js/fabrics.js. Separate pages, separate
+   change. */
+#join { scroll-margin-top: calc(var(--header-h, 105px) + 16px); }
+
 /* Hero subheader — the bookish hook under the headline (2026-08-26).
    Sits between .hero-headline and .hero-shop-btn. Left-aligned in the split
    hero and centred on narrow screens, following .hero-text's own alignment
