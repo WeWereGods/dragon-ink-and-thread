@@ -355,6 +355,21 @@ h3 { font-size: 1.4rem; }
   margin: 0.1rem 0 0;
   text-wrap: balance;
 }
+/* Hero subheader — the bookish hook under the headline (2026-08-26).
+   Sits between .hero-headline and .hero-shop-btn. Left-aligned in the split
+   hero and centred on narrow screens, following .hero-text's own alignment
+   switch at 720px rather than setting its own. */
+.hero-sub {
+  max-width: 46ch;
+  margin: 0.9rem 0 0;
+  font-size: clamp(1rem, 1.5vw, 1.12rem);
+  line-height: 1.6;
+  color: var(--ink-soft, var(--ink));
+  text-wrap: pretty;
+}
+@media (max-width: 720px) {
+  .hero-sub { margin-left: auto; margin-right: auto; }
+}
 .hero-rule {
   display: flex;
   align-items: center;
