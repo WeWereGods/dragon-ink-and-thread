@@ -304,6 +304,46 @@ async function fbCustomOrders() {
   console.log(`Wrote assets/social/fb-custom-orders.jpg (${FB_W}x${FB_H}).`);
 }
 
+/* The free pattern (2026-08-26).
+   pattern.html shipped with og:image pointing at og-image-v2.jpg — the
+   generic brand card, 1200x630 landscape — and og:title "A free sewing
+   pattern". So a pin of the page showed a LOGO, in the wrong shape, titled
+   nothing anyone searches for. Nobody saves a logo.
+
+   That matters more here than on any other page: free patterns are among the
+   most-saved things on Pinterest, and the pattern was built for that channel
+   specifically. Its first day was 22 views and 0 signups, all but 3 from one
+   Facebook post — which is not a verdict on the pattern, because the channel
+   it was made for was never able to show it.
+
+   ⚠️ The photo is the whole pin. The words underneath carry the search terms
+   ("free sewing pattern", "chunky scrunchie", "beginner") because Pinterest
+   reads text in the image, not just the meta tags. */
+async function pinPattern() {
+  const PHOTO = 760;
+  const photo = await sharp(path.join(ROOT, "assets", "scrunchie-butterfly.jpg"))
+    .resize(PHOTO, PHOTO, { fit: "cover" })
+    .toBuffer();
+  /* Photo runs 310 → 1070; text starts at 1170. Keep that 100px gap if the
+     photo size changes — the fabric-shelf pin above shipped once with the
+     closing line sitting on top of the bottom row. */
+  const text = textLayer([
+    { text: "FREE SEWING PATTERN", y: 150, x: W / 2, size: 40, fill: TEAL, spacing: 6 },
+    { text: "The Chunky Scrunchie", y: 240, x: W / 2, size: 64, fill: INK },
+    { text: "One rectangle, one elastic,", y: 1180, x: W / 2, size: 44, fill: INK },
+    { text: "and about twenty minutes.", y: 1242, x: W / 2, size: 44, fill: INK },
+    { text: "Beginner-friendly · free to download", y: 1340, x: W / 2, size: 34, fill: TEAL },
+    { text: "dragoninkandthread.com/pattern", y: 1440, x: W / 2, size: 30, fill: TEAL, spacing: 3 },
+  ]);
+  await sharp({ create: { width: W, height: H, channels: 3, background: CREAM } })
+    .composite([
+      { input: photo, top: 310, left: Math.round((W - PHOTO) / 2) },
+      { input: text, top: 0, left: 0 },
+    ])
+    .jpeg({ quality: 86 })
+    .toFile(path.join(OUT, "pin-free-pattern.jpg"));
+}
+
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   await fbToteLineup();
@@ -312,5 +352,6 @@ async function fbCustomOrders() {
   await pinCustom();
   await pinCollection();
   await pinBehindTheSeams();
-  console.log(`Wrote 4 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
+  await pinPattern();
+  console.log(`Wrote 5 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
 })();
