@@ -308,6 +308,110 @@ thing about custom orders, and that page already exists.
 ⚠️ **Don't say "opens today"** — it opened on the 17th, and anyone who already sent an enquiry
 will notice. "Are open" is the tense.
 
+### ✅ THE VERSION TO ACTUALLY SEND — written 2026-08-26, no photo dependency
+
+**Use this one.** The section above assumed the push would lead with a photo of a piece finished
+this month, which meant Maurya's wheelchair tote. **Her drop-off has now been rescheduled four
+times on illness (Wed 19 → Thu 20 → Tue 25+ → Thu 27), so the in-use photo that argument needed
+may not exist on the 29th.** This version cannot be taken away by anyone being unwell.
+
+🔍 **And it is the better email regardless.** The old plan asked a *photograph* to carry the
+argument. A photograph proves the thing is pretty; it does not prove the process works. **A
+customer describing the process in her own words does** — and that quote has existed since
+2026-08-12 and has never been used in campaign copy:
+
+> *"Dragon Ink and Thread made the most beautiful tote! She found the most beautiful and unique
+> music fabric for me as a music teacher! The tote is the perfect size for my books and laptop!
+> It has perfectly placed pockets for my keys! Wonderfully made!"*
+> — **Cassidy E.**, five stars, on The Music Teacher's Tote
+
+**This is the only review the shop holds that describes what it is LIKE to order something
+custom**, rather than what the finished object looks like. That is precisely what a
+custom-orders launch has to argue, and it is already live in Kind Words on the homepage.
+📸 Photo: **`assets/tote-music-teacher.jpg`** — the piece the quote is about, in the repo, no
+permission outstanding, nobody to wait on.
+
+---
+
+**Subject:** You can ask me for anything
+**Preheader:** Custom orders are open — here's what that looks like.
+
+> Custom orders are open.
+>
+> That's the news, and it's been true since the 17th — but the news isn't really the point. What
+> I'd rather show you is what it looks like when somebody actually asks.
+>
+> *[photo: The Music Teacher's Tote]*
+>
+> *"Dragon Ink and Thread made the most beautiful tote! She found the most beautiful and unique
+> music fabric for me as a music teacher! The tote is the perfect size for my books and laptop!
+> It has perfectly placed pockets for my keys! Wonderfully made!"* — **Cassidy E.**
+>
+> She didn't send me a design. She told me she taught music, what she had to carry, and where her
+> keys always ended up. The rest was mine to find — three music prints, one at a time, sheet music
+> for the outside and a scatter of cream notes on black for the lining — and then putting the
+> pockets where her hands actually go.
+>
+> **That's the whole of it.** You don't need a drawing, or the right words, or a finished idea.
+> You need to tell me who it's for and what it has to do.
+>
+> **What custom covers** — your print, your dimensions, or a favourite piece made again. Never
+> identically; it's cloth, not a photocopy.
+>
+> **What it costs** — totes **$50–100** · book sleeves **$35–50** · home pieces **$40–60** · pet
+> bandanas **$22–35** · bows **$13–20** · scrunchies **$8–12** · quilts **from $350** (heirloom
+> quilts pieced from someone's own clothes, **from $650**) · repairs and mending **from $40**.
+> There's a **$25 minimum**, which is the polite way of saying a single scrunchie doesn't need a
+> whole conversation.
+>
+> **How long it takes** — **10–14 days** from the day we agree the details, plus shipping.
+> **Quilts are the exception: 8–12 weeks**, and worth every one of them.
+>
+> **Pick your print** — there are **71** in the library, photographed and named. You're welcome to
+> just point at one. *[Browse the fabric library →]*
+>
+> And if you'd rather start smaller: the shop is full, and everything in it is already sewn and
+> sitting here ready to post. **NEST15** takes 15% off orders over $25 — the same $25 the custom
+> minimum sits at, so it works whichever way you go.
+>
+> *[Ask me for something →]*
+>
+> — Ayla
+
+**Links:** the fabric library → `fabrics.html?ref=email`. Both CTAs → `custom.html?ref=email`
+(§10 tags links so Cloudflare can tell the channels apart under **Path**).
+
+**⚠️ Checks before sending, all of which have bitten before:**
+- **`NEST15`, never `NEST10`** — NEST10 died 2026-08-17 and an email is frozen the moment it
+  sends. A lapsed Stripe code is permanently dead.
+- **"Are open", not "opens today"** — twelve days late for that tense.
+- **The quilt band and the quilt turnaround travel together.** The bands are named here, so
+  8–12 weeks has to be named here. Every other band is a 10–14 day piece.
+- **Bands change.** Re-check them against the price-bands note in `CLAUDE.md` on the morning of
+  the send — §10 shipped stale numbers for a day once already.
+- **Nothing in this email needs a customer's permission.** Cassidy's review is already live in
+  Kind Words on the homepage and the photo is a piece the shop published itself. **That is the
+  entire point of the fallback.**
+
+**📉 Read this next to the list size.** As of 2026-08-25 the Nest is **five subscribers**, so
+this broadcast reaches five inboxes. Send it — it costs nothing and it is written — but
+**this copy's real job is as the source text for the Instagram and Facebook posts**, which are
+the channels the 29th actually runs on. The quote, the "she didn't send me a design" paragraph
+and the bands lift straight out.
+
+### 🔁 IF MAURYA'S PHOTO DOES ARRIVE
+
+Add it; don't rebuild around it. **Second image, below the Music Teacher's Tote**, one line:
+*"And this one hangs from a wheelchair, because that's what she needed it to do."* Her totes
+have been in Stories with her permission since 2026-08-25, so publishing the pieces is already
+agreed — **but a photo of her using it, and anything quoting her, is a fresh ask.** Don't assume
+the Stories permission stretches to it, and don't ask at all on Thu 27 if she's still poorly.
+
+⚠️ **What does NOT work is the existing wheelchair frames on their own.** All four repo photos
+show the tote tied to a dining chair. Leading with those and calling it a wheelchair tote asks
+the reader to see something the picture doesn't show — which is weaker than the Music Teacher's
+Tote, where the photo and the claim match exactly.
+
 ### Basket-abandoner segment — **BLOCKED, not forgotten**
 
 The `hero` / `checkout` tags are still recorded on every signup, but **sending to a subset needs
@@ -356,6 +460,15 @@ That's a stronger post: you'll have Maurya's quilted totes and Aubrea's bow clip
 and photographed, plus whatever early enquiries came in. Lead with the real work, not the
 announcement.
 
+⚠️ **REVISED 2026-08-26 — do not plan the day around Maurya's in-use photo.** Her drop-off has
+been rescheduled four times on illness and now sits on **Thu 27, two days before this**. The
+launch leads on **The Music Teacher's Tote and Cassidy E.'s review** instead — a real custom
+piece, already published, with a customer describing the process in her own words. See §8.
+✅ **There is no shortage of proof.** Finished custom work this shop can show today: Maurya's two
+Nesta's Cats totes (in Stories, permission given), The Music Teacher's Tote, Linda's quilt repair
+before/after, the Midnight Garden Tea Cosy, and Aubrea's three bow clips. **The gap was never
+evidence — it was one specific photograph.**
+
 **Night before:** confirm the site says custom orders **are open** (it flips itself, but
 look). Have 3 posts drafted. **`NEST10` is long dead by the 29th** — the standing offer is
 **NEST15**, 15% off orders over $25, and that $25 floor happens to match the custom-order
@@ -376,7 +489,7 @@ channels apart on launch day, tag the links: `?ref=ig` in the bio, `?ref=tt` on 
 
 | Time | Action |
 |---|---|
-| 9:00a | **Email Broadcast #3** to the Nest: custom orders are open. Copy and subject line are in §8. Email sits and waits, so morning is still right. Lead with a finished custom piece — by now there is one. |
+| 9:00a | **Email Broadcast #3** to the Nest: custom orders are open. **Send the no-photo-dependency version — "THE VERSION TO ACTUALLY SEND" in §8, written 2026-08-26 and ready to paste.** It leads with Cassidy E.'s review of The Music Teacher's Tote, which describes the *process* rather than the object, and needs nothing from a customer who may still be ill. ⚠️ **Five subscribers** — its real job is as source text for the 11:30a and 5:30p posts. |
 | **11:30a** | **IG post + TikTok** — the announcement, at the start of the lunch peak. Explain custom in plain words. |
 | **11:45a** | **IG Story series** — 5 frames: what custom means, examples, price range, turnaround, how to ask. Link sticker → contact form. |
 | 12:00–1:00p | Story: answer the questions coming in, publicly, while people are actually there. Q&A *is* the content. |
