@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-26.**
+**Last reviewed: 2026-08-27.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -24,8 +24,8 @@ Two rules that keep this useful:
 > | **Thu 20** | ⚠️ **now has an errand in it** | **Maurya's drop-off — moved here at HER request** · packing for the flight · clips only if Wed failed |
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip WAS the delivery** | ✅ **Aubrea's three clips HANDED OVER Sat 22** — her $36 order is closed, four slips and no cost. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired — **offerCount 14 → 15, highPrice → "55.00"**) · **Maurya's drop-off** · then the run-up to the push |
-> | **Wed 26 — TODAY** | ✅ | ✅ **Quilted Court POSTED** · 📸 **Reshoot Maurya's tote in daylight — last chance, it leaves tomorrow** · sew the Game Day scrunchie |
-> | **Thu 27** | ⚠️ | **Maurya's drop-off — 4th date, "hopefully", she is still ill** · treat as likely, not fixed |
+> | ~~Wed 26~~ | ✅ | ✅ **Quilted Court POSTED** · 📸 reshoot · Game Day scrunchie |
+> | **Thu 27 — TODAY** | ⚠️ | **Maurya's drop-off — 4th date, "hopefully", she is still ill** · treat as likely, not fixed · 📸 **the daylight reshoot is genuinely last chance if she comes** · ✅ **Buttondown read: list is 8, pattern converted 0** |
 > | **Fri 28** | ✅ | Last clear day before the push. §8 fallback decided, posts queued |
 > | **Sat 29 — THE PUSH** | 🚀 | ⚠️ **Instagram + Facebook + Pinterest carry it. The email list is 5 people.** |
 >
@@ -449,28 +449,44 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
-- [ ] 🚨 **THE AUG 29 PUSH CANNOT LEAN ON EMAIL — THE LIST IS 5 PEOPLE (measured 2026-08-25).**
+- [ ] 🚨 **THE AUG 29 PUSH CANNOT LEAN ON EMAIL — THE LIST IS 8 PEOPLE (measured 2026-08-27).**
   §10's runbook is "email, posts, live Q&A", and a **Broadcast — Custom orders are open** is
-  scheduled for the push date. **That broadcast will reach five inboxes.** Not a reason to skip
+  scheduled for the push date. **That broadcast will reach eight inboxes.** Not a reason to skip
   it — it costs nothing — but **the push has to actually run on Instagram, Facebook and
   Pinterest.** Any plan treating the email as a main channel is planning against a number that
-  does not exist. **Four days out; worth knowing now rather than Saturday.**
+  does not exist. **Two days out.**
+  ⚠️ **CORRECTION — "5" WAS NEVER THE LIST.** This entry said 5 subscribers, measured 2026-08-25,
+  and repeated it as a fact for two days. The real report says **8 active**, and **`hero` is
+  exactly 5** — the tag was read as the total. Since **new-in-7-days is 0**, the list was already
+  8 on the 25th; it did not grow, the first number was simply wrong. **The conclusion is
+  unchanged** — 8 inboxes is not a channel either — but a measurement quoted this often should be
+  right, and the fix is to read the "Active subscribers" line, not the tag split.
   📉 **The underlying fact is worse than the push.** Two signup forms live since 2026-07-10, the
-  pre-July back-fill imported 07-31, shop open since July 1. **Seven weeks, two forms, five
-  subscribers.** The list is not growing slowly — it is not growing. That is the clearest
-  measurement yet that **traffic, not conversion, is the constraint**, and it is why the free
-  pattern is worth doing rather than a nice-to-have.
+  pre-July back-fill imported 07-31, shop open since July 1. **Seven weeks, two forms, eight
+  subscribers — two of them in the last thirty days.** The list is not growing slowly — it is
+  barely growing. That is the clearest measurement yet that **traffic, not conversion, is the
+  constraint**.
   📊 **SHARPENED 2026-08-26 by the pattern's first day** (full figures at the pattern entry):
   **20 visits in 24 hours, 86% of them from one Facebook post.** So the site *can* pull traffic
   when something worth clicking is posted to Facebook — which is a real argument for how Saturday
   should be run, and against treating any channel other than Facebook and Instagram as the spine
-  of it. ⚠️ **What is still unmeasured is whether that traffic CONVERTS** — the `pattern` tag in
-  Buttondown, unread as of this writing. **Run `tools/buttondown-report.js` before Saturday**; it
-  is the one number that would tell you whether the push should lead with the pattern at all.
-  ⚠️ **DO THE WELCOME AUTOMATION BEFORE THE LEAD MAGNET.** The three emails in
-  `emails/welcome-sequence.md` are written but still not set up in Buttondown, so **anyone who
-  signs up today gets silence.** At five subscribers that has cost nothing. Drive signups first
-  and the silence scales — the worst possible moment to discover it. **Automation first.**
+  of it.
+  🚨 **AND THE CONVERSION HALF IS NOW MEASURED — IT WAS ZERO (2026-08-27).** No `pattern` tag
+  exists in the report at all. Twenty people read a gated page and none of them gave an address;
+  the form was checked and is not broken. **So the free pattern is a traffic tactic, not a
+  list-building one, and Saturday should not lead with it as the latter.** Full working at the
+  pattern entry.
+  ✅ **`Big Daddy`, 1 subscriber — EXPLAINED 2026-08-27: it's the owner's dad being funny.** Not a
+  segment, nothing to action, and the report will keep flagging it because nothing in this repo
+  sets it (the four the site writes are `hero` / `checkout` / `purchased` / `waitlist`). **Leave
+  it.** Recorded here only so the `*` next to it isn't investigated a third time.
+  📉 **It does thin the number further, though.** Of 8 subscribers, one is family — so the count
+  that matters for a broadcast is smaller than 8, which only sharpens the point above.
+  ⚠️ **THE WELCOME AUTOMATION IS STILL UNDONE — but it is no longer the blocker.** The three
+  emails in `emails/welcome-sequence.md` are written and not set up, so anyone who signs up gets
+  silence. This entry used to say **automation before lead magnet**, on the reasoning that driving
+  signups into silence would scale the problem. **The lead magnet drove zero signups, so nobody
+  hit the silence.** Still worth doing — but it is not standing in front of anything now.
 
 - [x] ✅ **FIXED 2026-08-20 — a cart holding a RETIRED id used to render a broken line.**
   `js/cart.js` now runs `clean()` over the stored cart before anything sees it, and writes the
@@ -1273,15 +1289,30 @@ written.** Ask before inferring a post didn't run.
   ⚠️ **IT IS A SPIKE, NOT A STREAM.** 18 of the 22 landed in a single hour around 15:00 on
   Aug 25; near-flat since. **One day proves the post worked, not that the pattern works.**
   Re-measure around **2026-09-08** before concluding anything about sustained traffic.
-  🚨 **TRAFFIC IS NOT THE NUMBER THIS PAGE EXISTS FOR.** The page is email-gated; the question is
-  how many of those **20 visits gave an address**. That is the **`pattern`** tag in Buttondown and
-  it is **still unmeasured** — `node tools/buttondown-report.js` with `BUTTONDOWN_API_KEY` set
-  (cmd: `set BUTTONDOWN_API_KEY=paste_the_key_here` on its own line first, **no angle brackets**).
-  **Run it before Saturday.** The list was **5 subscribers after seven weeks and two forms**; if
-  the pattern converted even a handful of those 20, it did in one day what the forms did not do
-  in seven weeks — **and that changes what the Aug 29 push should lead with.**
-  📌 Until that number exists, this entry proves the shop can *get* traffic, which was the open
-  question, but not that it can *keep* any of it.
+  🚨 **MEASURED 2026-08-27 — THE PATTERN CONVERTED ZERO.** The page is email-gated and the
+  question was how many of those **20 visits gave an address**. `tools/buttondown-report.js` ran
+  against the live account: **there is no `pattern` row in the tag split at all**, and **new in
+  7 days is 0**. Nobody who read it signed up.
+  ✅ **It is not a broken form — that was checked before drawing the conclusion.**
+  `pattern.html:128` posts `tag=pattern`, the handler at `pattern.html:245` uses the same
+  status-branching contract as `wireNestForm()` (ok reveals, 400 reveals, else the help line),
+  and `assets/chunky-scrunchie-pattern.pdf` is linked from **exactly one place in the repo** —
+  behind the gate. The Pinterest pin does not shortcut to it. **The gate held; nobody chose to
+  pass it.**
+  📊 **So the two halves of this page separate cleanly.** As a **traffic driver it worked** —
+  20 visits, 86% from one Facebook post, out-drawing the shop five to one. As a **lead magnet it
+  did nothing**. Both facts come from the same day and neither cancels the other.
+  ⚠️ **Small sample, and say so.** Zero of 20, from a single post, on one day. That is not proof
+  a free pattern can't build a list; it is proof *this* one didn't on its first day. The
+  **2026-09-08** re-measure above now has a second number to collect.
+  🚀 **WHAT IT MEANS FOR SAT AUG 29:** lead with the pattern as **the reason to click**, not as
+  the list-builder. The proven mechanic is a Facebook post that gives people somewhere to go —
+  that is what pulled the 20. Any plan that treats the pattern as the thing that grows the list
+  is planning against a measurement that has already come back zero.
+  📌 **One silver lining, and it inverts a warning.** The 🟠 entry said to do the welcome
+  automation *before* the lead magnet, because driving signups into silence would scale the
+  problem. The lead magnet drove no signups, so **nobody hit the silence and it cost nothing.**
+  The automation is still undone — but it is no longer the thing standing in front of this.
   ⚠️ **NOTHING IS EMAILED AUTOMATICALLY** — automations are paid, this account is free-tier, so
   the on-page reveal IS the delivery. **Send welcomes by hand while volume is low**, exactly as
   order emails already work. Start paying only when doing it by hand becomes a chore; by then
