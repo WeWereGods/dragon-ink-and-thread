@@ -344,6 +344,35 @@ async function pinPattern() {
     .toFile(path.join(OUT, "pin-free-pattern.jpg"));
 }
 
+/* The dog neckerchief pattern. Same layout as pinPattern above — keep the
+   310 → 1070 photo band and the 100px gap before the text.
+
+   Uses the WORN shot, not the flat one: a dog wearing the thing is the whole
+   reason this pin gets saved, and the flat photo says "fabric" rather than
+   "dog". The source is portrait 1050x1400, so a centred square crop keeps the
+   head and the bandana together — check it if the photo is ever replaced. */
+async function pinNeckerchief() {
+  const PHOTO = 760;
+  const photo = await sharp(path.join(ROOT, "assets", "pattern-neckerchief-worn.jpg"))
+    .resize(PHOTO, PHOTO, { fit: "cover" })
+    .toBuffer();
+  const text = textLayer([
+    { text: "FREE SEWING PATTERN", y: 150, x: W / 2, size: 40, fill: TEAL, spacing: 6 },
+    { text: "The Dog Neckerchief", y: 240, x: W / 2, size: 64, fill: INK },
+    { text: "It pulls on over the head,", y: 1180, x: W / 2, size: 44, fill: INK },
+    { text: "so there are no ties to knot.", y: 1242, x: W / 2, size: 44, fill: INK },
+    { text: "Sizes XS–XL · free to download", y: 1340, x: W / 2, size: 34, fill: TEAL },
+    { text: "dragoninkandthread.com/patterns", y: 1440, x: W / 2, size: 30, fill: TEAL, spacing: 3 },
+  ]);
+  await sharp({ create: { width: W, height: H, channels: 3, background: CREAM } })
+    .composite([
+      { input: photo, top: 310, left: Math.round((W - PHOTO) / 2) },
+      { input: text, top: 0, left: 0 },
+    ])
+    .jpeg({ quality: 86 })
+    .toFile(path.join(OUT, "pin-free-pattern-neckerchief.jpg"));
+}
+
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   await fbToteLineup();
@@ -353,5 +382,6 @@ async function pinPattern() {
   await pinCollection();
   await pinBehindTheSeams();
   await pinPattern();
-  console.log(`Wrote 5 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
+  await pinNeckerchief();
+  console.log(`Wrote 6 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
 })();

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<!-- ⚠️ THIS FILE IS THE SOURCE. The Claude Design canvas copy is STALE by design —
+     do not maintain both (tools/pattern-to-pdf.js says the same, and CLAUDE.md says
+     it about Drive). Edit here, then re-run:
+
+       node tools/pattern-to-pdf.js designs/dog-neckerchief-pattern.dc.html assets/dog-neckerchief-pattern.pdf
+
+     ⚠️ THE EXPORT WAS FLATTENED ON THE WAY IN (2026-08-27) and must stay flat.
+     The canvas export used <sc-for>, <sc-if>, {{ mustache }} and a DCLogic class
+     at the bottom to hold the size chart and cut list. pattern-to-pdf.js does NOT
+     execute that script — it only strips wrappers — so those two tables would have
+     rendered EMPTY. Not an error: empty. The inches data is now written out as
+     literal rows below, both sc-if sections are unwrapped (both defaulted true),
+     and the DCLogic block is gone. If you re-export from the canvas over this file
+     you will reintroduce the bug.
+
+     ⚠️ It also arrived as ONE flowing <doc-page>. pattern-to-pdf.js requires a
+     page section per sheet and hard-exits without them. Pagination below is
+     hand-set; each page is overflow:hidden, so content that grows past a sheet
+     is SILENTLY CLIPPED. Re-render and look at the PDF after any edit.
+
+     ⚠️ The page sections must carry the class attribute ALONE — the tool detects
+     them with a literal match on the opening tag, so adding a second class stops
+     it counting them (it then reports "1 pages" and you learn nothing). Style via
+     `section.page` in the stylesheet above instead of a helper class. -->
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  doc-page:not(:defined) { visibility: hidden; }
+  body { margin: 0; -webkit-font-smoothing: antialiased; }
+  a { color: oklch(0.4 0.115 20); text-decoration: underline; text-underline-offset: 2px; }
+  a:hover { color: oklch(0.32 0.095 20); }
+
+  /* Shared by every sheet. Kept as classes so the seven pages can't drift. */
+  section.page {
+    background: oklch(0.973 0.026 88);
+    font-family: 'EB Garamond', Georgia, serif;
+    color: oklch(0.26 0.03 55);
+    font-size: 16.5px; line-height: 1.6;
+    padding: 0.7in; box-sizing: border-box;
+    display: flex; flex-direction: column;
+  }
+  section.page h2 {
+    font-size: 15px; font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600;
+    margin: 0 0 14px; padding-bottom: 8px;
+    border-bottom: 3px double oklch(0.4 0.115 20);
+  }
+  section.page h2 .mk { color: oklch(0.62 0.085 68); font-size: 12px; margin-right: 9px; }
+  .foot {
+    margin-top: auto; display: flex; justify-content: space-between; align-items: baseline;
+    padding-top: 8px; border-top: 1px solid oklch(0.845 0.05 82);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 9.5px;
+    letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.49 0.028 62);
+  }
+  .fig {
+    padding: 22px 20px 16px; background: oklch(0.955 0.036 88);
+    border: 3px double oklch(0.58 0.09 30);
+    box-shadow: inset 0 0 0 1px oklch(0.905 0.04 84);
+  }
+  .cap {
+    font-family: 'EB Garamond', Georgia, serif; font-style: italic; font-size: 14px;
+    color: oklch(0.42 0.03 58); margin-top: 14px; text-align: center;
+  }
+  section.page table { width: 100%; border-collapse: collapse; }
+  section.page thead tr {
+    font-family: 'Cinzel', Georgia, serif; font-size: 10.5px; letter-spacing: 0.1em;
+    text-transform: uppercase; text-align: left; color: oklch(0.4 0.115 20);
+  }
+  section.page th { padding: 8px 10px; border-bottom: 1.5px solid oklch(0.26 0.03 55); font-weight: 600; }
+  section.page td { padding: 9px 10px; border-bottom: 1px solid oklch(0.86 0.045 82); }
+  section.page th:first-child, section.page td:first-child { padding-left: 0; }
+  section.page th:last-child, section.page td:last-child { padding-right: 0; }
+  .rowlbl {
+    font-family: 'Cinzel', Georgia, serif; font-size: 12px; letter-spacing: 0.04em;
+    text-transform: uppercase; color: oklch(0.4 0.115 20);
+  }
+</style>
+<script src="./doc-page.js"></script>
+</helmet>
+<doc-page size="letter">
+
+  <!-- ══════════════════ PAGE 1 — masthead, the finished thing, the vitals ══════════════════ -->
+  <section class="page">
+    <div style="border-top: 3px double oklch(0.4 0.115 20); border-bottom: 3px double oklch(0.4 0.115 20); padding: 24px 0 20px; margin: 0 0 24px; text-align: center;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 9.5px; letter-spacing: 0.3em; text-transform: uppercase; color: oklch(0.62 0.085 68); margin-bottom: 14px;">Dragon Ink and Thread</div>
+      <h1 style="font-family: 'Cinzel', Georgia, serif; font-size: 38px; line-height: 1.12; letter-spacing: 0.02em; font-weight: 600; text-transform: uppercase; margin: 0;">The Elastic Dog Neckerchief</h1>
+      <div style="display: flex; align-items: center; justify-content: center; gap: 12px; margin: 16px 0 0; color: oklch(0.4 0.115 20);">
+        <span style="height: 1px; width: 54px; background: currentColor; opacity: 0.5;"></span>
+        <span style="font-size: 10px;">✦</span>
+        <span style="font-family: 'EB Garamond', Georgia, serif; font-style: italic; font-size: 16px;">Handmade goods for cozy little adventures</span>
+        <span style="font-size: 10px;">✦</span>
+        <span style="height: 1px; width: 54px; background: currentColor; opacity: 0.5;"></span>
+      </div>
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 9.5px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.49 0.028 62); margin-top: 14px;">Sizes XS–XL · two pattern pieces · straight lines only</div>
+    </div>
+
+    <p style="margin: 0 0 14px; max-width: 34em;"><span style="float: left; font-family: 'Cinzel', Georgia, serif; font-size: 52px; line-height: 0.82; font-weight: 600; color: oklch(0.4 0.115 20); margin: 4px 10px 0 0;">A</span> lined kerchief with a folded neckband, so it pulls on over the head — no ties to knot and nothing that can tighten at the throat. Two pieces, every edge straight: the body is drawn with a ruler, and the band is a single long strip.</p>
+
+    <figure class="fig" style="margin: 18px 0 22px;">
+      <div style="font-family: 'Cinzel', Georgia, serif; font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: oklch(0.62 0.085 68); text-align: center; margin: 0 0 16px;">A peek at the finished thing</div>
+      <div style="display: grid; grid-template-columns: 1.15fr 1fr; gap: 14px;">
+        <img src="../assets/pattern-neckerchief-worn.jpg" alt="A dark dog sitting, wearing the finished patchwork neckerchief" style="width: 100%; height: 300px; object-fit: cover; object-position: 50% 62%; display: block; border: 1px solid oklch(0.86 0.045 82);" />
+        <img src="../assets/pattern-neckerchief-flat.jpg" alt="The finished neckerchief laid flat, showing the point and the neckband" style="width: 100%; height: 300px; object-fit: cover; object-position: 50% 45%; display: block; border: 1px solid oklch(0.86 0.045 82);" />
+      </div>
+      <figcaption class="cap">Worn, and off the dog — the point centred, the band gathering softly at the neck. Fully reversible: two fabrics, no wrong side, so it wears either way round.</figcaption>
+    </figure>
+
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: oklch(0.845 0.05 82); border: 3px double oklch(0.4 0.115 20); font-family: 'IBM Plex Mono', ui-monospace, monospace;">
+      <div style="background: oklch(0.955 0.036 88); padding: 12px 14px;">
+        <div style="font-family: 'Cinzel', Georgia, serif; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: oklch(0.62 0.085 68); margin-bottom: 6px;">Level</div>
+        <div style="font-family: 'EB Garamond', Georgia, serif; font-size: 17px;">First project</div>
+      </div>
+      <div style="background: oklch(0.955 0.036 88); padding: 12px 14px;">
+        <div style="font-family: 'Cinzel', Georgia, serif; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: oklch(0.62 0.085 68); margin-bottom: 6px;">Time</div>
+        <div style="font-family: 'EB Garamond', Georgia, serif; font-size: 17px;">About 45 minutes</div>
+      </div>
+      <div style="background: oklch(0.955 0.036 88); padding: 12px 14px;">
+        <div style="font-family: 'Cinzel', Georgia, serif; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: oklch(0.62 0.085 68); margin-bottom: 6px;">Seam allowance</div>
+        <div style="font-family: 'EB Garamond', Georgia, serif; font-size: 17px;">½&#8243; throughout</div>
+      </div>
+    </div>
+
+    <div class="foot"><span>Dragon Ink and Thread · elastic dog neckerchief, XS–XL</span><span>✦ dragoninkandthread.com ✦</span></div>
+  </section>
+
+  <!-- ══════════════════ PAGE 2 — size chart and cut list ══════════════════ -->
+  <section class="page">
+    <h2><span class="mk">✦</span>Size chart</h2>
+    <p style="margin: 0 0 16px;">Measure the neck where the collar sits, snug but level. Between sizes, take the larger. The band is 4½&#8243; wide in every size — only its length changes.</p>
+    <table style="font-size: 15px; margin: 0 0 30px;">
+      <thead>
+        <tr><th>Size</th><th>Fits neck</th><th>Body, top × long</th><th>Sides</th><th>Band</th><th>Elastic</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="rowlbl">XS</td><td>8–11&#8243;</td><td>6½&#8243; × 5½&#8243;</td><td>1&#8243;</td><td>4½ × 12&#8243;</td><td>4&#8243;</td></tr>
+        <tr><td class="rowlbl">S</td><td>11–14&#8243;</td><td>8&#8243; × 7&#8243;</td><td>1¼&#8243;</td><td>4½ × 15&#8243;</td><td>5&#8243;</td></tr>
+        <tr><td class="rowlbl">M</td><td>14–18&#8243;</td><td>10½&#8243; × 8½&#8243;</td><td>1¾&#8243;</td><td>4½ × 19&#8243;</td><td>6½&#8243;</td></tr>
+        <tr><td class="rowlbl">L · drafted here</td><td>18–22&#8243;</td><td>12&#8243; × 10&#8243;</td><td>2&#8243;</td><td>4½ × 22&#8243;</td><td>8&#8243;</td></tr>
+        <tr><td class="rowlbl">XL</td><td>22–26&#8243;</td><td>14&#8243; × 12&#8243;</td><td>2½&#8243;</td><td>4½ × 26&#8243;</td><td>10&#8243;</td></tr>
+      </tbody>
+    </table>
+
+    <h2><span class="mk">✦</span>Cut list</h2>
+    <p style="margin: 0 0 16px;">Written out at size L, for an 18 to 22&#8243; neck — for any other size, swap in its numbers from the chart above and the steps stay identical. <strong>Every measurement includes the ½&#8243; seam allowance</strong>, so cut exactly what the list says. Press your fabric first and cut with the long edges on the straight grain.</p>
+    <table style="font-size: 15.5px; margin: 0 0 10px;">
+      <thead>
+        <tr><th>Piece</th><th>Cut size</th><th>How many</th><th>What it becomes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="rowlbl" style="font-size: 12.5px;">A · Body</td><td>12&#8243; top edge × 10&#8243; long, 2&#8243; straight sides</td><td>Cut 2</td><td style="color: oklch(0.45 0.028 62);">the kerchief — outer and lining</td></tr>
+        <tr><td class="rowlbl" style="font-size: 12.5px;">B · Neckband</td><td>4½&#8243; × 22&#8243;</td><td>Cut 1</td><td style="color: oklch(0.45 0.028 62);">the folded strap across the neck</td></tr>
+        <tr><td class="rowlbl" style="font-size: 12.5px;">C · Elastic</td><td>⅜&#8243; wide × 8&#8243;</td><td>Cut 1</td><td style="color: oklch(0.45 0.028 62);">the stretch behind the neck</td></tr>
+      </tbody>
+    </table>
+    <p style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 10px; letter-spacing: 0.05em; color: oklch(0.49 0.028 62); margin: 0;">Finished: front edge 11&#8243; · drop about 8½&#8243; · neckband loop about 27&#8243; relaxed, stretching to about 33&#8243;</p>
+
+    <div class="foot"><span>Dragon Ink and Thread · elastic dog neckerchief, XS–XL</span><span>✦ dragoninkandthread.com ✦</span></div>
+  </section>
+
+  <!-- ══════════════════ PAGE 3 — what to buy, and the words used ══════════════════ -->
+  <section class="page">
+    <h2><span class="mk">✦</span>Fabric and notions</h2>
+    <ul style="margin: 0 0 30px; padding-left: 1.1em; display: flex; flex-direction: column; gap: 7px;">
+      <li><strong>Outer fabric</strong> — one fat quarter (18&#8239;×&#8239;22&#8243;) of quilting cotton for sizes XS to M. Cotton, linen and chambray all behave; avoid anything stretchy or slippery.</li>
+      <li><strong>A note on the one in the photograph</strong> — its outer is pieced from scraps, which is why it reads as patchwork. A single fat quarter works just as well and the pattern is written for that; piece the outer first if you fancy it, press the seams flat, then treat the result as one piece of fabric and carry on from the cut list.</li>
+      <li><strong>⚠️ Sizes L and XL need ½ yard, not a fat quarter.</strong> Their bands are 22&#8243; and 26&#8243; long, and a fat quarter is only 22&#8243; across — L would use every last thread of it and XL simply will not fit. A ½ yard cut is 44&#8243; wide, so the band comes off the width with room to spare.</li>
+      <li><strong>Lining fabric</strong> — the same amount again in a contrast print. The kerchief is reversible, so pick something you would happily show.</li>
+      <li><strong>Elastic</strong> — 8&#8243; of ⅜&#8243;-wide braided or knit elastic for size L; see the chart for other sizes.</li>
+      <li><strong>Thread</strong> — all-purpose polyester in a colour that disappears into the outer fabric.</li>
+      <li><strong>Tools</strong> — ruler, fabric pen or tailor's chalk, scissors, pins or clips, iron, and a chopstick for the point.</li>
+    </ul>
+
+    <h2><span class="mk">✦</span>Words this pattern uses</h2>
+    <dl style="margin: 0; display: grid; grid-template-columns: 9em 1fr; gap: 8px 16px; font-size: 15.5px;">
+      <dt style="font-family: 'Cinzel', Georgia, serif; font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.4 0.115 20); padding-top: 3px;">Right sides together</dt>
+      <dd style="margin: 0;">The two printed faces are facing each other, so the seam ends up hidden inside.</dd>
+      <dt style="font-family: 'Cinzel', Georgia, serif; font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.4 0.115 20); padding-top: 3px;">Seam allowance</dt>
+      <dd style="margin: 0;">The strip between the cut edge and the stitching. Here it is always ½&#8243; — line the cut edge up with the ½&#8243; mark on your machine's plate.</dd>
+      <dt style="font-family: 'Cinzel', Georgia, serif; font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.4 0.115 20); padding-top: 3px;">Backstitch</dt>
+      <dd style="margin: 0;">Two or three stitches in reverse at the start and end of a seam, so it cannot unravel.</dd>
+      <dt style="font-family: 'Cinzel', Georgia, serif; font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.4 0.115 20); padding-top: 3px;">Topstitch</dt>
+      <dd style="margin: 0;">A line of stitching sewn on the outside, close to an edge, where it is meant to be seen.</dd>
+    </dl>
+
+    <div class="foot"><span>Dragon Ink and Thread · elastic dog neckerchief, XS–XL</span><span>✦ dragoninkandthread.com ✦</span></div>
+  </section>
+
+  <!-- ══════════════════ PAGE 4 — drafting the body, Fig. 1 ══════════════════ -->
+  <section class="page">
+    <h2><span class="mk">✦</span>Draft the body</h2>
+    <p style="margin: 0 0 16px;">Lay the outer fabric flat, wrong side up. Rule a 12&#8243; line for the top edge, then drop a 2&#8243; line straight down at each end — those short sides keep the neck edge from collapsing. Mark the centre of the top edge and measure 10&#8243; straight down from it: that is the point. Join each 2&#8243; corner to the point, cut just inside your lines, then use the piece as a template for the lining.</p>
+
+    <figure class="fig" style="margin: 0;">
+      <svg viewBox="0 0 460 400" style="width: 100%; height: auto; display: block; font-family: 'IBM Plex Mono', ui-monospace, monospace;" aria-label="Piece A: body with a 12 inch top edge, 2 inch straight sides, tapering to a point 10 inches down">
+        <line x1="60" y1="28" x2="400" y2="28" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <line x1="60" y1="22" x2="60" y2="34" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <line x1="400" y1="22" x2="400" y2="34" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <text x="230" y="16" text-anchor="middle" font-size="11" fill="oklch(0.4 0.115 20)">TOP EDGE — 12&#8243;</text>
+        <polygon points="60,50 400,50 400,107 230,333 60,107" fill="oklch(0.985 0.022 88)" stroke="oklch(0.26 0.03 55)" stroke-width="1.75" />
+        <polyline points="74,64 386,64 386,101 230,305 74,101 74,64" fill="none" stroke="oklch(0.4 0.115 20)" stroke-width="1.25" stroke-dasharray="8 5" />
+        <line x1="44" y1="50" x2="44" y2="107" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <line x1="38" y1="50" x2="50" y2="50" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <line x1="38" y1="107" x2="50" y2="107" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <text x="34" y="82" text-anchor="end" font-size="10.5" fill="oklch(0.4 0.115 20)">2&#8243;</text>
+        <line x1="424" y1="50" x2="424" y2="333" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <line x1="418" y1="50" x2="430" y2="50" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <line x1="418" y1="333" x2="430" y2="333" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <text x="442" y="192" font-size="10.5" fill="oklch(0.4 0.115 20)" transform="rotate(90 442 192)" text-anchor="middle">LENGTH — 10&#8243;</text>
+        <text x="230" y="88" text-anchor="middle" font-size="10.5" fill="oklch(0.26 0.03 55)">LEAVE THIS EDGE OPEN</text>
+        <text x="230" y="150" text-anchor="middle" font-size="11" fill="oklch(0.38 0.03 58)">PIECE A — CUT 2</text>
+        <text x="230" y="168" text-anchor="middle" font-size="9.5" fill="oklch(0.52 0.025 62)">OUTER + LINING</text>
+        <text x="230" y="206" text-anchor="middle" font-size="10.5" fill="oklch(0.45 0.028 62)">½&#8243; SEAM ALLOWANCE</text>
+        <text x="230" y="222" text-anchor="middle" font-size="9.5" fill="oklch(0.54 0.025 62)">DASHED = STITCHING</text>
+        <line x1="244" y1="324" x2="272" y2="342" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <text x="276" y="346" font-size="9.5" fill="oklch(0.49 0.028 62)">TRIM THE POINT AFTER STITCHING</text>
+      </svg>
+      <figcaption class="cap">Fig. 1 — Piece A, the body. Drawn to shape, not to scale.</figcaption>
+    </figure>
+
+    <div class="foot"><span>Dragon Ink and Thread · elastic dog neckerchief, XS–XL</span><span>✦ dragoninkandthread.com ✦</span></div>
+  </section>
+
+  <!-- ══════════════════ PAGE 5 — Fig. 2 the band, Fig. 3 the layout ══════════════════ -->
+  <section class="page">
+    <figure class="fig" style="margin: 0 0 20px;">
+      <svg viewBox="0 0 460 170" style="width: 100%; height: auto; display: block; font-family: 'IBM Plex Mono', ui-monospace, monospace;" aria-label="Piece B: neckband strip four and a half inches by twenty-two inches with three fold lines">
+        <line x1="40" y1="26" x2="420" y2="26" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <line x1="40" y1="20" x2="40" y2="32" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <line x1="420" y1="20" x2="420" y2="32" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <text x="230" y="15" text-anchor="middle" font-size="11" fill="oklch(0.4 0.115 20)">22&#8243; LONG</text>
+        <rect x="40" y="40" width="380" height="78" fill="oklch(0.985 0.022 88)" stroke="oklch(0.26 0.03 55)" stroke-width="1.75" />
+        <line x1="40" y1="59.5" x2="420" y2="59.5" stroke="oklch(0.4 0.115 20)" stroke-width="1" stroke-dasharray="7 5" />
+        <line x1="40" y1="79" x2="420" y2="79" stroke="oklch(0.4 0.115 20)" stroke-width="1.4" stroke-dasharray="10 4" />
+        <line x1="40" y1="98.5" x2="420" y2="98.5" stroke="oklch(0.4 0.115 20)" stroke-width="1" stroke-dasharray="7 5" />
+        <line x1="26" y1="40" x2="26" y2="118" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <text x="14" y="79" font-size="10.5" fill="oklch(0.4 0.115 20)" transform="rotate(-90 14 79)" text-anchor="middle">4½&#8243;</text>
+        <text x="230" y="140" text-anchor="middle" font-size="10.5" fill="oklch(0.38 0.03 58)">PIECE B — CUT 1</text>
+        <text x="230" y="157" text-anchor="middle" font-size="9.5" fill="oklch(0.52 0.025 62)">PRESS LONG EDGES TO THE CENTRE CREASE, THEN FOLD IN HALF</text>
+      </svg>
+      <figcaption class="cap">Fig. 2 — Piece B, the neckband. The heavy dash is the centre crease.</figcaption>
+    </figure>
+
+    <figure class="fig" style="margin: 0;">
+      <svg viewBox="0 0 460 300" style="width: 100%; height: auto; display: block; font-family: 'IBM Plex Mono', ui-monospace, monospace;" aria-label="Cut layout: the band strip and one body piece placed on an 18 by 22 inch fat quarter">
+        <line x1="70" y1="20" x2="370" y2="20" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <text x="220" y="12" text-anchor="middle" font-size="10.5" fill="oklch(0.4 0.115 20)">FAT QUARTER — 22&#8243;</text>
+        <rect x="70" y="30" width="300" height="245" fill="none" stroke="oklch(0.45 0.028 62)" stroke-width="1.25" stroke-dasharray="6 4" />
+        <line x1="54" y1="30" x2="54" y2="275" stroke="oklch(0.4 0.115 20)" stroke-width="1" />
+        <text x="42" y="152" font-size="10.5" fill="oklch(0.4 0.115 20)" transform="rotate(-90 42 152)" text-anchor="middle">18&#8243;</text>
+        <rect x="70" y="30" width="300" height="61" fill="oklch(0.855 0.05 35)" stroke="oklch(0.26 0.03 55)" stroke-width="1.75" />
+        <text x="220" y="66" text-anchor="middle" font-size="10" fill="oklch(0.38 0.03 58)">PIECE B — BAND, FULL WIDTH</text>
+        <polygon points="76,100 239,100 239,127 157,236 76,127" fill="oklch(0.985 0.022 88)" stroke="oklch(0.26 0.03 55)" stroke-width="1.75" />
+        <text x="157" y="152" text-anchor="middle" font-size="10" fill="oklch(0.38 0.03 58)">PIECE A</text>
+        <text x="157" y="168" text-anchor="middle" font-size="9.5" fill="oklch(0.52 0.025 62)">CUT 1 HERE</text>
+        <text x="252" y="152" font-size="9.5" fill="oklch(0.52 0.025 62)">LEFTOVER</text>
+        <text x="252" y="166" font-size="9.5" fill="oklch(0.52 0.025 62)">KEEP IT</text>
+        <text x="220" y="292" text-anchor="middle" font-size="9.5" fill="oklch(0.52 0.025 62)">CUT PIECE A AGAIN FROM THE LINING FABRIC</text>
+      </svg>
+      <figcaption class="cap">Fig. 3 — the layout on one fat quarter, which fits sizes XS to M. <strong>L and XL need ½ yard</strong>: cut the band along the 44&#8243; width, and the body from what is left.</figcaption>
+    </figure>
+
+    <div class="foot"><span>Dragon Ink and Thread · elastic dog neckerchief, XS–XL</span><span>✦ dragoninkandthread.com ✦</span></div>
+  </section>
+
+  <!-- ══════════════════ PAGE 6 — the ten steps ══════════════════ -->
+  <section class="page">
+    <div style="display: flex; align-items: center; justify-content: center; gap: 14px; margin: 0 0 18px; color: oklch(0.62 0.085 68);"><span style="height: 1px; flex: 1; background: currentColor; opacity: 0.4;"></span><span style="font-size: 14px; letter-spacing: 0.5em;">✦❦✦</span><span style="height: 1px; flex: 1; background: currentColor; opacity: 0.4;"></span></div>
+    <h2><span class="mk">✦</span>Sew it</h2>
+    <ol style="margin: 0; padding-left: 1.5em; display: flex; flex-direction: column; gap: 11px; color: oklch(0.4 0.115 20); font-family: 'Cinzel', Georgia, serif;">
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Pin the two body pieces right sides together, cut edges flush. Leave the 12&#8243; top edge unpinned.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Stitch a ½&#8243; seam all the way round from one top corner to the other — down the 2&#8243; side, along the long angled edge, across the point, and back up the other side. Backstitch at both ends and leave the top edge open.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Snip the point off at an angle about ⅛&#8243; outside the stitching, and trim the seam allowances to ¼&#8243; for the last 2&#8243; either side of it. This is what gives a sharp point instead of a lump.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Turn right side out through the open top. Ease the point out with the blunt end of a chopstick, then press flat, rolling the seams so neither fabric shows on the other's face.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Take the band. Press it in half lengthwise and open it out again. Press each long raw edge in to meet that centre crease, then fold the whole strip in half along the crease and press once more — you now have a four-layer strap a little over 1&#8243; wide, open along one long edge.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Tuck ½&#8243; of each short end of the band inside itself and press, so both ends are closed and neat. The band is now 21&#8243; long.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Slide 1&#8243; of one end of the elastic in between the layers at one end of the band; do the same with the other end of the elastic at the other end, leaving 6&#8243; showing between them. The elastic now bridges the two ends in a loop. Clip it in place.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Find the centre of the band and the centre of the body's top edge. Slip the body's raw top edge up inside the band's open edge, centred: its 11&#8243; finished edge inside the 21&#8243; finished band leaves 5&#8243; of band free on each side. Clip along the whole band.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Topstitch the full 21&#8243; length of the band ⅛&#8243; from its open folded edge, catching the body in the middle 11&#8243; and the elastic at both ends. Backstitch at each end, then stitch a small square back and forth over each elastic join.</span></li>
+      <li><span style="color: oklch(0.26 0.03 55); font-family: 'EB Garamond', Georgia, serif;">Slip it over your dog's head to check the fit before the final press — it should go on easily and sit loose enough for two fingers under the band.</span></li>
+    </ol>
+
+    <div class="foot"><span>Dragon Ink and Thread · elastic dog neckerchief, XS–XL</span><span>✦ dragoninkandthread.com ✦</span></div>
+  </section>
+
+  <!-- ══════════════════ PAGE 7 — assembly, the tie variant, safety ══════════════════ -->
+  <section class="page">
+    <figure class="fig" style="margin: 0 0 22px;">
+      <svg viewBox="0 0 460 210" style="width: 100%; height: auto; display: block; font-family: 'IBM Plex Mono', ui-monospace, monospace;" aria-label="Assembly: the body centred in the folded band with elastic at both ends">
+        <text x="230" y="30" text-anchor="middle" font-size="10" fill="oklch(0.45 0.028 62)">TOPSTITCH THE WHOLE LENGTH, ⅛&#8243; FROM THE FOLDED EDGE</text>
+        <rect x="70" y="52" width="330" height="34" fill="oklch(0.985 0.022 88)" stroke="oklch(0.26 0.03 55)" stroke-width="1.75" />
+        <line x1="70" y1="78" x2="400" y2="78" stroke="oklch(0.4 0.115 20)" stroke-width="1.25" stroke-dasharray="7 5" />
+        <rect x="26" y="61" width="46" height="16" rx="8" fill="oklch(0.75 0.05 128)" stroke="oklch(0.44 0.05 128)" stroke-width="1.25" />
+        <rect x="398" y="61" width="46" height="16" rx="8" fill="oklch(0.75 0.05 128)" stroke="oklch(0.44 0.05 128)" stroke-width="1.25" />
+        <polygon points="152,86 318,86 318,104 235,186 152,104" fill="oklch(0.855 0.05 35)" stroke="oklch(0.26 0.03 55)" stroke-width="1.75" />
+        <text x="235" y="104" text-anchor="middle" font-size="9.5" fill="oklch(0.38 0.03 58)">BODY CENTRED</text>
+        <text x="235" y="118" text-anchor="middle" font-size="9.5" fill="oklch(0.38 0.03 58)">IN THE MIDDLE 11&#8243;</text>
+        <text x="110" y="112" text-anchor="middle" font-size="9.5" fill="oklch(0.52 0.025 62)">5&#8243; FREE</text>
+        <text x="360" y="112" text-anchor="middle" font-size="9.5" fill="oklch(0.52 0.025 62)">5&#8243; FREE</text>
+        <text x="230" y="204" text-anchor="middle" font-size="9.5" fill="oklch(0.52 0.025 62)">GREEN = ELASTIC, 8&#8243; WITH 1&#8243; TUCKED INSIDE EACH END</text>
+      </svg>
+      <figcaption class="cap">Fig. 4 — assembly. The elastic joins the two free ends behind the neck.</figcaption>
+    </figure>
+
+    <h2><span class="mk">✦</span>Variation — ties instead of elastic</h2>
+    <p style="margin: 0 0 26px;">Cut the band 34&#8243; long instead of 22&#8243; and leave the elastic out. The construction is identical: the body still sits in the middle 11&#8243;, which leaves 11&#8243; of finished strap on each side to tie in a loose bow at the side of the neck. Never at the throat, and take it off when the dog is unsupervised.</p>
+
+    <h2><span class="mk">✦</span>Fit, safety and washing</h2>
+    <ul style="margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 7px;">
+      <li>Two fingers should slide comfortably under the band. If the elastic has to be tugged over the ears, unpick one join and add an inch.</li>
+      <li>Take it off for crates, car rides and unsupervised time. An elastic neckband can catch on things.</li>
+      <li>Prewash your fabric if you want it to stay this size — quilting cotton shrinks about 3% on its first wash.</li>
+      <li>Machine wash cool, tumble low or line dry: hot water kills elastic. Press on the reverse and keep the iron off the elastic itself.</li>
+      <li>No buttons, beads or dangling trims. Anything that can be chewed off eventually will be.</li>
+    </ul>
+
+    <div class="foot"><span>Dragon Ink and Thread · elastic dog neckerchief, XS–XL</span><span>✦ dragoninkandthread.com ✦</span></div>
+  </section>
+
+</doc-page>
+</x-dc>
+</body>
+</html>

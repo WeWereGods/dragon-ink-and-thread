@@ -64,6 +64,21 @@ s = s
   .replace(/<doc-page[^>]*>/g, "")
   .replace(/<\/doc-page>/g, "");
 
+// ⚠️ RELATIVE IMAGE PATHS MUST BE REBASED, because the transformed copy is written
+// to the OS temp dir and rendered from there — so a src of "../assets/x.jpg" in
+// designs/ resolves against %TEMP% and silently renders as a broken image. The
+// scrunchie pattern is pure SVG and never exposed this; the dog neckerchief has
+// two photographs. Absolute URLs, data: URIs and anchors are left alone.
+s = s.replace(/(<img\b[^>]*?\bsrc=")([^"]+)(")/gi, (m, pre, src, post) => {
+  if (/^(https?:|data:|file:|\/\/)/i.test(src)) return m;
+  const abs = path.resolve(path.dirname(inArg), src);
+  if (!fs.existsSync(abs)) {
+    console.error(`⚠️  image not found, will render blank: ${src}`);
+    console.error(`   looked in: ${abs}`);
+  }
+  return pre + "file:///" + abs.replace(/\\/g, "/") + post;
+});
+
 // One <section class="page"> per printed sheet, no browser margins, keep colours.
 s = s.replace(
   "</head>",
