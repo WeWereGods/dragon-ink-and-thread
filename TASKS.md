@@ -25,7 +25,7 @@ Two rules that keep this useful:
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip WAS the delivery** | ✅ **Aubrea's three clips HANDED OVER Sat 22** — her $36 order is closed, four slips and no cost. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired — **offerCount 14 → 15, highPrice → "55.00"**) · **Maurya's drop-off** · then the run-up to the push |
 > | ~~Wed 26~~ | ✅ | ✅ **Quilted Court POSTED** · 📸 reshoot · Game Day scrunchie |
-> | **Thu 27 — TODAY** | ⚠️ | **Maurya's drop-off — 4th date, "hopefully", she is still ill** · treat as likely, not fixed · 📸 **the daylight reshoot is genuinely last chance if she comes** · ✅ **Buttondown read: list is 8, pattern converted 0** |
+> | **Thu 27 — TODAY** | ⚠️ | **Maurya's drop-off — 4th date, "hopefully", she is still ill** · treat as likely, not fixed · 📸 **the daylight reshoot is genuinely last chance if she comes** · ✅ **Buttondown read: list is 8, pattern converted 0** · ✅ **Pattern two LIVE — the Elastic Dog Neckerchief, with its own tag and its own pin** |
 > | **Fri 28** | ✅ | Last clear day before the push. §8 fallback decided, posts queued |
 > | **Sat 29 — THE PUSH** | 🚀 | ⚠️ **Instagram + Facebook + Pinterest carry it. The email list is 5 people.** |
 >
@@ -476,6 +476,13 @@ Two rules that keep this useful:
   the form was checked and is not broken. **So the free pattern is a traffic tactic, not a
   list-building one, and Saturday should not lead with it as the latter.** Full working at the
   pattern entry.
+  🐕 **A SECOND PATTERN WENT LIVE THE SAME DAY — the Elastic Dog Neckerchief, tagged
+  `pattern-neckerchief`.** It is a **traffic** asset for Saturday, on the evidence above: give
+  people somewhere to click from Facebook, don't bill it as the thing that grows the list.
+  **But it is also the cheapest experiment available** — a dog in a bandana is a different post
+  from a scrunchie, the tags are separate, and one Facebook post each would say whether the zero
+  was *the format* or *that particular pattern*. **Two patterns with two tags answer a question
+  one could not.** It has its own 2:3 pin ready to post.
   ✅ **`Big Daddy`, 1 subscriber — EXPLAINED 2026-08-27: it's the owner's dad being funny.** Not a
   segment, nothing to action, and the report will keep flagging it because nothing in this repo
   sets it (the four the site writes are `hero` / `checkout` / `purchased` / `waitlist`). **Leave
@@ -1328,6 +1335,61 @@ written.** Ask before inferring a post didn't run.
   **STILL WORTH DOING:** a photo for step 5 (the burrito turn is the only counterintuitive move,
   and where the support email will come from), and deciding whether "For personal use" should
   allow selling finished items — many makers do, and it makes a pattern travel much further.
+
+- [x] 🐕 ✅ **PATTERN TWO IS LIVE 2026-08-27 — THE ELASTIC DOG NECKERCHIEF.**
+  `pattern-dog-neckerchief.html`, sizes **XS–XL**, two straight-edged pieces, reversible, about
+  45 minutes. 7-page PDF at `assets/dog-neckerchief-pattern.pdf`. Pushed as `69ea156`.
+  📁 **PATTERNS ARE GENERATED NOW** — `js/patterns-data.js` + **`node tools/build-patterns.js`**,
+  which also writes the new **`patterns.html`** index. Adding pattern three is a data entry, not
+  another 300-line page. The full add-a-pattern order is in the header of patterns-data.js.
+  ⚠️ **`pattern.html` KEEPS ITS URL and is now generated** — do not hand-edit it, and do not
+  "tidy" it to `pattern-chunky-scrunchie.html`. It has been live since Aug 25, it is pinned, and
+  it carried the Facebook post behind 86% of its first-day traffic; renaming 404s all of that.
+  Only its nav and one back-link changed.
+  🏷️ **EACH PATTERN HAS ITS OWN TAG** — `pattern` (scrunchie) and **`pattern-neckerchief`**.
+  Sharing one would have made the Aug 27 zero-conversion finding permanently unreadable. The
+  generator errors on duplicates. **This is the real reason pattern two is worth having so
+  soon:** a dog in a bandana is a different kind of Facebook post from a scrunchie, so if one
+  converts and the other doesn't, that is a far more useful answer than either number alone.
+  📌 **The nav is "Free Patterns" (plural) → `patterns.html`, in FIVE places** — index.html,
+  shop.html, custom.html and **both generators** (build-products.js, build-fabrics.js). Editing a
+  generated page directly is wiped on the next build; that trap already caught the Aug 25 nav.
+  ✅ **Corrections made to the pattern before it shipped** — worth recording, because they were
+  all internal contradictions the drawing looked fine with:
+  - step 9 topstitched *"the full 22″ length"* of a band that is **21″** once both ends are tucked
+  - the tie variant centred the body in *"the middle 12″"* when the finished edge is **11″** —
+    which is also the only number its own "11″ each side" arithmetic works with
+  - **L and XL now call for ½ yard.** Their bands are 22″ and 26″; a fat quarter is 22″ across, so
+    **XL did not fit at all** and L used every thread of it. Fig. 3 now says which sizes it covers.
+  - the brand read **"Dragon Ink & Thread"** twice — on every printed page of a PDF people keep
+  - a line was added saying the pictured one has its **outer pieced from scraps** (owner, 2026-08-27:
+    the point of the piece is that it's **reversible**, which the pattern already teaches). A single
+    fat quarter is what the pattern is written for.
+  🔧 **Two tooling fixes the scrunchie never needed, both silent failures:**
+  - **`pattern-to-pdf.js` renders from the OS temp dir**, so `../assets/x.jpg` resolved against
+    `%TEMP%` and rendered **blank with no error**. It now rebases relative image paths and warns
+    by name. The scrunchie is pure SVG, which is why this never surfaced.
+  - ⚠️ **THE CANVAS EXPORT'S TEMPLATING DOES NOT SURVIVE.** It arrived using `<sc-for>`, `<sc-if>`
+    and a `DCLogic` class to hold the size chart and cut list; `pattern-to-pdf.js` only strips
+    wrappers and never executes that script, so **both tables would have rendered EMPTY** — not an
+    error, empty. The repo copy is flattened to literal rows and **must stay flat**. Re-exporting
+    from the canvas over it reintroduces the bug.
+  - It also arrived as one flowing `<doc-page>`; the tool needs a page section per sheet, and the
+    class attribute must stand **alone** or its detection silently reports "1 pages".
+  🗺️ **The sitemap enumerates patterns from the data file now**, so adding one and forgetting to
+  relist it can't happen. Still written by `build-products.js` — run it after `build-patterns.js`.
+  📌 **Verified, not assumed:** 7 PDF pages with no element spilling its sheet, the download box
+  computing to `none` while hidden and `block` once revealed, both photos loading, and the
+  scrunchie page's diff limited to the nav. Photos are camera originals — Apple EXIF, no C2PA or
+  AI provenance markers — resized to 1400 long edge with rotation baked in.
+  📌 **Pin image exists**: `assets/pins/pin-free-pattern-neckerchief.jpg`, 1000×1500, from
+  `pinNeckerchief()` in build-pin-images.js. **This was a real blocker** — shipping with the
+  landscape brand card would have repeated the exact bug the scrunchie page was fixed for on
+  Aug 26, where saving the page pinned a logo in the wrong shape.
+  **STILL WORTH DOING:** the fit arithmetic is worth one sanity check against the real one — size
+  L's band plus elastic gives a **27″ relaxed loop for an 18–22″ neck**, which is generous. It
+  has to clear the skull, so it may well be right; it was drafted from a piece that exists and
+  fits. Only worth a tape measure, not a rewrite.
 
 
   **BEFORE MERGING:**
