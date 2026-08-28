@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-27.**
+**Last reviewed: 2026-08-28.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -25,9 +25,9 @@ Two rules that keep this useful:
 > | **Fri 21 – Mon 24** | ✈️ **AWAY — and the trip WAS the delivery** | ✅ **Aubrea's three clips HANDED OVER Sat 22** — her $36 order is closed, four slips and no cost. Nothing else moves. Banner + pickup label handle themselves. Back at the machine **Tue 25**. |
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired — **offerCount 14 → 15, highPrice → "55.00"**) · **Maurya's drop-off** · then the run-up to the push |
 > | ~~Wed 26~~ | ✅ | ✅ **Quilted Court POSTED** · 📸 reshoot · Game Day scrunchie |
-> | **Thu 27 — TODAY** | ⚠️ | **Maurya's drop-off — 4th date, "hopefully", she is still ill** · treat as likely, not fixed · 📸 **the daylight reshoot is genuinely last chance if she comes** · ✅ **Buttondown read: list is 8, pattern converted 0** · ✅ **Pattern two LIVE — the Elastic Dog Neckerchief, with its own tag and its own pin** |
-> | **Fri 28** | ✅ | Last clear day before the push. §8 fallback decided, posts queued |
-> | **Sat 29 — THE PUSH** | 🚀 | ⚠️ **Instagram + Facebook + Pinterest carry it. The email list is 5 people.** |
+> | ~~Thu 27~~ | ⛔ **no-show** | **Maurya did NOT come — 5th slip, and the first with no new date** · ✅ Buttondown read: list is 8, pattern converted 0 · ✅ **Pattern two LIVE — the Elastic Dog Neckerchief, own tag, own pin** |
+> | **Fri 28 — TODAY** | ✅ **clear, and the tote is still here** | 📸 **THE DAYLIGHT RESHOOT — do it today, nothing is competing for the day and the piece is in the house** · queue tomorrow's posts · **offer Maurya a doorstep drop-off** · welcome automation |
+> | **Sat 29 — THE PUSH** | 🚀 | ⚠️ **Instagram + Facebook + Pinterest carry it. The email list is 8 people** (corrected 2026-08-27 — it was never 5; `hero` was read as the total). **Two patterns, two tags, two pins — one Facebook post each is the cheapest experiment available.** |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
@@ -187,7 +187,14 @@ Two rules that keep this useful:
         it" note is spent.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       ✅ **BOTH PIECES COMPLETE 2026-08-18 — but NOT YET HANDED OVER.**
-      📅 **DROP-OFF IS NOW THU AUG 27, "hopefully" (told 2026-08-26). She is STILL ILL.**
+      📅 **NO DATE. She did not show on Thu Aug 27 — the FIFTH slip, and the first with no new
+      date attached.** Finished and waiting since Aug 18; ten days as of 2026-08-28.
+      🔁 **STOP WAITING FOR HER TO COME. OFFER TO BRING IT.** Five dates have now been set by the
+      customer and missed by the customer, which is a pattern, not an accident — and she is local
+      (San Antonio). A finished piece sitting in the house helps nobody: she has paid, she is
+      unwell, and coordinating a visit is the part she keeps failing at. **Offer a doorstep
+      drop-off with no visit attached, or post it.** That removes the only step that has gone
+      wrong five times. Still no chase and still no ask for the photo or review — she's ill.
       ⚠️ **THIS HEADER USED TO SAY "delivered Aug 18, inside the window" AND THAT WAS NEVER TRUE**
       — it was written on the 18th describing that evening's plan, and the plan then moved four
       times. Corrected 2026-08-26. **The made-date and the handover-date are different facts and
@@ -221,21 +228,22 @@ Two rules that keep this useful:
       - ~~📸 **Film the prep / shoot it Thursday.**~~ Overtaken — it's finished. The process
         footage §6 of the campaign wanted is whatever was captured along the way; **the finished
         piece is the shot that still has to be taken, and the window is now.**
-      - ⏸️ **RESCHEDULED A FOURTH TIME 2026-08-26 — STILL UNWELL. Now THU AUG 27, "hopefully".**
-        Wed 19 → Thu 20 → Tue 25+ → **Thu 27**. The "hopefully" is hers and is recorded as hers:
-        **treat Thu 27 as likely, not fixed**, and don't build anything on it that can't slip
-        again. Six days of illness is not a customer going quiet.
-        🚨 **THE PUSH IS SAT AUG 29 — TWO DAYS AFTER A DATE THAT MAY MOVE AGAIN.** Maurya's
-        in-use photo is the only route to an image that says *wheelchair*, and §8 of
-        `marketing/campaign-2026-08.md` is written around it. **§8 now needs a version that does
-        not depend on her**, decided before Saturday rather than during it. If the photo arrives,
-        use it; if it doesn't, the fallback is already written. **Do not let the push's main
-        argument hang on a fourth-time-rescheduled visit from someone who is ill.**
-        📌 **And don't ask her for the photo/review on the 27th if she's still poorly.** The ask
-        was scoped for a well customer pleased with her tote. Hand it over, be kind, ask later.
-      - 🎁 **THE DAYLIGHT RESHOOT IS STILL OPEN AND HAS NOW BEEN OPEN FOR SIX DAYS.** It was
-        called "back on" 2026-08-20 because the tote stayed in the house; it is **still here** on
-        2026-08-26 and it did NOT happen. The four files in the repo are the original Aug 18
+      - ⛔ **SLIPPED A FIFTH TIME — SHE DID NOT SHOW ON THU AUG 27.** Wed 19 → Thu 20 → Tue 25+ →
+        Thu 27 → **nothing**. The previous four each came with a replacement date; this one did
+        not, which is the thing that actually changed. Recorded 2026-08-28.
+        ✅ **THE PUSH NO LONGER DEPENDS ON HER, AND THAT DECISION IS VINDICATED.** §8 of
+        `marketing/campaign-2026-08.md` was rewritten on 2026-08-26 with **no photo dependency**
+        precisely because this visit might not happen. It didn't. **Had the push been left
+        hanging on her in-use photo, it would now be broken the day before.** If the photo ever
+        arrives it's an upgrade, never a prerequisite.
+        📌 **Still don't ask for the photo or review.** The ask was scoped for a well customer
+        pleased with her tote. Nothing about five weeks of illness makes now the moment.
+      - 🎁 **THE DAYLIGHT RESHOOT IS OPEN, THE TOTE IS STILL HERE, AND TODAY IS THE DAY.**
+        Open since 2026-08-20 — **eight days**. But Thursday's no-show removed the one thing that
+        kept threatening it: **the tote is not leaving today**, Friday is the last clear day
+        before the push, and there is no visit to work around. **This is the single highest-value
+        thing available today, it costs nothing, and it depends on nobody.** If it doesn't happen
+        on a clear Friday with the piece in the house, it is not going to happen at all. The four files in the repo are the original Aug 18
         frames, weaknesses and all. **This is a free, no-customer-dependency fix for the exact
         gap §8 has** — window to the SIDE (both front-on shots are backlit), one sharp frame of
         the ties, and the interior with the pocket bags. **Today is the day it is easiest**;
