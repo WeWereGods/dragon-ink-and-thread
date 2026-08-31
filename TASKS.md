@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-28.**
+**Last reviewed: 2026-08-31.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -26,8 +26,10 @@ Two rules that keep this useful:
 > | **Tue 25 — first day back** | ⛔ **one thing is OWED** | **↩️ RESTORE THE SURIEL SET** (pulled for the trip, not retired — **offerCount 14 → 15, highPrice → "55.00"**) · **Maurya's drop-off** · then the run-up to the push |
 > | ~~Wed 26~~ | ✅ | ✅ **Quilted Court POSTED** · 📸 reshoot · Game Day scrunchie |
 > | ~~Thu 27~~ | ⛔ **no-show** | **Maurya did NOT come — 5th slip, and the first with no new date** · ✅ Buttondown read: list is 8, pattern converted 0 · ✅ **Pattern two LIVE — the Elastic Dog Neckerchief, own tag, own pin** |
-> | **Fri 28 — TODAY** | ✅ **clear, and the tote is still here** | 📸 **THE DAYLIGHT RESHOOT — do it today, nothing is competing for the day and the piece is in the house** · queue tomorrow's posts · **offer Maurya a doorstep drop-off** · welcome automation |
-> | **Sat 29 — THE PUSH** | 🚀 | ⚠️ **Instagram + Facebook + Pinterest carry it. The email list is 8 people** (corrected 2026-08-27 — it was never 5; `hero` was read as the total). **Two patterns, two tags, two pins — one Facebook post each is the cheapest experiment available.** |
+> | ~~Fri 28~~ | — | Reshoot and post-queueing did not happen |
+> | ~~Sat 29 — THE PUSH~~ | ⛔ **DID NOT RUN** | **The push was not posted.** Confirmed by the owner 2026-08-31. Traffic that weekend is the flattest in the window — but that is a quiet Saturday, **not a verdict on the campaign**, which remains untested. |
+> | ~~Sun 30~~ | — | — |
+> | **Mon 31 — TODAY** | 📊 **traffic read** | 68 visits / 85 views in 7 days · **zero to the shop** · Pinterest sent nobody · index regression reverted. **See the traffic entry below.** |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
@@ -456,6 +458,47 @@ Two rules that keep this useful:
 ---
 
 ## 🟠 Dated — this week
+
+- [ ] 📊 **TRAFFIC, MEASURED 2026-08-31 (Cloudflare, last 7 days, bots excluded). READ THIS
+  BEFORE PLANNING ANY MORE MARKETING.** 68 visits · 85 page views · **1.25 pages per visit**.
+  - 🚨 **NOBODY REACHED THE SHOP. NOT ONE VISIT, IN SEVEN DAYS.** The Path panel lists only
+    `/` (25), `/pattern.html` (21) and `/patterns.html` (18), and those three sum to exactly its
+    own total of 64. **`shop.html` and `custom.html` got nothing.** The whole campaign is built
+    on traffic → shop; the traffic arrived and never went there.
+  - 🔍 **AND IT ISN'T A MISSING LINK.** Every pattern page already carries a "Rather not sew it
+    yourself?" section with Shop and Custom buttons. People are walking past it. **A free pattern
+    attracts people who want a free pattern** — that is a different audience from someone buying a
+    $45 tote, and no amount of button-polishing converts it. **Stop planning as though the pattern
+    is a sales channel.** It is a reach channel, and a slow one. This is the same finding as the
+    2026-08-27 zero-signups measurement, arriving from the other direction.
+  - 📉 **PINTEREST HAS SENT ZERO VISITS.** Not one, from any pin, in a week — with the tag live
+    since 2026-08-09 and six pins built. **Facebook is doing 100% of the work**: 39 of 66 referred
+    visits across its four domains (`www.` 22, `m.` 14, bare 2, `l.` 1), plus 27 direct.
+    ⚠️ **Every plan naming Pinterest as a channel is currently planning against nothing.** Not an
+    argument to stop pinning — it is a long game — but it cannot be counted on for Q4.
+  - 🐕 **THE DOG PATTERN GOT ZERO VISITS**, so the two-patterns experiment never ran. Nothing
+    pointed anyone at it. It is finished, it has a pin, and it has never been seen.
+  - ✅ **ONE SELF-INFLICTED WOUND, FOUND AND FIXED (`a025def`).** `/patterns.html` took 18 visits
+    and passed **zero** of them through. The nav was changed on 2026-08-27 from "Free Pattern" →
+    the pattern, to "Free Patterns" → a new index; with a library of two that index is a door in
+    front of a door. **Nav reverted on all 38 pages**, and each pattern page now ends with a row
+    of the *other* patterns, so the dog neckerchief finally has a route to it.
+  - 📌 **The baseline to beat: one ordinary Facebook post about the free pattern pulled ~20 visits
+    in an afternoon (Aug 25) — still the best day the site has had.**
+
+- [ ] 🚀 **THE AUG 29 PUSH DID NOT RUN — and it should NOT be re-dated. Change its shape instead.**
+  Confirmed by the owner 2026-08-31. The week it needed was spent on Maurya's five scheduled dates
+  and a no-show; the push was what gave way. **Nothing about the campaign has been tested.**
+  ⚠️ **Two of its three legs do not exist.** §10's runbook is email + posts + live Q&A. The email
+  reaches **8 people**; Pinterest sends **nobody** (both measured above). What actually moves this
+  site is **one Facebook post**.
+  ✅ **So the recommendation is: stop rescheduling a launch, and post one thing at a time.** A
+  single Facebook post can go out on a Tuesday evening with no runbook and no clear weekend —
+  which matters, because clear weekends keep getting eaten. **A date moved four times is a date
+  nobody believes**, and re-dating it a fifth would cost another fortnight of waiting.
+  🐕 **Start with the dog neckerchief pattern.** Finished, pinned, never seen by anyone, and it
+  answers a real question — whether a dog pulls better than a scrunchie. One post, no
+  coordination, something learned either way.
 
 - [ ] 🚨 **THE AUG 29 PUSH CANNOT LEAN ON EMAIL — THE LIST IS 8 PEOPLE (measured 2026-08-27).**
   §10's runbook is "email, posts, live Q&A", and a **Broadcast — Custom orders are open** is
