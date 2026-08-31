@@ -40,10 +40,21 @@ const esc = (s) =>
 
 /* ── shared chrome ─────────────────────────────────────────────────────────── */
 
-// ⚠️ "Free Patterns" plural, pointing at the index. This nav also lives in
-// index.html, shop.html, custom.html, tools/build-products.js and
-// tools/build-fabrics.js — five copies, two of them generators. Change them
-// together; editing a generated page directly is always the wrong fix.
+/* ⚠️ THE NAV POINTS AT A PATTERN, NOT AT THE INDEX — REVERTED 2026-08-31, MEASURED.
+   It was changed to "Free Patterns" → patterns.html on 2026-08-27. In the week
+   that followed, Cloudflare recorded **18 visits to /patterns.html and ZERO
+   click-throughs** to a pattern from it. With a library of two, an index is a
+   door in front of a door: people arrive at a menu when they wanted the thing.
+   The index still exists and stays in the sitemap — it is a fine destination if
+   something links to it — but it is NOT the nav target.
+   ⚠️ Don't "restore" the plural without new evidence. If the library grows past
+   about four, re-measure before assuming an index earns its click.
+
+   This nav also lives in index.html, shop.html, custom.html,
+   tools/build-products.js and tools/build-fabrics.js — five copies, two of them
+   generators. Change them together; editing a generated page is wiped on build. */
+const NAV_PATTERN = "pattern.html"; // the established URL, and the one with inbound pins
+
 const nav = (here) => {
   const item = (href, label) =>
     `<li><a href="${href}"${href === here ? ' aria-current="page"' : ""}>${label}</a></li>`;
@@ -53,7 +64,7 @@ const nav = (here) => {
             ${item("shop.html", "Shop")}
             ${item("custom.html", "Custom")}
             ${item("fabrics.html", "Fabrics")}
-            ${item("patterns.html", "Free Patterns")}
+            ${item(NAV_PATTERN, "Free Pattern")}
             <li><a href="index.html#about">Our Story</a></li>
             <li><a href="index.html#stories">Stories</a></li>
             <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
@@ -200,6 +211,49 @@ const commonScript = `    document.getElementById("year").textContent = new Date
       els.forEach(function (el) { io.observe(el); });
     })();`;
 
+/* The OTHER patterns, linked from the bottom of each pattern page.
+ *
+ * ⚠️ THIS IS WHAT REPLACES THE INDEX IN THE NAV, and it is the discovery route
+ * for every pattern that isn't NAV_PATTERN. Without it, reverting the nav on
+ * 2026-08-31 would have left the dog neckerchief with no link to it anywhere on
+ * the site — which is how it got ZERO visits in its first four days.
+ *
+ * A row of siblings on the page someone is already reading beats an index they
+ * have to visit first: they are here, they like free patterns, and the next one
+ * is one click away rather than two. Renders nothing when there is only one. */
+const others = (p) => {
+  const rest = PATTERNS.filter((q) => q.id !== p.id);
+  if (!rest.length) return "";
+  const cards = rest.map(
+    (q) => `          <article class="pattern-card">
+            <a class="pattern-card-photo" href="${q.file}">
+              <img src="${q.photo.src}" decoding="async" loading="lazy" alt="${esc(q.photo.alt)}"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="placeholder placeholder-product" style="display:none;" aria-hidden="true"><span>🧵</span></div>
+            </a>
+            <div class="pattern-card-body">
+              <h3><a href="${q.file}">${esc(q.cardTitle)}</a></h3>
+              <p class="pattern-card-blurb">${esc(q.cardBlurb)}</p>
+              <p class="pattern-card-meta">${esc(q.level)} · ${esc(q.time)}</p>
+              <p><a class="btn btn-primary" href="${q.file}">Get this one too →</a></p>
+            </div>
+          </article>`
+  ).join("\n");
+
+  return `    <section class="section reveal">
+      <div class="container">
+        <div class="section-head">
+          <h2>${rest.length > 1 ? "More free patterns" : "One more free pattern"}</h2>
+          <p class="section-sub">Also free, also straight lines, also yours for an email address.</p>
+        </div>
+        <div class="pattern-index">
+${cards}
+        </div>
+      </div>
+    </section>
+`;
+};
+
 /* ── one pattern page ──────────────────────────────────────────────────────── */
 
 const patternPage = (p) => `<!DOCTYPE html>
@@ -210,7 +264,7 @@ ${head(p, p.file)}
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-${header("patterns.html")}
+${header(NAV_PATTERN)}
 
   <main id="main">
     <section class="section shop-hero reveal">
@@ -281,11 +335,11 @@ ${p.points.map((t) => `            <li>${t}</li>`).join("\n")}
             <a class="btn btn-primary" href="shop.html">Shop the collection →</a>
             <a class="btn btn-ghost" href="custom.html">Ask for a custom piece →</a>
           </p>
-          <p class="nest-note"><a href="patterns.html">← All the free patterns</a></p>
         </div>
       </div>
     </section>
-  </main>
+
+${others(p)}  </main>
 
 ${footer}
 
@@ -402,7 +456,7 @@ ${head(meta, "patterns.html")}
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-${header("patterns.html")}
+${header(NAV_PATTERN)}
 
   <main id="main">
     <section class="section shop-hero reveal">

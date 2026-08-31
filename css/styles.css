@@ -2271,12 +2271,15 @@ body.fabric-lightbox-open { overflow: hidden; }
   .pattern-art { max-width: 340px; margin: 0 auto; }
 }
 
-/* patterns.html — the index of free patterns.
-   auto-fit means two patterns sit side by side and a third wraps on its own,
-   with no breakpoint to maintain as more are added. */
+/* Pattern cards — used by patterns.html and by the "more free patterns" row at
+   the foot of each pattern page.
+   ⚠️ The max track size is deliberate. With `1fr` a SINGLE card stretched to
+   1000×974 — a lone sibling became a billboard. Capping the track and centring
+   the row keeps one, two or six cards all looking like cards. */
 .pattern-index {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 360px));
+  justify-content: center;
   gap: clamp(1.5rem, 4vw, 2.5rem);
 }
 .pattern-card {
