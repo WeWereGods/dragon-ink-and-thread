@@ -619,6 +619,37 @@ Two rules that keep this useful:
       That is the SIMPLE end of what this could have been — nothing like the framed paper, medals
       and individually-mounted costume the pricing note feared. **So $250 holds.** The one figure
       in the $1,050 job with no hour estimate behind it now has a scope that fits it.
+
+      ### 🗺️ THE LAYOUT — set 2026-09-01, from the materials laid out on the board
+      **Frame: Green Tree Gallery 16″ × 20″, portrait, and it IS a true shadow box with depth**
+      (confirmed by the owner — the depth is what makes the plush possible at all).
+      **Backing is black**, which drives most of the decisions below.
+      | Position | What sits there |
+      |---|---|
+      | **Top left** | **The picture** — owner's call, 2026-09-01 |
+      | **Top right** | The pointed star hat — black with gold stars, gold braid, sequin band |
+      | **Middle** | The costume — black satin with gold foil leopard print |
+      | **Bottom left** | The Eeyore plush |
+      | **Bottom right** | The small red metal bicycle |
+      ✅ **The composition works**: picture top-left and star hat top-right balance each other, the
+      eye crosses the top and comes down through the costume. Nothing here needs changing.
+      ⚠️ **GIVE THE PICTURE A MAT.** A photograph mounted straight onto black backing loses its
+      edges — an older or darker print stops reading as a photo and starts reading as a hole. A
+      narrow border, cream or gold to pick up the costume's trim, with about ¼″ showing. This is
+      the single easiest thing to get wrong and it is invisible until it's finished.
+      ⚠️ **Fold the costume so the collar clears the top-left corner.** As laid out, the leopard
+      shoulder sits exactly where the picture goes.
+      ⚠️ **The costume is much bigger than 16 × 20**, so how it is folded IS the design. The star
+      panel with the gold braid is the strongest element — if only part can show, show that.
+      🧸 **THE PLUSH — two notes.** Squash-test him to the actual internal depth before committing;
+      sitting poses compress unevenly and he can end up face-flattened with a round back. And
+      **stitch him through the backing board at the shoulders, not just at the base** — a plush
+      anchored only underneath droops forward within a year or two and ends up leaning on the
+      glass. Those stitches also come out, which is the reversibility point worth telling Linda.
+      ⚠️ **The red bicycle is METAL ON SATIN** — the staining case, now confirmed as real rather
+      than hypothetical. Something thin between it and the fabric.
+      📌 **The gold foil leopard print should not be hard-creased** — foil cracks and flakes along
+      a sharp fold, and it will not recover.
       📸 **THE PICTURE IS THE ONLY IRREVERSIBLE RISK. Offer to mount a COPY.** Scan or photograph
       it, mount the print, hand Linda back the original. She keeps the irreplaceable thing safe
       and still sees it in the box every day. **It is her call, not a silent substitution** — but
