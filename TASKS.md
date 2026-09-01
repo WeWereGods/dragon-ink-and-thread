@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-08-31.**
+**Last reviewed: 2026-09-01.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -29,7 +29,8 @@ Two rules that keep this useful:
 > | ~~Fri 28~~ | — | Reshoot and post-queueing did not happen |
 > | ~~Sat 29 — THE PUSH~~ | ⛔ **DID NOT RUN** | **The push was not posted.** Confirmed by the owner 2026-08-31. Traffic that weekend is the flattest in the window — but that is a quiet Saturday, **not a verdict on the campaign**, which remains untested. |
 > | ~~Sun 30~~ | — | — |
-> | **Mon 31 — TODAY** | 📊 **traffic read** | 68 visits / 85 views in 7 days · **zero to the shop** · Pinterest sent nobody · index regression reverted. **See the traffic entry below.** |
+> | ~~Mon 31~~ | 📊 **traffic read** | 68 visits / 85 views in 7 days · **zero to the shop** · Pinterest sent nobody · index regression reverted. **See the traffic entry below.** |
+> | **Tue Sep 1 — TODAY** | 🔨 **at the machine** | **Linda's SHADOW BOX is being built** — contents confirmed (costume, mementos, one picture), $250 holds, **due Sep 18** · dog-pattern post written and still unposted · Maurya's tote still here |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
@@ -611,21 +612,30 @@ Two rules that keep this useful:
       over. **Fuller care notes (moths, sun, settling) go on a card that ships WITH the piece**,
       not here; they are more use in her hands in 2027 than in an invoice from August.
 
-      ## 🖼️ THE SHADOW BOX — new piece, agreed 2026-08-19, $250, due Sep 18
-      Holds **his costume and memorabilia**, in a box Linda supplies. She supplies the box and the
-      display materials; the shop supplies only what is needed to hold pieces in position.
-      ⚠️ **"MEMORABILIA" NEEDS THE SAME DISCLOSURE THE WOOL GOT — and it isn't written yet.**
-      Ask what actually goes in before starting. **Paper and photographs are permanently damaged
-      by ordinary adhesives and non-acid-free board**, metal (medals, pins) can stain fabric, and
-      some mounting cannot be undone. This is the same shape as the washability conversation on
-      Aug 13 — **that disclosure didn't cost the order, it found the right product.**
+      ## 🖼️ THE SHADOW BOX — agreed 2026-08-19, $250, due Sep 18 · ⏳ **IN PROGRESS 2026-09-01**
+      🔨 **UNDER WAY — the owner is building it as of 2026-09-01.** Materials are in hand, so the
+      "clock can't start" worry below is spent. **17 days to the due date at time of writing.**
+      ✅ **CONTENTS ESTABLISHED 2026-09-01: his costume, some mementos, and one picture.**
+      That is the SIMPLE end of what this could have been — nothing like the framed paper, medals
+      and individually-mounted costume the pricing note feared. **So $250 holds.** The one figure
+      in the $1,050 job with no hour estimate behind it now has a scope that fits it.
+      📸 **THE PICTURE IS THE ONLY IRREVERSIBLE RISK. Offer to mount a COPY.** Scan or photograph
+      it, mount the print, hand Linda back the original. She keeps the irreplaceable thing safe
+      and still sees it in the box every day. **It is her call, not a silent substitution** — but
+      offering it is the sort of thing a widow remembers. If she wants the original in there:
+      photo corners or a stitched mount, **never adhesive**, nothing non-acid-free touching it.
+      ⚠️ **If any memento is METAL, put a barrier between it and the costume fabric.** Metal stains
+      cloth where it rests, over years rather than weeks — invisible at handover, obvious later.
       ❓ **Say whether the mounting is REVERSIBLE.** Stitched to a covered board with removable
       stitches, nothing cut or glued, is genuinely valuable to a widow and worth stating as a
       feature. Anything irreversible needs the same written acknowledgement as the garments.
-      ⚠️ **30 days runs straight through the house move.** It also depends on Linda handing over
-      the box, the materials and the memorabilia — **the clock cannot start until all three are
-      in hand**, which is the five-for-five lesson again (fabric, fabric, ticking, batting, clips).
-      **Quote from the date the materials arrive, not from Aug 19.**
+      📌 **The archival disclosure is now a CONVERSATION TO HAVE, not a scope question.** It was
+      written here as a thing to settle before starting; the contents turned out mild enough that
+      it no longer gates the work — it just needs saying, the way the wool washability point did
+      on Aug 13. **That disclosure didn't cost the order, it found the right product.**
+      📌 **Historical:** 30 days ran through the house move, and the clock properly began when the
+      box, materials and memorabilia were all in hand — the five-for-five lesson (fabric, fabric,
+      ticking, batting, clips). Recorded because the NEXT quote should still be written that way.
 
       ## 💵 AGREED 2026-08-19 — $1,000 across TWO pieces
       | Piece | Price | Due | Materials |
