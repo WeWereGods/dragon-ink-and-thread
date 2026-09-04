@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-01.**
+**Last reviewed: 2026-09-04.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -30,7 +30,9 @@ Two rules that keep this useful:
 > | ~~Sat 29 — THE PUSH~~ | ⛔ **DID NOT RUN** | **The push was not posted.** Confirmed by the owner 2026-08-31. Traffic that weekend is the flattest in the window — but that is a quiet Saturday, **not a verdict on the campaign**, which remains untested. |
 > | ~~Sun 30~~ | — | — |
 > | ~~Mon 31~~ | 📊 **traffic read** | 68 visits / 85 views in 7 days · **zero to the shop** · Pinterest sent nobody · index regression reverted. **See the traffic entry below.** |
-> | **Tue Sep 1 — TODAY** | 🔨 **at the machine** | **Linda's SHADOW BOX is being built** — contents confirmed (costume, mementos, one picture), $250 holds, **due Sep 18** · dog-pattern post written and still unposted · Maurya's tote still here |
+> | ~~Tue Sep 1~~ | 🔨 | **Linda's SHADOW BOX started** — contents confirmed, $250 holds, layout set |
+> | **Fri Sep 4 — TODAY** | 🔨 **shadow box** | Still at the shadow box, **due Sep 18 (14 days)** · **Maurya now says PICKUP TUE SEP 8 — 6th date, "hopefully"** · dog-pattern post written and still unposted (4 days) |
+> | **Mon Sep 8** | 📊 | **Traffic re-measure** — does the free pattern have a search/Pinterest tail, or was Aug 25 a one-off Facebook spike? Reminder scheduled. **Maurya's pickup is the next day.** |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
@@ -190,14 +192,17 @@ Two rules that keep this useful:
         it" note is spent.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       ✅ **BOTH PIECES COMPLETE 2026-08-18 — but NOT YET HANDED OVER.**
-      📅 **NO DATE. She did not show on Thu Aug 27 — the FIFTH slip, and the first with no new
-      date attached.** Finished and waiting since Aug 18; ten days as of 2026-08-28.
-      🔁 **STOP WAITING FOR HER TO COME. OFFER TO BRING IT.** Five dates have now been set by the
-      customer and missed by the customer, which is a pattern, not an accident — and she is local
-      (San Antonio). A finished piece sitting in the house helps nobody: she has paid, she is
-      unwell, and coordinating a visit is the part she keeps failing at. **Offer a doorstep
-      drop-off with no visit attached, or post it.** That removes the only step that has gone
-      wrong five times. Still no chase and still no ask for the photo or review — she's ill.
+      📅 **SIXTH DATE: PICKUP, TUE SEP 8, "hopefully" (told 2026-09-04).** Finished and waiting
+      since Aug 18 — **17 days** as of 2026-09-04.
+      ⚠️ **"Hopefully" is the same word she used before the Aug 27 no-show. Treat Tue Sep 8 as
+      likely, not fixed**, and don't build anything on it that can't slip a seventh time.
+      🔁 **NOTE IT IS A PICKUP AGAIN — she travels to the piece.** That is the step that has now
+      failed five times out of five, and she is the one who is ill. **Offering a doorstep
+      drop-off (or posting it) removes that step entirely**, and she is local. Raised
+      2026-08-28; the owner has left it as a pickup, which is their call — recorded here only so
+      a seventh slip isn't a surprise about a cause nobody had named.
+      📌 Still no chase and still no ask for the photo or review — she's ill, and the ask was
+      scoped for a well customer pleased with her tote.
       ⚠️ **THIS HEADER USED TO SAY "delivered Aug 18, inside the window" AND THAT WAS NEVER TRUE**
       — it was written on the 18th describing that evening's plan, and the plan then moved four
       times. Corrected 2026-08-26. **The made-date and the handover-date are different facts and
