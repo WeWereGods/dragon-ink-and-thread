@@ -1830,12 +1830,32 @@ is the concrete reason not to spend it (see the parked pop-up booth note).
 tax, which depends on the household's whole return. If there is other income the $1,000 trigger
 is nearer than $136.05 suggests. **CPA question.**
 
-### Texas sales tax — the permit already held
-Frequency is **assigned by the Comptroller, not chosen**. Returns are due the **20th of the
-month after the period ends**. Annual (~under $1,000/yr owed) → **Jan 20**. Quarterly →
-**Apr 20 · Jul 20 · Oct 20 · Jan 20**. Monthly → the 20th, every month.
-✅ **THE ANSWER IS ON RECORD, DON'T GUESS IT** — **Webfile at comptroller.texas.gov** shows the
-assigned frequency and the real due dates, and the permit paperwork says it too.
+### 🔴 Texas sales tax — THERE IS NO PERMIT. CORRECTED 2026-09-05.
+🚨 **THIS SECTION USED TO BE HEADED "the permit already held" AND THAT WAS NEVER TRUE.**
+Checked on the Comptroller's eSystems dashboard 2026-09-05: the only taxpayer account is
+**DRAGON INK AND THREAD LLC, #32107021498, and the only assigned tax/fee is FRANCHISE TAX.**
+eSystems was offering *"Register for Texas Sales and Use Tax"* — because there is no
+registration. **Confirmed by the owner: franchise only.**
+⚠️ **MEANWHILE STRIPE HAS BEEN COLLECTING SALES TAX SINCE THE SHOP OPENED 2026-07-01.** The
+Worker sets `automatic_tax[enabled]=true`. About **$88.62** is held, **$73.63** of it from
+Linda's invoice alone. **That is the state's money and it currently has no account to be
+remitted through.** Collecting it was never the problem; having nowhere to send it is.
+✅ **THE FIX IS REGISTRATION, and it is free** — the same eSystems list, first entry. Then the
+Comptroller assigns a frequency and the held tax goes on the normal schedule.
+📌 **The amounts are small and the money was HELD, not spent.** That is the good version of this
+problem, and worth saying plainly before anyone panics.
+❓ **CPA QUESTIONS, not things to reason out from the shop's own numbers:** what is owed for the
+Jul 1 → now period, whether there is any back-period exposure, and whether to keep collecting in
+the meantime.
+🔍 **WHY IT WENT UNCAUGHT FOR A MONTH, and the lesson.** A note recorded on 2026-08-02 said the
+permit was **RESOLVED — don't re-raise it as a risk**. That instruction did exactly what it said:
+it stopped anyone looking, for five weeks, while tax accumulated. **Record what was verified and
+how it was verified — never a standing instruction to stop checking.**
+
+**Once registered**, frequency is **assigned by the Comptroller, not chosen**. Returns are due the
+**20th of the month after the period ends**. Annual (~under $1,000/yr owed) → **Jan 20**.
+Quarterly → **Apr 20 · Jul 20 · Oct 20 · Jan 20**. Monthly → the 20th, every month.
+✅ **Webfile at comptroller.texas.gov** will then show the assigned frequency and the real dates.
 ⚠️ **A return is required even in a period with ZERO sales.** A missed zero-return still draws a
 penalty, and that is the usual way a small shop gets stung.
 📌 Collected sales tax is **not income** — it is held for the state. Linda's invoice alone
