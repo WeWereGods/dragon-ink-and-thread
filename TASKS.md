@@ -1830,32 +1830,39 @@ is the concrete reason not to spend it (see the parked pop-up booth note).
 tax, which depends on the household's whole return. If there is other income the $1,000 trigger
 is nearer than $136.05 suggests. **CPA question.**
 
-### 🔴 Texas sales tax — THERE IS NO PERMIT. CORRECTED 2026-09-05.
-🚨 **THIS SECTION USED TO BE HEADED "the permit already held" AND THAT WAS NEVER TRUE.**
-Checked on the Comptroller's eSystems dashboard 2026-09-05: the only taxpayer account is
-**DRAGON INK AND THREAD LLC, #32107021498, and the only assigned tax/fee is FRANCHISE TAX.**
-eSystems was offering *"Register for Texas Sales and Use Tax"* — because there is no
-registration. **Confirmed by the owner: franchise only.**
-⚠️ **MEANWHILE STRIPE HAS BEEN COLLECTING SALES TAX SINCE THE SHOP OPENED 2026-07-01.** The
-Worker sets `automatic_tax[enabled]=true`. About **$88.62** is held, **$73.63** of it from
-Linda's invoice alone. **That is the state's money and it currently has no account to be
-remitted through.** Collecting it was never the problem; having nowhere to send it is.
-✅ **THE FIX IS REGISTRATION, and it is free** — the same eSystems list, first entry. Then the
-Comptroller assigns a frequency and the held tax goes on the normal schedule.
-📌 **The amounts are small and the money was HELD, not spent.** That is the good version of this
-problem, and worth saying plainly before anyone panics.
-❓ **CPA QUESTIONS, not things to reason out from the shop's own numbers:** what is owed for the
-Jul 1 → now period, whether there is any back-period exposure, and whether to keep collecting in
-the meantime.
-🔍 **WHY IT WENT UNCAUGHT FOR A MONTH, and the lesson.** A note recorded on 2026-08-02 said the
-permit was **RESOLVED — don't re-raise it as a risk**. That instruction did exactly what it said:
-it stopped anyone looking, for five weeks, while tax accumulated. **Record what was verified and
-how it was verified — never a standing instruction to stop checking.**
+### Texas sales tax — ✅ THE PERMIT EXISTS. Verified on screen 2026-09-05.
+✅ **DRAGON INK AND THREAD LLC is ACTIVE for "LIMITED SALES, EXCISE, AND USE TAX"** — which is
+the formal name of the Texas sales tax permit. Read off the Comptroller's own *Confirm Existing
+Taxpayer* screen, 2026-09-05. **This is now verified rather than assumed.**
+⚠️ **BUT IT IS NOT LINKED TO THE WEBFILE LOGIN — and that is the real gap.** The eSystems
+dashboard the same day showed **only Franchise Tax** under *My Taxpayer Accounts* (LLC
+#32107021498), which is why it first looked as though no permit existed. **Holding the permit and
+being able to FILE with it are different things.** Until the sales tax account is attached to
+that login, no return can be submitted through it.
+🔧 **FIX: "ASSIGN TAX/FEES" on the eSystems dashboard.** It needs the taxpayer number and the
+**Webfile number** from the permit letter. No letter → **1-800-531-5441 ext. 30925** or
+**512-463-0925** (the numbers the Comptroller prints on that screen).
+🚫 **DO NOT RE-REGISTER.** The registration flow does not even list sales tax among the taxes it
+offers — only 911 fees, cigarette sales and emissions surcharges — precisely because the account
+is already active. Pressing on through it registers the wrong things.
+❓ **STILL OPEN, and these are the ones that matter:** what filing frequency the Comptroller
+assigned, and **whether any return has come due since the shop opened 2026-07-01** and been
+missed. Stripe has collected ~**$88.62** in the meantime (**$73.63** of it Linda's), which is the
+state's money. ⚠️ **A zero-sales period still requires a return, and a missed one draws a penalty
+even when $0 is owed** — that is the usual way a small shop gets stung. **Webfile answers both
+questions the moment the account is linked.**
+🔍 **RECORD-KEEPING LESSON, which survives even though the alarm was false.** A note from
+2026-08-02 said the permit question was **RESOLVED — don't re-raise it as a risk**, and on
+2026-09-05 that produced a full contradiction inside twenty minutes: the dashboard implied no
+permit, the owner confirmed "franchise only", both records were rewritten to say there was none —
+and then the registration screen showed the permit plainly. **The fact was right; the note just
+never said HOW it was known, so nothing could be checked against it.** Record what was verified
+and how. A standing "don't re-raise" is what turns a thin fact into a confident wrong one.
 
-**Once registered**, frequency is **assigned by the Comptroller, not chosen**. Returns are due the
-**20th of the month after the period ends**. Annual (~under $1,000/yr owed) → **Jan 20**.
-Quarterly → **Apr 20 · Jul 20 · Oct 20 · Jan 20**. Monthly → the 20th, every month.
-✅ **Webfile at comptroller.texas.gov** will then show the assigned frequency and the real dates.
+**Frequency is assigned by the Comptroller, not chosen.** Returns are due the **20th of the month
+after the period ends**. Annual (~under $1,000/yr owed) → **Jan 20**. Quarterly →
+**Apr 20 · Jul 20 · Oct 20 · Jan 20**. Monthly → the 20th, every month.
+✅ **Webfile at comptroller.texas.gov** shows the assigned frequency and the real due dates.
 ⚠️ **A return is required even in a period with ZERO sales.** A missed zero-return still draws a
 penalty, and that is the usual way a small shop gets stung.
 📌 Collected sales tax is **not income** — it is held for the state. Linda's invoice alone
