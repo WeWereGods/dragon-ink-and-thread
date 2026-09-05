@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-04.**
+**Last reviewed: 2026-09-05.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -32,7 +32,7 @@ Two rules that keep this useful:
 > | ~~Mon 31~~ | 📊 **traffic read** | 68 visits / 85 views in 7 days · **zero to the shop** · Pinterest sent nobody · index regression reverted. **See the traffic entry below.** |
 > | ~~Tue Sep 1~~ | 🔨 | **Linda's SHADOW BOX started** — contents confirmed, $250 holds, layout set |
 > | **Fri Sep 4 — TODAY** | 🔨 **shadow box** | Still at the shadow box, **due Sep 18 (14 days)** · **Maurya now says PICKUP TUE SEP 8 — 6th date, "hopefully"** · dog-pattern post written and still unposted (4 days) |
-> | **Mon Sep 8** | 📊 | **Traffic re-measure** — does the free pattern have a search/Pinterest tail, or was Aug 25 a one-off Facebook spike? Reminder scheduled. **Maurya's pickup is the next day.** |
+> | **Tue Sep 8** | 📊 + 🚗 | **Traffic re-measure** — does the free pattern have a search/Pinterest tail, or was Aug 25 a one-off Facebook spike? Reminder scheduled. ⚠️ **Maurya's pickup is the SAME DAY, not the next one** — corrected 2026-09-05; Sep 8 is a Tuesday. |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
