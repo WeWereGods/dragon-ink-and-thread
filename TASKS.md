@@ -32,7 +32,7 @@ Two rules that keep this useful:
 > | ~~Mon 31~~ | 📊 **traffic read** | 68 visits / 85 views in 7 days · **zero to the shop** · Pinterest sent nobody · index regression reverted. **See the traffic entry below.** |
 > | ~~Tue Sep 1~~ | 🔨 | **Linda's SHADOW BOX started** — contents confirmed, $250 holds, layout set |
 > | ~~Fri Sep 4~~ | 🔨 | Shadow box · 5 direct visits, 3 to PRODUCT pages, source unexplained |
-> | **Sat Sep 5 — TODAY** | 🔨 **shadow box** | **Shadow box in progress, due Sep 18 (13 days)** · ✅ **DOG PATTERN POSTED** · ✅ **Maurya switched to a DROP-OFF this week** — she's ill again · ✅ Welcome automation closed: it's a paid feature, answer is no at 8 subscribers |
+> | **Sat Sep 5 — TODAY** | 🔨 **shadow box** | **Shadow box in progress, due Sep 18 (13 days)** · ⏳ **picture ORDERED, not in hand — build around the empty top-left corner** · ✅ **DOG PATTERN POSTED** · ✅ **Maurya switched to a DROP-OFF this week** — she's ill again · ✅ Welcome automation closed: it's a paid feature, answer is no at 8 subscribers |
 > | **Tue Sep 8** | 📊 + 🚗 | **Traffic re-measure** — does the free pattern have a search/Pinterest tail, or was Aug 25 a one-off Facebook spike? Reminder scheduled. ⚠️ **Maurya's pickup is the SAME DAY, not the next one** — corrected 2026-09-05; Sep 8 is a Tuesday. |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
@@ -653,6 +653,21 @@ Two rules that keep this useful:
       That is the SIMPLE end of what this could have been — nothing like the framed paper, medals
       and individually-mounted costume the pricing note feared. **So $250 holds.** The one figure
       in the $1,050 job with no hour estimate behind it now has a scope that fits it.
+
+      ⏳ **THE PICTURE IS ORDERED, NOT IN HAND — 2026-09-05. THE JOB NOW WAITS ON A DELIVERY.**
+      Owner aims to finish this week; **due Sep 18, 13 days from 2026-09-05.**
+      ⚠️ **This is the five-for-five lesson again** — fabric, fabric, ticking, batting, clips, and
+      now a print. **Materials block a job exactly as hard as the design does**, and this one is
+      the layout's anchor: top-left, the first thing the eye lands on.
+      🔁 **So use the counter-move that is proven twice here: BUILD EVERYTHING THE MISSING PART
+      DOESN'T BLOCK.** Maurya's tote was cut before the batting arrived and made its window;
+      Aubrea's bows were sewn before the clips landed. **Mount the costume, the plush and the
+      bicycle, settle the fold, and leave the top-left corner empty** — then the print meets a
+      nearly-finished box instead of a standing start.
+      ✅ **If it is a REPRINT rather than the original, the archival worry largely goes away** —
+      a replaceable print can be mounted however it needs to be, and the "offer Linda a copy and
+      hand back the original" note below is already satisfied. **Still give it a mat**; that is a
+      visual problem, not a conservation one, and it applies to a print just the same.
 
       ### 🗺️ THE LAYOUT — set 2026-09-01, from the materials laid out on the board
       **Frame: Green Tree Gallery 16″ × 20″, portrait, and it IS a true shadow box with depth**
