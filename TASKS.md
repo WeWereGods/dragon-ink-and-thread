@@ -31,7 +31,8 @@ Two rules that keep this useful:
 > | ~~Sun 30~~ | — | — |
 > | ~~Mon 31~~ | 📊 **traffic read** | 68 visits / 85 views in 7 days · **zero to the shop** · Pinterest sent nobody · index regression reverted. **See the traffic entry below.** |
 > | ~~Tue Sep 1~~ | 🔨 | **Linda's SHADOW BOX started** — contents confirmed, $250 holds, layout set |
-> | **Fri Sep 4 — TODAY** | 🔨 **shadow box** | Still at the shadow box, **due Sep 18 (14 days)** · **Maurya now says PICKUP TUE SEP 8 — 6th date, "hopefully"** · dog-pattern post written and still unposted (4 days) |
+> | ~~Fri Sep 4~~ | 🔨 | Shadow box · 5 direct visits, 3 to PRODUCT pages, source unexplained |
+> | **Sat Sep 5 — TODAY** | 🔨 **shadow box** | **Shadow box in progress, due Sep 18 (13 days)** · ✅ **DOG PATTERN POSTED** · ✅ **Maurya switched to a DROP-OFF this week** — she's ill again · ✅ Welcome automation closed: it's a paid feature, answer is no at 8 subscribers |
 > | **Tue Sep 8** | 📊 + 🚗 | **Traffic re-measure** — does the free pattern have a search/Pinterest tail, or was Aug 25 a one-off Facebook spike? Reminder scheduled. ⚠️ **Maurya's pickup is the SAME DAY, not the next one** — corrected 2026-09-05; Sep 8 is a Tuesday. |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
@@ -192,7 +193,12 @@ Two rules that keep this useful:
         it" note is spent.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       ✅ **BOTH PIECES COMPLETE 2026-08-18 — but NOT YET HANDED OVER.**
-      📅 **SIXTH DATE: PICKUP, TUE SEP 8, "hopefully" (told 2026-09-04).** Finished and waiting
+      ✅ **CHANGED TO A DROP-OFF, 2026-09-05 — the owner will take it to her this week.** She is
+      ill again, and the owner has switched the arrangement rather than set a seventh date.
+      **This removes the step that failed five times out of five** (Maurya travelling). Nothing
+      else about the order is outstanding; the piece has been finished since Aug 18.
+      📅 *Superseded:* sixth date was a PICKUP, Tue Sep 8, "hopefully" (told 2026-09-04).
+      Finished and waiting
       since Aug 18 — **17 days** as of 2026-09-04.
       ⚠️ **"Hopefully" is the same word she used before the Aug 27 no-show. Treat Tue Sep 8 as
       likely, not fixed**, and don't build anything on it that can't slip a seventh time.
@@ -482,8 +488,25 @@ Two rules that keep this useful:
     visits across its four domains (`www.` 22, `m.` 14, bare 2, `l.` 1), plus 27 direct.
     ⚠️ **Every plan naming Pinterest as a channel is currently planning against nothing.** Not an
     argument to stop pinning — it is a long game — but it cannot be counted on for Q4.
-  - 🐕 **THE DOG PATTERN GOT ZERO VISITS**, so the two-patterns experiment never ran. Nothing
-    pointed anyone at it. It is finished, it has a pin, and it has never been seen.
+  - 🐕 ~~**THE DOG PATTERN GOT ZERO VISITS**~~ — **POSTED at last, confirmed 2026-09-05.** The
+    two-patterns experiment is finally running. **Read it on Sep 8**: `/pattern-dog-neckerchief.html`
+    visits in the Path tab, and the **`pattern-neckerchief`** tag in `tools/buttondown-report.js`.
+    The scrunchie's number to beat is **20 visits → 0 signups**.
+  - ❓ **UNEXPLAINED, AND WORTH WATCHING: 5 direct visits on 2026-09-04, three of them landing
+    straight on PRODUCT pages** (`scrunchie-pretty-in-pink`, `bow-something-blue`,
+    `tote-strawberry-v2`), across three categories in ~90 minutes. **Referer: 100% direct.**
+    ⚠️ **Not the owner, and no links were shared** — both confirmed 2026-09-05, which rules out
+    the two easy explanations and leaves this genuinely unexplained.
+    💡 **Best remaining theory: the Pinterest catalog, via the Pinterest APP.** In-app browsers
+    commonly send no referer, so a Product Pin tapped in the app arrives as "direct" — and
+    Product Pins land on **deep product URLs**, which is exactly the shape seen. Nobody types
+    `/scrunchie-pretty-in-pink.html`. **If that is what this is, Pinterest is not dead — it is
+    invisible**, and the "Pinterest has sent zero" conclusion above is measuring the wrong thing.
+    🔍 **How to tell them apart:** Pinterest's own **Analytics → outbound clicks** is independent
+    of Cloudflare's referer, so it sees what Cloudflare cannot. Check it before concluding
+    anything about Pinterest either way.
+    📌 Whichever it is, **this was somebody comparing three products across three categories** —
+    a completely different visitor from the pattern readers who took the free thing and left.
   - ✅ **ONE SELF-INFLICTED WOUND, FOUND AND FIXED (`a025def`).** `/patterns.html` took 18 visits
     and passed **zero** of them through. The nav was changed on 2026-08-27 from "Free Pattern" →
     the pattern, to "Free Patterns" → a new index; with a library of two that index is a door in
@@ -546,11 +569,17 @@ Two rules that keep this useful:
   it.** Recorded here only so the `*` next to it isn't investigated a third time.
   📉 **It does thin the number further, though.** Of 8 subscribers, one is family — so the count
   that matters for a broadcast is smaller than 8, which only sharpens the point above.
-  ⚠️ **THE WELCOME AUTOMATION IS STILL UNDONE — but it is no longer the blocker.** The three
-  emails in `emails/welcome-sequence.md` are written and not set up, so anyone who signs up gets
-  silence. This entry used to say **automation before lead magnet**, on the reasoning that driving
-  signups into silence would scale the problem. **The lead magnet drove zero signups, so nobody
-  hit the silence.** Still worth doing — but it is not standing in front of anything now.
+  ✅ **THE WELCOME AUTOMATION IS OFF THE LIST — 2026-09-05. STOP CARRYING IT.**
+  **It was never a task, it was a purchase.** Buttondown automations are a PAID feature and this
+  account is free-tier (CLAUDE.md has said so all along, at the pattern gate). Confirmed by the
+  owner 2026-09-05: setting it up means paying.
+  **The answer at 8 subscribers — one of whom is family — is NO.** ~$9/mo to automate a greeting
+  for a list that gained 0 people in the last 7 days and 2 in 30 is spending money to solve a
+  problem that has not happened. **Send welcomes by hand**, exactly as `emails/order-updates.md`
+  already works, and revisit when the list is big enough that doing it by hand is a chore.
+  📌 **It has been carried as an open to-do since 2026-08-27** and re-raised in three separate
+  briefs, each time as though it were fifteen minutes of dashboard work. It never was. **A task
+  that cannot be done without a decision is a decision, and it should have been written as one.**
 
 - [x] ✅ **FIXED 2026-08-20 — a cart holding a RETIRED id used to render a broken line.**
   `js/cart.js` now runs `clean()` over the stored cart before anything sees it, and writes the
