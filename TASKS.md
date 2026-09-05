@@ -654,6 +654,23 @@ Two rules that keep this useful:
       and individually-mounted costume the pricing note feared. **So $250 holds.** The one figure
       in the $1,050 job with no hour estimate behind it now has a scope that fits it.
 
+      🔩 **STATUS 2026-09-05: ROUGHLY ASSEMBLED — the remaining work is STABILISING.** Everything
+      is placed; what's left is fixing it in position permanently.
+      ⚠️ **Stabilising is the moment reversibility stops being a choice.** Stitched comes apart
+      again; glued does not. **Stitch wherever it will hold** — then *"it can all be taken apart
+      if you ever want the costume back"* is literally true, which is worth saying to a widow and
+      costs nothing to earn.
+      **The three that matter at this stage, all from the layout below:**
+      1. **Eeyore through the board at the SHOULDERS**, not anchored underneath only — base-only
+         mounting lets him tip forward over a year or two until he rests on the glass.
+      2. **A barrier between the metal bicycle and the satin** — it marks slowly and will look
+         perfect on handover day.
+      3. **Leave the top-left looser than the rest** until the print arrives: the mat adds
+         footprint beyond the picture itself, and placing it now beats unpicking a fold later.
+      📸 **PHOTOGRAPH IT BEFORE THE GLASS GOES ON.** Once sealed there is no clean shot again, and
+      this is a $250 heirloom that will never be made twice. **For the record first** — and
+      ⚠️ **publishing anything of it needs Linda's say-so**, the same rule as Maurya's order.
+
       ⏳ **THE PICTURE IS ORDERED, NOT IN HAND — 2026-09-05. THE JOB NOW WAITS ON A DELIVERY.**
       Owner aims to finish this week; **due Sep 18, 13 days from 2026-09-05.**
       ⚠️ **This is the five-for-five lesson again** — fabric, fabric, ticking, batting, clips, and
