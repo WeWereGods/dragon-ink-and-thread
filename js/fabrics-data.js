@@ -45,6 +45,8 @@ window.DIT_FABRICS = {
       label: "Florals & Botanicals",
       note: "From the tiniest ditsy print to a full blowsy bouquet.",
       items: [
+        { file: "fabric-75.jpg", name: "Daisy Chain in Chambray" },
+        { file: "fabric-76.jpg", name: "Daisy Chain in Butter" },
         { file: "fabric-27.jpg", name: "Sweetheart Bramble" },
         { file: "fabric-32.jpg", name: "Wine and Roses" },
         { file: "fabric-35.jpg", name: "Ashen Blooms" },
@@ -97,6 +99,8 @@ window.DIT_FABRICS = {
       label: "Blenders & Textures",
       note: "Tonal prints and near-solids — what I reach for when the main fabric is doing the talking.",
       items: [
+        { file: "fabric-77.jpg", name: "Bowknots in Scarlet" },
+        { file: "fabric-78.jpg", name: "Bowknots in Cream" },
         { file: "fabric-22.jpg", name: "Valerian Blue" },
         { file: "fabric-43.jpg", name: "Cauldron Forged" },
         { file: "fabric-03.jpg", name: "Blushing Linen" },
@@ -133,7 +137,8 @@ window.DIT_FABRICS = {
         { file: "fabric-67.jpg", name: "Pumpkin Patch Picnic" },
         { file: "fabric-68.jpg", name: "Postmarked Sunshine" },
         { file: "fabric-66.jpg", name: "Amber Wildflowers" },
-        { file: "fabric-74.jpg", name: "Friendly Hauntings" }
+        { file: "fabric-74.jpg", name: "Friendly Hauntings" },
+        { file: "fabric-79.jpg", name: "Midnight Harvest" }
       ]
     }
   ]
