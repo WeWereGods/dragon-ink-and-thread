@@ -115,6 +115,106 @@ where a post isn't.*
 
 ---
 
+## 2. Ribbons and Evergreen — the Christmas fabrics · **READY TO POST**
+
+**Why this one next, and why it is a better post than the pattern was:** it points at things
+you **sell**. Post 1 and the scrunchie pattern both brought people who wanted a free thing and
+left — measured 2026-08-31, **zero visits to shop.html or custom.html in a week**. This one has
+custom orders at the end of it instead of a PDF.
+
+**The hook is a real detail, not a sales angle:** the bows are **woven in** — thread tufts, not
+print — in a shop whose signature product is bows. That is the sort of thing people comment on,
+and comments are what decide how far a post travels.
+
+**Timing is the awkward part, so meet it head-on.** It is early September and somebody will say
+"it's too early". The honest answer is the one that also sells: **one of each, ten to fourteen
+days for custom, and when a bolt runs out it is gone.** Say it before they do.
+
+**Link:** `https://www.dragoninkandthread.com/fabrics.html`
+**Fabrics:** Bowknots in Scarlet (`fabric-77`) · Bowknots in Cream (`fabric-78`), in the new
+**Ribbons and Evergreen** group.
+📸 **Best photo — the two side by side.** ⭐ **Better, if there is an evening for it: sew ONE bow
+from the scarlet and photograph it on the fabric.** Bows made from bow fabric is the whole post
+in a single image, and it turns "here is some cloth" into "here is a finished thing you can
+buy". Worth the hour.
+
+---
+
+### 2a. Your own Facebook page — the one with the link
+
+> I found fabric with bows woven into it, which feels like something that should have happened to
+> me sooner.
+>
+> They're not printed on — they're little thread tufts, scarlet and green, scattered over a check
+> shot through with gold. One version is unapologetically Christmas. The other is a soft cream
+> gingham that only whispers it, and I think I love that one more.
+>
+> Yes, it's September. I know. But I make one of each thing, custom orders take ten to fourteen
+> days, and when a bolt runs out it's gone — so if you want something under a tree in December,
+> right now is the easy version of that conversation rather than the panicked one.
+>
+> They're both in the fabric library, in a new corner called Ribbons and Evergreen. Have a look
+> and tell me what you'd want made from them — a bow, a bandana for the dog, a book sleeve, a
+> tote.
+>
+> https://www.dragoninkandthread.com/fabrics.html
+
+---
+
+### 2b. Instagram — no clickable link, so the caption has to do the work
+
+*⚠️ Instagram sends **no attributable traffic** (no clickable link in a post) — its effect lands
+in Cloudflare as **direct**, which was 27 of 66 visits in the week of 2026-08-31 and the biggest
+single bucket after Facebook. **Do not read "Instagram sent nothing" off the referer report;**
+it cannot show up there.*
+
+> Bows. Woven into the fabric. Not printed — actual little thread knots, scattered over a check
+> shot with gold.
+>
+> One is properly Christmas, scarlet and black. The other only hints at it: cream gingham, soft
+> as anything, and quietly my favourite.
+>
+> It's September and I'm already thinking about December, because I make one of each and a custom
+> piece takes a fortnight. Both new in the fabric library — link in bio, and tell me what you'd
+> have made.
+
+---
+
+### 2c. Local San Antonio groups — where selling IS allowed
+
+*Template 1 territory in `facebook-groups.md`. **Lead with local pickup**, which is the genuine
+advantage and only matters here. Ends by deferring to the mods, which costs nothing.*
+
+> Hi all — I'm Ayla, I sew handmade bits at my kitchen table here in San Antonio.
+>
+> Two new Christmas fabrics landed this week and they have tiny bows *woven into* them, which for
+> someone who makes hair bows for a living felt a bit like being handed a gift. One's a
+> red-and-black check, the other a soft cream gingham.
+>
+> I take custom orders — you pick the fabric, I come back with a price, and nothing's charged
+> until you've said yes. Ten to fourteen days, and **local pickup is free** if you're nearby, so
+> no postage at all.
+>
+> Whole fabric library is here if you'd like a look: https://www.dragoninkandthread.com/fabrics.html
+>
+> (Mods — hope this is okay for the group, happy to take it down if not.)
+
+---
+
+### Posting notes for #2
+
+- **Not on the same day as each other**, and not the same day as anything from post 1 — identical
+  or near-identical text across groups gets reach suppressed on all of them.
+- **This is the first post in weeks that points at something for sale.** The number to watch is
+  therefore **visits to `custom.html` and `fabrics.html`**, not the total. Zero in the week of
+  Aug 31; anything above zero is new information.
+- ⚠️ **Custom turnaround is 10–14 days from agreeing the details** — quilts are the 8–12 week
+  exception and are not in play here. Don't let a comment thread promise anything faster.
+- **Answer "what could you make from it?" with the bands, not a guess:** bows $13–20 ·
+  scrunchies $8–12 · bandanas $22–35 · book sleeves $35–50 · home pieces $40–60 · totes $50–100.
+
+---
+
 ## Ideas — not written yet
 
 - **The Quilted Court Bandana** ($22) and **The Suriel Tea Cover** ($35) have **never been
