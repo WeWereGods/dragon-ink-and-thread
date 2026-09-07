@@ -99,8 +99,6 @@ window.DIT_FABRICS = {
       label: "Blenders & Textures",
       note: "Tonal prints and near-solids — what I reach for when the main fabric is doing the talking.",
       items: [
-        { file: "fabric-77.jpg", name: "Bowknots in Scarlet" },
-        { file: "fabric-78.jpg", name: "Bowknots in Cream" },
         { file: "fabric-22.jpg", name: "Valerian Blue" },
         { file: "fabric-43.jpg", name: "Cauldron Forged" },
         { file: "fabric-03.jpg", name: "Blushing Linen" },
@@ -139,6 +137,14 @@ window.DIT_FABRICS = {
         { file: "fabric-66.jpg", name: "Amber Wildflowers" },
         { file: "fabric-74.jpg", name: "Friendly Hauntings" },
         { file: "fabric-79.jpg", name: "Midnight Harvest" }
+      ]
+    },
+    {
+      label: "Ribbons and Evergreen",
+      note: "The tinsel end of the fabric cupboard, for the once-a-year things.",
+      items: [
+        { file: "fabric-77.jpg", name: "Bowknots in Scarlet" },
+        { file: "fabric-78.jpg", name: "Bowknots in Cream" }
       ]
     }
   ]
