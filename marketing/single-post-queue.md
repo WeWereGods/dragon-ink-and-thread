@@ -115,7 +115,12 @@ where a post isn't.*
 
 ---
 
-## 2. Ribbons and Evergreen — the Christmas fabrics · **READY TO POST**
+## 2. Ribbons and Evergreen — the Christmas fabrics · **READY — but POST #3 FIRST**
+
+⚠️ **Sequencing, decided 2026-09-07: the autumn post (#3) goes out before this one.** Autumn is
+in season now and Christmas is a stretch in early September — this post has to spend a paragraph
+excusing its own timing and #3 doesn't. Christmas follows in a few weeks, once autumn has run.
+
 
 **Why this one next, and why it is a better post than the pattern was:** it points at things
 you **sell**. Post 1 and the scrunchie pattern both brought people who wanted a free thing and
@@ -212,6 +217,110 @@ advantage and only matters here. Ends by deferring to the mods, which costs noth
   exception and are not in play here. Don't let a comment thread promise anything faster.
 - **Answer "what could you make from it?" with the bands, not a guess:** bows $13–20 ·
   scrunchies $8–12 · bandanas $22–35 · book sleeves $35–50 · home pieces $40–60 · totes $50–100.
+
+---
+
+## 3. Postcards and Pumpkins — the autumn fabrics · **READY TO POST — AND THIS ONE GOES FIRST**
+
+🚨 **POST THIS BEFORE #2.** Written second, but it should go out first, and the reason is just
+the calendar: **autumn is in season right now and Christmas is a stretch in early September.**
+Post #2 has to spend a paragraph apologising for its own timing; this one doesn't need to
+explain itself at all. Leading with Christmas and following with autumn would also read
+backwards. **Autumn now, Christmas in a few weeks.**
+
+**The hook is the new one:** Midnight Harvest — black pumpkins on white with fine leaf sprigs,
+added 2026-09-07. Notably **not orange**, which is what makes it work on a dark dog and against
+a cream tote. A new arrival is a reason to post; a group that has existed for weeks isn't.
+
+**Link:** `https://www.dragoninkandthread.com/fabrics.html`
+**The group, five fabrics:** Midnight Harvest (`fabric-79`, new) · Pumpkin Patch Picnic
+(`fabric-67`) · Postmarked Sunshine (`fabric-68`) · Amber Wildflowers (`fabric-66`) ·
+Friendly Hauntings (`fabric-74`).
+📸 **Best photo — all five together, overlapping, shot in daylight.** Five fabrics photograph far
+better than two; this is the more visual post of the pair and that is another reason to lead
+with it. ⭐ **Stronger still: a dog bandana made from Midnight Harvest, on Ghost.** Same argument
+as the bow made from bow fabric — a finished thing beats a stack of cloth.
+
+---
+
+### 3a. Your own Facebook page — the one with the link
+
+> The autumn fabrics are out of the cupboard, which in this house counts as a seasonal event.
+>
+> There's a new one this week: black pumpkins on white, with little sprigs of leaves scattered
+> between them. Far less orange than a pumpkin print has any right to be, and much the better for
+> it — it looks wonderful against a dark coat, which is a thing I think about more than most
+> people.
+>
+> It joins Pumpkin Patch Picnic, Postmarked Sunshine, Amber Wildflowers and Friendly Hauntings.
+> Together they're a corner of the fabric library called Postcards and Pumpkins — autumn by post,
+> sunflowers, and the last warm afternoons.
+>
+> Most of these end up as dog bandanas, because a dog in a pumpkin print is very hard to argue
+> with. They'd also make lovely bows, scrunchies, a book sleeve, a tea cover.
+>
+> Have a look and tell me what you'd want made:
+> https://www.dragoninkandthread.com/fabrics.html
+
+---
+
+### 3b. Quilting / sewing groups — ask what they'd make
+
+*⚠️ **This version sells nothing and names no price**, which is what makes it postable where
+promotion is banned. It is the same move as template 3 in `facebook-groups.md` and post 1b: a
+real question, asked of people who enjoy answering it. **No link in the post** — offer it.*
+
+> New autumn fabric came in and I've been arguing with myself about it all week.
+>
+> It's black pumpkins on white, with fine little leaf sprigs between — no orange in it anywhere,
+> which is either the best thing about it or a mistake, and I genuinely can't decide. Part of me
+> wants to piece it with something warm to put the autumn back in. The rest of me thinks the
+> restraint is the whole point and I should leave it be.
+>
+> What would you do with a seasonal print that refuses to use the season's colours? Piece it
+> against something warmer, or let it be cold and graphic?
+
+---
+
+### 3c. Instagram — the caption carries it
+
+> The autumn fabrics are out of the cupboard, which around here counts as an event.
+>
+> New this week: black pumpkins on white, with the smallest leaf sprigs scattered between them.
+> No orange anywhere — and against a dark coat it's the loveliest thing.
+>
+> It joins Pumpkin Patch Picnic, Postmarked Sunshine, Amber Wildflowers and Friendly Hauntings in
+> a corner of the library called Postcards and Pumpkins. Autumn by post.
+>
+> Link in bio — tell me what you'd have made from it. 🎃
+
+---
+
+### 3d. Dog groups — ⚠️ ONLY IF THERE IS A PHOTO
+
+*Pet groups forgive a good dog photo and nothing else. **This version needs a bandana actually
+made from Midnight Harvest and worn** — without that there is no post here, and a fabric flat-lay
+in a dog group is just an advert. Photo-led, no link, no price.*
+
+> Ghost in his autumn kit, entirely unaware that it's a whole season and not just a Tuesday.
+>
+> Black pumpkins, no orange anywhere — turns out the trick with a dark dog is not to fight him
+> for the colour.
+
+---
+
+### Posting notes for #3
+
+- **Order: this one, then a gap, then #2.** Autumn now; Christmas in a few weeks.
+- **Not the same text in two groups on the same day.** Your own page first, a group a day or two
+  later — that rule has its own section in `facebook-groups.md`.
+- **What to measure:** `fabrics.html` and `custom.html` visits. Both were **zero** in the week of
+  2026-08-31, so anything at all is a change. The total visit count is the wrong number to watch.
+- **Answer "what could you make?" with the bands:** bows $13–20 · scrunchies $8–12 · bandanas
+  $22–35 · book sleeves $35–50 · home pieces $40–60 · totes $50–100. **10–14 days for custom.**
+- 📌 **Two live listings have still never been announced** — the Quilted Court Bandana ($22) and
+  The Suriel Tea Cover ($35). A tea cover is about as autumn as an object gets; if this post goes
+  well, that is the obvious follow-up and it needs no new photography.
 
 ---
 
