@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-05.**
+**Last reviewed: 2026-09-07.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -32,8 +32,9 @@ Two rules that keep this useful:
 > | ~~Mon 31~~ | 📊 **traffic read** | 68 visits / 85 views in 7 days · **zero to the shop** · Pinterest sent nobody · index regression reverted. **See the traffic entry below.** |
 > | ~~Tue Sep 1~~ | 🔨 | **Linda's SHADOW BOX started** — contents confirmed, $250 holds, layout set |
 > | ~~Fri Sep 4~~ | 🔨 | Shadow box · 5 direct visits, 3 to PRODUCT pages, source unexplained |
-> | **Sat Sep 5 — TODAY** | 🔨 **shadow box** | **Shadow box in progress, due Sep 18 (13 days)** · ⏳ **picture ORDERED, not in hand — build around the empty top-left corner** · ✅ **DOG PATTERN POSTED** · ✅ **Maurya switched to a DROP-OFF this week** — she's ill again · ✅ Welcome automation closed: it's a paid feature, answer is no at 8 subscribers |
-> | **Tue Sep 8** | 📊 + 🚗 | **Traffic re-measure** — does the free pattern have a search/Pinterest tail, or was Aug 25 a one-off Facebook spike? Reminder scheduled. ⚠️ **Maurya's pickup is the SAME DAY, not the next one** — corrected 2026-09-05; Sep 8 is a Tuesday. |
+> | ~~Sat Sep 5~~ | 🔨 | Shadow box · ✅ **DOG PATTERN POSTED** · ✅ Maurya switched to a DROP-OFF · ✅ Welcome automation closed (paid feature, answer is no at 8 subscribers) |
+> | **Mon Sep 7 — TODAY** | 🧵 + 📣 | ✅ **5 NEW FABRICS LIVE — library is 76**, and an 8th group, **Ribbons and Evergreen**, for the two Christmas prints · ✅ **AUTUMN POST PUBLISHED** (Postcards and Pumpkins, own page) · shadow box stabilising, **picture still not in hand** |
+> | **Tue Sep 8** | 📊 + 🚗 | **Traffic re-measure — now with TWO live posts to judge** (dog pattern Sep 5, autumn fabrics Sep 7). Reminder scheduled. ⚠️ **Maurya's drop-off is this week.** Sep 8 is a Tuesday. |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her

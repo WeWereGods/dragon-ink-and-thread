@@ -220,7 +220,16 @@ advantage and only matters here. Ends by deferring to the mods, which costs noth
 
 ---
 
-## 3. Postcards and Pumpkins — the autumn fabrics · **READY TO POST — AND THIS ONE GOES FIRST**
+## 3. Postcards and Pumpkins — the autumn fabrics · ✅ **POSTED 2026-09-07 (own page)**
+
+✅ **The page version (3a) went out 2026-09-07.** Groups still to follow — **a day or two later
+and in different words**, never the same text twice in a window.
+📊 **THIS IS THE FIRST POST IN WEEKS THAT POINTS AT SOMETHING FOR SALE, so measure it as one.**
+The number is **`fabrics.html` and `custom.html` visits**, both of which were **zero** in the week
+of 2026-08-31. Anything above zero is new information. The total visit count is the wrong measure
+and will mislead. Facebook traffic is heavily front-loaded — the Aug 25 pattern post did 18 of
+its 22 visits inside one hour — so most of the answer arrives within a day.
+
 
 🚨 **POST THIS BEFORE #2.** Written second, but it should go out first, and the reason is just
 the calendar: **autumn is in season right now and Christmas is a stretch in early September.**
