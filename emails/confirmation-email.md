@@ -46,30 +46,41 @@ in the world uses, and it describes a chore.
 
 ---
 
-## Body
+## Body — ⚠️ PLAIN TEXT, NO MARKDOWN. Paste exactly.
+
+⚠️ **TWO THINGS BIT US HERE ON 2026-09-09, both silent-ish, both worth knowing:**
+
+1. **`{{ confirmation_url }}` must sit BARE.** A first draft wrapped it as
+   `**{{ confirmation_url }}**` and Buttondown refused to save at all:
+   *"The custom subscription confirmation email text must contain the {{ confirmation_url }}
+   placeholder."* It does a literal check and the asterisks defeat it. **Leave the placeholder
+   alone on its own line with nothing attached to it.**
+2. **This template does NOT render Markdown.** The editor showed `**` as literal asterisks, so
+   every bold marker would have shipped visible in the sent email. **No `**`, no `_`, no `#`
+   anywhere in this file's body.** Structure it with blank lines only.
 
 > Hello —
 >
-> **If you came for one of the free patterns, you've already got it** — it downloads straight on
-> the page, so nothing is on its way and nothing has gone missing.
+> If you came for one of the free patterns, you've already got it. It downloads straight on the
+> page, so nothing is on its way and nothing has gone missing.
 >
 > This is just the bit where you say yes to me writing to you now and then. One tap:
 >
-> **{{ confirmation_url }}**
+> {{ confirmation_url }}
 >
-> And if you'd rather not — genuinely, that's fine. Ignore this and nothing happens. **You keep
-> the pattern either way**; it was a gift, not a trade.
+> And if you'd rather not — genuinely, that's fine. Ignore this and nothing happens. You keep the
+> pattern either way; it was a gift, not a trade.
 >
-> Still here? Lovely. I'm Ayla. I sew handmade things at my kitchen table in San Antonio —
-> totes, hair bows, scrunchies, dog bandanas, padded book sleeves — mostly in cottagecore and
-> bookish prints, and mostly one of a kind.
+> Still here? Lovely. I'm Ayla. I sew handmade things at my kitchen table in San Antonio — totes,
+> hair bows, scrunchies, dog bandanas, padded book sleeves — mostly in cottagecore and bookish
+> prints, and mostly one of a kind.
 >
-> What you'd be signing up for: a note when there's a **new free pattern**, a look at whatever
-> is on the machine, and occasionally a mistake I made so you don't have to make it too. Not
-> often, and never just to fill a Tuesday.
+> What you'd be signing up for: a note when there's a new free pattern, a look at whatever is on
+> the machine, and occasionally a mistake I made so you don't have to make it too. Not often, and
+> never just to fill a Tuesday.
 >
 > Ayla 🧵
-> **Dragon Ink and Thread** — handmade in San Antonio
+> Dragon Ink and Thread — handmade in San Antonio
 > ★ Proudly Veteran-Owned
 
 ---
