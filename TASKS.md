@@ -536,10 +536,20 @@ Two rules that keep this useful:
     hours."** **So the 36 did not ignore one email. They ignored two.** This is the finding that
     matters most, and it guts the better-copy theory: they were asked twice, by a reminder that
     already exists, and did nothing.
-  - ⚠️ **"SUBSCRIBER CLEANUP" IS ON** — *"automatically remove invalid or inactive
-    subscribers."* **This may be quietly deleting the unconfirmed**, which would make 48 records
-    an undercount of what actually arrived. **Not yet understood — click through and find out
-    before trusting any record count.**
+  - ✅ **"SUBSCRIBER CLEANUP" STAYS ON — owner's decision, 2026-09-09.** *"Automatically remove
+    invalid or inactive subscribers."* Twelve real people beat forty-eight mostly-dead records,
+    and it keeps the free-tier count honest.
+    🚨 **CONSEQUENCE — TODAY'S SNAPSHOT IS THE ONLY RECORD OF THE ACTIVATION RATE.** Once cleanup
+    has run, the unconfirmed rows are gone and **`48 records / 12 active` can never be
+    recomputed.** Anyone re-running `tools/buttondown-report.js` later will see a healthy list
+    and no trace of the ~36 who didn't confirm.
+    📌 **So write the number down here and treat it as fixed: on 2026-09-09, ~40 signups from one
+    Facebook reply produced 4 confirmed subscribers. ~10%.** That is the planning figure, and it
+    will not be re-derivable from the tool.
+    ⚠️ **It also breaks record-count comparisons across time.** Future reports measure a list
+    that prunes itself, so **a flat record count does not mean nobody signed up** — it may mean
+    people signed up and were cleaned. **Only the ACTIVE count and the tag split are comparable
+    from here on.**
   🧭 **SO THE HONEST REFRAME, and it changes the plan rather than the copy.** People who wanted a
   free PDF, got it instantly on the page, and then ignored two emails are telling us plainly:
   **they wanted the pattern, not the shop.** The four who confirmed are the ones who actually
