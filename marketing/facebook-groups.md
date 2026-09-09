@@ -204,6 +204,46 @@ else.* Don't talk yourself out of brevity.
 >
 > https://www.dragoninkandthread.com/fabrics.html
 
+**⑨ "Does anyone make memory / T-shirt quilts?" — ⚠️ NAME THE 8–12 WEEKS AND THE FABRIC**
+*Quilts are the ONE category that breaks the 10–14 day turnaround, so a reply that quotes a
+quilt without the exception is publishing a promise the shop can't keep. The washability point
+is not padding: on 2026-08-13 an enquirer withdrew on learning a wool quilt can't be machine
+washed — **that disclosure working is what stopped 40 hours going into a jacket already cut up.**
+Saying it up front is also the single most competent-sounding thing you can say in a quilt
+thread.*
+> I do take these on. Two things worth knowing before you ask anyone, though —
+>
+> A memory quilt is an eight to twelve week job, not a fortnight. Every piece gets interfaced
+> before it's cut, and there's no undoing it once it is.
+>
+> And it matters what the clothes are made of. Cotton — t-shirts, shirts, pyjamas — makes a quilt
+> you can machine wash. Wool suits and jackets make a beautiful quilt that's dry-clean only,
+> forever, and people tend to find that out afterwards rather than before.
+>
+> Happy to talk it through either way.
+
+**⑩ "Can anyone repair / mend a quilt?"**
+*Repairs are banded **from $40, no ceiling**, and there is a real before/after on custom.html.
+Quilting groups engage hard with repair — see template 3.*
+> Mending is a good chunk of what comes to me — worn bindings, holes, batting working its way
+> out.
+>
+> Two things that help whoever ends up doing it: photograph it before anyone touches it, and try
+> to work out whether it's the fabric that's gone or the stitching. They're quite different jobs
+> and they price differently.
+>
+> Happy to look at photos and give you an honest opinion if that's useful.
+
+**⑪ ⭐ "What should I charge for a memory quilt?" — maker to maker, sells nothing, lands well**
+*A pricing question from another maker is the most welcome thing you can answer in a quilting
+group, and it establishes more credibility than any advert would. Real numbers from
+CLAUDE.md: 35–55 hours, throws at $650–950, heirloom-from-clothing floor $650.*
+> For what it's worth — a throw-sized memory quilt out of clothing is genuinely 35 to 55 hours
+> once you've interfaced every single piece, and none of it can be undone if a cut goes wrong.
+>
+> I don't take one on under $650, and I'd be a bit wary of anyone quoting you a fortnight or a
+> couple of hundred. That's usually someone who hasn't finished one yet.
+
 **⑧ ⭐ When you DON'T have what they're asking for — answer anyway, with no link.**
 *This is the one that gets skipped and shouldn't be. People click the profiles of names they
 recognise. Being useful in a thread you can't sell into is what makes the next thread work, and
