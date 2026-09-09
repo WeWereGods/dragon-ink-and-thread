@@ -1,5 +1,36 @@
 # The confirmation email — Buttondown's double opt-in
 
+## 🔴 BLOCKED 2026-09-09 — CUSTOMISING THIS IS A PAID FEATURE. DO NOT RETRY THE COPY.
+
+**Buttondown refuses to save any custom confirmation email on the free tier.** It needs the
+`custom_transactional_emails` plan
+([docs](https://docs.buttondown.com/transactional-emails-confirmation)).
+⚠️ **The error message does not say so.** It reports
+*"The custom subscription confirmation email text must contain the {{ confirmation_url }}
+placeholder"* — a validation error — so three rewrites were spent debugging the text before
+anyone checked the plan. **Even a hand-typed, bare `{{ confirmation_url }}` and nothing else was
+rejected.** If you see that error, the answer is the plan, not the wording.
+
+📌 **Second time in a week a "settings task" turned out to be a purchase** — the welcome
+automation was the first (closed 2026-09-05). **Check whether a Buttondown feature is free
+BEFORE writing copy for it.**
+
+✅ **THE FREE FIX IS BETTER ANYWAY: turn double opt-in OFF.** Settings → Subscribing. With no
+confirmation step, signups become active immediately — that removes the ~90% leak entirely
+rather than trying to write past it, and costs nothing.
+**Trade-off, honestly:** some typo'd and junk addresses land on the list, and mailing unconfirmed
+addresses is mildly worse for sender reputation. At this size that is a small price against
+**4 activations out of 40**.
+❓ **Unverified: whether double opt-in can actually be switched off on the free plan.** Check that
+in the same settings page. If it can't, the confirm-nudge line in `tools/build-patterns.js` is
+the only free lever, and the real question becomes whether an upgrade is worth it at 12 actives.
+
+**The copy below stays** — it is ready to paste the day the plan changes or the answer to the
+above turns out to be no.
+
+---
+
+
 **Written 2026-09-09.** This replaces Buttondown's default template, which is the one that
 **~36 of ~40 signups did not click** after the Sep 8 Facebook reply. Measured that day:
 **48 records, 12 active** — roughly a 10% activation rate.
