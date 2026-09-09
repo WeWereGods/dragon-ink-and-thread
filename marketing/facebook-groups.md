@@ -100,13 +100,62 @@ comment that took under a minute.
 - **They asked where to buy something → no link.** Use the neighbourly note below; a link there
   reads as an advert and can get you removed.
 
-### 🔎 THE ACTION THIS CREATES: go looking for these threads
-Rule 4 below has said "set up alerts for those" since 2026-08-11 and it was never done. **It is
-now the highest-value half-hour in the week.** Facebook has no real keyword alerting, so it is
-manual: **join more beginner-sewing, dog and craft groups, and search them for the recurring
-phrasings** — *"does anyone have a free pattern for"*, *"looking for a pattern"*, *"where can I
-find"*, *"free please"*. **You already hold two free patterns and 76 fabrics; the inventory to
-answer with exists.**
+### 🔎 THE HUNT — the actual routine, written 2026-09-09
+
+Rule 4 below has said *"set up alerts for those"* since 2026-08-11 and it was never done, partly
+because **Facebook has no keyword alerts and the advice never said what to do instead.** This is
+what to do instead. **Ten minutes, most days. It is the highest-value ten minutes in the week.**
+
+**⚠️ SPEED IS THE WHOLE GAME.** Three other makers answered the Sep 8 thread — Ellie and Mac,
+Made for Mermaids, Patterns for Pirates. A thread found on day three is already answered. **A
+short daily look beats a thorough weekly one.**
+
+#### 1. The closest thing to an alert: per-group notifications
+Facebook can't watch keywords, but it can watch a *group*. On your two or three highest-signal
+groups: **group page → the bell / notification setting → "All posts."** New questions then come
+to you instead of being hunted. **Do NOT do this for more than about three groups** or the
+notifications become noise and get ignored, which is worse than not having them.
+
+#### 2. Search terms that find these threads
+Use the **search box inside a group** (searches that group only), or Facebook search → **Groups**
+filter → sort by **Recent**. Rotate through these:
+
+| Term | Why |
+|---|---|
+| `free pattern` | the exact ask that worked on Sep 8 |
+| `looking for a pattern` | the most common phrasing |
+| `does anyone have` | catches pattern, fabric and tutorial asks |
+| `need a pattern` | urgency, usually answered fast |
+| `free please` | literally the Sep 8 wording |
+| `dog bandana` | you hold the pattern AND sell the product |
+| `scrunchie pattern` | the other pattern you hold |
+| `where can I find` | often a buying question → template 2's neighbourly version |
+| `beginner project` | you have two genuine beginner patterns |
+
+#### 3. Where to be, in priority order
+- **Beginner sewing groups** — the Sep 8 win came from *Sew So Cute (Beginner Friendly Sewing
+  Group)*. **Highest yield: beginners ask for free patterns constantly**, which is exactly the
+  inventory you hold. **Join two or three more of these before anything else.**
+- **Dog and pet DIY / dog mum groups** — the neckerchief pattern is the strongest asset here, and
+  Ghost is a genuine photo advantage.
+- **Quilting groups** — fewer pattern asks, but see template 3; they engage hard with
+  construction and repair questions.
+- **Local San Antonio craft and buy/sell** — the only place selling is allowed. Template 1.
+
+#### 4. What to have ready, so answering takes seconds
+- Dog neckerchief — `https://www.dragoninkandthread.com/pattern-dog-neckerchief.html`
+- Chunky scrunchie — `https://www.dragoninkandthread.com/pattern.html`
+- Fabric library — `https://www.dragoninkandthread.com/fabrics.html`
+- ⚠️ **Post the LINK when the ask is for a free resource** (see the link rule above). **Post the
+  neighbourly note, no link, when the ask is where to buy.**
+- **From the personal account, not the shop page.** That is what made the Sep 8 reply read as a
+  person helping rather than a business advertising.
+
+#### 5. What to expect, so it isn't misjudged
+**~4 confirmed subscribers per successful reply** — measured 2026-09-09, after ~40 signups from
+the Sep 8 thread produced 4 confirmations. **Not 40.** Most people take the free PDF and never
+confirm, and that is fine. **Four is still infinitely better than the zero every broadcast post
+this shop has ever made.**
 
 ### The neighbourly version — for "where can I buy one", not "where's a free pattern"
 
