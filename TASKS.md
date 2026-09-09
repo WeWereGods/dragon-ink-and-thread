@@ -514,6 +514,29 @@ Two rules that keep this useful:
   Nine reached the homepage and two a product page — better than the flat zero of the week of
   Aug 31, but **the finding holds: people who come for a free pattern do not go shopping.**
   📌 **PLAN WITH THIS PER SUCCESSFUL REPLY: ~150 visits · ~40 signups · ~4 subscribers · 0 sales.**
+
+  ### ⚠️ CAVEAT ON THE 10% — A BUTTONDOWN INCIDENT WAS RUNNING THAT WEEK
+  **Buttondown's status page, checked 2026-09-09 ~15:40 CDT:** an open incident, *"Issues with
+  the web app, and the backlog… affects Emails, Automations"*, plus a **red mark on
+  Subscriber-facing app** at the right-hand end of the Jun–Sep timeline.
+  ❌ **IT DOES NOT EXPLAIN THE 10%, and shouldn't be used as though it does.** That incident began
+  around **14:43 on the 9th** — roughly **twenty hours after** the Sep 8 signup wave. The
+  activation failure happened first.
+  ⚠️ **But two softer possibilities are now open, and "they simply ignored two emails" was
+  concluded too confidently:**
+  - **Delivery wobble in the preceding day or two** would mean some confirmation emails arrived
+    late. **A confirmation email that lands six hours later is a dead one** — the moment has
+    passed and the reader has their PDF.
+  - **The red mark is on the SUBSCRIBER-FACING app**, which is what serves the confirmation
+    *link*. If that faltered, someone could have clicked confirm and hit an error. Unprovable
+    from here, but it is a second candidate.
+  ✅ **SO DON'T TREAT 4 AS FINAL. Re-run `tools/buttondown-report.js` in a few days** — if any
+  confirmations were delayed, the number may drift up on its own, and the active count is the one
+  figure still comparable over time (see the cleanup note below).
+  🚫 **AND DON'T DRIVE SIGNUPS WHILE THE BANNER IS UP.** The reply tactic depends on the
+  confirmation email landing **while the reader is still on the page**. Replying into a live
+  Emails incident spends a good thread on people who will never get the email. **Check
+  Buttondown's status page before a hunting session** — it costs ten seconds.
   📌 **`marketing/facebook-groups.md` PREDICTED THIS ON 2026-08-11** and it sat unused: *"Answer
   questions rather than broadcasting. Someone asking 'where can I get a handmade dog bandana' is
   worth ten posts of your own. Set up alerts for those."* **The advice was right and the alerts

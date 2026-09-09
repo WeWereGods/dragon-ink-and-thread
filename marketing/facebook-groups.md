@@ -110,6 +110,13 @@ what to do instead. **Ten minutes, most days. It is the highest-value ten minute
 Made for Mermaids, Patterns for Pirates. A thread found on day three is already answered. **A
 short daily look beats a thorough weekly one.**
 
+#### 0. ⚠️ Ten-second check before a hunting session: is Buttondown up?
+**status.buttondown.com** — if **Emails** is flagged, don't spend a good thread today.
+The whole tactic depends on the confirmation email landing **while the reader is still on the
+page**; one that arrives six hours later is a dead one, because they already have the PDF.
+**A live Emails incident turns a 40-signup thread into a 0-subscriber thread.** Found the hard
+way on 2026-09-09, when an incident was running the same week as the first big reply.
+
 #### 1. The closest thing to an alert: per-group notifications
 Facebook can't watch keywords, but it can watch a *group*. On your two or three highest-signal
 groups: **group page → the bell / notification setting → "All posts."** New questions then come
