@@ -157,6 +157,62 @@ the Sep 8 thread produced 4 confirmations. **Not 40.** Most people take the free
 confirm, and that is fine. **Four is still infinitely better than the zero every broadcast post
 this shop has ever made.**
 
+### 📋 READY-TO-PASTE REPLIES, by what they asked
+
+⚠️ **Vary the wording each time.** Pasting identical text into thread after thread is how a
+helpful person starts looking like a bot — and Facebook's spam detection agrees. **Change a few
+words every time.** These are starting points, not scripts.
+⚠️ **Short wins.** The Sep 8 reply that produced ~40 signups was *the bare link and nothing
+else.* Don't talk yourself out of brevity.
+
+**① "Free dog bandana / neckerchief pattern?"**
+> I've got a free one — it's an elastic neckerchief, so it pulls on over the head and there's no
+> knot sitting at the throat. Sizes XS to XL, straight lines all the way through.
+>
+> https://www.dragoninkandthread.com/pattern-dog-neckerchief.html
+
+**② "Free scrunchie pattern?"**
+> Free chunky scrunchie pattern here if it's any use — one rectangle, one bit of elastic, about
+> twenty minutes start to finish.
+>
+> https://www.dragoninkandthread.com/pattern.html
+
+**③ "Looking for a beginner project / first thing to sew"**
+> Both of mine are free and properly beginner — a chunky scrunchie (about twenty minutes) and an
+> elastic dog neckerchief (about forty-five). Straight lines only, no curves, nothing to trace.
+>
+> https://www.dragoninkandthread.com/pattern.html
+> https://www.dragoninkandthread.com/pattern-dog-neckerchief.html
+
+**④ "Where can I get a custom [X] made?" — ⚠️ NO LINK UNTIL THEY ASK**
+> I make these — I'm in San Antonio and sew at home. Tell me what you're after and I'll say
+> whether it's something I do, and happy to send a link if it's useful. 🧵
+
+**⑤ "Where can I buy a handmade [X]?" — a buying question, so stay a neighbour**
+> I actually make these. Happy to show you what I've got if you like — no pressure at all, just
+> saw your post and thought I'd say hello.
+
+**⑥ "Does anyone take custom orders?"**
+> I do — San Antonio, at my kitchen table. You pick the fabric, I come back with a price, and
+> nothing's charged until you've said yes. Usually ten to fourteen days.
+>
+> https://www.dragoninkandthread.com/custom.html
+
+**⑦ "Anyone know where to find [a fabric]?"**
+> Not sure about that exact print, sorry — but I keep a library of everything I've got on hand
+> if it helps, and I can often source something close.
+>
+> https://www.dragoninkandthread.com/fabrics.html
+
+**⑧ ⭐ When you DON'T have what they're asking for — answer anyway, with no link.**
+*This is the one that gets skipped and shouldn't be. People click the profiles of names they
+recognise. Being useful in a thread you can't sell into is what makes the next thread work, and
+it is the only tactic that never gets removed by a mod.*
+> Haven't got one for that I'm afraid — but [the genuinely useful thing you know]. Good luck with
+> it!
+
+---
+
 ### The neighbourly version — for "where can I buy one", not "where's a free pattern"
 
 > I actually make these — I'm in San Antonio and sew them at home. Happy to show you what I've
