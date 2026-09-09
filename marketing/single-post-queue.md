@@ -326,7 +326,8 @@ in a dog group is just an advert. Photo-led, no link, no price.*
 - **What to measure:** `fabrics.html` and `custom.html` visits. Both were **zero** in the week of
   2026-08-31, so anything at all is a change. The total visit count is the wrong number to watch.
 - **Answer "what could you make?" with the bands:** bows $13–20 · scrunchies $8–12 · bandanas
-  $22–35 · book sleeves $35–50 · home pieces $40–60 · totes $50–100. **10–14 days for custom.**
+  $22–35 · book sleeves $35–50 · home pieces $40–60 · totes $50–100 · Christmas stockings
+  $40–65 · gift card holders $12–18. **10–14 days for custom.**
 - 📌 **Two live listings have still never been announced** — the Quilted Court Bandana ($22) and
   The Suriel Tea Cover ($35). A tea cover is about as autumn as an object gets; if this post goes
   well, that is the obvious follow-up and it needs no new photography.
@@ -339,7 +340,8 @@ in a dog group is just an advert. Photo-led, no link, no price.*
 actually for sale, which #2 only half did. Use this one; keep #2's fabric detail as a lighter
 follow-up in October or November if it's still wanted.
 
-🚨 **BLOCKED ON A DECISION FIRST — TWO NEW ITEMS HAVE NO PRICE BAND.** Stockings and gift card
+✅ **UNBLOCKED 2026-09-09 — bands approved and published in all seven places. Post away.**
+*(Historical: this was blocked because two new items had no price band.)* Stockings and gift card
 holders are not in `custom.html`, not in the seven places bands live, not anywhere.
 **CLAUDE.md is explicit about what happens next:** *"This is the third category to be asked for
 before it was priced — book sleeves, home pieces and repairs all got their bands retroactively,
@@ -422,7 +424,8 @@ manufactured urgency, and it doesn't need a countdown.*
   yet evidence of anything**; the sample was too small to read.
 - **Answer "how much?" with the band, never a number off the cuff.** Bows $13–20 · scrunchies
   $8–12 · bandanas $22–35 · book sleeves $35–50 · home pieces $40–60 · totes $50–100 ·
-  **stockings and gift card holders once approved**. Quilts $350+, **8–12 weeks**.
+  **Christmas stockings $40–65 · gift card holders $12–18** (approved 2026-09-09).
+  Quilts $350+, **8–12 weeks**.
 - 📌 **A December cut-off will be needed eventually** — but not in this post. In September it is
   too far off to create urgency and only invites "why are you telling me now". Add it to a
   November post, when it is real.

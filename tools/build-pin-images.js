@@ -247,11 +247,13 @@ const PRICE_BANDS = [
   ["Pet bandanas", "$22–35"],
   ["Bows", "$13–20"],
   ["Scrunchies", "$8–12"],
+  ["Stockings", "$40–65"],
+  ["Gift card holders", "$12–18"],
   ["Quilts", "from $350"],
 ];
 
 async function fbCustomOrders() {
-  const cell = 239, gap = 14;
+  const cell = 200, gap = 14;
   /* The Storykeeper leads — it is the tote in Spellbound Shelves, the
      bookshelf-and-apothecary print, and the most on-brand thing the shop has
      made. ("The spellbound tote" is the fabric's name, not a product name;
@@ -262,7 +264,7 @@ async function fbCustomOrders() {
      at thumbnail size. Pick per-crop, not per-listing. */
   const row = await cells(
     ["tote-storykeeper-2.jpg", "bandana-quilted-court.jpg", "bow-sage-gingham.jpg", "scrunchie-strawberry.jpg"],
-    cell, gap, 41, 250
+    cell, gap, Math.round((FB_W - (4 * cell + 3 * gap)) / 2), 250
   );
 
   /* Six bands, not four (2026-08-11). Rows were 78px apart starting at 640,
@@ -272,16 +274,25 @@ async function fbCustomOrders() {
      seeing it" is a sentence, not a number, and it belongs on the page.
      SEVENTH band added 2026-08-12 (Quilts), which is the case that comment
      anticipated: start moved up 580→540 and the gap eased 68→65, so the block
-     runs 540–930 and still clears the closing line at 1030. Both limits are
-     real — the photo row ends at y=489 and these y values are SVG baselines,
-     so a 42px row starting much above ~525 collides with the photos, and the
-     comment's ~60px floor is where the list stops reading as a list. An
-     eighth band does not fit; it would need the photo row to shrink. */
+     runs 540–930 and still clears the closing line at 1030.
+     ⚠️ **EIGHTH AND NINTH ADDED 2026-09-09 (Stockings, Gift card holders) —
+     and the note above was right that they wouldn't fit.** The first render
+     ran the list to y=1060 and printed "Gift card holders" and "Quilts"
+     straight through the two closing lines. **The photo row had to shrink:**
+     cells 239→200 (so photos end at y=450, not 489) and the row is now
+     centred arithmetically instead of by a hand-tuned x0 of 41. The list
+     moved 540→500, the gap tightened 65→58 and the type 42→38, so nine bands
+     run 500–964 and clear the closing line at 1030 by 66px.
+     📌 **A TENTH band will not fit either.** At that point stop stretching
+     this layout: either drop a band that is really a sentence (repairs
+     already is, and quilts arguably is — 8–12 weeks makes it a conversation,
+     not a price), or move to two columns. **Re-render and LOOK at the file
+     every time a band is added; nothing here errors when it overlaps.** */
   const bandLines = PRICE_BANDS.flatMap(([label, price], i) => {
-    const y = 540 + i * 65;
+    const y = 500 + i * 58;
     return [
-      { text: label, y, x: 250, size: 42, fill: INK, anchor: "start" },
-      { text: price, y, x: 830, size: 42, fill: TEAL, anchor: "end" },
+      { text: label, y, x: 250, size: 38, fill: INK, anchor: "start" },
+      { text: price, y, x: 830, size: 38, fill: TEAL, anchor: "end" },
     ];
   });
 
@@ -290,7 +301,10 @@ async function fbCustomOrders() {
     { text: "and here's what it costs", y: 175, x: FB_W / 2, size: 50, fill: INK },
     ...bandLines,
     { text: "Nothing is charged until you've said yes.", y: 1030, x: FB_W / 2, size: 40, fill: INK },
-    { text: "Seventy-one prints to choose from.", y: 1090, x: FB_W / 2, size: 40, fill: INK },
+    // ⚠️ Derived, not written out. This read "Seventy-one prints" until
+    // 2026-09-09, by which point the library was 76 — a hand-typed count in a
+    // generated image goes stale silently and ships to Facebook looking sloppy.
+    { text: `${ALL.length} prints to choose from.`, y: 1090, x: FB_W / 2, size: 40, fill: INK },
     { text: "Handmade in San Antonio, Texas", y: 1210, x: FB_W / 2, size: 32, fill: TEAL },
     { text: "dragoninkandthread.com", y: 1268, x: FB_W / 2, size: 32, fill: TEAL, spacing: 3 },
   ]);

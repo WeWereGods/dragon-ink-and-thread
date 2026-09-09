@@ -371,7 +371,8 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   `custom-price-list` and the one-line summary above the form; change both together):**
   **REVISED 2026-08-11 — and they live in SEVEN places, not two.** Totes **$50–100** ·
   Book sleeves **$35–50** · Home pieces **$40–60** · Pet bandanas **$22–35** · Bows **$13–20** ·
-  Scrunchies **$8–12** · **Quilts from $350, heirloom quilts from clothing from $650** ·
+  Scrunchies **$8–12** · **Christmas stockings $40–65** · **Gift card holders $12–18** ·
+  **Quilts from $350, heirloom quilts from clothing from $650** ·
   **Repairs & mending from $40, no ceiling.**
   ⚠️ **QUILTS BREAK THE TURNAROUND (added 2026-08-12).** Every other band is a 10–14 day piece;
   a quilt is **8–12 weeks**. So the quilt band could not just be dropped into the seven lists —

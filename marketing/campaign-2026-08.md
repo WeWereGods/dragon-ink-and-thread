@@ -296,7 +296,8 @@ describing a hypothetical one — which is the single biggest thing it can do.
 Lead with the finished work: a photo of one of the custom pieces made this month, and one line
 about what she asked for. Then explain what custom covers (your print, your dimensions, a
 favourite piece recreated), what it costs (totes **$50–100**, book sleeves **$35–50**, home
-pieces **$40–60**, pet bandanas **$22–35**, bows **$13–20**, scrunchies **$8–12**, quilts
+pieces **$40–60**, pet bandanas **$22–35**, bows **$13–20**, scrunchies **$8–12**, Christmas
+stockings **$40–65**, gift card holders **$12–18**, quilts
 **from $350** — heirloom quilts pieced from someone's clothes **from $650** — repairs
 **from $40**, **$25 minimum**), and how long it takes (**10–14 days from
 agreeing the details, plus shipping** — ⚠️ **quilts are 8–12 weeks**, so if a quilt is named in
@@ -359,7 +360,8 @@ permission outstanding, nobody to wait on.
 > identically; it's cloth, not a photocopy.
 >
 > **What it costs** — totes **$50–100** · book sleeves **$35–50** · home pieces **$40–60** · pet
-> bandanas **$22–35** · bows **$13–20** · scrunchies **$8–12** · quilts **from $350** (heirloom
+> bandanas **$22–35** · bows **$13–20** · scrunchies **$8–12** · Christmas stockings **$40–65**
+> · gift card holders **$12–18** · quilts **from $350** (heirloom
 > quilts pieced from someone's own clothes, **from $650**) · repairs and mending **from $40**.
 > There's a **$25 minimum**, which is the polite way of saying a single scrunchie doesn't need a
 > whole conversation.
@@ -860,7 +862,7 @@ same small audience with less news.*
 
 > Nobody asks what custom costs, so I'll just tell you.
 >
-> **Totes $50–100 · Book sleeves $35–50 · Home pieces $40–60 · Pet bandanas $22–35 · Bows $13–20 · Scrunchies $8–12 · Quilts from $350**
+> **Totes $50–100 · Book sleeves $35–50 · Home pieces $40–60 · Pet bandanas $22–35 · Bows $13–20 · Scrunchies $8–12 · Christmas stockings $40–65 · Gift card holders $12–18 · Quilts from $350**
 >
 > **And repairs and mending, from $40** — bring me the quilt with the worn patch and I'll tell you honestly what it needs.
 >
