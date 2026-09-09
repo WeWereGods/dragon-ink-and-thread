@@ -523,28 +523,44 @@ Two rules that keep this useful:
   **four** turned into subscribers — a **~10% activation rate**. Everything else in the marketing
   plan sits downstream of this number: **the reply tactic is worth 4 subscribers a go while this
   holds, and 40 a go if it doesn't.**
-  💡 **STRONG HYPOTHESIS: double opt-in, made worse by our own gate.** Buttondown holds
-  unconfirmed signups as *unactivated* and they **receive nothing**. Meanwhile
-  `tools/build-patterns.js` reveals the PDF **the instant the form is submitted** — so the visitor
-  already has what they came for and has no reason to go and confirm an email. **Our delivery
-  mechanism removes the incentive to finish the signup.** That is a design consequence we caused,
-  not a Buttondown quirk.
-  ✅ **CHECK FIRST — IT IS A SETTINGS TOGGLE:** Buttondown → settings → whether confirmation /
-  double opt-in is on. **If it is, turning it off means the next forty arrive as real
-  subscribers** — same posts, same replies, four times the list, no new work anywhere.
-  ⚠️ **VERIFY BEFORE ACTING.** The report lumps *unactivated, unsubscribed and spam* into one
-  bucket, so **36 is an upper bound** on what double opt-in is costing — a flood of signups can
-  carry junk addresses too. **Confirm the 36 are genuinely unconfirmed before concluding.** This
-  is the same trap as the sales-tax permit on 2026-09-05: a confident claim with no evidence
-  under it, overturned twenty minutes later.
-  📝 **FREE CHANGE EITHER WAY:** the reveal box says *"Here it is — happy sewing. 🧵"* and asks
-  nothing further. It could add *check your inbox and confirm, so I can send you the next
-  pattern.* One edit in `tools/build-patterns.js`, applies to every pattern page, costs nothing,
-  and might recover some of the 36 already sitting there.
-  ✅ **THE WELCOME AUTOMATION STAYS CLOSED — the "this reverses it" of 2026-09-08 was wrong.**
-  At **12 active** and **12/100** of the free tier, ~$9/mo to greet twelve people is the same bad
-  deal it was at eight. **Fix the leak first.** If activation is repaired, the list grows fast
-  enough that the question answers itself — and then it is a real decision rather than a reflex.
+  🔻 **THE SETTINGS PAGE WAS READ 2026-09-09 AND IT KILLED MOST OF A DAY'S THEORIES. What is
+  actually true:**
+  - ❌ **THERE IS NO DOUBLE OPT-IN OFF SWITCH.** Settings → Subscribing has *Public
+    subscriptions*, *Subscription reminders*, *Subscriber cleanup* and *Welcome email* — and no
+    toggle to stop requiring confirmation. **The free fix recorded earlier today does not
+    exist.** Confirmation appears to be mandatory on Buttondown.
+  - ❌ **CUSTOMISING THE CONFIRMATION EMAIL IS A PAID FEATURE** (`custom_transactional_emails`).
+    Three rewrites were spent before this was checked; the error message says the placeholder is
+    missing rather than mentioning the plan. Full write-up in `emails/confirmation-email.md`.
+  - 🔑 **"SUBSCRIPTION REMINDERS" IS ALREADY ON — "remind unconfirmed subscribers after 24
+    hours."** **So the 36 did not ignore one email. They ignored two.** This is the finding that
+    matters most, and it guts the better-copy theory: they were asked twice, by a reminder that
+    already exists, and did nothing.
+  - ⚠️ **"SUBSCRIBER CLEANUP" IS ON** — *"automatically remove invalid or inactive
+    subscribers."* **This may be quietly deleting the unconfirmed**, which would make 48 records
+    an undercount of what actually arrived. **Not yet understood — click through and find out
+    before trusting any record count.**
+  🧭 **SO THE HONEST REFRAME, and it changes the plan rather than the copy.** People who wanted a
+  free PDF, got it instantly on the page, and then ignored two emails are telling us plainly:
+  **they wanted the pattern, not the shop.** The four who confirmed are the ones who actually
+  want to hear from her. **That is a filter working, not a funnel leaking** — and the reply
+  tactic is therefore worth **~4 real subscribers a go, not 40.** Still far better than every
+  broadcast post ever made here, which is zero. **Plan with 4.**
+  💸 **AND THAT SETTLES THE UPGRADE QUESTION FOR NOW: don't.** The only paid lever is rewriting a
+  confirmation email that people are already ignoring twice. **Paying to reword the second of two
+  emails nobody opens is the weakest possible case for spending money.**
+  📝 **The one free change was made anyway** (`54ee941`): the pattern reveal box now says *"If a
+  confirmation email lands, do click it — it's the only way I can send you the next pattern."*
+  Costs nothing. **Expect little** — the 24-hour reminder was already doing this job.
+  ✅ **CORRECTION — "THEY GOT SILENCE" WAS WRONG, and it was repeated in three briefs.**
+  **Buttondown's Welcome email toggle is ON** ("send a welcome email when a subscriber
+  confirms"), so anyone who confirms *is* greeted. What is not set up is the **three-email
+  sequence** in `emails/welcome-sequence.md`, which is a different thing needing paid automations.
+  **The two were conflated repeatedly here.** A confirmed subscriber gets a welcome; an
+  unconfirmed one gets a reminder. Nobody gets silence.
+  ✅ **THE WELCOME SEQUENCE STAYS CLOSED — the "this reverses it" of 2026-09-08 was wrong.**
+  At **12 active** and **12/100** of the free tier, ~$9/mo is the same bad deal it was at eight,
+  and there is now a built-in welcome email doing the minimum already.
 
 - [ ] 📊 **TRAFFIC, MEASURED 2026-08-31 (Cloudflare, last 7 days, bots excluded). READ THIS
   BEFORE PLANNING ANY MORE MARKETING.** 68 visits · 85 page views · **1.25 pages per visit**.

@@ -15,15 +15,16 @@ rejected.** If you see that error, the answer is the plan, not the wording.
 automation was the first (closed 2026-09-05). **Check whether a Buttondown feature is free
 BEFORE writing copy for it.**
 
-✅ **THE FREE FIX IS BETTER ANYWAY: turn double opt-in OFF.** Settings → Subscribing. With no
-confirmation step, signups become active immediately — that removes the ~90% leak entirely
-rather than trying to write past it, and costs nothing.
-**Trade-off, honestly:** some typo'd and junk addresses land on the list, and mailing unconfirmed
-addresses is mildly worse for sender reputation. At this size that is a small price against
-**4 activations out of 40**.
-❓ **Unverified: whether double opt-in can actually be switched off on the free plan.** Check that
-in the same settings page. If it can't, the confirm-nudge line in `tools/build-patterns.js` is
-the only free lever, and the real question becomes whether an upgrade is worth it at 12 actives.
+❌ **AND THE FREE FIX I PROPOSED DOES NOT EXIST.** Settings → Subscribing was read the same day:
+it offers *Public subscriptions*, *Subscription reminders*, *Subscriber cleanup* and *Welcome
+email*, and **no toggle to stop requiring confirmation.** Double opt-in appears to be mandatory.
+🔑 **What that page did reveal: "Subscription reminders" is ALREADY ON** — *"remind unconfirmed
+subscribers after 24 hours."* **So the 36 ignored TWO emails, not one.** That is the strongest
+argument against ever paying for this feature: **rewriting the second of two emails nobody opens
+is the weakest case for spending money there is.**
+🧭 **Which makes the reframe:** people who took a free PDF and ignored two follow-ups wanted the
+pattern, not the shop. **~4 real subscribers per group reply is the honest planning number**, and
+it is still infinitely better than the zero every broadcast post has produced.
 
 **The copy below stays** — it is ready to paste the day the plan changes or the answer to the
 above turns out to be no.
