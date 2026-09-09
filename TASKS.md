@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-07.**
+**Last reviewed: 2026-09-09.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -33,7 +33,8 @@ Two rules that keep this useful:
 > | ~~Tue Sep 1~~ | 🔨 | **Linda's SHADOW BOX started** — contents confirmed, $250 holds, layout set |
 > | ~~Fri Sep 4~~ | 🔨 | Shadow box · 5 direct visits, 3 to PRODUCT pages, source unexplained |
 > | ~~Sat Sep 5~~ | 🔨 | Shadow box · ✅ **DOG PATTERN POSTED** · ✅ Maurya switched to a DROP-OFF · ✅ Welcome automation closed (paid feature, answer is no at 8 subscribers) |
-> | **Mon Sep 7 — TODAY** | 🧵 + 📣 | ✅ **5 NEW FABRICS LIVE — library is 76**, and an 8th group, **Ribbons and Evergreen**, for the two Christmas prints · ✅ **AUTUMN POST PUBLISHED** (Postcards and Pumpkins, own page) · shadow box stabilising, **picture still not in hand** |
+> | ~~Mon Sep 7~~ | 🧵 + 📣 | ✅ **5 NEW FABRICS LIVE — library is 76**, 8th group **Ribbons and Evergreen** · ✅ **AUTUMN POST PUBLISHED** — it produced **10 visits, 0 enquiries** |
+> | **Wed Sep 9 — TODAY** | 🎉 | 🚨 **THE LIST WENT FROM 8 TO ~48 IN TWO DAYS** — from **one reply in a Facebook group**, not from any post. **See the finding below; it should change what the shop spends time on.** · shadow box still waiting on the print |
 > | **Tue Sep 8** | 📊 + 🚗 | **Traffic re-measure — now with TWO live posts to judge** (dog pattern Sep 5, autumn fabrics Sep 7). Reminder scheduled. ⚠️ **Maurya's drop-off is this week.** Sep 8 is a Tuesday. |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
@@ -471,6 +472,45 @@ Two rules that keep this useful:
 ---
 
 ## 🟠 Dated — this week
+
+- [ ] 🚨 **THE ANSWER TO "WHAT ACTUALLY WORKS" ARRIVED 2026-09-08, AND IT IS NOT POSTING.**
+  Someone in **Sew So Cute (Beginner Friendly Sewing Group)** asked for *"a scrunchie dog bandana
+  pattern. Free please!"* The owner replied with one link to `pattern-dog-neckerchief.html`, from
+  her **personal account**. **~40 Buttondown signups followed across 8–9 Sep**, against a list
+  that had been **8 people and flat for seven weeks**.
+  | | Result |
+  |---|---|
+  | **One reply to someone else's question** | **~40 signups** |
+  | Scrunchie pattern, own-page post — 20 visits | **0 signups** |
+  | Autumn fabrics, own-page post — 10 visits | **0 enquiries** |
+  | The Aug 29 launch push | never ran |
+  📌 **`marketing/facebook-groups.md` PREDICTED THIS ON 2026-08-11** and it sat unused: *"Answer
+  questions rather than broadcasting. Someone asking 'where can I get a handmade dog bandana' is
+  worth ten posts of your own. Set up alerts for those."* **The advice was right and the alerts
+  were never set up.** Full write-up now in template 2 of that file, marked PROVEN.
+  🔁 **WHY IT BEATS EVERYTHING ELSE, so it can be repeated on purpose:** it is **demand-led** —
+  the person had already decided they wanted it, so nothing had to be sold or timed; it is
+  **welcome where posting is banned**, which is how it reached a group no post of ours could; and
+  it came from **a person, not a shop page**. ⚠️ It was also **a race** — three other makers
+  answered the same thread with Ellie and Mac, Made for Mermaids and Patterns for Pirates.
+  **Early and specific won.**
+  ✅ **THE ACTION: go looking for these threads.** Join more beginner-sewing, dog and craft
+  groups; search them for *"free pattern"*, *"looking for a pattern"*, *"does anyone have"*,
+  *"free please"*. **Half an hour of that is worth more than a week of writing posts** — and the
+  inventory to answer with already exists: two free patterns and 76 fabrics.
+  ⚠️ **DON'T OVERCLAIM IT.** These are **pattern-seekers**, the same audience that produced 0
+  shop visits in the week of 2026-08-31. **40 email addresses is not 40 customers.** What changed
+  is reach, which was the measured constraint — not proof that this audience buys.
+  ❓ **UNRESOLVED, and it caps the value: most of the new rows read "Unactivated"**, which in
+  Buttondown means signed up but never confirmed — **they receive nothing you send**. Only ~12
+  showed as Regular, the original 8 included. **Run `tools/buttondown-report.js`** for the real
+  active count and the tag split (`pattern-neckerchief` vs `pattern` vs `hero`).
+  ⚠️ **AND THIS REOPENS THE WELCOME AUTOMATION**, closed on 2026-09-05 on the grounds that ~$9/mo
+  to greet a flat list of 8 was money for a problem that didn't exist. **Forty people arrived in
+  two days and got silence.** The free tier stops at **100**, which was irrelevant at 8 and is now
+  in sight. **Decide it once the report says how many are actually reachable** — if most are
+  unactivated, the first question is whether double opt-in is quietly eating three-quarters of
+  every signup, and that is worth more than an automation.
 
 - [ ] 📊 **TRAFFIC, MEASURED 2026-08-31 (Cloudflare, last 7 days, bots excluded). READ THIS
   BEFORE PLANNING ANY MORE MARKETING.** 68 visits · 85 page views · **1.25 pages per visit**.

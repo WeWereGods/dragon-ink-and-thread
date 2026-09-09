@@ -62,10 +62,53 @@ costs nothing and buys goodwill.*
 >
 > (Mods — hope this is okay for the group, happy to take it down if not.)
 
-## 2. The reply — the highest-value post you'll ever make
+## 2. The reply — ✅ **PROVEN 2026-09-08. THE HIGHEST-VALUE THING THIS SHOP DOES.**
 
-*Use when someone asks where to find something you make. No link unless they ask; the point is
-to sound like a neighbour, not a shop.*
+🚨 **THIS IS NO LONGER A THEORY. IT IS THE ONLY MARKETING THAT HAS EVER WORKED HERE.**
+
+**What happened.** Someone in **Sew So Cute (Beginner Friendly Sewing Group)** posted *"In need
+of a scrunchie dog bandana pattern. Free please!"* The owner replied with one link — the dog
+neckerchief pattern — **from her personal account**, 2026-09-08.
+
+**Result: ~40 Buttondown signups across 8–9 Sep.** The list had been **8 people, flat for seven
+weeks**. For comparison, in the same period:
+
+| What | Result |
+|---|---|
+| **One reply to someone else's question** | **~40 signups** |
+| Scrunchie pattern, own-page post (20 visits) | **0 signups** |
+| Autumn fabrics, own-page post (10 visits) | **0 enquiries** |
+| Aug 29 launch push | never ran |
+
+**Not "fewer". Zero.** Every broadcast this shop has made in a month is beaten by a single
+comment that took under a minute.
+
+### Why it works, so it can be repeated deliberately
+- **Demand-led, not supply-led.** The person had already decided they wanted the thing. Nothing
+  had to be sold, framed or timed. A post has to create want; a reply only has to arrive.
+- **It is welcome where posting is banned.** Sewing groups remove adverts. Nobody removes a
+  helpful answer — which is why this reaches groups no post of yours ever will.
+- **A person, not a shop.** Posted from the personal account, which is the right call: a business
+  page dropping links into a thread reads as an advert. ⚠️ **Trade-off: the shop page gets no
+  follower growth from it.** Take the signups; they are worth more.
+- **It was a race.** Three other makers answered the same thread with Ellie and Mac, Made for
+  Mermaids and Patterns for Pirates. **Being early and specific won it.**
+
+### ⚠️ The link rule has TWO cases — the old advice was only half right
+- **They asked for a free resource → GIVE THE LINK.** The link *is* the answer. Withholding it to
+  seem casual just loses the thread to whoever posts theirs first.
+- **They asked where to buy something → no link.** Use the neighbourly note below; a link there
+  reads as an advert and can get you removed.
+
+### 🔎 THE ACTION THIS CREATES: go looking for these threads
+Rule 4 below has said "set up alerts for those" since 2026-08-11 and it was never done. **It is
+now the highest-value half-hour in the week.** Facebook has no real keyword alerting, so it is
+manual: **join more beginner-sewing, dog and craft groups, and search them for the recurring
+phrasings** — *"does anyone have a free pattern for"*, *"looking for a pattern"*, *"where can I
+find"*, *"free please"*. **You already hold two free patterns and 76 fabrics; the inventory to
+answer with exists.**
+
+### The neighbourly version — for "where can I buy one", not "where's a free pattern"
 
 > I actually make these — I'm in San Antonio and sew them at home. Happy to show you what I've
 > got if you like, or if you're after something specific I do custom work too.
