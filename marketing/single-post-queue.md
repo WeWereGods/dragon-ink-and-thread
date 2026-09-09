@@ -333,6 +333,102 @@ in a dog group is just an advert. Photo-led, no link, no price.*
 
 ---
 
+## 4. Opening the Christmas book — custom orders for the holidays · **READY**
+
+⚠️ **THIS SUPERSEDES #2.** It contains the Christmas fabrics *and* points at things that are
+actually for sale, which #2 only half did. Use this one; keep #2's fabric detail as a lighter
+follow-up in October or November if it's still wanted.
+
+🚨 **BLOCKED ON A DECISION FIRST — TWO NEW ITEMS HAVE NO PRICE BAND.** Stockings and gift card
+holders are not in `custom.html`, not in the seven places bands live, not anywhere.
+**CLAUDE.md is explicit about what happens next:** *"This is the third category to be asked for
+before it was priced — book sleeves, home pieces and repairs all got their bands retroactively,
+after a number had already been invented under pressure."* **Posting this without bands walks
+into that a fourth time**, and the first "how much for a stocking?" gets answered off the cuff.
+
+**Proposed bands — owner to approve or change, then publish in all seven places BEFORE posting:**
+| Item | Proposed | Reasoning |
+|---|---|---|
+| **Christmas stockings** | **$40–65** | Lined, shaped, cuffed, hanging loop — comparable work to a home piece ($40–60), a little more for the shaping. A name or appliqué sits at the top of the band. |
+| **Gift card holders** | **$12–18** | Small lined envelope with a closure. Sits above scrunchies ($8–12), below/level with bows ($13–20). |
+⚠️ **Check the floor rule:** every custom floor must sit **above** its ready-made equivalent.
+Neither of these has a shop equivalent, so both are clear — but re-check if either is ever
+listed in the shop.
+
+**Link:** `https://www.dragoninkandthread.com/custom.html`
+**Turnaround:** 10–14 days from agreeing details. ⚠️ **Not quilts** — those are 8–12 weeks and
+should not be offered casually in a Christmas thread.
+📸 **Photo:** the two Ribbons and Evergreen fabrics, or better, **one finished stocking.** A
+post advertising stockings with no stocking in the picture is asking people to imagine the
+product.
+
+---
+
+### 4a. Your own Facebook page
+
+*⚠️ **The framing is "I'm opening the book", not "buy now".** It's early September and a hard
+sell would land badly — but **limited capacity is true**, not a tactic: she is one person with a
+shadow box, a wall hanging and an undelivered tote already outstanding. Honest scarcity beats
+manufactured urgency, and it doesn't need a countdown.*
+
+> I'm opening the Christmas book.
+>
+> Not to rush you — it's September, I know. But I'm one person at one machine, and the things
+> people want most in December are the ones that take longest to make. I'd rather take a handful
+> of orders now and do them properly than turn people away in November.
+>
+> What I can make you:
+>
+> · Stockings — lined, with a hanging loop, in whatever fabric you like
+> · Gift card holders — the small thing that stops a gift card feeling like a gift card
+> · Totes, padded book sleeves, hair bows, scrunchies, dog bandanas
+> · Tea cosies and bits for the kitchen
+>
+> You pick the fabric from the library — 76 prints now, including two new Christmas ones with
+> tiny bows actually woven into them. I come back with a price, and nothing's charged until
+> you've said yes. Ten to fourteen days once we've agreed the details.
+>
+> Tell me what you're thinking, or have a look here:
+> https://www.dragoninkandthread.com/custom.html
+
+---
+
+### 4b. Local San Antonio groups — where selling is allowed
+
+*Template 1 territory. **Lead with local pickup**, defer to the mods at the end.*
+
+> Hi all — I'm Ayla, I sew handmade things at my kitchen table here in San Antonio, and I'm
+> starting to take Christmas orders.
+>
+> Stockings, gift card holders, totes, book sleeves, bows, dog bandanas — you pick the fabric, I
+> come back with a price, and nothing's charged until you've said yes. Usually ten to fourteen
+> days.
+>
+> **Local pickup is free** if you're nearby, so there's no postage at all, and you get to see it
+> before you commit to the next one.
+>
+> https://www.dragoninkandthread.com/custom.html
+>
+> (Mods — hope this is okay for the group, happy to take it down if not.)
+
+---
+
+### Posting notes for #4
+
+- ⚠️ **BANDS FIRST.** Do not post until stockings and gift card holders have approved prices
+  published. The whole point of a band is that it exists before the question does.
+- **What to measure:** `custom.html` visits, and **messages**. This post cannot produce a Stripe
+  sale — custom orders start with a conversation. **0 enquiries from 10 visits (Sep 7) is not
+  yet evidence of anything**; the sample was too small to read.
+- **Answer "how much?" with the band, never a number off the cuff.** Bows $13–20 · scrunchies
+  $8–12 · bandanas $22–35 · book sleeves $35–50 · home pieces $40–60 · totes $50–100 ·
+  **stockings and gift card holders once approved**. Quilts $350+, **8–12 weeks**.
+- 📌 **A December cut-off will be needed eventually** — but not in this post. In September it is
+  too far off to create urgency and only invites "why are you telling me now". Add it to a
+  November post, when it is real.
+
+---
+
 ## Ideas — not written yet
 
 - **The Quilted Court Bandana** ($22) and **The Suriel Tea Cover** ($35) have **never been
