@@ -34,7 +34,7 @@ Two rules that keep this useful:
 > | ~~Fri Sep 4~~ | 🔨 | Shadow box · 5 direct visits, 3 to PRODUCT pages, source unexplained |
 > | ~~Sat Sep 5~~ | 🔨 | Shadow box · ✅ **DOG PATTERN POSTED** · ✅ Maurya switched to a DROP-OFF · ✅ Welcome automation closed (paid feature, answer is no at 8 subscribers) |
 > | ~~Mon Sep 7~~ | 🧵 + 📣 | ✅ **5 NEW FABRICS LIVE — library is 76**, 8th group **Ribbons and Evergreen** · ✅ **AUTUMN POST PUBLISHED** — it produced **10 visits, 0 enquiries** |
-> | **Wed Sep 9 — TODAY** | 🎉 | 🚨 **THE LIST WENT FROM 8 TO ~48 IN TWO DAYS** — from **one reply in a Facebook group**, not from any post. **See the finding below; it should change what the shop spends time on.** · shadow box still waiting on the print |
+> | **Wed Sep 9 — TODAY** | 🎉 + 🚨 | **One Facebook reply produced ~40 signups — but only 4 ACTIVATED. List is 8 → 12, not 8 → 48.** All four new actives are `pattern-neckerchief`, so the dog pattern is confirmed and beat the scrunchie 4 to 1. **The activation leak is now the top marketing item.** · shadow box still waiting on the print |
 > | **Tue Sep 8** | 📊 + 🚗 | **Traffic re-measure — now with TWO live posts to judge** (dog pattern Sep 5, autumn fabrics Sep 7). Reminder scheduled. ⚠️ **Maurya's drop-off is this week.** Sep 8 is a Tuesday. |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
@@ -501,16 +501,50 @@ Two rules that keep this useful:
   ⚠️ **DON'T OVERCLAIM IT.** These are **pattern-seekers**, the same audience that produced 0
   shop visits in the week of 2026-08-31. **40 email addresses is not 40 customers.** What changed
   is reach, which was the measured constraint — not proof that this audience buys.
-  ❓ **UNRESOLVED, and it caps the value: most of the new rows read "Unactivated"**, which in
-  Buttondown means signed up but never confirmed — **they receive nothing you send**. Only ~12
-  showed as Regular, the original 8 included. **Run `tools/buttondown-report.js`** for the real
-  active count and the tag split (`pattern-neckerchief` vs `pattern` vs `hero`).
-  ⚠️ **AND THIS REOPENS THE WELCOME AUTOMATION**, closed on 2026-09-05 on the grounds that ~$9/mo
-  to greet a flat list of 8 was money for a problem that didn't exist. **Forty people arrived in
-  two days and got silence.** The free tier stops at **100**, which was irrelevant at 8 and is now
-  in sight. **Decide it once the report says how many are actually reachable** — if most are
-  unactivated, the first question is whether double opt-in is quietly eating three-quarters of
-  every signup, and that is worth more than an automation.
+  ✅ **MEASURED 2026-09-09 — THE LIST WENT 8 → 12, NOT 8 → 48.** `tools/buttondown-report.js`:
+  **12 active out of 48 records**, the rest unactivated, unsubscribed or spam. New in 7 days: 4.
+  Free tier **12/100**.
+  ✅ **THE DOG PATTERN IS CONFIRMED AS THE SOURCE — and it beat the scrunchie outright.** All
+  **four** new active subscribers carry **`pattern-neckerchief`**. Not three, not two — all four.
+  The scrunchie's `pattern` tag has **1**, ever. **The dog beat the scrunchie's lifetime total
+  four times over in two days** — exactly the question the separate tags were created to answer
+  on 2026-08-27, and the reason not to have merged them.
+  | Tag | Active |
+  |---|---|
+  | `hero` | 5 |
+  | **`pattern-neckerchief`** | **4** |
+  | `pattern` (scrunchie) | 1 |
+  | `Big Daddy` (the owner's dad) | 1 |
+  | (untagged — pre-dates tagging) | 1 |
+  | `checkout` / `purchased` / `waitlist` | 0 |
+
+- [ ] 🚨 **THE ACTIVATION LEAK — 40 PEOPLE GAVE AN EMAIL, 4 BECAME REACHABLE. FIX THIS FIRST.**
+  Measured 2026-09-09: **48 records, 12 active.** Of ~40 signups from the Sep 8 group reply,
+  **four** turned into subscribers — a **~10% activation rate**. Everything else in the marketing
+  plan sits downstream of this number: **the reply tactic is worth 4 subscribers a go while this
+  holds, and 40 a go if it doesn't.**
+  💡 **STRONG HYPOTHESIS: double opt-in, made worse by our own gate.** Buttondown holds
+  unconfirmed signups as *unactivated* and they **receive nothing**. Meanwhile
+  `tools/build-patterns.js` reveals the PDF **the instant the form is submitted** — so the visitor
+  already has what they came for and has no reason to go and confirm an email. **Our delivery
+  mechanism removes the incentive to finish the signup.** That is a design consequence we caused,
+  not a Buttondown quirk.
+  ✅ **CHECK FIRST — IT IS A SETTINGS TOGGLE:** Buttondown → settings → whether confirmation /
+  double opt-in is on. **If it is, turning it off means the next forty arrive as real
+  subscribers** — same posts, same replies, four times the list, no new work anywhere.
+  ⚠️ **VERIFY BEFORE ACTING.** The report lumps *unactivated, unsubscribed and spam* into one
+  bucket, so **36 is an upper bound** on what double opt-in is costing — a flood of signups can
+  carry junk addresses too. **Confirm the 36 are genuinely unconfirmed before concluding.** This
+  is the same trap as the sales-tax permit on 2026-09-05: a confident claim with no evidence
+  under it, overturned twenty minutes later.
+  📝 **FREE CHANGE EITHER WAY:** the reveal box says *"Here it is — happy sewing. 🧵"* and asks
+  nothing further. It could add *check your inbox and confirm, so I can send you the next
+  pattern.* One edit in `tools/build-patterns.js`, applies to every pattern page, costs nothing,
+  and might recover some of the 36 already sitting there.
+  ✅ **THE WELCOME AUTOMATION STAYS CLOSED — the "this reverses it" of 2026-09-08 was wrong.**
+  At **12 active** and **12/100** of the free tier, ~$9/mo to greet twelve people is the same bad
+  deal it was at eight. **Fix the leak first.** If activation is repaired, the list grows fast
+  enough that the question answers itself — and then it is a real decision rather than a reflex.
 
 - [ ] 📊 **TRAFFIC, MEASURED 2026-08-31 (Cloudflare, last 7 days, bots excluded). READ THIS
   BEFORE PLANNING ANY MORE MARKETING.** 68 visits · 85 page views · **1.25 pages per visit**.
