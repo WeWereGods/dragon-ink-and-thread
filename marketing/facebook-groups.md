@@ -152,10 +152,29 @@ filter → sort by **Recent**. Rotate through these:
   person helping rather than a business advertising.
 
 #### 5. What to expect, so it isn't misjudged
-**~4 confirmed subscribers per successful reply** — measured 2026-09-09, after ~40 signups from
-the Sep 8 thread produced 4 confirmations. **Not 40.** Most people take the free PDF and never
-confirm, and that is fine. **Four is still infinitely better than the zero every broadcast post
-this shop has ever made.**
+**Measured 2026-09-09, from the Sep 8 reply. Plan with these:**
+
+| Per successful reply | |
+|---|---|
+| Visits | **~150** (151 measured; 138 to the pattern page) |
+| Gave an email | **~40** — a **29%** gate conversion, which is good |
+| Confirmed | **~4** — a **10%** activation, which is the leak |
+| Sales | **0** |
+
+**For scale: the previous best DAY was ~20 visits and the best WEEK was 68.** One reply beat the
+best week by more than double, and **87% of it came from Facebook**.
+
+🔑 **REPLIES HAVE A TAIL AND POSTS DON'T.** The Aug 25 page post did 18 of its 22 visits in one
+hour and died. This reply was **still pulling visits fifteen hours later** — a post scrolls away,
+a comment sits on a thread people keep arriving at. **This is why a reply is worth more than a
+post even when both reach the same number of eyes.**
+
+⚠️ **Expect 4, not 40.** Most people take the free PDF and never confirm; they wanted the
+pattern, not the shop. **Four is still infinitely better than the zero every broadcast post this
+shop has ever made.**
+⚠️ **And expect no sales.** 151 visits produced **0** to `shop.html` or `custom.html`. The reply
+tactic builds reach and a list. **It does not sell things, and judging it on sales will make a
+working tactic look like a failure.**
 
 ### 📋 READY-TO-PASTE REPLIES, by what they asked
 

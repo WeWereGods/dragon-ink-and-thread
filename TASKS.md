@@ -480,10 +480,40 @@ Two rules that keep this useful:
   that had been **8 people and flat for seven weeks**.
   | | Result |
   |---|---|
-  | **One reply to someone else's question** | **~40 signups** |
+  | **One reply to someone else's question** | **151 visits · ~40 signups · 4 subscribers** |
   | Scrunchie pattern, own-page post — 20 visits | **0 signups** |
   | Autumn fabrics, own-page post — 10 visits | **0 enquiries** |
   | The Aug 29 launch push | never ran |
+
+  ### 📊 THE TRAFFIC, MEASURED 2026-09-09 — the strongest number this project has
+  **151 visits in ~24 hours. 138 of them to `/pattern-dog-neckerchief.html`.**
+  The previous best **day** was ~20 (Aug 25). The previous best **WEEK** was 68.
+  **One reply beat the best week by more than double.**
+  - **Referer: 87% Facebook** — 130 of 149 across `facebook.com` 79, `lm.facebook.com` 45
+    (their link shim, so mobile/group traffic), `m.` 4, `www.` 2. Direct 19.
+  - **Path:** dog pattern **138** · `/` 9 · a product page 2 · `/privacy.html` 1 ·
+    `/pattern.html` 1.
+  🔑 **REPLIES HAVE A TAIL; POSTS DON'T. This is the part worth internalising.** The Aug 25 page
+  post did **18 of its 22 visits in a single hour** and then died. This one began at 18:00,
+  peaked around 21:00, and was **still producing visits fifteen hours later.** A post scrolls
+  away; **a comment sits on a thread people keep arriving at.**
+  ### 🔬 THE FUNNEL — and it names exactly which step is broken
+  | Step | Number | Rate |
+  |---|---|---|
+  | Visits to the pattern page | 138 | — |
+  | Gave an email address | ~40 | **29%** |
+  | Confirmed the subscription | 4 | **10%** |
+  ✅ **A 29% GATE CONVERSION IS GENUINELY GOOD.** Nearly a third of strangers handed over an
+  address. **The page works. The only broken step is the email confirmation** — everything
+  upstream of it is fine, and no amount of site work will improve a number that is already 29%.
+  ⚠️ **It does sharpen the upgrade question, without changing the answer.** If a reply reliably
+  produces ~40 signups, the confirmation step costs **~36 people per reply** — a bigger number
+  than it looked this morning. **Still not worth paying to reword the second of two emails people
+  already ignore twice**, but revisit if the reply tactic is running weekly.
+  🛒 **AND THE SHOP IS STILL UNTOUCHED: 0 visits to `shop.html` or `custom.html`**, out of 151.
+  Nine reached the homepage and two a product page — better than the flat zero of the week of
+  Aug 31, but **the finding holds: people who come for a free pattern do not go shopping.**
+  📌 **PLAN WITH THIS PER SUCCESSFUL REPLY: ~150 visits · ~40 signups · ~4 subscribers · 0 sales.**
   📌 **`marketing/facebook-groups.md` PREDICTED THIS ON 2026-08-11** and it sat unused: *"Answer
   questions rather than broadcasting. Someone asking 'where can I get a handmade dog bandana' is
   worth ten posts of your own. Set up alerts for those."* **The advice was right and the alerts
