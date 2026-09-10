@@ -39,3 +39,14 @@ belong in assets/ — they are records of a job.
                                   copies is the Drive-drift problem again;
                                   re-export over this file or edit it here, but
                                   do not maintain both.
+
+  dog-neckerchief-pattern.dc.html 2026-08-27. The Elastic Dog Neckerchief. Same
+                                  rules; flattened from canvas templating on the
+                                  way in — see the note at the top of the file.
+
+  sailor-bow-pattern.dc.html      2026-09-10. The Sailor Bow. PDF:
+                                    assets/sailor-bow-pattern.pdf
+                                  ⚠️ Piece B (the tails) was REDRAWN from the
+                                  owner's answer — the canvas copy still has the
+                                  wrong shape, so never re-export over this file.
+                                  See the note at the top of it.

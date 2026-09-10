@@ -454,7 +454,7 @@ const indexPage = () => {
   const meta = {
     title: "Free Sewing Patterns — Beginner-Friendly | Dragon Ink and Thread",
     metaDesc:
-      "Free beginner sewing patterns from Dragon Ink and Thread — a chunky scrunchie and an elastic dog neckerchief, both straight lines only, with cutting layouts, seam allowances and every step written out. San Antonio, Texas.",
+      "Free beginner sewing patterns from Dragon Ink and Thread — a chunky scrunchie, an elastic dog neckerchief and a sailor hair bow, all straight lines only, with cutting layouts, seam allowances and every step written out. San Antonio, Texas.",
     ogTitle: "Free Sewing Patterns — Beginner-Friendly",
     ogDesc:
       "Straight lines only, every measurement written out, free to download. From a small handmade shop in San Antonio.",
@@ -478,7 +478,7 @@ ${header(NAV_PATTERN)}
         <div class="section-head">
           <p class="eyebrow">Gifts from the Nest</p>
           <h1>Free sewing patterns</h1>
-          <p class="section-sub">Straight lines only, every measurement written out, and no pattern pieces to print and tape. Each one is free — pop your email in and the download appears on the page.</p>
+          <p class="section-sub">Straight lines only, every measurement written out, and nothing to tape together. Each one is free — pop your email in and the download appears on the page.</p>
         </div>
       </div>
     </section>

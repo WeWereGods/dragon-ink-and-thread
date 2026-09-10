@@ -80,13 +80,19 @@ s = s.replace(/(<img\b[^>]*?\bsrc=")([^"]+)(")/gi, (m, pre, src, post) => {
 });
 
 // One <section class="page"> per printed sheet, no browser margins, keep colours.
+// ⚠️ The size is !important because the sailor bow export (2026-09-10) puts
+// `width:100%;height:100%` INLINE on every page section, and an inline style beats
+// this sheet. 100% of an unsized body is "as tall as the content", so the six
+// pages printed as NINE sheets, a long page spilling onto a mostly blank one and
+// every footer floating up off the bottom. The two older patterns carry no inline
+// size, so this changes nothing for them.
 s = s.replace(
   "</head>",
   `<style>
   @page { size: 8.5in 11in; margin: 0; }
   html, body { margin: 0; padding: 0; }
   section.page {
-    width: 8.5in; height: 11in;
+    width: 8.5in !important; height: 11in !important;
     page-break-after: always; break-after: page;
     overflow: hidden;
   }

@@ -145,5 +145,61 @@ window.DIT_PATTERNS = {
       level: "First project",
       time: "About 45 minutes",
     },
+
+    /* Added 2026-09-10. The canvas export drew the tails (piece B) wrongly; it
+       was redrawn from the owner's own answer before this went live — see the
+       note at the top of designs/sailor-bow-pattern.dc.html. */
+    {
+      id: "sailor-bow",
+      file: "pattern-sailor-bow.html",
+      tag: "pattern-sailor-bow",
+      pdf: "assets/sailor-bow-pattern.pdf",
+      source: "designs/sailor-bow-pattern.dc.html",
+
+      // "Sailor bow" is the name people search for; "hair bow" and "clip" are
+      // the words for what it is, for anyone who doesn't know the name.
+      title: "Free Sailor Bow Sewing Pattern — Fabric Hair Bow with Tails | Dragon Ink and Thread",
+      metaDesc:
+        "A free sailor bow sewing pattern — a looped fabric hair bow with pointed tails, on an alligator clip. Full-size pattern pieces, a cut list, and ten steps with photographs. One fat quarter makes one bow. From Dragon Ink and Thread in San Antonio, Texas.",
+      ogTitle: "Free Sailor Bow Sewing Pattern — Fabric Hair Bow with Tails",
+      ogDesc:
+        "Looped bow, pointed tails, hair-clip finish. Full-size pattern pieces and ten photographed steps, free to download.",
+      twitterDesc: "A looped fabric hair bow with pointed tails. Free to download, full-size pieces.",
+
+      // Tall 2:3, same reasoning as the two above. Built by pinSailorBow() in
+      // tools/build-pin-images.js; re-run it if the photo changes.
+      pin: {
+        url: "assets/pins/pin-free-pattern-sailor-bow.jpg",
+        w: 1000,
+        h: 1500,
+        alt: "A handmade black and white spider-web print sailor bow held against a wall, with the words Free Sewing Pattern above it",
+      },
+
+      eyebrow: "A Gift from the Nest",
+      h1: "The Sailor Bow — a free sewing pattern",
+      sub: "A looped bow over two pointed tails, on a hair clip. A tube for the loops, one folded piece with pointed ends for the tails, and a little strip that wraps the middle and holds the whole shape. Every edge is straight.",
+
+      photo: {
+        src: "assets/pattern-sailor-bow-finished.jpg",
+        alt: "The finished sailor bow in a black and white spider-web print, held up against a wall",
+      },
+
+      points: [
+        "<strong>Full-size pattern pieces</strong> — each one fits on a single sheet, so there is nothing to tape together, and each carries a 1in check square",
+        "<strong>Ten steps with photographs</strong> of the bow in the picture being cut, sewn, pinched and wrapped",
+        "<strong>A hair-clip finish</strong> — a 2in alligator clip, with an optional fabric cover for the blade",
+        "<strong>One fat quarter</strong> of quilting cotton makes one bow, with ¼in seams throughout",
+      ],
+
+      pitch:
+        "A sailor bow looks fussy and isn't: it is a loop, a pair of tails, a few pleats and a strip wound round the middle, and the wrap is what gives it its shape. The one in the photographs is a spider-web print, just in time for October — make yours in whatever you have been saving.",
+
+      cardTitle: "The Sailor Bow",
+      cardBlurb: "Looped bow, pointed tails, hair-clip finish. Full-size pieces.",
+      level: "Confident beginner",
+      // No sewing time was supplied with the pattern, so the card names the
+      // fabric instead of guessing at minutes. Swap in a time once the owner has one.
+      time: "One fat quarter",
+    },
   ],
 };

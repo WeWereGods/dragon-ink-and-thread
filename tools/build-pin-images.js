@@ -387,6 +387,32 @@ async function pinNeckerchief() {
     .toFile(path.join(OUT, "pin-free-pattern-neckerchief.jpg"));
 }
 
+/* The sailor bow pattern. Same layout again — the 310 → 1070 photo band and the
+   100px gap before the text. The source is portrait 1050x1400 with the bow in
+   the middle, so the centred square crop keeps the whole bow and loses only
+   wall. Check it if the photo is ever replaced. */
+async function pinSailorBow() {
+  const PHOTO = 760;
+  const photo = await sharp(path.join(ROOT, "assets", "pattern-sailor-bow-finished.jpg"))
+    .resize(PHOTO, PHOTO, { fit: "cover" })
+    .toBuffer();
+  const text = textLayer([
+    { text: "FREE SEWING PATTERN", y: 150, x: W / 2, size: 40, fill: TEAL, spacing: 6 },
+    { text: "The Sailor Bow", y: 240, x: W / 2, size: 64, fill: INK },
+    { text: "Looped bow, pointed tails,", y: 1180, x: W / 2, size: 44, fill: INK },
+    { text: "on a hair clip.", y: 1242, x: W / 2, size: 44, fill: INK },
+    { text: "Full-size pieces · free to download", y: 1340, x: W / 2, size: 34, fill: TEAL },
+    { text: "dragoninkandthread.com/patterns", y: 1440, x: W / 2, size: 30, fill: TEAL, spacing: 3 },
+  ]);
+  await sharp({ create: { width: W, height: H, channels: 3, background: CREAM } })
+    .composite([
+      { input: photo, top: 310, left: Math.round((W - PHOTO) / 2) },
+      { input: text, top: 0, left: 0 },
+    ])
+    .jpeg({ quality: 86 })
+    .toFile(path.join(OUT, "pin-free-pattern-sailor-bow.jpg"));
+}
+
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   await fbToteLineup();
@@ -397,5 +423,6 @@ async function pinNeckerchief() {
   await pinBehindTheSeams();
   await pinPattern();
   await pinNeckerchief();
-  console.log(`Wrote 6 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
+  await pinSailorBow();
+  console.log(`Wrote 7 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
 })();

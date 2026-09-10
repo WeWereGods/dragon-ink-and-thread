@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sailor Bow — free sewing pattern · Dragon Ink and Thread</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<!-- ⚠️ THIS FILE IS THE SOURCE. The Claude Design canvas copy ("Sailor Bow Pattern",
+     exported 2026-09-10 as "Sailor Bow Pattern-print.dc.html") is STALE by design —
+     do not maintain both. Edit here, then re-run:
+
+       node tools/pattern-to-pdf.js designs/sailor-bow-pattern.dc.html assets/sailor-bow-pattern.pdf
+
+     The export arrived already paginated (one section per sheet) and with no canvas
+     templating, so unlike the dog neckerchief it did not need flattening. Each page
+     is overflow:hidden — content that grows past a sheet is SILENTLY CLIPPED.
+     Re-render and look at the PDF after any edit.
+
+     Photos are the owner's own (iPhone 14 Pro Max, IMG_7830–7837, checked for
+     C2PA/AI markers 2026-09-10 — none). Rotation baked in; paths are ../assets/.
+
+     Changed from the export on the way in (2026-09-10) — every one is arithmetic
+     or a contradiction inside the pattern itself, not a construction choice:
+     - step 3 said the tube finishes 2 1/2" wide. A 6" piece less two 1/4" seam
+       allowances is 5 1/2" round, which lies flat at 2 3/4".
+     - step 4 said the loop is 6" wide. 12" less the 1/2" overlap, folded in half,
+       is 5 3/4". It also never said to pinch the loop's centre, and step 8 cannot
+       wrap a 4" strip round an unpinched 2 3/4" tube. The export's own photo
+       caption ("pleated and tied at the center") shows the pinch.
+     - C pressed in quarters from 1 1/2" is 3/8" wide, not 1/2" (steps 7 and p.6;
+       D's 1/4" was already right).
+     - "wrap twice if it reaches" / "lengthen C to 5" for a double wrap": one wrap
+       takes most of 4", so a second needs about 8". 5" never reaches twice.
+     - piece A showed a dashed stitching line on its short end, which is never sewn.
+     - the "1 inch check" was 1" × 0.34". A check has to be square, or it cannot
+       catch a printer that scales one axis only.
+     - the photo of the loop unit (overlap zigzagged across the middle) was captioned
+       as the wrap strip; the pinched-parts photo named only the tails.
+     - the brand appeared nowhere on six pages. Footers now carry it + the URL.
+
+     ⚠️ PIECE B WAS REDRAWN 2026-09-10, FROM THE OWNER'S ANSWER. The export drew the
+     tails as TWO 11" × 7" pieces, cut on the fold and stacked, with a V notched into
+     the bottom — a shape that appears nowhere in her photos. Asked directly, she
+     said: "cut is 11 by 7 with ends cut on a diagonal". So B is ONE 11" × 7"
+     rectangle, folded lengthwise to 11" × 3 1/2", with each end cut from the corner
+     at the fold to a point 1 1/2" in along the raw edges. Opened out, that is a
+     rectangle with a shallow point at each end.
+     - The FOLD is the long edge: in IMG_7833 the turning gap sits in the SHORT
+       edge, so that edge is the seam.
+     - The 1 1/2" depth is the export's own "angled edge falls 1 1/2"" note, and
+       measures about that on the mat in IMG_7832. It was not separately confirmed.
+     - The grainline along B's length is a choice made here (it matches A), not
+       something the owner specified. The old cover promise that a one-way print
+       "reads upright on the tails" went with it — on a finished bow the tails hang
+       at an angle, so no grain direction delivers that.
+     - The printed piece is HALF of B, placed on a crosswise fold, because 11" does
+       not fit across a Letter sheet. Page 5 also gives the no-printer method. -->
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+  doc-page:not(:defined){visibility:hidden}
+  body{margin:0}
+  a{color:#5b3a52}
+  a:hover{color:#2a2426}
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  * { animation-delay: -99s !important; animation-duration: .001s !important;
+      animation-iteration-count: 1 !important; animation-fill-mode: both !important;
+      animation-play-state: running !important; transition-duration: 0s !important; }
+</style>
+<script src="./doc-page.js"></script>
+</helmet>
+
+<doc-page size="letter">
+
+  <section class="page" data-screen-label="01 Cover" style="box-sizing:border-box;width:100%;height:100%;padding:0.62in 0.7in;background:#fbfaf7;color:#211d1f;font-family:'JetBrains Mono',ui-monospace,monospace;display:flex;flex-direction:column;gap:0.28in">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.5px solid #211d1f;padding-bottom:10px">
+      <div>
+        <div style="font-size:9pt;letter-spacing:0.18em;text-transform:uppercase;color:#5b3a52">Dragon Ink and Thread · Sewing pattern · 1 of 6</div>
+        <h1 style="margin:4px 0 0;font-family:'Instrument Serif',Georgia,serif;font-size:40pt;font-weight:400;line-height:0.95">Sailor Bow</h1>
+      </div>
+      <div style="font-size:9pt;text-align:right;line-height:1.5">
+        Looped bow + pointed tails<br />Hair-clip finish<br />Seam allowance 1/4"
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1.55fr 1fr;gap:0.3in">
+      <div style="display:flex;flex-direction:column;gap:0.22in">
+        <div>
+          <h2 style="margin:0 0 8px;font-size:9pt;letter-spacing:0.16em;text-transform:uppercase;color:#5b3a52">Cut list — 1/4" seam allowance included</h2>
+          <table style="width:100%;border-collapse:collapse;font-size:10pt">
+            <thead>
+              <tr style="text-align:left;border-bottom:1px solid #211d1f">
+                <th style="padding:6px 4px;font-weight:700">Piece</th>
+                <th style="padding:6px 4px;font-weight:700">Cut</th>
+                <th style="padding:6px 4px;font-weight:700">Size</th>
+                <th style="padding:6px 4px;font-weight:700">Page</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid #ddd8d2"><td style="padding:7px 4px">A · Loop</td><td style="padding:7px 4px">1 on fold</td><td style="padding:7px 4px">12" × 6"</td><td style="padding:7px 4px">4</td></tr>
+              <tr style="border-bottom:1px solid #ddd8d2"><td style="padding:7px 4px">B · Tails</td><td style="padding:7px 4px">1 on fold</td><td style="padding:7px 4px">11" × 7", pointed ends</td><td style="padding:7px 4px">5</td></tr>
+              <tr style="border-bottom:1px solid #ddd8d2"><td style="padding:7px 4px">C · Center wrap</td><td style="padding:7px 4px">1</td><td style="padding:7px 4px">4" × 1 1/2"</td><td style="padding:7px 4px">6</td></tr>
+              <tr><td style="padding:7px 4px">D · Clip cover</td><td style="padding:7px 4px">1 (optional)</td><td style="padding:7px 4px">3" × 1"</td><td style="padding:7px 4px">6</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div>
+          <h2 style="margin:0 0 8px;font-size:9pt;letter-spacing:0.16em;text-transform:uppercase;color:#5b3a52">You'll need</h2>
+          <ul style="margin:0;padding-left:1.1em;font-size:10pt;line-height:1.65">
+            <li>1 fat quarter (18" × 22") quilting cotton — enough for one bow</li>
+            <li>Matching thread + hand-sewing needle</li>
+            <li>One 2" alligator clip</li>
+            <li>Iron, rotary cutter or shears, chalk or fabric pen</li>
+            <li>Optional: lightweight fusible interfacing for piece A, fabric glue for the clip</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:0.16in">
+        <figure style="margin:0">
+          <img src="../assets/pattern-sailor-bow-finished.jpg" alt="Finished sailor bow held up against a wall" style="display:block;width:100%;height:2.5in;object-fit:cover;border:1.5px solid #211d1f" />
+          <figcaption style="font-size:8.5pt;color:#6c6568;margin-top:5px">The finished bow — loops up, mitered tails hanging apart.</figcaption>
+        </figure>
+        <div style="border:1.5px solid #211d1f;padding:11px">
+          <div style="font-size:9pt;letter-spacing:0.16em;text-transform:uppercase;color:#5b3a52;margin-bottom:6px">Finished size</div>
+          <div style="font-family:'Instrument Serif',Georgia,serif;font-size:22pt;line-height:1.05">6" wide · 8 1/2" long</div>
+        </div>
+        <div style="background:#efe9e4;padding:11px">
+          <div style="font-size:9pt;letter-spacing:0.16em;text-transform:uppercase;color:#5b3a52;margin-bottom:6px">Before you cut</div>
+          <div style="font-size:9pt;line-height:1.55">Print pages 4–6 at <strong>100% / Actual size</strong> — no "fit to page". Measure the 1" check square on each pattern page before cutting.</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="border-top:1.5px solid #211d1f;padding-top:0.22in;display:grid;grid-template-columns:repeat(3,1fr);gap:0.3in;font-size:9.5pt;line-height:1.6">
+      <div><strong style="display:block;margin-bottom:4px">Fabric</strong>Grainlines run along the length of A and B. The tails hang at an angle, so an all-over or tossed print looks best.</div>
+      <div><strong style="display:block;margin-bottom:4px">Pressing</strong>Press after every seam. Cotton takes a hard press — crisp loops depend on it.</div>
+      <div><strong style="display:block;margin-bottom:4px">Skill</strong>Confident beginner. Straight seams, two mitered points, a little hand-tacking.</div>
+    </div>
+
+    <div style="margin-top:auto;display:flex;justify-content:space-between;font-size:8.5pt;color:#6c6568">
+      <span>Dragon Ink and Thread · Sailor Bow · 1/4" seam allowance · dragoninkandthread.com</span>
+      <span>Page 1</span>
+    </div>
+  </section>
+
+  <section class="page" data-screen-label="02 Instructions" style="box-sizing:border-box;width:100%;height:100%;padding:0.62in 0.7in;background:#fbfaf7;color:#211d1f;font-family:'JetBrains Mono',ui-monospace,monospace;display:flex;flex-direction:column;gap:0.24in">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.5px solid #211d1f;padding-bottom:10px">
+      <h2 style="margin:0;font-family:'Instrument Serif',Georgia,serif;font-size:30pt;font-weight:400">Assembly</h2>
+      <div style="font-size:9pt;letter-spacing:0.18em;text-transform:uppercase;color:#5b3a52">Sewing pattern · 2 of 6</div>
+    </div>
+
+    <ol style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:0.1in;counter-reset:s">
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">01</span>
+        <span><strong>Cut.</strong> Fold your fabric and lay pieces A and B on the fold as marked. Cut one of each. Cut C and D from a single layer. Press everything flat.</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">02</span>
+        <span><strong>Loop tube.</strong> Fold A in half lengthwise, right sides together, to 12" × 3". Sew the long raw edge with a 1/4" seam, leaving both short ends open. Turn right side out through one end.</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">03</span>
+        <span><strong>Press the seam to the back.</strong> Roll the tube so the seam sits centered on one face — that face becomes the back of the bow. Press hard. Finished tube: 12" × 2 3/4".</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">04</span>
+        <span><strong>Form the loops.</strong> Bring both short ends of the tube to the middle so they overlap 1/2" at the center back, and stitch across the overlap — by hand, or with a machine zigzag. You now have a double loop about 5 3/4" wide. Pinch its center into two or three folds and wind thread tightly round a few times to hold.</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">05</span>
+        <span><strong>Tails.</strong> Fold B in half lengthwise, right sides together, to 11" × 3 1/2" — the fold is the long edge with the points at its ends. Sew the long raw edge and both diagonal ends with a 1/4" seam, leaving the 2" gap marked at the center. Trim the points close to the stitching, turn right side out through the gap, poke the points sharp, press, and slip-stitch the gap closed — it ends up under the wrap.</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">06</span>
+        <span><strong>Gather the tails.</strong> At the middle of B, fold 3–4 accordion pleats across its width until the center measures about 1 1/2" from top to bottom. Wind thread tightly round the pleats to hold them.</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">07</span>
+        <span><strong>Center wrap.</strong> Press C's long edges to the middle, then fold in half again lengthwise and press — a finished strip about 3/8" wide. Topstitch the open edge if you like.</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">08</span>
+        <span><strong>Join.</strong> Center the loop unit on top of the pleated tails, backs together. Wrap C snugly once around both, over the pinched centers, and hand-stitch its ends down at the back. Keep the wrap tight — it's what holds the bow's shape.</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">09</span>
+        <span><strong>Clip.</strong> Fold D the same way as C, wrap it around the top blade of the alligator clip and glue. Once dry, glue or stitch the clip to the back of the center wrap, opening downward.</span>
+      </li>
+      <li style="display:grid;grid-template-columns:0.42in 1fr;gap:0.12in;font-size:9.5pt;line-height:1.5">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:20pt;color:#5b3a52;line-height:1">10</span>
+        <span><strong>Shape.</strong> Steam the loops and pull them open into rounded ears, then press the tails so the points hang straight and slightly apart.</span>
+      </li>
+    </ol>
+
+    <div style="margin-top:auto;background:#efe9e4;padding:12px;font-size:9.5pt;line-height:1.6">
+      <strong>Fitting notes.</strong> For a stiffer bow, fuse lightweight interfacing to the wrong side of A before step 2. For longer tails, cut B longer than 11" but keep the 1 1/2" diagonal, so the points keep their pitch.
+    </div>
+
+    <div style="display:flex;justify-content:space-between;font-size:8.5pt;color:#6c6568">
+      <span>Dragon Ink and Thread · Sailor Bow · 1/4" seam allowance · dragoninkandthread.com</span>
+      <span>Page 2</span>
+    </div>
+  </section>
+
+  <section class="page" data-screen-label="03 Reference photos" style="box-sizing:border-box;width:100%;height:100%;padding:0.62in 0.7in;background:#fbfaf7;color:#211d1f;font-family:'JetBrains Mono',ui-monospace,monospace;display:flex;flex-direction:column;gap:0.2in">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.5px solid #211d1f;padding-bottom:10px">
+      <h2 style="margin:0;font-family:'Instrument Serif',Georgia,serif;font-size:30pt;font-weight:400">Reference</h2>
+      <div style="font-size:9pt;letter-spacing:0.18em;text-transform:uppercase;color:#5b3a52">Sewing pattern · 3 of 6</div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:0.22in;flex:1;min-height:0">
+      <figure style="margin:0;display:flex;flex-direction:column;min-height:0">
+        <img src="../assets/pattern-sailor-bow-fabric.jpg" alt="Yardage of black spider-web print cotton with a ruler for scale" style="display:block;width:100%;flex:1;min-height:0;object-fit:cover;border:1px solid #211d1f" />
+        <figcaption style="font-size:8.5pt;color:#4a4446;margin-top:5px;line-height:1.45"><strong>Fabric.</strong> Quilting cotton — a fat quarter is enough for one bow.</figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column;min-height:0">
+        <img src="../assets/pattern-sailor-bow-cut.jpg" alt="Two cut rectangles of fabric laid on a gridded cutting mat" style="display:block;width:100%;flex:1;min-height:0;object-fit:cover;border:1px solid #211d1f" />
+        <figcaption style="font-size:8.5pt;color:#4a4446;margin-top:5px;line-height:1.45"><strong>Step 1.</strong> Pieces cut on the fold and squared up on the mat.</figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column;min-height:0">
+        <img src="../assets/pattern-sailor-bow-sewn.jpg" alt="Sewn loop tube, mitered tail piece and narrow center strip" style="display:block;width:100%;flex:1;min-height:0;object-fit:cover;border:1px solid #211d1f" />
+        <figcaption style="font-size:8.5pt;color:#4a4446;margin-top:5px;line-height:1.45"><strong>Steps 2 &amp; 5.</strong> Loop tube, tail unit with its mitered edge, and the wrap strip.</figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column;min-height:0">
+        <img src="../assets/pattern-sailor-bow-loop.jpg" alt="The loop unit on a cutting mat, its ends overlapped at the middle and zigzag-stitched across" style="display:block;width:100%;flex:1;min-height:0;object-fit:cover;border:1px solid #211d1f" />
+        <figcaption style="font-size:8.5pt;color:#4a4446;margin-top:5px;line-height:1.45"><strong>Step 4.</strong> Ends brought to the middle, overlapped and zigzagged across.</figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column;min-height:0">
+        <img src="../assets/pattern-sailor-bow-pinched.jpg" alt="The tails and the loop unit, each pinched and tied at the center, with the wrap strip beside them" style="display:block;width:100%;flex:1;min-height:0;object-fit:cover;border:1px solid #211d1f" />
+        <figcaption style="font-size:8.5pt;color:#4a4446;margin-top:5px;line-height:1.45"><strong>Steps 4 &amp; 6.</strong> Tails and loop each pinched and tied, wrap strip ready beside them.</figcaption>
+      </figure>
+      <figure style="margin:0;display:flex;flex-direction:column;min-height:0">
+        <img src="../assets/pattern-sailor-bow-shaped.jpg" alt="Finished bow held flat in one hand" style="display:block;width:100%;flex:1;min-height:0;object-fit:cover;border:1px solid #211d1f" />
+        <figcaption style="font-size:8.5pt;color:#4a4446;margin-top:5px;line-height:1.45"><strong>Step 10.</strong> Steamed and opened out: loops rounded, points hanging straight.</figcaption>
+      </figure>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;font-size:8.5pt;color:#6c6568">
+      <span>Dragon Ink and Thread · Sailor Bow · 1/4" seam allowance · dragoninkandthread.com</span>
+      <span>Page 3</span>
+    </div>
+  </section>
+
+  <section class="page" data-screen-label="04 Piece A" style="box-sizing:border-box;width:100%;height:100%;padding:0.55in 0.6in;background:#fbfaf7;color:#211d1f;font-family:'JetBrains Mono',ui-monospace,monospace;display:flex;flex-direction:column">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.5px solid #211d1f;padding-bottom:8px;margin-bottom:0.18in">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:26pt">A · Loop</span>
+        <span style="font-size:9.5pt">Cut 1 on fold · full size · 1/4" SA included</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;font-size:8.5pt;color:#5b3a52">
+        <span>1" check</span>
+        <span style="display:block;box-sizing:border-box;width:1in;height:1in;border:1px solid #211d1f"></span>
+      </div>
+    </div>
+
+    <svg width="6in" height="6in" viewBox="0 0 6 6" style="display:block;overflow:visible">
+      <rect x="0" y="0" width="6" height="6" fill="#ffffff" stroke="#211d1f" stroke-width="0.02" />
+      <!-- Stitching on the two long edges only: the short end is left raw and
+           overlapped in step 4, never sewn. -->
+      <path d="M0 0.25 H6 M0 5.75 H6" fill="none" stroke="#5b3a52" stroke-width="0.014" stroke-dasharray="0.09 0.06" />
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#211d1f" stroke-width="0.05" />
+      <g stroke="#211d1f" stroke-width="0.014" fill="none">
+        <line x1="1.2" y1="3" x2="4.8" y2="3" />
+        <path d="M1.35 2.88 L1.2 3 L1.35 3.12" />
+        <path d="M4.65 2.88 L4.8 3 L4.65 3.12" />
+      </g>
+      <text x="3" y="2.86" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.13" fill="#211d1f">GRAINLINE</text>
+      <text x="0.2" y="3" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.15" fill="#211d1f" letter-spacing="0.03" transform="rotate(-90 0.2 3)">PLACE ON FOLD</text>
+      <text x="3" y="0.62" text-anchor="middle" font-family="'Instrument Serif',Georgia,serif" font-size="0.3" fill="#211d1f">Piece A — Loop</text>
+      <text x="3" y="0.95" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.14" fill="#5b3a52">half of 12" × 6"</text>
+      <text x="3" y="5.55" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.13" fill="#6c6568">6" (half width) × 6" tall as printed</text>
+    </svg>
+
+    <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;gap:0.3in;font-size:9pt;line-height:1.55">
+      <span style="max-width:4.6in">Solid line = cut. Dashed line = 1/4" stitching line. Heavy line = fold — no seam allowance on that edge.</span>
+      <span style="color:#6c6568;font-size:8.5pt;white-space:nowrap">dragoninkandthread.com · Page 4</span>
+    </div>
+  </section>
+
+  <section class="page" data-screen-label="05 Piece B" style="box-sizing:border-box;width:100%;height:100%;padding:0.55in 0.6in;background:#fbfaf7;color:#211d1f;font-family:'JetBrains Mono',ui-monospace,monospace;display:flex;flex-direction:column">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.5px solid #211d1f;padding-bottom:8px;margin-bottom:0.14in">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:26pt">B · Tails</span>
+        <span style="font-size:9.5pt">Cut 1 on fold · full size · 1/4" SA included</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;font-size:8.5pt;color:#5b3a52">
+        <span>1" check</span>
+        <span style="display:block;box-sizing:border-box;width:1in;height:1in;border:1px solid #211d1f"></span>
+      </div>
+    </div>
+
+    <!-- HALF of B, 5 1/2" of its 11" length, placed on a CROSSWISE fold: 11" will not
+         fit across a Letter sheet. Opened out it is 11" × 7" with a shallow point at
+         each end — the diagonals run from the lengthwise fold (y=3.5, the point) to
+         1 1/2" in along each raw edge. The stitching line is the cut line offset
+         1/4" inward: along the diagonal that shifts it 0.2298" left and 0.0985" down,
+         so it meets the raw-edge seam at x=3.835 and the fold at x=5.228. -->
+    <svg width="5.5in" height="7in" viewBox="0 0 5.5 7" style="display:block;overflow:visible">
+      <path d="M0 0 H4 L5.5 3.5 L4 7 H0 Z" fill="#ffffff" stroke="#211d1f" stroke-width="0.02" />
+      <path d="M0 0.25 H3.835 L5.228 3.5 L3.835 6.75 H0" fill="none" stroke="#5b3a52" stroke-width="0.014" stroke-dasharray="0.09 0.06" />
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#211d1f" stroke-width="0.05" />
+      <!-- The lengthwise fold of step 5. Folded, never sewn. -->
+      <line x1="0" y1="3.5" x2="5.5" y2="3.5" stroke="#c9bfb6" stroke-width="0.012" stroke-dasharray="0.05 0.05" />
+      <text x="2.2" y="3.4" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.11" fill="#6c6568">lengthwise fold (step 5) — not sewn</text>
+      <g stroke="#211d1f" stroke-width="0.014" fill="none">
+        <line x1="0.9" y1="5" x2="3.5" y2="5" />
+        <path d="M1.05 4.88 L0.9 5 L1.05 5.12" />
+        <path d="M3.35 4.88 L3.5 5 L3.35 5.12" />
+      </g>
+      <text x="2.2" y="4.86" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.13" fill="#211d1f">GRAINLINE</text>
+      <text x="0.2" y="5.4" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.15" fill="#211d1f" letter-spacing="0.03" transform="rotate(-90 0.2 5.4)">PLACE ON FOLD</text>
+      <text x="2.1" y="1.0" text-anchor="middle" font-family="'Instrument Serif',Georgia,serif" font-size="0.3" fill="#211d1f">Piece B — Tails</text>
+      <text x="2.1" y="1.33" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.14" fill="#5b3a52">half of 11" × 7"</text>
+      <!-- The gap straddles the crosswise fold: 1" on this half, mirrored to 2" when
+           cut, centred on the long raw edge where the wrap will cover it. The two
+           raw edges become ONE seam in step 5, so it is marked on one of them. -->
+      <text x="0.35" y="1.75" text-anchor="start" font-family="'JetBrains Mono',monospace" font-size="0.12" fill="#6c6568">leave a 2" gap across the fold — 1" each side</text>
+      <g stroke="#5b3a52" stroke-width="0.012" fill="none"><line x1="0" y1="0.13" x2="1" y2="0.13" /><line x1="1" y1="0.06" x2="1" y2="0.2" /></g>
+      <text x="4.86" y="1.7" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.12" fill="#6c6568" transform="rotate(66.8 4.86 1.7)">cut on the diagonal</text>
+      <text x="5.6" y="3.55" text-anchor="start" font-family="'JetBrains Mono',monospace" font-size="0.12" fill="#6c6568">point</text>
+      <g stroke="#6c6568" stroke-width="0.012" fill="none">
+        <line x1="4" y1="7.25" x2="5.5" y2="7.25" />
+        <line x1="4" y1="7.17" x2="4" y2="7.33" />
+        <line x1="5.5" y1="7.17" x2="5.5" y2="7.33" />
+      </g>
+      <text x="4.75" y="7.45" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.12" fill="#6c6568">1 1/2"</text>
+    </svg>
+
+    <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;gap:0.3in;font-size:9pt;line-height:1.55">
+      <span style="max-width:5in">Opened out, B is one 11" × 7" piece with a shallow point at each end. No printer? Cut an 11" × 7" rectangle, fold it in half lengthwise, and at each end cut from the corner on the fold to a mark 1 1/2" in along the raw edges.</span>
+      <span style="color:#6c6568;font-size:8.5pt;white-space:nowrap">dragoninkandthread.com · Page 5</span>
+    </div>
+  </section>
+
+  <section class="page" data-screen-label="06 Pieces C and D" style="box-sizing:border-box;width:100%;height:100%;padding:0.62in 0.7in;background:#fbfaf7;color:#211d1f;font-family:'JetBrains Mono',ui-monospace,monospace;display:flex;flex-direction:column;gap:0.24in">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.5px solid #211d1f;padding-bottom:8px">
+      <div style="display:flex;align-items:baseline;gap:12px">
+        <span style="font-family:'Instrument Serif',Georgia,serif;font-size:26pt">C &amp; D · Wraps</span>
+        <span style="font-size:9.5pt">Single layer · full size</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;font-size:8.5pt;color:#5b3a52">
+        <span>1" check</span>
+        <span style="display:block;box-sizing:border-box;width:1in;height:1in;border:1px solid #211d1f"></span>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:0.4in">
+      <svg width="4in" height="1.5in" viewBox="0 0 4 1.5" style="display:block;overflow:visible">
+        <rect x="0" y="0" width="4" height="1.5" fill="#ffffff" stroke="#211d1f" stroke-width="0.02" />
+        <line x1="0" y1="0.75" x2="4" y2="0.75" stroke="#5b3a52" stroke-width="0.012" stroke-dasharray="0.08 0.06" />
+        <line x1="0" y1="0.375" x2="4" y2="0.375" stroke="#c9bfb6" stroke-width="0.01" stroke-dasharray="0.05 0.05" />
+        <line x1="0" y1="1.125" x2="4" y2="1.125" stroke="#c9bfb6" stroke-width="0.01" stroke-dasharray="0.05 0.05" />
+        <text x="2" y="0.62" text-anchor="middle" font-family="'Instrument Serif',Georgia,serif" font-size="0.26" fill="#211d1f">Piece C — Center wrap</text>
+        <text x="2" y="1.05" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.13" fill="#5b3a52">cut 1 · 4" × 1 1/2"</text>
+      </svg>
+
+      <svg width="3in" height="1in" viewBox="0 0 3 1" style="display:block;overflow:visible">
+        <rect x="0" y="0" width="3" height="1" fill="#ffffff" stroke="#211d1f" stroke-width="0.02" />
+        <line x1="0" y1="0.5" x2="3" y2="0.5" stroke="#5b3a52" stroke-width="0.012" stroke-dasharray="0.08 0.06" />
+        <text x="1.5" y="0.42" text-anchor="middle" font-family="'Instrument Serif',Georgia,serif" font-size="0.22" fill="#211d1f">Piece D — Clip cover</text>
+        <text x="1.5" y="0.75" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="0.12" fill="#5b3a52">cut 1 · 3" × 1" · optional</text>
+      </svg>
+    </div>
+
+    <div style="margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:0.3in;border-top:1.5px solid #211d1f;padding-top:0.2in;font-size:9.5pt;line-height:1.6">
+      <div><strong style="display:block;margin-bottom:4px">Folding C and D</strong>The faint lines mark the quarter folds. Press both long edges in to the center line, then fold along the center and press again — C finishes about 3/8" wide, D about 1/4".</div>
+      <div><strong style="display:block;margin-bottom:4px">One wrap, not two</strong>Cotton bulks up at the center, and C is cut for one snug wrap plus a hand-stitch — which is plenty. For a double wrap, cut C about 8" long instead.</div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;font-size:8.5pt;color:#6c6568">
+      <span>Dragon Ink and Thread · Sailor Bow · 1/4" seam allowance · dragoninkandthread.com</span>
+      <span>Page 6</span>
+    </div>
+  </section>
+
+</doc-page>
+</x-dc>
+</body>
+</html>
