@@ -475,9 +475,16 @@ Two rules that keep this useful:
 
 - [ ] 🎀 **PATTERN THREE — THE SAILOR BOW — LIVE 2026-09-10, own tag `pattern-sailor-bow`, own
   pin (`assets/pins/pin-free-pattern-sailor-bow.jpg`).** Page `pattern-sailor-bow.html`; the
-  other two pattern pages now link to it. **Not yet posted anywhere** — and the Sep 8 finding
-  says the way to post it is as a *reply* to someone asking for a bow pattern, not a post of our
-  own.
+  other two pattern pages now link to it.
+  📣 **POSTED 2026-09-11 — the Halloween version, as a POST in a beginner sewing group** (text in
+  §6 of `marketing/facebook-groups.md`; Buttondown status checked straight after: all green, no
+  incident). ⚠️ **This is a post, not a reply** — the format that has never yet beaten a reply —
+  so it is a genuine test, not a repeat of Sep 8. **Read it on Sat Sep 12 or Sun Sep 13:**
+  Cloudflare → Path → `/pattern-sailor-bow.html` visits, then `tools/buttondown-report.js` for
+  the **`pattern-sailor-bow`** tag. Compare against the dog reply (~150 visits · ~40 signups ·
+  4 confirmed) and the scrunchie page post (20 visits · 0). **The post asks people to click the
+  confirmation email** — the first time anything has — so the confirmed-to-signup ratio is worth
+  comparing to Sep 8's 10% on its own.
   ✅ **The tails piece was wrong in the canvas export and was redrawn before it went live.** The
   export drew two stacked 11″ × 7″ pieces with a V notched in; the owner confirmed it is **one
   11″ × 7″ piece, ends cut on a diagonal**. Folded lengthwise, cut to a point 1½″ in.

@@ -136,6 +136,7 @@ filter → sort by **Recent**. Rotate through these:
 | `free please` | literally the Sep 8 wording |
 | `dog bandana` | you hold the pattern AND sell the product |
 | `scrunchie pattern` | the other pattern you hold |
+| `bow pattern` · `hair bow` · `sailor bow` | the third pattern (2026-09-10) — and you sell bows too |
 | `where can I find` | often a buying question → template 2's neighbourly version |
 | `beginner project` | you have two genuine beginner patterns |
 
@@ -152,6 +153,7 @@ filter → sort by **Recent**. Rotate through these:
 #### 4. What to have ready, so answering takes seconds
 - Dog neckerchief — `https://www.dragoninkandthread.com/pattern-dog-neckerchief.html`
 - Chunky scrunchie — `https://www.dragoninkandthread.com/pattern.html`
+- Sailor bow — `https://www.dragoninkandthread.com/pattern-sailor-bow.html` (confident beginner)
 - Fabric library — `https://www.dragoninkandthread.com/fabrics.html`
 - ⚠️ **Post the LINK when the ask is for a free resource** (see the link rule above). **Post the
   neighbourly note, no link, when the ask is where to buy.**
@@ -270,6 +272,28 @@ CLAUDE.md: 35–55 hours, throws at $650–950, heirloom-from-clothing floor $65
 > I don't take one on under $650, and I'd be a bit wary of anyone quoting you a fortnight or a
 > couple of hundred. That's usually someone who hasn't finished one yet.
 
+**⑫ "Free hair bow / sailor bow pattern?" — added 2026-09-11, NOT YET USED**
+*Every number is the owner's own: one fat quarter, about 30 minutes, 6″ × 6″ finished. The
+pattern pieces print full size (the tails as half a piece, on the fold). It is a **confident
+beginner** pattern, not a first project — so don't offer it in answer to "what should I sew
+first?"; the scrunchie and the neckerchief are the ones for that (③). Signups arrive tagged
+**`pattern-sailor-bow`**, so this one's pull can be read on its own in
+`tools/buttondown-report.js`.*
+> I've just put a free one up — a sailor bow with pointed tails, on a hair clip. One fat quarter
+> makes one, it's about half an hour, and the pattern pieces print full size.
+>
+> https://www.dragoninkandthread.com/pattern-sailor-bow.html
+
+*Shorter, for a thread that's already busy — the Sep 8 winner was barely more than a link:*
+> Free sailor bow pattern here if it helps 🎀
+> https://www.dragoninkandthread.com/pattern-sailor-bow.html
+
+*For a Halloween or autumn thread — the one in the pattern photos is a spider-web print:*
+> Mine's free — a sailor bow on a hair clip, and the one in the photos is in a spider-web print,
+> so it's very on theme for October. About half an hour from a fat quarter.
+>
+> https://www.dragoninkandthread.com/pattern-sailor-bow.html
+
 **⑧ ⭐ When you DON'T have what they're asking for — answer anyway, with no link.**
 *This is the one that gets skipped and shouldn't be. People click the profiles of names they
 recognise. Being useful in a thread you can't sell into is what makes the next thread work, and
@@ -334,6 +358,62 @@ Photo-led, one line, no link.*
 > Ghost, modelling the thing I made him instead of letting me finish the washing.
 >
 > I sew dog bandanas — this one's patchwork, pieced from scraps. He is unbothered either way.
+
+## 6. Beginner sewing groups — the free sailor bow pattern (a POST, written 2026-09-11)
+
+*⚠️ Remember what the numbers say: **one reply beat every post this shop has made** (§2). This
+is the exception worth trying because a free pattern is the one thing a beginner group welcomes
+as a post — it gives rather than sells. Still: **read the pinned rules first**, since some groups
+want links in the comments, and **never the same wording in two groups on one day.***
+
+*Honest about the level on purpose. The pattern says **confident beginner**, not first project —
+telling a beginner group it's easy and having them stuck at turning a tube is how a post earns
+the wrong comments. Every number is the owner's own (6″ × 6″, one fat quarter, about 30 min).
+The email gate is named up front: in a group, "free" that turns out to want an address reads as
+a bait-and-switch, and saying it plainly also primes people to expect the confirmation email —
+the step where 36 of 40 were lost on Sep 8.*
+
+*📸 Attach `assets/pattern-sailor-bow-finished.jpg` first, then `-pinched.jpg` — the finished
+bow, then the pieces before they're joined. The second one is what says "you could do this".*
+
+*🎃 **Written as a HALLOWEEN post** (owner's call, 2026-09-11). The photos already are one — the
+bow is in a spider-web print — and a date gives a free pattern the one thing it otherwise lacks:
+a reason to make it *this week*. Best posted mid-September to mid-October; after about Oct 20
+there isn't time to print, sew and wear it, so switch to a plain version. Suggested prints are
+all-over ones on purpose — the pattern's own fabric note says the tails hang at an angle, so a
+one-way print won't read upright on them.*
+
+**Link in the post** (most sewing groups allow free patterns):
+> Free Halloween bow pattern 🎃🕸️
+>
+> I made this sailor bow in a spider-web print and wrote the pattern up so you can make your own
+> before the 31st. Big bow, pointed tails, on a hair clip — 6″ × 6″ finished, one fat quarter
+> makes one, and it takes me about half an hour.
+>
+> It's all straight lines: a tube for the loops, a folded piece for the tails, and a little strip
+> wrapped round the middle that holds the whole shape. If you've sewn a few straight seams and
+> turned a tube right side out, you can do this. The pattern pieces print full size on ordinary
+> paper, with nothing to tape together.
+>
+> Spider webs, scattered bats, black gingham, pumpkin orange — and it's quick enough to make one
+> for every costume, or every witch in the house 🦇
+>
+> It's free here — pop your email in and the download appears right on the page (do click the
+> confirmation email if one turns up):
+> https://www.dragoninkandthread.com/pattern-sailor-bow.html
+>
+> What spooky print would you make yours in? 👻
+
+**Link in the comments** (for groups that ask for it — post this, then comment the link yourself
+straight away):
+> Free Halloween bow pattern for anyone who wants one 🎃
+>
+> Big sailor bow with pointed tails, on a hair clip — mine's in a spider-web print 🕸️ One fat
+> quarter, about half an hour, 6″ × 6″ finished. All straight lines, so if you can sew a straight
+> seam and turn a tube right side out, you can make this before the 31st. Pattern pieces print
+> full size, nothing to tape.
+>
+> Link's in the comments. Show me your spooky fabrics! 🦇
 
 ---
 
