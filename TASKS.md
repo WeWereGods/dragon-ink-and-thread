@@ -481,12 +481,10 @@ Two rules that keep this useful:
   ✅ **The tails piece was wrong in the canvas export and was redrawn before it went live.** The
   export drew two stacked 11″ × 7″ pieces with a V notched in; the owner confirmed it is **one
   11″ × 7″ piece, ends cut on a diagonal**. Folded lengthwise, cut to a point 1½″ in.
-  Still unconfirmed, none of them wrong enough to hold it back:
-  - **The 1½″ diagonal depth** — taken from the export's own note and the photo, not asked.
-  - **Finished size "6″ wide · 8½″ long"** — the shop bows are 6″ × 6″; nothing checked this one.
-  - **Piece A 12″ × 6″** — the sewn loop tube in the photos looks nearer 2¼″ wide than the
-    2¾″ a 6″ strip gives.
-  - **A sewing time** for the index card, which says "One fat quarter" in its place for now.
+  ✅ **The last four open numbers were answered by the owner 2026-09-11** and are in the PDF:
+  finished size **6″ × 6″** (the export said 8½″ long) · piece A **12″ × 6″ is right**, its ends
+  **butted edge to edge and zigzagged, not overlapped** (so the loop is 6″ wide) · the tails'
+  diagonal is **eyeballed**, so 1½″ is printed as a guide · about **30 minutes** to make.
   Any correction: edit `designs/sailor-bow-pattern.dc.html`, re-run
   `node tools/pattern-to-pdf.js designs/sailor-bow-pattern.dc.html assets/sailor-bow-pattern.pdf`,
   and look at the page it touched.

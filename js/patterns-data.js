@@ -197,9 +197,7 @@ window.DIT_PATTERNS = {
       cardTitle: "The Sailor Bow",
       cardBlurb: "Looped bow, pointed tails, hair-clip finish. Full-size pieces.",
       level: "Confident beginner",
-      // No sewing time was supplied with the pattern, so the card names the
-      // fabric instead of guessing at minutes. Swap in a time once the owner has one.
-      time: "One fat quarter",
+      time: "About 30 minutes", // the owner's own figure, 2026-09-11
     },
   ],
 };
