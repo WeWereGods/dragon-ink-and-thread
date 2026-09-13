@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Working document, not a site page: served by GitHub Pages only because
+     everything in the repo is. noindex keeps it out of search. The published
+     copy lives at https://claude.ai/code/artifact/10f17742-2678-48cf-b16d-35d97605fb5b
+     - edit HERE (the repo is the source of truth for marketing copy) and
+     republish, never the other way round. -->
+<meta name="robots" content="noindex, nofollow">
+<title>October Market Prep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Great+Vibes&family=Nunito:wght@400;600;700;800&display=swap">
+<style>
+  /* A paper checklist: one deliberate light world, painted explicitly so it
+     holds on either host theme. Palette is the shop's own (css/styles.css). */
+  :root {
+    --paper: #f6efe0;
+    --sheet: #fffdf7;
+    --teal: #2f6b72;
+    --teal-soft: #dcebeb;
+    --rose: #a34a6b;
+    --rose-soft: #f6e2e8;
+    --honey: #b9862a;
+    --honey-soft: #f7ecd2;
+    --ink: #453a30;
+    --ink-soft: #6a5b4a;
+    --rule: #e6dccb;
+    --display: "Fraunces", Georgia, "Times New Roman", serif;
+    --body: "Nunito", -apple-system, "Segoe UI", Roboto, sans-serif;
+    --script: "Great Vibes", "Segoe Script", cursive;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { background: var(--paper); color: var(--ink); }
+  body { margin: 0; font: 15px/1.45 var(--body); padding: 24px 16px 48px; }
+
+  .toolbar {
+    max-width: 8.5in; margin: 0 auto 16px; display: flex; gap: 10px; justify-content: flex-end;
+    align-items: center; flex-wrap: wrap;
+  }
+  .toolbar p { margin: 0 auto 0 0; color: var(--ink-soft); font-size: 13px; }
+  .toolbar button {
+    font: 700 14px var(--body); border-radius: 999px; padding: 8px 16px; cursor: pointer;
+    border: 1.5px solid var(--teal); background: var(--teal); color: var(--sheet);
+  }
+  .toolbar button.quiet { background: transparent; color: var(--teal); }
+  .toolbar button:focus-visible, .box:focus-visible { outline: 3px solid var(--honey); outline-offset: 2px; }
+
+  .sheet {
+    max-width: 8.5in; margin: 0 auto 24px; background: var(--sheet);
+    padding: 0.5in 0.55in; box-shadow: 0 10px 30px rgba(69, 58, 48, 0.12);
+    display: flex; flex-direction: column; gap: 18px;
+  }
+
+  header.top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+  .brand { font: 26px/1 var(--script); color: var(--rose); }
+  h1 { font: 600 34px/1.05 var(--display); margin: 2px 0 4px; text-wrap: balance; }
+  .sub { margin: 0; color: var(--ink-soft); font-size: 14px; }
+  .markets { display: flex; gap: 8px; }
+  .market-tag {
+    border: 1.5px solid var(--rose); color: var(--rose); border-radius: 12px; padding: 6px 12px;
+    text-align: center; line-height: 1.2;
+  }
+  .market-tag b { display: block; font: 600 17px var(--display); }
+  .market-tag span { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700; }
+
+  /* The real sequence of fixed dates — numbered by date, not decoration. */
+  .dates { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; border-top: 2px solid var(--ink); }
+  .dates div { padding: 8px 8px 0 0; font-size: 12.5px; line-height: 1.3; }
+  .dates b { display: block; font: 600 15px var(--display); font-variant-numeric: tabular-nums; }
+  .dates .tax b { color: var(--honey); }
+  .dates .mkt b { color: var(--rose); }
+
+  .week { display: grid; grid-template-columns: 1.35in 1fr; gap: 14px; padding-top: 12px; border-top: 1px solid var(--rule); }
+  .when b { display: block; font: 600 17px/1.15 var(--display); font-variant-numeric: tabular-nums; }
+  .when span { display: block; font-size: 12px; color: var(--ink-soft); margin-top: 3px; }
+  .when .hrs {
+    display: inline-block; margin-top: 6px; font-size: 11px; font-weight: 800; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--teal); background: var(--teal-soft); border-radius: 999px; padding: 2px 8px;
+  }
+  .week.market .when b { color: var(--rose); }
+  .week.market .when .hrs { color: var(--rose); background: var(--rose-soft); }
+  .week h2 { font: 600 16px/1.2 var(--display); margin: 0 0 6px; text-wrap: balance; }
+  .week .what { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+
+  .task { display: flex; gap: 9px; align-items: flex-start; }
+  .task > span { padding-top: 1px; }
+  .note { font-size: 12.5px; color: var(--ink-soft); }
+  .blank { display: inline-block; min-width: 52px; border-bottom: 1.2px solid var(--ink-soft); height: 1em; vertical-align: -2px; }
+  .blank.long { min-width: 160px; }
+
+  .box {
+    flex: none; width: 16px; height: 16px; margin-top: 2px; border: 1.6px solid var(--ink-soft);
+    border-radius: 3px; background: var(--sheet); cursor: pointer; padding: 0; position: relative;
+    font: 700 13px/1 var(--body); color: var(--sheet);
+  }
+  .box[aria-checked="true"] { background: var(--teal); border-color: var(--teal); }
+  .box[aria-checked="true"]::after { content: "✓"; position: absolute; inset: 0; display: grid; place-items: center; }
+
+  /* One tally box per piece: ticked with a cross-stitch ×. */
+  .piece { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .piece .label { min-width: 13em; }
+  .piece .label em { font-style: normal; color: var(--ink-soft); font-size: 12.5px; }
+  .tally { display: flex; gap: 4px; flex-wrap: wrap; }
+  .tally .box { margin: 0; width: 15px; height: 15px; }
+  .tally .box[aria-checked="true"] { background: var(--sheet); border-color: var(--teal); color: var(--teal); }
+  .tally .box[aria-checked="true"]::after { content: "×"; font: 800 15px/1 var(--body); }
+  .tally.named { gap: 10px 14px; }
+  .tally.named label { display: flex; gap: 5px; align-items: center; font-size: 13px; }
+
+  .rule-box {
+    background: var(--honey-soft); border-radius: 10px; padding: 8px 12px; font-size: 13px;
+    display: grid; grid-template-columns: auto 1fr; gap: 2px 12px;
+  }
+  .rule-box b { font-variant-numeric: tabular-nums; }
+  .warn { background: var(--honey-soft); border-radius: 10px; padding: 8px 12px; font-size: 13px; }
+  .warn b { color: var(--honey); }
+
+  .pack { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; border-top: 2px solid var(--ink); padding-top: 12px; }
+  .pack h2 { font: 600 17px var(--display); margin: 0 0 8px; }
+  .pack .cols { columns: 2; column-gap: 20px; }
+  .pack .task { break-inside: avoid; margin-bottom: 5px; font-size: 13.5px; }
+  .pack .night h2 { color: var(--rose); }
+
+  footer.sums {
+    display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 12.5px; color: var(--ink-soft);
+    border-top: 1px solid var(--rule); padding-top: 10px; margin-top: auto;
+  }
+  footer.sums b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  @media (max-width: 640px) {
+    .sheet { padding: 22px 18px; }
+    .week { grid-template-columns: 1fr; gap: 6px; }
+    .dates { grid-template-columns: repeat(2, 1fr); gap: 6px 0; }
+    .pack { grid-template-columns: 1fr; }
+    .pack .cols { columns: 1; }
+    .piece .label { min-width: 0; width: 100%; }
+  }
+
+  @page { size: letter; margin: 0.45in; }
+  @media print {
+    html, body { background: #fff; }
+    body { padding: 0; font-size: 12.5px; }
+    .toolbar { display: none; }
+    .sheet { box-shadow: none; max-width: none; margin: 0; padding: 0; gap: 12px; break-after: page; }
+    .sheet:last-child { break-after: auto; }
+    .week { break-inside: avoid; padding-top: 9px; }
+    h1 { font-size: 28px; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <p>Ticks save in this browser. Print it for the sewing room — letter size, two pages.</p>
+  <button type="button" class="quiet" id="clear">Clear all ticks</button>
+  <button type="button" id="print">Print</button>
+</div>
+
+<!-- ─────────────── SHEET 1 — up to market day one ─────────────── -->
+<section class="sheet">
+  <header class="top">
+    <div>
+      <div class="brand">Dragon Ink and Thread</div>
+      <h1>October Market Prep</h1>
+      <p class="sub">Two outdoor markets · 6-ft table (mine) · canopy to borrow · $30 each</p>
+    </div>
+    <div class="markets">
+      <div class="market-tag"><span>Day</span><b>Sat Oct 10</b></div>
+      <div class="market-tag"><span>Night</span><b>Fri Oct 30</b></div>
+    </div>
+  </header>
+
+  <div class="dates">
+    <div class="tax"><b>Sep 15</b>Federal estimated tax</div>
+    <div><b>Sep 18</b>Shadow box due to Linda</div>
+    <div class="mkt"><b>Oct 10</b>Market 1 · day</div>
+    <div class="tax"><b>Oct 20</b>Sales tax return, if quarterly</div>
+    <div class="mkt"><b>Oct 30</b>Market 2 · night</div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Sep 12 – 18</b><span>Sat – Fri</span><span class="hrs">No market sewing</span></div>
+    <div class="what">
+      <h2>Shadow box first — then check the shelf and order what's short</h2>
+      <div class="task"><button class="box" role="checkbox"></button><span>Finish Linda's shadow box — <b>due Fri Sep 18</b></span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Pay the federal estimated tax — Sep 15</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Link the sales tax permit to Webfile, before Oct 20</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Measure Bowknots in Scarlet <span class="blank"></span> yd · in Cream <span class="blank"></span> yd <span class="note">— the market batch needs about 4–4½ yd of Christmas fabric in all</span></span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Buy only the gap — about 2 yd, two new prints (a plaid is the safe one) <span class="note">· ~$25–40</span></span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Count 2″ alligator clips: <span class="blank"></span> <span class="note">— need about 20, plus spares</span></span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Closures for the gift card holders · elastic · thread · light interfacing</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Ask around for a canopy to borrow — white, 10×10 — and check the market's rule on weights</span></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Sep 19 – 25</b><span>Sat – Fri</span><span class="hrs">~6 hours</span></div>
+    <div class="what">
+      <h2>Bows — cut all twelve in one sitting</h2>
+      <div class="piece"><span class="label">Christmas bows <em>· Bowknots + new prints</em></span><span class="tally" data-n="8"></span></div>
+      <div class="piece"><span class="label">Halloween bows <em>· one of each, to learn which sells</em></span>
+        <span class="tally named">
+          <label><button class="box" role="checkbox" aria-label="Friendly Hauntings"></button>Friendly Hauntings</label>
+          <label><button class="box" role="checkbox" aria-label="Midnight Harvest"></button>Midnight Harvest</label>
+          <label><button class="box" role="checkbox" aria-label="Pumpkin Patch Picnic"></button>Pumpkin Patch Picnic</label>
+          <label><button class="box" role="checkbox" aria-label="Spider web"></button>Spider web</label>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Sep 26 – Oct 2</b><span>Sat – Fri</span><span class="hrs">~5 hours</span></div>
+    <div class="what">
+      <h2>Gift card holders and scrunchies</h2>
+      <div class="task"><button class="box" role="checkbox"></button><span>Make ONE gift card holder and time it: <span class="blank"></span> min</span></div>
+      <div class="piece"><span class="label">Gift card holders <em>· 7–9 more, $10 each</em></span><span class="tally" data-n="9"></span></div>
+      <div class="piece"><span class="label">Christmas scrunchies <em>· one print</em></span><span class="tally" data-n="3"></span></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Oct 3 – 8</b><span>Sat – Thu</span><span class="hrs">~5 hours</span></div>
+    <div class="what">
+      <h2>Bandanas, then the booth itself</h2>
+      <div class="piece"><span class="label">Dog bandanas — Medium <em>· 13–18″ neck</em></span><span class="tally" data-n="2"></span></div>
+      <div class="piece"><span class="label">Dog bandanas — Large <em>· 18–23″ neck</em></span><span class="tally" data-n="2"></span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Price signs — Bows $12 · Scrunchies $6, 3 for $15 · Gift card holders $10 · Bandanas $18–22</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>QR sign — the shop · join the Nest · custom orders</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Bow board or ribbon line · scrunchie stand</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Inventory list — every piece going to the table</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Set the table up once at home and photograph it</span></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Fri Oct 9</b><span>the night before</span></div>
+    <div class="what">
+      <div class="task"><button class="box" role="checkbox"></button><span>Pack from the list on page 2 · check the forecast · <b>$75–100 in small bills</b> · charge the phone</span></div>
+    </div>
+  </div>
+
+  <footer class="sums">
+    <span>Sewing to Oct 10: <b>~16 hours</b></span>
+    <span>On the table: <b>~50 pieces already made + ~30 new</b></span>
+    <span>Page <b>1 of 2</b></span>
+  </footer>
+</section>
+
+<!-- ─────────────── SHEET 2 — the two markets and between ─────────────── -->
+<section class="sheet">
+  <header class="top">
+    <div>
+      <div class="brand">Dragon Ink and Thread</div>
+      <h1 style="font-size:26px">Market month — and what to pack</h1>
+    </div>
+  </header>
+  <div class="week market">
+    <div class="when"><b>Sat Oct 10</b><span>daytime</span><span class="hrs">Market 1</span></div>
+    <div class="what">
+      <div class="task"><button class="box" role="checkbox"></button><span>Mark each sale on the inventory list</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Set aside <b>7.6%</b> of every sale for sales tax <span class="note">(prices are tax-included)</span></span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Total taken: $<span class="blank"></span> <span class="note">· goal $200–300 · the fee is 3 bows</span></span></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Sun Oct 11</b></div>
+    <div class="what">
+      <div class="task"><button class="box" role="checkbox"></button><span>Tell Claude what sold, so it's marked sold out online</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Halloween bows sold: <span class="blank"></span> of 4 · best print: <span class="blank long"></span></span></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Oct 12 – 18</b><span>Mon – Sun</span><span class="hrs">2–4 hours</span></div>
+    <div class="what">
+      <h2>Second Halloween batch — the 30th is the last night they sell</h2>
+      <div class="rule-box">
+        <b>Sold 3–4</b><span>make 8, in the prints that went</span>
+        <b>Sold 1–2</b><span>make 4</span>
+        <b>Sold 0</b><span>make none — bring the four back</span>
+      </div>
+      <div class="piece"><span class="label">Halloween bows <em>· tick as many as the rule says</em></span><span class="tally" data-n="8"></span></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Oct 19 – 25</b><span>Mon – Sun</span><span class="hrs">~4 hours</span></div>
+    <div class="what">
+      <h2>Restock and rehearse the dark</h2>
+      <div class="task"><button class="box" role="checkbox"></button><span>Re-sew whatever ran out first: <span class="blank long"></span></span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Test the night lights on the canopy at dusk</span></div>
+      <div class="warn"><b>Oct 20</b> — sales tax return is due if you file quarterly. It carries Linda's $73.63.</div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Oct 26 – 29</b><span>Mon – Thu</span><span class="hrs">Buffer</span></div>
+    <div class="what">
+      <div class="task"><button class="box" role="checkbox"></button><span>Nothing new — finish anything that slipped</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Halloween dressing: spider-web cloth, the pattern bow on display · pack Thursday</span></div>
+    </div>
+  </div>
+
+  <div class="week market">
+    <div class="when"><b>Fri Oct 30</b><span>night</span><span class="hrs">Market 2</span></div>
+    <div class="what">
+      <div class="task"><button class="box" role="checkbox"></button><span>Set aside 7.6% · total taken: $<span class="blank"></span></span></div>
+    </div>
+  </div>
+
+  <div class="week">
+    <div class="when"><b>Sat Oct 31</b></div>
+    <div class="what">
+      <div class="task"><button class="box" role="checkbox"></button><span>Tell Claude what sold · box the Halloween leftovers until next September</span></div>
+    </div>
+  </div>
+
+  <div class="pack">
+    <div>
+      <h2>Pack for every market</h2>
+      <div class="cols">
+        <div class="task"><button class="box" role="checkbox"></button><span>Table</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Canopy + weights</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Fabric tablecloth</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Clips for the wind</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Bow board</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Scrunchie stand</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Lidded tub of back-stock</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Price signs + QR sign</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Custom-order cards</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Phone + card reader, charged</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Power bank</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>$75–100 in small bills</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Bags for purchases</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Inventory list + pen</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Plastic sheet for rain</span></div>
+        <div class="task"><button class="box" role="checkbox"></button><span>Water, chair, sunscreen</span></div>
+      </div>
+    </div>
+    <div class="night">
+      <h2>Oct 30 — add</h2>
+      <div class="task"><button class="box" role="checkbox"></button><span>String lights, warm white</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Spare batteries</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Table lantern</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Candy bowl</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>Spider-web tablecloth</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>The pattern bow</span></div>
+      <div class="task"><button class="box" role="checkbox"></button><span>A jacket</span></div>
+    </div>
+  </div>
+
+  <footer class="sums">
+    <span>Fees: <b>$60</b> for both</span>
+    <span>Sewing in all: <b>~22–24 hours</b> over seven weeks</span>
+    <span>Page <b>2 of 2</b></span>
+  </footer>
+</section>
+
+<script>
+  (function () {
+    var KEY = "dit-market-prep-2026-v1";
+
+    // Tally rows: one box per piece to sew.
+    document.querySelectorAll(".tally[data-n]").forEach(function (t) {
+      var label = t.parentNode.querySelector(".label").textContent.split("·")[0].trim();
+      for (var i = 0; i < +t.dataset.n; i++) {
+        var b = document.createElement("button");
+        b.className = "box"; b.setAttribute("role", "checkbox");
+        b.setAttribute("aria-label", label + " " + (i + 1));
+        t.appendChild(b);
+      }
+    });
+
+    var boxes = Array.prototype.slice.call(document.querySelectorAll(".box"));
+    var state = {};
+    try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { state = {}; }
+    function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+    boxes.forEach(function (b, i) {
+      b.type = "button";
+      b.setAttribute("aria-checked", state[i] ? "true" : "false");
+      if (!b.hasAttribute("aria-label")) {
+        var txt = (b.nextElementSibling || b.parentNode).textContent.replace(/\s+/g, " ").trim();
+        b.setAttribute("aria-label", txt.slice(0, 80));
+      }
+      b.addEventListener("click", function () {
+        var on = b.getAttribute("aria-checked") !== "true";
+        b.setAttribute("aria-checked", on ? "true" : "false");
+        if (on) state[i] = 1; else delete state[i];
+        save();
+      });
+    });
+
+    document.getElementById("print").addEventListener("click", function () { window.print(); });
+    document.getElementById("clear").addEventListener("click", function () {
+      if (!confirm("Clear every tick on this checklist?")) return;
+      state = {}; save();
+      boxes.forEach(function (b) { b.setAttribute("aria-checked", "false"); });
+    });
+  })();
+</script>
+</body>
+</html>

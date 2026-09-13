@@ -473,6 +473,86 @@ Two rules that keep this useful:
 
 ## 🟠 Dated — this week
 
+- [ ] 🎪 **TWO OUTDOOR MARKETS BOOKED — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).** Decided by the
+  owner 2026-09-11; this un-parks the pop-up note at the bottom of this file. 6-ft space,
+  **$30 fee each**, **own table**, **no canopy provided** → borrow a white 10×10 first, buy a cheap
+  one only if that fails; check the market's weight rule (often ~25 lb per leg).
+  **Stock plan:** everything already in the shop (~50 pieces) goes, plus ~25 new:
+  | Sew | For Oct 10 | Why |
+  |---|---|---|
+  | Christmas bows (Ribbons and Evergreen) | 8 | holiday gifting; leftovers sell online through Dec |
+  | Halloween bows (spider web, dark prints) | 4 | **then decide Oct 30's count from what sells on the 10th** |
+  | Gift card holders | 8–10 | ⚠️ **needs a ready-made price under the $12 custom floor — ~$10** |
+  | Dog bandanas, Christmas prints | 4 (2 M, 2 L) | only one Medium in stock |
+  | Christmas scrunchies | 3, one print | already well stocked |
+  ⚠️ **Halloween stock dies on Oct 30** — that market is the last night it sells, so size the
+  second batch from Oct 10's actual sales, not hope.
+  **Fees: $30 EACH — $60 for the pair.**
+  **Fabric:** the only Christmas prints in the library are **Bowknots in Scarlet** and
+  **Bowknots in Cream**. Halloween comes from **Friendly Hauntings, Midnight Harvest, Pumpkin
+  Patch Picnic, Cauldron Forged** and the spider web. The sailor bow pattern budgets **a fat
+  quarter per bow** — so 8 Christmas bows ≈ **2 yards of Bowknots**. Check the shelf first.
+  **Time per piece:** bow ~30 min (owner's figure) · bandana ~45 min · scrunchie ~20 min ·
+  gift card holder **unknown — time the first one**, planned at ~30.
+
+  🖨️ **Printable version: `marketing/october-market-prep.html`** — two letter pages, a tally box
+  per piece, the packing list. Also published at
+  https://claude.ai/code/artifact/10f17742-2678-48cf-b16d-35d97605fb5b — **edit the repo copy and
+  republish, never the reverse.** If the plan below changes, change both.
+
+  ### 🧵 THE SEWING PLAN (written 2026-09-11)
+  | When | Sew / do | Hours |
+  |---|---|---|
+  | **Sat Sep 12 – Fri Sep 18** | 🖼️ **Shadow box first — due Fri 18.** No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy, **Sep 15** federal estimated tax | — |
+  | **Sat Sep 19 – Fri Sep 25** | **12 bows** — 8 Christmas (Bowknots Scarlet/Cream), 4 Halloween (one each of four prints, so the 10th shows *which* sells). **Cut all 12 in one sitting**, sew through the week | ~6 |
+  | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** | ~5 |
+  | **Sat Oct 3 – Thu Oct 8** | **4 dog bandanas** in Christmas prints (2 M, 2 L) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
+  | **Fri Oct 9** | Pack · forecast · charge phone + reader · **$75–100 in small bills** · canopy + weights in the car | — |
+  | **🎪 SAT OCT 10 — day** | Market 1 | — |
+  | **Sun Oct 11** | Tell Claude what sold → sold-out online. **Count the Halloween bows sold — it sets the next row** | — |
+  | **Mon Oct 12 – Sun Oct 18** | **Second Halloween batch:** sold 3–4 of 4 → make **8**, in the prints that went · sold 1–2 → make **4** · sold 0 → **none**, bring the four back | 2–4 |
+  | **Mon Oct 19 – Sun Oct 25** | **Restock whatever ran out first** on the 10th · test the **night lighting at dusk** · ⚠️ **Oct 20 may be a sales-tax due date** (see below) | ~4 |
+  | **Mon Oct 26 – Thu Oct 29** | **Buffer — nothing new planned.** Halloween table dressing (spider web as the cloth), pack Thu | — |
+  | **🎃 FRI OCT 30 — night** | Market 2 · lights, candy bowl, the pattern bow on display | — |
+  | **Sat Oct 31** | Tell Claude what sold. Halloween leftovers go in a box until next September | — |
+  **Total ≈ 22–24 hours across seven weeks** — ~5 a week for three weeks, then lighter.
+
+  **☑️ STASH + SUPPLIES — THIS WEEK, because materials have blocked five jobs already**
+  (fabric, fabric, ticking, batting, clips, and the shadow box's print):
+  - [ ] **2″ alligator clips — need ~20 + spares** (12 now, up to 8 more for the 30th). Order now
+    if short; shipping eats a week.
+  - [ ] **Bowknots in Scarlet + Cream — enough for 8 bows** (~2 yd), plus gift card holders,
+    bandanas and scrunchies. If short: buy more, or swap some Christmas bows for autumn prints.
+  - [ ] **Closures for the gift card holders** (snaps / buttons / velcro — whatever it takes).
+  - [ ] Scrunchie elastic · bandana elastic · thread · light interfacing.
+  - [ ] Canopy (borrow) · weights · price-sign card · a lidded tub for back-stock.
+    ⚠️ **ASK THE MARKET WHAT FOOTPRINT A CANOPY MAY HAVE before buying one.** A 6-ft table is
+    72″ and **will not fit between the legs of a true 6×6 canopy**; it just fits under a
+    6.6×6.6 (79″), which is itself wider than a 6-ft space. If canopies of 8×8 are allowed, that
+    is the comfortable size. Most small canopies ship with **no weight bags** — budget for them.
+  - [ ] **Card payments: Stripe Tap to Pay on the iPhone first** — $0, no hardware, money lands in
+    the same Stripe account as the website. **2.7% + 15¢** a tap (2.7% + 5¢ + 10¢ Tap to Pay fee).
+    It needs signal, so cash is the backup. **Square Reader ($59, 2.6% + 15¢) only if the site
+    turns out to have no signal** — its 2nd-gen reader works offline for up to 24 h, but it's a
+    second account and a second set of payouts to reconcile. **Test with a $1 charge to your own
+    card before Oct 10**, then refund it.
+  - [ ] **Oct 30:** battery warm-white string lights + a lantern; ask if the market has power.
+
+  ⚠️ **OCT 20 FALLS IN THE MIDDLE OF THIS.** If the Comptroller assigned **quarterly** filing,
+  the Jul–Sep return is due **Oct 20** — it holds **Linda's $73.63** — and the permit is still
+  **not linked to Webfile**, so it cannot be filed yet. **Link it during the shadow-box week**,
+  before market prep takes every evening.
+
+  - **After each market:** tell Claude what sold → mark those pieces sold out online
+    (one-of-a-kinds are on the site AND the table; Pushover pings if one sells online meanwhile).
+  - **Oct 30 (night):** ⚠️ **LIGHTING** — battery warm-white string lights on the canopy frame
+    + a table lantern; ask whether power is provided (usually not). A Halloween-eve crowd: the
+    spider-web print as the tablecloth, and the pattern bow on display.
+  **In-person sales carry Texas sales tax** (San Antonio 8.25%) and Stripe only handles it online.
+  Keep $6/$12 as tax-included prices and set aside **7.6% of every market sale** (= 8.25/108.25).
+  Record every sale. The permit is still **not linked to Webfile** — see the tax section.
+  **A realistic first-market goal is $200–300 each**; each $30 fee is covered by 3 bows.
+
 - [ ] 🎀 **PATTERN THREE — THE SAILOR BOW — LIVE 2026-09-10, own tag `pattern-sailor-bow`, own
   pin (`assets/pins/pin-free-pattern-sailor-bow.jpg`).** Page `pattern-sailor-bow.html`; the
   other two pattern pages now link to it.
@@ -485,6 +565,15 @@ Two rules that keep this useful:
   4 confirmed) and the scrunchie page post (20 visits · 0). **The post asks people to click the
   confirmation email** — the first time anything has — so the confirmed-to-signup ratio is worth
   comparing to Sep 8's 10% on its own.
+  📸 **ALSO POSTED ON INSTAGRAM, SAME DAY** — the 7-slide carousel (`assets/social/ig-sailor-bow-*`,
+  caption in §5 of `marketing/single-post-queue.md`). ⚠️ **Both posts land on the same page and
+  the same Buttondown tag**, so the signups can't be split between them. **Cloudflare's Referer
+  tab is the only way to tell them apart:** `facebook.com` / `lm.facebook.com` vs `instagram.com`
+  / `l.instagram.com`. Instagram has sent **zero** measured visits ever (2026-08-10), so any
+  `instagram.com` referrals at all would be news — and they depend on the bio link or a Story
+  link sticker pointing at the pattern page. ⚠️ **Confirmed 2026-09-11: NEITHER was done** —
+  carousel only. So expect Instagram to send ~nobody, and **don't read that as the post failing**:
+  it had no tappable route to the pattern. Doing either one is the cheap follow-up.
   ✅ **The tails piece was wrong in the canvas export and was redrawn before it went live.** The
   export drew two stacked 11″ × 7″ pieces with a V notched in; the owner confirmed it is **one
   11″ × 7″ piece, ends cut on a diagonal**. Folded lengthwise, cut to a point 1½″ in.
@@ -2105,7 +2194,10 @@ self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15
 
 ## ⚫ Parked on purpose — don't start these unasked
 
-- **Pop-up booth kit — NOT NOW, decided 2026-08-20.** Raised when Linda's invoice (paid $966.13)
+- **Pop-up booth kit — NOT NOW, decided 2026-08-20.** ➡️ **SUPERSEDED 2026-09-11: the owner
+  booked two outdoor markets (Oct 10 day, Oct 30 night) — see the 🎪 entry under "Dated". It's
+  done the cheap way this note recommended: own table, borrowed canopy, $30 fee.** The reasoning
+  below still stands for anything bigger. Raised when Linda's invoice (paid $966.13)
   went out. **Two separate reasons, and the money one is the sharper:**
   - ⚠️ **That payment is not profit, it is PREPAID WAGES.** Paid in full for a shadow box due
     Sep 18 and a wall hanging due Feb 2027, with **Linda supplying the materials** — so there is
