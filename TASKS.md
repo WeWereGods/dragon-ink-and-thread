@@ -686,6 +686,23 @@ Two rules that keep this useful:
   | (untagged — pre-dates tagging) | 1 |
   | `checkout` / `purchased` / `waitlist` | 0 |
 
+  📊 **RE-MEASURED 2026-09-13: 13 active, 61 records.** New in 7 days: 5. Free tier 13/100.
+  | Tag | Sep 9 | Sep 13 |
+  |---|---|---|
+  | `hero` | 5 | 5 |
+  | `pattern-neckerchief` | 4 | **3** |
+  | `pattern-sailor-bow` | — | **2** (first reading) |
+  | `pattern` (scrunchie) | 1 | 1 |
+  | `Big Daddy` / untagged | 1 / 1 | 1 / 1 |
+  - ✅ **The sailor bow brought 2 confirmed subscribers** from its Sep 11 group post + Instagram
+    carousel. Small, but it counts.
+  - ❌ **The neckerchief went DOWN, 4 → 3.** Someone left. **So the delayed-confirmation hope from
+    the Sep 9 Buttondown incident didn't come true** — no late confirmations landed.
+  - ⚠️ **Records went UP, 48 → 61, not down.** So *Subscriber cleanup* hasn't removed the
+    unconfirmed ones yet, at least not after four days. The 13 new records against ~2 new
+    actives puts activation at **~15%**, in line with the ~10% of Sep 8.
+  - 📌 **Still true: nearly all growth is free-pattern signups, and the activation rate is the cap.**
+
 - [ ] 🚨 **THE ACTIVATION LEAK — 40 PEOPLE GAVE AN EMAIL, 4 BECAME REACHABLE. FIX THIS FIRST.**
   Measured 2026-09-09: **48 records, 12 active.** Of ~40 signups from the Sep 8 group reply,
   **four** turned into subscribers — a **~10% activation rate**. Everything else in the marketing
