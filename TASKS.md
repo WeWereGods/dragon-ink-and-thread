@@ -498,6 +498,9 @@ Two rules that keep this useful:
   **Time per piece:** bow ~30 min (owner's figure) · bandana ~45 min · scrunchie ~20 min ·
   gift card holder **unknown — time the first one**, planned at ~30.
 
+  📣 **Market posts: `marketing/october-market-posts.md`** — announcement Oct 3–4, local groups
+  Oct 5–7, night-before, set-up, thank-yous, and the Oct 30 run. **Fill the [BRACKETS] first**
+  (market names and places aren't in the repo).
   🖨️ **Printable version: `marketing/october-market-prep.html`** — two letter pages, a tally box
   per piece, the packing list. Also published at
   https://claude.ai/code/artifact/10f17742-2678-48cf-b16d-35d97605fb5b — **edit the repo copy and
