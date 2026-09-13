@@ -957,6 +957,15 @@ Two rules that keep this useful:
       this is a $250 heirloom that will never be made twice. **For the record first** — and
       ⚠️ **publishing anything of it needs Linda's say-so**, the same rule as Maurya's order.
 
+      📦 **PRINT ARRIVES WED SEP 16 (told 2026-09-13). Due to Linda FRI SEP 18.**
+      **No digital copy exists**, so there is no same-day reprint fallback — the ordered print is
+      the only one. The week runs: Tue 15 tax + Maurya · **Wed 16 print lands** · Thu 17 mount it,
+      mat it, seal · **Fri 18 deliver.**
+      ✅ **Before Wednesday:** stabilise everything except the top-left, and **cut the mat to size
+      now** so the print drops in rather than costing an evening.
+      🚨 **TRIGGER: if the print hasn't arrived by end of WEDNESDAY, message Linda THURSDAY
+      MORNING** — box finished, only the picture outstanding, firm new date. Two days' notice
+      lands far better than a Friday apology.
       ⏳ **THE PICTURE IS ORDERED, NOT IN HAND — 2026-09-05. THE JOB NOW WAITS ON A DELIVERY.**
       Owner aims to finish this week; **due Sep 18, 13 days from 2026-09-05.**
       ⚠️ **This is the five-for-five lesson again** — fabric, fabric, ticking, batting, clips, and
