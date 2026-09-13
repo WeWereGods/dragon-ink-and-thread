@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-09.**
+**Last reviewed: 2026-09-13.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -195,10 +195,13 @@ Two rules that keep this useful:
         it" note is spent.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       ✅ **BOTH PIECES COMPLETE 2026-08-18 — but NOT YET HANDED OVER.**
-      ✅ **CHANGED TO A DROP-OFF, 2026-09-05 — the owner will take it to her this week.** She is
-      ill again, and the owner has switched the arrangement rather than set a seventh date.
-      **This removes the step that failed five times out of five** (Maurya travelling). Nothing
-      else about the order is outstanding; the piece has been finished since Aug 18.
+      📅 **LATEST (told 2026-09-13): STILL NOT COLLECTED. Now a PICKUP on TUE SEP 15** — the
+      seventh date. The drop-off planned for the week of Sep 5 didn't happen, and it's back to her
+      coming to collect. **Finished and waiting since Aug 18 — 26 days as of Sep 13.**
+      ⚠️ **Treat Tue Sep 15 as likely, not fixed**, same as every date before it. Nothing else on
+      the order is outstanding. Still no chase and no review ask.
+      *Superseded:* ~~CHANGED TO A DROP-OFF, 2026-09-05 — the owner will take it to her this
+      week.~~ She was ill again; it did not happen that week.
       📅 *Superseded:* sixth date was a PICKUP, Tue Sep 8, "hopefully" (told 2026-09-04).
       Finished and waiting
       since Aug 18 — **17 days** as of 2026-09-04.
