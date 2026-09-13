@@ -413,6 +413,69 @@ async function pinSailorBow() {
     .toFile(path.join(OUT, "pin-free-pattern-sailor-bow.jpg"));
 }
 
+/* The sailor bow pattern as an Instagram carousel — 7 slides, 1080x1350.
+
+   ⚠️ WHY THESE EXIST RATHER THAN POSTING THE PHOTOS STRAIGHT: Instagram crops
+   every slide of a carousel to the aspect of the FIRST one. The step photos are
+   a mix of portrait and landscape, so posted raw, the landscape ones (the tube
+   and tails side by side, the pieces on the mat) lose their ends. Here every
+   photo is FITTED onto a cream 4:5 slide instead — nothing is cropped except the
+   cover's square.
+
+   Captions are the pattern's own words and the owner's own numbers (one fat
+   quarter, about 30 minutes, 6x6). Order follows the making, which is the
+   "process" content campaign-2026-08.md §6 names as the best performer. */
+const IG_SAILOR_BOW = [
+  { file: "pattern-sailor-bow-fabric.jpg",  line: "One fat quarter makes one bow" },
+  { file: "pattern-sailor-bow-cut.jpg",     line: "Cut the pieces — they print full size" },
+  { file: "pattern-sailor-bow-sewn.jpg",    line: "A tube for the loops, a folded piece for the tails" },
+  { file: "pattern-sailor-bow-loop.jpg",    line: "The ends meet in the middle, zigzagged across" },
+  { file: "pattern-sailor-bow-pinched.jpg", line: "Pinch both, then wrap the middle" },
+  { file: "pattern-sailor-bow-shaped.jpg",  line: "About half an hour, start to finish", cta: true },
+];
+
+async function igSailorBow() {
+  const fbSvg = (lines) =>
+    Buffer.from(textLayer(lines).toString("utf8").replace(`width="${W}" height="${H}"`, `width="${FB_W}" height="${FB_H}"`));
+  fs.mkdirSync(SOCIAL, { recursive: true });
+
+  // Slide 1 — the cover. Same square crop as the pin, which keeps the whole bow.
+  const PHOTO = 820;
+  const cover = await sharp(path.join(ROOT, "assets", "pattern-sailor-bow-finished.jpg"))
+    .resize(PHOTO, PHOTO, { fit: "cover" }).toBuffer();
+  await sharp({ create: { width: FB_W, height: FB_H, channels: 3, background: CREAM } })
+    .composite([
+      { input: cover, top: 250, left: Math.round((FB_W - PHOTO) / 2) },
+      { input: fbSvg([
+        { text: "FREE SEWING PATTERN", y: 120, x: FB_W / 2, size: 40, fill: TEAL, spacing: 6 },
+        { text: "The Sailor Bow", y: 205, x: FB_W / 2, size: 66, fill: INK },
+        { text: "Big loops, pointed tails, on a hair clip.", y: 1170, x: FB_W / 2, size: 40, fill: INK },
+        { text: "Free pattern · link in bio", y: 1250, x: FB_W / 2, size: 34, fill: TEAL, spacing: 2 },
+      ]), top: 0, left: 0 },
+    ])
+    .jpeg({ quality: 88 })
+    .toFile(path.join(SOCIAL, "ig-sailor-bow-1.jpg"));
+
+  // Slides 2-7 — each photo fitted (never cropped) into the same box.
+  const BOX_W = 1000, BOX_H = 1060, BOX_TOP = 60;
+  for (let i = 0; i < IG_SAILOR_BOW.length; i++) {
+    const s = IG_SAILOR_BOW[i];
+    const buf = await sharp(path.join(ROOT, "assets", s.file))
+      .resize(BOX_W, BOX_H, { fit: "inside" }).toBuffer();
+    const m = await sharp(buf).metadata();
+    const lines = [{ text: s.line, y: 1225, x: FB_W / 2, size: 40, fill: INK }];
+    if (s.cta) lines.push({ text: "Free pattern · link in bio", y: 1295, x: FB_W / 2, size: 34, fill: TEAL, spacing: 2 });
+    await sharp({ create: { width: FB_W, height: FB_H, channels: 3, background: CREAM } })
+      .composite([
+        { input: buf, top: BOX_TOP + Math.round((BOX_H - m.height) / 2), left: Math.round((FB_W - m.width) / 2) },
+        { input: fbSvg(lines), top: 0, left: 0 },
+      ])
+      .jpeg({ quality: 88 })
+      .toFile(path.join(SOCIAL, `ig-sailor-bow-${i + 2}.jpg`));
+  }
+  console.log(`Wrote assets/social/ig-sailor-bow-1..${IG_SAILOR_BOW.length + 1}.jpg (${FB_W}x${FB_H}).`);
+}
+
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   await fbToteLineup();
@@ -424,5 +487,6 @@ async function pinSailorBow() {
   await pinPattern();
   await pinNeckerchief();
   await pinSailorBow();
+  await igSailorBow();
   console.log(`Wrote 7 Pin images (1000x1500) to assets/pins/ — from ${ALL.length} fabrics.`);
 })();

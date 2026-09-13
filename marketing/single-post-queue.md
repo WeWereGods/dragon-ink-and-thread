@@ -432,6 +432,51 @@ manufactured urgency, and it doesn't need a countdown.*
 
 ---
 
+## 5. The Sailor Bow — free pattern, Halloween · Instagram · ✅ **POSTED 2026-09-11**
+
+**The Facebook group post already went out** (2026-09-11 — text in §6 of
+`facebook-groups.md`). This is the Instagram version of the same pattern, still Halloween-led
+because the bow in every photo is a spider-web print.
+
+**Link:** `https://www.dragoninkandthread.com/pattern-sailor-bow.html`
+**Slides:** `assets/social/ig-sailor-bow-1.jpg` … `-7.jpg`, **in that order** — built by
+`igSailorBow()` in `tools/build-pin-images.js`. All 1080×1350 on purpose: Instagram crops every
+slide of a carousel to the shape of the first, and the step photos mix portrait and landscape, so
+posted raw the landscape ones lose their ends. The slides carry no date, so they outlive October;
+the caption carries the Halloween.
+
+⚠️ **INSTAGRAM HAS SENT THIS SITE ZERO MEASURED VISITS** (2026-08-10 read) — a caption link isn't
+clickable. Two things decide whether this post sends anyone at all:
+1. **Point the bio link at the pattern page** for the next week or two — "link in bio" is a dead
+   end if the bio goes to the homepage and the pattern is three clicks away.
+2. **Put slide 1 in a Story with a LINK STICKER** to the pattern page. A Story link is the one
+   clickable link Instagram gives every account, and it is how a post like this gets traffic.
+   Cloudflare's Referer tab will show `instagram.com` / `l.instagram.com` if it works.
+
+> Made a spooky one, then wrote down how, so you can make your own 🕸️
+>
+> A sailor bow on a hair clip — big loops, pointed tails, 6″ × 6″ finished. One fat quarter makes
+> one, and it takes me about half an hour.
+>
+> It's all straight lines. A tube for the loops, a folded piece for the tails, and a little strip
+> wrapped round the middle that holds the whole shape. Swipe through to see it come together →
+>
+> The pattern's free, and the pieces print full size with nothing to tape together. If you've
+> sewn a straight seam and turned a tube right side out, you can make this — with plenty of time
+> to do one for every costume before the 31st 🎃
+>
+> Free pattern → link in bio.
+>
+> #freesewingpattern #sewingpattern #sewingforbeginners #sailorbow #hairbow #halloweensewing #spookyseason #diyhalloween #handmadewithlove #sewingsmallbusiness #veteranowned
+
+*11 hashtags, inside the 8–12 rule: pattern and beginner tags for discovery, two Halloween tags
+while they're in season, and three of the shop's own set.*
+
+**Story** (slide 1, plus a link sticker → the pattern page, sticker text *"Free bow pattern"*):
+> Free Halloween bow pattern 🎃 tap the link
+
+---
+
 ## Ideas — not written yet
 
 - **The Quilted Court Bandana** ($22) and **The Suriel Tea Cover** ($35) have **never been
