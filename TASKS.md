@@ -483,19 +483,31 @@ Two rules that keep this useful:
   **Stock plan:** everything already in the shop (~50 pieces) goes, plus ~25 new:
   | Sew | For Oct 10 | Why |
   |---|---|---|
-  | Christmas bows — 5 Bowknots in Scarlet, 3 in Cream | 8 | holiday gifting; leftovers sell online through Dec. Cream reads softer on a small bow, so fewer |
-  | Fall/Halloween bows — Midnight Harvest, Friendly Hauntings, spider web, Amber Wildflowers | 4 | **then decide Oct 30's count from what sells on the 10th** |
+  | Christmas bows — 4 Bowknots in Scarlet, 2 in Cream, 1 Starfall Pines, 1 Solstice Tartan | 8 | holiday gifting; leftovers sell online through Dec. Cream reads softer on a small bow, so fewer |
+  | Fall/Halloween bows — Weaver's Web, Nesta's Familiars, Rita's Harlequin, Amber Wildflowers | 4 | **then decide Oct 30's count from what sells on the 10th** |
+  | Any-season bows — Middengard Wyrms, Dawn Court Dots | 2 | added with the new fat quarters |
   | Gift card holders | 8–10 | ⚠️ **needs a ready-made price under the $12 custom floor — ~$10** |
-  | Dog bandanas, reversible — M Scarlet/Cream · L Scarlet/Cream · L Pumpkin Patch Picnic/Amber Wildflowers · M Friendly Hauntings/Midnight Harvest | 4 (2 M, 2 L) | only one Medium in stock |
+  | Dog bandanas, reversible — M Scarlet/Cream · L Scarlet/Cream · L Pumpkin Patch Picnic/Amber Wildflowers · M Bone Carver's Candy/Elain's Gingham · M Autumn Court Gourds/Lucien's Patch | 5 (3 M, 2 L) | only one Medium in stock |
   | Christmas scrunchies — Bowknots in Scarlet (+3 Amber Wildflowers if time) | 3 | already well stocked |
-  | **Hair whimsys** — 2 Bowknots in Scarlet, 2 Nesta's Cats, 1 Amber Wildflowers, 1 Sage or Peach Windowpane | 6 | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
+  | **Hair whimsys** — 3 Night Court Stripe, 3 Hewn City Stripe, 2 Nesta's Cats | 8 | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two, a fat quarter makes five. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
   ✂️ **Fabric picks set 2026-09-14 from the swatch photos — printable at `marketing/market-cut-list.html`**
   (photos, yardage per print, a blank for what's on the shelf). **Not used, on purpose:** Pumpkin Patch
   Picnic for bows (4″ pumpkins get chopped up), Cauldron Forged (already a bow in stock — table it
   with the Halloween ones), Postmarked Sunshine (tote-scale print).
-  **Yardage:** Scarlet **2⅞** · Cream **1½** · Amber ⅞ (1⅝ with scrunchies) · Midnight Harvest ½ ·
-  Friendly Hauntings ½ · Pumpkin Patch Picnic ½ · spider web ¼ · Nesta's Cats ⅛ · a windowpane ⅛
-  — **before gift card holders.**
+  **Yardage:** Scarlet **2½** · Cream **1¼** · Amber ¾ (1½ with scrunchies) · Pumpkin Patch Picnic ½ ·
+  Nesta's Cats ⅛ — **before gift card holders** — plus the 13 new fat quarters, one each.
+  🧵 **13 NEW FAT QUARTERS FOR THE MARKETS — bought 2026-09-14, NOT on the website** (owner's
+  decision; the finished pieces will be). Named in the romantasy voice the same day; the sewing
+  list shows them as colour chips, not photos, so no picture of the fabric is published.
+  Originals (phone photos IMG_7909–7922) copied to `assets/Catalog/market-2026-10/` (gitignored).
+  Starfall Pines (pines on black) → bow · Solstice Tartan (red/green) → bow · Weaver's Web (silver
+  webs, "BOO") → bow · Nesta's Familiars (pink, witch cats) → bow · Rita's Harlequin (pink
+  diamonds) → bow · Middengard Wyrms (snakes on charcoal) → bow · Dawn Court Dots (mauve pin dot)
+  → bow · Bone Carver's Candy (pink bats/ghosts) + Elain's Gingham (pink) → Medium bandana ·
+  Autumn Court Gourds (pumpkins on rust) + Lucien's Patch (pumpkins on sage) → Medium bandana ·
+  Night Court Stripe (purple ticking) → 3 whimsys · Hewn City Stripe (black/grey) → 3 whimsys.
+  **They replaced:** Friendly Hauntings, Midnight Harvest and the old spider web bows, the
+  Hauntings/Midnight Harvest bandana, and the Scarlet/Amber/windowpane whimsys.
   ⚠️ **Halloween stock dies on Oct 30** — that market is the last night it sells, so size the
   second batch from Oct 10's actual sales, not hope.
   **Fees: $30 EACH — $60 for the pair.**
@@ -517,9 +529,9 @@ Two rules that keep this useful:
   | When | Sew / do | Hours |
   |---|---|---|
   | **Sat Sep 12 – Fri Sep 18** | 🖼️ **Shadow box first — due Fri 18.** No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy, **Sep 15** federal estimated tax | — |
-  | **Sat Sep 19 – Fri Sep 25** | **12 bows** — 8 Christmas (5 Scarlet, 3 Cream), 4 fall/Halloween (one each of four prints, so the 10th shows *which* sells). **Cut all 12 in one sitting**, sew through the week | ~6 |
-  | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** · **6 hair whimsys** | ~7 |
-  | **Sat Oct 3 – Thu Oct 8** | **4 dog bandanas** in Christmas prints (2 M, 2 L) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
+  | **Sat Sep 19 – Fri Sep 25** | **14 bows** — 8 Christmas (4 Scarlet, 2 Cream, Starfall Pines, Solstice Tartan), 4 fall/Halloween (one each of four prints, so the 10th shows *which* sells), 2 any-season. **Cut all 14 in one sitting**, sew through the week | ~7 |
+  | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** · **8 hair whimsys** | ~7 |
+  | **Sat Oct 3 – Thu Oct 8** | **5 dog bandanas** (3 M, 2 L — Christmas, fall and one pink Halloween) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
   | **Fri Oct 9** | Pack · forecast · charge phone + reader · **$75–100 in small bills** · canopy + weights in the car | — |
   | **🎪 SAT OCT 10 — day** | Market 1 | — |
   | **Sun Oct 11** | Tell Claude what sold → sold-out online. **Count the Halloween bows sold — it sets the next row** | — |
@@ -528,7 +540,7 @@ Two rules that keep this useful:
   | **Mon Oct 26 – Thu Oct 29** | **Buffer — nothing new planned.** Halloween table dressing (spider web as the cloth), pack Thu | — |
   | **🎃 FRI OCT 30 — night** | Market 2 · lights, candy bowl, the pattern bow on display | — |
   | **Sat Oct 31** | Tell Claude what sold. Halloween leftovers go in a box until next September | — |
-  **Total ≈ 24–26 hours across seven weeks** — ~5 a week for three weeks, then lighter.
+  **Total ≈ 27–29 hours across seven weeks** — ~5 a week for three weeks, then lighter.
 
   **☑️ STASH + SUPPLIES — THIS WEEK, because materials have blocked five jobs already**
   (fabric, fabric, ticking, batting, clips, and the shadow box's print):
