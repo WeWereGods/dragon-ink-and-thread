@@ -488,12 +488,14 @@ Two rules that keep this useful:
   | Gift card holders | 8–10 | ⚠️ **needs a ready-made price under the $12 custom floor — ~$10** |
   | Dog bandanas, reversible — M Scarlet/Cream · L Scarlet/Cream · L Pumpkin Patch Picnic/Amber Wildflowers · M Friendly Hauntings/Midnight Harvest | 4 (2 M, 2 L) | only one Medium in stock |
   | Christmas scrunchies — Bowknots in Scarlet (+3 Amber Wildflowers if time) | 3 | already well stocked |
+  | **Hair whimsys** — 2 Bowknots in Scarlet, 2 Nesta's Cats, 1 Amber Wildflowers, 1 Sage or Peach Windowpane | 6 | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
   ✂️ **Fabric picks set 2026-09-14 from the swatch photos — printable at `marketing/market-cut-list.html`**
   (photos, yardage per print, a blank for what's on the shelf). **Not used, on purpose:** Pumpkin Patch
   Picnic for bows (4″ pumpkins get chopped up), Cauldron Forged (already a bow in stock — table it
   with the Halloween ones), Postmarked Sunshine (tote-scale print).
-  **Yardage:** Scarlet **2¾** · Cream **1½** · Amber ¾ (1½ with scrunchies) · Midnight Harvest ½ ·
-  Friendly Hauntings ½ · Pumpkin Patch Picnic ½ · spider web ¼ — **before gift card holders.**
+  **Yardage:** Scarlet **2⅞** · Cream **1½** · Amber ⅞ (1⅝ with scrunchies) · Midnight Harvest ½ ·
+  Friendly Hauntings ½ · Pumpkin Patch Picnic ½ · spider web ¼ · Nesta's Cats ⅛ · a windowpane ⅛
+  — **before gift card holders.**
   ⚠️ **Halloween stock dies on Oct 30** — that market is the last night it sells, so size the
   second batch from Oct 10's actual sales, not hope.
   **Fees: $30 EACH — $60 for the pair.**
@@ -516,7 +518,7 @@ Two rules that keep this useful:
   |---|---|---|
   | **Sat Sep 12 – Fri Sep 18** | 🖼️ **Shadow box first — due Fri 18.** No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy, **Sep 15** federal estimated tax | — |
   | **Sat Sep 19 – Fri Sep 25** | **12 bows** — 8 Christmas (5 Scarlet, 3 Cream), 4 fall/Halloween (one each of four prints, so the 10th shows *which* sells). **Cut all 12 in one sitting**, sew through the week | ~6 |
-  | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** | ~5 |
+  | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** · **6 hair whimsys** | ~7 |
   | **Sat Oct 3 – Thu Oct 8** | **4 dog bandanas** in Christmas prints (2 M, 2 L) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
   | **Fri Oct 9** | Pack · forecast · charge phone + reader · **$75–100 in small bills** · canopy + weights in the car | — |
   | **🎪 SAT OCT 10 — day** | Market 1 | — |
@@ -526,7 +528,7 @@ Two rules that keep this useful:
   | **Mon Oct 26 – Thu Oct 29** | **Buffer — nothing new planned.** Halloween table dressing (spider web as the cloth), pack Thu | — |
   | **🎃 FRI OCT 30 — night** | Market 2 · lights, candy bowl, the pattern bow on display | — |
   | **Sat Oct 31** | Tell Claude what sold. Halloween leftovers go in a box until next September | — |
-  **Total ≈ 22–24 hours across seven weeks** — ~5 a week for three weeks, then lighter.
+  **Total ≈ 24–26 hours across seven weeks** — ~5 a week for three weeks, then lighter.
 
   **☑️ STASH + SUPPLIES — THIS WEEK, because materials have blocked five jobs already**
   (fabric, fabric, ticking, batting, clips, and the shadow box's print):
@@ -547,6 +549,20 @@ Two rules that keep this useful:
     turns out to have no signal** — its 2nd-gen reader works offline for up to 24 h, but it's a
     second account and a second set of payouts to reconcile. **Test with a $1 charge to your own
     card before Oct 10**, then refund it.
+    ✅ **STRIPE CATALOG CLEANED 2026-09-14 (via the Stripe connector, owner-approved).** It was
+    still the July Payment-Link era: scrunchies $4, bundles $9, bows $10, 22 live payment links
+    (several for retired pieces). Website checkout was never affected — the Worker sends its own
+    prices — but Tap to Pay and hand-made links use the catalog. Done:
+    - Scrunchies → **$6**, Scrunchie Bundle + BYO Bundle → **$15**, Sage/Taupe Gingham + generic
+      Sailor Bow → **$12** (new default prices; old ones archived).
+    - **All 22 old payment links deactivated.** The owner's recent Pretty in Pink link ($4) was
+      replaced by a $6 one: https://buy.stripe.com/fZu6oH3Pc2Qp10S4T7fjG0t
+    - **12 retired products archived** (Sunflower, Mushroom and v1 Strawberry totes, Sage Bow,
+      Blue Rose Bow, 3 bloom clips, 3 cozys, Strawberry Scrunchie).
+    - **Market items added:** Hair Whimsy $5 · Gift Card Holder $10 · Pet Bandana $18.
+    - Quilt Mending's stray **weekly** $75 price archived (never used — no subscriptions exist).
+    📌 **When a shop price changes, the Stripe catalog is now a place to change it too** — for
+    market sales. The Worker's `PRICES` still decides what the website charges.
   - [ ] **Oct 30:** battery warm-white string lights + a lantern; ask if the market has power.
 
   ⚠️ **OCT 20 FALLS IN THE MIDDLE OF THIS.** If the Comptroller assigned **quarterly** filing,
