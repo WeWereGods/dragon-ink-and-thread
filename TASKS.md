@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-13.**
+**Last reviewed: 2026-09-14.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -11,7 +11,7 @@ Two rules that keep this useful:
 
 ## 🔴 Owed — money already taken
 
-> ### 📅 The week ahead (rolled forward 2026-08-18, Tuesday morning)
+> ### 📅 The week ahead (rolled forward 2026-09-14, Monday)
 >
 > | Day | Available | What it's for |
 > |---|---|---|
@@ -34,8 +34,19 @@ Two rules that keep this useful:
 > | ~~Fri Sep 4~~ | 🔨 | Shadow box · 5 direct visits, 3 to PRODUCT pages, source unexplained |
 > | ~~Sat Sep 5~~ | 🔨 | Shadow box · ✅ **DOG PATTERN POSTED** · ✅ Maurya switched to a DROP-OFF · ✅ Welcome automation closed (paid feature, answer is no at 8 subscribers) |
 > | ~~Mon Sep 7~~ | 🧵 + 📣 | ✅ **5 NEW FABRICS LIVE — library is 76**, 8th group **Ribbons and Evergreen** · ✅ **AUTUMN POST PUBLISHED** — it produced **10 visits, 0 enquiries** |
-> | **Wed Sep 9 — TODAY** | 🎉 + 🚨 | **One Facebook reply produced ~40 signups — but only 4 ACTIVATED. List is 8 → 12, not 8 → 48.** All four new actives are `pattern-neckerchief`, so the dog pattern is confirmed and beat the scrunchie 4 to 1. **The activation leak is now the top marketing item.** · shadow box still waiting on the print |
-> | **Tue Sep 8** | 📊 + 🚗 | **Traffic re-measure — now with TWO live posts to judge** (dog pattern Sep 5, autumn fabrics Sep 7). Reminder scheduled. ⚠️ **Maurya's drop-off is this week.** Sep 8 is a Tuesday. |
+> | ~~Tue Sep 8~~ | 📊 | Traffic re-measure with two live posts (dog pattern Sep 5, autumn fabrics Sep 7) |
+> | ~~Wed Sep 9~~ | 🎉 + 🚨 | **One Facebook reply produced ~40 signups — but only 4 ACTIVATED. List is 8 → 12, not 8 → 48.** All four new actives are `pattern-neckerchief`, so the dog pattern beat the scrunchie 4 to 1. Custom holiday bands added (stockings $40–65, gift card holders $12–18). |
+> | ~~Thu Sep 10 – Fri Sep 11~~ | 🎀 + 🎪 | ✅ **Sailor bow pattern LIVE** (Sep 10), posted in a sewing group (Sep 11) · ✅ **Two markets booked: Sat Oct 10 day, Fri Oct 30 night** |
+> | ~~Sat Sep 12~~ | 📊 | Buttondown report run · uncommitted work pushed |
+> | ~~Sun Sep 13~~ | 🎪 + 💳 | Buttondown **13 active of 61** · October market posts, printable checklist and table sign made · ✅ **Buttondown Automations bought ($24/mo)** — welcome sequence copy refreshed, ready to load |
+> | **Mon Sep 14 — TODAY** | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads |
+> | **Tue Sep 15** | 💵 + 🚗 | **Federal estimated tax due** · **Maurya's pickup** (7th date) |
+> | **Wed Sep 16** | 🖼️ | Shadow box **print arrives** |
+> | **Thu Sep 17** | 📩 | If the print hasn't come, **message Linda in the morning** |
+> | **Fri Sep 18** | ⛔ **OWED** | **Linda's shadow box due** |
+> | **Sat Sep 19** | 🧵 | Market sewing starts — **cut all 14 bows in one sitting** (Sewing List, Step 2) · 8 hair whimsys this week too |
+> | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
+> | **🎪 Sat Sep 26** | **MARKET 1 · evening · indoor · $20** | 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
@@ -475,6 +486,29 @@ Two rules that keep this useful:
 ---
 
 ## 🟠 Dated — this week
+
+- [ ] 🆕 🎪 **A THIRD MARKET: SAT SEP 26 — added by the owner 2026-09-14. It is now the FIRST one.**
+  Twelve days out, and the first week of that is Linda's shadow box (due Fri Sep 18). So the
+  October plan below has to be pulled forward, not just extended.
+  ✅ **Confirmed by the owner 2026-09-14: EVENING market · INDOOR · $20 fee.** Indoor means no
+  canopy, weights, rain sheet or sunscreen for this one. ❓ Still to ask the organiser: is a table
+  provided, is there power (warm lights make an evening table glow), and set-up time. The name and
+  place stay out of this public repo, like the other two.
+  **Fees now: $20 + $30 + $30 = $80 for all three.** The $20 is covered by two bows.
+  🧵 **RESEQUENCED 2026-09-14:**
+  | When | Sew / do |
+  |---|---|
+  | **Tue Sep 15 – Fri Sep 18** | Shadow box first (owed). Evenings only: order clips + sign holders, print and cut the signs and price tags |
+  | **Sat Sep 19 – Thu Sep 24** | **14 bows** (~7 h) + **8 hair whimsys** (~3 h, quick, and Sep 26 tests the $5 price) |
+  | **Fri Sep 25** | Pack · Tap to Pay $1 test · cash in small bills · canopy + weights · night-before post |
+  | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
+  | **Sun Sep 27** | Tell Claude what sold → mark sold out online. **Count Halloween bows and whimsys sold** |
+  | **Sep 27 – Oct 2** | Gift card holders + scrunchies · second Halloween batch sized from Sep 26 |
+  | **Oct 3 – 8** | 5 bandanas · restock whatever sold on Sep 26 |
+  💡 **The upside:** Sep 26 answers "which Halloween prints sell?" two weeks earlier, so the second
+  batch can serve BOTH Oct 10 and Oct 30 instead of being guessed for one night.
+  📣 **Posts need a Sep 26 run:** announcement ~Sep 19–20, local groups Sep 21–23, night before
+  Sep 25 — adapt `marketing/october-market-posts.md`. The dateless flyer works as-is.
 
 - [ ] 🎪 **TWO OUTDOOR MARKETS BOOKED — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).** Decided by the
   owner 2026-09-11; this un-parks the pop-up note at the bottom of this file. 6-ft space,
