@@ -726,9 +726,11 @@ none. The section below is longer-lived engineering context; **TASKS.md is what'
   rules above** — that the cmd form is what's printed, and that no example carries
   `<angle brackets>` — because both of those fail *silently* on the shop machine and neither
   would ever show up as a failed assertion elsewhere. **Run it after touching the report.**
-- **Load the welcome sequence into Buttondown** — the 3 emails in `emails/welcome-sequence.md`
-  are written but not yet set up as an automation in Buttondown, so new subscribers still get
-  silence. Needs doing in the Buttondown dashboard (not in this repo).
+- **Load the welcome sequence into Buttondown** — **Automations was BOUGHT 2026-09-13** ($24/mo),
+  so the 3 emails in `emails/welcome-sequence.md` can finally run as a drip. Set-up steps are in
+  that file's "Sending" section. ⚠️ Turn off Buttondown's built-in **Welcome email** toggle at the
+  same time, or new subscribers get two welcomes. Needs doing in the Buttondown dashboard.
+  Segmentation and the custom confirmation email were NOT bought.
 - ~~Back-fill old subscribers into Buttondown~~ — **DONE 2026-07-31** (confirmed 2026-08-09).
   Pre-2026-07-10 signups existed only as Web3Forms notifications in Gmail; they were exported and
   imported, and Email 1 has since reached the whole list, so everyone holds NEST15. **Don't

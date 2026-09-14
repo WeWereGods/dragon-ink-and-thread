@@ -3,8 +3,9 @@
 Three emails sent to new "Join the Nest" subscribers. Voice is the site's: cozy,
 unhurried, book-lover warmth. First person — these come from Ayla, not from a brand.
 
-**Status:** copy is current as of 2026-08-09. **These are sent by hand, not by an automation**
-— see "Sending" at the bottom for why and how.
+**Status:** copy refreshed 2026-09-13 against the live shop. **Buttondown Automations was bought
+2026-09-13** ($24/mo), so these are now meant to run as an automation — see "Sending" at the
+bottom. The table below records the one-off hand sends that happened before that.
 
 | Email | Sent | Notes |
 |---|---|---|
@@ -52,9 +53,13 @@ goes stale faster than the other two, and a category is the easiest thing to for
 
 Hi — I'm Ayla.
 
-I'm so glad you're here. Dragon Ink and Thread is a small, handmade thing: totes, bows and
-scrunchies, sewn in small batches in San Antonio, Texas. No warehouse, no machines running
-overnight. Just me, good fabric, and more time than is strictly sensible.
+I'm so glad you're here. Dragon Ink and Thread is a small, handmade thing: totes, bows,
+scrunchies, dog bandanas and padded book sleeves, sewn in small batches in San Antonio, Texas.
+No warehouse, no machines running overnight. Just me, good fabric, and more time than is
+strictly sensible.
+
+If you found me through one of the free patterns — hello, and I hope it's already on your
+machine. There will be more.
 
 Two things to know:
 
@@ -120,7 +125,7 @@ More soon — next I'll show you around what I actually make.
 ## Email 3 — What I make (sends ~7 days after Email 1)
 
 **Subject:** A proper look inside the Nest
-**Preheader:** Totes, scrunchies, bows, bandanas, book sleeves — and the thing I'll make just for you.
+**Preheader:** Totes, scrunchies, bows, bandanas, book sleeves, home pieces — and the thing I'll make just for you.
 
 Hi,
 
@@ -138,9 +143,9 @@ build your own bundle of any three for $15. (I can never pick three either.)
 soft plaids and pale linen. Small things that make an ordinary day feel considered. Now and
 then a whole collection goes up together as a set.
 
-**Pet bandanas** — because the one who waits by the door deserves a storybook print too. $18.
-They slip over the collar they already wear: a gathered channel, nothing to tie, nothing to
-work loose halfway round the block. I sew them in Medium and Large, which between them cover
+**Pet bandanas** — because the one who waits by the door deserves a storybook print too. From
+$18. They slip over the collar they already wear: an elastic channel that stretches over it,
+nothing to tie, nothing to work loose halfway round the block. I sew them in Medium and Large, which between them cover
 roughly a 13 to 23 inch neck, and any other size I'll make to your dog's measurement. Most are
 reversible — sometimes the same print both ways so there's no wrong way round, sometimes two
 quite different looks on one collar.
@@ -149,6 +154,9 @@ quite different looks on one collar.
 pressing on the cover. The top is left open on purpose: no button, no snap, nothing to undo
 when you've got one hand free and five minutes to read. Takes a hardback, a paperback or an
 e-reader. $28.
+
+**For the home** — the odd piece for the kitchen table, like a fabric tea cover. When one is in
+the shop it's one of a kind; any other time I'll happily make one for you.
 
 Everything is handmade in small batches, and most pieces are **one of a kind** — when one
 sells, that's genuinely it. If you see something you love, don't sit on it too long.
@@ -188,7 +196,27 @@ automatically. A hidden `tag` field marks the source (`hero` vs `checkout`).
 2026-07-10 existed only as Web3Forms notifications in Gmail (the free tier drops submissions
 after 30 days). They have been imported.
 
-**⚠️ Automations are NOT available on this account (confirmed 2026-08-02).** On Buttondown's
+### ✅ AUTOMATIONS BOUGHT 2026-09-13 — load the three emails as a drip
+
+The owner upgraded to pay for **Automations** ($24/mo on her bill; the pricing page lists +$29, so
+likely an annual or promotional rate). **Only Automations was bought** — segmentation and the
+custom confirmation email are still assumed unavailable until tried.
+
+**Set-up, once:**
+1. Buttondown → **Automations** → new automation. Trigger: **when a subscriber confirms** (not
+   when they merely sign up — unconfirmed people can't be emailed anyway).
+2. Step 1: send **Email 1** immediately. Step 2: wait **3 days**, send **Email 2**. Step 3: wait
+   **4 more days** (7 after signup), send **Email 3**. Paste subject and preheader separately.
+3. ⚠️ **In the same sitting, turn OFF Settings → Subscribing → Welcome email.** It is ON, and it
+   also fires on confirmation — leave it on and every new subscriber gets **two** welcomes.
+4. Test with a spare address: sign up, confirm, check Email 1 arrives **once**, with NEST15.
+
+**People who subscribed Aug 9 – Sep 13** got the built-in welcome but none of these. Don't
+broadcast Email 1 to reach them — without segmentation it also hits everyone who already had it.
+
+**Everything below is the history of why this was sent by hand until now.**
+
+**⚠️ Automations were NOT available on this account (confirmed 2026-08-02).** On Buttondown's
 free tier these are three separate paywalls, none of them included:
 
 | Feature | Cost | What it would have given us |

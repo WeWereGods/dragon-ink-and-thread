@@ -29,6 +29,10 @@ it is still infinitely better than the zero every broadcast post has produced.
 **The copy below stays** — it is ready to paste the day the plan changes or the answer to the
 above turns out to be no.
 
+🟡 **2026-09-13: the owner bought Automations ($24/mo).** That is not obviously the same thing as
+`custom_transactional_emails`, so **try pasting this ONCE**. If it saves, great. If the same
+placeholder error comes back, the upgrade doesn't cover it — stop there, don't rewrite the copy.
+
 ---
 
 

@@ -706,6 +706,26 @@ Two rules that keep this useful:
     actives puts activation at **~15%**, in line with the ~10% of Sep 8.
   - 📌 **Still true: nearly all growth is free-pattern signups, and the activation rate is the cap.**
 
+- [ ] 💳 **BUTTONDOWN UPGRADED 2026-09-13 — the owner now pays $24/mo for AUTOMATIONS.**
+  **This reverses the "welcome automation closed" decisions of Sep 5 and Sep 9 below.** It was
+  her call; the "list is too small to pay" reasoning further down was written for a free account
+  and is now history, not advice.
+  ⚠️ **Only Automations was bought.** Segmentation (+$9) and the custom confirmation email are
+  separate features — don't assume either works until tried.
+  **To do, in order (full steps in `emails/welcome-sequence.md` → Sending):**
+  1. [ ] Load the three welcome emails as an automation: Email 1 on confirm, Email 2 at +3 days,
+     Email 3 at +7 days. **Copy refreshed 2026-09-13** — it had the wrong bandana construction,
+     no mention of patterns, bandanas or home pieces in Email 1.
+  2. [ ] ⚠️ **Turn OFF Settings → Subscribing → Welcome email in the same sitting**, or every new
+     subscriber gets two welcomes.
+  3. [ ] Test with a spare address: subscribe, confirm, Email 1 arrives once with NEST15.
+  4. [ ] Add **$24/mo** to the bookkeeping workbook as a software expense.
+  5. [ ] Try pasting `emails/confirmation-email.md` once. Same placeholder error = not included;
+     stop there.
+  📊 **Before number: 13 active of 61 records (2026-09-13).** The automation won't move
+  activation — it only reaches people who already confirmed. What it can move is NEST15 use and
+  replies.
+
 - [ ] 🚨 **THE ACTIVATION LEAK — 40 PEOPLE GAVE AN EMAIL, 4 BECAME REACHABLE. FIX THIS FIRST.**
   Measured 2026-09-09: **48 records, 12 active.** Of ~40 signups from the Sep 8 group reply,
   **four** turned into subscribers — a **~10% activation rate**. Everything else in the marketing
@@ -858,6 +878,7 @@ Two rules that keep this useful:
   it.** Recorded here only so the `*` next to it isn't investigated a third time.
   📉 **It does thin the number further, though.** Of 8 subscribers, one is family — so the count
   that matters for a broadcast is smaller than 8, which only sharpens the point above.
+  ↩️ **REVERSED 2026-09-13 — the owner bought Automations. See the 💳 entry above.**
   ✅ **THE WELCOME AUTOMATION IS OFF THE LIST — 2026-09-05. STOP CARRYING IT.**
   **It was never a task, it was a purchase.** Buttondown automations are a PAID feature and this
   account is free-tier (CLAUDE.md has said so all along, at the pattern gate). Confirmed by the
