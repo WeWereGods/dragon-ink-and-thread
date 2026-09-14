@@ -517,6 +517,20 @@ Two rules that keep this useful:
   **Time per piece:** bow ~30 min (owner's figure) · bandana ~45 min · scrunchie ~20 min ·
   gift card holder **unknown — time the first one**, planned at ~30.
 
+  ✅ **VENDOR PROMO PHOTOS SENT 2026-09-14** — five shop photos (blue Suriel bows, dog in the
+  patchwork bandana, strawberry tote with book, spider web bow, coffee bandana) plus a short shop
+  bio, Instagram and website, asking to be tagged. Copies in `Downloads\Dragon Ink vendor photos`.
+  - [ ] **Watch for the reply** — the message asked about set-up time, table rules and a logo.
+  - [ ] **Send the table photo** once the table is set up at home (Oct 3–8), as promised.
+  🪧 **SIGNS, TAGS AND FLYER MADE 2026-09-14 — all in `Downloads`, not the repo** (finished assets).
+  On-brand (pink gingham, cream stitched panel): **price sign** (bows $12 · scrunchies $6, 3 for
+  $15 · pet bandanas $18, patchwork $22 · hair whimsys $5; PDF/PNG/Word), **QR sign** (shop, Join
+  the Nest, custom orders — all three scanned from the rendered image; PDF/PNG/Word), **price tags**
+  (2 pages: the 5 totes, book sleeve, tea cover, Suriel set, headband, 3 gift card holders, 6 blank),
+  and a **market flyer** (tall, square, and two earlier versions; no dates, so it's reusable).
+  ⚠️ **Word copies couldn't be previewed here** (Word's PDF export hangs) — test-print them.
+  - [ ] Two sign holders · a name banner for the table front · a copy of the sales tax permit
+  - [ ] Ask the market about liability insurance, and the tax rate if it's outside San Antonio
   📣 **Market posts: `marketing/october-market-posts.md`** — announcement Oct 3–4, local groups
   Oct 5–7, night-before, set-up, thank-yous, and the Oct 30 run. **Fill the [BRACKETS] first**
   (market names and places aren't in the repo).
