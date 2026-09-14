@@ -483,18 +483,23 @@ Two rules that keep this useful:
   **Stock plan:** everything already in the shop (~50 pieces) goes, plus ~25 new:
   | Sew | For Oct 10 | Why |
   |---|---|---|
-  | Christmas bows (Ribbons and Evergreen) | 8 | holiday gifting; leftovers sell online through Dec |
-  | Halloween bows (spider web, dark prints) | 4 | **then decide Oct 30's count from what sells on the 10th** |
+  | Christmas bows — 5 Bowknots in Scarlet, 3 in Cream | 8 | holiday gifting; leftovers sell online through Dec. Cream reads softer on a small bow, so fewer |
+  | Fall/Halloween bows — Midnight Harvest, Friendly Hauntings, spider web, Amber Wildflowers | 4 | **then decide Oct 30's count from what sells on the 10th** |
   | Gift card holders | 8–10 | ⚠️ **needs a ready-made price under the $12 custom floor — ~$10** |
-  | Dog bandanas, Christmas prints | 4 (2 M, 2 L) | only one Medium in stock |
-  | Christmas scrunchies | 3, one print | already well stocked |
+  | Dog bandanas, reversible — M Scarlet/Cream · L Scarlet/Cream · L Pumpkin Patch Picnic/Amber Wildflowers · M Friendly Hauntings/Midnight Harvest | 4 (2 M, 2 L) | only one Medium in stock |
+  | Christmas scrunchies — Bowknots in Scarlet (+3 Amber Wildflowers if time) | 3 | already well stocked |
+  ✂️ **Fabric picks set 2026-09-14 from the swatch photos — printable at `marketing/market-cut-list.html`**
+  (photos, yardage per print, a blank for what's on the shelf). **Not used, on purpose:** Pumpkin Patch
+  Picnic for bows (4″ pumpkins get chopped up), Cauldron Forged (already a bow in stock — table it
+  with the Halloween ones), Postmarked Sunshine (tote-scale print).
+  **Yardage:** Scarlet **2¾** · Cream **1½** · Amber ¾ (1½ with scrunchies) · Midnight Harvest ½ ·
+  Friendly Hauntings ½ · Pumpkin Patch Picnic ½ · spider web ¼ — **before gift card holders.**
   ⚠️ **Halloween stock dies on Oct 30** — that market is the last night it sells, so size the
   second batch from Oct 10's actual sales, not hope.
   **Fees: $30 EACH — $60 for the pair.**
   **Fabric:** the only Christmas prints in the library are **Bowknots in Scarlet** and
-  **Bowknots in Cream**. Halloween comes from **Friendly Hauntings, Midnight Harvest, Pumpkin
-  Patch Picnic, Cauldron Forged** and the spider web. The sailor bow pattern budgets **a fat
-  quarter per bow** — so 8 Christmas bows ≈ **2 yards of Bowknots**. Check the shelf first.
+  **Bowknots in Cream**. The sailor bow pattern budgets **a fat quarter per bow**; picks and
+  yardage are in the ✂️ note above. Check the shelf first.
   **Time per piece:** bow ~30 min (owner's figure) · bandana ~45 min · scrunchie ~20 min ·
   gift card holder **unknown — time the first one**, planned at ~30.
 
@@ -510,7 +515,7 @@ Two rules that keep this useful:
   | When | Sew / do | Hours |
   |---|---|---|
   | **Sat Sep 12 – Fri Sep 18** | 🖼️ **Shadow box first — due Fri 18.** No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy, **Sep 15** federal estimated tax | — |
-  | **Sat Sep 19 – Fri Sep 25** | **12 bows** — 8 Christmas (Bowknots Scarlet/Cream), 4 Halloween (one each of four prints, so the 10th shows *which* sells). **Cut all 12 in one sitting**, sew through the week | ~6 |
+  | **Sat Sep 19 – Fri Sep 25** | **12 bows** — 8 Christmas (5 Scarlet, 3 Cream), 4 fall/Halloween (one each of four prints, so the 10th shows *which* sells). **Cut all 12 in one sitting**, sew through the week | ~6 |
   | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** | ~5 |
   | **Sat Oct 3 – Thu Oct 8** | **4 dog bandanas** in Christmas prints (2 M, 2 L) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
   | **Fri Oct 9** | Pack · forecast · charge phone + reader · **$75–100 in small bills** · canopy + weights in the car | — |

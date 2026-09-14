@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Working document, not a site page (same arrangement as october-market-prep.html).
+     Fabric picks made 2026-09-14 from the swatch photos in assets/fabrics/.
+     Yardage follows the patterns: a fat quarter per bow, ¼ yd per scrunchie,
+     a fat quarter per side for a Medium bandana and ½ yd per side for a Large. -->
+<meta name="robots" content="noindex, nofollow">
+<title>Market Cut List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Great+Vibes&family=Nunito:wght@400;600;700;800&display=swap">
+<style>
+  :root {
+    --paper: #f6efe0; --sheet: #fffdf7;
+    --teal: #2f6b72; --teal-soft: #dcebeb;
+    --rose: #a34a6b; --rose-soft: #f6e2e8;
+    --honey: #b9862a; --honey-soft: #f7ecd2;
+    --ink: #453a30; --ink-soft: #6a5b4a; --rule: #e6dccb;
+    --display: "Fraunces", Georgia, "Times New Roman", serif;
+    --body: "Nunito", -apple-system, "Segoe UI", Roboto, sans-serif;
+    --script: "Great Vibes", "Segoe Script", cursive;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { background: var(--paper); color: var(--ink); }
+  body { margin: 0; font: 15px/1.45 var(--body); padding: 24px 16px 48px; }
+
+  .toolbar { max-width: 8.5in; margin: 0 auto 16px; display: flex; gap: 10px; justify-content: flex-end; align-items: center; flex-wrap: wrap; }
+  .toolbar p { margin: 0 auto 0 0; color: var(--ink-soft); font-size: 13px; }
+  .toolbar button { font: 700 14px var(--body); border-radius: 999px; padding: 8px 16px; cursor: pointer; border: 1.5px solid var(--teal); background: var(--teal); color: var(--sheet); }
+  .toolbar button.quiet { background: transparent; color: var(--teal); }
+  .toolbar button:focus-visible, .box:focus-visible { outline: 3px solid var(--honey); outline-offset: 2px; }
+
+  .sheet { max-width: 8.5in; margin: 0 auto; background: var(--sheet); padding: 0.5in 0.55in; box-shadow: 0 10px 30px rgba(69,58,48,.12); display: flex; flex-direction: column; gap: 16px; }
+
+  header.top { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+  .brand { font: 26px/1 var(--script); color: var(--rose); }
+  h1 { font: 600 34px/1.05 var(--display); margin: 2px 0 4px; }
+  .sub { margin: 0; color: var(--ink-soft); font-size: 14px; }
+  .market-tag { border: 1.5px solid var(--rose); color: var(--rose); border-radius: 12px; padding: 6px 12px; text-align: center; line-height: 1.2; }
+  .market-tag b { display: block; font: 600 17px var(--display); }
+  .market-tag span { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; }
+
+  h2 { font: 600 18px/1.2 var(--display); margin: 0 0 8px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  h2 .step { font: 800 11px var(--body); letter-spacing: .1em; text-transform: uppercase; color: var(--teal); background: var(--teal-soft); border-radius: 999px; padding: 2px 9px; }
+  h2 .hint { font: 400 12.5px var(--body); color: var(--ink-soft); }
+  section.block { border-top: 2px solid var(--ink); padding-top: 10px; }
+
+  .sw { width: 38px; height: 38px; border-radius: 6px; object-fit: cover; display: block; border: 1px solid var(--rule); background: var(--honey-soft); }
+  .sw.none { display: grid; place-items: center; font-size: 10px; color: var(--ink-soft); text-align: center; line-height: 1.1; }
+
+  .shelf { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  .shelf th { text-align: left; font: 800 10.5px var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); padding: 0 8px 4px 0; }
+  .shelf td { padding: 4px 8px 4px 0; border-top: 1px solid var(--rule); vertical-align: middle; }
+  .shelf td.num { font-variant-numeric: tabular-nums; font-weight: 700; white-space: nowrap; }
+  .shelf td.use { color: var(--ink-soft); font-size: 12.5px; }
+  .blank { display: inline-block; min-width: 46px; border-bottom: 1.2px solid var(--ink-soft); height: 1em; vertical-align: -2px; }
+
+  .cols3 { display: grid; grid-template-columns: 1.25fr 1.25fr 1fr; gap: 18px; }
+  .row { display: flex; gap: 8px; align-items: center; padding: 4px 0; border-top: 1px solid var(--rule); font-size: 13.5px; }
+  .row:first-of-type { border-top: 0; }
+  .row .name { flex: 1; min-width: 0; line-height: 1.2; }
+  .row .name em { display: block; font-style: normal; color: var(--ink-soft); font-size: 11.5px; }
+  .row .sw { width: 30px; height: 30px; }
+  .pair { display: flex; }
+  .pair .sw + .sw { margin-left: -8px; border: 2px solid var(--sheet); }
+
+  .box { flex: none; width: 15px; height: 15px; border: 1.6px solid var(--ink-soft); border-radius: 3px; background: var(--sheet); cursor: pointer; padding: 0; position: relative; color: var(--teal); }
+  .box[aria-checked="true"] { border-color: var(--teal); }
+  .box[aria-checked="true"]::after { content: "×"; position: absolute; inset: 0; display: grid; place-items: center; font: 800 15px/1 var(--body); }
+  .tally { display: flex; gap: 3px; flex-wrap: wrap; justify-content: flex-end; max-width: 92px; }
+  .opt { color: var(--ink-soft); }
+
+  .warn { background: var(--honey-soft); border-radius: 10px; padding: 8px 12px; font-size: 13px; }
+  .warn b { color: var(--honey); }
+  .skip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; font-size: 12.5px; color: var(--ink-soft); }
+  .skip b { display: block; color: var(--ink); font-size: 13px; }
+
+  footer.sums { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 12.5px; color: var(--ink-soft); border-top: 1px solid var(--rule); padding-top: 10px; }
+  footer.sums b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  @media (max-width: 700px) {
+    .sheet { padding: 22px 16px; }
+    .cols3, .skip { grid-template-columns: 1fr; }
+    .shelf td.use { display: none; }
+  }
+  @page { size: letter; margin: 0.45in; }
+  @media print {
+    html, body { background: #fff; }
+    body { padding: 0; font-size: 12.5px; }
+    .toolbar { display: none; }
+    .sheet { box-shadow: none; max-width: none; margin: 0; padding: 0; gap: 9px; }
+    h1 { font-size: 26px; }
+    h2 { font-size: 15.5px; margin-bottom: 4px; }
+    section.block { padding-top: 7px; }
+    .shelf { font-size: 12.5px; }
+    .shelf td { padding: 2px 8px 2px 0; }
+    .sw { width: 26px; height: 26px; }
+    .row { padding: 2px 0; font-size: 12.5px; }
+    .row .sw { width: 24px; height: 24px; }
+    .row .name em { font-size: 10.5px; }
+    .warn { padding: 5px 10px; font-size: 12px; }
+    .skip, footer.sums { font-size: 11.5px; }
+    footer.sums { padding-top: 6px; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <p>Ticks save in this browser. Prints on one letter page.</p>
+  <button type="button" class="quiet" id="clear">Clear all ticks</button>
+  <button type="button" id="print">Print</button>
+</div>
+
+<main class="sheet">
+  <header class="top">
+    <div>
+      <div class="brand">Dragon Ink and Thread</div>
+      <h1>Market Cut List</h1>
+      <p class="sub">Bows, bandanas and scrunchies for the October markets · measure first, cut second</p>
+    </div>
+    <div class="market-tag"><span>Sew for</span><b>Sat Oct 10</b></div>
+  </header>
+
+  <section class="block">
+    <h2><span class="step">Step 1</span> Measure the shelf <span class="hint">— before any cutting</span></h2>
+    <table class="shelf">
+      <thead><tr><th></th><th>Fabric</th><th>Need</th><th>On shelf</th><th>Goes into</th></tr></thead>
+      <tbody>
+        <tr><td><img class="sw" src="../assets/fabrics/fabric-77.jpg" alt=""></td><td><b>Bowknots in Scarlet</b></td><td class="num">2¾ yd</td><td><span class="blank"></span> yd</td><td class="use">5 bows · 2 bandana fronts · 3 scrunchies</td></tr>
+        <tr><td><img class="sw" src="../assets/fabrics/fabric-78.jpg" alt=""></td><td><b>Bowknots in Cream</b></td><td class="num">1½ yd</td><td><span class="blank"></span> yd</td><td class="use">3 bows · 2 bandana backs</td></tr>
+        <tr><td><img class="sw" src="../assets/fabrics/fabric-66.jpg" alt=""></td><td><b>Amber Wildflowers</b></td><td class="num">¾ yd <span class="opt">(1½)</span></td><td><span class="blank"></span> yd</td><td class="use">1 bow · 1 bandana back <span class="opt">· (3 scrunchies)</span></td></tr>
+        <tr><td><img class="sw" src="../assets/fabrics/fabric-79.jpg" alt=""></td><td><b>Midnight Harvest</b></td><td class="num">½ yd</td><td><span class="blank"></span> yd</td><td class="use">1 bow · 1 bandana back</td></tr>
+        <tr><td><img class="sw" src="../assets/fabrics/fabric-74.jpg" alt=""></td><td><b>Friendly Hauntings</b></td><td class="num">½ yd</td><td><span class="blank"></span> yd</td><td class="use">1 bow · 1 bandana front</td></tr>
+        <tr><td><img class="sw" src="../assets/fabrics/fabric-67.jpg" alt=""></td><td><b>Pumpkin Patch Picnic</b></td><td class="num">½ yd</td><td><span class="blank"></span> yd</td><td class="use">1 bandana front — too big a print for bows</td></tr>
+        <tr><td><span class="sw none">spider<br>web</span></td><td><b>Spider web</b></td><td class="num">¼ yd</td><td><span class="blank"></span> yd</td><td class="use">1 bow — same print as the pattern bow</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="warn"><b>Short on Bowknots?</b> Keep Scarlet for the bows and bandanas, and make the gift card holders in Cream. Those aren't counted above.</div>
+
+  <section class="block">
+    <div class="cols3">
+      <div>
+        <h2><span class="step">Step 2</span> Bows · 12</h2>
+        <div class="row"><img class="sw" src="../assets/fabrics/fabric-77.jpg" alt=""><span class="name">Bowknots in Scarlet<em>Christmas · the easy seller</em></span><span class="tally" data-n="5"></span></div>
+        <div class="row"><img class="sw" src="../assets/fabrics/fabric-78.jpg" alt=""><span class="name">Bowknots in Cream<em>Christmas · softer, so fewer</em></span><span class="tally" data-n="3"></span></div>
+        <div class="row"><img class="sw" src="../assets/fabrics/fabric-79.jpg" alt=""><span class="name">Midnight Harvest<em>Halloween or fall</em></span><span class="tally" data-n="1"></span></div>
+        <div class="row"><img class="sw" src="../assets/fabrics/fabric-74.jpg" alt=""><span class="name">Friendly Hauntings<em>Halloween only</em></span><span class="tally" data-n="1"></span></div>
+        <div class="row"><span class="sw none">spider<br>web</span><span class="name">Spider web<em>matches the pattern bow</em></span><span class="tally" data-n="1"></span></div>
+        <div class="row"><img class="sw" src="../assets/fabrics/fabric-66.jpg" alt=""><span class="name">Amber Wildflowers<em>fall · sells to Thanksgiving</em></span><span class="tally" data-n="1"></span></div>
+      </div>
+      <div>
+        <h2><span class="step">Step 3</span> Bandanas · 4</h2>
+        <div class="row"><span class="pair"><img class="sw" src="../assets/fabrics/fabric-77.jpg" alt=""><img class="sw" src="../assets/fabrics/fabric-78.jpg" alt=""></span><span class="name">Scarlet / Cream<em>Medium · 13–18″ neck</em></span><span class="tally" data-n="1"></span></div>
+        <div class="row"><span class="pair"><img class="sw" src="../assets/fabrics/fabric-77.jpg" alt=""><img class="sw" src="../assets/fabrics/fabric-78.jpg" alt=""></span><span class="name">Scarlet / Cream<em>Large · 18–23″ neck</em></span><span class="tally" data-n="1"></span></div>
+        <div class="row"><span class="pair"><img class="sw" src="../assets/fabrics/fabric-67.jpg" alt=""><img class="sw" src="../assets/fabrics/fabric-66.jpg" alt=""></span><span class="name">Pumpkin Patch / Amber<em>Large · sells into November</em></span><span class="tally" data-n="1"></span></div>
+        <div class="row"><span class="pair"><img class="sw" src="../assets/fabrics/fabric-74.jpg" alt=""><img class="sw" src="../assets/fabrics/fabric-79.jpg" alt=""></span><span class="name">Hauntings / Midnight Harvest<em>Medium · for Oct 30</em></span><span class="tally" data-n="1"></span></div>
+        <p class="sub" style="font-size:12px;margin-top:6px">Reversible, front / back. A fat quarter per side for Medium, ½ yd per side for Large.</p>
+      </div>
+      <div>
+        <h2><span class="step">Step 4</span> Scrunchies · 3</h2>
+        <div class="row"><img class="sw" src="../assets/fabrics/fabric-77.jpg" alt=""><span class="name">Bowknots in Scarlet<em>¼ yd each</em></span><span class="tally" data-n="3"></span></div>
+        <div class="row opt"><img class="sw" src="../assets/fabrics/fabric-66.jpg" alt=""><span class="name">Amber Wildflowers<em>only if there's a spare hour</em></span><span class="tally" data-n="3"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Leave on the shelf</h2>
+    <div class="skip">
+      <span><b>Cauldron Forged</b>Already a bow in stock — put it with the Halloween ones</span>
+      <span><b>Pumpkin Patch Picnic bows</b>The pumpkins are too big and get chopped up</span>
+      <span><b>Postmarked Sunshine</b>Sunflower postcards only show on a tote</span>
+    </div>
+  </section>
+
+  <footer class="sums">
+    <span>New pieces: <b>19</b>, or <b>22</b> with the extra scrunchies</span>
+    <span>Sewing: <b>~10 hours</b> · bows 6 · bandanas 3 · scrunchies 1</span>
+    <span>Prices: bows <b>$12</b> · bandanas <b>$18</b> · scrunchies <b>$6</b></span>
+  </footer>
+</main>
+
+<script>
+  (function () {
+    var KEY = "dit-market-cut-list-2026-v1";
+    document.querySelectorAll(".tally[data-n]").forEach(function (t) {
+      var label = t.parentNode.querySelector(".name").firstChild.textContent.trim();
+      for (var i = 0; i < +t.dataset.n; i++) {
+        var b = document.createElement("button");
+        b.type = "button"; b.className = "box"; b.setAttribute("role", "checkbox");
+        b.setAttribute("aria-label", label + " " + (i + 1));
+        t.appendChild(b);
+      }
+    });
+    var boxes = Array.prototype.slice.call(document.querySelectorAll(".box"));
+    var state = {};
+    try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { state = {}; }
+    function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+    boxes.forEach(function (b, i) {
+      b.setAttribute("aria-checked", state[i] ? "true" : "false");
+      b.addEventListener("click", function () {
+        var on = b.getAttribute("aria-checked") !== "true";
+        b.setAttribute("aria-checked", on ? "true" : "false");
+        if (on) state[i] = 1; else delete state[i];
+        save();
+      });
+    });
+    document.getElementById("print").addEventListener("click", function () { window.print(); });
+    document.getElementById("clear").addEventListener("click", function () {
+      if (!confirm("Clear every tick on this cut list?")) return;
+      state = {}; save();
+      boxes.forEach(function (b) { b.setAttribute("aria-checked", "false"); });
+    });
+  })();
+</script>
+</body>
+</html>
