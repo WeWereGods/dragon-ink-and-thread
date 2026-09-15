@@ -39,12 +39,12 @@ Two rules that keep this useful:
 > | ~~Thu Sep 10 – Fri Sep 11~~ | 🎀 + 🎪 | ✅ **Sailor bow pattern LIVE** (Sep 10), posted in a sewing group (Sep 11) · ✅ **Two markets booked: Sat Oct 10 day, Fri Oct 30 night** |
 > | ~~Sat Sep 12~~ | 📊 | Buttondown report run · uncommitted work pushed |
 > | ~~Sun Sep 13~~ | 🎪 + 💳 | Buttondown **13 active of 61** · October market posts, printable checklist and table sign made · ✅ **Buttondown Automations bought ($24/mo)** — welcome sequence copy refreshed, ready to load |
-> | **Mon Sep 14 — TODAY** | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads |
-> | **Tue Sep 15** | 💵 + 🚗 | **Federal estimated tax due** · **Maurya's pickup** (7th date) |
+> | **Mon Sep 14 — TODAY** | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
+> | **Tue Sep 15** | 💵 + 🚗 | **Federal estimated tax due** · **Maurya's pickup** (7th date) · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" |
 > | **Wed Sep 16** | 🖼️ | Shadow box **print arrives** |
 > | **Thu Sep 17** | 📩 | If the print hasn't come, **message Linda in the morning** |
 > | **Fri Sep 18** | ⛔ **OWED** | **Linda's shadow box due** |
-> | **Sat Sep 19** | 🧵 | Market sewing starts — **cut all 14 bows in one sitting** (Sewing List, Step 2) · 8 hair whimsys this week too |
+> | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the other 11 bows in one sitting** (8 already sewn) · 8 hair whimsys this week too |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
 > | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · indoor · $20** | 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
 >
@@ -501,7 +501,7 @@ Two rules that keep this useful:
   | When | Sew / do |
   |---|---|
   | **Tue Sep 15 – Fri Sep 18** | Shadow box first (owed). Evenings only: order clips + sign holders, print and cut the signs and price tags |
-  | **Sat Sep 19 – Thu Sep 24** | **14 bows** (~7 h) + **8 hair whimsys** (~3 h, quick, and Sep 26 tests the $5 price) |
+  | **Sat Sep 19 – Thu Sep 24** | **11 more bows** (~5½ h — 8 already sewn on Sep 14) + **8 hair whimsys** (~3 h, quick, and Sep 26 tests the $5 price) |
   | **Fri Sep 25** | Pack · Tap to Pay $1 test · cash in small bills · canopy + weights · night-before post |
   | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
   | **Sun Sep 27** | Tell Claude what sold → mark sold out online. **Count Halloween bows and whimsys sold** |
@@ -530,12 +530,13 @@ Two rules that keep this useful:
   | Sew | For Oct 10 | Why |
   |---|---|---|
   | Christmas bows — 4 Bowknots in Scarlet, 2 in Cream, 1 Starfall Pines, 1 Solstice Tartan | 8 | holiday gifting; leftovers sell online through Dec. Cream reads softer on a small bow, so fewer |
-  | Fall/Halloween bows — Weaver's Web, Nesta's Familiars, Rita's Harlequin, Amber Wildflowers | 4 | **then decide Oct 30's count from what sells on the 10th** |
-  | Any-season bows — Middengard Wyrms, Dawn Court Dots | 2 | added with the new fat quarters |
+  | Fall/Halloween bows — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, Lucien's Patch, Solstice Sunflowers, Lady of Autumn, Amber Wildflowers | 8 | ✅ **All but Amber SEWN 2026-09-14** (Lucien's Patch, Solstice Sunflowers and Lady of Autumn were extras, not in the plan) · size the next batch from what sells on Sep 26: sold 6–8 → make 8 · 3–5 → 4 · 0–2 → none |
+  | Any-season bows — Elain's Gingham, Middengard Wyrms, Dawn Court Dots | 3 | ✅ **Elain's Gingham SEWN 2026-09-14** (extra) |
   | Gift card holders | 8–10 | ⚠️ **needs a ready-made price under the $12 custom floor — ~$10** |
   | Dog bandanas, reversible — M Scarlet/Cream · L Scarlet/Cream · L Pumpkin Patch Picnic/Amber Wildflowers · M Bone Carver's Candy/Elain's Gingham · M Autumn Court Gourds/Lucien's Patch | 5 (3 M, 2 L) | only one Medium in stock |
   | Christmas scrunchies — Bowknots in Scarlet (+3 Amber Wildflowers if time) | 3 | already well stocked |
   | **Hair whimsys** — 3 Night Court Stripe, 3 Hewn City Stripe, 2 Nesta's Cats | 8 | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two, a fat quarter makes five. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
+  ⚠️ **Elain's Gingham and Lucien's Patch were each meant to be one side of a Medium bandana** (Bone Carver's Candy/Elain's Gingham, Autumn Court Gourds/Lucien's Patch). Both went into bows on Sep 14 — **check what's left before Oct 3**; if a side is short, back it with something already on the shelf (Blushing Linen suits the pink one, Amber Wildflowers the rust pumpkins). **Lady of Autumn** (cream, autumn leaves and berries) was named 2026-09-14; it isn't in the website fabric library. No Stripe products yet for the spider web, Lucien's Patch, Elain's Gingham, Solstice Sunflowers or Lady of Autumn bows.
   ✂️ **Fabric picks set 2026-09-14 from the swatch photos — printable at `marketing/market-cut-list.html`**
   (photos, yardage per print, a blank for what's on the shelf). **Not used, on purpose:** Pumpkin Patch
   Picnic for bows (4″ pumpkins get chopped up), Cauldron Forged (already a bow in stock — table it
@@ -552,7 +553,8 @@ Two rules that keep this useful:
   → bow · Bone Carver's Candy (pink bats/ghosts) + Elain's Gingham (pink) → Medium bandana ·
   Autumn Court Gourds (pumpkins on rust) + Lucien's Patch (pumpkins on sage) → Medium bandana ·
   Night Court Stripe (purple ticking) → 3 whimsys · Hewn City Stripe (black/grey) → 3 whimsys.
-  **They replaced:** Friendly Hauntings, Midnight Harvest and the old spider web bows, the
+  **They replaced:** Friendly Hauntings, Midnight Harvest and the old spider web bow (**a different fabric from Weaver's Web**, confirmed
+  2026-09-14 — and a spider web bow was sewn anyway that day, alongside Weaver's Web), the
   Hauntings/Midnight Harvest bandana, and the Scarlet/Amber/windowpane whimsys.
   ⚠️ **Halloween stock dies on Oct 30** — that market is the last night it sells, so size the
   second batch from Oct 10's actual sales, not hope.
@@ -570,7 +572,7 @@ Two rules that keep this useful:
   - [ ] **Send the table photo** once the table is set up at home (Oct 3–8), as promised.
   🪧 **SIGNS, TAGS AND FLYER MADE 2026-09-14 — all in `Downloads`, not the repo** (finished assets).
   On-brand (pink gingham, cream stitched panel): **price sign** (bows $12 · scrunchies $6, 3 for
-  $15 · pet bandanas $18, patchwork $22 · hair whimsys $5; PDF/PNG/Word), **QR sign** (shop, Join
+  $15 · pet bandanas $18, patchwork $22 (the Quilted Court, confirmed going) · hair whimsys $5; PDF/PNG/Word), **QR sign** (shop, Join
   the Nest, custom orders — all three scanned from the rendered image; PDF/PNG/Word), **price tags**
   (2 pages: the 5 totes, book sleeve, tea cover, Suriel set, headband, 3 gift card holders, 6 blank),
   and a **market flyer** (tall, square, and two earlier versions; no dates, so it's reusable).
@@ -589,7 +591,7 @@ Two rules that keep this useful:
   | When | Sew / do | Hours |
   |---|---|---|
   | **Sat Sep 12 – Fri Sep 18** | 🖼️ **Shadow box first — due Fri 18.** No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy, **Sep 15** federal estimated tax | — |
-  | **Sat Sep 19 – Fri Sep 25** | **14 bows** — 8 Christmas (4 Scarlet, 2 Cream, Starfall Pines, Solstice Tartan), 4 fall/Halloween (one each of four prints, so the 10th shows *which* sells), 2 any-season. **Cut all 14 in one sitting**, sew through the week | ~7 |
+  | **Sat Sep 19 – Fri Sep 25** | **19 bows** — 8 Christmas (4 Scarlet, 2 Cream, Starfall Pines, Solstice Tartan), 8 fall/Halloween (one each, so the first market shows *which* sells — ✅ 7 sewn Sep 14, Amber still to do), 3 any-season (✅ Elain's Gingham sewn). **Cut the other 11 in one sitting**, sew through the week | ~5½ left |
   | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** · **8 hair whimsys** | ~7 |
   | **Sat Oct 3 – Thu Oct 8** | **5 dog bandanas** (3 M, 2 L — Christmas, fall and one pink Halloween) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
   | **Fri Oct 9** | Pack · forecast · charge phone + reader · **$75–100 in small bills** · canopy + weights in the car | — |
@@ -637,10 +639,10 @@ Two rules that keep this useful:
     market sales. The Worker's `PRICES` still decides what the website charges.
   - [ ] **Oct 30:** battery warm-white string lights + a lantern; ask if the market has power.
 
-  ⚠️ **OCT 20 FALLS IN THE MIDDLE OF THIS.** If the Comptroller assigned **quarterly** filing,
-  the Jul–Sep return is due **Oct 20** — it holds **Linda's $73.63** — and the permit is still
-  **not linked to Webfile**, so it cannot be filed yet. **Link it during the shadow-box week**,
-  before market prep takes every evening.
+  ⚠️ **OCT 20 FALLS IN THE MIDDLE OF THIS.** ✅ **Filing is QUARTERLY** (owner, 2026-09-15), so
+  the Jul–Sep return is due **Oct 20** — and it includes **Sep 26 market sales** (Oct 10 and Oct 30 go on the Jan 20 return) — it holds **Linda's $73.63**. ✅ **The permit was linked to
+  Webfile on 2026-09-15** (owner: "submitted it and am in compliance"), so a return CAN be filed now.
+  Returns: **Oct 20** (Jul–Sep) · **Jan 20** (Oct–Dec) · **Apr 20** · **Jul 20**.
 
   - **After each market:** tell Claude what sold → mark those pieces sold out online
     (one-of-a-kinds are on the site AND the table; Pushover pings if one sells online meanwhile).
@@ -649,7 +651,8 @@ Two rules that keep this useful:
     spider-web print as the tablecloth, and the pattern bow on display.
   **In-person sales carry Texas sales tax** (San Antonio 8.25%) and Stripe only handles it online.
   Keep $6/$12 as tax-included prices and set aside **7.6% of every market sale** (= 8.25/108.25).
-  Record every sale. The permit is still **not linked to Webfile** — see the tax section.
+  ✅ **Tax-included confirmed by the owner 2026-09-14** — the price sign says so.
+  Record every sale. ✅ The permit is **linked to Webfile** since 2026-09-15 — see the tax section.
   **A realistic first-market goal is $200–300 each**; each $30 fee is covered by 3 bows.
 
 - [ ] 🎀 **PATTERN THREE — THE SAILOR BOW — LIVE 2026-09-10, own tag `pattern-sailor-bow`, own
@@ -2242,11 +2245,14 @@ is the concrete reason not to spend it (see the parked pop-up booth note).
 tax, which depends on the household's whole return. If there is other income the $1,000 trigger
 is nearer than $136.05 suggests. **CPA question.**
 
-### Texas sales tax — ✅ THE PERMIT EXISTS. Verified on screen 2026-09-05.
+### Texas sales tax — ✅ THE PERMIT EXISTS (verified on screen 2026-09-05) and ✅ IS LINKED TO WEBFILE (2026-09-15).
+✅ **LINKED 2026-09-15 — the owner submitted the Webfile link and reports being in compliance.** Owner-reported, not seen
+on screen here. ✅ **Filing frequency: QUARTERLY** (owner, 2026-09-15). **Next return: Oct 20** for Jul–Sep — online sales since
+Jul 1 (Linda's $73.63 included) plus the Sep 26 market. Then **Jan 20** (Oct–Dec, both October markets) · Apr 20 · Jul 20. The notes below are the history of the gap.
 ✅ **DRAGON INK AND THREAD LLC is ACTIVE for "LIMITED SALES, EXCISE, AND USE TAX"** — which is
 the formal name of the Texas sales tax permit. Read off the Comptroller's own *Confirm Existing
 Taxpayer* screen, 2026-09-05. **This is now verified rather than assumed.**
-⚠️ **BUT IT IS NOT LINKED TO THE WEBFILE LOGIN — and that is the real gap.** The eSystems
+~~⚠️ **BUT IT IS NOT LINKED TO THE WEBFILE LOGIN — and that is the real gap.**~~ *(fixed 2026-09-15)* The eSystems
 dashboard the same day showed **only Franchise Tax** under *My Taxpayer Accounts* (LLC
 #32107021498), which is why it first looked as though no permit existed. **Holding the permit and
 being able to FILE with it are different things.** Until the sales tax account is attached to
