@@ -507,8 +507,9 @@ Two rules that keep this useful:
   | **Oct 3 – 8** | 5 bandanas · restock whatever sold on Sep 26 |
   💡 **The upside:** Sep 26 answers "which Halloween prints sell?" two weeks earlier, so the second
   batch can serve BOTH Oct 10 and Oct 30 instead of being guessed for one night.
-  📣 **Posts need a Sep 26 run:** announcement ~Sep 19–20, local groups Sep 21–23, night before
-  Sep 25 — adapt `marketing/october-market-posts.md`. The dateless flyer works as-is.
+  📣 ✅ **Sep 26 posts WRITTEN 2026-09-14** in `marketing/october-market-posts.md` (S1a–S4):
+  announcement Sep 19–20 with the square flyer, groups Sep 21 and 23, packed Sep 25, set-up Story,
+  thank-you Sep 27. **Fill the [BRACKETS] first.** The October posts no longer say "first market".
 
 - [ ] 🎪 **TWO OUTDOOR MARKETS BOOKED — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).** Decided by the
   owner 2026-09-11; this un-parks the pop-up note at the bottom of this file. 6-ft space,
