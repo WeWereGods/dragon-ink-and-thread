@@ -42,7 +42,7 @@ Two rules that keep this useful:
 > | **Mon Sep 14 — TODAY** | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
 > | **Tue Sep 15** | 💵 | ~~Federal estimated tax~~ **not paying now — owner will pay federal tax in April (decided 2026-09-15)** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" · ✅ **7 more market bows sewn and photographed** (Middengard Wyrms, Starfall Pines, Solstice Tartan, Night Court Stripe, Hewn City Stripe, Autumn Court Gourds, and a red/black tasselled plaid the owner named **Traditional Christmas**) — **15 of 23 done** · photos IMG_7946–7966 in Downloads |
 > > | **Thu Sep 17** | 🚗 | **Maurya's pickup** — moved from Tue 15 at her request |
-> | ~~Fri Sep 18~~ | 🖼️ **EXTENDED** | **Linda's shadow box is FINISHED** — preview sent 2026-09-15; she wants to **add to it**, so the Sep 18 date is extended. **New date: not yet set** |
+> | ~~Fri Sep 18~~ | 🖼️ **EXTENDED** | **Linda's shadow box is FINISHED** — preview sent 2026-09-15; she's adding **an item she owns**, so the date is extended to **next week (by Fri Sep 25), if not sooner** — ⚠️ same week as market-bow sewing and Sep 25 packing |
 > | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · 8 hair whimsys this week too |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
 > | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · indoor · $20** | 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
@@ -501,7 +501,7 @@ Two rules that keep this useful:
   🧵 **RESEQUENCED 2026-09-14:**
   | When | Sew / do |
   |---|---|
-  | **Tue Sep 15 – Fri Sep 18** | ✅ Shadow box finished (Linda adding to it, date extended) · Maurya Thu 17 · order clips + sign holders, print and cut the signs, price tags and scan-to-pay card |
+  | **Tue Sep 15 – Fri Sep 18** | ✅ Shadow box finished (Linda adding one item she owns — now due by Fri Sep 25) · Maurya Thu 17 · order clips + sign holders, print and cut the signs, price tags and scan-to-pay card |
   | **Sat Sep 19 – Thu Sep 24** | **8 more bows** (~4 h — 15 already sewn Sep 14–15) + **8 hair whimsys** (~3 h, quick, and Sep 26 tests the $5 price) |
   | **Fri Sep 25** | Pack · Tap to Pay $1 test · cash in small bills · canopy + weights · night-before post |
   | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
@@ -1064,10 +1064,10 @@ Two rules that keep this useful:
       ✅ **FINISHED AND PREVIEWED 2026-09-15.** The owner sent Linda a preview of the completed box; Linda wants to
       **add more to it**, so the Sep 18 due date is **extended by agreement**. Everything below about the print arriving
       Sep 16 and the Thursday-morning message is now history.
-      ❓ **Settle before accepting the additions:** (1) **the new date**, in writing; (2) **what she is adding** — the box
-      was priced at $250 on a scope of costume, mementos and one picture, and the invoice says changes are agreed
-      before work, so decide whether the additions are included or quoted; (3) **she supplies them**, same as the
-      rest. It is prepaid, so there is no money to chase — only scope to keep honest.
+      ✅ **SETTLED 2026-09-15:** Linda is adding **one item she owns** (she supplies it, same as the rest), and the
+      **new date is next week — by Fri Sep 25, if not sooner.** One owned item is a small addition to a $250 box; the
+      owner has not quoted extra for it. ⚠️ **Next week is also 8 market bows (Sat Sep 19) and packing (Fri Sep 25)**,
+      so fit the item in as soon as it arrives rather than on the 25th.
       📸 **The "photograph before the glass goes on" rule applies again** — shoot it as finished now, and again after
       the additions.
       🔨 **UNDER WAY — the owner is building it as of 2026-09-01.** Materials are in hand, so the

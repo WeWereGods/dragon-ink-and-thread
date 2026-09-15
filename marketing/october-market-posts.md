@@ -29,7 +29,7 @@ actually turn up, and it is the first channel here that ends at a till.
 
 | When | Post | Where |
 |---|---|---|
-| **Sat Sep 19 – Sun Sep 20** | S1a, S1d · announcement | Your page · Instagram + Story (use the square flyer) |
+| **Sat Sep 19 – Sun Sep 20** | S1a, S1d · announcement | Your page · Instagram + Story (use the group shot of the new bows) |
 | **Mon Sep 21 · Wed Sep 23** | S1b, S1c · local group versions | Two different SA groups, different days |
 | **Fri Sep 25, evening** | S2 · packed and ready | Your page · Instagram Story |
 | **Sat Sep 26, once set up** | S3 · set up | Instagram + Facebook Story |
@@ -51,15 +51,17 @@ That's two page posts in the week of each market — more than the usual one a w
 ## Market 1 — Saturday September 26, evening (indoor)
 
 ⚠️ **What will actually be on the table:** everything already in the shop (totes, book sleeve, tea
-cover, scrunchies, the three bandanas), the **14 new bows** and the **8 hair whimsys**. **Gift card
+cover, scrunchies, the three bandanas), the **new bows** (15 already sewn by Sep 15, 23 planned) and the **hair whimsys**. **Gift card
 holders and the new bandanas are NOT ready until October** — don't mention them for this one.
-⚠️ **The new bows are sewn Sep 19–24**, so the announcement goes out before they exist. **Use the
-square flyer as the photo**, not a promise of pieces you haven't made yet.
+✅ **15 of the new bows were sewn and photographed by Sep 15**, so the announcement can show the real thing:
+**the group shot, `Downloads\Dragon Ink Sep 26 bows (4x5).jpg`** (cropped from IMG_7966). The square flyer still works as a second photo.
+⚠️ **Hair whimsys:** both stripe fat quarters went into bows on Sep 15, so there may only be the 2 Nesta's Cats ones.
+**If you don't make more, cut the whimsy lines** from S1a, S1b, S1c, S1d and S2 before posting.
 ⚠️ **Don't promise string lights** unless the organiser confirms there's power.
 
 ### S1a · Announcement — your page (Sat Sep 19 or Sun Sep 20)
 
-**Photo:** `Downloads\Dragon Ink market flyer (square).png`
+**Photo:** `Downloads\Dragon Ink Sep 26 bows (4x5).jpg` — the group shot of the new bows. Add the square flyer as a second photo if you like.
 
 > I'm doing my first market! 🧵
 >
@@ -101,7 +103,7 @@ square flyer as the photo**, not a promise of pieces you haven't made yet.
 
 ### S1d · Instagram post (Sat Sep 19 or Sun Sep 20)
 
-**Photo:** the square flyer.
+**Photo:** the group shot (`Dragon Ink Sep 26 bows (4x5).jpg`), with the square flyer as slide 2.
 
 > My first market 🎪
 >
@@ -118,7 +120,7 @@ square flyer as the photo**, not a promise of pieces you haven't made yet.
 
 ### S2 · Packed and ready — your page + Story (Fri Sep 25, evening)
 
-**Photo:** the new bows laid out, now they're real.
+**Photo:** the packed tub or bag, or the bow board loaded up — the bows were already the announcement photo, so show something new.
 
 > Packed. Tomorrow evening's the market — [MARKET NAME], 4–9pm.
 >
