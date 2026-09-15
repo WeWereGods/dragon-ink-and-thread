@@ -493,9 +493,10 @@ Two rules that keep this useful:
   October plan below has to be pulled forward, not just extended.
   ✅ **Confirmed by the owner 2026-09-14: EVENING market · INDOOR · $20 fee.** From the organiser's
   flyer the same day: **Sat Sep 26, 4–9pm · bring your own 6–8 ft table · no canopy needed · music
-  and giveaways.** A different organiser from Oct 10 and Oct 30. No canopy, weights, rain sheet or
-  sunscreen for this one. ❓ Still to ask the organiser: is there power (warm lights make an evening
-  table glow), set-up time, and liability insurance. The name, place and contact stay out of this
+  and giveaways.** ✅ **2026-09-15: the market is INSIDE THE BOUTIQUE itself — no tent, just your table.** A different organiser from Oct 10 and Oct 30. No canopy, weights, rain sheet or
+  sunscreen for this one. ✅ **ANSWERED BY THE ORGANISER 2026-09-15: NO POWER · set-up from 2:30pm · no liability insurance required.**
+  So: **battery lights only** (no plug-in string lights), **bring a charged power bank** — Tap to Pay runs on the
+  phone and an evening market drains it — and **arrive 2:30 for a 4pm start**, 90 minutes to set up. The name, place and contact stay out of this
   public repo, like the other two.
   **Fees now: $20 + $30 + $30 = $80 for all three.** The $20 is covered by two bows.
   🧵 **RESEQUENCED 2026-09-14:**
@@ -503,7 +504,7 @@ Two rules that keep this useful:
   |---|---|
   | **Tue Sep 15 – Fri Sep 18** | ✅ Shadow box finished (Linda adding one item she owns — now due by Fri Sep 25) · Maurya Thu 17 · order clips + sign holders, print and cut the signs, price tags and scan-to-pay card |
   | **Sat Sep 19 – Thu Sep 24** | **8 more bows** (~4 h — 15 already sewn Sep 14–15) + **8 hair whimsys** (~3 h, quick, and Sep 26 tests the $5 price) |
-  | **Fri Sep 25** | Pack · Tap to Pay $1 test · cash in small bills · canopy + weights · night-before post |
+  | **Fri Sep 25** | Pack · Tap to Pay $1 test · cash in small bills · table + cloth (no canopy — it is indoors) · night-before post |
   | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
   | **Sun Sep 27** | Tell Claude what sold → mark sold out online. **Count Halloween bows and whimsys sold** |
   | **Sep 27 – Oct 2** | Gift card holders + scrunchies · second Halloween batch sized from Sep 26 |
