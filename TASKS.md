@@ -203,6 +203,18 @@ Two rules that keep this useful:
         2026-08-11 (**from $40, no ceiling**), advertised in the mending post on 2026-08-13, and
         this job's before/after is the proof image on custom.html. The "decide before advertising
         it" note is spent.
+- [ ] 🆕 ✉️ **CUSTOM ORDER ENQUIRY — A KINDLE SLEEVE. Came in 2026-09-15; details still to gather.**
+      **Nothing is agreed and no price has been quoted.** Before quoting, get: **who it is and where they asked**,
+      **which device** (Kindle sizes differ — measure the exact one, or get the model), **fabric** (shop stash or the
+      fabric library), **padded or quilted**, **closure or open top**, and **when they need it**.
+      💰 **Band: book sleeves $35–50** (custom floor $35 sits above the $28 ready-made Reading Nook Sleeve). A Kindle
+      sleeve is smaller than the 12″ × 8.5″ book sleeve, so it belongs at the bottom of the band — **but do not go
+      under $35**, or the floor stops being true.
+      ⏱️ **Turnaround is 10–14 days from agreeing the details.** ⚠️ **That lands in market fortnight** (Sep 19–26 sewing
+      and the Sep 26 market, then Oct 3–8 bandanas). Quote the date honestly rather than squeezing it.
+      📌 **Precedent:** the **Road Trip Kindle Case** in the Stories lookbook — a real one exists and can be shown.
+      📋 Terms blocks to paste into the invoice are in `emails/custom-order-terms.md`; the enquiry reply is in
+      `emails/custom-orders-enquiry.md`.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       ✅ **BOTH PIECES COMPLETE 2026-08-18 — but NOT YET HANDED OVER.**
       📅 **LATEST (told 2026-09-15): PICKUP MOVED TO THU SEP 17 at her request** — the eighth date,
@@ -579,6 +591,7 @@ Two rules that keep this useful:
   - [ ] **Watch for the reply** — the message asked about set-up time, table rules and a logo.
   - [ ] **Send the table photo** once the table is set up at home (Oct 3–8), as promised.
   🪧 **SIGNS, TAGS AND FLYER MADE 2026-09-14 — all in `Downloads`, not the repo** (finished assets).
+  🗺️ **TABLE PLAN made 2026-09-15** (Downloads: "Dragon Ink table plan.pdf/.png") — a top-down plan of the 6-ft table (totes left · bows in the middle with the mirror · scrunchies and whimsys · bandanas and the dog · till at the right end), a 2:30→4:00 set-up order, and the indoor reminders. On the checklist: print it with the signs, and it is on the pack list.
   🧾 **SCAN-TO-PAY CARD made 2026-09-15** (Downloads: "Dragon Ink scan to pay.pdf/.png") — QR codes for three Stripe quick-checkout links: Scrunchie $6 · Bow $12 · Pet Bandana $18, adjustable quantity, **no tax added** (prices are tax-included). One kind of item per scan; mixed baskets and the $22 Quilted Court go through Tap to Pay. All three codes decoded from the rendered card. Market bows are deliberately **not** separate Stripe products (owner, 2026-09-15). On the checklist: print it, a third sign holder, open each link before Sep 26.
   On-brand (pink gingham, cream stitched panel): **price sign** (bows $12 · scrunchies $6, 3 for
   $15 · pet bandanas $18, patchwork $22 (the Quilted Court, confirmed going) · hair whimsys $5; PDF/PNG/Word), **QR sign** (shop, Join
