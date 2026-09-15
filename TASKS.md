@@ -513,6 +513,12 @@ Two rules that keep this useful:
   announcement Sep 19–20 with the square flyer, groups Sep 21 and 23, packed Sep 25, set-up Story,
   thank-you Sep 27. **Fill the [BRACKETS] first.** The October posts no longer say "first market".
 
+- [x] 🚫 **A brunch-and-market application — NOT SELECTED, emailed 2026-09-14.** A women's brunch market
+  the owner applied to (not previously on this list). Their reason: they cap vendors per category.
+  They are keeping the details on file and invited a re-application for future events — **worth
+  applying again** for a later date. Name stays out of this public repo.
+  So the fall stands at **three booked, one declined**.
+
 - [ ] 🎪 **MARKETS 2 AND 3 — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).**
   🗓️ **Times, from the organiser's flyer (shared 2026-09-14):** Oct 10 day market **9am–3pm**; the
   night market runs **5–11pm on Oct 30 and Oct 31**, and the owner is booked for **Oct 30 only**
