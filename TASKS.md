@@ -577,6 +577,7 @@ Two rules that keep this useful:
   - [ ] **Watch for the reply** — the message asked about set-up time, table rules and a logo.
   - [ ] **Send the table photo** once the table is set up at home (Oct 3–8), as promised.
   🪧 **SIGNS, TAGS AND FLYER MADE 2026-09-14 — all in `Downloads`, not the repo** (finished assets).
+  🧾 **SCAN-TO-PAY CARD made 2026-09-15** (Downloads: "Dragon Ink scan to pay.pdf/.png") — QR codes for three Stripe quick-checkout links: Scrunchie $6 · Bow $12 · Pet Bandana $18, adjustable quantity, **no tax added** (prices are tax-included). One kind of item per scan; mixed baskets and the $22 Quilted Court go through Tap to Pay. All three codes decoded from the rendered card. Market bows are deliberately **not** separate Stripe products (owner, 2026-09-15). On the checklist: print it, a third sign holder, open each link before Sep 26.
   On-brand (pink gingham, cream stitched panel): **price sign** (bows $12 · scrunchies $6, 3 for
   $15 · pet bandanas $18, patchwork $22 (the Quilted Court, confirmed going) · hair whimsys $5; PDF/PNG/Word), **QR sign** (shop, Join
   the Nest, custom orders — all three scanned from the rendered image; PDF/PNG/Word), **price tags**
