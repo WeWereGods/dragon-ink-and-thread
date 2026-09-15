@@ -203,7 +203,20 @@ Two rules that keep this useful:
         2026-08-11 (**from $40, no ceiling**), advertised in the mending post on 2026-08-13, and
         this job's before/after is the proof image on custom.html. The "decide before advertising
         it" note is spent.
-- [ ] 🆕 ✉️ **CUSTOM ORDER ENQUIRY — A KINDLE SLEEVE. Came in 2026-09-15; details still to gather.**
+- [ ] 🆕 ✉️ **CUSTOM ORDER ENQUIRY — A KINDLE SLEEVE FOR CASSIDY E. Came through the contact form 2026-09-15.**
+      ⭐ **SHE IS A REPEAT CUSTOMER — and the one whose five-star review of a CUSTOM piece is in Kind Words**
+      (The Music Teacher's Tote, added 2026-08-12; the only review the site holds that describes the custom
+      *process*). Her email is in Gmail, not here. **Treat this as a returning customer, not a cold enquiry.**
+      **Her words:** she would love a sleeve for her **Kindle Signature**, and asked for *"either the sleeve or the
+      cover that you made for your relative"* — i.e. the **Road Trip Kindle Case** in Stories (padded, quilted,
+      tie closure). **Needed-by and budget were both left blank.**
+      ✅ **REPLY SENT 2026-09-15** — the two styles (open-top quilted sleeve · padded cover with a tie), **$35–40**,
+      the fabric library, and an honest timeline: cut the week after the Sep 26 market, **with her by mid-October**.
+      Asked her for the exact model or measurements, and which style and fabric.
+      ⏳ **WAITING ON HER.** When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
+      $25 and applies to custom, but is NOT automatic — apply it by hand only if she asks**), then cut.
+      📸 **Ask for a photo when it ships** — her tote was never photographed, so the shop has her words but no
+      picture. This is the chance to fix that.
       **Nothing is agreed and no price has been quoted.** Before quoting, get: **who it is and where they asked**,
       **which device** (Kindle sizes differ — measure the exact one, or get the model), **fabric** (shop stash or the
       fabric library), **padded or quilted**, **closure or open top**, and **when they need it**.
