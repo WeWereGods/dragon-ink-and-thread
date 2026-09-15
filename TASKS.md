@@ -40,10 +40,9 @@ Two rules that keep this useful:
 > | ~~Sat Sep 12~~ | 📊 | Buttondown report run · uncommitted work pushed |
 > | ~~Sun Sep 13~~ | 🎪 + 💳 | Buttondown **13 active of 61** · October market posts, printable checklist and table sign made · ✅ **Buttondown Automations bought ($24/mo)** — welcome sequence copy refreshed, ready to load |
 > | **Mon Sep 14 — TODAY** | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
-> | **Tue Sep 15** | 💵 + 🚗 | **Federal estimated tax due** · **Maurya's pickup** (7th date) · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" |
-> | **Wed Sep 16** | 🖼️ | Shadow box **print arrives** |
-> | **Thu Sep 17** | 📩 | If the print hasn't come, **message Linda in the morning** |
-> | **Fri Sep 18** | ⛔ **OWED** | **Linda's shadow box due** |
+> | **Tue Sep 15** | 💵 | **Federal estimated tax due** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" |
+> > | **Thu Sep 17** | 🚗 | **Maurya's pickup** — moved from Tue 15 at her request |
+> | ~~Fri Sep 18~~ | 🖼️ **EXTENDED** | **Linda's shadow box is FINISHED** — preview sent 2026-09-15; she wants to **add to it**, so the Sep 18 date is extended. **New date: not yet set** |
 > | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the other 11 bows in one sitting** (8 already sewn) · 8 hair whimsys this week too |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
 > | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · indoor · $20** | 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
@@ -206,7 +205,9 @@ Two rules that keep this useful:
         it" note is spent.
 - [ ] **Maurya Buchanan — Wheelchair Quilted Tote + Custom Tote**, both in *Nesta's Cats*.
       ✅ **BOTH PIECES COMPLETE 2026-08-18 — but NOT YET HANDED OVER.**
-      📅 **LATEST (told 2026-09-13): STILL NOT COLLECTED. Now a PICKUP on TUE SEP 15** — the
+      📅 **LATEST (told 2026-09-15): PICKUP MOVED TO THU SEP 17 at her request** — the eighth date,
+      still a pickup. Finished and waiting since Aug 18 — **30 days by Sep 17.** Treat it as likely, not fixed.
+      📅 *Superseded:* **PICKUP on TUE SEP 15** (told 2026-09-13) — the
       seventh date. The drop-off planned for the week of Sep 5 didn't happen, and it's back to her
       coming to collect. **Finished and waiting since Aug 18 — 26 days as of Sep 13.**
       ⚠️ **Treat Tue Sep 15 as likely, not fixed**, same as every date before it. Nothing else on
@@ -500,7 +501,7 @@ Two rules that keep this useful:
   🧵 **RESEQUENCED 2026-09-14:**
   | When | Sew / do |
   |---|---|
-  | **Tue Sep 15 – Fri Sep 18** | Shadow box first (owed). Evenings only: order clips + sign holders, print and cut the signs and price tags |
+  | **Tue Sep 15 – Fri Sep 18** | ✅ Shadow box finished (Linda adding to it, date extended) · Maurya Thu 17 · order clips + sign holders, print and cut the signs, price tags and scan-to-pay card |
   | **Sat Sep 19 – Thu Sep 24** | **11 more bows** (~5½ h — 8 already sewn on Sep 14) + **8 hair whimsys** (~3 h, quick, and Sep 26 tests the $5 price) |
   | **Fri Sep 25** | Pack · Tap to Pay $1 test · cash in small bills · canopy + weights · night-before post |
   | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
@@ -597,7 +598,7 @@ Two rules that keep this useful:
   ### 🧵 THE SEWING PLAN (written 2026-09-11)
   | When | Sew / do | Hours |
   |---|---|---|
-  | **Sat Sep 12 – Fri Sep 18** | 🖼️ **Shadow box first — due Fri 18.** No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy, **Sep 15** federal estimated tax | — |
+  | **Sat Sep 12 – Fri Sep 18** | 🖼️ ✅ **Shadow box finished Sep 15** (Linda adding to it — date extended). No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy, **Sep 15** federal estimated tax | — |
   | **Sat Sep 19 – Fri Sep 25** | **19 bows** — 8 Christmas (4 Scarlet, 2 Cream, Starfall Pines, Solstice Tartan), 8 fall/Halloween (one each, so the first market shows *which* sells — ✅ 7 sewn Sep 14, Amber still to do), 3 any-season (✅ Elain's Gingham sewn). **Cut the other 11 in one sitting**, sew through the week | ~5½ left |
   | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** · **8 hair whimsys** | ~7 |
   | **Sat Oct 3 – Thu Oct 8** | **5 dog bandanas** (3 M, 2 L — Christmas, fall and one pink Halloween) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
@@ -1059,7 +1060,16 @@ Two rules that keep this useful:
       over. **Fuller care notes (moths, sun, settling) go on a card that ships WITH the piece**,
       not here; they are more use in her hands in 2027 than in an invoice from August.
 
-      ## 🖼️ THE SHADOW BOX — agreed 2026-08-19, $250, due Sep 18 · ⏳ **IN PROGRESS 2026-09-01**
+      ## 🖼️ THE SHADOW BOX — agreed 2026-08-19, $250 · ✅ **COMPLETED 2026-09-15 — Linda is adding to it, date EXTENDED**
+      ✅ **FINISHED AND PREVIEWED 2026-09-15.** The owner sent Linda a preview of the completed box; Linda wants to
+      **add more to it**, so the Sep 18 due date is **extended by agreement**. Everything below about the print arriving
+      Sep 16 and the Thursday-morning message is now history.
+      ❓ **Settle before accepting the additions:** (1) **the new date**, in writing; (2) **what she is adding** — the box
+      was priced at $250 on a scope of costume, mementos and one picture, and the invoice says changes are agreed
+      before work, so decide whether the additions are included or quoted; (3) **she supplies them**, same as the
+      rest. It is prepaid, so there is no money to chase — only scope to keep honest.
+      📸 **The "photograph before the glass goes on" rule applies again** — shoot it as finished now, and again after
+      the additions.
       🔨 **UNDER WAY — the owner is building it as of 2026-09-01.** Materials are in hand, so the
       "clock can't start" worry below is spent. **17 days to the due date at time of writing.**
       ✅ **CONTENTS ESTABLISHED 2026-09-01: his costume, some mementos, and one picture.**
