@@ -40,10 +40,10 @@ Two rules that keep this useful:
 > | ~~Sat Sep 12~~ | 📊 | Buttondown report run · uncommitted work pushed |
 > | ~~Sun Sep 13~~ | 🎪 + 💳 | Buttondown **13 active of 61** · October market posts, printable checklist and table sign made · ✅ **Buttondown Automations bought ($24/mo)** — welcome sequence copy refreshed, ready to load |
 > | **Mon Sep 14 — TODAY** | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
-> | **Tue Sep 15** | 💵 | **Federal estimated tax due** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" |
+> | **Tue Sep 15** | 💵 | ~~Federal estimated tax~~ **not paying now — owner will pay federal tax in April (decided 2026-09-15)** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" · ✅ **7 more market bows sewn and photographed** (Middengard Wyrms, Starfall Pines, Solstice Tartan, Night Court Stripe, Hewn City Stripe, Autumn Court Gourds, and a red/black tasselled plaid the owner named **Traditional Christmas**) — **15 of 23 done** · photos IMG_7946–7966 in Downloads |
 > > | **Thu Sep 17** | 🚗 | **Maurya's pickup** — moved from Tue 15 at her request |
 > | ~~Fri Sep 18~~ | 🖼️ **EXTENDED** | **Linda's shadow box is FINISHED** — preview sent 2026-09-15; she wants to **add to it**, so the Sep 18 date is extended. **New date: not yet set** |
-> | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the other 11 bows in one sitting** (8 already sewn) · 8 hair whimsys this week too |
+> | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · 8 hair whimsys this week too |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
 > | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · indoor · $20** | 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
 >
@@ -502,7 +502,7 @@ Two rules that keep this useful:
   | When | Sew / do |
   |---|---|
   | **Tue Sep 15 – Fri Sep 18** | ✅ Shadow box finished (Linda adding to it, date extended) · Maurya Thu 17 · order clips + sign holders, print and cut the signs, price tags and scan-to-pay card |
-  | **Sat Sep 19 – Thu Sep 24** | **11 more bows** (~5½ h — 8 already sewn on Sep 14) + **8 hair whimsys** (~3 h, quick, and Sep 26 tests the $5 price) |
+  | **Sat Sep 19 – Thu Sep 24** | **8 more bows** (~4 h — 15 already sewn Sep 14–15) + **8 hair whimsys** (~3 h, quick, and Sep 26 tests the $5 price) |
   | **Fri Sep 25** | Pack · Tap to Pay $1 test · cash in small bills · canopy + weights · night-before post |
   | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
   | **Sun Sep 27** | Tell Claude what sold → mark sold out online. **Count Halloween bows and whimsys sold** |
@@ -536,14 +536,14 @@ Two rules that keep this useful:
   **Stock plan:** everything already in the shop (~50 pieces) goes, plus ~25 new:
   | Sew | For Oct 10 | Why |
   |---|---|---|
-  | Christmas bows — 4 Bowknots in Scarlet, 2 in Cream, 1 Starfall Pines, 1 Solstice Tartan | 8 | holiday gifting; leftovers sell online through Dec. Cream reads softer on a small bow, so fewer |
-  | Fall/Halloween bows — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, Lucien's Patch, Solstice Sunflowers, Lady of Autumn, Amber Wildflowers | 8 | ✅ **All but Amber SEWN 2026-09-14** (Lucien's Patch, Solstice Sunflowers and Lady of Autumn were extras, not in the plan) · size the next batch from what sells on Sep 26: sold 6–8 → make 8 · 3–5 → 4 · 0–2 → none |
-  | Any-season bows — Elain's Gingham, Middengard Wyrms, Dawn Court Dots | 3 | ✅ **Elain's Gingham SEWN 2026-09-14** (extra) |
+  | Christmas bows — 4 Bowknots in Scarlet, 2 in Cream, Starfall Pines, Solstice Tartan, Traditional Christmas | 9 | ✅ **Starfall Pines, Solstice Tartan and Traditional Christmas SEWN 2026-09-15** (Traditional Christmas was an extra — red/black plaid with pink and green tassels) · the 6 Bowknots still to do · leftovers sell online through Dec |
+  | Fall/Halloween bows — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, Lucien's Patch, Solstice Sunflowers, Lady of Autumn, Autumn Court Gourds, Amber Wildflowers | 9 | ✅ **All but Amber SEWN 2026-09-14/15** (Lucien's Patch, Solstice Sunflowers, Lady of Autumn and Autumn Court Gourds were extras) · size the next batch from what sells on Sep 26: sold 7–9 → make 8 · 4–6 → 4 · 0–3 → none |
+  | Any-season bows — Elain's Gingham, Middengard Wyrms, Night Court Stripe, Hewn City Stripe, Dawn Court Dots | 5 | ✅ **All but Dawn Court Dots SEWN 2026-09-14/15** (Elain's Gingham and both stripes were extras) |
   | Gift card holders | 8–10 | ⚠️ **needs a ready-made price under the $12 custom floor — ~$10** |
   | Dog bandanas, reversible — M Scarlet/Cream · L Scarlet/Cream · L Pumpkin Patch Picnic/Amber Wildflowers · M Bone Carver's Candy/Elain's Gingham · M Autumn Court Gourds/Lucien's Patch | 5 (3 M, 2 L) | only one Medium in stock |
   | Christmas scrunchies — Bowknots in Scarlet (+3 Amber Wildflowers if time) | 3 | already well stocked |
-  | **Hair whimsys** — 3 Night Court Stripe, 3 Hewn City Stripe, 2 Nesta's Cats | 8 | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two, a fat quarter makes five. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
-  ⚠️ **Elain's Gingham and Lucien's Patch were each meant to be one side of a Medium bandana** (Bone Carver's Candy/Elain's Gingham, Autumn Court Gourds/Lucien's Patch). Both went into bows on Sep 14 — **check what's left before Oct 3**; if a side is short, back it with something already on the shelf (Blushing Linen suits the pink one, Amber Wildflowers the rust pumpkins). **Lady of Autumn** (cream, autumn leaves and berries) was named 2026-09-14; it isn't in the website fabric library. No Stripe products yet for the spider web, Lucien's Patch, Elain's Gingham, Solstice Sunflowers or Lady of Autumn bows.
+  | **Hair whimsys** — 3 Night Court Stripe, 3 Hewn City Stripe, 2 Nesta's Cats (⚠️ **both stripe fat quarters went into BOWS on Sep 15** — check what's left; only the 2 Nesta's Cats are certain) | 8 | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two, a fat quarter makes five. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
+  ⚠️ **FOUR PLANNED FABRICS WENT INTO BOWS (Sep 14–15), so two plans need a decision:** (1) **Bandanas** — Elain's Gingham was the back of the Bone Carver's Candy bandana, and **Autumn Court Gourds and Lucien's Patch were BOTH sides of the other Medium**, so that one has no fabric at all. Check what's left before Oct 3; a short side can be backed from the shelf (Blushing Linen suits the pink one), or drop the rust-pumpkin bandana. (2) **Hair whimsys** — Night Court Stripe and Hewn City Stripe were 6 of the 8. **Lady of Autumn** (cream, autumn leaves and berries) and **Traditional Christmas** (red/black plaid, pink and green tassels) are owner-named and not in the website fabric library. Market bows stay OUT of Stripe (owner, 2026-09-15) — the Scan to Pay card covers them. Photos of all 15 bows: IMG_7946–7966 in Downloads (7966 is a group shot — a good Sep 26 announcement photo).
   ✂️ **Fabric picks set 2026-09-14 from the swatch photos — printable at `marketing/market-cut-list.html`**
   (photos, yardage per print, a blank for what's on the shelf). **Not used, on purpose:** Pumpkin Patch
   Picnic for bows (4″ pumpkins get chopped up), Cauldron Forged (already a bow in stock — table it
@@ -598,8 +598,8 @@ Two rules that keep this useful:
   ### 🧵 THE SEWING PLAN (written 2026-09-11)
   | When | Sew / do | Hours |
   |---|---|---|
-  | **Sat Sep 12 – Fri Sep 18** | 🖼️ ✅ **Shadow box finished Sep 15** (Linda adding to it — date extended). No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy, **Sep 15** federal estimated tax | — |
-  | **Sat Sep 19 – Fri Sep 25** | **19 bows** — 8 Christmas (4 Scarlet, 2 Cream, Starfall Pines, Solstice Tartan), 8 fall/Halloween (one each, so the first market shows *which* sells — ✅ 7 sewn Sep 14, Amber still to do), 3 any-season (✅ Elain's Gingham sewn). **Cut the other 11 in one sitting**, sew through the week | ~5½ left |
+  | **Sat Sep 12 – Fri Sep 18** | 🖼️ ✅ **Shadow box finished Sep 15** (Linda adding to it — date extended). No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy · federal tax deferred to April (owner, Sep 15) | — |
+  | **Sat Sep 19 – Fri Sep 25** | **23 bows** — 9 Christmas (4 Scarlet, 2 Cream to do · ✅ Starfall Pines, Solstice Tartan, Traditional Christmas), 9 fall/Halloween (one each, so the first market shows *which* sells — ✅ 8 sewn, Amber still to do), 5 any-season (✅ 4 sewn, Dawn Court Dots to do). **Cut the last 8 in one sitting**, sew through the week | ~4 left |
   | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** · **8 hair whimsys** | ~7 |
   | **Sat Oct 3 – Thu Oct 8** | **5 dog bandanas** (3 M, 2 L — Christmas, fall and one pink Halloween) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
   | **Fri Oct 9** | Pack · forecast · charge phone + reader · **$75–100 in small bills** · canopy + weights in the car | — |
@@ -2314,6 +2314,7 @@ Every Texas LLC is subject. **Reports are due MAY 15 annually.**
 ### Federal — not Texas, and the one that actually bites
 No Texas personal income tax, so the real bill is federal: income tax **plus ~15.3%
 self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15**.
+📌 **DECIDED 2026-09-15: no estimated payment on Sep 15 (or quarterly) — the owner will pay federal tax in April** with the return. Her call. The IRS underpayment penalty only applies if the year's tax owed ends up **$1,000+**, which the CPA question above already covers; don't re-raise it each quarter.
 🔴 **NEXT: Sep 15, 2026** — and Linda's $1,050 lands in this quarter.
 
 ---

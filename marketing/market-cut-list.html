@@ -105,7 +105,7 @@
     html, body { background: #fff; }
     body { padding: 0; font-size: 12.5px; }
     .toolbar { display: none; }
-    .sheet { box-shadow: none; max-width: none; margin: 0; padding: 0; gap: 7px; }
+    .sheet { box-shadow: none; max-width: none; margin: 0; padding: 0; gap: 5px; }
     .brand { font-size: 20px; }
     h1 { font-size: 22px; margin: 0 0 2px; }
     .sub { font-size: 12px; }
@@ -119,15 +119,17 @@
     .row .sw { width: 20px; height: 20px; }
     .row .name em { font-size: 10px; }
     .group { padding: 2px 0; }
-    .picks { gap: 1px 9px; margin-top: 1px; }
-    .picks label { font-size: 11px; gap: 4px; }
+    .picks { gap: 0 8px; margin-top: 1px; }
+    .picks label { font-size: 10.5px; gap: 3px; line-height: 1.25; }
+    .group .gname { font-size: 11.5px; }
+    .group .gname em { font-size: 10.5px; }
     .picks .sw { width: 13px; height: 13px; }
     .picks .box { width: 13px; height: 13px; }
     .cols3 h2[style] { margin-top: 8px !important; }
     .warn { padding: 5px 10px; font-size: 12px; }
     .fq-note, .note-sm { font-size: 11.5px; }
     .skip, footer.sums { font-size: 11.5px; }
-    footer.sums { padding-top: 6px; }
+    footer.sums { padding-top: 4px; gap: 1px 16px; font-size: 11px; }
     * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   }
 </style>
@@ -170,14 +172,15 @@
   <section class="block">
     <div class="cols3">
       <div>
-        <h2><span class="step">Step 2</span> Bows · 19 <span class="hint">Sep 19–25 · 8 already sewn</span></h2>
+        <h2><span class="step">Step 2</span> Bows · 23 <span class="hint">Sep 19–25 · 15 already sewn</span></h2>
         <div class="row"><img class="sw" src="../assets/fabrics/fabric-77.jpg" alt=""><span class="name">Bowknots in Scarlet<em>Christmas · the easy seller</em></span><span class="tally" data-n="4"></span></div>
         <div class="row"><img class="sw" src="../assets/fabrics/fabric-78.jpg" alt=""><span class="name">Bowknots in Cream<em>Christmas · softer, so fewer</em></span><span class="tally" data-n="2"></span></div>
         <div class="group">
           <span class="gname">Christmas <em>· one each</em></span>
           <div class="picks">
-            <label><button class="box" role="checkbox" aria-label="Starfall Pines bow"></button><span class="sw" style="background:radial-gradient(#9fae7c 30%,transparent 32%) 0 0/6px 6px,#1f1b1b"></span>Starfall Pines</label>
-            <label><button class="box" role="checkbox" aria-label="Solstice Tartan bow"></button><span class="sw" style="background:linear-gradient(90deg,#b8202e 50%,#3f5e3f 50%) 0 0/8px 8px"></span>Solstice Tartan</label>
+            <label><button class="box" role="checkbox" aria-label="Starfall Pines bow"></button><span class="sw" style="background:radial-gradient(#9fae7c 30%,transparent 32%) 0 0/6px 6px,#1f1b1b"></span>Starfall Pines ✓</label>
+            <label><button class="box" role="checkbox" aria-label="Solstice Tartan bow"></button><span class="sw" style="background:linear-gradient(90deg,#b8202e 50%,#3f5e3f 50%) 0 0/8px 8px"></span>Solstice Tartan ✓</label>
+            <label><button class="box" role="checkbox" aria-label="Traditional Christmas bow"></button><span class="sw" style="background:linear-gradient(90deg,#b3202e 50%,#1b1b1b 50%) 0 0/10px 10px"></span>Traditional Christmas ✓</label>
           </div>
         </div>
         <div class="group">
@@ -190,6 +193,7 @@
             <label><button class="box" role="checkbox" aria-label="Lucien's Patch bow"></button><span class="sw" style="background:radial-gradient(#e8703f 30%,transparent 32%) 0 0/9px 9px,#a9c3bd"></span>Lucien's Patch ✓</label>
             <label><button class="box" role="checkbox" aria-label="Solstice Sunflowers bow"></button><img class="sw" src="../assets/fabrics/fabric-38.jpg" alt="">Solstice Sunflowers ✓</label>
             <label><button class="box" role="checkbox" aria-label="Lady of Autumn bow"></button><span class="sw" style="background:radial-gradient(#b5704a 25%,transparent 27%) 0 0/7px 7px,#ece3d0"></span>Lady of Autumn ✓</label>
+            <label><button class="box" role="checkbox" aria-label="Autumn Court Gourds bow"></button><span class="sw" style="background:radial-gradient(#f3c9a3 30%,transparent 32%) 0 0/9px 9px,#8e2a22"></span>Autumn Court Gourds ✓</label>
             <label><button class="box" role="checkbox" aria-label="Amber Wildflowers bow"></button><img class="sw" src="../assets/fabrics/fabric-66.jpg" alt="">Amber Wildflowers</label>
           </div>
         </div>
@@ -197,7 +201,9 @@
           <span class="gname">Any season <em>· one each</em></span>
           <div class="picks">
             <label><button class="box" role="checkbox" aria-label="Elain's Gingham bow"></button><span class="sw" style="background:linear-gradient(45deg,#e58fac 50%,#fff 50%) 0 0/5px 5px"></span>Elain's Gingham ✓</label>
-            <label><button class="box" role="checkbox" aria-label="Middengard Wyrms bow"></button><span class="sw" style="background:radial-gradient(#d8cbc2 28%,transparent 30%) 0 0/8px 8px,#2b2d33"></span>Middengard Wyrms</label>
+            <label><button class="box" role="checkbox" aria-label="Middengard Wyrms bow"></button><span class="sw" style="background:radial-gradient(#d8cbc2 28%,transparent 30%) 0 0/8px 8px,#2b2d33"></span>Middengard Wyrms ✓</label>
+            <label><button class="box" role="checkbox" aria-label="Night Court Stripe bow"></button><span class="sw" style="background:linear-gradient(90deg,#5b2a86 65%,#fff 65%) 0 0/6px 6px"></span>Night Court Stripe ✓</label>
+            <label><button class="box" role="checkbox" aria-label="Hewn City Stripe bow"></button><span class="sw" style="background:linear-gradient(90deg,#1b1b1b 50%,#8a8a8a 50%) 0 0/6px 6px"></span>Hewn City Stripe ✓</label>
             <label><button class="box" role="checkbox" aria-label="Dawn Court Dots bow"></button><span class="sw" style="background:radial-gradient(#fff 22%,transparent 24%) 0 0/6px 6px,#b98895"></span>Dawn Court Dots</label>
           </div>
         </div>
@@ -209,7 +215,7 @@
         <div class="row"><span class="pair"><img class="sw" src="../assets/fabrics/fabric-67.jpg" alt=""><img class="sw" src="../assets/fabrics/fabric-66.jpg" alt=""></span><span class="name">Pumpkin Patch / Amber<em>Large · sells into November</em></span><span class="tally" data-n="1"></span></div>
         <div class="row"><span class="pair"><span class="sw" style="background:radial-gradient(#e46aa0 30%,transparent 32%) 0 0/9px 9px,#f7cfd6"></span><span class="sw" style="background:linear-gradient(45deg,#e58fac 50%,#fff 50%) 0 0/5px 5px"></span></span><span class="name">Bone Carver's Candy / Elain's Gingham<em>Medium · for Oct 30</em></span><span class="tally" data-n="1"></span></div>
         <div class="row"><span class="pair"><span class="sw" style="background:radial-gradient(#f3c9a3 30%,transparent 32%) 0 0/9px 9px,#8e2a22"></span><span class="sw" style="background:radial-gradient(#e8703f 30%,transparent 32%) 0 0/9px 9px,#a9c3bd"></span></span><span class="name">Autumn Court Gourds / Lucien's Patch<em>Medium · sells into November</em></span><span class="tally" data-n="1"></span></div>
-        <p class="note-sm">Reversible, front / back. A fat quarter per side for Medium, ½ yd per side for Large. <b>Elain's Gingham + Lucien's Patch went into bows</b> — check what's left first.</p>
+        <p class="note-sm">Reversible, front / back. A fat quarter per side for Medium, ½ yd per side for Large. <b>Elain's Gingham, Lucien's Patch + Autumn Court Gourds went into bows</b> — check what's left first.</p>
         <h2 style="margin-top:12px"><span class="step">Step 6</span> Gift card holders · 8–10 <span class="hint">Sep 27–Oct 2</span></h2>
         <div class="row"><span class="pair"><img class="sw" src="../assets/fabrics/fabric-78.jpg" alt=""><img class="sw" src="../assets/fabrics/fabric-77.jpg" alt=""></span><span class="name">Bowknots<em>$10 each</em></span><span class="tally" data-n="10"></span></div>
         <p class="note-sm">Use Cream if Scarlet runs short. Make one first and time it: <span class="blank"></span> min</p>
@@ -222,7 +228,7 @@
         <div class="row"><span class="sw" style="background:linear-gradient(90deg,#5b2a86 65%,#fff 65%) 0 0/6px 6px"></span><span class="name">Night Court Stripe<em>18″ × 4″ strips</em></span><span class="tally" data-n="3"></span></div>
         <div class="row"><span class="sw" style="background:linear-gradient(90deg,#1b1b1b 50%,#8a8a8a 50%) 0 0/6px 6px"></span><span class="name">Hewn City Stripe</span><span class="tally" data-n="3"></span></div>
         <div class="row"><img class="sw" src="../assets/fabrics/fabric-25.jpg" alt=""><span class="name">Nesta's Cats<em>sells past Halloween</em></span><span class="tally" data-n="2"></span></div>
-        <p class="note-sm">Each stripe fat quarter has 2 strips spare if they go fast.</p>
+        <p class="note-sm"><b>Both stripe fat quarters went into bows</b> — check what's left first.</p>
       </div>
     </div>
   </section>
@@ -237,8 +243,8 @@
   </section>
 
   <footer class="sums">
-    <span>New pieces: <b>43–45</b>, or <b>46–48</b> with the extra scrunchies</span>
-    <span>Sewing: <b>~21½ hours</b> · bows 9½ · bandanas 3¾ · scrunchies 1 · whimsys 2¾ · gift card holders ~5</span>
+    <span>New pieces: <b>47–49</b>, or <b>50–52</b> with the extra scrunchies</span>
+    <span>Sewing: <b>~23½ hours</b> · bows 11½ · bandanas 3¾ · scrunchies 1 · whimsys 2¾ · gift card holders ~5</span>
     <span>Prices: bows <b>$12</b> · bandanas <b>$18</b> · scrunchies <b>$6</b> · whimsys <b>$5</b> · gift card holders <b>$10</b></span>
   </footer>
 </main>
