@@ -11,8 +11,9 @@ actually turn up, and it is the first channel here that ends at a till.
 
 ## ⚠️ Before any of these go out
 
-- **Fill every `[BRACKET]`.** Market name, place and times are not recorded anywhere in this repo
-  (deliberately — the repo is public). **Don't post a bracket.**
+- **Fill every `[BRACKET]`.** Market names and places are not recorded anywhere in this repo
+  (deliberately — the repo is public). The times for all three are filled in from the organisers'
+  flyers. **Don't post a bracket.**
 - **Tag the market and share its own event page.** Most markets repost vendors who tag them, and
   their page has a far bigger local audience than yours. Ask the organiser if they have a vendor
   graphic — it's free reach.
@@ -62,9 +63,9 @@ square flyer as the photo**, not a promise of pieces you haven't made yet.
 
 > I'm doing my first market! 🧵
 >
-> Saturday, September 26 · [MARKET NAME], [PLACE] · [START]–[END]
+> Saturday, September 26 · [MARKET NAME], [PLACE] · 4–9pm
 >
-> It's an evening market and it's indoors, so it's on rain or shine.
+> It's an evening market, indoors, with music and giveaways, so it's on rain or shine.
 >
 > Everything in my shop is coming with me — totes, book sleeves, scrunchies, dog bandanas — plus a
 > brand-new batch of bows: a few for Christmas, a few for Halloween (some of them pink), and a
@@ -78,7 +79,7 @@ square flyer as the photo**, not a promise of pieces you haven't made yet.
 ### S1b · Local San Antonio group — version A (Mon Sep 21)
 
 > Hi all — I'm Ayla, I sew handmade things at my kitchen table here in San Antonio, and I'll have
-> a table at [MARKET NAME] on Saturday evening, September 26, [START]–[END]. It's indoors.
+> a table at [MARKET NAME] on Saturday evening, September 26, 4–9pm. It's indoors.
 >
 > Hair bows, scrunchies, totes, book sleeves and dog bandanas, plus new fall, Halloween and
 > Christmas bows and $5 hair ties. Cash or card.
@@ -104,7 +105,7 @@ square flyer as the photo**, not a promise of pieces you haven't made yet.
 
 > My first market 🎪
 >
-> Saturday, September 26 · [MARKET NAME], [PLACE] · [START]–[END] · indoors, evening
+> Saturday, September 26 · [MARKET NAME], [PLACE] · 4–9pm · indoors, evening
 >
 > Everything from the shop, a new batch of bows (Christmas, Halloween, and some pink ones), and
 > the debut of hair whimsys — $5 fabric ties for your braid. There'll be a mirror to try bows on.
@@ -119,7 +120,7 @@ square flyer as the photo**, not a promise of pieces you haven't made yet.
 
 **Photo:** the new bows laid out, now they're real.
 
-> Packed. Tomorrow evening's the market — [MARKET NAME], [START]–[END].
+> Packed. Tomorrow evening's the market — [MARKET NAME], 4–9pm.
 >
 > The new bows made it, the hair whimsys made it, and the price tags are cut. If you're coming,
 > I'll be the table with the mirror.
@@ -128,7 +129,7 @@ square flyer as the photo**, not a promise of pieces you haven't made yet.
 
 **Photo:** the real table. Location sticker.
 
-> Set up and here till [END] 🎪 come say hi
+> Set up and here till 9pm 🎪 come say hi
 
 ### S4 · Thank you — your page (Sun Sep 27)
 
@@ -150,12 +151,12 @@ gets sewn for October.
 
 ### 1a · Announcement — your page (Oct 3–4)
 
-**Photo:** the table set up at home (the checklist has you photograph it Oct 3–8), or the
+**Photo:** a photo of the real table from Sep 26 (or the practice one from home), or the
 Christmas bows.
 
 > Market number two!
 >
-> Saturday, October 10 · [MARKET NAME], [PLACE] · [START]–[END]
+> Saturday, October 10 · [MARKET NAME], [PLACE] · 9am–3pm
 >
 > Everything in my shop is coming with me — totes, book sleeves, bows, scrunchies, dog bandanas —
 > plus a first batch of Christmas bows in the fabric with tiny bows woven right into it, and gift
@@ -172,7 +173,7 @@ Christmas bows.
 ### 1b · Local San Antonio group — version A (Oct 5)
 
 > Hi all — I'm Ayla, I sew handmade things at my kitchen table here in San Antonio, and I'll have
-> a table at [MARKET NAME] on Saturday, October 10, [START]–[END].
+> a table at [MARKET NAME] on Saturday, October 10, 9am–3pm.
 >
 > Hair bows, scrunchies, totes, book sleeves and dog bandanas, plus my first Christmas bows and
 > some gift card holders. Cash or card.
@@ -194,7 +195,7 @@ Christmas bows.
 
 > Market number two 🎪
 >
-> Saturday, October 10 · [MARKET NAME], [PLACE] · [START]–[END]
+> Saturday, October 10 · [MARKET NAME], [PLACE] · 9am–3pm
 >
 > Everything from the shop, plus new Christmas bows (the fabric has tiny bows woven right into it)
 > and gift card holders. There'll be a mirror to try bows on, and bandanas in medium and large —
@@ -210,7 +211,7 @@ Christmas bows.
 
 **Photo:** the lidded tub, or the Christmas bows laid out.
 
-> Packed. Tomorrow's the market — [MARKET NAME], [START]–[END].
+> Packed. Tomorrow's the market — [MARKET NAME], 9am–3pm.
 >
 > The Christmas bows made it, the gift card holders made it, and somehow I've got more bandanas
 > than I meant to. If you're coming, I'll be the table with the mirror.
@@ -219,7 +220,7 @@ Christmas bows.
 
 **Photo:** the real booth, once it's up. Location sticker.
 
-> Set up and here till [END] 🎪 come say hi
+> Set up and here till 3pm 🎪 come say hi
 
 ### 4 · Thank you — your page (Sun Oct 11)
 
@@ -243,7 +244,7 @@ make 8 · sold 1–2 → make 4 · sold 0 → make none. **If there's no second 
 
 ### 5a · Announcement — your page (Tue Oct 27)
 
-> One more for October: [MARKET 2 NAME] on Friday the 30th, after dark — [PLACE], [START]–[END].
+> One more for October: [NIGHT MARKET NAME] on Friday the 30th, after dark — [PLACE], 5–11pm.
 >
 > [IF THERE'S A HALLOWEEN BATCH:] I'll have a fresh batch of Halloween bows, and it's the last
 > night of the year for them — after the 30th, the spooky prints go in a box until next September.
@@ -255,7 +256,7 @@ make 8 · sold 1–2 → make 4 · sold 0 → make none. **If there's no second 
 
 ### 5b · Local San Antonio group (Tue Oct 27 or Wed Oct 28)
 
-> Hi all — I'll have a table at [MARKET 2 NAME] this Friday night, October 30, [START]–[END].
+> Hi all — I'll have a table at [NIGHT MARKET NAME] this Friday night, October 30, 5–11pm.
 >
 > Handmade hair bows, scrunchies, dog bandanas and a few Christmas pieces, sewn here in San
 > Antonio. Look for the table with the string lights!
@@ -264,7 +265,7 @@ make 8 · sold 1–2 → make 4 · sold 0 → make none. **If there's no second 
 
 ### 6 · Tonight — Stories (Fri Oct 30, afternoon)
 
-> Tonight 🎃 [MARKET 2 NAME] · [START]–[END] · look for the lights
+> Tonight 🎃 [NIGHT MARKET NAME] · 5–11pm · look for the lights
 
 ### 7 · Thank you — your page (Sat Oct 31)
 

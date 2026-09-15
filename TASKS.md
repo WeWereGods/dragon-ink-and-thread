@@ -46,7 +46,7 @@ Two rules that keep this useful:
 > | **Fri Sep 18** | ⛔ **OWED** | **Linda's shadow box due** |
 > | **Sat Sep 19** | 🧵 | Market sewing starts — **cut all 14 bows in one sitting** (Sewing List, Step 2) · 8 hair whimsys this week too |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
-> | **🎪 Sat Sep 26** | **MARKET 1 · evening · indoor · $20** | 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
+> | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · indoor · $20** | 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
@@ -490,10 +490,12 @@ Two rules that keep this useful:
 - [ ] 🆕 🎪 **A THIRD MARKET: SAT SEP 26 — added by the owner 2026-09-14. It is now the FIRST one.**
   Twelve days out, and the first week of that is Linda's shadow box (due Fri Sep 18). So the
   October plan below has to be pulled forward, not just extended.
-  ✅ **Confirmed by the owner 2026-09-14: EVENING market · INDOOR · $20 fee.** Indoor means no
-  canopy, weights, rain sheet or sunscreen for this one. ❓ Still to ask the organiser: is a table
-  provided, is there power (warm lights make an evening table glow), and set-up time. The name and
-  place stay out of this public repo, like the other two.
+  ✅ **Confirmed by the owner 2026-09-14: EVENING market · INDOOR · $20 fee.** From the organiser's
+  flyer the same day: **Sat Sep 26, 4–9pm · bring your own 6–8 ft table · no canopy needed · music
+  and giveaways.** A different organiser from Oct 10 and Oct 30. No canopy, weights, rain sheet or
+  sunscreen for this one. ❓ Still to ask the organiser: is there power (warm lights make an evening
+  table glow), set-up time, and liability insurance. The name, place and contact stay out of this
+  public repo, like the other two.
   **Fees now: $20 + $30 + $30 = $80 for all three.** The $20 is covered by two bows.
   🧵 **RESEQUENCED 2026-09-14:**
   | When | Sew / do |
@@ -511,7 +513,16 @@ Two rules that keep this useful:
   announcement Sep 19–20 with the square flyer, groups Sep 21 and 23, packed Sep 25, set-up Story,
   thank-you Sep 27. **Fill the [BRACKETS] first.** The October posts no longer say "first market".
 
-- [ ] 🎪 **TWO OUTDOOR MARKETS BOOKED — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).** Decided by the
+- [ ] 🎪 **MARKETS 2 AND 3 — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).**
+  🗓️ **Times, from the organiser's flyer (shared 2026-09-14):** Oct 10 day market **9am–3pm**; the
+  night market runs **5–11pm on Oct 30 and Oct 31**, and the owner is booked for **Oct 30 only**
+  (confirmed 2026-09-14), so boxing the Halloween leftovers on Oct 31 still holds. Both markets
+  belong to a nonprofit-run holiday series with
+  more dates (Nov 14, Nov 21–22, Dec 19–20) — worth knowing for Christmas stock. Names, addresses
+  and the organiser's contact stay out of this public repo; they're on the flyer.
+  ⚠️ **Neither address is inside San Antonio city limits** — look both up in the Comptroller's
+  **Sales Tax Rate Locator** before the markets. The 7.6% set-aside assumes San Antonio's 8.25%.
+  Decided by the
   owner 2026-09-11; this un-parks the pop-up note at the bottom of this file. 6-ft space,
   **$30 fee each**, **own table**, **no canopy provided** → borrow a white 10×10 first, buy a cheap
   one only if that fails; check the market's weight rule (often ~25 lb per leg).
