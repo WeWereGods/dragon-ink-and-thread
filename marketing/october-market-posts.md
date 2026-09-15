@@ -55,8 +55,7 @@ cover, scrunchies, the three bandanas), the **new bows** (15 already sewn by Sep
 holders and the new bandanas are NOT ready until October** — don't mention them for this one.
 ✅ **15 of the new bows were sewn and photographed by Sep 15**, so the announcement can show the real thing:
 **the group shot, `Downloads\Dragon Ink Sep 26 bows (4x5).jpg`** (cropped from IMG_7966). The square flyer still works as a second photo.
-⚠️ **Hair whimsys:** both stripe fat quarters went into bows on Sep 15, so there may only be the 2 Nesta's Cats ones.
-**If you don't make more, cut the whimsy lines** from S1a, S1b, S1c, S1d and S2 before posting.
+✅ **Hair whimsys are still on** — 8 of them, cut from bow leftovers (the stripe fabric went into bows). Keep the whimsy lines in.
 ⚠️ **Don't promise string lights** unless the organiser confirms there's power.
 
 ### S1a · Announcement — your page (Sat Sep 19 or Sun Sep 20)
