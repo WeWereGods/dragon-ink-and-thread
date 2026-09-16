@@ -551,14 +551,20 @@ Two rules that keep this useful:
 - [ ] ⚠️ 🎪 **AN OCT 3 OUTDOOR TRADE DAY — INVITED, UNDECIDED, AND THE INVITATION STILL LOOKS LIKE A SCAM.**
   A flyer reached the owner 2026-09-16: **Sat Oct 3, 9am–3pm, outdoor, no electricity, 10×10 space $20.**
   Name and address stay out of this public repo; they're in the private note.
-  🚩 **Two mass emails from the same free Gmail address, and neither behaves like an organiser.** The
-  first (2026-09-15) misspelled the shop name and named no fee and no organiser. The second
-  (2026-09-16) still carried the unfilled merge field **"[service/product]"** and asked her to
-  *provide* something for "an upcoming event" — ⚠️ **but a trade day RENTS booth space, it does not buy
-  goods from its vendors.** Those are two different transactions, and that mismatch is the tell.
-  ✉️ **Reply drafted 2026-09-16** asking them to name the event, the date, the venue, the quantity and
-  a contact. **Nothing is paid and nothing is booked until they answer** — and a real organiser answers
-  that in one line.
+  🚩 **CORRECTED 2026-09-16 — THESE ARE TWO DIFFERENT SENDERS.** An earlier version of this entry said
+  both emails came from one address. **That was wrong**, and it was asserted rather than checked; the
+  mailbox shows them clearly apart. What is actually true:
+  - **The Oct 3 invitation** — `vendoreventsinformation@gmail.com`, signed **"Barbara Anne"**,
+    2026-09-15, subject "SANDHILLS TRADE DAY", flyer attached. It **does** name the event, date,
+    address and time, and asks a plain "will you be able to attend this event?". Its weak points are a
+    free Gmail address, the shop name misspelled ("Drangon Ink and Thread"), and no fee in the email
+    itself — the $20 is only on the flyer. **Reads amateur rather than fraudulent. STILL UNANSWERED.**
+  - **A SEPARATE "Vendor Opportunity"** — `susanraymond447@gmail.com`, 2026-09-16, which still carried
+    the unfilled merge field **"[service/product]"** and asked her to *provide* something for "an
+    upcoming event", naming no event, no date and no venue. ⚠️ **That is the one that matches a scam
+    template** — and note a trade day *rents* booth space, it does not buy goods from its vendors.
+    ✅ **Replied 2026-09-16**, asking it to name the event, date, venue, quantity and a contact.
+    **Nothing paid, nothing booked.**
   🚫 **Never, whoever they turn out to be:** a payment above the invoice, a refunded difference, gift
   cards, wire, Zelle or Cash App. Stripe or it doesn't happen. Don't open their links or attachments.
   💸 **Even if it is genuine it costs far more than $20** — it's outdoor and **she owns no canopy**. A
