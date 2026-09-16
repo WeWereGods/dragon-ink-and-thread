@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-15.**
+**Last reviewed: 2026-09-16.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -40,9 +40,10 @@ Two rules that keep this useful:
 > | ~~Sat Sep 12~~ | 📊 | Buttondown report run · uncommitted work pushed |
 > | ~~Sun Sep 13~~ | 🎪 + 💳 | Buttondown **13 active of 61** · October market posts, printable checklist and table sign made · ✅ **Buttondown Automations bought ($24/mo)** — welcome sequence copy refreshed, ready to load |
 > | ~~Mon Sep 14~~ | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
-> | **Tue Sep 15 — TODAY** | 💵 + 🪧 + 💳 | ~~Federal estimated tax~~ **not paying now — owner will pay federal tax in April (decided 2026-09-15)** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" · ✅ **7 more market bows sewn and photographed** (Middengard Wyrms, Starfall Pines, Solstice Tartan, Night Court Stripe, Hewn City Stripe, Autumn Court Gourds, and a red/black tasselled plaid the owner named **Traditional Christmas**) — **15 of 23 done** · photos IMG_7946–7966 in Downloads · ✅ **Filing is QUARTERLY — next return Oct 20** · ✅ **Whimsys split into two sizes** (5 long, 3 short + wide, one $5 price) · ✅ **3 Stripe quick-checkout links + the Scan to Pay card** · ✅ **Table plan** and ✅ **printable inventory sheet** (generated from shop-data) · ✅ **Stock counted by hand:** 0 whimsys · 11 scrunchies · 27 bows · 3 bandanas · 5 totes · 1 Kindle case · 1 tea cover · ✅ **Kindle case priced $30 and added to Stripe** · ✉️ **Cassidy E. asked for a Kindle sleeve — reply sent, quoted $35** · 🚫 A brunch market application was declined |
-> | **Thu Sep 17** | 🚗 | **Maurya's pickup** — moved from Tue 15 at her request |
-> | ~~Fri Sep 18~~ | 🖼️ **EXTENDED** | **Linda's shadow box is FINISHED** — preview sent 2026-09-15; she's adding **an item she owns**, so the date is extended to **next week (by Fri Sep 25), if not sooner** — ⚠️ same week as market-bow sewing and Sep 25 packing |
+> | ~~Tue Sep 15~~ | 💵 + 🪧 + 💳 | ~~Federal estimated tax~~ **not paying now — owner will pay federal tax in April (decided 2026-09-15)** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" · ✅ **7 more market bows sewn and photographed** (Middengard Wyrms, Starfall Pines, Solstice Tartan, Night Court Stripe, Hewn City Stripe, Autumn Court Gourds, and a red/black tasselled plaid the owner named **Traditional Christmas**) — **15 of 23 done** · photos IMG_7946–7966 in Downloads · ✅ **Filing is QUARTERLY — next return Oct 20** · ✅ **Whimsys split into two sizes** (5 long, 3 short + wide, one $5 price) · ✅ **3 Stripe quick-checkout links + the Scan to Pay card** · ✅ **Table plan** and ✅ **printable inventory sheet** (generated from shop-data) · ✅ **Stock counted by hand:** 0 whimsys · 11 scrunchies · 27 bows · 3 bandanas · 5 totes · 1 Kindle case · 1 tea cover · ✅ **Kindle case priced $30 and added to Stripe** · ✉️ **Cassidy E. asked for a Kindle sleeve — reply sent, quoted $35** · 🚫 A brunch market application was declined |
+> | **Wed Sep 16 — TODAY** | 🖼️ + 🚩 | **Linda is adding a SECOND photo and a FIGURINE to the shadow box.** Owner is **not charging** for either, and is **supplying the print and a matching gold frame at her own cost** · layout decided (see the shadow box entry) · 🚩 **Second mass email from the Oct 3 "trade day" sender** — still carrying an unfilled `[service/product]` merge field; reply drafted, **nothing paid, nothing booked** (see the markets block) |
+> | **Thu Sep 17** | 🚗 + 🖼️ | **Maurya's pickup** — moved from Tue 15 at her request · **Linda's shadow box DELIVERED — UNSEALED**, glass off, top-left corner left open for the second photo. 🚨 **Take the photo home from that handover** |
+> | ~~Fri Sep 18~~ | 🖼️ **SUPERSEDED** | ~~by Fri Sep 25~~ → **the box goes THU SEP 17, unsealed.** The second photo and the figurine are placed on a **later return visit, no date set** — so this no longer collides with market-bow sewing or Sep 25 packing |
 > | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · **12–15 hair whimsys** in two sizes, from bow leftovers |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
 > | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
@@ -545,7 +546,28 @@ Two rules that keep this useful:
   the owner applied to (not previously on this list). Their reason: they cap vendors per category.
   They are keeping the details on file and invited a re-application for future events — **worth
   applying again** for a later date. Name stays out of this public repo.
-  So the fall stands at **three booked, one declined**.
+  So the fall stands at **three booked, one declined** — plus the unverified Oct 3 invitation below.
+
+- [ ] ⚠️ 🎪 **AN OCT 3 OUTDOOR TRADE DAY — INVITED, UNDECIDED, AND THE INVITATION STILL LOOKS LIKE A SCAM.**
+  A flyer reached the owner 2026-09-16: **Sat Oct 3, 9am–3pm, outdoor, no electricity, 10×10 space $20.**
+  Name and address stay out of this public repo; they're in the private note.
+  🚩 **Two mass emails from the same free Gmail address, and neither behaves like an organiser.** The
+  first (2026-09-15) misspelled the shop name and named no fee and no organiser. The second
+  (2026-09-16) still carried the unfilled merge field **"[service/product]"** and asked her to
+  *provide* something for "an upcoming event" — ⚠️ **but a trade day RENTS booth space, it does not buy
+  goods from its vendors.** Those are two different transactions, and that mismatch is the tell.
+  ✉️ **Reply drafted 2026-09-16** asking them to name the event, the date, the venue, the quantity and
+  a contact. **Nothing is paid and nothing is booked until they answer** — and a real organiser answers
+  that in one line.
+  🚫 **Never, whoever they turn out to be:** a payment above the invoice, a refunded difference, gift
+  cards, wire, Zelle or Cash App. Stripe or it doesn't happen. Don't open their links or attachments.
+  💸 **Even if it is genuine it costs far more than $20** — it's outdoor and **she owns no canopy**. A
+  10×10 with weights is **$80–150**, four to seven times the booth fee, so it only pays back if it's
+  used across several markets.
+  🗓️ **And the date is a squeeze:** 7 days after Sep 26 and 7 days before Oct 10 — restocking twice in
+  a fortnight, on top of Linda's picture and Cassidy's sleeve.
+  ✅ **Decide it from Sep 26's ACTUAL sales.** A third market only earns its place if she sells faster
+  than she can sew.
 
 - [ ] 🎪 **MARKETS 2 AND 3 — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).**
   🗓️ **Times, from the organiser's flyer (shared 2026-09-14):** Oct 10 day market **9am–3pm**; the
@@ -1131,10 +1153,30 @@ Two rules that keep this useful:
       ✅ **FINISHED AND PREVIEWED 2026-09-15.** The owner sent Linda a preview of the completed box; Linda wants to
       **add more to it**, so the Sep 18 due date is **extended by agreement**. Everything below about the print arriving
       Sep 16 and the Thursday-morning message is now history.
-      ✅ **SETTLED 2026-09-15:** Linda is adding **one item she owns** (she supplies it, same as the rest), and the
-      **new date is next week — by Fri Sep 25, if not sooner.** One owned item is a small addition to a $250 box; the
-      owner has not quoted extra for it. ⚠️ **Next week is also 8 market bows (Sat Sep 19) and packing (Fri Sep 25)**,
-      so fit the item in as soon as it arrives rather than on the 25th.
+      ✅ **SETTLED 2026-09-15:** Linda is adding **one item she owns** (she supplies it, same as the rest). One owned
+      item is a small addition to a $250 box; the owner has not quoted extra for it.
+      🔄 **SUPERSEDED 2026-09-16 — THE BOX NOW LANDS IN TWO PARTS.** It is **delivered THU SEP 17, UNSEALED**, glass
+      off, with the top-left corner left open. The additions are **a SECOND PHOTO** (her husband in Roman costume) **and
+      a FIGURINE**, both placed on a **later return visit — no date set.**
+      💵 **No extra charge, and the owner is supplying the print AND a matching gold frame at her own cost (~$15–25).**
+      Under the agreed terms display materials are Linda's to supply, so this is a gift — **say so out loud.** Silent
+      generosity reads as nothing; named, it is the thing she tells people about. Keep the receipt: deductible materials.
+      🚨 **TAKE THE PHOTO HOME FROM THE HANDOVER ON THE 17th.** No digital copy existed of the first picture, which is
+      exactly what cost this job two weeks. Leaving without it buys a third trip.
+      🎨 **LAYOUT DECIDED 2026-09-16 — flat things on the bulky side, standing things on the flat side.** The **new 4×6
+      photo in a matching gold frame goes TOP LEFT**, on the leopard drape — stitch through the frame's corners into the
+      board, because that mounded fold is the least stable surface in the box. The **figurine goes on the STAR PANEL,
+      UPPER RIGHT**: it is the flattest area and the only one with the depth for a standing figure. The **existing photo
+      (bottom left) and the red bicycle (middle right) do not move.** Stagger the new pair — do not line them into a grid.
+      Match the frame **finish**, not just the size; brushed beside bright gold reads as a mistake at six inches.
+      📏 **MEASURE THE FIGURINE against the internal depth BEFORE committing.** If it is close, tilt it back into a fold —
+      that buys depth and stops it pitching forward. Mount it on a small fabric-covered block so the **weight is
+      physically carried**, then museum wax under the base against tipping. **Wax alone on fabric will not hold ceramic
+      on a wall for years**, and a fall lands on the glass or the costume.
+      ✂️ **Crop the Roman photo** to lose the ceiling, mirror and fireplace, full length head to boots, with air above the
+      raised sword. Its red and gold pick up the bicycle, the braid and the stars — it will read as always intended.
+      ⚠️ **THE BUILT BOX DOES NOT MATCH THE LAYOUT RECORDED BELOW.** There is **no Eeyore plush in it**, and the picture
+      ended up **BOTTOM** left, not top left. **Ask whether Eeyore is still going in** — if he is, the layout above changes.
       📸 **The "photograph before the glass goes on" rule applies again** — shoot it as finished now, and again after
       the additions.
       🔨 **UNDER WAY — the owner is building it as of 2026-09-01.** Materials are in hand, so the
