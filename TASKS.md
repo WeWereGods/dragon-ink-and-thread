@@ -570,6 +570,24 @@ Two rules that keep this useful:
   | Christmas scrunchies — Bowknots in Scarlet (+3 Amber Wildflowers if time) | 3 | already well stocked |
   | **Hair whimsys — TWO SIZES** (owner, 2026-09-15): **5 long** (18″ × 4″, ties as a bow — stripes and small prints) + **3 short + wide** (12″ × 5–6″, half knot — big prints like Nesta's Cats and Weaver's Web, so the motif still reads). All from **bow leftovers** | 8 | ✅ **Fabric settled 2026-09-15: the stripes are gone into bows, so whimsys come from leftovers.** ✅ **Two sizes, one price ($5)** — the price sign is printed, so do not split the price. **Sew one of each first and try them in your hair** before cutting the rest, and **count the two shapes separately on Sep 26** — whichever goes first sizes the October batch | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two, a fat quarter makes five. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
   ⚠️ **FOUR PLANNED FABRICS WENT INTO BOWS (Sep 14–15), so two plans need a decision:** (1) **Bandanas** — Elain's Gingham was the back of the Bone Carver's Candy bandana, and **Autumn Court Gourds and Lucien's Patch were BOTH sides of the other Medium**, so that one has no fabric at all. Check what's left before Oct 3; a short side can be backed from the shelf (Blushing Linen suits the pink one), or drop the rust-pumpkin bandana. (2) ✅ **Hair whimsys — SETTLED 2026-09-15: no stripe left, so they get cut from bow leftovers** (Weaver's Web and others); still 8, still $5. **Lady of Autumn** (cream, autumn leaves and berries) and **Traditional Christmas** (red/black plaid, pink and green tassels) are owner-named and not in the website fabric library. Market bows stay OUT of Stripe (owner, 2026-09-15) — the Scan to Pay card covers them. Photos of all 15 bows: IMG_7946–7966 in Downloads (7966 is a group shot — a good Sep 26 announcement photo).
+  🔢 **REAL STOCK COUNT — the owner counted by hand 2026-09-15.** ⚠️ **These are the true numbers; js/shop-data.js
+  lists one row per LISTING and understates it** (duplicate scrunchie prints, the Suriel set is 5 bows in one row,
+  and the **Kindle case has never been listed on the website at all**).
+  | | On hand | To sew | Sep 26 | Owner goal |
+  |---|---|---|---|---|
+  | Hair whimsys | **0** | 12–15 | 12–15 | 30 |
+  | Scrunchies | **11** | — | 11 | 30 |
+  | Bows | **27** | +8 Sat 19 | **35** | 25 — ✅ already past it |
+  | Pet bandanas | **3** | +5 in Oct | 3 | 10 |
+  | Totes | **5** | — | 5 | 6 |
+  | Kindle case · tea cover · book sleeve | **3** | — | 3 | — |
+  📌 **Owner goal set 2026-09-15: 30 whimsys · 30 scrunchies · 25 bows · 10 bandanas · 6 totes** (~101 pieces,
+  ~$1,000). **That is an Oct 10 target, not a Sep 26 one** — the gap is ~20 sewing hours in 9 days, on top of
+  Linda's box (due Sep 25) and packing. **Whimsys are untested: 12–15 for the first market, then let Sep 26 size
+  the batch.** A 6-ft table only shows 60–75 pieces; the rest is back-stock in the tub.
+  🖼️ **A KINDLE CASE IS IN STOCK** — never listed, and it lands the same week **Cassidy E. asked for a Kindle
+  sleeve**. Two uses: show it to her as a finished example, or sell it to her if it fits her Kindle Signature.
+  ❓ Price it before the market — it is not in shop-data, so the inventory sheet carries a blank for it.
   📏 **HOW MANY OF EACH — and when to break the one-of-a-kind rule. Decided 2026-09-15.**
   The rule is not "never duplicate", it is **where scarcity sells and where it costs a sale**:
   | Price | Rule | Why |
