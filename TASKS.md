@@ -568,8 +568,29 @@ Two rules that keep this useful:
   | Gift card holders | 8–10 | ⚠️ **needs a ready-made price under the $12 custom floor — ~$10** |
   | Dog bandanas, reversible — M Scarlet/Cream · L Scarlet/Cream · L Pumpkin Patch Picnic/Amber Wildflowers · M Bone Carver's Candy/Elain's Gingham · M Autumn Court Gourds/Lucien's Patch | 5 (3 M, 2 L) | only one Medium in stock |
   | Christmas scrunchies — Bowknots in Scarlet (+3 Amber Wildflowers if time) | 3 | already well stocked |
-  | **Hair whimsys** — 6 from **bow leftovers** (Weaver's Web and other scraps) + 2 Nesta's Cats | 8 | ✅ **Fabric settled 2026-09-15: the stripes are gone into bows, so whimsys come from leftovers** — a strip is 18″ × 4″, so scraps do | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two, a fat quarter makes five. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
+  | **Hair whimsys — TWO SIZES** (owner, 2026-09-15): **5 long** (18″ × 4″, ties as a bow — stripes and small prints) + **3 short + wide** (12″ × 5–6″, half knot — big prints like Nesta's Cats and Weaver's Web, so the motif still reads). All from **bow leftovers** | 8 | ✅ **Fabric settled 2026-09-15: the stripes are gone into bows, so whimsys come from leftovers.** ✅ **Two sizes, one price ($5)** — the price sign is printed, so do not split the price. **Sew one of each first and try them in your hair** before cutting the rest, and **count the two shapes separately on Sep 26** — whichever goes first sizes the October batch | **NEW, $5** — an 18″ × 4″ strip tied round a braid; ~20 min, ⅛ yd makes two, a fat quarter makes five. Priced under the $6 scrunchie on purpose (owner, 2026-09-14): no elastic, half the fabric. Untested, so it's a small batch — **count what sells on Oct 10** |
   ⚠️ **FOUR PLANNED FABRICS WENT INTO BOWS (Sep 14–15), so two plans need a decision:** (1) **Bandanas** — Elain's Gingham was the back of the Bone Carver's Candy bandana, and **Autumn Court Gourds and Lucien's Patch were BOTH sides of the other Medium**, so that one has no fabric at all. Check what's left before Oct 3; a short side can be backed from the shelf (Blushing Linen suits the pink one), or drop the rust-pumpkin bandana. (2) ✅ **Hair whimsys — SETTLED 2026-09-15: no stripe left, so they get cut from bow leftovers** (Weaver's Web and others); still 8, still $5. **Lady of Autumn** (cream, autumn leaves and berries) and **Traditional Christmas** (red/black plaid, pink and green tassels) are owner-named and not in the website fabric library. Market bows stay OUT of Stripe (owner, 2026-09-15) — the Scan to Pay card covers them. Photos of all 15 bows: IMG_7946–7966 in Downloads (7966 is a group shot — a good Sep 26 announcement photo).
+  📏 **HOW MANY OF EACH — and when to break the one-of-a-kind rule. Decided 2026-09-15.**
+  The rule is not "never duplicate", it is **where scarcity sells and where it costs a sale**:
+  | Price | Rule | Why |
+  |---|---|---|
+  | **$5–10** — whimsys, scrunchies, gift card holders | **duplicate freely** | impulse buys; running out at 6pm is lost money |
+  | **$12–22** — bows, bandanas | **one of each print** (exception: Bowknots in Scarlet, already 4) | Sep 26 is a test of *which print sells*; duplicates muddy the read |
+  | **$28+** — totes, sleeves, home | **always one-off** | this is the brand, and "there is only one" closes sales in person |
+  She already breaks it in both directions on purpose: scrunchies are stocked in multiples online (),
+  and the Christmas plan has 4 Scarlet bows.
+  🎯 **On the 6-ft table Sep 26:** bows 30–35 · scrunchies 10–15 · whimsys 8 · bandanas 4–6 · totes 4–6 · sleeve +
+  tea cover 1–2. **60–75 pieces is right for 6 feet inside a boutique**; the rest lives in the tub underneath and
+  refills the gaps.
+  💰 **Retail value, priced from js/shop-data.js on 2026-09-15:** shop stock **34 listings = $563** (the Suriel set
+  counts once at $55 though it is 5 bows; each bundle counts $15) + **23 bows $276** + **8 whimsys $40** =
+  **65 pieces, ~$879 on the table**. October adds 5 bandanas, 10 gift card holders and 3 scrunchies ($208) →
+  **83 pieces, ~$1,087 by Oct 10.**
+  ⚠️ **Bows are 57% of the table value** ($501 of $879) — Saturday is mostly a verdict on bows. The $5–6 impulse
+  tier is only $112, but it is what makes people stop. Totes, sleeve and tea cover are $208 in 7 pieces: slowest
+  to sell, but one tote equals three bows.
+  📊 **A first market typically sells 10–25% of stock value → $90–220.** The $200–300 goal sits at the top of that,
+  so **do not read $120 as failure**. On $250: set aside **$19** sales tax, the table cost **$20**, so ~**$211** stays.
   ✂️ **Fabric picks set 2026-09-14 from the swatch photos — printable at `marketing/market-cut-list.html`**
   (photos, yardage per print, a blank for what's on the shelf). **Not used, on purpose:** Pumpkin Patch
   Picnic for bows (4″ pumpkins get chopped up), Cauldron Forged (already a bow in stock — table it
