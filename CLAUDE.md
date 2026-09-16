@@ -528,12 +528,23 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
   `<img>` with an `onerror` fallback to an emoji placeholder, so missing photos never look broken.
 - **Brand name**: always spelled **"Dragon Ink and Thread"** (the word "and", never "&").
   Socials: `@dragonink_and_thread` (Instagram + TikTok).
-- ⚠️ **TWO MARKS, DELIBERATELY (owner, 2026-09-16).** `logo.png` — the plush teal dragon — is **the**
-  logo: site, favicon, socials, share card. A separate **round black line-art badge** (wordmark +
-  needle + sprig, **no dragon**) exists as a **stamp-only submark** for packaging. **Don't swap them
-  and don't "unify" them.** The dragon is the memorable asset and does the selling; the badge exists
-  only because a rubber stamp is one solid colour and the dragon reads entirely through tonal shading
-  — flattened to black he becomes a blob. Stamp specs and the buying decision live in TASKS.md.
+- ⚠️ **THREE MARKS, DELIBERATELY (owner, 2026-09-16). Don't "unify" them.** Each exists because a
+  different medium made the others unusable:
+  1. **`logo.png` — the plush TEAL dragon — is THE logo.** Site, favicon, socials, share card.
+  2. **A round black LINE-ART badge** (wordmark + needle + sprig, **no dragon**) — **stamp only.**
+     A rubber stamp is one solid colour, and the plush dragon reads entirely through tonal shading;
+     flattened to black he becomes a blob.
+  3. **A sleeping GREEN dragon on parchment** — **the printed market kit only** (signs, price tags,
+     gift tags). ⚠️ **The parchment palette contains almost no blue or teal** — measured: one
+     blue-ish pixel in the whole card — so the teal dragon reads as pasted-on there. A recoloured
+     green version of the plush dragon was built and rejected in favour of keeping the two separate
+     (`scratchpad/signkit/recolour-dragon.js` if it is ever wanted).
+  ⚠️ **The card art spells the name "DRAGON INK & THREAD".** The repo rule stands — **it is always
+  "and"** (owner confirmed 2026-09-16) — so the print kit re-renders that line as live text rather
+  than using their picture of it. **The card art itself still needs correcting at source.**
+  📐 **Print-kit palette, measured off the card art:** parchment `#F6E9DA` · deep green `#4E5839` ·
+  sage `#938858` · wine `#7B322C` · rose `#9E5E58`. Gold was not reliably measurable — set by eye.
+  Stamp specs and the buying decision live in TASKS.md.
 
 ## Local preview
 Open `index.html` directly, or from the repo root run `python -m http.server 8000` and visit
