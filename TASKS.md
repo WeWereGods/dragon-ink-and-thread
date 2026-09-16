@@ -577,7 +577,7 @@ Two rules that keep this useful:
   | **$5–10** — whimsys, scrunchies, gift card holders | **duplicate freely** | impulse buys; running out at 6pm is lost money |
   | **$12–22** — bows, bandanas | **one of each print** (exception: Bowknots in Scarlet, already 4) | Sep 26 is a test of *which print sells*; duplicates muddy the read |
   | **$28+** — totes, sleeves, home | **always one-off** | this is the brand, and "there is only one" closes sales in person |
-  She already breaks it in both directions on purpose: scrunchies are stocked in multiples online (),
+  She already breaks it in both directions on purpose: scrunchies are stocked in multiples online (`maxQty: 3`),
   and the Christmas plan has 4 Scarlet bows.
   🎯 **On the 6-ft table Sep 26:** bows 30–35 · scrunchies 10–15 · whimsys 8 · bandanas 4–6 · totes 4–6 · sleeve +
   tea cover 1–2. **60–75 pieces is right for 6 feet inside a boutique**; the rest lives in the tub underneath and
