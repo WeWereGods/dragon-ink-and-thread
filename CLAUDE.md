@@ -528,6 +528,12 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
   `<img>` with an `onerror` fallback to an emoji placeholder, so missing photos never look broken.
 - **Brand name**: always spelled **"Dragon Ink and Thread"** (the word "and", never "&").
   Socials: `@dragonink_and_thread` (Instagram + TikTok).
+- ⚠️ **TWO MARKS, DELIBERATELY (owner, 2026-09-16).** `logo.png` — the plush teal dragon — is **the**
+  logo: site, favicon, socials, share card. A separate **round black line-art badge** (wordmark +
+  needle + sprig, **no dragon**) exists as a **stamp-only submark** for packaging. **Don't swap them
+  and don't "unify" them.** The dragon is the memorable asset and does the selling; the badge exists
+  only because a rubber stamp is one solid colour and the dragon reads entirely through tonal shading
+  — flattened to black he becomes a blob. Stamp specs and the buying decision live in TASKS.md.
 
 ## Local preview
 Open `index.html` directly, or from the repo root run `python -m http.server 8000` and visit

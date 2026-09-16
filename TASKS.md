@@ -2524,4 +2524,20 @@ self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15
       been sitting open in two files after it was already finished; it isn't outstanding.
 - [ ] **Founder photo** is still a casual phone selfie. Highest-trust element on the page.
 - [ ] **Post-purchase packaging insert** — drafted, never made it into the repo.
+- [ ] 🖋️ **LOGO STAMP — DECIDED 2026-09-16: worth buying, as a STAMP-ONLY mark.** The **round black
+      line-art badge** (wordmark + needle + botanical sprig, **no dragon**) becomes a submark used on
+      packaging. ⚠️ **The plush dragon STAYS the logo** — site, favicon, socials. Owner's call; don't
+      swap them.
+      📏 **Order it at 2.5″ minimum, not 1.5″.** At 1.5″ the serif hairlines break up, the filigree
+      flourishes fill in with ink, and the scattered dots blot. **Get a proof before the die is cut**,
+      and ask the maker to thin the finest lines — the leaf veins will close up at any size.
+      **Deep-etched red rubber**, and **pigment ink not dye** (VersaFine Onyx Black or StazOn, ~$8):
+      a cheap dye pad on kraft prints patchy grey and looks worse than no branding at all.
+      Budget **~$35–50 all in**.
+      📦 **What it's for:** kraft bags, tissue, boxes, the back of a thank-you card. **Too big for a
+      hang tag** — that needs a separate small text-only stamp, which is the version that cannot fail.
+      🗓️ **NOT a Sep 26 asset.** With a proof round it lands after; treat it as Oct 10 / Oct 30 and
+      Christmas-market kit. Packaging was never the bottleneck — stock and footfall are.
+      ⚠️ **The badge art is not yet in the repo, and if it was AI-generated, check it for C2PA/OpenAI
+      markers before it goes on anything permanent** — an AI mark is also hard to protect if copied.
 - [ ] **Policies aren't attorney-reviewed.** Worth a pass now that real money is moving.
