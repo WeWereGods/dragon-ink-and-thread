@@ -213,6 +213,7 @@ Two rules that keep this useful:
       ✅ **REPLY SENT 2026-09-15** — the two styles (open-top quilted sleeve · padded cover with a tie), **$35–40**,
       the fabric library, and an honest timeline: cut the week after the Sep 26 market, **with her by mid-October**.
       Asked her for the exact model or measurements, and which style and fabric.
+      💰 **PRICE SET $35 by the owner 2026-09-15** — the published book-sleeve floor, so it clears the $28 ready-made sleeve. ⚠️ **NEST15 would take it to $29.75**, under that floor: honour it only if she asks, and treat it as a returning-customer gesture rather than the rule.
       ⏳ **WAITING ON HER.** When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
       $25 and applies to custom, but is NOT automatic — apply it by hand only if she asks**), then cut.
       📸 **Ask for a photo when it ships** — her tote was never photographed, so the shop has her words but no
@@ -587,7 +588,7 @@ Two rules that keep this useful:
   the batch.** A 6-ft table only shows 60–75 pieces; the rest is back-stock in the tub.
   🖼️ **A KINDLE CASE IS IN STOCK** — never listed, and it lands the same week **Cassidy E. asked for a Kindle
   sleeve**. Two uses: show it to her as a finished example, or sell it to her if it fits her Kindle Signature.
-  ❓ Price it before the market — it is not in shop-data, so the inventory sheet carries a blank for it.
+  ✅ **PRICED $30 by the owner 2026-09-15** — it sits between the $28 ready-made book sleeve and the $35 custom floor. It is **not in js/shop-data.js and not in Stripe**, so Tap to Pay needs a custom amount unless a product is added.
   📏 **HOW MANY OF EACH — and when to break the one-of-a-kind rule. Decided 2026-09-15.**
   The rule is not "never duplicate", it is **where scarcity sells and where it costs a sale**:
   | Price | Rule | Why |
