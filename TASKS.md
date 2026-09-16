@@ -588,7 +588,7 @@ Two rules that keep this useful:
   the batch.** A 6-ft table only shows 60–75 pieces; the rest is back-stock in the tub.
   🖼️ **A KINDLE CASE IS IN STOCK** — never listed, and it lands the same week **Cassidy E. asked for a Kindle
   sleeve**. Two uses: show it to her as a finished example, or sell it to her if it fits her Kindle Signature.
-  ✅ **PRICED $30 by the owner 2026-09-15** — it sits between the $28 ready-made book sleeve and the $35 custom floor. It is **not in js/shop-data.js and not in Stripe**, so Tap to Pay needs a custom amount unless a product is added.
+  ✅ **PRICED $30 by the owner 2026-09-15** — it sits between the $28 ready-made book sleeve and the $35 custom floor. It is **not in js/shop-data.js** (never listed on the website), but ✅ **added to the Stripe catalog 2026-09-15 — "Kindle Case" $30** (`prod_VGeOmlY1Gi7brf`), so Tap to Pay can ring it up by name.
   📏 **HOW MANY OF EACH — and when to break the one-of-a-kind rule. Decided 2026-09-15.**
   The rule is not "never duplicate", it is **where scarcity sells and where it costs a sale**:
   | Price | Rule | Why |
