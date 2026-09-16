@@ -1175,8 +1175,8 @@ Two rules that keep this useful:
       on a wall for years**, and a fall lands on the glass or the costume.
       ✂️ **Crop the Roman photo** to lose the ceiling, mirror and fireplace, full length head to boots, with air above the
       raised sword. Its red and gold pick up the bicycle, the braid and the stars — it will read as always intended.
-      ⚠️ **THE BUILT BOX DOES NOT MATCH THE LAYOUT RECORDED BELOW.** There is **no Eeyore plush in it**, and the picture
-      ended up **BOTTOM** left, not top left. **Ask whether Eeyore is still going in** — if he is, the layout above changes.
+      ✅ **RESOLVED 2026-09-16 — the layout table below is corrected to the box as BUILT.** ❌ **Eeyore is not in it and
+      is not coming: too big for the frame** (owner, 2026-09-16). The first picture ended up **BOTTOM** left, not top left.
       📸 **The "photograph before the glass goes on" rule applies again** — shoot it as finished now, and again after
       the additions.
       🔨 **UNDER WAY — the owner is building it as of 2026-09-01.** Materials are in hand, so the
@@ -1193,8 +1193,7 @@ Two rules that keep this useful:
       if you ever want the costume back"* is literally true, which is worth saying to a widow and
       costs nothing to earn.
       **The three that matter at this stage, all from the layout below:**
-      1. **Eeyore through the board at the SHOULDERS**, not anchored underneath only — base-only
-         mounting lets him tip forward over a year or two until he rests on the glass.
+      1. ~~**Eeyore through the board at the SHOULDERS**~~ — ❌ **moot: the plush was dropped 2026-09-16, too big.**
       2. **A barrier between the metal bicycle and the satin** — it marks slowly and will look
          perfect on handover day.
       3. **Leave the top-left looser than the rest** until the print arrives: the mat adds
@@ -1233,11 +1232,12 @@ Two rules that keep this useful:
       **Backing is black**, which drives most of the decisions below.
       | Position | What sits there |
       |---|---|
-      | **Top left** | **The picture** — owner's call, 2026-09-01 |
-      | **Top right** | The pointed star hat — black with gold stars, gold braid, sequin band |
-      | **Middle** | The costume — black satin with gold foil leopard print |
-      | **Bottom left** | The Eeyore plush |
-      | **Bottom right** | The small red metal bicycle |
+      | **Top left** | 🆕 **The SECOND picture** — Roman costume, 4×6 in a matching gold frame (planned 2026-09-16) |
+      | **Top right** | The pointed star hat — black with gold stars, gold braid, sequin band · 🆕 **the FIGURINE stands here** |
+      | **Left + bottom** | The costume — black satin with gold foil leopard print, draping down the left and across the bottom |
+      | **Bottom left** | **The first picture**, gold frame — ⚠️ **it ended up HERE, not top left as first planned** |
+      | **Middle right** | The small red metal bicycle, sitting on the star panel |
+      | ~~Bottom left~~ | ❌ ~~The Eeyore plush~~ — **DROPPED 2026-09-16, too big for the frame.** Never went in |
       ✅ **The composition works**: picture top-left and star hat top-right balance each other, the
       eye crosses the top and comes down through the costume. Nothing here needs changing.
       ⚠️ **GIVE THE PICTURE A MAT.** A photograph mounted straight onto black backing loses its
@@ -1248,11 +1248,10 @@ Two rules that keep this useful:
       shoulder sits exactly where the picture goes.
       ⚠️ **The costume is much bigger than 16 × 20**, so how it is folded IS the design. The star
       panel with the gold braid is the strongest element — if only part can show, show that.
-      🧸 **THE PLUSH — two notes.** Squash-test him to the actual internal depth before committing;
-      sitting poses compress unevenly and he can end up face-flattened with a round back. And
-      **stitch him through the backing board at the shoulders, not just at the base** — a plush
-      anchored only underneath droops forward within a year or two and ends up leaning on the
-      glass. Those stitches also come out, which is the reversibility point worth telling Linda.
+      🧸 ~~**THE PLUSH**~~ — ❌ **DROPPED 2026-09-16: Eeyore was too big for the box.** The squash-test and
+      shoulder-stitching notes here are spent.
+      📌 **The lesson survives him, and now applies to the FIGURINE: measure the object against the actual
+      internal depth before committing to a position.** It cost a plush its place; catch it earlier next time.
       ⚠️ **The red bicycle is METAL ON SATIN** — the staining case, now confirmed as real rather
       than hypothetical. Something thin between it and the fabric.
       📌 **The gold foil leopard print should not be hard-creased** — foil cracks and flakes along
