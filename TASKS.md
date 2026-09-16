@@ -41,7 +41,7 @@ Two rules that keep this useful:
 > | ~~Sun Sep 13~~ | 🎪 + 💳 | Buttondown **13 active of 61** · October market posts, printable checklist and table sign made · ✅ **Buttondown Automations bought ($24/mo)** — welcome sequence copy refreshed, ready to load |
 > | ~~Mon Sep 14~~ | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
 > | ~~Tue Sep 15~~ | 💵 + 🪧 + 💳 | ~~Federal estimated tax~~ **not paying now — owner will pay federal tax in April (decided 2026-09-15)** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" · ✅ **7 more market bows sewn and photographed** (Middengard Wyrms, Starfall Pines, Solstice Tartan, Night Court Stripe, Hewn City Stripe, Autumn Court Gourds, and a red/black tasselled plaid the owner named **Traditional Christmas**) — **15 of 23 done** · photos IMG_7946–7966 in Downloads · ✅ **Filing is QUARTERLY — next return Oct 20** · ✅ **Whimsys split into two sizes** (5 long, 3 short + wide, one $5 price) · ✅ **3 Stripe quick-checkout links + the Scan to Pay card** · ✅ **Table plan** and ✅ **printable inventory sheet** (generated from shop-data) · ✅ **Stock counted by hand:** 0 whimsys · 11 scrunchies · 27 bows · 3 bandanas · 5 totes · 1 Kindle case · 1 tea cover · ✅ **Kindle case priced $30 and added to Stripe** · ✉️ **Cassidy E. asked for a Kindle sleeve — reply sent, quoted $35** · 🚫 A brunch market application was declined |
-> | **Wed Sep 16 — TODAY** | 🖼️ + 🚩 | **Linda is adding a SECOND photo and a FIGURINE to the shadow box.** Owner is **not charging** for either, and is **supplying the print and a matching gold frame at her own cost** · layout decided (see the shadow box entry) · 🚩 **Second mass email from the Oct 3 "trade day" sender** — still carrying an unfilled `[service/product]` merge field; reply drafted, **nothing paid, nothing booked** (see the markets block) |
+> | **Wed Sep 16 — TODAY** | 🖼️ + 🚩 | **Linda is adding a SECOND photo and a FIGURINE to the shadow box.** ✅ **FIGURINE PLACED the same day**, before delivery — so only the photo is left outstanding. Owner is **not charging** for either, and is **supplying the print and a matching gold frame at her own cost** · layout decided (see the shadow box entry) · 🚩 **Second mass email from the Oct 3 "trade day" sender** — still carrying an unfilled `[service/product]` merge field; reply drafted, **nothing paid, nothing booked** (see the markets block) |
 > | **Thu Sep 17** | 🚗 + 🖼️ | **Maurya's pickup** — moved from Tue 15 at her request · **Linda's shadow box DELIVERED — UNSEALED**, glass off, top-left corner left open for the second photo. 🚨 **Take the photo home from that handover** |
 > | ~~Fri Sep 18~~ | 🖼️ **SUPERSEDED** | ~~by Fri Sep 25~~ → **the box goes THU SEP 17, unsealed.** The second photo and the figurine are placed on a **later return visit, no date set** — so this no longer collides with market-bow sewing or Sep 25 packing |
 > | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · **12–15 hair whimsys** in two sizes, from bow leftovers |
@@ -1156,8 +1156,9 @@ Two rules that keep this useful:
       ✅ **SETTLED 2026-09-15:** Linda is adding **one item she owns** (she supplies it, same as the rest). One owned
       item is a small addition to a $250 box; the owner has not quoted extra for it.
       🔄 **SUPERSEDED 2026-09-16 — THE BOX NOW LANDS IN TWO PARTS.** It is **delivered THU SEP 17, UNSEALED**, glass
-      off, with the top-left corner left open. The additions are **a SECOND PHOTO** (her husband in Roman costume) **and
-      a FIGURINE**, both placed on a **later return visit — no date set.**
+      off, with the top-left corner left open. ✅ **The FIGURINE went in 2026-09-16, before delivery**, so the box travels
+      complete except for **the SECOND PHOTO** (her husband in Roman costume), which goes in on a **later return visit —
+      no date set.** That cuts the return visit to a single job.
       💵 **No extra charge, and the owner is supplying the print AND a matching gold frame at her own cost (~$15–25).**
       Under the agreed terms display materials are Linda's to supply, so this is a gift — **say so out loud.** Silent
       generosity reads as nothing; named, it is the thing she tells people about. Keep the receipt: deductible materials.
@@ -1233,7 +1234,7 @@ Two rules that keep this useful:
       | Position | What sits there |
       |---|---|
       | **Top left** | 🆕 **The SECOND picture** — Roman costume, 4×6 in a matching gold frame (planned 2026-09-16) |
-      | **Top right** | The pointed star hat — black with gold stars, gold braid, sequin band · 🆕 **the FIGURINE stands here** |
+      | **Top right** | The pointed star hat — black with gold stars, gold braid, sequin band · ✅ **the FIGURINE stands here — placed 2026-09-16** |
       | **Left + bottom** | The costume — black satin with gold foil leopard print, draping down the left and across the bottom |
       | **Bottom left** | **The first picture**, gold frame — ⚠️ **it ended up HERE, not top left as first planned** |
       | **Middle right** | The small red metal bicycle, sitting on the star panel |
