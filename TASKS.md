@@ -1,7 +1,7 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-14.**
+**Last reviewed: 2026-09-15.**
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -39,13 +39,13 @@ Two rules that keep this useful:
 > | ~~Thu Sep 10 – Fri Sep 11~~ | 🎀 + 🎪 | ✅ **Sailor bow pattern LIVE** (Sep 10), posted in a sewing group (Sep 11) · ✅ **Two markets booked: Sat Oct 10 day, Fri Oct 30 night** |
 > | ~~Sat Sep 12~~ | 📊 | Buttondown report run · uncommitted work pushed |
 > | ~~Sun Sep 13~~ | 🎪 + 💳 | Buttondown **13 active of 61** · October market posts, printable checklist and table sign made · ✅ **Buttondown Automations bought ($24/mo)** — welcome sequence copy refreshed, ready to load |
-> | **Mon Sep 14 — TODAY** | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
-> | **Tue Sep 15** | 💵 | ~~Federal estimated tax~~ **not paying now — owner will pay federal tax in April (decided 2026-09-15)** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" · ✅ **7 more market bows sewn and photographed** (Middengard Wyrms, Starfall Pines, Solstice Tartan, Night Court Stripe, Hewn City Stripe, Autumn Court Gourds, and a red/black tasselled plaid the owner named **Traditional Christmas**) — **15 of 23 done** · photos IMG_7946–7966 in Downloads |
-> > | **Thu Sep 17** | 🚗 | **Maurya's pickup** — moved from Tue 15 at her request |
+> | ~~Mon Sep 14~~ | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
+> | **Tue Sep 15 — TODAY** | 💵 + 🪧 + 💳 | ~~Federal estimated tax~~ **not paying now — owner will pay federal tax in April (decided 2026-09-15)** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" · ✅ **7 more market bows sewn and photographed** (Middengard Wyrms, Starfall Pines, Solstice Tartan, Night Court Stripe, Hewn City Stripe, Autumn Court Gourds, and a red/black tasselled plaid the owner named **Traditional Christmas**) — **15 of 23 done** · photos IMG_7946–7966 in Downloads · ✅ **Filing is QUARTERLY — next return Oct 20** · ✅ **Whimsys split into two sizes** (5 long, 3 short + wide, one $5 price) · ✅ **3 Stripe quick-checkout links + the Scan to Pay card** · ✅ **Table plan** and ✅ **printable inventory sheet** (generated from shop-data) · ✅ **Stock counted by hand:** 0 whimsys · 11 scrunchies · 27 bows · 3 bandanas · 5 totes · 1 Kindle case · 1 tea cover · ✅ **Kindle case priced $30 and added to Stripe** · ✉️ **Cassidy E. asked for a Kindle sleeve — reply sent, quoted $35** · 🚫 A brunch market application was declined |
+> | **Thu Sep 17** | 🚗 | **Maurya's pickup** — moved from Tue 15 at her request |
 > | ~~Fri Sep 18~~ | 🖼️ **EXTENDED** | **Linda's shadow box is FINISHED** — preview sent 2026-09-15; she's adding **an item she owns**, so the date is extended to **next week (by Fri Sep 25), if not sooner** — ⚠️ same week as market-bow sewing and Sep 25 packing |
-> | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · 8 hair whimsys this week too |
+> | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · **12–15 hair whimsys** in two sizes, from bow leftovers |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
-> | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · indoor · $20** | 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
+> | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
