@@ -29,6 +29,31 @@ and must be reworded before anything goes out for the 26th.
 5 totes, 1 Kindle case, 1 tea cover) and **NO hair whimsys — there are zero sewn.** That is fine for a
 five-hour table, and the whimsys still debut on the 26th as the posts promise.
 
+✅ **DONE by Thu Sep 17 evening:** the **print kit is printed**, the **scrunchie chalkboard is corrected
+to $6** (it read $8 and contradicted the printed cards, the Scan to Pay QR and the website), and
+**Tap to Pay is proven** on a live $1 contactless test.
+✅ **Signs weighted and sleeved · tablecloth pins acquired · power bank charged** (Thu Sep 17). The
+wind, weather and no-electricity risks are all closed.
+⬜ **Still to do before Saturday:** cut and tie the price and gift tags · **the float** (below) ·
+**post the announcement** · pack table, chair, water, lunch.
+
+💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
+$30 · $35 · totes $20–38 · 3 scrunchies $15), because prices are tax-included. Nothing ever comes to
+$6.49, so there is no reason to carry change.
+| Note | Count | |
+|---|---|---|
+| $1 | 20 | $20 |
+| $5 | 10 | $50 |
+| $10 | 3 | $30 |
+📌 **Singles are what run out, not tens.** Nearly everyone pays from an ATM, so the day is a wall of
+$20s; a $20 against a $12 bow needs a five and three ones back, and four of those in the first hour
+strips the singles.
+💡 **If $100 is tight** — and it may be, after the $55 booth — **$60 works** (12 × $1, 6 × $5, 1 × $10).
+Thinner, but it survives until the first few $20s come in and can make change themselves.
+🧾 **Count the float before leaving and write it down**, or takings and float can't be separated at the
+end — and that total feeds the **Oct 20 return**. Keep it **on her person**, not in a box on the table,
+and tuck large notes away as they arrive: once it is all $20s it stops being change.
+
 🌬️ **OUTDOORS CHANGES THE KIT. The whole print kit is PAPER.**
 - **Everything on the table needs weighting or clipping.** A gust takes a letter-size display sign off
   the table and scatters 4×6 cards. Sign holders help; they do not beat wind.
