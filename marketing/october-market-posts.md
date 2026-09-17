@@ -29,6 +29,7 @@ actually turn up, and it is the first channel here that ends at a till.
 
 | When | Post | Where |
 |---|---|---|
+| **Tue Sep 16** | S1e · general buy/sell group | A permissive "sell / promote anything" local group |
 | **Sat Sep 19 – Sun Sep 20** | S1a, S1d · announcement | Your page · Instagram + Story (use the group shot of the new bows) |
 | **Mon Sep 21 · Wed Sep 23** | S1b, S1c · local group versions | Two different SA groups, different days |
 | **Fri Sep 25, evening** | S2 · packed and ready | Your page · Instagram Story |
@@ -99,6 +100,56 @@ holders and the new bandanas are NOT ready until October** — don't mention the
 > I'd love to see some local faces.
 >
 > (Mods, happy to remove this if it's not the right place.)
+
+### S1e · General buy/sell group — version C (Tue Sep 16)
+
+*For a **permissive "have anything to sell / want to promote a business or event"** group — the
+type `facebook-groups.md` ranks **best**, because selling is allowed and **free local pickup only
+matters here**. Sits with S1b and S1c rather than after S1d, since the three local-group versions
+are a pick-one set.*
+
+⚠️ **Deliberately different in BOTH wording and shape from S1b and S1c.** S1b opens *"Hi all — I'm
+Ayla"*; S1c opens *"Anyone going to…"*. This one opens differently again and is built as **two
+offers** (market, then shop) rather than one. Identical text across groups gets reach suppressed
+on **all** of them.
+
+💲 **This is the one version that carries PRICES, on purpose.** In a buy/sell group prices are
+expected and filter for people who will actually buy. **Don't copy them into a craft or sewing
+group** — there the same lines read as an advert and get removed.
+
+> Hi neighbours 👋
+>
+> I'm Ayla — I'm a veteran-owned, one-woman sewing shop working out of my kitchen table here in
+> San Antonio, and I've got two things to share.
+>
+> **First: my very first market is Saturday, September 26, 4–9pm, at [MARKET NAME], [PLACE].**
+> It's indoors and in the evening, so it's on whatever the weather does. There's music and
+> giveaways too.
+>
+> I'll be bringing hair bows ($12), scrunchies ($6, or 3 for $15), dog bandanas ($18), tote bags,
+> padded book sleeves — and a brand-new fall and Halloween batch of bows, including some pink
+> ones. There's a mirror on the table so you can actually try them on.
+>
+> There's also something brand new that day: **hair whimsys**, $5 — a little fabric tie you knot
+> around a braid or a ponytail. Sep 26 is their first outing anywhere.
+>
+> **Second, if Saturday doesn't work:** everything's online, and **local pickup is free** if
+> you're in San Antonio, so you skip postage entirely. I take custom orders too — you pick the
+> fabric, I come back with a price, and nothing's charged until you've said yes.
+>
+> https://www.dragoninkandthread.com
+>
+> Cash or card at the table. Come say hello — it's my first market and a friendly face would mean
+> a lot 🧵
+>
+> (Mods — hope this is alright for the group, happy to take it down if not.)
+
+📌 **Before posting:** read the pinned rules and check for a designated promo day. Posting on the
+wrong day is how you lose a group you can't rejoin.
+⚠️ **Keep it in proportion.** Broadcast posts here have produced **0 sales**; one helpful *reply*
+produced ~150 visits and ~40 signups (`facebook-groups.md` §2). **What makes this post worth
+writing is the date and the place** — not the shop link. If there are only ten minutes today,
+hunting a "free pattern" thread is still the better spend.
 
 ### S1d · Instagram post (Sat Sep 19 or Sun Sep 20)
 

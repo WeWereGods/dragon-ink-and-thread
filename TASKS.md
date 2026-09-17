@@ -42,8 +42,8 @@ Two rules that keep this useful:
 > | ~~Mon Sep 14~~ | 🧵 + 🪧 | ✅ Fabric picks + **Market Sewing List** · ✅ **13 new fat quarters** named and planned (not on the website) · ✅ **Hair whimsys added at $5** · ✅ **Stripe catalog cleaned** (old $4/$9/$10 prices, 22 old payment links, 12 retired products) + market products added · ✅ Vendor promo photos **sent** · ✅ Flyer (tall + square), price sign, QR sign and price tags made — all in Downloads · ✅ **8 market bows sewn** — Weaver's Web, spider web, Nesta's Familiars, Rita's Harlequin, plus 4 not in the plan: Lucien's Patch, Elain's Gingham, Solstice Sunflowers and a cream autumn print named **Lady of Autumn** · ~19 bows on hand counting the shop's |
 > | ~~Tue Sep 15~~ | 💵 + 🪧 + 💳 | ~~Federal estimated tax~~ **not paying now — owner will pay federal tax in April (decided 2026-09-15)** · ~~Maurya's pickup~~ **moved to Thu Sep 17 at her request** · ✅ **Sales tax permit linked to Webfile** — owner: "in compliance" · ✅ **7 more market bows sewn and photographed** (Middengard Wyrms, Starfall Pines, Solstice Tartan, Night Court Stripe, Hewn City Stripe, Autumn Court Gourds, and a red/black tasselled plaid the owner named **Traditional Christmas**) — **15 of 23 done** · photos IMG_7946–7966 in Downloads · ✅ **Filing is QUARTERLY — next return Oct 20** · ✅ **Whimsys split into two sizes** (5 long, 3 short + wide, one $5 price) · ✅ **3 Stripe quick-checkout links + the Scan to Pay card** · ✅ **Table plan** and ✅ **printable inventory sheet** (generated from shop-data) · ✅ **Stock counted by hand:** 0 whimsys · 11 scrunchies · 27 bows · 3 bandanas · 5 totes · 1 Kindle case · 1 tea cover · ✅ **Kindle case priced $30 and added to Stripe** · ✉️ **Cassidy E. asked for a Kindle sleeve — reply sent, quoted $35** · 🚫 A brunch market application was declined |
 > | **Wed Sep 16 — TODAY** | 🖼️ + 🚩 | **Linda is adding a SECOND photo and a FIGURINE to the shadow box.** ✅ **FIGURINE PLACED the same day**, before delivery — so only the photo is left outstanding. Owner is **not charging** for either, and is **supplying the print and a matching gold frame at her own cost** · layout decided (see the shadow box entry) · 🚩 **Second mass email from the Oct 3 "trade day" sender** — still carrying an unfilled `[service/product]` merge field; reply drafted, **nothing paid, nothing booked** (see the markets block) |
-> | **Thu Sep 17** | 🚗 + 🖼️ | **Maurya's pickup** — moved from Tue 15 at her request · **Linda's shadow box DELIVERED — UNSEALED**, glass off, top-left corner left open for the second photo. 🚨 **Take the photo home from that handover** |
-> | ~~Fri Sep 18~~ | 🖼️ **SUPERSEDED** | ~~by Fri Sep 25~~ → **the box goes THU SEP 17, unsealed.** The second photo and the figurine are placed on a **later return visit, no date set** — so this no longer collides with market-bow sewing or Sep 25 packing |
+> | **Thu Sep 17** | 🚗 + ✅ | **Maurya's pickup** — moved from Tue 15 at her request · ✅ **LINDA'S SHADOW BOX DELIVERED AND ACCEPTED** — she has it, she's happy, and **no further changes will be made** (owner, 2026-09-17). The job is closed |
+> | ~~Fri Sep 18~~ | ✅ **CLOSED** | ~~by Fri Sep 25~~ → ~~Thu Sep 17, unsealed, second photo on a return visit~~ → ✅ **delivered and accepted Thu Sep 17. No return visit, no second photo, nothing outstanding** |
 > | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · **12–15 hair whimsys** in two sizes, from bow leftovers |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
 > | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
@@ -1155,7 +1155,17 @@ Two rules that keep this useful:
       over. **Fuller care notes (moths, sun, settling) go on a card that ships WITH the piece**,
       not here; they are more use in her hands in 2027 than in an invoice from August.
 
-      ## 🖼️ THE SHADOW BOX — agreed 2026-08-19, $250 · ✅ **COMPLETED 2026-09-15 — Linda is adding to it, date EXTENDED**
+      ## 🖼️ THE SHADOW BOX — agreed 2026-08-19, $250 · ✅✅ **DELIVERED, ACCEPTED AND CLOSED 2026-09-17**
+      ✅ **DONE. Linda has the box, she is happy with it, and no further changes will be made** (owner, 2026-09-17).
+      **Everything below is history** — the second photo, the figurine placement, the return visit, the print and
+      frame the shop was going to buy, the "take the photo home from the handover" flag. **None of it is outstanding.**
+      💵 **$250 of the $1,050 commission is now delivered work.** The **$800 heirloom wall hanging remains**, due
+      **Feb 19, 2027** — that is the whole of what Linda is still owed.
+      📸 **THE ONE THING STILL WORTH DOING, and it expires fast:** a happy handover is peak goodwill, and this shop
+      has **no photograph and no review of the finished box**. ⚠️ **Publishing anything of it needs Linda's say-so** —
+      the same rule as Maurya's order. **Ask now, while she is delighted**, for (a) a photo of it on her wall,
+      (b) permission to show it, and (c) a line for Kind Words. She went from a **$30 tea cover to a $1,050
+      commission**; a review from her is the single strongest proof the custom side works. **Never invent one.**
       ✅ **FINISHED AND PREVIEWED 2026-09-15.** The owner sent Linda a preview of the completed box; Linda wants to
       **add more to it**, so the Sep 18 due date is **extended by agreement**. Everything below about the print arriving
       Sep 16 and the Thursday-morning message is now history.

@@ -542,8 +542,17 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
   ⚠️ **The card art spells the name "DRAGON INK & THREAD".** The repo rule stands — **it is always
   "and"** (owner confirmed 2026-09-16) — so the print kit re-renders that line as live text rather
   than using their picture of it. **The card art itself still needs correcting at source.**
-  📐 **Print-kit palette, measured off the card art:** parchment `#F6E9DA` · deep green `#4E5839` ·
-  sage `#938858` · wine `#7B322C` · rose `#9E5E58`. Gold was not reliably measurable — set by eye.
+  📐 **Print-kit palette, measured off the card art:** deep green `#4E5839` · sage `#938858` ·
+  wine `#7B322C` · rose `#9E5E58`. Gold was not reliably measurable — set by eye.
+  ⚠️ **TWO different parchments, and they must not be mixed.** The card BACK measures `#F6E9DA`;
+  the FRONT frame (`Dragon_Ink_Thread_FRONT_BACKGROUND_3.62x2.12.png`, the one the print kit is
+  built on) measures **`#f0ddbc`** — warmer and deeper. **The print kit uses `#f0ddbc`**, because
+  its corner ornaments are cropped *with their own paper* and dropped onto a flat background of the
+  same tone; using the other value leaves a visible seam where crop meets flat colour.
+  📌 **That crop-with-its-own-paper trick is why the print kit needs no alpha channel at all.**
+  Three attempts to key the art off its gold ground all failed — the pale watercolour sits too
+  close to the ground in colour space, and unmultiplying a warm ground pushes recovered colour
+  cold (sage → mint, dusty pink → lilac). Don't retry it; crop with the paper instead.
   Stamp specs and the buying decision live in TASKS.md.
 
 ## Local preview
