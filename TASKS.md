@@ -548,7 +548,9 @@ Two rules that keep this useful:
   applying again** for a later date. Name stays out of this public repo.
   So the fall stands at **three booked, one declined** — plus the unverified Oct 3 invitation below.
 
-- [ ] ⚠️ 🎪 **AN OCT 3 OUTDOOR TRADE DAY — INVITED, UNDECIDED, AND THE INVITATION STILL LOOKS LIKE A SCAM.**
+- [x] 🚫 🎪 **AN OCT 3 OUTDOOR TRADE DAY — DECLINED. The owner is not replying (2026-09-17).** No answer
+  sent, nothing paid, nothing booked. **Closed; don't raise it again.** The detail below is kept only
+  so the same sender is recognisable if they write again.
   A flyer reached the owner 2026-09-16: **Sat Oct 3, 9am–3pm, outdoor, no electricity, 10×10 space $20.**
   Name and address stay out of this public repo; they're in the private note.
   🚩 **CORRECTED 2026-09-16 — THESE ARE TWO DIFFERENT SENDERS.** An earlier version of this entry said
@@ -558,7 +560,9 @@ Two rules that keep this useful:
     2026-09-15, subject "SANDHILLS TRADE DAY", flyer attached. It **does** name the event, date,
     address and time, and asks a plain "will you be able to attend this event?". Its weak points are a
     free Gmail address, the shop name misspelled ("Drangon Ink and Thread"), and no fee in the email
-    itself — the $20 is only on the flyer. **Reads amateur rather than fraudulent. STILL UNANSWERED.**
+    itself — the $20 is only on the flyer. Read as amateur rather than fraudulent, but **the owner
+    chose not to reply at all (2026-09-17)** — which costs nothing and is the safest answer to an
+    unverified sender.
   - **A SEPARATE "Vendor Opportunity"** — `susanraymond447@gmail.com`, 2026-09-16, which still carried
     the unfilled merge field **"[service/product]"** and asked her to *provide* something for "an
     upcoming event", naming no event, no date and no venue. ⚠️ **That is the one that matches a scam
@@ -572,8 +576,11 @@ Two rules that keep this useful:
   used across several markets.
   🗓️ **And the date is a squeeze:** 7 days after Sep 26 and 7 days before Oct 10 — restocking twice in
   a fortnight, on top of Linda's picture and Cassidy's sleeve.
-  ✅ **Decide it from Sep 26's ACTUAL sales.** A third market only earns its place if she sells faster
-  than she can sew.
+  ✅ **So the fall stays at three booked, two declined.** The reasoning that made this an easy no is
+  worth keeping for the next invitation: **outdoor with no canopy owned** ($80–150 plus weights, four
+  to seven times the booth fee), and a date sitting **7 days after Sep 26 and 7 before Oct 10** —
+  restocking twice in a fortnight. A third market only earns its place if she sells faster than she
+  can sew, and Sep 26 hasn't happened yet.
 
 - [ ] 🎪 **MARKETS 2 AND 3 — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).**
   🗓️ **Times, from the organiser's flyer (shared 2026-09-14):** Oct 10 day market **9am–3pm**; the
