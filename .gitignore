@@ -102,3 +102,5 @@ assets/incoming/
 # phone originals stay behind and must not be committed.
 assets/Incoming-Products/
 assets/incoming-products/
+tools/print-kit/node_modules/
+tools/print-kit/build/

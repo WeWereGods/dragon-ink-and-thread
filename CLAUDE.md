@@ -538,7 +538,7 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
      gift tags). ⚠️ **The parchment palette contains almost no blue or teal** — measured: one
      blue-ish pixel in the whole card — so the teal dragon reads as pasted-on there. A recoloured
      green version of the plush dragon was built and rejected in favour of keeping the two separate
-     (`scratchpad/signkit/recolour-dragon.js` if it is ever wanted).
+     (`tools/print-kit/experiments/recolour-dragon.js` if it is ever wanted).
   ⚠️ **The card art spells the name "DRAGON INK & THREAD".** The repo rule stands — **it is always
   "and"** (owner confirmed 2026-09-16) — so the print kit re-renders that line as live text rather
   than using their picture of it. **The card art itself still needs correcting at source.**
@@ -554,6 +554,26 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
   close to the ground in colour space, and unmultiplying a warm ground pushes recovered colour
   cold (sage → mint, dusty pink → lilac). Don't retry it; crop with the paper instead.
   Stamp specs and the buying decision live in TASKS.md.
+
+## ⚠️ Market signs are GENERATED — `tools/print-kit/` (added 2026-09-17)
+The printable market kit — display sign, Scan to Shop, price list, Scan to Pay, price tags, gift
+tags, and 4x6 versions of the price list and pay card — is **generated, not hand-made in Canva**.
+Source art is in `assets/print-kit/`; output goes to `tools/print-kit/build/`, which is gitignored.
+
+- **It needs three npm packages** (`qrcode`, `jsqr`, `pngjs`) installed **inside that folder only** —
+  `tools/print-kit/node_modules/` is gitignored, so **the site still has no dependencies.** Same
+  convention as installing `sharp` in a scratch dir.
+- **Run order:** `cut-frame.js` and `cut-card-front.js` first (they crop the reusable pieces), then a
+  builder, then `render.ps1 <name>`, then the matching `verify-*.js`.
+- ⚠️ **ALWAYS verify a QR by decoding it out of the RENDERED page**, never the source buffer. Several
+  are **live Stripe payment links**. The builders only prove the 900px original; `verify-*.js` proves
+  the version that actually prints.
+- ⚠️ **Three different parchment tones exist and must never be mixed** — see the THREE MARKS note
+  above. Take every element of a sign from a single source file.
+- 📌 **Decorations are cropped WITH their own paper** and dropped onto a matching flat background,
+  which is why nothing here needs an alpha channel. **Don't try to key the art off its gold ground** —
+  three attempts failed and are kept in `experiments/` precisely so nobody repeats them.
+- **Full gotcha list is in `tools/print-kit/README.md`.** Read it before changing a layout.
 
 ## Local preview
 Open `index.html` directly, or from the repo root run `python -m http.server 8000` and visit
