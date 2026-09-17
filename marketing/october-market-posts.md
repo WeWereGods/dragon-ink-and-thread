@@ -49,7 +49,61 @@ That's two page posts in the week of each market — more than the usual one a w
 
 ---
 
+## 🆕 Market 0 — Saturday September 19, 10am–3pm (OUTDOOR) — booked 2026-09-17
+
+⚠️ **THIS IS NOW THE FIRST MARKET, NOT SEP 26.** Booked at two days' notice. Every "my first market"
+line written for the 26th below (S1a, S1c, S1d) **became false the moment this was booked** and must be
+reworded before those go out — see the note at the head of Market 1.
+
+**Facts:** outdoor · own 6ft table · canopy rented · **no electricity** · set-up from 8am ·
+**$55 booth, paid** · ⛔ **no early breakdown.** Name, address and organiser are in the private note.
+⚠️ **The venue is NOT in San Antonio** — Comal County, ~30 miles north. The 7.6% tax set-aside assumes
+San Antonio's 8.25%, so check the Comptroller's Rate Locator before the Oct 20 return.
+
+⚠️ **What is NOT on this table:** **hair whimsys — zero are sewn.** They are promised as a Sep 26
+debut and the posts below still say so, correctly. **Don't mention them for the 19th.**
+📌 **~48 pieces go:** 27 bows, 11 scrunchies, 3 bandanas, 5 totes, 1 Kindle case, 1 tea cover.
+
+### M0a · Announcement — your page + Instagram (post Thu 17 or Fri 18, it is short notice)
+
+**Photo:** the group shot of the new bows, `Downloads\Dragon Ink Sep 26 bows (4x5).jpg`.
+
+> **My very first market is this Saturday!** 🧵
+>
+> **[MARKET NAME]** · Saturday, September 19 · 10am–3pm
+> [PLACE]
+>
+> I'll have a table full of things I've made at my kitchen table here in San Antonio — hair bows,
+> scrunchies, pet bandanas, tote bags, a padded book sleeve, and a few one-of-a-kind pieces that have
+> never left the house.
+>
+> There's a mirror on the table, so you can actually try the bows on.
+>
+> Cash or card, and I'd love to see a friendly face. It's my first one 🎀
+
+### M0b · Local group — shorter (same day or Fri 18, a different group from the Sep 26 ones)
+
+> Anyone near [PLACE] this Saturday? I'll be at **[MARKET NAME]**, 10am–3pm — my very first market.
+>
+> Handmade bows, scrunchies, pet bandanas and totes, all sewn here in San Antonio. Veteran-owned,
+> one woman, one sewing machine.
+>
+> Come say hello if you're passing 🧵
+>
+> (Mods — happy to remove if this isn't the right place.)
+
+📣 **Tag the market's own page.** Their local audience is far bigger than hers and organisers
+routinely reshare vendors who tag them. Free reach, and the only lever available at two days' notice.
+📌 **Deliberately NOT leading with the website.** At two days' notice the job of this post is to get
+people to a field on Saturday, not to a shop page.
+
+---
+
 ## Market 1 — Saturday September 26, evening (indoor)
+
+⚠️ **"MY FIRST MARKET" IS NO LONGER TRUE HERE.** Sep 19 took that. Before S1a, S1c or S1d go out,
+reword them — "my second market", or better, lean on having just done one: *"I had such a good time
+last Saturday that I'm doing it again."* That is a warmer hook than "first" ever was, and it is true.
 
 ⚠️ **What will actually be on the table:** everything already in the shop (totes, book sleeve, tea
 cover, scrunchies, the three bandanas), the **new bows** (15 already sewn by Sep 15, 23 planned) and the **hair whimsys**. **Gift card

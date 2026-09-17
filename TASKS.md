@@ -3,6 +3,43 @@
 Working list. Tick things off, delete them when they're stale, add as you go.
 **Last reviewed: 2026-09-17.**
 
+### 🎪 SAT SEP 19 — an OUTDOOR market, signed up 2026-09-17, two days' notice
+
+**10am–3pm · outdoor · own 6ft table · canopy RENTED · NO electricity · set-up from 8am.**
+**$55 booth fee, already paid.** Name, address and organiser contacts are in the private note — the
+repo is public. Both markets are happening: the 19th **and** the 26th, eight days apart.
+
+💵 **Break-even is $55** — about five bows, or nine scrunchies. Comfortably reachable in five hours.
+⛔ **No early breakdown without prior arrangement.** With an 8am set-up that is a seven-hour day, so
+pack a chair, water and lunch.
+🚨 **THE VENUE IS NOT IN SAN ANTONIO — it is in COMAL COUNTY, ~30 miles north on US-281.** Prices are
+tax-included and the **7.6% set-aside assumes San Antonio's 8.25%**. ⚠️ **Look this address up in the
+Comptroller's Sales Tax Rate Locator before filing.** Comal is very unlikely to be above 8.25%, so the
+likely error is setting aside too much rather than too little — but the Oct 20 return is filed on the
+real rate, and this is the first market whose sales land in it.
+⏰ **Set-up runs 8:00 → 10:00**, so the table plan's 2:30 → 4:00 timeline is the Sep 26 one. Leave
+early: it is a 30–40 minute drive.
+
+⚠️ **IT IS NOW THE FIRST MARKET.** Every post written for Sep 26 in `marketing/october-market-posts.md`
+says *"my first market"* — S1a, S1c and S1d all do. **That copy is wrong the moment the 19th happens**
+and must be reworded before anything goes out for the 26th.
+
+⛔ **The sewing booked for Sat 19 is displaced to Sun 20** — the last 8 bows and 12–15 whimsys.
+📌 **So the 19th goes out with what is on hand: ~48 pieces** (27 bows, 11 scrunchies, 3 bandanas,
+5 totes, 1 Kindle case, 1 tea cover) and **NO hair whimsys — there are zero sewn.** That is fine for a
+five-hour table, and the whimsys still debut on the 26th as the posts promise.
+
+🌬️ **OUTDOORS CHANGES THE KIT. The whole print kit is PAPER.**
+- **Everything on the table needs weighting or clipping.** A gust takes a letter-size display sign off
+  the table and scatters 4×6 cards. Sign holders help; they do not beat wind.
+- **Tablecloth clips** — an unclipped cloth lifts and takes stock with it.
+- ⚠️ **Consider sheet protectors or a laminator for the two 4×6 cards and the display sign** before
+  Saturday. They also survive a dropped drink and a damp morning.
+- **No power outdoors: the power bank is not optional** — Tap to Pay dies with the phone.
+- **10–3 is peak sun in a San Antonio September.** Water, and keep the stock out of direct sun where
+  possible; ribbon and paper tags curl.
+✅ **Tap to Pay is already proven** — a live $1 contactless test ran 2026-09-17, fee 8¢.
+
 ### 📬 ON ORDER — three deliveries, ordered 2026-09-17
 
 | What | Window given | Makes Sep 26? |
@@ -11,6 +48,8 @@ Working list. Tick things off, delete them when they're stale, add as you go.
 | **Stickers, batch 2** | **Sep 21–25** | ✅ Should make it, with nothing to spare |
 | **Custom car logo** | **est. Sep 21** | ✅ Fine — not market kit anyway |
 
+🚫 **NONE of the three arrive before SAT SEP 19.** Every window opens on the 21st, so Saturday's
+market gets no stickers and no car logo. Don't plan the table around any of them.
 ⚠️ **The cutoff is FRIDAY SEP 25, not Saturday the 26th** — that is packing night, and set-up on the
 26th starts at 2:30pm. A parcel arriving on the 26th or 27th misses the market entirely, and batch 1's
 window runs two days past it.
@@ -61,7 +100,8 @@ Two rules that keep this useful:
 > | **Wed Sep 16 — TODAY** | 🖼️ + 🚩 | **Linda is adding a SECOND photo and a FIGURINE to the shadow box.** ✅ **FIGURINE PLACED the same day**, before delivery — so only the photo is left outstanding. Owner is **not charging** for either, and is **supplying the print and a matching gold frame at her own cost** · layout decided (see the shadow box entry) · 🚩 **Second mass email from the Oct 3 "trade day" sender** — still carrying an unfilled `[service/product]` merge field; reply drafted, **nothing paid, nothing booked** (see the markets block) |
 > | **Thu Sep 17** | 🚗 + ✅ | **Maurya's pickup** — moved from Tue 15 at her request · ✅ **LINDA'S SHADOW BOX DELIVERED AND ACCEPTED** — she has it, she's happy, and **no further changes will be made** (owner, 2026-09-17). The job is closed |
 > | ~~Fri Sep 18~~ | ✅ **CLOSED** | ~~by Fri Sep 25~~ → ~~Thu Sep 17, unsealed, second photo on a return visit~~ → ✅ **delivered and accepted Thu Sep 17. No return visit, no second photo, nothing outstanding** |
-> | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · **12–15 hair whimsys** in two sizes, from bow leftovers |
+> | **🎪 Sat Sep 19** | **MARKET 1 · 10am–3pm · OUTDOOR** | 🆕 **Signed up 2026-09-17.** Own table, **canopy rented**. ⚠️ **This is now the FIRST market, not Sep 26** · ⛔ **the sewing that was booked for today is displaced** |
+> | **Sun Sep 20** | 🧵 | ⤵️ Moved off Sat 19: **the last 8 bows** (15 sewn) · **12–15 hair whimsys** in two sizes, from bow leftovers · restock whatever sold on the 19th |
 > | **Mon Sep 21** | 📬 | **Deliveries start landing** — car logo est. today · both sticker batches open their windows today. 📣 Also **S1b, the first local group post** |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post · ⚠️ **THE REAL DELIVERY CUTOFF** — anything not here by tonight doesn't go to Sep 26 |
 > | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
