@@ -1,7 +1,24 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-16.**
+**Last reviewed: 2026-09-17.**
+
+### 📬 ON ORDER — three deliveries, ordered 2026-09-17
+
+| What | Window given | Makes Sep 26? |
+|---|---|---|
+| **Stickers, batch 1** (for the vendor event) | **Sep 21–27** | ⚠️ **AT RISK** — the window closes *after* the market |
+| **Stickers, batch 2** | **Sep 21–25** | ✅ Should make it, with nothing to spare |
+| **Custom car logo** | **est. Sep 21** | ✅ Fine — not market kit anyway |
+
+⚠️ **The cutoff is FRIDAY SEP 25, not Saturday the 26th** — that is packing night, and set-up on the
+26th starts at 2:30pm. A parcel arriving on the 26th or 27th misses the market entirely, and batch 1's
+window runs two days past it.
+📌 **So plan the table as though batch 1 will NOT arrive.** If it lands early, it's a bonus; if the
+layout depends on it, a courier decides whether the booth looks finished. **Batch 2 is the one to
+count on** — and if the two batches are different designs, the table should work with whichever shows up.
+📞 **Worth doing Mon Sep 21:** check the tracking on batch 1. If it hasn't shipped by then, it will not
+make the 26th, and that is worth knowing five days early rather than on packing night.
 
 Two rules that keep this useful:
 - **Dates are absolute** ("Aug 9"), never "next Sunday" — this file outlives the week it was written in.
@@ -45,7 +62,8 @@ Two rules that keep this useful:
 > | **Thu Sep 17** | 🚗 + ✅ | **Maurya's pickup** — moved from Tue 15 at her request · ✅ **LINDA'S SHADOW BOX DELIVERED AND ACCEPTED** — she has it, she's happy, and **no further changes will be made** (owner, 2026-09-17). The job is closed |
 > | ~~Fri Sep 18~~ | ✅ **CLOSED** | ~~by Fri Sep 25~~ → ~~Thu Sep 17, unsealed, second photo on a return visit~~ → ✅ **delivered and accepted Thu Sep 17. No return visit, no second photo, nothing outstanding** |
 > | **Sat Sep 19** | 🧵 | Market sewing starts — **cut the last 8 bows in one sitting** (15 already sewn) · **12–15 hair whimsys** in two sizes, from bow leftovers |
-> | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post |
+> | **Mon Sep 21** | 📬 | **Deliveries start landing** — car logo est. today · both sticker batches open their windows today. 📣 Also **S1b, the first local group post** |
+> | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post · ⚠️ **THE REAL DELIVERY CUTOFF** — anything not here by tonight doesn't go to Sep 26 |
 > | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
@@ -1168,11 +1186,18 @@ Two rules that keep this useful:
       frame the shop was going to buy, the "take the photo home from the handover" flag. **None of it is outstanding.**
       💵 **$250 of the $1,050 commission is now delivered work.** The **$800 heirloom wall hanging remains**, due
       **Feb 19, 2027** — that is the whole of what Linda is still owed.
-      📸 **THE ONE THING STILL WORTH DOING, and it expires fast:** a happy handover is peak goodwill, and this shop
-      has **no photograph and no review of the finished box**. ⚠️ **Publishing anything of it needs Linda's say-so** —
-      the same rule as Maurya's order. **Ask now, while she is delighted**, for (a) a photo of it on her wall,
-      (b) permission to show it, and (c) a line for Kind Words. She went from a **$30 tea cover to a $1,050
-      commission**; a review from her is the single strongest proof the custom side works. **Never invent one.**
+      📸 **ASKED 2026-09-17 — awaiting Linda's reply.** The owner has asked her for a photo and a review.
+      ⏳ **Nothing of this box may be published until she says yes** — same rule as Maurya's order.
+      **What exists already:** Linda sent a photo of it displayed on a bookcase at her house
+      (`Downloads\IMG_8009.jpeg`, 2026-09-17) — good proof it is up and loved, but **not a publishable
+      shot**: steep upward angle, and a hard window reflection washes out the wizard picture. **The
+      portfolio images are the pre-delivery ones** taken 2026-09-16 with the glass off.
+      🌟 **If a review comes back, it is the most valuable one this shop could hold** — Linda went from a
+      **$30 tea cover to a $1,050 commission**, which is the exact argument the custom side needs.
+      Add it verbatim to `TESTIMONIALS` in js/main.js. ⚠️ **Never invent one, and never soften her words.**
+      💡 **Two care notes were given with it** (2026-09-17): the box is **resting on the bookcase, not hung**
+      — top-heavy with a plush, a metal bicycle and a ceramic figurine inside — and **direct daylight
+      reaches the glass**, which will fade the gold foil and the photograph over years.
       ✅ **FINISHED AND PREVIEWED 2026-09-15.** The owner sent Linda a preview of the completed box; Linda wants to
       **add more to it**, so the Sep 18 due date is **extended by agreement**. Everything below about the print arriving
       Sep 16 and the Thursday-morning message is now history.
