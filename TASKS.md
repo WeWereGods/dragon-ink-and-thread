@@ -35,8 +35,11 @@ to $6** (it read $8 and contradicted the printed cards, the Scan to Pay QR and t
 ✅ **Signs weighted and sleeved · tablecloth pins acquired · power bank charged** (Thu Sep 17). The
 wind, weather and no-electricity risks are all closed.
 ✅ **Announcement posted to Instagram and Facebook** (Fri Sep 18). TikTok: a pan of the finished table at set-up.
-✅ **Price and gift tags cut** (Fri Sep 18).
-⬜ **Still to do before Saturday:** tie the tags on · **the float** (below) ·
+✅ **Price and gift tags cut and tied** (Fri Sep 18). Added a **Fairy Tote** sheet the same day:
+**$25 unlined · $40 lined with a pocket** (`p-price-tags-fairy`, one of each, both one of a kind).
+Both are **in the Stripe catalog** for Tap to Pay, with one-payment links (tax off, like the other market links):
+Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stripe.com/bJebJ199w4Yx4d471ffjG0A
+⬜ **Still to do before Saturday:** print, cut and tie the Fairy Tote tags · **the float** (below) ·
 pack table, chair, water, lunch.
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·

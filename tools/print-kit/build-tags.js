@@ -28,6 +28,14 @@ const PRICE_TAGS = [
   { name: "Game Day Darling Headband", price: 14, pill: "Headband", note: "handmade in San Antonio" },
 ];
 
+// Added 2026-09-18, the night before the first market. Printed on their own sheet so the
+// original sheet (already cut and tied) never needs reprinting. One of each - there is one
+// of each tote, so they are one of a kind like the rest.
+const EXTRA_TAGS = [
+  { name: "Fairy Tote", price: 25, pill: "Unlined", note: ONE },
+  { name: "Fairy Tote", price: 40, pill: "Lined · with pocket", note: ONE },
+];
+
 const css = [
   // Native tiling, same reason as paper-base: a stretched patch smears the grain and
   // shows a seam wherever it meets anything at native scale.
@@ -101,6 +109,14 @@ function priceCard(t) {
     '<div class="help">Blank tags: write in the name and price for new pieces</div></div>';
   fs.writeFileSync(path.join(SIGN, "p-price-tags.html"), b.doc("Price tags", css, priceBody));
   console.log("wrote p-price-tags.html");
+
+  // Grid sized to the tags, so a short sheet doesn't print cut lines round empty cells.
+  const extraBody = '<div class="sheet"><div class="grid" style="width:max-content;' +
+    "grid-template-columns:repeat(" + Math.min(EXTRA_TAGS.length, 3) + ",240px);" +
+    "grid-template-rows:repeat(" + Math.ceil(EXTRA_TAGS.length / 3) + ',320px)">' + EXTRA_TAGS.map(priceCard).join("") + "</div>" +
+    '<div class="help">Cut on the dashed lines &#183; punch the circle &#183; tie on with twine</div></div>';
+  fs.writeFileSync(path.join(SIGN, "p-price-tags-fairy.html"), b.doc("Fairy tote tags", css, extraBody));
+  console.log("wrote p-price-tags-fairy.html");
 
   // --- gift tags: front (mark + QR) and back (To / From)
   const giftFront = '<div class="cell"><div class="card"><span class="hole"></span>' + mark +
