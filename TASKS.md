@@ -35,7 +35,8 @@ to $6** (it read $8 and contradicted the printed cards, the Scan to Pay QR and t
 ✅ **Signs weighted and sleeved · tablecloth pins acquired · power bank charged** (Thu Sep 17). The
 wind, weather and no-electricity risks are all closed.
 ✅ **Announcement posted to Instagram and Facebook** (Fri Sep 18). TikTok: a pan of the finished table at set-up.
-⬜ **Still to do before Saturday:** cut and tie the price and gift tags · **the float** (below) ·
+✅ **Price and gift tags cut** (Fri Sep 18).
+⬜ **Still to do before Saturday:** tie the tags on · **the float** (below) ·
 pack table, chair, water, lunch.
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
