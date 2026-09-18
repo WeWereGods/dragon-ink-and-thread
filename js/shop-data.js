@@ -79,7 +79,9 @@ window.DIT_SHOP = {
        These carry maxQty because they are stock cut from shared yardage, NOT one-of-a-kind.
        That does not reopen the 2026-07-30 "bows stay at 1" decision, which was about
        genuinely unique bows. */
-    "bow-gameday-darling":      { name: "Game Day Darling Bow",      price: 12.0, art: "🏈", maxQty: 3 },
+    /* Off the site 2026-09-18 - the owner is taking the clip bows to the markets instead.
+       soldOut FIRST (not retired) so Pinterest reads "out of stock" before the page goes. */
+    "bow-gameday-darling":      { name: "Game Day Darling Bow",      price: 12.0, art: "🏈", maxQty: 3, soldOut: true },
     "bow-gameday-darling-headband":   { name: "Game Day Darling Headband",      price: 14.0, art: "🏈", maxQty: 2 },
     "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖" },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },

@@ -34,7 +34,12 @@ to $6** (it read $8 and contradicted the printed cards, the Scan to Pay QR and t
 **Tap to Pay is proven** on a live $1 contactless test.
 ✅ **Signs weighted and sleeved · tablecloth pins acquired · power bank charged** (Thu Sep 17). The
 wind, weather and no-electricity risks are all closed.
-✅ **Announcement posted to Instagram and Facebook** (Fri Sep 18). TikTok: a pan of the finished table at set-up.
+✅ **Announcement posted to Instagram and Facebook** (Fri Sep 18). ✅ **TikTok posted too** — "sweater weather"
+scrunchies, two clips (Fri Sep 18). Tomorrow: a pan of the finished table at set-up as a second TikTok.
+🏈 **GAME DAY DARLING BOW (clip) TAKEN OFF THE SITE 2026-09-18** — the owner is sewing 4 and bringing them to the
+markets at **$12** (same as every clip bow; the "Clip Bows $12" sign covers them). Set `soldOut: true` rather than
+retired, per the Pinterest rule. ⬜ **Retire it fully (remove from shop-data, delete the page) around Sep 22**, once
+Pinterest has re-read the feed. The Game Day **headband** ($14) stays online.
 ✅ **Price and gift tags cut and tied** (Fri Sep 18). Added a **Fairy Tote** sheet the same day:
 **$25 unlined · $40 lined with a pocket** (`p-price-tags-fairy`, one of each, both one of a kind).
 Both are **in the Stripe catalog** for Tap to Pay, with one-payment links (tax off, like the other market links):
