@@ -663,7 +663,7 @@ these two are the quiet "it's open, ask me" posts that fill the gap.
 > I take a small number at a time, because I don't rush the process. So if there's something in
 > your head, now is a good moment to say it. 🧵
 >
-> (San Antonio — local pickup is always free. Veteran-owned, sewn at my kitchen table.)
+> (San Antonio — local pickup is always free. Veteran-owned, every piece sewn by me.)
 
 *Link the fabric library, not just the custom page — the shelf is what makes people realise they
 get to choose. **Don't quote a turnaround in the caption.** Aug 17–20 is already spoken for by
@@ -878,7 +878,7 @@ same small audience with less news.*
 >
 > https://www.dragoninkandthread.com/custom.html
 >
-> (San Antonio — local pickup is free. Veteran-owned, sewn at my kitchen table.)
+> (San Antonio — local pickup is free. Veteran-owned, every piece sewn by me.)
 
 *⚠️ **No turnaround is quoted, deliberately.** Aug 17–20 is already full with Maurya's wheelchair
 tote and Aubrea's bow clips, and Aug 14–16 is a trip. "I take a small number at a time" is the

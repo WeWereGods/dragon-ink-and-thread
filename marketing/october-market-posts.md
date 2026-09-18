@@ -73,9 +73,9 @@ debut and the posts below still say so, correctly. **Don't mention them for the 
 > **[MARKET NAME]** · Saturday, September 19 · 10am–3pm
 > [PLACE]
 >
-> I'll have a table full of things I've made at my kitchen table here in San Antonio — hair bows,
-> scrunchies, pet bandanas, tote bags, a padded book sleeve, and a few one-of-a-kind pieces that have
-> never left the house.
+> I'll have a table full of handmade pieces, all sewn by me here in San Antonio: hair bows,
+> scrunchies, pet bandanas, tote bags, a padded book sleeve, and a few one-of-a-kind pieces you won't
+> find anywhere else.
 >
 > There's a mirror on the table, so you can actually try the bows on.
 >
@@ -134,7 +134,7 @@ holders and the new bandanas are NOT ready until October** — don't mention the
 
 ### S1b · Local San Antonio group — version A (Mon Sep 21)
 
-> Hi all — I'm Ayla, I sew handmade things at my kitchen table here in San Antonio, and I'll have
+> Hi all — I'm Ayla, I sew handmade things here in San Antonio, and I'll have
 > a table at [MARKET NAME] on Saturday evening, September 26, 4–9pm. It's indoors.
 >
 > Hair bows, scrunchies, totes, book sleeves and dog bandanas, plus new fall, Halloween and
@@ -173,7 +173,7 @@ group** — there the same lines read as an advert and get removed.
 
 > Hi neighbours 👋
 >
-> I'm Ayla — I'm a veteran-owned, one-woman sewing shop working out of my kitchen table here in
+> I'm Ayla — I'm a veteran-owned, one-woman sewing shop based here in
 > San Antonio, and I've got two things to share.
 >
 > **First: my very first market is Saturday, September 26, 4–9pm, at [MARKET NAME], [PLACE].**
@@ -278,7 +278,7 @@ Christmas bows.
 
 ### 1b · Local San Antonio group — version A (Oct 5)
 
-> Hi all — I'm Ayla, I sew handmade things at my kitchen table here in San Antonio, and I'll have
+> Hi all — I'm Ayla, I sew handmade things here in San Antonio, and I'll have
 > a table at [MARKET NAME] on Saturday, October 10, 9am–3pm.
 >
 > Hair bows, scrunchies, totes, book sleeves and dog bandanas, plus my first Christmas bows and

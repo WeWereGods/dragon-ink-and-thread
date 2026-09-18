@@ -190,7 +190,7 @@ it cannot show up there.*
 *Template 1 territory in `facebook-groups.md`. **Lead with local pickup**, which is the genuine
 advantage and only matters here. Ends by deferring to the mods, which costs nothing.*
 
-> Hi all — I'm Ayla, I sew handmade bits at my kitchen table here in San Antonio.
+> Hi all — I'm Ayla, I sew handmade bits here in San Antonio.
 >
 > Two new Christmas fabrics landed this week and they have tiny bows *woven into* them, which for
 > someone who makes hair bows for a living felt a bit like being handed a gift. One's a
@@ -399,7 +399,7 @@ manufactured urgency, and it doesn't need a countdown.*
 
 *Template 1 territory. **Lead with local pickup**, defer to the mods at the end.*
 
-> Hi all — I'm Ayla, I sew handmade things at my kitchen table here in San Antonio, and I'm
+> Hi all — I'm Ayla, I sew handmade things here in San Antonio, and I'm
 > starting to take Christmas orders.
 >
 > Stockings, gift card holders, totes, book sleeves, bows, dog bandanas — you pick the fabric, I

@@ -48,7 +48,7 @@ best-matched audiences sit in the strictest groups. Rank by permission:
 *Local pickup is the genuine advantage here; lead with it. Ends by deferring to the mods, which
 costs nothing and buys goodwill.*
 
-> Hi all — I'm Ayla, I sew handmade bits at my kitchen table here in San Antonio. Totes, hair
+> Hi all — I'm Ayla, I sew handmade bits here in San Antonio. Totes, hair
 > bows, scrunchies, dog bandanas and padded book sleeves, mostly in cottagecore and bookish
 > prints.
 >
@@ -221,7 +221,7 @@ else.* Don't talk yourself out of brevity.
 > saw your post and thought I'd say hello.
 
 **⑥ "Does anyone take custom orders?"**
-> I do — San Antonio, at my kitchen table. You pick the fabric, I come back with a price, and
+> I do — right here in San Antonio. You pick the fabric, I come back with a price, and
 > nothing's charged until you've said yes. Usually ten to fourteen days.
 >
 > https://www.dragoninkandthread.com/custom.html

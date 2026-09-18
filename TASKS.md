@@ -307,6 +307,9 @@ Two rules that keep this useful:
       💳 **PAYMENT LINK MADE 2026-09-18, NOT YET SENT:** https://buy.stripe.com/fZu7sL0D09eNfVM85jfjG0y —
       $35 + sales tax, one payment only, no shipping on it (`prod_VHaMj9gROiN4Ba`).
       ✅ **REPLY SENT 2026-09-18** — confirmed Afternoon Tea, said a payment link is coming, asked case-or-bare.
+      🎂 **DEADLINE: HER BIRTHDAY IS SAT OCT 3 — owner wants it done by then.** Sew it **Tue Sep 22 – Thu Sep 24**,
+      between the two markets. Finish it by **Fri Sep 25**, before the Sep 26 market takes over. If it's being
+      posted, **ship by Tue Sep 29**. About 2–3 hours of sewing, and it needs her case-or-bare answer first.
       ⏳ **WAITING ON HER** for style (open-top sleeve or tie cover) and case-or-bare. When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
       $25 and applies to custom, but is NOT automatic — apply it by hand only if she asks**), then cut.
       📸 **Ask for a photo when it ships** — her tote was never photographed, so the shop has her words but no

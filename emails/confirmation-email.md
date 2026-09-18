@@ -107,7 +107,7 @@ in the world uses, and it describes a chore.
 > And if you'd rather not — genuinely, that's fine. Ignore this and nothing happens. You keep the
 > pattern either way; it was a gift, not a trade.
 >
-> Still here? Lovely. I'm Ayla. I sew handmade things at my kitchen table in San Antonio — totes,
+> Still here? Lovely. I'm Ayla. I sew handmade things here in San Antonio — totes,
 > hair bows, scrunchies, dog bandanas, padded book sleeves — mostly in cottagecore and bookish
 > prints, and mostly one of a kind.
 >
