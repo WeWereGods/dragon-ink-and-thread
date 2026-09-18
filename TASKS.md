@@ -298,7 +298,13 @@ Two rules that keep this useful:
       the fabric library, and an honest timeline: cut the week after the Sep 26 market, **with her by mid-October**.
       Asked her for the exact model or measurements, and which style and fabric.
       💰 **PRICE SET $35 by the owner 2026-09-15** — the published book-sleeve floor, so it clears the $28 ready-made sleeve. ⚠️ **NEST15 would take it to $29.75**, under that floor: honour it only if she asks, and treat it as a returning-customer gesture rather than the rule.
-      ⏳ **WAITING ON HER.** When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
+      📏 **DEVICE SIZE IN, 2026-09-18: 6.96″ × 5.02″ × 0.31″** (from Amazon, sent by her). That matches the
+      2024 Paperwhite Signature (7″ screen). **Finished inside ≈ 7½″ × 5½″**, which allows for the padding and
+      lets it slide out easily. ⚠️ **Still to ask: is it bare or in a case?** A case adds roughly ⅜″ each way. Also still to ask: style and fabric.
+      🔍 Before cutting, **measure the inside of the in-stock $30 Kindle Case** — if it is ≥ 7½″ × 5½″ it may
+      already fit her.
+      🧵 **FABRIC CHOSEN 2026-09-18: Afternoon Tea** (fabric library, `fabric-60`, Tea with the Suriel collection).
+      ⏳ **WAITING ON HER** for style (open-top sleeve or tie cover) and case-or-bare. When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
       $25 and applies to custom, but is NOT automatic — apply it by hand only if she asks**), then cut.
       📸 **Ask for a photo when it ships** — her tote was never photographed, so the shop has her words but no
       picture. This is the chance to fix that.
