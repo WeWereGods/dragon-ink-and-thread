@@ -304,6 +304,8 @@ Two rules that keep this useful:
       🔍 Before cutting, **measure the inside of the in-stock $30 Kindle Case** — if it is ≥ 7½″ × 5½″ it may
       already fit her.
       🧵 **FABRIC CHOSEN 2026-09-18: Afternoon Tea** (fabric library, `fabric-60`, Tea with the Suriel collection).
+      💳 **PAYMENT LINK MADE 2026-09-18, NOT YET SENT:** https://buy.stripe.com/fZu7sL0D09eNfVM85jfjG0y —
+      $35 + sales tax, one payment only, no shipping on it (`prod_VHaMj9gROiN4Ba`).
       ⏳ **WAITING ON HER** for style (open-top sleeve or tie cover) and case-or-bare. When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
       $25 and applies to custom, but is NOT automatic — apply it by hand only if she asks**), then cut.
       📸 **Ask for a photo when it ships** — her tote was never photographed, so the shop has her words but no
