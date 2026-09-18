@@ -34,8 +34,9 @@ to $6** (it read $8 and contradicted the printed cards, the Scan to Pay QR and t
 **Tap to Pay is proven** on a live $1 contactless test.
 ✅ **Signs weighted and sleeved · tablecloth pins acquired · power bank charged** (Thu Sep 17). The
 wind, weather and no-electricity risks are all closed.
+✅ **Announcement posted to Instagram and Facebook** (Fri Sep 18). TikTok: a pan of the finished table at set-up.
 ⬜ **Still to do before Saturday:** cut and tie the price and gift tags · **the float** (below) ·
-**post the announcement** · pack table, chair, water, lunch.
+pack table, chair, water, lunch.
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
 $30 · $35 · totes $20–38 · 3 scrunchies $15), because prices are tax-included. Nothing ever comes to
