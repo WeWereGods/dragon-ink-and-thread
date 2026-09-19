@@ -54,6 +54,13 @@ https://buy.stripe.com/8x214n1H49eNfVM0CRfjG0B (qty 1–10, tax off). **6 made f
 closets or under your pillow", **never as a microwave heat pack**. Keep them dry under the table.
 ✅ **Float ready — $100** (Fri Sep 18). ✅ **Everything for the 19th is SEWN** (incl. the 4 Game Day clip bows) except 12 scrunchies and the hair whimsys — both for Sun Sep 20.
 ✅ **PACKED AND READY** (Fri Sep 18 evening). ✅ **Tap to Pay re-verified** the same evening. Nothing left before the market.
+💰 **RESULT — MARKET 1 (Sat Sep 19): $95 in sales — past the ~$62 break-even.** The cash box held **$142**
+including the $100 float, so **cash sales $42** + card **$53** via Tap to Pay (3 charges: $32 Mastercard 10:54am · $10 Visa
+11:59am · $11 Visa 1:44pm; the 8:55am $1 test was refunded). After the 7.6% tax set-aside (~$7) and card fees (~$1.60):
+**~$86 kept, ~$31 after the $55 booth.** Cash was 44% of sales. 🧾 **SOLD (owner):** 3 bows · 4 scrunchies · 2 lavender sachets · 1 tote = 10 pieces.
+✅ **The tote was THE STORYKEEPER ($32 — the Mastercard charge)** ("the readers tote", owner). Set `soldOut: true` on the
+site 2026-09-19; ⬜ **retire it to Stories around Sep 23** once Pinterest has re-read the feed. First tote sold in person.
+🪻 **Sachets: 2 of 6 sold → rule says make 6 for Sep 26** (4 left + 2 new is enough).
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
 $30 · $35 · totes $20–38 · 3 scrunchies $15), because prices are tax-included. Nothing ever comes to
