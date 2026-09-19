@@ -2,7 +2,11 @@
 
 **Written 2026-09-13; Sep 26 added 2026-09-14.** Posts to support the three markets in TASKS.md
 (🎪 entries) and the printable checklist `marketing/october-market-prep.html`.
-⚠️ **Sep 26 is now the FIRST market**, so the October posts no longer say "my first market".
+⚠️ **SEP 19 IS THE FIRST MARKET** (booked 2026-09-17 at two days' notice). Sep 26 is the
+**second**, and the October ones the third and fourth — **no post below Market 0 may say "my first
+market".** Reworded 2026-09-19; the M0 posts at lines 71–86 are the Sep 19 ones and are correct as
+written. The whimsys' "first outing" on Sep 26 is a *different* claim and is still true — zero were
+sewn for the 19th.
 
 **Why market posts are different from everything else in `single-post-queue.md`:** every post
 so far has tried to send people to the website, and none of them sold anything. **A market post
@@ -101,9 +105,13 @@ people to a field on Saturday, not to a shop page.
 
 ## Market 1 — Saturday September 26, evening (indoor)
 
-⚠️ **"MY FIRST MARKET" IS NO LONGER TRUE HERE.** Sep 19 took that. Before S1a, S1c or S1d go out,
-reword them — "my second market", or better, lean on having just done one: *"I had such a good time
-last Saturday that I'm doing it again."* That is a warmer hook than "first" ever was, and it is true.
+✅ **REWORDED 2026-09-19, the morning of the 19th, before S1a or S1d went out.** "My first market"
+stopped being true at 10am that day. **S1a, S1c, S1d and S1e** now lean on having just done one
+(*"I had such a good time at the market last Saturday that I'm doing it again"*) — a warmer hook than
+"first" ever was, and true. ⚠️ **S1e is dated Tue Sep 16, which is BEFORE the 19th was booked** — if
+it already went out with the old wording, nothing needs undoing, but don't re-post that version.
+⚠️ **This is now the rule, not a one-off:** the same line breaks again on Oct 10 and Oct 30. Check
+every "first" claim against the market count before a post goes out.
 
 ⚠️ **What will actually be on the table:** everything already in the shop (totes, book sleeve, tea
 cover, scrunchies, the three bandanas), the **new bows** (15 already sewn by Sep 15, 23 planned) and the **hair whimsys**. **Gift card
@@ -117,7 +125,7 @@ holders and the new bandanas are NOT ready until October** — don't mention the
 
 **Photo:** `Downloads\Dragon Ink Sep 26 bows (4x5).jpg` — the group shot of the new bows. Add the square flyer as a second photo if you like.
 
-> I'm doing my first market! 🧵
+> I had such a good time at the market last Saturday that I'm doing it again! 🧵
 >
 > Saturday, September 26 · [MARKET NAME], [PLACE] · 4–9pm
 >
@@ -130,7 +138,7 @@ holders and the new bandanas are NOT ready until October** — don't mention the
 > And something new: **hair whimsys**, a fabric tie you knot around a braid or ponytail. $5 each,
 > and this is their very first outing.
 >
-> Cash or card. Come say hello — it's my first one, and a friendly face would mean a lot.
+> Cash or card. Come say hello — a friendly face would mean a lot.
 
 ### S1b · Local San Antonio group — version A (Mon Sep 21)
 
@@ -150,8 +158,8 @@ holders and the new bandanas are NOT ready until October** — don't mention the
 > bows you can try on in the mirror, pink Halloween prints, and a new little hair tie I'm calling a
 > hair whimsy.
 >
-> I'm a small, veteran-owned shop sewing out of San Antonio, and this is my very first market, so
-> I'd love to see some local faces.
+> I'm a small, veteran-owned shop sewing out of San Antonio — I did my first market last
+> weekend and had such a good time that I'm doing it again, so I'd love to see some local faces.
 >
 > (Mods, happy to remove this if it's not the right place.)
 
@@ -176,7 +184,7 @@ group** — there the same lines read as an advert and get removed.
 > I'm Ayla — I'm a veteran-owned, one-woman sewing shop based here in
 > San Antonio, and I've got two things to share.
 >
-> **First: my very first market is Saturday, September 26, 4–9pm, at [MARKET NAME], [PLACE].**
+> **First: I'll be at a market this Saturday, September 26, 4–9pm, at [MARKET NAME], [PLACE].**
 > It's indoors and in the evening, so it's on whatever the weather does. There's music and
 > giveaways too.
 >
@@ -193,8 +201,7 @@ group** — there the same lines read as an advert and get removed.
 >
 > https://www.dragoninkandthread.com
 >
-> Cash or card at the table. Come say hello — it's my first market and a friendly face would mean
-> a lot 🧵
+> Cash or card at the table. Come say hello — a friendly face would mean a lot 🧵
 >
 > (Mods — hope this is alright for the group, happy to take it down if not.)
 
@@ -209,7 +216,7 @@ hunting a "free pattern" thread is still the better spend.
 
 **Photo:** the group shot (`Dragon Ink Sep 26 bows (4x5).jpg`), with the square flyer as slide 2.
 
-> My first market 🎪
+> Back for a second market 🎪
 >
 > Saturday, September 26 · [MARKET NAME], [PLACE] · 4–9pm · indoors, evening
 >

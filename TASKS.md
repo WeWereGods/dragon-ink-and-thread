@@ -20,9 +20,14 @@ real rate, and this is the first market whose sales land in it.
 ⏰ **Set-up runs 8:00 → 10:00**, so the table plan's 2:30 → 4:00 timeline is the Sep 26 one. Leave
 early: it is a 30–40 minute drive.
 
-⚠️ **IT IS NOW THE FIRST MARKET.** Every post written for Sep 26 in `marketing/october-market-posts.md`
-says *"my first market"* — S1a, S1c and S1d all do. **That copy is wrong the moment the 19th happens**
-and must be reworded before anything goes out for the 26th.
+✅ **IT IS NOW THE FIRST MARKET — and the Sep 26 copy is FIXED (2026-09-19, before it went out).**
+S1a, S1c, S1d **and S1e** in `marketing/october-market-posts.md` said *"my first market"*, and **S1a and
+S1d were scheduled for Sat 19 or Sun 20** — i.e. hours after it stopped being true. All four now lean on
+having just done one (*"I had such a good time at the market last Saturday that I'm doing it again"*).
+⚠️ **S1e is dated Tue Sep 16, before the 19th was booked** — if it already went out, leave it; just
+don't re-post the old wording.
+⚠️ **The same line breaks again on Oct 10 and Oct 30** — check every "first" claim against the market
+count before posting, rather than fixing it once.
 
 ⛔ **The sewing booked for Sat 19 is displaced to Sun 20** — the last 8 bows and 12–15 whimsys.
 🔢 **RECOUNT BY THE OWNER, Fri Sep 18 — what actually goes on the 19th: 82 pieces, ~$950 if it all sold** (incl. 6 lavender sachets at $6)
