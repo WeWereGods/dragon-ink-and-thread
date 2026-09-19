@@ -147,8 +147,8 @@ the two, because it has an ENDING** — the morning one could only promise.
 > People did.
 >
 > The Storykeeper tote — the one covered in books and potion bottles — went home with someone who
-> understood it the second she saw it, which is the entire reason I made it. A couple of bows found
-> new owners. Some scrunchies did too. And the little lavender sachets I threw together almost as an
+> understood it the second she saw it, which is the entire reason I made it. A few bows found new
+> owners. Some scrunchies did too. And the little lavender sachets I threw together almost as an
 > afterthought turned out to be the thing people picked up most.
 >
 > Thank you to everyone who stopped, asked what something was, or just said something kind on their
