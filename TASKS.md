@@ -64,6 +64,22 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+🎀 **SALE 3 — TWO SCRUNCHIES AT "2 FOR $10" (Sat Sep 19).** **Running total $62 — the $55 booth
+is PAID and the day is $7 up.** Everything after this is profit.
+🚨 **THIS ONE UNDERCUTS AN EXISTING PUBLISHED BUNDLE.** `scrunchie-bundle` is **3 for $15 = $5.00
+each**. **2 for $10 is ALSO $5.00 each** — so the 3-pack now offers no extra saving and there is no
+reason for anyone to take the third. A live listing was undercut by a price invented at the table.
+**Fix, either one:** point at the 3-pack instead (*"$6, or three for $15"* — the upsell already exists
+and moves more stock), **or price two at $11**, which keeps whole dollars for the no-coins float and
+leaves 3/$15 the better deal.
+🔍 **THE REAL FINDING — TWO INVENTED PRICES IN ONE DAY.** Bows **2/$20** ($10 vs $12) and
+scrunchies **2/$10** ($5 vs $6), both decided with a customer standing there. **The instinct is right**
+— multi-buys are how market tables work, and the shop already proves it with 3 scrunchies for $15.
+**The problem is deciding it fresh each time**, because nobody can check it against the existing
+bundles mid-conversation, which is exactly how the $15 bundle came to be worth less than a $10 one.
+✅ **SO: SET THE MULTI-BUY LADDER BEFORE SEP 26 AND PUT IT ON A CHALKBOARD.** Decide it once, at a
+table, with the numbers in front of you; then it sells without being negotiated. It must **step down
+per unit as quantity rises**, or the bigger bundle is dead on arrival.
 📚 **SALE 2 — THE STORYKEEPER TOTE, $32, FULL LIST PRICE (Sat Sep 19).** No discount asked for
 and none given. **Running total $52 of the $55 booth — $3 from break-even.**
 ✅ **HANDLED IN THE REPO THE SAME DAY, per the one-of-a-kind rule:** `soldOut: true` set on
