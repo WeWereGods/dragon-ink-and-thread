@@ -59,6 +59,29 @@ https://buy.stripe.com/8x214n1H49eNfVM0CRfjG0B (qty 1–10, tax off). **6 made f
 closets or under your pillow", **never as a microwave heat pack**. Keep them dry under the table.
 ✅ **Float ready — $100** (Fri Sep 18). ✅ **Everything for the 19th is SEWN** (incl. the 4 Game Day clip bows) except 12 scrunchies and the hair whimsys — both for Sun Sep 20.
 ✅ **PACKED AND READY** (Fri Sep 18 evening). ✅ **Tap to Pay re-verified** the same evening. Nothing left before the market.
+✅💵 **FLOAT COUNTED AND CONFIRMED AT $100 — Sat Sep 19 morning, at the market, by the owner.**
+**So the day's takings = the final cash count MINUS $100.** Nothing else needs remembering to separate
+them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
+rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
+assumed 8.25%, so the likely error is having set aside too much).
+🧵 **SET-UP, as actually built (photos from the owner, Sat Sep 19 ~9am):** canopy with a white
+flower-and-eucalyptus garland, cream cloth under an embroidered overlay, **totes hung from the canopy
+uprights on both sides** (good use of vertical space — keep this). Her own table plan was *totes left ·
+bows in the middle with the mirror · scrunchies · bandanas · till right*, and the **first** build missed
+the middle: ~6 of 34 bows were out and the front-centre was bare cloth, with the **"Discount Bin" sign
+directly under the brand sign** — so the second framed word a customer read was *discount*, on a table
+of one-of-a-kind pieces. **Fixed before opening:** bows laid across the centre, Discount Bin moved off
+centre, lavender sachets brought out by the till.
+📌 **THREE THINGS FOR SEP 26, while they are fresh:**
+1. **Lay the bows out FIRST, not last.** They are the biggest category by count (34) and by value
+   (~$403), the plan puts them centre, and they were the thing left in the box both times.
+2. **A price sign per group, at the front edge.** The centre bow rows had no price visible from
+   standing height — "Clip Bows $12" sat off to one side and the printed list was set back behind the
+   mirror. People who can't see a price mostly don't ask.
+3. **Group the bows by season** (Halloween / Christmas / all-year) rather than laying them flat in
+   rows. Flat, they read as one pile of fabric from six feet back; grouped, they read as a choice.
+⚠️ **Flat-laid bows are the lightest loose thing on an OUTDOOR table** — the Sep 26 market is indoors,
+so this one doesn't carry, but it will at the Oct 10 day market.
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
 $30 · $35 · totes $20–38 · 3 scrunchies $15), because prices are tax-included. Nothing ever comes to
