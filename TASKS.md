@@ -52,7 +52,8 @@ Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stri
 🪻 **NEW: Lavender Sachet, $6** (lavender + rice, cotton print, kraft tag) — in Stripe for Tap to Pay, link
 https://buy.stripe.com/8x214n1H49eNfVM0CRfjG0B (qty 1–10, tax off). **6 made for Sep 19.** Next batch by sell-through: 5–6 sold → 12 for Sep 26 · 2–4 → 6 · 0–1 → pause until the Christmas markets. Sell as "for drawers,
 closets or under your pillow", **never as a microwave heat pack**. Keep them dry under the table.
-⬜ **Still to do before Saturday:** **the float** (below) ·
+✅ **Float ready** (Fri Sep 18).
+⬜ **Still to do before Saturday:**
 pack table, chair, water, lunch.
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
