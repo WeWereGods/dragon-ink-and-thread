@@ -64,29 +64,37 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
-### 🏁 MARKET 1 CLOSED — SAT SEP 19, SPRING BRANCH. **8 pieces, $78 taken.**
+### 🏁 MARKET 1 CLOSED — SAT SEP 19, SPRING BRANCH. **10 pieces, $96 taken.**
+
+⏰ **A LATE FLURRY AT PACK-DOWN: one more bow and one more scrunchie, BOTH AT FULL PRICE ($18),
+after the day had been called done.** It took the day from $78 to $96 — **nearly a fifth of the
+takings arrived in the last minutes.** ⚠️ **Do not start packing early on Sep 26.** (Early breakdown
+is forbidden at these markets anyway, but the instinct to tidy up at 8:45 is the thing to resist.)
+✅ **Both went at STICKER** — no discount offered, none asked for.
 
 | | Sold | Stock | Sell-through |
 |---|---|---|---|
 | **Lavender sachets** | **2** | 6 | **33%** |
 | Totes | 1 | 7 | 14% |
-| Scrunchies | 3 | 30 | 10% |
-| **Bows** | **2** | **34** | **6%** |
+| Scrunchies | 4 | 30 | 13% |
+| **Bows** | **3** | **34** | **9%** |
 | Bandanas | 0 | 3 | 0% |
 | Book sleeve / tea cover | 0 | 2 | 0% |
 
-💵 **THE REAL NUMBER: $78 − $55 booth − ~$5.94 tax set-aside = ~$17, BEFORE materials and before
+💵 **THE REAL NUMBER: $96 − $55 booth − ~$7.30 tax set-aside = ~$34, BEFORE materials and before
 ~9 hours** (8am set-up, 10–3 trading, breakdown, plus a 30–40 minute drive each way). **That is the
 honest figure and it should be the one that decides Oct 10 and Oct 30** — not the $78.
 ⚖️ **Context before drawing conclusions:** first market ever, booked on **two days' notice**, outdoors,
 an unknown venue, no prior local reputation, and a market is partly marketing rather than pure
 revenue. **One market is one data point.** But it is the first real one this business has ever had.
-💸 **$8 given away in discounts** (list value of what sold was $86). Holding firm would have made it
-~$31 above booth instead of $23.
+💸 **$8 given away in discounts** (list value of what sold was $104). Holding firm would have made
+it ~$49 above booth instead of $41. ✅ **Every one of the last three sales was at FULL PRICE**, so the
+discounting was a first-hour habit that wore off as the day went on — worth knowing before deciding
+any ladder for Sep 26.
 
 🚨 **THE FINDING THAT MATTERS: THE TABLE WAS BUILT AROUND THE WRONG CATEGORY.**
 **34 bows went — the biggest stock investment by count (34) and value (~$403), and weeks of sewing —
-and TWO sold.** The **lavender sachets**, introduced days earlier, made almost as an afterthought,
+and THREE sold.** The **lavender sachets**, introduced days earlier, made almost as an afterthought,
 six of them, **outsold everything proportionally at 33%.** The cheapest, newest, least-planned item
 on the table had five times the sell-through of the one it was built around.
 ⚠️ **This has an immediate consequence: the Sun Sep 20 sewing list is 8 MORE BOWS.** On today's
@@ -97,13 +105,13 @@ indoor/evening product, and Sep 26 is indoors. **Take the same counts to the 26t
 data points on different crowds is worth far more than a decision made on one.
 
 ⏳ **STILL OPEN FROM TODAY:**
-- ❓ **WHICH TWO BOWS SOLD?** If either was a **shop-listed** bow it needs `soldOut: true` (bows are
+- ❓ **WHICH THREE BOWS SOLD?** If either was a **shop-listed** bow it needs `soldOut: true` (bows are
   one-of-a-kind, no `maxQty`). If both were market-only makes from the 23 sewn for the markets,
   **nothing on the site changes.** Scrunchies need no flag (`maxQty: 3`, multiples stocked) and the
   sachets are market-only, not a website product.
 - ✅ **The Storykeeper is already flagged** `soldOut` on the branch — **needs merging to `main` to go live.**
 - 💵 **Count the cash and reconcile against the $100 float**, splitting cash from Tap to Pay.
-- 🧾 **Set aside ~$5.94** (7.6% is the tax-included back-out of 8.25%). ⚠️ **Spring Branch is
+- 🧾 **Set aside ~$7.30** (7.6% is the tax-included back-out of 8.25%). ⚠️ **Spring Branch is
   unincorporated Comal County and the real rate is probably LOWER** — check the Comptroller's Rate
   Locator before the **Oct 20** return; erring high is the safe direction but the return needs the
   true rate.
