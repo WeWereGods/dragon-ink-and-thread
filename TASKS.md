@@ -53,7 +53,7 @@ Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stri
 https://buy.stripe.com/8x214n1H49eNfVM0CRfjG0B (qty 1–10, tax off). **6 made for Sep 19.** Next batch by sell-through: 5–6 sold → 12 for Sep 26 · 2–4 → 6 · 0–1 → pause until the Christmas markets. Sell as "for drawers,
 closets or under your pillow", **never as a microwave heat pack**. Keep them dry under the table.
 ✅ **Float ready — $100** (Fri Sep 18). ✅ **Everything for the 19th is SEWN** (incl. the 4 Game Day clip bows) except 12 scrunchies and the hair whimsys — both for Sun Sep 20.
-✅ **PACKED AND READY** (Fri Sep 18 evening). Nothing left before the market.
+✅ **PACKED AND READY** (Fri Sep 18 evening). ✅ **Tap to Pay re-verified** the same evening. Nothing left before the market.
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
 $30 · $35 · totes $20–38 · 3 scrunchies $15), because prices are tax-included. Nothing ever comes to
