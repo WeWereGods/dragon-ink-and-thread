@@ -132,6 +132,59 @@ table, 45 minutes before opening.
 ♻️ **Reusable for Sep 26, Oct 10 and Oct 30** — change the hours, the venue and the "first market"
 line (see the warning at the head of Market 1), and add the whimsys once they exist.
 
+### M0d · HOW IT WENT — your page + Instagram (Sat Sep 19, evening)
+
+**Photo:** the end-of-day table, or the booth shot with one of her. 📌 **This is the better post of
+the two, because it has an ENDING** — the morning one could only promise.
+
+**Facebook:**
+
+> My first market is done. 🧵
+>
+> I got there at 8am, put up a canopy by myself, laid out everything I'd been sewing for weeks, and
+> then stood behind it hoping somebody would stop.
+>
+> People did.
+>
+> The Storykeeper tote — the one covered in books and potion bottles — went home with someone who
+> understood it the second she saw it, which is the entire reason I made it. A couple of bows found
+> new owners. Some scrunchies did too. And the little lavender sachets I threw together almost as an
+> afterthought turned out to be the thing people picked up most.
+>
+> Thank you to everyone who stopped, asked what something was, or just said something kind on their
+> way past. If you've never stood behind a table with your own work on it, you don't know what that
+> does for a person.
+>
+> I'll be doing it again on **Saturday the 26th** — indoors this time, in the evening. Come and say
+> hello.
+>
+> Everything I sell is sewn by me, here in San Antonio. 🧵
+
+**Instagram:**
+
+> first market: done 🧵
+>
+> up at dawn, canopy up by 8, and then the strange terrifying wait to see if anyone stops.
+>
+> they did. the Storykeeper tote found a reader. a few bows found new owners. and the lavender
+> sachets I made almost as an afterthought were the surprise of the day.
+>
+> thank you to every single person who stopped. next one is Saturday the 26th, indoors and in the
+> evening 🎀
+>
+> #marketday #craftfair #handmade #sewing #smallbusinesscheck #hairbows #satx
+> #sanantoniosmallbusiness #springbranchtx #texashillcountry #veteranowned
+
+**Story:** the end-of-day table + *"that's a wrap on my first market 🧵 next one Sat the 26th"*
+
+⚠️ **NO NUMBERS AND NO "SOLD OUT."** 8 pieces went. Credibility is the product here, and a triumphant
+post that does not match what people saw at the table costs more than a quiet honest one earns.
+🔑 **The Storykeeper line is the part that lands** — a real moment with a real person in it. Per
+`facebook-groups.md` §2, one genuine *reply* produced ~150 visits while broadcast posts produced 0
+sales: **specific and human beats polished.**
+♻️ **Reusable after every market** — swap the one true detail (which piece found the right person) and
+the next date. **The structure is: the nerves → what actually happened → thank you → next date.**
+
 📣 **Tag the market's own page.** Their local audience is far bigger than hers and organisers
 routinely reshare vendors who tag them. Free reach, and the only lever available at two days' notice.
 📌 **Deliberately NOT leading with the website.** At two days' notice the job of this post is to get
