@@ -25,9 +25,9 @@ says *"my first market"* — S1a, S1c and S1d all do. **That copy is wrong the m
 and must be reworded before anything goes out for the 26th.
 
 ⛔ **The sewing booked for Sat 19 is displaced to Sun 20** — the last 8 bows and 12–15 whimsys.
-🔢 **RECOUNT BY THE OWNER, Fri Sep 18 — what actually goes on the 19th: 94 pieces, ~$1,022 if it all sold** (incl. 6 lavender sachets at $6)
+🔢 **RECOUNT BY THE OWNER, Fri Sep 18 — what actually goes on the 19th: 82 pieces, ~$950 if it all sold** (incl. 6 lavender sachets at $6)
 (tax included): **7 totes** (the five listed + both Fairy Totes, $210) · **34 bows** (~$403, the Suriel set
-counted at $55) · **42 scrunchies** ($252 — 30 counted, +12 added the same evening) · **3 bandanas** (2 × $18 + Quilted Court $22) · tea cover $35 ·
+counted at $55) · **30 scrunchies** ($180; **12 more still to sew** — they go on the Sun Sep 20 list with the whimsys) · **3 bandanas** (2 × $18 + Quilted Court $22) · tea cover $35 ·
 Reading Nook sleeve $28. The Kindle case was not in her count. **This supersedes the Sep 15 numbers below.**
 📌 **Earlier plan — the 19th was going out with ~48 pieces** (27 bows, 11 scrunchies, 3 bandanas,
 5 totes, 1 Kindle case, 1 tea cover) and **NO hair whimsys — there are zero sewn.** That is fine for a
@@ -52,7 +52,7 @@ Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stri
 🪻 **NEW: Lavender Sachet, $6** (lavender + rice, cotton print, kraft tag) — in Stripe for Tap to Pay, link
 https://buy.stripe.com/8x214n1H49eNfVM0CRfjG0B (qty 1–10, tax off). **6 made for Sep 19.** Next batch by sell-through: 5–6 sold → 12 for Sep 26 · 2–4 → 6 · 0–1 → pause until the Christmas markets. Sell as "for drawers,
 closets or under your pillow", **never as a microwave heat pack**. Keep them dry under the table.
-✅ **Float ready** (Fri Sep 18).
+✅ **Float ready** (Fri Sep 18). ✅ **Everything for the 19th is SEWN** (incl. the 4 Game Day clip bows) except 12 scrunchies and the hair whimsys — both for Sun Sep 20.
 ⬜ **Still to do before Saturday:**
 pack table, chair, water, lunch.
 
