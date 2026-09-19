@@ -96,6 +96,42 @@ debut and the posts below still say so, correctly. **Don't mention them for the 
 >
 > (Mods — happy to remove if this isn't the right place.)
 
+### M0c · LIVE FROM THE TABLE — your page (Sat Sep 19, set-up, ~9:15am)
+
+**Photo:** ⚠️ **lead with the shot of HER**, booth second. A person is what makes someone stop — same
+reason the founder photo is the highest-trust element on the website. Written at her request from the
+table, 45 minutes before opening.
+
+> We're set up and open! 🧵
+>
+> **[MARKET NAME]** · today, 10am–3pm
+> [PLACE]
+>
+> This is me at my very first market. Every single thing on this table was sewn by me, here in San
+> Antonio — hair bows, scrunchies, pet bandanas, tote bags, a padded book sleeve, and a few
+> one-of-a-kind pieces that exist exactly once and then never again.
+>
+> Bows $12 · scrunchies $6, or 3 for $15 · pet bandanas $18 · lavender sachets $6
+>
+> There's a mirror on the table, so come and try a bow on properly. Cash or card, both work.
+>
+> Come and say hello — a friendly face would mean the world today 🎀
+
+**Local-group version, same day:**
+
+> I'm at **[MARKET NAME]** today until 3pm, [PLACE] — handmade bows, scrunchies, pet bandanas and
+> totes, all sewn here in San Antonio. Veteran-owned, one woman, one sewing machine.
+>
+> Come and find me if you're passing 🧵
+>
+> (Mods — happy to take this down if it's not the right place.)
+
+⚠️ **No hair whimsys** — none are sewn, and they are promised as a Sep 26 debut.
+📌 **Prices are IN this one on purpose.** It is her own page, where prices are useful; the
+`facebook-groups.md` rule about prices reading as an advert applies to craft and sewing GROUPS, not here.
+♻️ **Reusable for Sep 26, Oct 10 and Oct 30** — change the hours, the venue and the "first market"
+line (see the warning at the head of Market 1), and add the whimsys once they exist.
+
 📣 **Tag the market's own page.** Their local audience is far bigger than hers and organisers
 routinely reshare vendors who tag them. Free reach, and the only lever available at two days' notice.
 📌 **Deliberately NOT leading with the website.** At two days' notice the job of this post is to get
