@@ -64,6 +64,28 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+🪷 **SALE 4 — ONE LAVENDER SACHET AT $5** (listed $6). **Running total $67; $12 above the $55 booth.**
+📉 **1 of 6 sachets gone.** The restock rule stands: **5–6 sold → 12 for Sep 26 · 2–4 → 6 ·
+0–1 → pause until the Christmas markets.** At one, it is tracking toward the middle band.
+⚠️ **Stop discounting this one.** A dollar off six is the steepest cut of the day, on the NEWEST
+product, whose worth is still unknown. **Let the rest go at $6 and find out what it actually sells at.**
+
+### 🔍 THE PATTERN ACROSS THE WHOLE DAY — every discount was EXACTLY one-sixth off
+| Item | Full | Taken | Off |
+|---|---|---|---|
+| 2 bows | $24 | $20 | 16.7% |
+| Storykeeper tote | $32 | $32 | — |
+| 2 scrunchies | $12 | $10 | 16.7% |
+| Lavender sachet | $6 | $5 | 16.7% |
+
+**Three separate improvised decisions, three identical percentages.** That is a consistent instinct
+about what feels fair, never written down — **so write it down and put it on a chalkboard**, and it
+stops being negotiated at every sale.
+💸 **$7 given away against a $12 margin** — the discounts are more than a third of the profit. A
+first market is a fine place to buy goodwill; it should just be a **decision**, not a reflex.
+✅ **AND THE EVIDENCE SAYS IT IS OPTIONAL: the TOTE — the dearest thing on the table — sold at FULL
+PRICE, unasked and unhaggled.** The cheap things got discounted and the expensive one did not, which
+is the opposite of what nerves predict. **People pay what she asks.**
 🎀 **SALE 3 — TWO SCRUNCHIES AT "2 FOR $10" (Sat Sep 19).** **Running total $62 — the $55 booth
 is PAID and the day is $7 up.** Everything after this is profit.
 🚨 **THIS ONE UNDERCUTS AN EXISTING PUBLISHED BUNDLE.** `scrunchie-bundle` is **3 for $15 = $5.00
