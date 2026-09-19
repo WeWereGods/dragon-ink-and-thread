@@ -64,6 +64,15 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+🧶 **SALE 5 — A SECOND SACHET AT $5, AND A SINGLE SCRUNCHIE AT FULL $6.**
+**Running total $78 — $23 clear of the $55 booth.**
+✅ **THE $6 SCRUNCHIE PRICE HOLDS ON SINGLES** — sold at sticker, unremarked. That reframes the
+earlier 2-for-$10 as a **bundle** rather than a price cut, which is the healthier shape (and it is
+still the thing that undercuts the 3-for-$15 — see below).
+💰 **SACHETS ARE NOW 2 FOR 2 AT $5. So $5 IS THE PRICE; $6 is just what the tag says.** Decide
+before Sep 26 — either print $5 and let it sell itself, or hold $6 and mean it. **"$6 discounted to
+$5" negotiated every single time is the one option that costs effort AND money.**
+📉 **2 of 6 sachets gone → the MIDDLE restock band: make 6 for Sep 26, not 12.**
 🪷 **SALE 4 — ONE LAVENDER SACHET AT $5** (listed $6). **Running total $67; $12 above the $55 booth.**
 📉 **1 of 6 sachets gone.** The restock rule stands: **5–6 sold → 12 for Sep 26 · 2–4 → 6 ·
 0–1 → pause until the Christmas markets.** At one, it is tracking toward the middle band.
