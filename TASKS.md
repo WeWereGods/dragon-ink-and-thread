@@ -25,7 +25,11 @@ says *"my first market"* — S1a, S1c and S1d all do. **That copy is wrong the m
 and must be reworded before anything goes out for the 26th.
 
 ⛔ **The sewing booked for Sat 19 is displaced to Sun 20** — the last 8 bows and 12–15 whimsys.
-📌 **So the 19th goes out with what is on hand: ~48 pieces** (27 bows, 11 scrunchies, 3 bandanas,
+🔢 **RECOUNT BY THE OWNER, Fri Sep 18 — what actually goes on the 19th: 94 pieces, ~$1,022 if it all sold** (incl. 6 lavender sachets at $6)
+(tax included): **7 totes** (the five listed + both Fairy Totes, $210) · **34 bows** (~$403, the Suriel set
+counted at $55) · **42 scrunchies** ($252 — 30 counted, +12 added the same evening) · **3 bandanas** (2 × $18 + Quilted Court $22) · tea cover $35 ·
+Reading Nook sleeve $28. The Kindle case was not in her count. **This supersedes the Sep 15 numbers below.**
+📌 **Earlier plan — the 19th was going out with ~48 pieces** (27 bows, 11 scrunchies, 3 bandanas,
 5 totes, 1 Kindle case, 1 tea cover) and **NO hair whimsys — there are zero sewn.** That is fine for a
 five-hour table, and the whimsys still debut on the 26th as the posts promise.
 
@@ -44,7 +48,11 @@ Pinterest has re-read the feed. The Game Day **headband** ($14) stays online.
 **$25 unlined · $40 lined with a pocket** (`p-price-tags-fairy`, one of each, both one of a kind).
 Both are **in the Stripe catalog** for Tap to Pay, with one-payment links (tax off, like the other market links):
 Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stripe.com/bJebJ199w4Yx4d471ffjG0A
-⬜ **Still to do before Saturday:** print, cut and tie the Fairy Tote tags · **the float** (below) ·
+✅ **Fairy Tote tags printed and tied** (Fri Sep 18).
+🪻 **NEW: Lavender Sachet, $6** (lavender + rice, cotton print, kraft tag) — in Stripe for Tap to Pay, link
+https://buy.stripe.com/8x214n1H49eNfVM0CRfjG0B (qty 1–10, tax off). **6 made for Sep 19.** Next batch by sell-through: 5–6 sold → 12 for Sep 26 · 2–4 → 6 · 0–1 → pause until the Christmas markets. Sell as "for drawers,
+closets or under your pillow", **never as a microwave heat pack**. Keep them dry under the table.
+⬜ **Still to do before Saturday:** **the float** (below) ·
 pack table, chair, water, lunch.
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
