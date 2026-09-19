@@ -64,6 +64,26 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+🎉 **FIRST SALE AT THE FIRST MARKET — TWO BOWS AT "2 FOR $20" (Sat Sep 19).** $20 of the $55
+booth recovered; ~$35 to break even, about three more bows.
+🚨 **"2 for $20" IS A PRICE THE OWNER INVENTED AT THE TABLE.** It is **not on a sign, not in
+Stripe, not in `js/shop-data.js`, and not on the website** — so nothing outside this line records it.
+Two things follow:
+1. **It has to hold for the whole day once offered.** A second customer quoted $24 for two, after the
+   first paid $20, is the one genuinely awkward conversation at a market table. Decide whether it is
+   the deal or was a one-off, then be consistent. **If it is the deal, a chalkboard reading
+   "Bows $12 · 2 for $20" sells it without her having to say anything.**
+2. **It works out at $10 a bow — exactly the pre-2026-08-05 price**, before the $10 → $12 rise. Fine
+   for a bundle (a bundle is meant to give something up), but it discounts off the real price rather
+   than off a padded one, so it should not stack with anything else.
+✅ **The instinct is sound and it mirrors something already proven:** **3 scrunchies for $15** (vs $18)
+is the same mechanic on the other high-count category. A bow multi-buy is the obvious sibling.
+📊 **WHAT TO COUNT TODAY, because it decides whether this becomes real:** how many bows go as
+**2/$20 pairs** versus as **$12 singles**. If pairs dominate, publish the bundle properly — sign,
+`PRODUCTS` entry, `PRICES` in the Worker, `wrangler deploy` (the full ADDING A NEW PIECE checklist;
+steps 4, 6 and 7 fail silently). If singles dominate, it was a nice gesture and nothing needs building.
+⚠️ **Whole dollars keep the no-coins float intact** — $20 for two works with a $1/$5/$10 float, which
+a $22 or $21 pair would not. Keep any future bundle on whole dollars for the same reason.
 🧵 **SET-UP, as actually built (photos from the owner, Sat Sep 19 ~9am):** canopy with a white
 flower-and-eucalyptus garland, cream cloth under an embroidered overlay, **totes hung from the canopy
 uprights on both sides** (good use of vertical space — keep this). Her own table plan was *totes left ·
