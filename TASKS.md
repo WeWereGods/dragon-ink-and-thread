@@ -64,6 +64,25 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+📚 **SALE 2 — THE STORYKEEPER TOTE, $32, FULL LIST PRICE (Sat Sep 19).** No discount asked for
+and none given. **Running total $52 of the $55 booth — $3 from break-even.**
+✅ **HANDLED IN THE REPO THE SAME DAY, per the one-of-a-kind rule:** `soldOut: true` set on
+`tote-storykeeper` in js/shop-data.js (**NOT retired** — soldOut first keeps the product page alive so
+the Pinterest feed reads "out of stock" and the Pin greys out; retiring deletes the page and a Pin can
+land on a 404). Generators re-run: **34 product pages, sitemap 40 URLs** (sold-out pages excluded),
+**pinterest-catalog.csv 34 products / 32 in stock**, asset hashes restamped.
+✅ **index.html Totes JSON-LD `offerCount` 5 → 4.** low/high stay 20.00/38.00 — the Storykeeper at $32
+sat inside the range, so only the count moved. Nothing regenerates these blocks; they drift silently.
+🔍 **Full six-category audit run at the same time — everything else matches:** Totes 4 (20–38) ·
+Scrunchies 9 (6–15) · Bows 14 (12–55) · Bandanas 3 (18–22) · Sleeves 1 (28) · Home 1 (35).
+✅ **Bows at 14 / high 55 confirms the Suriel set restore LANDED** — the "⛔ TUE 25" task further down
+is done; the live data agrees with the markup.
+⏳ **STILL TO DO: retire the Storykeeper to Stories `PAST_MAKES` around Sep 22–24**, once Pinterest has
+re-read the feed — same few-days gap as the Game Day Darling bow, which is due the same week.
+⚠️ **THIS IS ON THE BRANCH, NOT LIVE.** Deploy = merge to `main`; the site is whatever is on `main`.
+⚠️ **THE SAME APPLIES TO EVERY PIECE THAT SELLS AT A MARKET.** Seven totes went to Spring Branch and
+all of them are listed online — a one-of-a-kind sold off a table is still buyable on the website until
+someone sets the flag. **Note what sells as it sells; do the flags in one pass that evening.**
 🎉 **FIRST SALE AT THE FIRST MARKET — TWO BOWS AT "2 FOR $20" (Sat Sep 19).** $20 of the $55
 booth recovered; ~$35 to break even, about three more bows.
 🚨 **"2 for $20" IS A PRICE THE OWNER INVENTED AT THE TABLE.** It is **not on a sign, not in

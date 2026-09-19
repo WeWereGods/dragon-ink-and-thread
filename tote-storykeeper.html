@@ -47,7 +47,7 @@
     "@type": "Offer",
     "priceCurrency": "USD",
     "price": "32.00",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "url": "https://www.dragoninkandthread.com/tote-storykeeper.html",
     "seller": {
       "@type": "Organization",
@@ -142,10 +142,10 @@
     <section class="section pdp">
       <div class="container pdp-grid">
         <div class="pdp-media">
-          <div class="pdp-hero" data-zoom tabindex="0" role="button"
+          <div class="pdp-hero is-soldout" data-zoom tabindex="0" role="button"
                aria-label="Enlarge photo of The Storykeeper">
             <img class="pdp-photo" id="pdpPhoto" src="assets/tote-storykeeper.jpg" alt="Handmade tote printed with shelves of antique books and potion bottles on black, hanging from a long black strap" decoding="async" />
-            
+            <span class="sold-badge">Sold</span>
             <span class="gallery-hint" data-zoom-hint>⤢ Zoom</span>
           </div>
           <div class="pdp-thumbs" role="list"><button class="pdp-thumb is-active" type="button" role="listitem" data-pdp-img="assets/tote-storykeeper.jpg" aria-label="View photo 1 of 3"><img src="assets/tote-storykeeper.jpg" alt="" loading="lazy" decoding="async" /></button><button class="pdp-thumb" type="button" role="listitem" data-pdp-img="assets/tote-storykeeper-2.jpg" aria-label="View photo 2 of 3"><img src="assets/tote-storykeeper-2.jpg" alt="" loading="lazy" decoding="async" /></button><button class="pdp-thumb" type="button" role="listitem" data-pdp-img="assets/tote-storykeeper-3.jpg" aria-label="View photo 3 of 3"><img src="assets/tote-storykeeper-3.jpg" alt="" loading="lazy" decoding="async" /></button></div>
@@ -157,7 +157,9 @@
           <p class="pdp-price">$32.00</p>
           <p class="pdp-blurb">Shelves of old books and apothecary bottles stacked to the ceiling, printed deep on black — the library you&#39;d happily get lost in. Lined in black, with a long strap that sits at the hip and an outside pocket for whatever you need first.</p>
           <p class="pdp-details">15″ × 12″ · 18″ strap drop · outside pocket · fully lined · spot clean. Sewn and ready to ship.</p>
-          <button class="btn btn-primary pdp-buy" type="button" data-cart-add="tote-storykeeper">Add to cart</button>
+          <button class="btn btn-primary pdp-buy is-soldout" disabled>Sold out</button>
+          <button class="btn btn-ghost pdp-waitlist" type="button" data-waitlist="tote-storykeeper" data-waitlist-name="The Storykeeper">Tell me when something like this appears</button>
+          <p class="pdp-soldout-note">This one has found a home. <a href="custom.html">Ask about a custom piece</a> and I can often make something in the same spirit.</p>
           <p class="pdp-ship">Ships from San Antonio, Texas · <a href="shipping.html">shipping &amp; returns</a> · San Antonio local? Choose <strong>Local pickup</strong> at checkout.</p>
         </div>
       </div>
@@ -224,13 +226,14 @@
     </div>
   </footer>
 
-  <script src="js/dates.js?v=71593021"></script>
-  <script src="js/shop-data.js?v=5a39ecd3"></script>
+  <script src="js/dates.js?v=1639e225"></script>
+  <script src="js/shop-data.js?v=d1409178"></script>
   <script src="js/product.js?v=b79c44d6"></script>
   <!-- Double-click (tap on touch) the main photo to see it full screen. -->
   <script src="js/zoom.js?v=8a66e5e6"></script>
-  
-  <script src="js/cart.js?v=0795cd48"></script>
+  <!-- Sold-out waitlist: injects its own modal, shared with shop.html. -->
+  <script src="js/waitlist.js?v=d44ca4cb"></script>
+  <script src="js/cart.js?v=83431c58"></script>
 
   <!-- Pinterest Tag — ad measurement and retargeting. The tag id is public by
        design, same as the Cloudflare token.

@@ -49,7 +49,7 @@ window.DIT_SHOP = {
   SHIPPING: { standard: 6.5, small: 4.5, freeOver: 50, standardPrefixes: ["tote-", "sleeve-", "home-"] },
 
   PRODUCTS: {
-    "tote-storykeeper":   { name: "The Storykeeper",   price: 32.0, art: "📚" },
+    "tote-storykeeper":   { name: "The Storykeeper",   price: 32.0, art: "📚", soldOut: true },
     "tote-mustard-floral":{ name: "Cottage Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
