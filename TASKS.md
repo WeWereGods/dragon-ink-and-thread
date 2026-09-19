@@ -64,6 +64,51 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+### 🏁 MARKET 1 CLOSED — SAT SEP 19, SPRING BRANCH. **8 pieces, $78 taken.**
+
+| | Sold | Stock | Sell-through |
+|---|---|---|---|
+| **Lavender sachets** | **2** | 6 | **33%** |
+| Totes | 1 | 7 | 14% |
+| Scrunchies | 3 | 30 | 10% |
+| **Bows** | **2** | **34** | **6%** |
+| Bandanas | 0 | 3 | 0% |
+| Book sleeve / tea cover | 0 | 2 | 0% |
+
+💵 **THE REAL NUMBER: $78 − $55 booth − ~$5.94 tax set-aside = ~$17, BEFORE materials and before
+~9 hours** (8am set-up, 10–3 trading, breakdown, plus a 30–40 minute drive each way). **That is the
+honest figure and it should be the one that decides Oct 10 and Oct 30** — not the $78.
+⚖️ **Context before drawing conclusions:** first market ever, booked on **two days' notice**, outdoors,
+an unknown venue, no prior local reputation, and a market is partly marketing rather than pure
+revenue. **One market is one data point.** But it is the first real one this business has ever had.
+💸 **$8 given away in discounts** (list value of what sold was $86). Holding firm would have made it
+~$31 above booth instead of $23.
+
+🚨 **THE FINDING THAT MATTERS: THE TABLE WAS BUILT AROUND THE WRONG CATEGORY.**
+**34 bows went — the biggest stock investment by count (34) and value (~$403), and weeks of sewing —
+and TWO sold.** The **lavender sachets**, introduced days earlier, made almost as an afterthought,
+six of them, **outsold everything proportionally at 33%.** The cheapest, newest, least-planned item
+on the table had five times the sell-through of the one it was built around.
+⚠️ **This has an immediate consequence: the Sun Sep 20 sewing list is 8 MORE BOWS.** On today's
+evidence that is making more of the thing that did not sell. **Worth re-deciding before picking up
+the scissors** — more sachets, and the whimsys that were already planned, look like the better hours.
+🔍 **Do NOT over-read it either.** One outdoor market, one venue, one crowd; bows may simply be an
+indoor/evening product, and Sep 26 is indoors. **Take the same counts to the 26th and compare** — two
+data points on different crowds is worth far more than a decision made on one.
+
+⏳ **STILL OPEN FROM TODAY:**
+- ❓ **WHICH TWO BOWS SOLD?** If either was a **shop-listed** bow it needs `soldOut: true` (bows are
+  one-of-a-kind, no `maxQty`). If both were market-only makes from the 23 sewn for the markets,
+  **nothing on the site changes.** Scrunchies need no flag (`maxQty: 3`, multiples stocked) and the
+  sachets are market-only, not a website product.
+- ✅ **The Storykeeper is already flagged** `soldOut` on the branch — **needs merging to `main` to go live.**
+- 💵 **Count the cash and reconcile against the $100 float**, splitting cash from Tap to Pay.
+- 🧾 **Set aside ~$5.94** (7.6% is the tax-included back-out of 8.25%). ⚠️ **Spring Branch is
+  unincorporated Comal County and the real rate is probably LOWER** — check the Comptroller's Rate
+  Locator before the **Oct 20** return; erring high is the safe direction but the return needs the
+  true rate.
+- 📸 **The "how it went" post** — it has an ending, which the morning post did not.
+
 🧶 **SALE 5 — A SECOND SACHET AT $5, AND A SINGLE SCRUNCHIE AT FULL $6.**
 **Running total $78 — $23 clear of the $55 booth.**
 ✅ **THE $6 SCRUNCHIE PRICE HOLDS ON SINGLES** — sold at sticker, unremarked. That reframes the
