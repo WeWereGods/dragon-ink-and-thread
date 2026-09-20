@@ -63,7 +63,10 @@ uneven puffs — those are the proof it was made by a person, and the line is "e
 so no two sit exactly alike", said plainly rather than apologetically.
 📣 **Caption line: "caffeinated on cloud nine"** — the owner's phrase, kept for posts rather than the tag (too long to ask for).
 📌 **This is the FIRST one; it is a prototype as much as a product.** The next will be quicker and neater.
-⬜ **Still to do: bind the raw top edge** before it goes on a table.
+⬜ **STILL TO DO on it (decided 2026-09-20):** bind the raw top edge · **cream lining, interfaced** (the body is soft,
+so the interfacing is what stops a $95 bag slumping on the table) · **one inside pocket in the rose plaid** · straps
+**11in drop**, cut 4in x 25in, finished 1.5–2in wide, **interfaced and box-stitched at the joins** — the strap carries all
+the weight and is what fails first on a stuffed-square bag.
 🎁 **NEW: "Cozy Gift Set", $10** (owner, 2026-09-20) — **1 scrunchie + 1 sachet tied with twine and a kraft gift tag.**
 In Stripe for Tap to Pay (`prod_VITzWNC6MBB9HE`). $12 of goods for $10: the point is two items instead of one, and an
 **under-$10 stocking-filler price** for Oct 30 / Nov 14 / December. **Singles stay $6** — the set is a nudge, not a markdown.
