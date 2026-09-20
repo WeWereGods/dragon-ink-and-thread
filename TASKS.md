@@ -50,6 +50,16 @@ Pinterest has re-read the feed. The Game Day **headband** ($14) stays online.
 Both are **in the Stripe catalog** for Tap to Pay, with one-payment links (tax off, like the other market links):
 Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stripe.com/bJebJ199w4Yx4d471ffjG0A
 ✅ **Fairy Tote tags printed and tied** (Fri Sep 18).
+🎁 **NEW: "Cozy Gift Set", $10** (owner, 2026-09-20) — **1 scrunchie + 1 sachet tied with twine and a kraft gift tag.**
+In Stripe for Tap to Pay (`prod_VITzWNC6MBB9HE`). $12 of goods for $10: the point is two items instead of one, and an
+**under-$10 stocking-filler price** for Oct 30 / Nov 14 / December. **Singles stay $6** — the set is a nudge, not a markdown.
+🌰 **Make CINNAMON sachets too** for the fall and Christmas markets: two scents means people choose rather than decide
+whether to buy. ⚠️ **Use broken cinnamon STICKS (or cloves and orange peel), not ground** — ground marks light fabric and
+fades fast; put the spiced ones in dark or patterned fabric. Test the smell before making a batch.
+📌 **Filling settled 2026-09-20: broken cinnamon STICKS + whole cloves + dried orange peel, over rice** — smells like
+mulled wine and lasts months. Line the spiced ones with muslin so bits cannot work through a seam. Whole spices from
+the Mexican aisle or a bulk bin, not supermarket jars. ⚠️ **Cinnamon essential oil irritates skin** — if it is ever used,
+keep it on an inner cotton ball and never suggest a pillowcase. Tag line: squeeze to refresh.
 🪻 **NEW: Lavender Sachet, $6** (lavender + rice, cotton print, kraft tag) — in Stripe for Tap to Pay, link
 https://buy.stripe.com/8x214n1H49eNfVM0CRfjG0B (qty 1–10, tax off). **6 made for Sep 19.** Next batch by sell-through: 5–6 sold → 12 for Sep 26 · 2–4 → 6 · 0–1 → pause until the Christmas markets. Sell as "for drawers,
 closets or under your pillow", **never as a microwave heat pack**. Keep them dry under the table.
