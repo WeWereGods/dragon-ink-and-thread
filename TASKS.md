@@ -50,6 +50,13 @@ Pinterest has re-read the feed. The Game Day **headband** ($14) stays online.
 Both are **in the Stripe catalog** for Tap to Pay, with one-payment links (tax off, like the other market links):
 Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stripe.com/bJebJ199w4Yx4d471ffjG0A
 ✅ **Fairy Tote tags printed and tied** (Fri Sep 18).
+🧵 **SUN SEP 20 SEWING — what actually got done:** **4 scrunchies** (2 new silky florals, 1 strawberry, 1 yellow daisy —
+she wrote "3" but listed four) and the **puff tote almost finished**. ⬜ **Not done: the 6 Vanilla Lace, the hair whimsys,
+the 12 plain scrunchies, the 2 sachets** — all roll forward to this week. Scrunchie stock **30 → 34**.
+☕ **PUFF TOTE (coffee floral + pink plaid) — nearly finished, and it needs a PRICE.** 64 stuffed squares, hand-assembled;
+the most labour-heavy piece she has ever put on a table. Photographed in progress (IMG_7453/7454/7455/7456/7467/8057 in
+Downloads) — a six-photo process carousel is drafted. **Do not price it off the $38 Butterfly Tote**; this is a different
+category of work.
 🎁 **NEW: "Cozy Gift Set", $10** (owner, 2026-09-20) — **1 scrunchie + 1 sachet tied with twine and a kraft gift tag.**
 In Stripe for Tap to Pay (`prod_VITzWNC6MBB9HE`). $12 of goods for $10: the point is two items instead of one, and an
 **under-$10 stocking-filler price** for Oct 30 / Nov 14 / December. **Singles stay $6** — the set is a nudge, not a markdown.
