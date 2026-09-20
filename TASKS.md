@@ -69,6 +69,13 @@ can be made. Every bow-category listing is now $12, so the JSON-LD block went hi
 ⬜ **RETIRE TOGETHER ~SEP 24** (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
 Game Day headband · Suriel's Bouquet · Tea with the Suriel set.
 📌 **The lace scrunchies sell.** Two of four scrunchie sales on their debut; worth more of them for Sep 26.
+🏷️ **NAMED 2026-09-20: "Vanilla Lace" (the lace ones) and "Buttercream" (the cream ones), both $6.**
+⚠️ **Deliberately COZY, not romantasy** (owner) — they sit beside the coffee prints rather than the ACOTAR fabrics,
+so this is an exception to the usual naming voice. Both added to the Stripe catalog for Tap to Pay
+(`prod_VIPo554dzFXAKz` · `prod_VIPp2cjTAcVPph`). **Plus "Dark Roast" — the solid black — $6, `prod_VIPqDBygrGExk5`.**
+The three neutrals read as a little set on the table: **Vanilla Lace · Buttercream · Dark Roast.** None are on the website.
+🧵 **Sun Sep 20 sewing gains 6 more Vanilla Lace.** If the day runs short, drop 6 of the plain scrunchies instead —
+30 went to the 19th and 4 sold.
 ✅ **The tote was THE STORYKEEPER ($32 — the Mastercard charge)** ("the readers tote", owner). Set `soldOut: true` on the
 site 2026-09-19; ⬜ **retire it to Stories around Sep 23** once Pinterest has re-read the feed. First tote sold in person.
 🪻 **Sachets: 2 of 6 sold → rule says make 6 for Sep 26** (4 left + 2 new is enough).
