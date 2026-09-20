@@ -40,7 +40,8 @@ to $6** (it read $8 and contradicted the printed cards, the Scan to Pay QR and t
 wind, weather and no-electricity risks are all closed.
 ✅ **Announcement posted to Instagram and Facebook** (Fri Sep 18). ✅ **TikTok posted too** — "sweater weather"
 scrunchies, two clips (Fri Sep 18). Tomorrow: a pan of the finished table at set-up as a second TikTok.
-🏈 **GAME DAY DARLING BOW (clip) TAKEN OFF THE SITE 2026-09-18** — the owner is sewing 4 and bringing them to the
+🔁 **GAME DAY CLIP BOW: off the site Sep 18, BACK ON Sep 20** (owner) — none sold at the Sep 19 market, so the 4 sewn
+for the markets are buyable online again. Original note follows. **TAKEN OFF THE SITE 2026-09-18** — the owner is sewing 4 and bringing them to the
 markets at **$12** (same as every clip bow; the "Clip Bows $12" sign covers them). Set `soldOut: true` rather than
 retired, per the Pinterest rule. ⬜ **Retire it fully (remove from shop-data, delete the page) around Sep 22**, once
 Pinterest has re-read the feed. The Game Day **headband** ($14) stays online.
@@ -58,6 +59,16 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 including the $100 float, so **cash sales $42** + card **$53** via Tap to Pay (3 charges: $32 Mastercard 10:54am · $10 Visa
 11:59am · $11 Visa 1:44pm; the 8:55am $1 test was refunded). After the 7.6% tax set-aside (~$7) and card fees (~$1.60):
 **~$86 kept, ~$31 after the $55 booth.** Cash was 44% of sales. 🧾 **SOLD (owner):** 3 bows · 4 scrunchies · 2 lavender sachets · 1 tote = 10 pieces.
+**Itemised 2026-09-20:** scrunchies — **2 of the new lace ones** (their first outing), 1 Pink Bumble Bee, 1 Cherry ·
+bows — 1 orange pumpkin (market-only), **1 Suriel's Bouquet** (listed on the site → set `soldOut: true` 2026-09-20,
+retire ~Sep 24), 1 Christmas tree bow (market-only).
+✅ **THE $55 SET IS BROKEN UP.** Only 4 Suriel bows are left (owner, 2026-09-20), so `bow-suriel-set` is `soldOut`
+and off the shop; the four survivors stay listed individually at $12. ⬜ Retire the set entry ~Sep 24 with the others.
+🏈 **GAME DAY DARLING HEADBAND off the site too (owner, 2026-09-20) — the football yard is used up**, so no more
+can be made. Every bow-category listing is now $12, so the JSON-LD block went high $55 → $12 and 15 offers → 11.
+⬜ **RETIRE TOGETHER ~SEP 24** (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
+Game Day headband · Suriel's Bouquet · Tea with the Suriel set.
+📌 **The lace scrunchies sell.** Two of four scrunchie sales on their debut; worth more of them for Sep 26.
 ✅ **The tote was THE STORYKEEPER ($32 — the Mastercard charge)** ("the readers tote", owner). Set `soldOut: true` on the
 site 2026-09-19; ⬜ **retire it to Stories around Sep 23** once Pinterest has re-read the feed. First tote sold in person.
 🪻 **Sachets: 2 of 6 sold → rule says make 6 for Sep 26** (4 left + 2 new is enough).
@@ -151,10 +162,11 @@ Two rules that keep this useful:
 > | **Thu Sep 17** | 🚗 + ✅ | **Maurya's pickup** — moved from Tue 15 at her request · ✅ **LINDA'S SHADOW BOX DELIVERED AND ACCEPTED** — she has it, she's happy, and **no further changes will be made** (owner, 2026-09-17). The job is closed |
 > | ~~Fri Sep 18~~ | ✅ **CLOSED** | ~~by Fri Sep 25~~ → ~~Thu Sep 17, unsealed, second photo on a return visit~~ → ✅ **delivered and accepted Thu Sep 17. No return visit, no second photo, nothing outstanding** |
 > | **🎪 Sat Sep 19** | **MARKET 1 · 10am–3pm · OUTDOOR** | 🆕 **Signed up 2026-09-17.** Own table, **canopy rented**. ⚠️ **This is now the FIRST market, not Sep 26** · ⛔ **the sewing that was booked for today is displaced** |
-> | **Sun Sep 20** | 🧵 | ⤵️ Moved off Sat 19: **the last 8 bows** (15 sewn) · **12–15 hair whimsys** in two sizes, from bow leftovers · restock whatever sold on the 19th |
+> | **Sun Sep 20** | 🧵 | **12 scrunchies** · **hair whimsys** in two sizes, from bow leftovers (sew one of each first and try them in your hair) · **2 lavender sachets** (brings the Sep 26 basket back to 6). Nothing else needs restocking — Sep 19 sold 3 of 34 bows and 4 of 30 scrunchies |
+> | **Tue Sep 22 – Thu Sep 24** | 🧵 | **Cassidy's Kindle sleeve** (birthday Oct 3 — needs her case-or-bare answer first) · 🆕 **~10 fabric bookmarks, $5–6** (owner, 2026-09-19) — scraps, book-lover fit, a cheap gift anyone can buy; test batch, count what sells on Sep 26 · 🆕 **8–10 gift card holders, ~$10** (was on the Oct 10 plan; brought forward — same "small gift for anyone" role as the sachets). **Why these two:** the owner saw on Sep 19 that bows sell mostly to mums and scrunchies aren't for everyone; the sachets sold because anyone can buy one |
 > | **Mon Sep 21** | 📬 | **Deliveries start landing** — car logo est. today · both sticker batches open their windows today. 📣 Also **S1b, the first local group post** |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post · ⚠️ **THE REAL DELIVERY CUTOFF** — anything not here by tonight doesn't go to Sep 26 |
-> | **🎪 Sat Sep 26** | **MARKET 1 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
+> | **🎪 Sat Sep 26** | **MARKET 2 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her

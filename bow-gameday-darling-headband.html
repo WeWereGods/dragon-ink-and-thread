@@ -45,7 +45,7 @@
     "@type": "Offer",
     "priceCurrency": "USD",
     "price": "14.00",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "url": "https://www.dragoninkandthread.com/bow-gameday-darling-headband.html",
     "seller": {
       "@type": "Organization",
@@ -140,10 +140,10 @@
     <section class="section pdp">
       <div class="container pdp-grid">
         <div class="pdp-media">
-          <div class="pdp-hero" data-zoom tabindex="0" role="button"
+          <div class="pdp-hero is-soldout" data-zoom tabindex="0" role="button"
                aria-label="Enlarge photo of Game Day Darling Headband">
             <img class="pdp-photo" id="pdpPhoto" src="assets/bow-gameday-darling-headband.jpg" alt="Baby headband in a cream print scattered with russet footballs and little tied bows, tied in a large bow at the front" decoding="async" />
-            
+            <span class="sold-badge">Sold</span>
             <span class="gallery-hint" data-zoom-hint>⤢ Zoom</span>
           </div>
           
@@ -155,7 +155,9 @@
           <p class="pdp-price">$14.00</p>
           <p class="pdp-blurb">The same russet footballs and little tied bows, on a soft stretch headband for the smallest fan in the house. A textured knit that gives without digging in, tied in a generous bow at the front. <strong>Two were made, and that was the whole yard.</strong></p>
           <p class="pdp-details">Baby headband · newborn size · soft stretch knit · spot clean only. ⚠️ Never leave on a sleeping or unattended baby.</p>
-          <button class="btn btn-primary pdp-buy" type="button" data-cart-add="bow-gameday-darling-headband">Add to cart</button>
+          <button class="btn btn-primary pdp-buy is-soldout" disabled>Sold out</button>
+          <button class="btn btn-ghost pdp-waitlist" type="button" data-waitlist="bow-gameday-darling-headband" data-waitlist-name="Game Day Darling Headband">Tell me when something like this appears</button>
+          <p class="pdp-soldout-note">This one has found a home. <a href="custom.html">Ask about a custom piece</a> and I can often make something in the same spirit.</p>
           <p class="pdp-ship">Ships from San Antonio, Texas · <a href="shipping.html">shipping &amp; returns</a> · San Antonio local? Choose <strong>Local pickup</strong> at checkout.</p>
         </div>
       </div>
@@ -188,7 +190,7 @@
         <div class="section-head"><h2>More bows</h2></div>
         <div class="pdp-more"><a class="pdp-more-card" href="bow-suriel-set.html">
               <img src="assets/bow-suriel-set.jpg" alt="Five handmade sailor bows in blue and white floral cottons, laid out together on pale wood" loading="lazy" decoding="async" />
-              <span class="pdp-more-name">Tea with the Suriel — the Set of Five</span>
+              <span class="pdp-more-name">Tea with the Suriel — the Set of Five <em>(sold)</em></span>
               <span class="pdp-more-price">$55.00</span>
             </a><a class="pdp-more-card" href="bow-something-blue.html">
               <img src="assets/bow-something-blue.jpg" alt="Handmade sailor bow in pale blue cotton with a fine white-and-blue lace floral pattern" loading="lazy" decoding="async" />
@@ -223,11 +225,12 @@
   </footer>
 
   <script src="js/dates.js?v=71593021"></script>
-  <script src="js/shop-data.js?v=d40a931f"></script>
+  <script src="js/shop-data.js?v=d5c03756"></script>
   <script src="js/product.js?v=b79c44d6"></script>
   <!-- Double-click (tap on touch) the main photo to see it full screen. -->
   <script src="js/zoom.js?v=8a66e5e6"></script>
-  
+  <!-- Sold-out waitlist: injects its own modal, shared with shop.html. -->
+  <script src="js/waitlist.js?v=d44ca4cb"></script>
   <script src="js/cart.js?v=0795cd48"></script>
 
   <!-- Pinterest Tag — ad measurement and retargeting. The tag id is public by

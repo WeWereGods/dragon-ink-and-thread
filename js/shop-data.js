@@ -75,16 +75,20 @@ window.DIT_SHOP = {
     "bow-sidra-vines":       { name: "Sidra Vines Bow",         price: 12.0, art: "🎀" },
     "bow-porcelain-roses":   { name: "Porcelain Roses Bow",     price: 12.0, art: "🌹" },
     "bow-lace-of-velaris":   { name: "Lace of Velaris Bow",     price: 12.0, art: "🎀" },
-    "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐" },
+    /* SOLD at the Sep 19 market. soldOut first, retire later (Pinterest rule). */
+    "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐", soldOut: true },
     /* GAME DAY DARLING — three pieces from one yard of the football print, bought 2026-08-19.
        These carry maxQty because they are stock cut from shared yardage, NOT one-of-a-kind.
        That does not reopen the 2026-07-30 "bows stay at 1" decision, which was about
        genuinely unique bows. */
-    /* Off the site 2026-09-18 - the owner is taking the clip bows to the markets instead.
-       soldOut FIRST (not retired) so Pinterest reads "out of stock" before the page goes. */
-    "bow-gameday-darling":      { name: "Game Day Darling Bow",      price: 12.0, art: "🏈", maxQty: 3, soldOut: true },
-    "bow-gameday-darling-headband":   { name: "Game Day Darling Headband",      price: 14.0, art: "🏈", maxQty: 2 },
-    "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖" },
+    /* Back on the site 2026-09-20 after a weekend off it: 4 were sewn for the markets and none sold
+       on Sep 19, so they may as well be buyable. The HEADBAND stays off - that fabric is used up. */
+    "bow-gameday-darling":      { name: "Game Day Darling Bow",      price: 12.0, art: "🏈", maxQty: 3 },
+    /* Off the site 2026-09-20 — the football yard is used up, so no more can be made. */
+    "bow-gameday-darling-headband":   { name: "Game Day Darling Headband",      price: 14.0, art: "🏈", maxQty: 2, soldOut: true },
+    /* BROKEN UP 2026-09-20: Suriel's Bouquet sold at the Sep 19 market, so only four of the five
+       remain and the set cannot be fulfilled. soldOut first, retire later (Pinterest rule). */
+    "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖", soldOut: true },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
     "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
     "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾" },
