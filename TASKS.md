@@ -114,7 +114,7 @@ and tuck large notes away as they arrive: once it is all $20s it stops being cha
 |---|---|---|
 | **Stickers, batch 1** (for the vendor event) | **Sep 21–27** | ⚠️ **AT RISK** — the window closes *after* the market |
 | **Stickers, batch 2** | **Sep 21–25** | ✅ Should make it, with nothing to spare |
-| **Custom car logo** | **est. Sep 21** | ✅ Fine — not market kit anyway |
+| **Custom car logo** | ✅ **ARRIVED AND APPLIED Sun Sep 20**, a day early — on the rear window, teal on black glass, reads well. ⬜ **It carries no web address**: a small vinyl `dragoninkandthread.com` decal beneath it would give drivers behind her something to search | ✅ |
 
 🚫 **NONE of the three arrive before SAT SEP 19.** Every window opens on the 21st, so Saturday's
 market gets no stickers and no car logo. Don't plan the table around any of them.
@@ -171,7 +171,7 @@ Two rules that keep this useful:
 > | **🎪 Sat Sep 19** | **MARKET 1 · 10am–3pm · OUTDOOR** | 🆕 **Signed up 2026-09-17.** Own table, **canopy rented**. ⚠️ **This is now the FIRST market, not Sep 26** · ⛔ **the sewing that was booked for today is displaced** |
 > | **Sun Sep 20** | 🧵 | **12 scrunchies** · **hair whimsys** in two sizes, from bow leftovers (sew one of each first and try them in your hair) · **2 lavender sachets** (brings the Sep 26 basket back to 6). Nothing else needs restocking — Sep 19 sold 3 of 34 bows and 4 of 30 scrunchies |
 > | **Tue Sep 22 – Thu Sep 24** | 🧵 | **Cassidy's Kindle sleeve** (birthday Oct 3 — needs her case-or-bare answer first) · 🆕 **~10 fabric bookmarks, $5–6** (owner, 2026-09-19) — scraps, book-lover fit, a cheap gift anyone can buy; test batch, count what sells on Sep 26 · 🆕 **8–10 gift card holders, ~$10** (was on the Oct 10 plan; brought forward — same "small gift for anyone" role as the sachets). **Why these two:** the owner saw on Sep 19 that bows sell mostly to mums and scrunchies aren't for everyone; the sachets sold because anyone can buy one |
-> | **Mon Sep 21** | 📬 | **Deliveries start landing** — car logo est. today · both sticker batches open their windows today. 📣 Also **S1b, the first local group post** |
+> | **Mon Sep 21** | 📬 | **Deliveries start landing** — ✅ car logo already here (Sep 20) · both sticker batches open their windows today. 📣 Also **S1b, the first local group post** |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post · ⚠️ **THE REAL DELIVERY CUTOFF** — anything not here by tonight doesn't go to Sep 26 |
 > | **🎪 Sat Sep 26** | **MARKET 2 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
 >
