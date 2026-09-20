@@ -64,6 +64,59 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+### 🧭 NEW CATEGORIES — ASKED 2026-09-19, ANSWERED THE SAME DAY. **Read this before adding one.**
+
+The owner asked, the evening of the first market, whether to make **unpaper towels** or **blankets**.
+**Answer: neither yet** — and the reasoning matters more than the verdict, because this repo has a
+**documented pattern of categories being added under pressure and priced afterwards** (book sleeves,
+home pieces, repairs and quilts all got their bands retroactively).
+
+⛔ **BLANKETS — wrong shape for a market table.** Her own bands already price a throw at **35–55 hours
+and $650–950**, quilts at **8–12 weeks**. A simpler fleece or minky blanket is faster but still eats a
+whole tub of transport and most of a 6ft table to display, at a price point far above everything else
+she sells — **paying table rent for the slowest-turning stock.** ✅ **If blankets appeal, do them as
+CUSTOM with one sample piece**: no batch, no transport, and the custom machinery already exists.
+
+⚠️ **UNPAPER TOWELS — the better of the two, but still not now.** Pros: **eats scraps** (which she
+generates constantly), fast and repetitive, slots into the existing **Home** category beside the tea
+cover. Con, and it is the deciding one: they are a **CONSIDERED purchase** — people buy them having
+decided to stop buying paper towels, not because they saw one on a table — and Etsy has compressed the
+price hard. **A slow sell at a market is the problem she already has.**
+
+### 🎯 THE TIER THAT ACTUALLY WORKED — $5–8 IMPULSE
+**Six sachets sold two (33%). Thirty-four bows sold three (9%).** The cheapest, smallest, newest thing
+on the table **outsold the flagship category five to one.** That is not an argument for a new
+category; it is an argument for **more of the till-side impulse tier.**
+
+**What makes the sachet work — the spec to match:** under $8 · whole dollar · fits in a palm, no table
+space · **scrap-fed** · **no sizing, no fit, no decision** · giftable · fast to batch · competes with
+nothing else on the table.
+
+📖 **1. FABRIC / QUILTED BOOKMARKS, $6–8 — the strongest candidate, and it is not close.** It hits
+every line of that spec **and it is dead-centre on the brand** in a way the sachet never was: this is a
+shop for **book lovers and dreamers**. The evidence is already in: **the best sale of the first market
+was the Storykeeper tote** (books and potion bottles), the shop has a **Book Sleeve** category, and a
+bookmark **pairs** with both. Scraps, minutes each, no hardware.
+☕ **2. QUILTED COASTERS / MUG RUGS, $6–8** — extends **Home**, pairs with the tea cover (the set Linda
+already proved people want), pure scrap work.
+🔑 **3. KEY FOBS / WRISTLET KEY RINGS, $6–8** — fastest of the three and a proven market seller, but
+the **weakest brand fit** and the only one needing bought hardware.
+
+🎄 **NEAR-ZERO-RISK VARIANT: the same sachet in a different scent.** Balsam fir or cinnamon for the
+**Oct 30 night market and the Christmas markets** — same process, same pattern, same price, seasonal
+pull. ⚠️ **Rice-filled anything stays NON-microwave** (see the sachet rule); do not drift into heat
+packs, and be careful with eye pillows for the same reason.
+
+✋ **RESTRAINT: THE 26TH IS ALREADY A TEST OF THIS TIER.** The **hair whimsys at $5** debut there and
+sit in exactly this bracket. **Let the whimsys and the sachets report back before committing to a
+fourth small line** — bookmarks are cheap enough to run alongside, but do not stack three new things
+onto one market or nothing can be attributed.
+🔬 **THE METHOD IS THE POINT, and she already used it: make SIX, take them to one market, get a real
+answer.** Two hours and a few dollars of material buys better evidence than weeks of guessing. **That
+is how the sachet got discovered.**
+⚠️ **ONE MARKET IS ONE DATA POINT.** Sep 26 is indoors, evening, a different crowd. **Take the same
+counts and compare before anything becomes doctrine.**
+
 ### 🏁 MARKET 1 CLOSED — SAT SEP 19, SPRING BRANCH. **10 pieces, $96 taken.**
 
 ⏰ **A LATE FLURRY AT PACK-DOWN: one more bow and one more scrunchie, BOTH AT FULL PRICE ($18),
