@@ -53,10 +53,17 @@ Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stri
 🧵 **SUN SEP 20 SEWING — what actually got done:** **4 scrunchies** (2 new silky florals, 1 strawberry, 1 yellow daisy —
 she wrote "3" but listed four) and the **puff tote almost finished**. ⬜ **Not done: the 6 Vanilla Lace, the hair whimsys,
 the 12 plain scrunchies, the 2 sachets** — all roll forward to this week. Scrunchie stock **30 → 34**.
-☕ **PUFF TOTE (coffee floral + pink plaid) — nearly finished, and it needs a PRICE.** 64 stuffed squares, hand-assembled;
+☕ **"ROSE LATTE CLOUD" PUFF TOTE — $95** (named and priced 2026-09-20; `prod_VIUvYHyG99xyeE` in Stripe). 64 stuffed squares, hand-assembled;
 the most labour-heavy piece she has ever put on a table. Photographed in progress (IMG_7453/7454/7455/7456/7467/8057 in
-Downloads) — a six-photo process carousel is drafted. **Do not price it off the $38 Butterfly Tote**; this is a different
-category of work.
+Downloads) — a six-photo process carousel is drafted. **6 hours plus ~$15–20 of fabric and fill** → ~$12–13/hr after materials at $95, under Etsy's $70–150 for puff totes.
+⚠️ **Not priced off the $38 Butterfly Tote — different construction tier.** Same reasoning as the $22 Quilted Court
+bandana: the $50 custom tote floor sitting below it is a FALSE POSITIVE, because nobody could commission a puff tote at
+the floor. **Floor for this one if a maker's piece is ever sold: $75**, and only for a flaw that affects use, never for
+uneven puffs — those are the proof it was made by a person, and the line is "every square is stuffed and closed by hand,
+so no two sit exactly alike", said plainly rather than apologetically.
+📣 **Caption line: "caffeinated on cloud nine"** — the owner's phrase, kept for posts rather than the tag (too long to ask for).
+📌 **This is the FIRST one; it is a prototype as much as a product.** The next will be quicker and neater.
+⬜ **Still to do: bind the raw top edge** before it goes on a table.
 🎁 **NEW: "Cozy Gift Set", $10** (owner, 2026-09-20) — **1 scrunchie + 1 sachet tied with twine and a kraft gift tag.**
 In Stripe for Tap to Pay (`prod_VITzWNC6MBB9HE`). $12 of goods for $10: the point is two items instead of one, and an
 **under-$10 stocking-filler price** for Oct 30 / Nov 14 / December. **Singles stay $6** — the set is a nudge, not a markdown.
