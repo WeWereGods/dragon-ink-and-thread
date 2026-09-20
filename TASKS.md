@@ -826,7 +826,15 @@ Two rules that keep this useful:
   (2 pages: the 5 totes, book sleeve, tea cover, Suriel set, headband, 3 gift card holders, 6 blank),
   and a **market flyer** (tall, square, and two earlier versions; no dates, so it's reusable).
   ⚠️ **Word copies couldn't be previewed here** (Word's PDF export hangs) — test-print them.
-  - [ ] Two sign holders · a name banner for the table front · a copy of the sales tax permit
+  - [ ] Two sign holders · a copy of the sales tax permit
+  - [ ] 🆕 **TO ORDER (owner, 2026-09-20):**
+        1. **Website decal for the car** — `dragoninkandthread.com`, **white**, 12–16in wide, under the badge that went
+           on Sep 20. The badge names the shop but gives a driver nothing to search. Etsy "custom text vinyl decal", $8–15.
+        2. **Fabric arch banner** — ~36in x 12in, cream canvas or linen, hung from the garland arch on twine.
+           ⛔ **NOT a vinyl banner across the table front.** That covers the lace cloth falling to the floor, which is
+           what makes the table look expensive, and shiny vinyl beside vintage lace reads trade-show. Decided 2026-09-20
+           after the owner asked whether a front banner would spoil the decor. Vinyl is fine on a CANOPY frame outdoors.
+        3. **Interim, cheap:** print the existing display sign at 11x17 in a frame for Sep 26 (indoors, short sightlines).
   - [ ] Ask the market about liability insurance, and the tax rate if it's outside San Antonio
   📣 **Market posts: `marketing/october-market-posts.md`** — announcement Oct 3–4, local groups
   Oct 5–7, night-before, set-up, thank-yous, and the Oct 30 run. **Fill the [BRACKETS] first**
