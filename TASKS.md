@@ -847,9 +847,9 @@ Two rules that keep this useful:
         ✅ **Kit is covered: a canopy is BORROWED for the October and November markets, and she owns weights** (owner,
         2026-09-20), so nothing needs buying. Break-even ~$45, about four bows.
         ✅ **APPROVED AND ACCEPTED 2026-09-20.** Registration was already in; the organiser replied with a $40
-        "Fall Markets Special" invoice (#271) and a Wave payment link. ⬜⏰ **PAY BY TUE SEP 22 — the link is in the
-        confirmation email; the spot is not held until it is paid.** Reply drafted in Gmail confirming the spot,
-        saying she brings her own canopy, weights and table, and asking set-up time and booth size.
+        "Fall Markets Special" invoice (#271) and a Wave payment link. ✅ **$40 PAID 2026-09-20** (Wave link), ahead of the Sep 22 due date — **the spot is held.** ✅ **Organiser answered 2026-09-20: set-up 8:00–9:45am, ready by 10; check in with the
+        coordinator on arrival for a vendor badge, returned at the end; 10x10 booths, larger on request.** Logistics,
+        a venue map and vendor spaces come out by email on Fridays from ~4 weeks before.
         ⛔ **This rules out the Give Thanks Day Market (Nov 14, Adkins)** from the October organiser's series.
   - [ ] 🆕 **TO ORDER (owner, 2026-09-20):**
         1. **Website decal for the car** — `dragoninkandthread.com`, **white**, 12–16in wide, under the badge that went
