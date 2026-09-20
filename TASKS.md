@@ -827,6 +827,18 @@ Two rules that keep this useful:
   and a **market flyer** (tall, square, and two earlier versions; no dates, so it's reusable).
   ⚠️ **Word copies couldn't be previewed here** (Word's PDF export hangs) — test-print them.
   - [ ] Two sign holders · a copy of the sales tax permit
+  - [ ] 🍂 **NEW MARKET OFFERED — Sat Nov 14 2026, 10am–2pm, a fall mercado at a San Antonio arboretum**
+        (flyer shown 2026-09-20; name, address and organiser are in the private note). **$40 booth · OUTDOOR ·
+        canopy REQUIRED · no power · no table provided · 4 hours ·** 40+ vendors, named sponsors and two named
+        officials on the flyer, and the venue checks out as a real nonprofit. **Inside city limits, so 8.25% holds** —
+        no Rate Locator check needed, unlike Sep 19 and Oct 10/30.
+        ✅ **Kit is covered: a canopy is BORROWED for the October and November markets, and she owns weights** (owner,
+        2026-09-20), so nothing needs buying. Break-even ~$45, about four bows.
+        ✅ **APPROVED AND ACCEPTED 2026-09-20.** Registration was already in; the organiser replied with a $40
+        "Fall Markets Special" invoice (#271) and a Wave payment link. ⬜⏰ **PAY BY TUE SEP 22 — the link is in the
+        confirmation email; the spot is not held until it is paid.** Reply drafted in Gmail confirming the spot,
+        saying she brings her own canopy, weights and table, and asking set-up time and booth size.
+        ⛔ **This rules out the Give Thanks Day Market (Nov 14, Adkins)** from the October organiser's series.
   - [ ] 🆕 **TO ORDER (owner, 2026-09-20):**
         1. **Website decal for the car** — `dragoninkandthread.com`, **white**, 12–16in wide, under the badge that went
            on Sep 20. The badge names the shop but gives a driver nothing to search. Etsy "custom text vinyl decal", $8–15.
