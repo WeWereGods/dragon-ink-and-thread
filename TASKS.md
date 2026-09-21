@@ -116,8 +116,17 @@ pairs from the start**; they cannot be assembled from the tub.
 | **Mommy & Me set** | **$16** |
 | **Sachets — lavender AND cinnamon** | **$5** each ✓ decided 2026-09-21 |
 
-**Whole dollars throughout**, so the no-coins float still works. ⚠️ **3 scrunchies at $15 and 2 at $10
-are BOTH $5 each** — if 2/$10 is kept, the 3-pack needs to drop or it buys nothing.
+**Whole dollars throughout**, so the no-coins float still works.
+✅ **CONFIRMED BY THE OWNER 2026-09-21 — and it resolves the Sep 19 conflict: THERE IS NO 2-FOR-$10 ON
+SCRUNCHIES.** The improvised 2/$10 was $5 each, identical to the 3-pack, which left the third
+scrunchie buying nothing. **3 for $15 is now the only scrunchie bundle** and it is no longer undercut.
+🔍 **AUDITED FOR ARBITRAGE — the ladder holds:** the 3rd scrunchie costs **$3** ($12→$15) and the 2nd
+bow costs **$8** ($12→$20), so both bundles genuinely pull. **Two Mommy & Me sets = $32, and the same
+pieces bought as parts (2 bows at $20 + 2 scrunchies at $12) = $32** — identical, so the set cannot be
+gamed by splitting it.
+📌 **One combination does not line up:** 2 bows + 3 scrunchies is **$35** bought separately vs **$38**
+as two sets plus a scrunchie. Rare enough that the board should NOT be complicated for it — recorded
+only so it is a known gap rather than a surprise.
 ⚠️ **This is NOT on the website, in Stripe or in shop-data** — market pricing only until it proves out.
 
 ### 🧭 NEW CATEGORIES — ASKED 2026-09-19, ANSWERED THE SAME DAY. **Read this before adding one.**

@@ -77,6 +77,25 @@ that is the whole advantage, and the site says "sewn and ready to ship" for exac
 
 ---
 
+## 💷 The price ladder — confirmed by the owner 2026-09-21
+
+**Decided once, off the table. Put it on a chalkboard and stop negotiating it.**
+
+| | |
+|---|---|
+| Scrunchie | **$6** · **3 for $15** |
+| Bow | **$12** · **2 for $20** |
+| **Mommy & Me set** (matching bow + scrunchie) | **$16** |
+| Sachet — lavender or cinnamon | **$5** |
+
+⚠️ **There is NO 2-for-$10 on scrunchies.** It was improvised on Sep 19 and it priced the same as the
+3-pack, so the third scrunchie bought nothing. **Point at 3 for $15 instead** — it moves more stock.
+✅ **Whole dollars throughout**, which is what lets the float carry no coins.
+✅ **The set is $2 off, not a sixth off, ON PURPOSE** — its value is that it MATCHES, and nobody else
+at the market can sell the same fabric twice. It is not competing on price.
+📉 **Sep 19's lesson: the discounting was a first-hour habit that wore off.** The last three sales of
+the day were all at full price, including the dearest thing on the table. **The prices are fine.**
+
 ## Open question from the first market
 
 **"2 for $20" on bows was invented at the table on Sep 19** and is on no sign, not in Stripe and not
