@@ -34,6 +34,33 @@ const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g
 
 const total = GROUPS.reduce((n, g) => n + g.items.length, 0);
 
+/* The search box is written HIDDEN and revealed by js/fabrics.js — same rule as the
+   away banners: a control that needs JS should not appear when JS is off, or it is a
+   dead end. With 76 fabrics and people arriving with a word in mind ("coffee",
+   "gingham"), typing beats scanning eight groups. */
+const search =
+  '<div class="fabric-search" hidden>' +
+    '<label class="sr-only" for="fabricSearch">Search fabrics by name</label>' +
+    '<input id="fabricSearch" class="fabric-search-input" type="search" autocomplete="off" ' +
+      'placeholder="Search fabrics — try coffee, floral, Christmas" />' +
+    '<p class="fabric-count" role="status" aria-live="polite"></p>' +
+  '</div>';
+
+/* Plain words a shopper actually types, per group. The names are romantasy on purpose
+   ("Espresso Roses", not "coffee rose print"), so searching "coffee" found NOTHING until
+   this existed. Keyed on the group label, so a new fabric inherits its group's words.
+   Add to these whenever a search comes up empty that should not have. */
+const KEYWORDS = {
+  "The Cup and Cozy": "coffee espresso latte mocha cocoa caffeine mug cup cozy brew",
+  "Florals & Botanicals": "floral flower flowers rose roses daisy garden botanical leaf leaves",
+  "Creatures & Curiosities": "animal animals cat cats dog bee bees butterfly bug creature",
+  "Blenders & Textures": "solid solids blender texture plain gingham plaid stripe striped dot dots check",
+  "Once Upon a Woodland": "woodland forest mushroom mushrooms tree trees fox deer moss",
+  "Tea with the Suriel": "tea book bookish fantasy romantasy acotar suriel lace",
+  "Postcards and Pumpkins": "fall autumn halloween pumpkin pumpkins spooky harvest",
+  "Ribbons and Evergreen": "christmas xmas holiday winter evergreen pine snow festive",
+};
+
 const filters =
   '<nav class="fabric-filters" aria-label="Fabric groups">' +
   '<button class="fabric-filter is-active" type="button" data-fabric-filter="all">All <span class="n">' + total + "</span></button>" +
@@ -44,7 +71,8 @@ const filters =
   "</nav>";
 
 const sections = GROUPS.map((g) =>
-  '<section class="fabric-group" id="' + slug(g.label) + '" data-fabric-group="' + slug(g.label) + '">' +
+  '<section class="fabric-group" id="' + slug(g.label) + '" data-fabric-group="' + slug(g.label) + '"' +
+    ' data-fabric-keywords="' + esc(((KEYWORDS[g.label] || '') + ' ' + g.label).toLowerCase()) + '">' +
     '<div class="section-head fabric-group-head">' +
       "<h2>" + esc(g.label) + "</h2>" +
       (g.note ? '<p class="section-sub">' + esc(g.note) + "</p>" : "") +
@@ -152,6 +180,7 @@ const html = `<!DOCTYPE html>
 
     <div class="section fabric-wrap">
       <div class="container">
+        ${search}
         ${filters}
         ${sections}
         <p class="fabric-empty" hidden>No fabrics in that group.</p>
