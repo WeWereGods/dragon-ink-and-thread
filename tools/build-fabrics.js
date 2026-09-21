@@ -172,6 +172,7 @@ const html = `<!DOCTYPE html>
   <footer class="site-footer">
     <div class="container footer-inner">
       <p class="footer-brand">Dragon Ink and Thread</p>
+      <p class="footer-tagline">Handmade heirlooms for everyday wonder</p>
       <p class="footer-copy">Made with love in San Antonio · ★ Proudly Veteran-Owned</p>
       <p class="footer-links">
         <a href="privacy.html">Privacy Policy</a> ·

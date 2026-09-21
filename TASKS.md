@@ -866,6 +866,15 @@ Two rules that keep this useful:
   and a **market flyer** (tall, square, and two earlier versions; no dates, so it's reusable).
   ⚠️ **Word copies couldn't be previewed here** (Word's PDF export hangs) — test-print them.
   - [ ] Two sign holders · a copy of the sales tax permit
+  - [ ] 🎨 **JANUARY LIST — rebrand the website to match the printed kit** (decided 2026-09-20, deliberately NOT now).
+        The site is teal plush dragon + pink gingham; the cards, tags, signs and banner are parchment + deep green +
+        rose florals. **Why January and not now:** the site gets little traffic, Oct 30 and Nov 14 are the last and
+        biggest selling days before the move, and **the teal dragon is also on the car, the stickers and the socials** —
+        restyling only the site would widen the split, not close it. January has no markets, a new address forces site
+        edits anyway, the current stickers will be used up, and four markets of evidence will exist.
+        ✅ **Done meanwhile (2026-09-20): the tagline now carries across the whole site** — "Handmade heirlooms for
+        everyday wonder" is the footer line on all 46 pages and the shop-page eyebrow, matching the badge and banner.
+        Both page generators carry it, so rebuilds keep it.
   - [ ] 📦 **MOVING at the end of November / in December (owner, 2026-09-20) — NO December markets.**
         ⚠️ **So Sat Nov 14 is the LAST market of the year**, and the Christmas stock has to sell at **Oct 30, Nov 14 or
         online** — not at a December market. That reprices the whole October sewing plan: **Christmas bows, balsam fir

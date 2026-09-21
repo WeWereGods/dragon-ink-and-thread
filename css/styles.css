@@ -1300,6 +1300,14 @@ h3 { font-size: 1.4rem; }
   font-size: 1.4rem;
   margin: 0 0 0.3rem;
 }
+/* The tagline from the badge, the stamp and the market banner (2026-09-20). It is on
+   the homepage hero already; here it carries across every other page. */
+.footer-tagline {
+  font-family: var(--font-script);
+  font-size: 1.15rem;
+  color: #f0e6d2;
+  margin: 0 0 0.45rem;
+}
 .footer-copy { margin: 0; color: #e7dcc6; font-size: 0.92rem; }
 .footer-links {
   margin: 0.7rem 0;
