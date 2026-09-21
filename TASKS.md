@@ -64,6 +64,29 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+### 🪷 SACHETS — **$5**, AND A CINNAMON ONE JOINS THE LAVENDER (decided 2026-09-21)
+
+Both sachets sold at $5 on Sep 19, so $5 was already the real price. **Now it is the printed one too**,
+and the **cinnamon** variant sits alongside at the same $5 — the near-zero-risk seasonal play: same
+process, same pattern, same price, extra pull at the **Oct 30 night market and the Christmas markets**.
+
+🚨 **THE STRIPE QUICK-LINK IS STILL SET TO $6.** `https://buy.stripe.com/8x214n1H49eNfVM0CRfjG0B`
+(qty 1–10, tax off) was built at the old price. **Until it is changed, a card customer is charged $6
+while a cash customer beside them pays $5** — the exact inconsistency the ladder exists to prevent.
+✅ **ONE $5 "SACHET" LINK COVERS BOTH SCENTS** — same price, same product, no reason for two links.
+Relabel it *Sachet (lavender or cinnamon)* rather than minting a second.
+📝 **The chalkboard reads "Lavender Sachets"** — rewrite it to cover both, since chalk is the one
+sign that costs nothing to change.
+
+⚠️ **THE MICROWAVE RULE APPLIES DOUBLE TO CINNAMON.** "For drawers, closets or under your pillow" —
+**never a heat pack.** Cinnamon especially invites *"can I warm it up?"*, because people associate the
+smell with stovetop simmer pots. **The answer is no**, and it needs saying before they ask.
+📦 **STORE THE TWO SCENTS SEPARATELY.** Sealed in one tub, cinnamon will carry into the lavender and
+you end up with a dozen sachets that all smell the same and none of them right. **Two bags, not one** —
+and keep both away from the totes and bows for the same reason.
+📉 **Restock band from Sep 19 stands: 2 of 6 sold → make SIX for Sep 26**, now split across the two
+scents. **That split is itself the test** of which scent people reach for.
+
 ### 👧 MOMMY-AND-ME SET — PRICE IT AT **$16** (decided 2026-09-21)
 
 A matching **bow + scrunchie in the same fabric**. Parts are $12 + $6 = **$18**, so $16 is **$2 off**.
@@ -91,7 +114,7 @@ pairs from the start**; they cannot be assembled from the tub.
 | Scrunchie | **$6** · 3 for **$15** |
 | Bow | **$12** · 2 for **$20** |
 | **Mommy & Me set** | **$16** |
-| Lavender sachet | **$5** or **$6** — still to decide |
+| **Sachets — lavender AND cinnamon** | **$5** each ✓ decided 2026-09-21 |
 
 **Whole dollars throughout**, so the no-coins float still works. ⚠️ **3 scrunchies at $15 and 2 at $10
 are BOTH $5 each** — if 2/$10 is kept, the 3-pack needs to drop or it buys nothing.
@@ -208,9 +231,8 @@ data points on different crowds is worth far more than a decision made on one.
 ✅ **THE $6 SCRUNCHIE PRICE HOLDS ON SINGLES** — sold at sticker, unremarked. That reframes the
 earlier 2-for-$10 as a **bundle** rather than a price cut, which is the healthier shape (and it is
 still the thing that undercuts the 3-for-$15 — see below).
-💰 **SACHETS ARE NOW 2 FOR 2 AT $5. So $5 IS THE PRICE; $6 is just what the tag says.** Decide
-before Sep 26 — either print $5 and let it sell itself, or hold $6 and mean it. **"$6 discounted to
-$5" negotiated every single time is the one option that costs effort AND money.**
+✅ **RESOLVED 2026-09-21: SACHETS ARE $5.** Both sold at $5 on the day, so $5 was already the real
+price and $6 was only what the tag said. Now it is the tag too. **A CINNAMON sachet joins it at $5.**
 📉 **2 of 6 sachets gone → the MIDDLE restock band: make 6 for Sep 26, not 12.**
 🪷 **SALE 4 — ONE LAVENDER SACHET AT $5** (listed $6). **Running total $67; $12 above the $55 booth.**
 📉 **1 of 6 sachets gone.** The restock rule stands: **5–6 sold → 12 for Sep 26 · 2–4 → 6 ·
