@@ -64,6 +64,39 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+### 👧 MOMMY-AND-ME SET — PRICE IT AT **$16** (decided 2026-09-21)
+
+A matching **bow + scrunchie in the same fabric**. Parts are $12 + $6 = **$18**, so $16 is **$2 off**.
+
+❌ **NOT $15**, which is where the instinct pulls (it is the usual one-sixth): **it collides with the
+$15 Scrunchie Bundle AND the $15 Build Your Own Bundle.** Three different things at $15 makes the
+chalkboard mushy, and a bundle undercutting another bundle already happened once on Sep 19.
+❌ **NOT $18**, the straight sum — then it is not a bundle, it is two things side by side, and the
+first person who does the arithmetic feels played.
+✅ **WHY ONLY $2 OFF when everything else got a sixth:** those were **volume** discounts — same item,
+buy more. **This is not.** The value here is that **it matches**, and nobody else at that market can
+sell a mother and daughter the same fabric twice. **Not competing on price, so do not discount like it.**
+
+🎯 **THE STRATEGIC POINT — it fixes the bow problem without touching the bow price.** 34 bows went
+to Sep 19 and **three sold**. A set changes the question from *"do you want a bow?"* to *"do you want
+to match your little girl?"* — far harder to decline. **It gives a bow a REASON.**
+⚙️ **Efficient to make:** one fat quarter, one cutting session, one thread colour, two pieces.
+⚠️ **NOTHING IN CURRENT STOCK MATCHES.** Scrunchies are Butterfly / Cherry / Wildflower etc; bows are
+Cauldron Forged / Blushing Linen / the Suriel prints — **no shared fabric.** These must be **cut as
+pairs from the start**; they cannot be assembled from the tub.
+
+### 💷 THE PRICE LADDER FOR SEP 26 — decide it ONCE, put it on a chalkboard
+| | |
+|---|---|
+| Scrunchie | **$6** · 3 for **$15** |
+| Bow | **$12** · 2 for **$20** |
+| **Mommy & Me set** | **$16** |
+| Lavender sachet | **$5** or **$6** — still to decide |
+
+**Whole dollars throughout**, so the no-coins float still works. ⚠️ **3 scrunchies at $15 and 2 at $10
+are BOTH $5 each** — if 2/$10 is kept, the 3-pack needs to drop or it buys nothing.
+⚠️ **This is NOT on the website, in Stripe or in shop-data** — market pricing only until it proves out.
+
 ### 🧭 NEW CATEGORIES — ASKED 2026-09-19, ANSWERED THE SAME DAY. **Read this before adding one.**
 
 The owner asked, the evening of the first market, whether to make **unpaper towels** or **blankets**.
