@@ -53,7 +53,7 @@ Unlined https://buy.stripe.com/00w14netQdv34d485jfjG0z · Lined https://buy.stri
 🧵 **SUN SEP 20 SEWING — what actually got done:** **4 scrunchies** (2 new silky florals, 1 strawberry, 1 yellow daisy —
 she wrote "3" but listed four) and the **puff tote almost finished**. ⬜ **Not done: the 6 Vanilla Lace, the hair whimsys,
 the 12 plain scrunchies, the 2 sachets** — all roll forward to this week. Scrunchie stock **30 → 34**.
-☕ **"ROSE LATTE CLOUD" PUFF TOTE — $95** (named and priced 2026-09-20; `prod_VIUvYHyG99xyeE` in Stripe). 64 stuffed squares, hand-assembled;
+☕ **"ROSE LATTE CLOUD" PUFF TOTE — $95** (named and priced 2026-09-20; `prod_VIUvYHyG99xyeE` in Stripe). **64 squares sewn into 32 hand-stuffed pillows** (each pillow is a printed front and a cream back), hand-assembled;
 the most labour-heavy piece she has ever put on a table. Photographed in progress (IMG_7453/7454/7455/7456/7467/8057 in
 Downloads) — a six-photo process carousel is drafted. **6 hours plus ~$15–20 of fabric and fill** → ~$12–13/hr after materials at $95, under Etsy's $70–150 for puff totes.
 ⚠️ **Not priced off the $38 Butterfly Tote — different construction tier.** Same reasoning as the $22 Quilted Court
