@@ -7,14 +7,13 @@ const base = require("./paper-base");
 const SIGN = path.join(__dirname, "build");
 if (!fs.existsSync(SIGN)) fs.mkdirSync(SIGN, { recursive: true });
 // Updated 2026-09-21 for the Sep 26 market: seven lines, so type is smaller than the
-// original four-line sign. Bookmarks price is provisional ($5-6 was the owner's range).
+// original four-line sign. Bookmarks taken off 2026-09-21 until they are sewn.
 const ITEMS = [
   { name: "Bows", price: 12, desc: "Sailor bows on a clip" },
   { name: "Scrunchies", price: 6, desc: "Soft prints and lace", deal: "3 for $15" },
   { name: "Sachets", price: 6, desc: "Lavender or cinnamon", deal: "Gift set with a scrunchie $10" },
   { name: "Gift Card Holders", price: 10, desc: "A gift card that feels like a gift", deal: "New!" },
   { name: "Hair Whimsys", price: 5, desc: "Tie one on a braid or ponytail", deal: "New!" },
-  { name: "Bookmarks", price: 5, desc: "Fabric, for your current read", deal: "New!" },
   { name: "Pet Bandanas", price: 18, desc: "Over the collar, stretchy channel", deal: "Patchwork $22" },
 ];
 
@@ -23,7 +22,7 @@ const css = [
   ".sub{top:204px;}",
   ".ruleA{top:252px;}",
   ".items{position:absolute;left:118px;right:118px;top:268px;}",
-  ".item{padding:6px 0 7px;border-bottom:1.5px dashed rgba(147,136,88,.6);}",
+  ".item{padding:11px 0 11px;border-bottom:1.5px dashed rgba(147,136,88,.6);}",
   ".item:last-child{border-bottom:0;}",
   ".line{display:flex;align-items:baseline;gap:14px;}",
   ".nm{font-family:var(--display);font-weight:600;font-size:33px;line-height:1;white-space:nowrap;color:var(--green);}",
