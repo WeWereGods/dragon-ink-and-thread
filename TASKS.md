@@ -411,7 +411,13 @@ Two rules that keep this useful:
       🎂 **DEADLINE: HER BIRTHDAY IS SAT OCT 3 — owner wants it done by then.** Sew it **Tue Sep 22 – Thu Sep 24**,
       between the two markets. Finish it by **Fri Sep 25**, before the Sep 26 market takes over. If it's being
       posted, **ship by Tue Sep 29**. About 2–3 hours of sewing, and it needs her case-or-bare answer first.
-      ⏳ **WAITING ON HER** for style (open-top sleeve or tie cover) and case-or-bare. When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
+      ⛔ **THE CLOCK HAS NOT STARTED — SHE HASN'T PAID (owner, 2026-09-21).** Same rule as every custom job:
+      nothing is cut until payment lands. **Oct 3 is only promised if she pays in time** — to sew Sep 22–24
+      and post by Sep 29, payment needs to land by about **Thu Sep 24**. Paid later than that, it goes after
+      the Sep 26 market and the birthday date may slip; say so plainly rather than squeezing it.
+      ✉️ **NUDGE DRAFTED 2026-09-21, in Gmail Drafts, NOT YET SENT** (owner sending later) — carries the payment
+      link, the Thu Sep 24 pay-by for the birthday, and the case-or-bare question.
+      ⏳ **WAITING ON HER** for payment, style (open-top sleeve or tie cover) and case-or-bare. When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
       $25 and applies to custom, but is NOT automatic — apply it by hand only if she asks**), then cut.
       📸 **Ask for a photo when it ships** — her tote was never photographed, so the shop has her words but no
       picture. This is the chance to fix that.
