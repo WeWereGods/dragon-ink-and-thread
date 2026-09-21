@@ -53,6 +53,13 @@ const baseCss = [
   ".c.tr{right:0;top:0;background-image:url('" + url("corner-tr.png") + "');}",
   ".c.bl{left:0;bottom:0;background-image:url('" + url("corner-bl.png") + "');}",
   ".c.br{right:0;bottom:0;background-image:url('" + url("corner-br.png") + "');}",
+  // Feather the two INNER edges of each corner crop. Without this the crop reads as a
+  // paler box on the tiled paper (seen on the custom-orders sign, 2026-09-21).
+  ".c{-webkit-mask-composite:source-in;mask-composite:intersect;}",
+  ".c.tl{-webkit-mask-image:linear-gradient(to right,#000 70%,transparent),linear-gradient(to bottom,#000 70%,transparent);mask-image:linear-gradient(to right,#000 70%,transparent),linear-gradient(to bottom,#000 70%,transparent);}",
+  ".c.tr{-webkit-mask-image:linear-gradient(to left,#000 70%,transparent),linear-gradient(to bottom,#000 70%,transparent);mask-image:linear-gradient(to left,#000 70%,transparent),linear-gradient(to bottom,#000 70%,transparent);}",
+  ".c.bl{-webkit-mask-image:linear-gradient(to right,#000 70%,transparent),linear-gradient(to top,#000 70%,transparent);mask-image:linear-gradient(to right,#000 70%,transparent),linear-gradient(to top,#000 70%,transparent);}",
+  ".c.br{-webkit-mask-image:linear-gradient(to left,#000 70%,transparent),linear-gradient(to top,#000 70%,transparent);mask-image:linear-gradient(to left,#000 70%,transparent),linear-gradient(to top,#000 70%,transparent);}",
   ".inner{position:absolute;inset:56px;}",
   ".center{position:absolute;left:56px;right:56px;text-align:center;}",
   // Shared type
