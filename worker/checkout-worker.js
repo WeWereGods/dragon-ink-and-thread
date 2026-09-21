@@ -111,6 +111,11 @@ const AWAY = [
   { from: "2026-08-14T00:00:00-05:00", to: "2026-08-16T23:59:59-05:00", back: "Aug 17" },
   /* CONFIRMED 2026-08-16: Fri Aug 21 → Mon Aug 24, collectable again Tue Aug 25. */
   { from: "2026-08-21T00:00:00-05:00", to: "2026-08-24T23:59:59-05:00", back: "Aug 25" },
+  /* THE MOVE TO VIRGINIA, Nov 25 – Dec 20 2026 (owner, 2026-09-20). `moving` is
+     different in kind from a trip: she is not coming back to San Antonio, so local
+     pickup is REMOVED for this window rather than relabelled — nobody can collect
+     from an address she has left. Shipping stays on, and says it is slower. */
+  { from: "2026-11-25T00:00:00-06:00", to: "2026-12-20T23:59:59-05:00", back: "Dec 21", moving: true },
   /* The earlier unconfirmed version of this trip was never added — it was a maybe, and
      this label is a promise about when a customer can collect. To add a real trip:
      one more { from, to, back } here AND in js/dates.js, then `wrangler deploy`. */
@@ -220,19 +225,26 @@ export default {
       shipAmount = 0;
       shipLabel = "Free shipping";
     }
+    // While she is moving, say so where the choice is actually made.
+    const movingWindow = awayNow();
+    if (movingWindow && movingWindow.moving) shipLabel += " — allow 2–3 weeks extra while I move";
     params.append("shipping_options[0][shipping_rate_data][display_name]", shipLabel);
     params.append("shipping_options[0][shipping_rate_data][type]", "fixed_amount");
     params.append("shipping_options[0][shipping_rate_data][fixed_amount][amount]", String(shipAmount));
     params.append("shipping_options[0][shipping_rate_data][fixed_amount][currency]", "usd");
-    // Local pickup says when it can actually be collected if she's travelling.
+    // Local pickup says when it can actually be collected if she's travelling —
+    // and is offered AT ALL only while there is somewhere to collect from. During
+    // the move she does not come back, so the option is removed rather than dated.
     const away = awayNow();
-    const pickupLabel = away
-      ? "Local pickup (San Antonio) — collect from " + away.back
-      : "Local pickup (San Antonio)";
-    params.append("shipping_options[1][shipping_rate_data][display_name]", pickupLabel);
-    params.append("shipping_options[1][shipping_rate_data][type]", "fixed_amount");
-    params.append("shipping_options[1][shipping_rate_data][fixed_amount][amount]", "0");
-    params.append("shipping_options[1][shipping_rate_data][fixed_amount][currency]", "usd");
+    if (!(away && away.moving)) {
+      const pickupLabel = away
+        ? "Local pickup (San Antonio) — collect from " + away.back
+        : "Local pickup (San Antonio)";
+      params.append("shipping_options[1][shipping_rate_data][display_name]", pickupLabel);
+      params.append("shipping_options[1][shipping_rate_data][type]", "fixed_amount");
+      params.append("shipping_options[1][shipping_rate_data][fixed_amount][amount]", "0");
+      params.append("shipping_options[1][shipping_rate_data][fixed_amount][currency]", "usd");
+    }
 
     const resp = await fetch("https://api.stripe.com/v1/checkout/sessions", {
       method: "POST",

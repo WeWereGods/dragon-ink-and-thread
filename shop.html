@@ -70,7 +70,8 @@
     <!-- AWAY BANNER — shown ONLY while js/dates.js says a trip is running.
          Self-expiring: nothing to remember, nothing to delete. -->
     <div class="away-bar js-away" hidden role="status">
-      <span>The shop is open and you can order as normal &mdash; I'm away from the machine until <strong data-away-back>I'm back</strong>, so anything ordered now posts (or is ready to collect) that day.</span>
+      <span class="js-away-trip">The shop is open and you can order as normal &mdash; I'm away from the machine until <strong data-away-back>I'm back</strong>, so anything ordered now posts (or is ready to collect) that day.</span>
+      <span class="js-away-moving" hidden>I'm moving the studio to Virginia! <strong>The shop is open and you can order as normal</strong> &mdash; parcels just take about <strong>2&ndash;3 weeks longer than usual</strong> to post while everything is in boxes. Back to normal posting from <strong data-away-back>December 21</strong>.</span>
     </div>
 
     <!-- Catalog intro -->
@@ -122,7 +123,7 @@
     </div>
   </footer>
 
-  <script src="js/dates.js?v=71593021"></script>
+  <script src="js/dates.js?v=83e64e04"></script>
   <script src="js/shop-data.js?v=d5c03756"></script>
   <script src="js/shop.js?v=50d180fd"></script>
   <!-- Sold-out waitlist. Injects its own modal, and is shared with the generated

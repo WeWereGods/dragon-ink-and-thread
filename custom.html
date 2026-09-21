@@ -75,7 +75,8 @@
     <!-- AWAY BANNER — shown ONLY while js/dates.js says a trip is running.
          Self-expiring: nothing to remember, nothing to delete. -->
     <div class="away-bar js-away" hidden role="status">
-      <span>The shop is open and you can order as normal &mdash; I'm away from the machine until <strong data-away-back>I'm back</strong>, so anything ordered now posts (or is ready to collect) that day.</span>
+      <span class="js-away-trip">The shop is open and you can order as normal &mdash; I'm away from the machine until <strong data-away-back>I'm back</strong>, so anything ordered now posts (or is ready to collect) that day.</span>
+      <span class="js-away-moving" hidden>I'm moving the studio to Virginia! <strong>The shop is open and you can order as normal</strong> &mdash; parcels just take about <strong>2&ndash;3 weeks longer than usual</strong> to post while everything is in boxes. Back to normal posting from <strong data-away-back>December 21</strong>.</span>
     </div>
 
     <section class="section shop-hero reveal">
@@ -147,7 +148,7 @@
                    by AWAY in js/dates.js, but the words are hand-written — edit them whenever a
                    window is added or changes, or the banner will show the wrong dates. Updated
                    2026-08-16 from "August 14–16" (that trip is over) to the confirmed Aug 21–24. -->
-              <p class="custom-away js-away-notice" hidden><strong>A note on timing:</strong> I'm away <strong>August 21&ndash;24</strong>, so anything that arrives over those few days gets its reply on the 25th &mdash; do ask anyway, nothing is lost by it.</p>
+              <p class="custom-away js-away-notice" hidden><strong>A note on timing:</strong> I'm moving to Virginia <strong>November 25 &ndash; December 20</strong>. Custom orders are still very welcome, and I'll still reply &mdash; making and posting just runs about <strong>2&ndash;3 weeks longer</strong> over that stretch, so let's agree dates with that in mind.</p>
             </div>
           </li>
           <li class="custom-step">
@@ -413,7 +414,7 @@
     </div>
   </footer>
 
-  <script src="js/dates.js?v=71593021"></script>
+  <script src="js/dates.js?v=83e64e04"></script>
   <script src="js/custom.js?v=3cb45db5"></script>
 
   <!-- Pinterest Tag — ad measurement and retargeting. The tag id is public by

@@ -866,6 +866,18 @@ Two rules that keep this useful:
   and a **market flyer** (tall, square, and two earlier versions; no dates, so it's reusable).
   ⚠️ **Word copies couldn't be previewed here** (Word's PDF export hangs) — test-print them.
   - [ ] Two sign holders · a copy of the sales tax permit
+  - [ ] 🚚 **MOVE WINDOW IS LIVE ON THE SITE: Nov 25 – Dec 20 2026, back to normal Mon Dec 21** (set 2026-09-20).
+        **The shop stays OPEN** — the banner says parcels take **2–3 weeks longer**, not that the shop is shut. A new
+        `moving: true` flag on the window picks that wording over the usual away one; custom.html's timing note was
+        rewritten by hand (it names dates in prose and never auto-updates).
+        ⚠️ **LOCAL PICKUP IS REMOVED for the window, not relabelled** — she is not coming back to San Antonio, so
+        nobody can collect. Shipping at checkout also says "allow 2–3 weeks extra while I move".
+        ⬜⚠️ **THE WORKER MUST BE DEPLOYED — `cd worker` then `wrangler deploy`, from `main` after pulling.** Until
+        then the site banner promises one thing and checkout still offers pickup.
+        ⬜ **After the move:** pickup needs removing for good (or relabelling to Virginia Beach), every "sewn in San
+        Antonio" line needs changing, and Stripe Tax must move its registration TX → VA.
+        ✅ Verified by simulating the dates: Nov 25 and Dec 1 give the moving wording, Dec 21 gives none, and the old
+        August trip still gives the ordinary away wording.
   - [ ] 🎨 **JANUARY LIST — rebrand the website to match the printed kit** (decided 2026-09-20, deliberately NOT now).
         The site is teal plush dragon + pink gingham; the cards, tags, signs and banner are parchment + deep green +
         rose florals. **Why January and not now:** the site gets little traffic, Oct 30 and Nov 14 are the last and

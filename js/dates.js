@@ -85,7 +85,12 @@
     /* CONFIRMED 2026-08-16: Fri Aug 21 → Mon Aug 24, back at the machine Tue Aug 25.
        This replaces the Thu 21–Sun 24 shape that was floated and dropped; the real
        trip runs Friday to Monday, so Monday the 24th is NOT a working day. */
-    { from: "2026-08-21T00:00:00-05:00", to: "2026-08-24T23:59:59-05:00", back: "Tuesday, August 25" }
+    { from: "2026-08-21T00:00:00-05:00", to: "2026-08-24T23:59:59-05:00", back: "Tuesday, August 25" },
+    /* THE MOVE TO VIRGINIA, Nov 25 - Dec 20 2026 (owner, 2026-09-20). Not a trip: the
+       shop stays OPEN and orders are taken as normal, but parcels wait for the boxes to
+       arrive, so this window says SLOWER, not closed. `moving: true` is what makes the
+       banner say that instead of the usual away wording. */
+    { from: "2026-11-25T00:00:00-06:00", to: "2026-12-20T23:59:59-05:00", back: "Monday, December 21", moving: true }
     /* The earlier UNCONFIRMED version of this trip was deliberately kept off the site until it firmed up,
        which is why nothing had to be retracted when the dates moved. An away banner
        is a promise about when a parcel moves — only ever announce travel that is
@@ -96,7 +101,7 @@
        NOT auto-update — edit it by hand whenever a window changes. */
   ];
   var awayWindows = AWAY.map(function (w) {
-    return { from: new Date(w.from).getTime(), to: new Date(w.to).getTime(), back: w.back };
+    return { from: new Date(w.from).getTime(), to: new Date(w.to).getTime(), back: w.back, moving: !!w.moving };
   });
 
   function isOpen() { return Date.now() >= ts; }
@@ -160,6 +165,11 @@
     var now = awayNow();
     document.querySelectorAll(".js-away").forEach(function (el) { el.hidden = !now; });
     document.querySelectorAll(".js-away-notice").forEach(function (el) { el.hidden = !awayPending(); });
+    // A move is not a trip: the shop stays open and parcels are SLOWER, not stopped,
+    // so the banner carries both wordings and the running window picks one.
+    var moving = !!(now && now.moving);
+    document.querySelectorAll(".js-away-trip").forEach(function (el) { el.hidden = moving; });
+    document.querySelectorAll(".js-away-moving").forEach(function (el) { el.hidden = !moving; });
     if (now) {
       document.querySelectorAll("[data-away-back]").forEach(function (el) {
         el.textContent = now.back;
