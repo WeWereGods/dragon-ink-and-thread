@@ -85,7 +85,14 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 💰 **RESULT — MARKET 1 (Sat Sep 19): $95 in sales — past the ~$62 break-even.** The cash box held **$142**
 including the $100 float, so **cash sales $42** + card **$53** via Tap to Pay (3 charges: $32 Mastercard 10:54am · $10 Visa
 11:59am · $11 Visa 1:44pm; the 8:55am $1 test was refunded). After the 7.6% tax set-aside (~$7) and card fees (~$1.60):
-**~$86 kept, ~$31 after the $55 booth.** Cash was 44% of sales. 🧾 **SOLD (owner):** 3 bows · 4 scrunchies · 2 lavender sachets · 1 tote = 10 pieces.
+**~$86 kept, ~$31 after the $55 booth.** Cash was 44% of sales. ⬜ 📒 **STILL TO ENTER IN THE BOOKKEEPING WORKBOOK (owner will do it later, flagged 2026-09-20):**
+  Sales tab, two rows dated 2026-09-19 — **cash $42.00, tax $3.20, no Stripe fee** · **card $53.00, tax $4.04, Stripe fee
+  $1.58**. Together: $87.76 product revenue, $7.24 sales tax held for the state. Expenses tab — **Stripe Tap to Pay
+  per-authorisation fees $0.40** (10c a tap, billed separately from the percentage; four taps incl. the $1 test).
+  ⚠️ **Cash sales reach the workbook ONLY by hand** — nothing else records them, and without the row both the income and
+  the sales tax owed look too low. ⚠️ Tax figures assume 8.25%; **Spring Branch is Comal County**, so check the Rate
+  Locator before the Oct 20 return.
+🧾 **SOLD (owner):** 3 bows · 4 scrunchies · 2 lavender sachets · 1 tote = 10 pieces.
 **Itemised 2026-09-20:** scrunchies — **2 of the new lace ones** (their first outing), 1 Pink Bumble Bee, 1 Cherry ·
 bows — 1 orange pumpkin (market-only), **1 Suriel's Bouquet** (listed on the site → set `soldOut: true` 2026-09-20,
 retire ~Sep 24), 1 Christmas tree bow (market-only).
@@ -96,6 +103,9 @@ can be made. Every bow-category listing is now $12, so the JSON-LD block went hi
 ⬜ **RETIRE TOGETHER ~SEP 24** (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
 Game Day headband · Suriel's Bouquet · Tea with the Suriel set.
 📌 **The lace scrunchies sell.** Two of four scrunchie sales on their debut; worth more of them for Sep 26.
+🏷️ **ONE TAGLINE, EVERYWHERE (owner, 2026-09-20): "Handmade heirlooms for everyday wonder"** — it is on the badge, the
+stamp and the gift tags, so the banner uses it too. A second line ("handmade goods for cozy little adventures") appeared on
+a banner draft and was dropped. **Don't introduce a third.**
 🏷️ **NAMED 2026-09-20: "Vanilla Lace" (the lace ones) and "Buttercream" (the cream ones), both $6.**
 ⚠️ **Deliberately COZY, not romantasy** (owner) — they sit beside the coffee prints rather than the ACOTAR fabrics,
 so this is an exception to the usual naming voice. Both added to the Stripe catalog for Tap to Pay
@@ -871,7 +881,16 @@ Two rules that keep this useful:
   - [ ] 🆕 **TO ORDER (owner, 2026-09-20):**
         1. **Website decal for the car** — `dragoninkandthread.com`, **white**, 12–16in wide, under the badge that went
            on Sep 20. The badge names the shop but gives a driver nothing to search. Etsy "custom text vinyl decal", $8–15.
-        2. **Fabric arch banner** — ~36in x 12in, cream canvas or linen, hung from the garland arch on twine.
+        2. ✅ **BANNER DESIGN SETTLED 2026-09-20 — 48in x 12in, parchment, printed full colour, grommets.**
+           Pink blossoms on green vines either side of the name, corner filigree; the owner iterated seven versions and
+           **the blossom one wins because large shapes still read at 30ft** where fine vine detail blurs, and the pink ties
+           to the rose plaid and Blushing Linen in her actual stock. Six lines, exactly: **DRAGON / INK AND THREAD /
+           Handmade heirlooms for everyday wonder / Handmade in San Antonio / Veteran Owned / dragoninkandthread.com**
+           ⚠️ **CHECK EVERY PROOF LETTER BY LETTER — one version came back "Digon Ink an Thread"** and would have been
+           printed if nobody read it. Send wording as TEXT so the printer can paste, never as a picture to retype.
+           ⬜ Before paying, confirm: **grommets in all FOUR corners** (a top-only banner folds over itself outdoors) ·
+           **printed to the edge** · **high-resolution file at 48x12** · nothing within 3/4in of the edge.
+           📌 Carry zip ties and twine in the kit box: twine on the arch indoors, zip ties on a canopy frame outdoors.
            ⛔ **NOT a vinyl banner across the table front.** That covers the lace cloth falling to the floor, which is
            what makes the table look expensive, and shiny vinyl beside vintage lace reads trade-show. Decided 2026-09-20
            after the owner asked whether a front banner would spoil the decor. Vinyl is fine on a CANOPY frame outdoors.
