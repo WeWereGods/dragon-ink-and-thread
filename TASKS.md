@@ -75,6 +75,10 @@ In Stripe for Tap to Pay (`prod_VITzWNC6MBB9HE`). $12 of goods for $10: the poin
 🌰 **Make CINNAMON sachets too** for the fall and Christmas markets: two scents means people choose rather than decide
 whether to buy. ⚠️ **Use broken cinnamon STICKS (or cloves and orange peel), not ground** — ground marks light fabric and
 fades fast; put the spiced ones in dark or patterned fabric. Test the smell before making a batch.
+🌰 **CINNAMON SACHETS FOR SAT SEP 26: 2 planned, 1 ALREADY SEWN** (owner, 2026-09-22) — their first outing, so count them
+separately from the lavender on the night: which scent sells decides the October batch. $6, same as lavender.
+⚠️ **Not in Stripe yet** (the connector has expired) — ring up with the Lavender Sachet button or a custom $6 until
+it is added, and note which scent it was.
 📌 **Filling settled 2026-09-20: broken cinnamon STICKS + whole cloves + dried orange peel, over rice** — smells like
 mulled wine and lasts months. Line the spiced ones with muslin so bits cannot work through a seam. Whole spices from
 the Mexican aisle or a bulk bin, not supermarket jars. ⚠️ **Cinnamon essential oil irritates skin** — if it is ever used,
