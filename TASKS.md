@@ -932,8 +932,8 @@ Two rules that keep this useful:
         against $95 in five hours on Sep 19. ✅ **Organiser answered 2026-09-21: OUTDOOR · 11am–9pm · NO canopy · NO power.**
         So: the **borrowed canopy + her weights** · **battery lights** (sunset is ~6:45pm late October, so the last two
         hours are in the dark, and an unlit table sells nothing) · **two charged power banks** (ten hours of Tap to Pay) ·
-        a warm layer, since it cools off after dark. ✅ **Set-up from 9:30am** for the 11am start (organiser, 2026-09-21). ⬜ Still unknown: whether a table is
-        provided. 🔦 **Battery lights and a second power bank are on the packing list** in marketing/october-market-prep.html,
+        a warm layer, since it cools off after dark. ✅ **Set-up from 9:30am** for the 11am start (organiser, 2026-09-21). ✅ **No table provided** — bring her own, as at every
+        other market. 🔦 **Battery lights and a second power bank are on the packing list** in marketing/october-market-prep.html,
         under "Oct 24 + Oct 30 — add", since both markets run past dark with no power. ⬜ Enter the $76.87 in the workbook (Expenses → Marketing).
         🧍 A 10-hour market is a 12–13 hour day: **bring her sister** to cover breaks, and real food. ⚠️ **It would make THREE October markets** (Oct 10 day · Oct 24 · Oct 30 night), on top of the
         Christmas and fall sewing already listed for that month and the Nov 14 market. **Check the sewing load before
