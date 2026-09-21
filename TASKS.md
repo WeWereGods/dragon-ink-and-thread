@@ -63,7 +63,9 @@ uneven puffs — those are the proof it was made by a person, and the line is "e
 so no two sit exactly alike", said plainly rather than apologetically.
 📣 **Caption line: "caffeinated on cloud nine"** — the owner's phrase, kept for posts rather than the tag (too long to ask for).
 📌 **This is the FIRST one; it is a prototype as much as a product.** The next will be quicker and neater.
-⬜ **STILL TO DO on it (decided 2026-09-20):** bind the raw top edge · **cream lining, interfaced** (the body is soft,
+⬜ **STILL TO DO on it:** bind the raw top edge · **BROWN PLAID lining, interfaced** (chosen 2026-09-21 over lining in the
+coffee floral: the floral is already the whole outside, the plaid rhymes with the pink plaid in the puffs, and a mid-tone
+plaid hides pen marks a pale lining would show) · **cream straps** and **blush pocket**, both from stash (the body is soft,
 so the interfacing is what stops a $95 bag slumping on the table) · **one inside pocket in the rose plaid** · straps
 **11in drop**, cut 4in x 25in, finished 1.5–2in wide, **interfaced and box-stitched at the joins** — the strap carries all
 the weight and is what fails first on a stuffed-square bag.
