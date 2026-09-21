@@ -705,7 +705,7 @@ Two rules that keep this useful:
   public repo, like the other two.
   **Fees now: $20 + $30 + $30 = $80 for all three.** The $20 is covered by two bows.
   ✅ **ALL THREE PAID** (confirmed by the owner 2026-09-21). **Vendor fees paid to date: $175** — Sep 19 $55 · Sep 26 $20 ·
-  Oct 10 $30 · Oct 30 $30 · Nov 14 $40. Oct 24 ($76.87, Venmo request) is NOT yet paid. ✅ All five are IN the workbook
+  Oct 10 $30 · Oct 30 $30 · Nov 14 $40. Oct 24 $76.87 PAID 2026-09-21 → **$251.87 across six markets**. ✅ All five are IN the workbook
   (Expenses → Marketing), entered by hand 2026-09-21 — none of them ever touch Stripe.
   🧵 **RESEQUENCED 2026-09-14:**
   | When | Sew / do |
@@ -927,8 +927,11 @@ Two rules that keep this useful:
         ⬜ Decide what happens to the shop during the move: an AWAY window on the site, pausing local pickup, and how
         long shipping stops for. ⬜ If the move crosses state lines, the LLC, the sales tax permit and every address
         (Stripe, domain, bank) need changing — a TX-to-VA checklist already exists in the Drive.
-  - [ ] ⏳ **APPLIED, AWAITING APPROVAL — a market on Sat Oct 24 2026** (owner, 2026-09-20). Details, fee and venue
-        not yet known. ⚠️ **It would make THREE October markets** (Oct 10 day · Oct 24 · Oct 30 night), on top of the
+  - [ ] ✅ **BOOKED AND PAID — a market on Sat Oct 24 2026, about TEN HOURS** (applied 2026-09-20; **$76.87 paid by
+        Venmo 2026-09-21**). Name and venue in the private note. Her dearest booth yet: **break-even is ~$85 in sales**,
+        against $95 in five hours on Sep 19. ⬜ **Still not known: hours, indoor or outdoor, canopy, table, power, set-up**
+        — ask the organiser. ⬜ Enter the $76.87 in the workbook (Expenses → Marketing).
+        🧍 A 10-hour market is a 12–13 hour day: **bring her sister** to cover breaks, and real food. ⚠️ **It would make THREE October markets** (Oct 10 day · Oct 24 · Oct 30 night), on top of the
         Christmas and fall sewing already listed for that month and the Nov 14 market. **Check the sewing load before
         accepting**, and whether stock can be rebuilt between the 10th and the 24th.
   - [ ] 🍂 **NEW MARKET OFFERED — Sat Nov 14 2026, 10am–2pm, a fall mercado at a San Antonio arboretum**
