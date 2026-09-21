@@ -64,6 +64,30 @@ closets or under your pillow", **never as a microwave heat pack**. Keep them dry
 them at the end, and that figure feeds the **Oct 20 quarterly return** (⚠️ filed on **Comal County's**
 rate, not San Antonio's 8.25% — check the Comptroller's Rate Locator first; the 7.6% set-aside
 assumed 8.25%, so the likely error is having set aside too much).
+### 🎄 CHRISTMAS SACHET SEEN 2026-09-21 — **price it ABOVE $5**, and the TAG IS WRONG
+
+Deep red mottled cotton with **gold metallic snowflakes and stars**, shown in a video from the owner.
+Noticeably larger than a palm. **This is the seasonal variant, and it arrived fast.**
+
+🚨 **THE PRINTED TAG READS "DRAGON INK & THREAD."** The brand rule is **always "and", never "&"**
+(owner-confirmed 2026-09-16). CLAUDE.md already records that **the card art spells it with an
+ampersand and still needs correcting at source** — but it was never on this list, so nothing was
+going to make it happen. **It is now tied to physical product going to customers**, so every piece
+that leaves carries the wrong brand name. ✅ **Fix the card art before the next print run.**
+📌 The print kit already works around this by **re-rendering that line as live text** rather than
+using the picture of it — the same fix is what the tag needs.
+
+💰 **DO NOT DEFAULT THIS TO $5.** The $5 was decided for the **plain** lavender sachets on the
+evidence of two sales. **This is a different product to a different buyer:** metallic Christmas print,
+bigger, and at a Christmas market it is a **GIFT**, not a small treat for yourself. **Suggested $8**,
+with plain lavender and cinnamon staying at $5; **$6 at the very least.**
+🔍 **This is the CONSTRUCTION-TIER rule again** — the same one that kept the pet bandana floor at $22
+when the hand-pieced Quilted Court arrived. **A category can hold two tiers; price them apart.**
+❓ **Which scent is it?** Determines the tag wording and which storage bag it goes in — cinnamon and
+lavender must not share a tub.
+📷 **The footage is a show-and-tell, not a listing shot** (a drinks can, cables and a keyboard in
+frame). Fine as it is; **do not let it become the product photo.**
+
 ### 🪷 SACHETS — **$5**, AND A CINNAMON ONE JOINS THE LAVENDER (decided 2026-09-21)
 
 Both sachets sold at $5 on Sep 19, so $5 was already the real price. **Now it is the printed one too**,
