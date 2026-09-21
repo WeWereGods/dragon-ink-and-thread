@@ -879,6 +879,35 @@ Two rules that keep this useful:
         Antonio" line needs changing, and Stripe Tax must move its registration TX → VA.
         ✅ Verified by simulating the dates: Nov 25 and Dec 1 give the moving wording, Dec 21 gives none, and the old
         August trip still gives the ordinary away wording.
+  - [ ] 🐉🥐 **JANUARY PLAN — VIRGINIA BEACH, AND A SHARED TABLE WITH HER SISTER** (agreed 2026-09-21).
+        Her **sister is moving with her** and starts **pastry school**, and wants to **sell from January**, not after
+        graduating. She mocked up a joint brand: **"Dragon and Batter — Fine Pastries and Bespoke Stitches"**.
+        ✅ **The name is good and worth keeping.** ⚠️ The mockup used **"&"** — the house rule is **"and", always** — and
+        it was far too detailed to survive being shrunk to a sticker or favicon. A logo has to work small.
+
+        **STRUCTURE: an umbrella, NOT a replacement.** Dragon Ink and Thread stays the sewing business with its site,
+        customers and history; the baking gets its own name; **"Dragon and Batter" names the shared TABLE** — the banner,
+        the market listing, the joint socials. Nothing has to be dismantled, and if either of them stops, the other's
+        business is untouched. Merging them into one brand would put food rules over the sewing too.
+
+        ⛔ **FIRST, BEFORE ANY BRANDING — WHAT VIRGINIA LETS HER SELL FROM HOME.** Home-food exemptions typically allow
+        cookies, brownies, breads and dry cakes, and typically **exclude exactly what pastry school teaches**: cream
+        fillings, custards, cheesecake, anything needing refrigeration. If she wants to sell those, she needs a
+        **commercial or shared kitchen**, hired by the hour — which turns a $0 start into a few hundred a month and
+        changes the whole plan. **Ask VDACS (Virginia Dept of Agriculture and Consumer Services) — ideally before the
+        move.** That single answer sets everything else.
+
+        **Then, in order:**
+        1. Registration and labelling for whatever she is allowed to sell; check whether VA Beach markets charge food
+           vendors more, or require a separate permit or insurance.
+        2. **Rebrand work** (the entry below): the site moves to the parchment palette, new address, pickup fixed.
+        3. A **small logo** for Dragon and Batter that survives at favicon size — the line-art badge is the model.
+        4. Her sister sells small and shelf-stable from January while she learns what moves.
+        5. **A sewing line that pairs with baking** — bread bags, bowl covers, tea towels, aprons, oven mitts, mug rugs.
+           This needs no rebrand at all and the coffee prints already point at it.
+        6. **Markets from March/April**, when the Virginia Beach season starts, sharing a booth and splitting the fee.
+        📌 **The backstory is worth telling whatever the brands are called:** two sisters, one sews and one bakes.
+        That belongs in both About pages now, not only after a merge.
   - [ ] 🎨 **JANUARY LIST — rebrand the website to match the printed kit** (decided 2026-09-20, deliberately NOT now).
         The site is teal plush dragon + pink gingham; the cards, tags, signs and banner are parchment + deep green +
         rose florals. **Why January and not now:** the site gets little traffic, Oct 30 and Nov 14 are the last and
