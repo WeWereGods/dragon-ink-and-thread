@@ -82,6 +82,13 @@ In Stripe for Tap to Pay (`prod_VITzWNC6MBB9HE`). $12 of goods for $10: the poin
 🌰 **Make CINNAMON sachets too** for the fall and Christmas markets: two scents means people choose rather than decide
 whether to buy. ⚠️ **Use broken cinnamon STICKS (or cloves and orange peel), not ground** — ground marks light fabric and
 fades fast; put the spiced ones in dark or patterned fabric. Test the smell before making a batch.
+🧵 **SEWN FOR SEP 26 (2026-09-22): 2 GIFT CARD HOLDERS** (red with gold snowflakes, $10, already in Stripe as "Gift Card
+Holder") · **1 HAIR WHIMSY, 3in x 26in** — longer and narrower than either planned shape (18x4 tied as a bow, 12x5-6
+half-knotted), so it is effectively a THIRD size: a ribbon-style tail. Try it in a braid before cutting more; count it
+separately on the night. ⚠️ **One whimsy is not a debut** — the posts promise them, so a few more are needed by Saturday.
+📌 Gift card holders: **mostly Christmas, about a third year-round** (coffee prints for coffee-shop cards, bookish for
+bookstore cards, florals), **plus plaids and stripes "for him"** from stash (Toffee Plaid, Toffee Windowpane, Traditional
+Christmas, Solstice Tartan, the two stripes). No licensed sports prints.
 🌰 **CINNAMON SACHETS FOR SAT SEP 26: 2 planned, 1 ALREADY SEWN** (owner, 2026-09-22) — their first outing, so count them
 separately from the lavender on the night: which scent sells decides the October batch. $6, same as lavender.
 ⚠️ **Not in Stripe yet** (the connector has expired) — ring up with the Lavender Sachet button or a custom $6 until
