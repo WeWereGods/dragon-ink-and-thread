@@ -705,8 +705,8 @@ Two rules that keep this useful:
   public repo, like the other two.
   **Fees now: $20 + $30 + $30 = $80 for all three.** The $20 is covered by two bows.
   ✅ **ALL THREE PAID** (confirmed by the owner 2026-09-21). **Vendor fees paid to date: $175** — Sep 19 $55 · Sep 26 $20 ·
-  Oct 10 $30 · Oct 30 $30 · Nov 14 $40. Oct 24 ($76.87, Venmo request) is NOT yet paid. ⬜ All five go in the workbook
-  under Expenses → Marketing by hand; none of them ever touch Stripe.
+  Oct 10 $30 · Oct 30 $30 · Nov 14 $40. Oct 24 ($76.87, Venmo request) is NOT yet paid. ✅ All five are IN the workbook
+  (Expenses → Marketing), entered by hand 2026-09-21 — none of them ever touch Stripe.
   🧵 **RESEQUENCED 2026-09-14:**
   | When | Sew / do |
   |---|---|
