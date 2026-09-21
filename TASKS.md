@@ -866,6 +866,17 @@ Two rules that keep this useful:
   and a **market flyer** (tall, square, and two earlier versions; no dates, so it's reusable).
   ⚠️ **Word copies couldn't be previewed here** (Word's PDF export hangs) — test-print them.
   - [ ] Two sign holders · a copy of the sales tax permit
+  - [ ] 📦 **MOVING at the end of November / in December (owner, 2026-09-20) — NO December markets.**
+        ⚠️ **So Sat Nov 14 is the LAST market of the year**, and the Christmas stock has to sell at **Oct 30, Nov 14 or
+        online** — not at a December market. That reprices the whole October sewing plan: **Christmas bows, balsam fir
+        sachets, wrap squares and gift card holders must be READY BY OCT 30**, not December.
+        ⬜ Decide what happens to the shop during the move: an AWAY window on the site, pausing local pickup, and how
+        long shipping stops for. ⬜ If the move crosses state lines, the LLC, the sales tax permit and every address
+        (Stripe, domain, bank) need changing — a TX-to-VA checklist already exists in the Drive.
+  - [ ] ⏳ **APPLIED, AWAITING APPROVAL — a market on Sat Oct 24 2026** (owner, 2026-09-20). Details, fee and venue
+        not yet known. ⚠️ **It would make THREE October markets** (Oct 10 day · Oct 24 · Oct 30 night), on top of the
+        Christmas and fall sewing already listed for that month and the Nov 14 market. **Check the sewing load before
+        accepting**, and whether stock can be rebuilt between the 10th and the 24th.
   - [ ] 🍂 **NEW MARKET OFFERED — Sat Nov 14 2026, 10am–2pm, a fall mercado at a San Antonio arboretum**
         (flyer shown 2026-09-20; name, address and organiser are in the private note). **$40 booth · OUTDOOR ·
         canopy REQUIRED · no power · no table provided · 4 hours ·** 40+ vendors, named sponsors and two named
@@ -885,7 +896,12 @@ Two rules that keep this useful:
            Pink blossoms on green vines either side of the name, corner filigree; the owner iterated seven versions and
            **the blossom one wins because large shapes still read at 30ft** where fine vine detail blurs, and the pink ties
            to the rose plaid and Blushing Linen in her actual stock. Six lines, exactly: **DRAGON / INK AND THREAD /
-           Handmade heirlooms for everyday wonder / Handmade in San Antonio / Veteran Owned / dragoninkandthread.com**
+           Handmade heirlooms for everyday wonder / Veteran Owned / dragoninkandthread.com**
+           ✅ **FINAL 2026-09-20: parchment with lace, thread spools, buttons, thimble and lavender, blossoms both sides.**
+           ⚠️ **"Handmade in San Antonio" was DROPPED on purpose — she moves to Virginia in Nov/Dec**, so a city on a
+           banner would be wrong after two markets. Anything else printed from here on should think the same way.
+           ⚠️ **Three separate proofs came back with garbled text** ("Digon Ink an Thread", then two mangled taglines).
+           The tagline line is where it keeps happening — read it word by word every time.
            ⚠️ **CHECK EVERY PROOF LETTER BY LETTER — one version came back "Digon Ink an Thread"** and would have been
            printed if nobody read it. Send wording as TEXT so the printer can paste, never as a picture to retype.
            ⬜ Before paying, confirm: **grommets in all FOUR corners** (a top-only banner folds over itself outdoors) ·
