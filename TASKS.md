@@ -727,6 +727,15 @@ Two rules that keep this useful:
   So: **battery lights only** (no plug-in string lights), **bring a charged power bank** — Tap to Pay runs on the
   phone and an evening market drains it — and **arrive 2:30 for a 4pm start**, 90 minutes to set up. The name, place and contact stay out of this
   public repo, like the other two.
+  🎯 **EXPECTATIONS AND GOALS (set 2026-09-21).** Benchmark: **Sep 19 did ~$95** (1 tote, 4 scrunchies, 3 bows,
+  2 sachets) on a $55 booth. This one is a $20 booth inside a boutique — shoppers already in the mood, but an
+  evening browse crowd and probably fewer of them. **Slow $40–60 · likely $80–130 · great $150+** (a tote sale).
+  **Don't count on the Rose Latte Cloud at $95** — a sale is a bonus; unsold, it goes online at $75 as planned.
+  Small gifts (scrunchies, sachets, gift card holders, bookmarks) will likely carry the night.
+  - [ ] **Beat $95** — the Sep 19 number.
+  - [ ] **Note what sells FIRST** — whimsys, gift card holders and bookmarks all debut here; this sizes Oct 10.
+  - [ ] **Grow followers** — keep the QR sign visible; a follower tonight can buy in November.
+  - [ ] **Get to know the boutique owner** — future events, and possibly consignment.
   **Fees now: $20 + $30 + $30 = $80 for all three.** The $20 is covered by two bows.
   ✅ **ALL THREE PAID** (confirmed by the owner 2026-09-21). **Vendor fees paid to date: $175** — Sep 19 $55 · Sep 26 $20 ·
   Oct 10 $30 · Oct 30 $30 · Nov 14 $40. Oct 24 $76.87 PAID 2026-09-21 → **$251.87 across six markets**. ✅ All five are IN the workbook
