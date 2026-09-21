@@ -872,8 +872,7 @@ Two rules that keep this useful:
         rewritten by hand (it names dates in prose and never auto-updates).
         ⚠️ **LOCAL PICKUP IS REMOVED for the window, not relabelled** — she is not coming back to San Antonio, so
         nobody can collect. Shipping at checkout also says "allow 2–3 weeks extra while I move".
-        ⬜⚠️ **THE WORKER MUST BE DEPLOYED — `cd worker` then `wrangler deploy`, from `main` after pulling.** Until
-        then the site banner promises one thing and checkout still offers pickup.
+        ✅ **WORKER DEPLOYED 2026-09-21** — checkout now matches the banner.
         ⬜ **After the move:** pickup needs removing for good (or relabelling to Virginia Beach), every "sewn in San
         Antonio" line needs changing, and Stripe Tax must move its registration TX → VA.
         ✅ Verified by simulating the dates: Nov 25 and Dec 1 give the moving wording, Dec 21 gives none, and the old
