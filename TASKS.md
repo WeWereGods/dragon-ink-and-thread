@@ -957,6 +957,20 @@ Two rules that keep this useful:
         ✅ **Done meanwhile (2026-09-20): the tagline now carries across the whole site** — "Handmade heirlooms for
         everyday wonder" is the footer line on all 46 pages and the shop-page eyebrow, matching the badge and banner.
         Both page generators carry it, so rebuilds keep it.
+        🖼️ **MOCKUP MADE 2026-09-22** (`DownloadsDragon Ink rebrand mockup.png`, source in the session scratchpad):
+        parchment + deep green + wine, Cormorant wordmark, the print kit's corner vines framing the hero, sage-bordered
+        product cards, green buttons, the tagline under the name and again in the footer. ✅ **Owner picked the GREEN
+        parchment dragon for the hero** over the teal plush one — cropped with his own paper, so he sits on the page
+        with no seam. The teal dragon stays the logo everywhere else (socials, car, stickers, favicon).
+        ⏱️ **ESTIMATE (2026-09-22): 4–6 hours of build, over 2–3 sessions, plus about an hour of the owner's decisions.**
+        Colours + type 1–1.5 h (the theme runs on `:root` variables, then a hand-coloured sweep of every page) ·
+        hero and dragon art 1–1.5 h · both page generators + rebuild 30 min · **a NEW share card 45 min** (og-image has
+        the old palette baked into pixels and needs a NEW filename — Facebook caches hard) · favicon and small bits
+        30 min · testing phone/tablet/desktop + dark mode 1 h.
+        ⚠️ **DO IT IN ONE WEEK, not in stages** — new colours on the homepage and old ones on the product pages looks
+        broken in a way neither version does.
+        🙋 **Owner's part:** whether the header shows a mark or just the wordmark, and **a better About photo** —
+        `assets/about.jpg` is still a phone selfie and is the weakest thing on an otherwise polished page.
   - [ ] 📦 **MOVING at the end of November / in December (owner, 2026-09-20) — NO December markets.**
         ⚠️ **So Sat Nov 14 is the LAST market of the year**, and the Christmas stock has to sell at **Oct 30, Nov 14 or
         online** — not at a December market. That reprices the whole October sewing plan: **Christmas bows, balsam fir
