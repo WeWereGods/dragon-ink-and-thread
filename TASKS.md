@@ -231,6 +231,7 @@ Two rules that keep this useful:
 > | **Mon Sep 21** | 📬 | **Deliveries start landing** — ✅ car logo already here (Sep 20) · both sticker batches open their windows today. 📣 Also **S1b, the first local group post** |
 > | **Fri Sep 25** | 📦 | Pack for the first market · Tap to Pay test · cash · night-before post · ⚠️ **THE REAL DELIVERY CUTOFF** — anything not here by tonight doesn't go to Sep 26 |
 > | **🎪 Sat Sep 26** | **MARKET 2 · 4–9pm · inside the boutique · $20** | **Set up from 2:30** · no power · no tent, table only · 🆕 **Added 2026-09-14** — see the entry at the top of "Dated" |
+> | **❓ Sun Sep 27** | **MAYBE · 5–10pm · night market, same site as Oct 30** | 🆕 **Asked 2026-09-22.** The Oct 10 / Oct 30 organiser put the logo on a two-night flyer (Sat 26 + Sun 27) that was never booked; Sat clashes with the boutique, so the owner asked to join **Sunday only**. ⏳ **Waiting on her reply:** fee, indoor/outdoor + power, canopy/table, set-up time. **Go if the fee is ≤ ~$30 and the table can be lit** (battery lights not bought yet; the canopy is borrowed for Oct–Nov). Main value: **scouting the Oct 30 site a month early.** Name and place in private notes |
 >
 > **Tue 18 – Thu 20, the last working run before the trip. Sequenced 2026-08-18:**
 > 1. ✅ **TODAY — Maurya's wheelchair tote is COMPLETE.** Drop-off this evening; that closes her
