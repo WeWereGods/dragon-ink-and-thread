@@ -1508,7 +1508,7 @@ Two rules that keep this useful:
       frame the shop was going to buy, the "take the photo home from the handover" flag. **None of it is outstanding.**
       💵 **$250 of the $1,050 commission is now delivered work.** The **$800 heirloom wall hanging remains**, due
       **Feb 19, 2027** — that is the whole of what Linda is still owed.
-      🪡 **STARTED 2026-09-22 — STEP 1 IS SEAM RIPPING EVERY GARMENT** (owner). Slotted into market weeks as
+      🪡 **STARTED 2026-09-22 — STEP 1 IS SEAM RIPPING EVERY GARMENT** (owner). ✅ **Sep 22 evening: every garment PHOTOGRAPHED whole, and seam ripping BEGUN.** ✉️ **ASKED HER 2026-09-22 (sent) what she wants KEPT WHOLE** — maker✅ **Sep 22 evening: every garment PHOTOGRAPHED whole, and seam ripping BEGUN.**#39;s label, a pocket, a cuff, the collar. ⛔ **Unpick seams only until she answers; cut nothing**, the jacket least of all. Slotted into market weeks as
       **30–45 min evening sessions** (Tue/Wed/Thu Sep 22–24), never on market days — it is quiet, sit-down work that
       fits round the sewing. **Photograph each garment whole before the first stitch comes out**, and keep anything she
       may want whole (labels, a pocket, the collar) uncut. ⚠️ **Wool: bag the unpicked pieces sealed** against moths.
