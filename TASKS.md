@@ -227,9 +227,9 @@ Two rules that keep this useful:
 > | ~~Fri Sep 18~~ | ✅ **CLOSED** | ~~by Fri Sep 25~~ → ~~Thu Sep 17, unsealed, second photo on a return visit~~ → ✅ **delivered and accepted Thu Sep 17. No return visit, no second photo, nothing outstanding** |
 > | **🎪 Sat Sep 19** | **MARKET 1 · 10am–3pm · OUTDOOR** | 🆕 **Signed up 2026-09-17.** Own table, **canopy rented**. ⚠️ **This is now the FIRST market, not Sep 26** · ⛔ **the sewing that was booked for today is displaced** |
 > | **Sun Sep 20** | 🧵 | **12 scrunchies** · **hair whimsys** in two sizes, from bow leftovers (sew one of each first and try them in your hair) · **2 lavender sachets** (brings the Sep 26 basket back to 6). Nothing else needs restocking — Sep 19 sold 3 of 34 bows and 4 of 30 scrunchies |
-> | **Tue Sep 22** | 🧵 | 🗓️ **Sewing plan set 2026-09-22.** Try the first whimsy (3″ × 26″) in your hair, then **3–4 more whimsys** · **2–4 gift card holders** (a plaid one or two) · ✉️ **send Cassidy's nudge** from Gmail Drafts · 🔖 bookmarks OFF this week (owner, 2026-09-21) |
-> | **Wed Sep 23** | 🧵 | **6 Vanilla Lace scrunchies** · **2 lavender + 1 cinnamon sachet** |
-> | **Thu Sep 24** | 🧵 | **Cassidy's Kindle sleeve** — only if she has PAID and answered case-or-bare (Thu is her pay-by for Oct 3). Otherwise catch up on Tue/Wed · **Rose Latte Cloud:** trim threads, press the strap |
+> | **Tue Sep 22** | 🧵 | 🗓️ **Sewing plan set 2026-09-22.** Try the first whimsy (3″ × 26″) in your hair, then **3–4 more whimsys** · **2–4 gift card holders** (a plaid one or two) · ✉️ **send Cassidy's nudge** from Gmail Drafts · 🔖 bookmarks OFF this week (owner, 2026-09-21) · 🪡 **Evening: Linda's wall hanging — seam ripping, 30–45 min.** Photograph each garment FIRST |
+> | **Wed Sep 23** | 🧵 | **6 Vanilla Lace scrunchies** · **2 lavender + 1 cinnamon sachet** · 🪡 **Evening: Linda seam ripping, 30–45 min** |
+> | **Thu Sep 24** | 🧵 | **Cassidy's Kindle sleeve** — only if she has PAID and answered case-or-bare (Thu is her pay-by for Oct 3). Otherwise catch up on Tue/Wed · **Rose Latte Cloud:** trim threads, press the strap · 🪡 **Evening: Linda seam ripping, 30–45 min** |
 > | **If Sun Sep 27 is confirmed** | 🧵 | **+2 whimsys, +2 sachets** only — ~80 pieces already covers two nights. Don't sew these until the organiser says yes. Sunday afternoon tops up whatever Saturday sold out |
 > | **Mon Sep 21** | 📬 | **Deliveries start landing** — ✅ car logo already here (Sep 20) · both sticker batches open their windows today. 📣 Also **S1b, the first local group post** |
 > | **Fri Sep 25** | 📦 | **No new sewing.** Pack · 🖨️ **print the signs** (price list, custom orders, display sign, gifts card, Rose Latte Cloud story card; tent cards on cardstock) and the table plan · charge the power bank · Tap to Pay test · cash · night-before post · ⚠️ **THE REAL DELIVERY CUTOFF** — anything not here by tonight doesn't go to Sep 26 |
@@ -1489,6 +1489,12 @@ Two rules that keep this useful:
       frame the shop was going to buy, the "take the photo home from the handover" flag. **None of it is outstanding.**
       💵 **$250 of the $1,050 commission is now delivered work.** The **$800 heirloom wall hanging remains**, due
       **Feb 19, 2027** — that is the whole of what Linda is still owed.
+      🪡 **STARTED 2026-09-22 — STEP 1 IS SEAM RIPPING EVERY GARMENT** (owner). Slotted into market weeks as
+      **30–45 min evening sessions** (Tue/Wed/Thu Sep 22–24), never on market days — it is quiet, sit-down work that
+      fits round the sewing. **Photograph each garment whole before the first stitch comes out**, and keep anything she
+      may want whole (labels, a pocket, the collar) uncut. ⚠️ **Wool: bag the unpicked pieces sealed** against moths.
+      ⚠️ **The Virginia move (Nov 25) lands inside this job** — the more that is unpicked, pressed and planned before
+      then, the less of Linda's garments travel loose in a moving box.
       📸 **ASKED 2026-09-17 — awaiting Linda's reply.** The owner has asked her for a photo and a review.
       ⏳ **Nothing of this box may be published until she says yes** — same rule as Maurya's order.
       **What exists already:** Linda sent a photo of it displayed on a bookcase at her house
