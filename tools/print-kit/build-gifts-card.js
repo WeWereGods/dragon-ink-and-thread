@@ -61,7 +61,7 @@ const css = [
   ".rule i{height:1.2px;background:linear-gradient(90deg,transparent,var(--sage),transparent);flex:1;max-width:80px;}",
   ".rule b{color:var(--wine);font-size:10px;line-height:1;}",
   ".items{position:absolute;left:44px;right:44px;top:172px;}",
-  ".it{padding:12px 0 12px;border-bottom:1.2px dashed rgba(147,136,88,.6);}",
+  ".it{padding:8px 0 8px;border-bottom:1.2px dashed rgba(147,136,88,.6);}",
   ".it:last-child{border-bottom:0;}",
   ".ln{display:flex;align-items:baseline;gap:8px;}",
   ".nm{font-family:var(--display);font-weight:600;font-size:22px;line-height:1;color:var(--green);white-space:nowrap;}",
@@ -69,7 +69,9 @@ const css = [
   ".pr{font-family:var(--display);font-weight:700;font-size:25px;line-height:1;color:var(--wine);white-space:nowrap;}",
   ".pr sup{font-size:14px;vertical-align:top;position:relative;top:3px;margin-right:1px;}",
   ".note{font-size:10px;font-weight:700;color:var(--sage);margin-top:2px;}",
-  ".ruleB{top:462px;}",
+  ".mix{top:432px;left:40px;right:40px;}",
+  ".mix span{display:inline-block;font-family:var(--display);font-weight:700;font-size:15px;color:var(--wine);border:1.5px solid var(--rose);border-radius:999px;padding:2px 12px;}",
+  ".ruleB{top:466px;}",
   ".ask{top:478px;left:60px;right:60px;font-family:var(--script);font-size:21px;color:var(--wine);line-height:1.1;}",
   ".ft{top:530px;left:92px;right:92px;font-family:var(--body);font-weight:800;letter-spacing:.05em;color:var(--green);text-transform:uppercase;font-size:8px;line-height:1.5;}",
 ].join("\n");
@@ -86,6 +88,7 @@ const body = '<div class="card">' +
   '<div class="ctr title">Gifts<small>$10 AND UNDER</small></div>' +
   '<div class="ctr ruleA"><span class="rule"><i></i><b>&#10084;</b><i></i></span></div>' +
   '<div class="items">' + items + "</div>" +
+  '<div class="ctr mix"><span>any 2 of the $5 &amp; $6 pieces: $10</span></div>' +
   '<div class="ctr ruleB"><span class="rule"><i></i><b>&#10022;</b><i></i></span></div>' +
   '<div class="ctr ask">for teachers, friends and stockings</div>' +
   '<div class="ctr ft">@dragonink_and_thread<br>dragoninkandthread.com</div>' +

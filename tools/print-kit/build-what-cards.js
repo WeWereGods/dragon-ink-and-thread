@@ -22,7 +22,8 @@ const CARDS = [
   {
     key: "whimsy", eyebrow: "what is a", title: "Hair Whimsy?", price: 5,
     lead: "A long fabric tie that turns an everyday braid or ponytail into something a little magical.",
-    steps: ["Wrap it round your hair tie", "Knot it once", "Let the tails fall loose"],
+    // Two sizes since 2026-09-22: long (3 x 28in) ties into a bow, short (3 x 19in) knots and dangles.
+    steps: ["Wrap it round your hair tie", "Long: tie it in a bow", "Short: knot it, let it dangle"],
     close: "braids · buns · ponytails · wrists",
   },
   {

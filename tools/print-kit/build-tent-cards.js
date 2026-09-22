@@ -23,9 +23,9 @@ const CORNER = Math.round(250 * S);
 const TILE_W = Math.round(320 * S), TILE_H = Math.round(300 * S);
 
 const TENTS = [
-  { eyebrow: "what is a", title: "Hair Whimsy?", price: 5,
-    text: "A long fabric tie for braids, buns and ponytails. Wrap it, knot it once, let the tails fall." },
-  { eyebrow: "what is a", title: "Sachet?", price: 6,
+  { eyebrow: "what is a", title: "Hair Whimsy?", price: 5, deal: "or 2 for $10",
+    text: "A fabric tie for braids, buns and ponytails. Long ones tie in a bow; short ones knot and dangle." },
+  { eyebrow: "what is a", title: "Sachet?", price: 6, deal: "or 2 for $10",
     text: "A little scented pillow, lavender or cinnamon. Tuck one in a drawer, closet or car." },
   { eyebrow: "what is a", title: "Gift Card Holder?", price: 10,
     text: "A fabric sleeve that makes a gift card feel like a real present." },
@@ -67,13 +67,14 @@ const css = [
   ".tx{font-family:var(--display);font-style:italic;font-size:14.5px;line-height:1.3;color:var(--ink);margin-top:8px;max-width:250px;}",
   ".pr{font-family:var(--display);font-weight:700;color:var(--wine);font-size:28px;line-height:1;margin-top:8px;}",
   ".pr sup{font-size:15px;vertical-align:top;position:relative;top:3px;margin-right:1px;}",
+  ".dl{font-size:16px;font-weight:600;font-style:italic;margin-left:8px;vertical-align:middle;}",
   ".how{position:absolute;left:72px;right:72px;top:1016px;text-align:center;font-size:11px;font-weight:700;color:#8a806a;}",
 ].join("\n");
 
 function face(t, pos) {
   return '<div class="face ' + pos + '"><span class="c tl"></span><span class="c tr"></span><div class="in">' +
     '<div class="eb">' + t.eyebrow + '</div><div class="tt">' + t.title + "</div>" +
-    '<div class="tx">' + t.text + '</div><div class="pr"><sup>$</sup>' + t.price + "</div></div></div>";
+    '<div class="tx">' + t.text + '</div><div class="pr"><sup>$</sup>' + t.price + (t.deal ? '<span class="dl">' + t.deal + "</span>" : "") + "</div></div></div>";
 }
 
 const tents = TENTS.map((t) => '<div class="tent">' + face(t, "top") + face(t, "bot") + "</div>").join("");
