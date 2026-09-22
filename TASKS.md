@@ -136,6 +136,11 @@ The three neutrals read as a little set on the table: **Vanilla Lace · Buttercr
 ✅ **The tote was THE STORYKEEPER ($32 — the Mastercard charge)** ("the readers tote", owner). Set `soldOut: true` on the
 site 2026-09-19; ⬜ **retire it to Stories around Sep 23** once Pinterest has re-read the feed. First tote sold in person.
 🪻 **Sachets: 2 of 6 sold → rule says make 6 for Sep 26** (4 left + 2 new is enough).
+⚠️ **CORRECTION (owner, 2026-09-22): the two that sold on Sep 19 went for $5, not $6.** So the only evidence to date is
+at $5. ✅ **PRICE DECIDED: sachets STAY $6** (owner, 2026-09-22) — the whole small-goods table is $6 (scrunchies), $1 over
+seven sachets is negligible, and **at $5 the "any 2 for $10" deal stops being a saving on a pair of sachets**, which is
+the line that nudges a second pickup. Signs already read $6; nothing to reprint. ⬜ **Watch Sep 26:** if sachets sit while
+scrunchies and whimsys move, that is real price resistance — drop to $5 then, not before.
 
 💵 **THE FLOAT — $100, and NO COINS.** Every price is a whole dollar ($6 · $12 · $18 · $22 · $28 ·
 $30 · $35 · totes $20–38 · 3 scrunchies $15), because prices are tax-included. Nothing ever comes to
@@ -2903,6 +2908,14 @@ self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15
       hang tag** — that needs a separate small text-only stamp, which is the version that cannot fail.
       🗓️ **NOT a Sep 26 asset.** With a proof round it lands after; treat it as Oct 10 / Oct 30 and
       Christmas-market kit. Packaging was never the bottleneck — stock and footfall are.
+      🆕 **HANG TAGS MADE ON A FRIEND'S CRICUT, 2026-09-22** (owner) — the baby-dragon line art over
+      "Dragon Ink and Thread" (correctly "and"), two test tags shown. 📄 **SMOOTH CREAM CARDSTOCK IS THE ONE:
+      crisp lines, legible wordmark. The KRAFT TEXTURED tag came out fuzzy** — the texture breaks fine lines, his face
+      fills in and the name is hard to read at arm's length. **Keep the wordmark on smooth stock**; kraft only works for
+      a dragon with no words. If pen-drawn: fine-point black pen, slower draw speed, fresh pen.
+      ⚠️ **It is a BORROWED machine in San Antonio and she moves end of November** ([[moving-to-virginia]]), so Cricut
+      tags are not a long-term supply. That STRENGTHENS the stamp case below — a stamp needs no machine and works on
+      kraft, fabric labels and packaging anywhere. Print a stock of tags while the machine is available.
       ⚠️ **The badge art is not yet in the repo, and if it was AI-generated, check it for C2PA/OpenAI
       markers before it goes on anything permanent** — an AI mark is also hard to protect if copied.
 - [ ] **Policies aren't attorney-reviewed.** Worth a pass now that real money is moving.
