@@ -13,29 +13,32 @@ if (!fs.existsSync(SIGN)) fs.mkdirSync(SIGN, { recursive: true });
 const KIT = path.join(SIGN, "kit").replace(/\\/g, "/");
 const u = (f) => "file:///" + KIT + "/" + f;
 
+// Signs added 2026-09-21: three letter holders and two 4x6 holders. Tall signs go at
+// the BACK, small ones at the FRONT, and no sign may cover a product.
 const BANDS = [
   {
-    cls: "back", tag: "BACK ROW", rule: "Height and display — not for handling",
-    items: ["Tiered stand, bows on show", "Scrunchie tree", "Mirror on its easel",
-            "Display sign", "A tote propped upright"],
+    cls: "back", tag: "BACK ROW", rule: "Height and signs — seen from across the room",
+    items: ["Price list sign, at the end people reach first", "Rose Latte Cloud upright + its story card",
+            "Display sign, centre", "Custom orders sign, at your end", "Tiered stand, bows on show",
+            "Scrunchie tree", "Mirror"],
   },
   {
     cls: "mid", tag: "MIDDLE", rule: "The browse row — picked up, then put back",
-    items: ["Pet bandanas, propped not flat", "Tea cover · book sleeve · Kindle case",
-            "Price list card, standing"],
+    items: ["Pet bandanas, propped not flat", "Tea cover · book sleeve · Kindle case", "Other totes"],
   },
   {
     cls: "front", tag: "FRONT EDGE", rule: "Where hands actually land. Keep it FULL.",
-    items: ["Hair whimsys $5, in a shallow tray", "Scrunchies $6, loose in a bowl",
-            "Bows $12, in a flat basket", "Scan to Pay card", "Business cards"],
+    items: ["Gift corner: sachets, gift card holders, Cozy Gift Sets + the Gifts $10 and under card",
+            "Hair whimsys $5, in a shallow tray", "Scrunchies $6, in a bowl", "Bows $12, in a flat basket",
+            "A tent card in front of each new item", "Business cards"],
   },
 ];
 
 const STEPS = [
   ["2:30", "Arrive. Table up, cloth on, boxes underneath and out of sight."],
-  ["2:50", "Back row: tiered stand, scrunchie tree, mirror, display sign."],
-  ["3:10", "Middle: bandanas propped, tea cover, sleeve, price card."],
-  ["3:25", "Front edge: whimsys, scrunchies, bows. Fill it properly."],
+  ["2:50", "Back row: stand, scrunchie tree, mirror, Rose Latte Cloud, the three letter signs."],
+  ["3:10", "Middle: bandanas propped, tea cover, sleeve, Kindle case."],
+  ["3:25", "Front edge: gift corner, whimsys, scrunchies, bows, tent cards. Fill it."],
   ["3:40", "Tap to Pay test on your phone. Count the float. Power bank on."],
   ["3:50", "Photograph the finished table for the Story."],
   ["4:00", "Open."],
@@ -55,6 +58,12 @@ const css = [
   ".tr{right:0;top:0;background-image:url('" + u("corner-tr.png") + "');}",
   ".bl{left:0;bottom:0;background-image:url('" + u("corner-bl.png") + "');}",
   ".br{right:0;bottom:0;background-image:url('" + u("corner-br.png") + "');}",
+  // Feather the inner edges so the crops do not read as boxes (same fix as paper-base.js).
+  ".c{-webkit-mask-composite:source-in;mask-composite:intersect;}",
+  ".tl{-webkit-mask-image:linear-gradient(to right,#000 70%,transparent),linear-gradient(to bottom,#000 70%,transparent);}",
+  ".tr{-webkit-mask-image:linear-gradient(to left,#000 70%,transparent),linear-gradient(to bottom,#000 70%,transparent);}",
+  ".bl{-webkit-mask-image:linear-gradient(to right,#000 70%,transparent),linear-gradient(to top,#000 70%,transparent);}",
+  ".br{-webkit-mask-image:linear-gradient(to left,#000 70%,transparent),linear-gradient(to top,#000 70%,transparent);}",
   ".hd{position:absolute;left:210px;right:210px;top:44px;text-align:center;}",
   ".w1{font-family:var(--display);font-weight:700;font-size:34px;line-height:1;color:var(--green);letter-spacing:.02em;}",
   ".w2{font-family:var(--display);font-style:italic;font-size:19px;line-height:1.2;color:var(--wine);margin-top:5px;}",
@@ -79,11 +88,11 @@ const css = [
   ".bl,.br{width:130px;height:130px;background-size:130px 130px;}",
   // Notes + timeline. Insets clear the bottom sprays: left column starts past 130,
   // right column ends before 926.
-  ".col{position:absolute;top:516px;}",
+  ".col{position:absolute;top:506px;}",
   ".notes{left:145px;width:420px;}",
   ".time{left:590px;width:320px;}",
   ".ch{font-family:var(--display);font-weight:700;font-size:19px;color:var(--green);border-bottom:1.5px solid var(--sage);padding-bottom:3px;margin-bottom:7px;}",
-  ".n{font-size:12.5px;line-height:1.5;color:var(--ink);margin-bottom:5px;padding-left:13px;position:relative;}",
+  ".n{font-size:12px;line-height:1.4;color:var(--ink);margin-bottom:3px;padding-left:13px;position:relative;}",
   ".n::before{content:'\\2726';position:absolute;left:0;color:var(--sage);font-size:9px;top:3px;}",
   ".n b{color:var(--wine);}",
   ".t{display:flex;gap:11px;font-size:12.5px;line-height:1.5;margin-bottom:3px;}",
@@ -100,6 +109,7 @@ const notes = [
   "<b>Fill the front edge.</b> People touch what is nearest. A bare front reads as picked over even when the table is full.",
   "<b>Cheapest things forward.</b> Whimsys and scrunchies are the impulse buys — they cannot do that job from the back row.",
   "<b>Restock from behind, not from the front.</b> Close the gaps as they appear.",
+  "<b>No sign covers a product.</b> Tall signs at the back, tent cards at the front. If one blocks something, move the sign.",
   "<b>Leave a clear patch</b> at one end for wrapping and the card reader. Do not fill every inch.",
   "<b>Cash box behind you</b>, never on the table, never out of your reach.",
   "<b>Ask every buyer how they heard of you</b> and tally it. A market cannot be measured any other way.",
