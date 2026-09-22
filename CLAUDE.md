@@ -531,9 +531,14 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
 - ⚠️ **THREE MARKS, DELIBERATELY (owner, 2026-09-16). Don't "unify" them.** Each exists because a
   different medium made the others unusable:
   1. **`logo.png` — the plush TEAL dragon — is THE logo.** Site, favicon, socials, share card.
-  2. **A round black LINE-ART badge** (wordmark + needle + sprig, **no dragon**) — **stamp only.**
-     A rubber stamp is one solid colour, and the plush dragon reads entirely through tonal shading;
-     flattened to black he becomes a blob.
+  2. **A black LINE-ART stamp — wordmark + a SITTING BABY DRAGON with a ball of thread.**
+     ⚠️ **UPDATED 2026-09-22: it DOES have a dragon, and that is correct.** The original spec said
+     *no dragon* (wordmark + needle + sprig) because a stamp is one solid colour and the plush dragon
+     reads through tonal shading — flattened to black he becomes a blob. **That reasoning held for
+     THAT dragon.** The stamp solves it a better way: **a dragon REDRAWN as line art**, which survives
+     being one flat colour. **Do not "correct" this back to the no-dragon spec.**
+     ✅ **And it reads "Dragon Ink and Thread" — the WORD.** So the stamp is right where the printed
+     card is wrong, and **stamped tags are a way round the card's ampersand without reprinting it.**
   3. **A sleeping GREEN dragon on parchment** — **the printed market kit only** (signs, price tags,
      gift tags). ⚠️ **The parchment palette contains almost no blue or teal** — measured: one
      blue-ish pixel in the whole card — so the teal dragon reads as pasted-on there. A recoloured
