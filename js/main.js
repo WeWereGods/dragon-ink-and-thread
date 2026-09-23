@@ -354,7 +354,13 @@
     // are hers, just from a different channel. Recorded because checking the form alone
     // makes them look invented, which is exactly the wrong conclusion.
     { quote: "I loved Ayla's work. She took an heirloom handmade quilt that has been in my family for 30 years. It was passed down to me from my mother. I wanted to pass it down but we found a hole that needed fixing first. Ayla was able to mend it fast and beautifully — now you can't even tell. Now I can pass it on to my daughter! Ayla also created a custom tea cover with a matching tea mat that are both unique and wonderfully made.",
-      name: "Linda M.", where: "on a quilt repair and a custom tea cover", stars: 5 }
+      name: "Linda M.", where: "on a quilt repair and a custom tea cover", stars: 5 },
+    // Linda M.'s SECOND review, 2026-09-23, through the contact form again — the shadow box
+    // ($250 of the $1,050 commission, delivered and accepted 2026-09-17). Her own words,
+    // unedited. The owner reports it came in as FIVE STARS. ⚠️ This rates a CUSTOM piece,
+    // not a shop listing, so it stays OUT of the Totes aggregateRating — reviewCount is 1.
+    { quote: "I wanted to memorialize some of my husbands things. With Ayla's help I was able to do that and she made me a lovely shadow box with his homemade wizards costume that he sewed up himself! Along with some other small mementos, she preserved good memories of him in the shadow box. She was a joy to work with, she was able to take my ideas and run with them while giving her honest opinion. She was very flexible and willing to collaborate on what was possible and what was not.",
+      name: "Linda M.", where: "on a memorial shadow box", stars: 5 }
   ];
 
   var testimonialsGrid = document.getElementById("testimonials-grid");
