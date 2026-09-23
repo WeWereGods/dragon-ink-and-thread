@@ -1531,7 +1531,7 @@ Two rules that keep this useful:
       may want whole (labels, a pocket, the collar) uncut. ⚠️ **Wool: bag the unpicked pieces sealed** against moths.
       ⚠️ **The Virginia move (Nov 25) lands inside this job** — the more that is unpicked, pressed and planned before
       then, the less of Linda's garments travel loose in a moving box.
-      📸 **ASKED 2026-09-17 — awaiting Linda's reply.** The owner has asked her for a photo and a review.
+      📸 **ASKED 2026-09-17.** ✅ **REVIEW IN, 2026-09-23** — through the contact form, **five stars** (the owner confirms the rating), about the shadow box: *"she preserved good memories of him... she was able to take my ideas and run with them while giving her honest opinion... flexible and willing to collaborate on what was possible and what was not."* Added verbatim to `TESTIMONIALS` as "Linda M. · on a memorial shadow box" and LIVE in Kind Words (now 5 reviews, 3 of them custom work). ⚠️ Kept OUT of the Totes `aggregateRating` — it rates a custom piece, `reviewCount` stays 1. ⬜ **Still no publishable PHOTO of the box** — nothing may be published until she says yes.
       ⏳ **Nothing of this box may be published until she says yes** — same rule as Maurya's order.
       **What exists already:** Linda sent a photo of it displayed on a bookcase at her house
       (`Downloads\IMG_8009.jpeg`, 2026-09-17) — good proof it is up and loved, but **not a publishable
