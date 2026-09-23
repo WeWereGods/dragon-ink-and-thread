@@ -1583,6 +1583,41 @@ Two rules that keep this useful:
       over. **Fuller care notes (moths, sun, settling) go on a card that ships WITH the piece**,
       not here; they are more use in her hands in 2027 than in an invoice from August.
 
+      ## 🧢 REOPENED 2026-09-23 — LINDA WANTS AN OLD BALL CAP CUT UP AND ADDED. **QUOTE $75.**
+      ⚠️ **This is a NEW JOB, not a revision.** The box was **prepaid, delivered, accepted and closed on
+      2026-09-17**; it is at her house and has to come back. **Invoice drafted — $75 + 8.25% = $81.19**,
+      description and 393-char terms in `emails/custom-order-terms.md` (**Worked example 2**).
+      🚨 **DO NOT CUT UNTIL THE INVOICE IS APPROVED.** The hosted Stripe page carries *"the cap will be
+      cut apart… and cannot be made back into a cap"* — **paying it is her recorded consent.** If the work
+      is GIFTED, still send the invoice with the terms and mark it paid; the approval matters either way.
+      💵 **$75 because she has already paid exactly $75 for exactly this shape of job** (the quilt repair:
+      contained, skilled, irreversible, her own materials). Inside the published **Repairs, from $40** band.
+      **~2–3 hours plus two handovers.** Do NOT apply the 15% — that was on the $1,050 commission.
+      🔑 **The price is also a test of how much she wants it.** A free yes is instant; a $75 yes means she
+      is sure — and this permanently destroys her late husband's hat. **Hesitation is information you need
+      before the scissors, not after.**
+      ❓ **THREE THINGS TO ASK BEFORE AGREEING ANYTHING:**
+      1. **What does she want KEPT?** A cap will not lie flat — stiffened front panel, curved seams, rigid
+         brim, sweatband. Mount it whole (needs depth) or cut the front panel out and lose the cap forever.
+         ⚠️ **The WEAR may be the point** — a shaped brim, a sweat-marked band, the way he bent it.
+         Flattening it into a panel destroys exactly that. She may not have thought it through.
+      2. **Is there ROOM?** Get a photo of the box AS IT SITS NOW. It already holds a plush, a metal bicycle,
+         a ceramic figurine, two framed photos, the star panel and the leopard drape in a deliberately
+         balanced layout. A fourth object is a **recomposition**, not an addition.
+      3. **If it needs a BIGGER BOX, the box is hers to supply** — that is in the original terms. Much easier
+         said now than discovered later.
+      ♻️ **Return the offcuts.** The brim, sweatband and back panels are not scraps — they are the rest of
+      her husband's hat. Promised back in writing beats discovered missing.
+      🚨 **THIS IS THE FOURTH FREE ADDITION TO A CLOSED, PREPAID JOB** — second photo, figurine, print +
+      gold frame at the shop's own cost, now the cap. The first three were absorbed silently. **TASKS.md
+      flagged it on day one:** *"the shadow box is priced with its scope still unknown."* It has now
+      materialised four times.
+      📌 **AND THE $800 HEIRLOOM WALL HANGING IS STILL TO COME, DUE FEB 19 2027.** A precedent set free
+      on $250 is a precedent on $800. **Name a number even if you then waive it** — the gold-frame rule:
+      *silent generosity reads as nothing; named, it is the thing she tells people about.*
+      ⚠️ **She has also been asked for a photo and a review and has not replied.** Do not let that make
+      the answer yes to everything. She would have given both anyway.
+
       ## 🖼️ THE SHADOW BOX — agreed 2026-08-19, $250 · ✅✅ **DELIVERED, ACCEPTED AND CLOSED 2026-09-17**
       ✅ **DONE. Linda has the box, she is happy with it, and no further changes will be made** (owner, 2026-09-17).
       **Everything below is history** — the second photo, the figurine placement, the return visit, the print and

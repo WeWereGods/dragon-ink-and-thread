@@ -107,6 +107,64 @@ itemised supply list (better said in a message than buried in invoice terms).
 
 ---
 
+## Worked example 2 — Linda's ball cap, 2026-09-23 (393)
+
+**The first job where a FINISHED, DELIVERED piece comes back for irreversible work.** The shadow
+box was prepaid, delivered and accepted on 2026-09-17 and the job declared closed. Six days later
+Linda asked for her husband's old ball cap to be cut up and added to it.
+
+Blocks **1 + 2 + 3 + 5 + 7**, plus a one-line description:
+
+**Description (117):**
+
+> Your husband's ball cap, cut down and mounted into the shadow box, with the existing
+> arrangement adjusted to take it.
+
+**Terms (393):**
+
+> The cap will be cut apart to make this piece and cannot be made back into a cap. By approving
+> this invoice you confirm you understand and accept this. You provide the cap and the box; I
+> provide what holds each piece in place. Any part of the cap not used is returned to you with
+> the box. The 14 days begins when the box and cap reach me. Final sale; payment is
+> non-refundable once work begins.
+
+**$75 + 8.25% tax = $81.19.**
+
+### Why each choice, so the next one is easier
+
+- 💵 **$75 because she has already paid exactly $75 for exactly this shape of job** — the quilt
+  repair: contained, skilled, irreversible, on her own materials. **The easiest price to defend
+  is one you have already charged.** It also sits inside the published **Repairs & mending, from
+  $40, no ceiling** band. Work is ~2–3 hours plus two handovers.
+- 🔑 **THE PRICE IS ALSO A TEST OF HOW MUCH THEY WANT IT.** A free yes costs nothing and arrives
+  instantly; a $75 yes means they are sure. **On a job that permanently destroys a dead man's
+  hat, you want them to be sure.** Hesitation at the number is information you need BEFORE the
+  scissors, not after. This is the strongest reason to price an addition, ahead of the money.
+- ♻️ **Block 2 does more work here than anywhere else.** The brim, sweatband and back
+  panels are not offcuts — they are the rest of her husband's hat. **Promised back in writing**
+  beats discovered missing.
+- ⏱️ **Block 5 matters because the finished piece is AT THE CUSTOMER'S HOUSE.** The clock
+  cannot start until it comes back. First job where the thing that must arrive is the delivered
+  work itself.
+- ❌ **Blocks 4 and 6 left out:** no new paper going in, and there is no drawing for this one.
+- 📄 **The hosted Stripe invoice page IS the consent record.** Paying it is the customer's
+  yes to the irreversible line. **Wait for payment before cutting** — and if you are GIFTING the
+  work, still send the invoice with the terms and mark it paid, because the approval matters
+  whether or not money moves.
+
+### ⚠️ The pattern this exists to stop
+**A closed job is a NEW job, not a revision.** This was the FOURTH addition to a $250 prepaid
+box — a second photo, a figurine, a print with a matching gold frame bought at the shop's own
+cost, and now the cap. The first three were absorbed silently. **TASKS.md flagged the risk on day
+one:** *"the shadow box is priced with its scope still unknown… establish the contents before
+starting, not after."*
+📌 **And there is an $800 heirloom wall hanging still to come, due Feb 19 2027.** A precedent set
+free on $250 is a precedent on $800. **Name a number even when you then choose to waive it** —
+the gold-frame rule: *silent generosity reads as nothing; named, it is the thing she tells
+people about.*
+
+---
+
 ## Descriptions
 
 Terms protect; the description is what makes someone feel the piece was worth the money. Keep
