@@ -1532,6 +1532,20 @@ Two rules that keep this useful:
       ⚠️ **The Virginia move (Nov 25) lands inside this job** — the more that is unpicked, pressed and planned before
       then, the less of Linda's garments travel loose in a moving box.
       📸 **ASKED 2026-09-17.** ✅ **REVIEW IN, 2026-09-23** — through the contact form, **five stars** (the owner confirms the rating), about the shadow box: *"she preserved good memories of him... she was able to take my ideas and run with them while giving her honest opinion... flexible and willing to collaborate on what was possible and what was not."* Added verbatim to `TESTIMONIALS` as "Linda M. · on a memorial shadow box" and LIVE in Kind Words (now 5 reviews, 3 of them custom work). ⚠️ Kept OUT of the Totes `aggregateRating` — it rates a custom piece, `reviewCount` stays 1. ⬜ **Still no publishable PHOTO of the box** — nothing may be published until she says yes.
+🧢 **THE BOX IS OPEN AGAIN — LINDA IS ADDING A PIECE OF HER HUSBAND'S BASEBALL CAP (2026-09-23).** Fourth addition after
+the second photo and the figurine, and the first one that is PAID. ✉️ **Email sent + 💳 Stripe invoice SENT 2026-09-23:**
+`in_1UIxjxGhlm0fD4l8IJPUHQuh` — **$50 + $4.13 tax = $54.13**, 7 days, customer `cus_V2MyshErJSlMVi`.
+💰 **WHY $50, and why not $30 or $75:** $30 was Claude's first number and it sat BELOW the published **repairs floor of $40**,
+which is exactly what that band exists to prevent. $75 was the **quilt-repair precedent**, but that job was harder and this box
+**is not sealed**, so there is no undoing and resealing. $50 clears the floor, sits under the precedent, and covers about an hour
+of skilled work on something irreplaceable. **Go to $60** if the cap needs the layout rearranged or a new mount board.
+⛔ **CUT NOTHING UNTIL SHE ANSWERS** which part she wants kept — logo front, brim, back or button — and **photograph the whole
+cap first**, same rule as her garments. A cap is thicker than fabric: **test the piece in the box with the glass closed** before
+stitching; if the crown sits proud, use the flat front panel. Stabilise raw edges with fusible interfacing; **hand-stitch to a
+covered mount, never glue** — glue on a memorial piece cannot be undone.
+🗓️ **Do it the week of Mon Sep 28**, after the two markets. Work starts when the invoice is paid AND the cap is in hand.
+📌 **This sets the line: additions to a delivered piece are paid work from now on.** The photo and the figurine were free and
+that was right; a fourth free one would have taught the wrong lesson on the shop's biggest customer.
       ⏳ **Nothing of this box may be published until she says yes** — same rule as Maurya's order.
       **What exists already:** Linda sent a photo of it displayed on a bookcase at her house
       (`Downloads\IMG_8009.jpeg`, 2026-09-17) — good proof it is up and loved, but **not a publishable
