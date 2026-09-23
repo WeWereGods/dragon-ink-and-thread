@@ -139,6 +139,19 @@ The three neutrals read as a little set on the table: **Vanilla Lace · Buttercr
 ✅ **The tote was THE STORYKEEPER ($32 — the Mastercard charge)** ("the readers tote", owner). Set `soldOut: true` on the
 site 2026-09-19; ⬜ **retire it to Stories around Sep 23** once Pinterest has re-read the feed. First tote sold in person.
 🚗 **MILEAGE LOG STARTED 2026-09-23.** 📓 ✅ **NOTEBOOK IN THE PURSE 2026-09-23, going into the car** (owner) — odometer in and out, written at the kerb. A log kept as you go is what the IRS wants; numbers reconstructed months later are the ones that get disallowed. Driving home → market → home is deductible business travel (home is the business base, so it is not commuting). **Track MILES, not gas** — the IRS standard mileage rate covers gas, wear, insurance and depreciation in one number and beats fuel receipts; **never claim both for the same trip.** Rate to confirm before filing (2025 was ~$0.70/mile). A CSV template with the markets pre-filled is in `DownloadsMileage log - Dragon Ink and Thread.csv` → paste it in as a **Mileage** tab in the workbook. ⬜ **Backfill from Google Maps:** Sep 17 deliveries (Linda, Maurya) and the **Sep 19 Spring Branch market (~30 miles each way)**. ⬜ Also log fabric runs, post office and bank trips. ⚠️ This is an INCOME-tax deduction filed in April — nothing to do with the sales-tax account.
+👗 **HALF APRONS — A NEW PRODUCT (decided 2026-09-23).** The owner made one for herself Wed Sep 23: coffee floral, white eyelet
+down both sides and the hem, gathered, ties cut from the PRINT. **Make sheet:** `tools/print-kit/make-sheets/market-half-apron.html`,
+cut to HER measurements, and it carries the formula for any other body — body = hip ÷ 2 + 2″, band span = waist ÷ 2 + 2″,
+each tie = waist ÷ 2 + 20″. **~1 hour each** now the pattern exists; **$16–20 of fabric and trim**.
+💰 **PRICE: $45 ready-made** — about $20/hr after materials; handmade half aprons run $35–55 and this one sits at the prettier
+end (eyelet, gathers, printed ties). **$50** with a divided pocket and a scissors loop. **Custom in their fabric: $55–65.**
+⚠️ **APRONS NEED THEIR OWN CUSTOM BAND, $45–65 — do NOT file them under Home pieces.** That band's $40 floor sits BELOW a $45
+ready-made apron and would break the standing rule that nobody can commission a thing more cheaply than buying it off the shelf
+(CLAUDE.md, custom price bands). ⬜ Publish the apron band in all seven places BEFORE the first one is quoted.
+📌 **HER OWN APRON IS NOT FOR SALE** — she wears it at every market and it works as a walking sample; people ask about what the
+maker is wearing far more than about what is folded on the table.
+⬜ **Sew 2–3 for the table in the Oct 3–8 window**, coffee prints first so they read as a set with the Rose Latte Cloud and the
+coffee scrunchies. 🎄 **Aprons sell as gifts for bakers in Nov–Dec**, which is also her sister's audience — see the January plan.
 🪻 **Sachets: 2 of 6 sold → rule says make 6 for Sep 26** (4 left + 2 new is enough).
 ⚠️ **CORRECTION (owner, 2026-09-22): the two that sold on Sep 19 went for $5, not $6.** So the only evidence to date is
 at $5. ✅ **PRICE DECIDED: sachets STAY $6** (owner, 2026-09-22) — the whole small-goods table is $6 (scrunchies), $1 over
@@ -762,7 +775,7 @@ Two rules that keep this useful:
   | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
   | **Sun Sep 27** | Tell Claude what sold → mark sold out online. **Count Halloween bows and whimsys sold** |
   | **Sep 27 – Oct 2** | Gift card holders + scrunchies · second Halloween batch sized from Sep 26 |
-  | **Oct 3 – 8** | 5 bandanas · restock whatever sold on Sep 26 |
+  | **Oct 3 – 8** | 5 bandanas · restock whatever sold on Sep 26 · 👗 **2–3 MARKET HALF APRONS for sale** (~1 h each now the pattern exists) |
   💡 **The upside:** Sep 26 answers "which Halloween prints sell?" two weeks earlier, so the second
   batch can serve BOTH Oct 10 and Oct 30 instead of being guessed for one night.
   📣 ✅ **Sep 26 posts WRITTEN 2026-09-14** in `marketing/october-market-posts.md` (S1a–S4):
