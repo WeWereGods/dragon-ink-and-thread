@@ -1,5 +1,5 @@
 // Story card for the Rose Latte Cloud puff tote - true 4 x 6, to stand beside it.
-// At $95 it is the dearest thing on the table, and the work that justifies the price
+// At $75 it is the dearest thing on the table, and the work that justifies the price
 // (64 squares, 32 hand-stuffed pillows, ~6 hours) is invisible unless something says so.
 // Built from build-what-cards.js; the steps list is reused as a list of facts.
 const fs = require("fs");
@@ -18,7 +18,7 @@ const TILE_H = Math.round(300 * S);
 
 const CARDS = [
   {
-    key: "rose-latte", eyebrow: "the story of the", title: "Rose Latte Cloud", price: 95,
+    key: "rose-latte", eyebrow: "the story of the", title: "Rose Latte Cloud", price: 75,
     lead: "Sixty-four squares of fabric, sewn into thirty-two little pillows, each one stuffed and closed on its own, then pieced into one puffy tote.",
     // HTML entities, not literal symbols: PowerShell 5.1 re-saves this file as ANSI and mangles them.
     steps: ["Brown plaid lining, blush pocket", "Cream straps, 11&Prime; drop", "11&Prime; wide &middot; 11&frac12;&Prime; tall &middot; 6&Prime; deep"],

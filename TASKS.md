@@ -63,7 +63,10 @@ uneven puffs — those are the proof it was made by a person, and the line is "e
 so no two sit exactly alike", said plainly rather than apologetically.
 📣 **Caption line: "caffeinated on cloud nine"** — the owner's phrase, kept for posts rather than the tag (too long to ask for).
 📌 **This is the FIRST one; it is a prototype as much as a product.** The next will be quicker and neater.
-🗓️ **PLAN (owner, 2026-09-22): $95 on the Sep 26 table. If it DOESN'T sell, it drops to $75 and goes on the WEBSITE
+🔄 **SUPERSEDED 2026-09-23 — LISTED ONLINE AT $75 STRAIGHT AWAY** (owner), with two new photos (plain wall, daylight):
+`tote-rose-latte-cloud` in shop-data, Worker PRICES 7500, product page, Pinterest feed, sitemap, and the Totes JSON-LD range now $20–75 over 5 offers. ⚠️ **`wrangler deploy` needed** or checkout says "cart is empty". **The TABLE PRICE drops to $75 too** so the sign and the site agree; the story card is reprinted at $75.
+⚠️ **It can now sell twice** — if it goes online, leave it home or show it marked SOLD; if it goes at the market, set `soldOut: true` that evening.
+*Superseded plan:* **$95 on the Sep 26 table. If it DOESN'T sell, it drops to $75 and goes on the WEBSITE
 from Sun Sep 27.** Not listed before Saturday on purpose — one of a kind, and a web sale mid-market would sell it out from
 under the table. ⚠️ **Once it is $75 online it must be $75 at the table too** (Oct 10 / 24 / 30), and the Stripe
 catalog price moves with it. Listing copy is drafted ("Thirty-two little pillows…"); **photos still to come** — front,
