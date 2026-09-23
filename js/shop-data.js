@@ -55,6 +55,7 @@ window.DIT_SHOP = {
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
     "tote-strawberry-v2": { name: "Strawberry Tote",    price: 35.0, art: "🍓" },
+    "tote-rose-latte-cloud": { name: "The Rose Latte Cloud", price: 75.0, art: "☁️" },
     "scrunchie-butterfly":      { name: "Butterfly Scrunchie",       price: 6.0, art: "🦋", maxQty: 3 },
     "scrunchie-cherry-blossom": { name: "Cherry Blossom Scrunchie",  price: 6.0, art: "🌸", maxQty: 3 },
     "scrunchie-cherry":         { name: "Cherry Scrunchie",          price: 6.0, art: "🍒", maxQty: 3 },
@@ -132,6 +133,12 @@ window.DIT_SHOP = {
       blurb: "Lily-of-the-valley and soft pink butterflies scattered across warm cream — a spring meadow you can carry. Fully lined, with a handy front pocket.",
       details: "7″ × 6″ × 12″ · 11″ strap drop · front pocket 5″ × 9″ · fully lined · spot clean. Sewn and ready to ship.",
       images: ["assets/tote-butterfly.jpg", "assets/tote-butterfly-2.jpg", "assets/tote-butterfly-inside.jpg"]
+    },
+    "tote-rose-latte-cloud": {
+      alt: "Handmade puff tote made from stuffed squares in coffee-cup and blush gingham prints, with cream straps",
+      blurb: "**Sixty-four squares, thirty-two little pillows**, each one stuffed and closed on its own, then pieced into one cloud of a bag. Latte cups and cream roses against blush gingham, lined in brown plaid with a blush pocket inside. Every pillow is filled by hand, so no two sit exactly alike.",
+      details: "11″ wide × 11½″ tall × 6″ deep · 11″ strap drop · inside pocket · fully lined · spot clean. One of a kind. Sewn and ready to ship.",
+      images: ["assets/tote-rose-latte-cloud.jpg", "assets/tote-rose-latte-cloud-2.jpg"]
     },
     "tote-strawberry-v2": {
       alt: "Handmade knot-style tote in a wild strawberry and vine print on cream",
@@ -330,6 +337,7 @@ window.DIT_SHOP = {
     // through the cart + Worker, not these links), so new items use "cart".
     "tote-strawberry-v2":  "cart",
     "tote-storykeeper":    "cart",
+    "tote-rose-latte-cloud": "cart",
     "scrunchie-butterfly":      "https://buy.stripe.com/3cIaEX71o9eNdNE4T7fjG0f",
     "scrunchie-cherry-blossom": "https://buy.stripe.com/4gM5kDfxU8aJ3902KZfjG0g",
     "scrunchie-cherry":         "https://buy.stripe.com/cNi6oHfxUfDb5h8etHfjG0h",
@@ -374,7 +382,7 @@ window.DIT_SHOP = {
   /* Order + grouping shown on the full catalog page (shop.html). */
   CATALOG: [
     { label: "Totes",      note: "Roomy, ready to ship, and built to carry a hardback and everything else.",
-      ids: ["tote-storykeeper", "tote-strawberry-v2",   "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
+      ids: ["tote-rose-latte-cloud", "tote-storykeeper", "tote-strawberry-v2",   "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
     { label: "Scrunchies", note: "Soft, springy, gentle on hair — pick a print, or build your own trio.",
       ids: ["scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry", "scrunchie-orange-kitty",
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower",
