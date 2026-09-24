@@ -822,6 +822,17 @@ Two rules that keep this useful:
   restocking twice in a fortnight. A third market only earns its place if she sells faster than she
   can sew, and Sep 26 hasn't happened yet.
 
+- [ ] 🏛️ **APPLICATION OF INTEREST SUBMITTED 2026-09-24 — a juried San Antonio market** (name and venue in the private notes).
+      Not for a named date: an expression of interest. **Told them availability runs through Sat Nov 14** (the borrowed canopy is
+      hers until Nov 15, and she leaves Texas on Nov 25), without making the application a story about moving.
+      📝 **What was submitted:** full product list — totes $20–75 · padded book and device sleeves $28–50 · pet bandanas $18–22 ·
+      hair accessories $5–14 · sachets $6 · small gift items $10–45 · home textiles $35–60 · custom orders including quilts,
+      memory pieces and repairs. **No resale**, all cut and sewn by her; fabric bought new by the yard.
+      🏕️ **Set-up declared:** one 10x10 space · 10x10 weighted canopy · one 6 ft table skirted to the ground with stock hidden
+      under it · tiered stand, risers and hooks on the frame for totes · **no power, no water** (Tap to Pay on a power bank,
+      battery lights) · one chair · nothing attached to walls, railings or neighbours · full hours, space left clean.
+      ⚠️ **A slot before Nov 14 is a long shot** — juried markets book weeks ahead. Worth having the name on file anyway.
+      ⛔ **If they offer a date after Nov 14, decline it** rather than holding a space she cannot fill.
 - [ ] 🎪 **MARKETS 2 AND 3 — SAT OCT 10 (DAY) and FRI OCT 30 (NIGHT).**
   🗓️ **Times, from the organiser's flyer (shared 2026-09-14):** Oct 10 day market **9am–3pm**; the
   night market runs **5–11pm on Oct 30 and Oct 31**, and the owner is booked for **Oct 30 only**
