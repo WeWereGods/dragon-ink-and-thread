@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Cup cozy — make sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{ --paper:#f0ddbc; --green:#4E5839; --sage:#938858; --wine:#7B322C; --ink:#3b3327; }
+  @page{ size:letter; margin:0; }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  html,body{width:816px;background:#fff;font-family:'Nunito',sans-serif;color:var(--ink);}
+  .page{width:816px;height:1056px;background:var(--paper);padding:36px 54px 30px;position:relative;overflow:hidden;}
+  h1{font-family:'Cormorant Garamond',serif;font-size:34px;color:var(--green);line-height:1;}
+  .sub{font-size:12.5px;font-weight:700;color:var(--sage);letter-spacing:.14em;text-transform:uppercase;margin-top:6px;}
+  .rule{display:flex;align-items:center;gap:12px;margin:13px 0 15px;}
+  .rule i{flex:1;height:1.5px;background:var(--sage);opacity:.6;}
+  .dia{width:9px;height:9px;background:var(--wine);transform:rotate(45deg);}
+  h2{font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--wine);margin:11px 0 5px;}
+  table{width:100%;border-collapse:collapse;font-size:12px;}
+  th{text-align:left;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--sage);
+     border-bottom:1.5px solid var(--sage);padding:0 0 4px;}
+  td{padding:4px 8px 4px 0;border-bottom:1px dotted rgba(147,136,88,.55);vertical-align:top;}
+  td.qty{font-weight:800;color:var(--green);white-space:nowrap;}
+  ol{margin:0;padding-left:19px;font-size:11.8px;line-height:1.4;}
+  ol li{margin-bottom:4px;}
+  ol li b{color:var(--green);}
+  .note{margin-top:7px;border-left:3px solid var(--wine);background:rgba(123,50,44,.07);
+        padding:6px 10px;font-size:11.2px;line-height:1.4;}
+  .note b{color:var(--wine);}
+  .dims{display:flex;gap:30px;margin:2px 0 4px;}
+  .dims div b{display:block;font-family:'Cormorant Garamond',serif;font-size:21px;color:var(--green);line-height:1.1;}
+  .dims div span{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--sage);font-weight:700;}
+  .foot{position:absolute;left:54px;right:54px;bottom:24px;display:flex;justify-content:space-between;
+        font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--sage);}
+  svg{display:block;margin:6px 0 2px;}
+</style></head><body>
+<div class="page">
+  <h1>Cup Cozy</h1>
+  <div class="sub">Reusable coffee sleeve &#183; fits 12&ndash;20 oz &#183; about 15 minutes</div>
+  <div class="rule"><i></i><span class="dia"></span><i></i></div>
+
+  <div class="dims">
+    <div><b>3&frac12;&Prime;</b><span>tall</span></div>
+    <div><b>11&Prime;</b><span>top edge</span></div>
+    <div><b>10&Prime;</b><span>bottom edge</span></div>
+    <div><b>&frac14;&Prime;</b><span>seam allowance</span></div>
+  </div>
+
+  <h2>Cut list</h2>
+  <table>
+    <tr><th>Piece</th><th>Cut</th><th>Notes</th></tr>
+    <tr><td>Outer &#183; coffee print</td><td class="qty">1 &#215; 4&Prime; &#215; 11&frac12;&Prime;, tapered</td>
+        <td>Take &frac14;&Prime; off each end of ONE long edge, so it narrows to 10&frac12;&Prime;. That taper is what hugs the cup.</td></tr>
+    <tr><td>Lining</td><td class="qty">1, same shape</td>
+        <td>Cut the outer first, then use it as the template.</td></tr>
+    <tr><td>Fusible fleece or batting</td><td class="qty">1, same shape</td>
+        <td>Fused to the WRONG side of the outer. This is what stops the heat.</td></tr>
+    <tr><td>Elastic (hair elastic or cord)</td><td class="qty">1 &#215; 3&frac12;&Prime; loop</td>
+        <td><i>Optional.</i> With a button it makes one size fit 12&ndash;20 oz.</td></tr>
+    <tr><td>Button</td><td class="qty">1 &#183; &frac58;&ndash;&frac34;&Prime;</td>
+        <td><i>Optional.</i> Or skip both and sew the ends into a fixed ring.</td></tr>
+  </table>
+
+  <h2>The shape</h2>
+  <svg width="640" height="96" viewBox="0 0 640 96">
+    <path d="M20 22 L600 22 L588 74 L32 74 Z" fill="none" stroke="#938858" stroke-width="1.8"/>
+    <g font-family="Nunito" font-size="11" font-weight="800" fill="#4E5839">
+      <text x="250" y="16">11&Prime; top edge</text>
+      <text x="250" y="90">10&Prime; bottom edge</text>
+      <text x="612" y="52">3&frac12;&Prime;</text>
+    </g>
+    <g stroke="#7B322C" stroke-width="1.2">
+      <line x1="606" y1="22" x2="606" y2="74"/>
+    </g>
+  </svg>
+
+  <h2>Sewing it</h2>
+  <ol>
+    <li><b>Fuse the fleece</b> to the wrong side of the outer piece and press.</li>
+    <li><b>Pin the elastic</b> (if using) at the centre of one SHORT end, on the right side of the outer, with the loop
+      pointing INWARDS. Baste it down.</li>
+    <li><b>Lay the lining on top</b>, right sides together, and sew all the way round with a &frac14;&Prime; seam,
+      <b>leaving a 2&Prime; gap along one long edge</b>.</li>
+    <li><b>Clip the corners</b>, turn it right side out through the gap, and push the corners out with something blunt.</li>
+    <li><b>Press well</b>, folding the gap&rsquo;s raw edges in so they line up with the seam.</li>
+    <li><b>Topstitch</b> right round, about &frac18;&Prime; from the edge. That closes the gap and gives it a crisp finish.</li>
+    <li><b>Sew the button</b> on the other short end, on the outer side, positioned so the elastic pulls the cozy snug on a
+      16 oz cup. Test it on a real cup before you stitch.</li>
+  </ol>
+
+  <div class="note"><b>No button version:</b> skip the elastic, and at step 3 leave BOTH short ends open. Turn, press, then
+    overlap the ends by &frac12;&Prime; and stitch a neat rectangle through both. That gives a fixed ring, quicker to make and
+    fine for a standard 16 oz cup, but it will not fit a 20 oz.</div>
+
+  <div class="note"><b>At the table:</b> price at <b>$8</b>, or two for $15. Cut from scraps, so the cost is pennies and about
+    a quarter of an hour. <b>Make them in the coffee prints</b> so they sit with the Rose Latte Cloud and the coffee
+    scrunchies as a set. They sell best with a sample cup on the table wearing one &#8212; nobody buys what they cannot
+    picture in their hand.</div>
+
+  <div class="foot"><span>Dragon Ink and Thread</span><span>Make sheet &#183; 2026-09-24</span></div>
+</div>
+</body></html>
