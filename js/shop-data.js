@@ -120,8 +120,8 @@ window.DIT_SHOP = {
     },
     "tote-rose-latte-cloud": {
       alt: "Handmade puff tote made from stuffed squares in coffee-cup and blush gingham prints, with cream straps",
-      blurb: "**Sixty-four squares, thirty-two little pillows**, each one stuffed and closed on its own, then pieced into one cloud of a bag. Latte cups and cream roses against blush gingham, lined in brown plaid with a blush pocket inside. Every pillow is filled by hand, so no two sit exactly alike.",
-      details: "11″ wide × 11½″ tall × 6″ deep · 11″ strap drop · inside pocket · fully lined · spot clean. One of a kind. Sewn and ready to ship.",
+      blurb: "**Sixty-four squares, thirty-two little pillows**, each one stuffed and closed on its own, then pieced into one cloud of a bag. Latte cups and cream roses against blush gingham, lined in quiet cream. Every pillow is filled by hand, so no two sit exactly alike.",
+      details: "11″ wide × 11½″ tall × 6″ deep · 11″ strap drop · fully lined in cream · no inside pocket · spot clean. One of a kind. Sewn and ready to ship.",
       images: ["assets/tote-rose-latte-cloud.jpg", "assets/tote-rose-latte-cloud-2.jpg"]
     },
     "tote-strawberry-v2": {

@@ -88,7 +88,6 @@ const body = '<div class="card">' +
   '<div class="ctr title">Gifts<small>$10 AND UNDER</small></div>' +
   '<div class="ctr ruleA"><span class="rule"><i></i><b>&#10084;</b><i></i></span></div>' +
   '<div class="items">' + items + "</div>" +
-  '<div class="ctr mix"><span>any 2 of the $5 &amp; $6 pieces: $10</span></div>' +
   '<div class="ctr ruleB"><span class="rule"><i></i><b>&#10022;</b><i></i></span></div>' +
   '<div class="ctr ask">for teachers, friends and stockings</div>' +
   '<div class="ctr ft">@dragonink_and_thread<br>dragoninkandthread.com</div>' +

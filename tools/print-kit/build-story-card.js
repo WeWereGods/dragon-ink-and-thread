@@ -21,7 +21,7 @@ const CARDS = [
     key: "rose-latte", eyebrow: "the story of the", title: "Rose Latte Cloud", price: 75,
     lead: "Sixty-four squares of fabric, sewn into thirty-two little pillows, each one stuffed and closed on its own, then pieced into one puffy tote.",
     // HTML entities, not literal symbols: PowerShell 5.1 re-saves this file as ANSI and mangles them.
-    steps: ["Brown plaid lining, blush pocket", "Cream straps, 11&Prime; drop", "11&Prime; wide &middot; 11&frac12;&Prime; tall &middot; 6&Prime; deep"],
+    steps: ["Cream lining, no pockets", "Cream straps, 11&Prime; drop", "11&Prime; wide &middot; 11&frac12;&Prime; tall &middot; 6&Prime; deep"],
     note: "Every pillow is filled by hand, so no two sit exactly alike. One of a kind.",
     close: "caffeinated on cloud nine",
   },

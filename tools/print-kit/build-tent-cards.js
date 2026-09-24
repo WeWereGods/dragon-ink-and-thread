@@ -23,7 +23,7 @@ const CORNER = Math.round(250 * S);
 const TILE_W = Math.round(320 * S), TILE_H = Math.round(300 * S);
 
 const TENTS = [
-  { eyebrow: "what is a", title: "Hair Whimsy?", price: 5, deal: "or 2 for $10",
+  { eyebrow: "what is a", title: "Hair Whimsy?", price: 5,
     text: "A fabric tie for braids, buns and ponytails. Long ones tie in a bow; short ones knot and dangle." },
   { eyebrow: "what is a", title: "Sachet?", price: 6, deal: "or 2 for $10",
     text: "A little scented pillow, lavender or cinnamon. Tuck one in a drawer, closet or car." },
