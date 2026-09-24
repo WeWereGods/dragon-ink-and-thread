@@ -90,7 +90,7 @@ window.DIT_SHOP = {
     "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
     "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾" },
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" },
-    "home-suriel-tea-cover": { name: "The Suriel Tea Cover",    price: 35.0, art: "🫖" }
+    "home-suriel-tea-cover": { name: "The Suriel Tea Cover",    price: 35.0, art: "🫖", soldOut: true }
   },
 
   VARIANTS: {
