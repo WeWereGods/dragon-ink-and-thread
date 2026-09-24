@@ -437,7 +437,7 @@ Two rules that keep this useful:
       🎂 **DEADLINE: HER BIRTHDAY IS SAT OCT 3 — owner wants it done by then.** Sew it **Tue Sep 22 – Thu Sep 24**,
       between the two markets. Finish it by **Fri Sep 25**, before the Sep 26 market takes over. If it's being
       posted, **ship by Tue Sep 29**. About 2–3 hours of sewing, and it needs her case-or-bare answer first.
-      ⛔ **THE CLOCK HAS NOT STARTED — SHE HASN'T PAID (owner, 2026-09-21).** Same rule as every custom job:
+      ⛔ **THE CLOCK HAS NOT STARTED — SHE HASN'T PAID (owner, 2026-09-21).** ✅ **SUPERSEDED: PAID 2026-09-23 evening, $32.20** (`ch_3UH1GlGhlm0fD4l81kC6bD9s`, via Link) = **$29.75 + $2.45 tax, so she applied NEST15 herself on the payment link.** ⚠️ $29.75 is BELOW the $35 custom book-sleeve floor — it stands, but note that **NEST15 works on custom payment links**, so a floor only holds if the code is excluded or the price is set above it. The clock has started; Oct 3 is on. ⛔ **STILL NO CASE-OR-BARE ANSWER** (checked 2026-09-24; nothing from her since Mon 21) — **do not cut without it**, a case adds about ⅜″ each way. Owner is chasing her herself. Original note follows. Same rule as every custom job:
       nothing is cut until payment lands. **Oct 3 is only promised if she pays in time** — to sew Sep 22–24
       and post by Sep 29, payment needs to land by about **Thu Sep 24**. Paid later than that, it goes after
       the Sep 26 market and the birthday date may slip; say so plainly rather than squeezing it.
