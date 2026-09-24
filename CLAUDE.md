@@ -577,6 +577,16 @@ Source art is in `assets/print-kit/`; output goes to `tools/print-kit/build/`, w
 - 📌 **Decorations are cropped WITH their own paper** and dropped onto a matching flat background,
   which is why nothing here needs an alpha channel. **Don't try to key the art off its gold ground** —
   three attempts failed and are kept in `experiments/` precisely so nobody repeats them.
+- ⚠️ **THE TABLE PLAN IS THE LIST OF WHAT PHYSICALLY GOES ON THE TABLE — KEEP IT CURRENT.**
+  `BANDS` in **tools/print-kit/build-table-plan.js** is hand-written and **deliberately NOT generated
+  from js/shop-data.js**: market stock and website stock are different things. A piece can be listed
+  online and not go to a market, go to a market and never be listed (the market bows, the mug rug), or
+  sit on the table and **not be for sale at all** (the Kindle case, 2026-09-24).
+  **Whenever a product is added or withdrawn, edit `BANDS`, bump `STOCK_AS_OF`, and re-render.** The
+  date prints in the header, which is the point — a three-week-old plan looks identical to a current
+  one once it is in your hand, and the cost of following a stale one is a piece left in the box.
+  The set-up `STEPS` name products too; they went out of step with `BANDS` the first time this was
+  edited. **Change both together.**
 - **Full gotcha list is in `tools/print-kit/README.md`.** Read it before changing a layout.
 
 ## Local preview

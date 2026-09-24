@@ -5,6 +5,17 @@
 // everything in a band at the BACK with the front third bare, which is the most
 // expensive layout mistake available: it hides the cheap impulse pieces behind the
 // display and makes a full table look sparse.
+//
+// *** THIS FILE IS THE LIST OF WHAT PHYSICALLY GOES ON THE TABLE. ***
+// It is NOT generated from js/shop-data.js and must not be - market stock and website
+// stock are different things. A piece can be sold online and still be on the table, or
+// sit on the table and never be listed (the market bows, the mug rug), or be on the
+// table and NOT BE FOR SALE at all (the Kindle case).
+//
+// So: WHENEVER A PRODUCT IS ADDED OR WITHDRAWN, edit BANDS and bump STOCK_AS_OF, then
+// re-render. The date prints on the sheet, which is the whole point - a plan that is
+// three weeks stale looks exactly like a current one once it is in your hand, and the
+// cost of following it is a piece left in the box.
 const fs = require("fs");
 const path = require("path");
 
@@ -15,16 +26,22 @@ const u = (f) => "file:///" + KIT + "/" + f;
 
 // Signs added 2026-09-21: three letter holders and two 4x6 holders. Tall signs go at
 // the BACK, small ones at the FRONT, and no sign may cover a product.
+// Bump this every time BANDS changes. It prints in the header.
+const STOCK_AS_OF = "2026-09-24";
+
 const BANDS = [
   {
     cls: "back", tag: "BACK ROW", rule: "Height and signs — seen from across the room",
     items: ["Price list sign, at the end people reach first", "Rose Latte Cloud upright + its story card",
-            "Display sign, centre", "Custom orders sign, at your end", "Tiered stand, bows on show",
+            "Display sign, centre",
+            "Custom orders sign, at your end — KINDLE CASE beside it as a SAMPLE, no price tag, NOT for sale",
+            "Tiered stand, bows on show",
             "Scrunchie tree", "Mirror"],
   },
   {
     cls: "mid", tag: "MIDDLE", rule: "The browse row — picked up, then put back",
-    items: ["Pet bandanas, propped not flat", "Tea cover · book sleeve · Kindle case", "Other totes"],
+    items: ["Pet bandanas, propped not flat", "Tea cover · book sleeve",
+            "Mug rug $12, with a mug standing on it so people see what it is for", "Other totes"],
   },
   {
     cls: "front", tag: "FRONT EDGE", rule: "Where hands actually land. Keep it FULL.",
@@ -36,13 +53,16 @@ const BANDS = [
 
 const STEPS = [
   ["2:30", "Arrive. Table up, cloth on, boxes underneath and out of sight."],
-  ["2:50", "Back row: stand, scrunchie tree, mirror, Rose Latte Cloud, the three letter signs."],
-  ["3:10", "Middle: bandanas propped, tea cover, sleeve, Kindle case."],
+  ["2:50", "Back row: stand, scrunchie tree, mirror, Rose Latte Cloud, three signs, Kindle sample."],
+  ["3:10", "Middle: bandanas propped, tea cover, sleeve, mug rug with a mug on it."],
   ["3:25", "Front edge: gift corner, whimsys, scrunchies, bows, tent cards. Fill it."],
   ["3:40", "Tap to Pay test on your phone. Count the float. Power bank on."],
   ["3:50", "Photograph the finished table for the Story."],
   ["4:00", "Open."],
 ];
+
+// Sun Sep 27 runs 5-10 with set-up from 4:00, so every step above shifts by +1h30.
+const ALSO = "Sun: all +1h30";
 
 const css = [
   ":root{--paper:#f0ddbc;--green:#4e5839;--sage:#938858;--wine:#7b322c;--rose:#9e5e58;--ink:#3b3327;",
@@ -92,6 +112,7 @@ const css = [
   ".notes{left:145px;width:420px;}",
   ".time{left:590px;width:320px;}",
   ".ch{font-family:var(--display);font-weight:700;font-size:19px;color:var(--green);border-bottom:1.5px solid var(--sage);padding-bottom:3px;margin-bottom:7px;}",
+  ".ch em{font-style:normal;font-family:var(--body);font-size:10.5px;font-weight:800;color:var(--wine);margin-left:10px;letter-spacing:.02em;}",
   ".n{font-size:12px;line-height:1.4;color:var(--ink);margin-bottom:3px;padding-left:13px;position:relative;}",
   ".n::before{content:'\\2726';position:absolute;left:0;color:var(--sage);font-size:9px;top:3px;}",
   ".n b{color:var(--wine);}",
@@ -125,13 +146,13 @@ const html = ['<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title
   '<div class="page">',
   '<span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>',
   '<div class="hd"><div class="w1">DRAGON INK AND THREAD</div>',
-  '<div class="w2">Table plan &#183; 6 ft &#183; shoppers reach the front only</div></div>',
+  '<div class="w2">Table plan &#183; 6 ft &#183; shoppers reach the front only &#183; stock as of ' + STOCK_AS_OF + '</div></div>',
   '<div class="side behind">Behind &#8212; you, spare stock, bags, cash box</div>',
   '<div class="tbl">' + bands + "</div>",
   '<div class="side infront">Shoppers stand here</div>',
   '<div class="arrow">front 12 in is all they can reach &#8595;</div>',
   '<div class="col notes"><div class="ch">Why it is laid out this way</div>' + notes + "</div>",
-  '<div class="col time"><div class="ch">Set-up &#183; doors at 4:00</div>' + steps + "</div>",
+  '<div class="col time"><div class="ch">Set-up &#183; doors at 4:00<em>' + ALSO + '</em></div>' + steps + '</div>',
   "</div></body></html>"].join("\n");
 
 fs.writeFileSync(path.join(SIGN, "table-plan.html"), html);
