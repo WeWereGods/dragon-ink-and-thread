@@ -47,6 +47,7 @@ const BANDS = [
     cls: "front", tag: "FRONT EDGE", rule: "Where hands actually land. Keep it FULL.",
     items: ["Gift corner: sachets, gift card holders, Cozy Gift Sets + the Gifts $10 and under card",
             "Hair whimsys $5, in a shallow tray", "Scrunchies $6, in a bowl", "Bows $12, in a flat basket",
+            "Stickers $4 or 3 for $10, flat in a tray — ONE FREE with any purchase, handed over, not left out",
             "A tent card in front of each new item", "Business cards"],
   },
 ];
@@ -55,7 +56,7 @@ const STEPS = [
   ["2:30", "Arrive. Table up, cloth on, boxes underneath and out of sight."],
   ["2:50", "Back row: stand, scrunchie tree, mirror, Rose Latte Cloud, three signs, Kindle sample."],
   ["3:10", "Middle: bandanas propped, tea cover, sleeve, mug rug with a mug on it."],
-  ["3:25", "Front edge: gift corner, whimsys, scrunchies, bows, tent cards. Fill it."],
+  ["3:25", "Front edge: gift corner, whimsys, scrunchies, bows, stickers, tent cards. Fill it."],
   ["3:40", "Tap to Pay test on your phone. Count the float. Power bank on."],
   ["3:50", "Photograph the finished table for the Story."],
   ["4:00", "Open."],
