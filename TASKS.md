@@ -123,7 +123,7 @@ retire ~Sep 24), 1 Christmas tree bow (market-only).
 and off the shop; the four survivors stay listed individually at $12. ⬜ Retire the set entry ~Sep 24 with the others.
 🏈 **GAME DAY DARLING HEADBAND off the site too (owner, 2026-09-20) — the football yard is used up**, so no more
 can be made. Every bow-category listing is now $12, so the JSON-LD block went high $55 → $12 and 15 offers → 11.
-⬜ **RETIRE TOGETHER ~SEP 24** (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
+✅ **RETIRED 2026-09-24** — all four out of shop-data, the Worker and the Pinterest feed; their pages deleted (now 404, and 404.html routes back to the shop); all four added to **Stories/`PAST_MAKES`**, which is now 18 pieces. In-stock counts unchanged against the JSON-LD (Totes 5 · Bows 12). ⚠️ **`wrangler deploy` still pending** from the Rose Latte Cloud listing — it also drops these four from the Worker. *Original note:* RETIRE TOGETHER ~SEP 24 (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
 Game Day headband · Suriel's Bouquet · Tea with the Suriel set.
 📌 **The lace scrunchies sell.** Two of four scrunchie sales on their debut; worth more of them for Sep 26.
 🏷️ **ONE TAGLINE, EVERYWHERE (owner, 2026-09-20): "Handmade heirlooms for everyday wonder"** — it is on the badge, the

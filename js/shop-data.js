@@ -50,7 +50,6 @@ window.DIT_SHOP = {
 
   PRODUCTS: {
     /* SOLD at the Sep 19 market (Spring Branch). soldOut first, retire to Stories later (Pinterest rule). */
-    "tote-storykeeper":   { name: "The Storykeeper",   price: 32.0, art: "📚", soldOut: true },
     "tote-mustard-floral":{ name: "Cottage Rose Tote",  price: 20.0, art: "🌹" },
     "tote-blue-rose":     { name: "Blue Rose Mini Tote", price: 20.0, art: "🌷" },
     "tote-butterfly":     { name: "Butterfly Tote",     price: 38.0, art: "🦋" },
@@ -77,7 +76,6 @@ window.DIT_SHOP = {
     "bow-porcelain-roses":   { name: "Porcelain Roses Bow",     price: 12.0, art: "🌹" },
     "bow-lace-of-velaris":   { name: "Lace of Velaris Bow",     price: 12.0, art: "🎀" },
     /* SOLD at the Sep 19 market. soldOut first, retire later (Pinterest rule). */
-    "bow-suriels-bouquet":   { name: "Suriel's Bouquet Bow",    price: 12.0, art: "💐", soldOut: true },
     /* GAME DAY DARLING — three pieces from one yard of the football print, bought 2026-08-19.
        These carry maxQty because they are stock cut from shared yardage, NOT one-of-a-kind.
        That does not reopen the 2026-07-30 "bows stay at 1" decision, which was about
@@ -86,10 +84,8 @@ window.DIT_SHOP = {
        on Sep 19, so they may as well be buyable. The HEADBAND stays off - that fabric is used up. */
     "bow-gameday-darling":      { name: "Game Day Darling Bow",      price: 12.0, art: "🏈", maxQty: 3 },
     /* Off the site 2026-09-20 — the football yard is used up, so no more can be made. */
-    "bow-gameday-darling-headband":   { name: "Game Day Darling Headband",      price: 14.0, art: "🏈", maxQty: 2, soldOut: true },
     /* BROKEN UP 2026-09-20: Suriel's Bouquet sold at the Sep 19 market, so only four of the five
        remain and the set cannot be fulfilled. soldOut first, retire later (Pinterest rule). */
-    "bow-suriel-set":        { name: "Tea with the Suriel — the Set of Five", price: 55.0, art: "🫖", soldOut: true },
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
     "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
     "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾" },
@@ -103,18 +99,6 @@ window.DIT_SHOP = {
       blurb: "Russet footballs and little tied bows strewn across cream — Saturday afternoons, and the first morning of the year that's cool enough for sleeves. Cut from a textured knit rather than cotton, so it holds its shape from kickoff to the drive home. **Three were made, and that was the whole yard.**",
       details: "6″ long × 6″ wide · finished edges · textured knit · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-gameday-darling.jpg"]
-    },
-    "bow-gameday-darling-headband": {
-      alt: "Baby headband in a cream print scattered with russet footballs and little tied bows, tied in a large bow at the front",
-      blurb: "The same russet footballs and little tied bows, on a soft stretch headband for the smallest fan in the house. A textured knit that gives without digging in, tied in a generous bow at the front. **Two were made, and that was the whole yard.**",
-      details: "Baby headband · newborn size · soft stretch knit · spot clean only. ⚠️ Never leave on a sleeping or unattended baby.",
-      images: ["assets/bow-gameday-darling-headband.jpg"]
-    },
-    "tote-storykeeper": {
-      alt: "Handmade tote printed with shelves of antique books and potion bottles on black, hanging from a long black strap",
-      blurb: "Shelves of old books and apothecary bottles stacked to the ceiling, printed deep on black — the library you'd happily get lost in. Lined in black, with a long strap that sits at the hip and an outside pocket for whatever you need first.",
-      details: "15″ × 12″ · 18″ strap drop · outside pocket · fully lined · spot clean. Sewn and ready to ship.",
-      images: ["assets/tote-storykeeper.jpg", "assets/tote-storykeeper-2.jpg", "assets/tote-storykeeper-3.jpg"]
     },
     "tote-mustard-floral": {
       alt: "Handmade tote in a golden mustard vintage rose floral print",
@@ -266,18 +250,6 @@ window.DIT_SHOP = {
       details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
       images: ["assets/bow-lace-of-velaris.jpg", "assets/bow-lace-of-velaris-2.jpg"]
     },
-    "bow-suriels-bouquet": {
-      alt: "Handmade sailor bow in cream cotton with large cobalt-blue floral bouquets",
-      blurb: "Full cobalt bouquets thrown across cream — the boldest of the five, and the one that reads from across a room. If the others are a whisper, this is the sentence said out loud.",
-      details: "6″ long × 6″ wide · finished edges · on a slide-in clip · spot clean only · store away from direct sun to keep color true.",
-      images: ["assets/bow-suriels-bouquet.jpg", "assets/bow-suriels-bouquet-2.jpg"]
-    },
-    "bow-suriel-set": {
-      alt: "Five handmade sailor bows in blue and white floral cottons, laid out together on pale wood",
-      blurb: "All five. One bow each in Something Blue, Sidra Vines, Porcelain Roses, Lace of Velaris and Suriel's Bouquet — five of the blues from the Tea with the Suriel collection, for $55 instead of $60. They were cut from the same five bolts on the same afternoon, and once one of them goes the set isn't a set any more.",
-      details: "Five bows · 6″ long × 6″ wide each · finished edges · all on slide-in clips · spot clean only · store away from direct sun to keep color true. Ships free.",
-      images: ["assets/bow-suriel-set.jpg"]
-    },
     "bandana-storykeeper": {
       alt: "Handmade pet bandana printed with antique books and potion bottles, shown flat and worn by a black dog",
       blurb: "The Storykeeper print, cut down for the smallest reader in the house — shelves of antique books and potion bottles on deep black. It slips over the collar they already wear, so there's nothing to tie and nothing to lose. Matches the tote of the same name. This one is a Large; small and medium can be made to order, so just ask.",
@@ -336,7 +308,6 @@ window.DIT_SHOP = {
     // Post-cart items: LINKS is now just an availability flag (checkout runs
     // through the cart + Worker, not these links), so new items use "cart".
     "tote-strawberry-v2":  "cart",
-    "tote-storykeeper":    "cart",
     "tote-rose-latte-cloud": "cart",
     "scrunchie-butterfly":      "https://buy.stripe.com/3cIaEX71o9eNdNE4T7fjG0f",
     "scrunchie-cherry-blossom": "https://buy.stripe.com/4gM5kDfxU8aJ3902KZfjG0g",
@@ -358,10 +329,7 @@ window.DIT_SHOP = {
     "bow-sidra-vines":       "cart",
     "bow-porcelain-roses":   "cart",
     "bow-lace-of-velaris":   "cart",
-    "bow-suriels-bouquet":   "cart",
     "bow-gameday-darling":       "cart",
-    "bow-gameday-darling-headband":    "cart",
-    "bow-suriel-set":        "cart",
     "bandana-storykeeper":   "cart",
     "bandana-brew-and-bloom":    "cart",
     "bandana-quilted-court":     "cart",
@@ -382,16 +350,14 @@ window.DIT_SHOP = {
   /* Order + grouping shown on the full catalog page (shop.html). */
   CATALOG: [
     { label: "Totes",      note: "Roomy, ready to ship, and built to carry a hardback and everything else.",
-      ids: ["tote-rose-latte-cloud", "tote-storykeeper", "tote-strawberry-v2",   "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
+      ids: ["tote-rose-latte-cloud", "tote-strawberry-v2",   "tote-mustard-floral", "tote-blue-rose", "tote-butterfly"] },
     { label: "Scrunchies", note: "Soft, springy, gentle on hair — pick a print, or build your own trio.",
       ids: ["scrunchie-butterfly", "scrunchie-cherry-blossom", "scrunchie-cherry", "scrunchie-orange-kitty",
             "scrunchie-pink-bumble-bee", "scrunchie-pretty-in-pink", "scrunchie-wildflower",
             "scrunchie-bundle", "scrunchie-byo-bundle"] },
     { label: "Bows",       note: "Hand-tied sailor bows with finished edges, in storybook prints.",
-      ids: ["bow-suriel-set", "bow-something-blue", "bow-sidra-vines", "bow-porcelain-roses", "bow-lace-of-velaris",
-            "bow-gameday-darling", "bow-gameday-darling-headband",
-            "bow-suriels-bouquet",
-            "bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
+      ids: ["bow-something-blue", "bow-sidra-vines", "bow-porcelain-roses", "bow-lace-of-velaris",
+            "bow-gameday-darling", "bow-cauldron-forged", "bow-toffee-plaid", "bow-roasted-roses", "bow-daily-grind-ivory", "bow-blushing-linen",
             "bow-gingham", "bow-sage-gingham"  ] },
     { label: "Pet Bandanas", note: "Over-the-collar bandanas in the same storybook prints — for the one who waits by the door.",
       ids: ["bandana-quilted-court", "bandana-storykeeper", "bandana-brew-and-bloom"] },

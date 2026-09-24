@@ -268,6 +268,19 @@
      missing (so a not-yet-added photo never looks broken).
      ========================================================= */
   var PAST_MAKES = [
+    /* Retired 2026-09-24, a week after they sold, so Pinterest had re-read the feed
+       before the pages went (CLAUDE.md, the one-of-a-kind trap). The Storykeeper and
+       Suriel's Bouquet sold at the Sep 19 market; the Suriel set was broken up when
+       only four bows were left; the Game Day headband came off because the football
+       fabric ran out. */
+    { img: "assets/tote-storykeeper.jpg", art: "📚", title: "The Storykeeper Tote",
+      story: "Shelves of old books and apothecary bottles stacked to the ceiling, printed deep on black — the library you'd happily get lost in. Lined in black, with a long strap that sits at the hip. The first tote to sell in person, at a market in September. 📚" },
+    { img: "assets/bow-suriels-bouquet.jpg", art: "💐", title: "Suriel's Bouquet Bow",
+      story: "Full cobalt bouquets thrown across cream — the boldest of the five blues in the Tea with the Suriel collection, and the one that read from across a room. Found a home at a market. 💐" },
+    { img: "assets/bow-suriel-set.jpg", art: "🫖", title: "Tea with the Suriel — the Set of Five",
+      story: "All five blues together: Something Blue, Sidra Vines, Porcelain Roses, Lace of Velaris and Suriel's Bouquet. The set is retired now that the bows have gone their separate ways, but the four that remain are still in the shop, one at a time. 🫖" },
+    { img: "assets/bow-gameday-darling-headband.jpg", art: "🏈", title: "Game Day Darling Headband",
+      story: "Russet footballs and little tied bows on a soft stretch headband, made for the smallest fan in the house. The football print ran out, so this one is a one-off. 🏈" },
     /* Maurya Buchanan's pair, added 2026-08-25 WITH HER PERMISSION, asked and given.
        Two separate pieces, not one — the wheelchair tote ties on with four ties, the
        traditional one hangs from a long strap. They were briefly read as a single
