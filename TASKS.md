@@ -251,7 +251,7 @@ Two rules that keep this useful:
 > | **Sun Sep 20** | 🧵 | **12 scrunchies** · **hair whimsys** in two sizes, from bow leftovers (sew one of each first and try them in your hair) · **2 lavender sachets** (brings the Sep 26 basket back to 6). Nothing else needs restocking — Sep 19 sold 3 of 34 bows and 4 of 30 scrunchies |
 > | ~~Tue Sep 22~~ | ✅ **ALL CHECKED OFF (owner, 2026-09-22), still sewing** — 📦 **running count so far: 2 whimsys, 3 gift card holders in total** (not final; update at day's end), Cassidy's nudge sent, Linda's garments photographed and seam ripping begun · 📣 **Posted:** Willow "About me" on Facebook (Instagram caption drafted, NOT posted) · a "market week, day 1" TikTok · 🪧 **own Sep 26 FLYER made and posted to Facebook** (1080x1350, parchment kit; builder now in tools/print-kit/build-market-flyer.js for the next four markets) | 🗓️ **Sewing plan set 2026-09-22.** ✅ **Whimsy TESTED (owner, 2026-09-22): TWO SIZES, both 3″ wide — LONG 3″ × 28″ ties into a bow; SHORT 3″ × 19″ just ties and dangles, no bow.** **Both sizes $5** (owner, 2026-09-22). 🏷️ **MARKET OFFER (owner, 2026-09-22): any 2 of the $5 or $6 pieces — whimsys, scrunchies, sachets, mix and match — for $10.** On the price list, gifts card and tent cards. Tap to Pay: ring it up as one $10 custom amount. **Market only; the website stays at list price.** Then **3–4 more whimsys**, a mix of both · **2–4 gift card holders** (a plaid one or two) · ✉️ **send Cassidy's nudge** from Gmail Drafts · 🔖 bookmarks OFF this week (owner, 2026-09-21) · 🪡 **Evening: Linda's wall hanging — seam ripping, 30–45 min.** Photograph each garment FIRST |
 > | **Wed Sep 23** | 👗 | 🔄 **RE-PRIORITISED by the owner 2026-09-23: the MARKET HALF APRON is today's job** (make sheet in `tools/print-kit/make-sheets/`, cut to her 40″ waist / 51″ hip; ~1–1½ h). ✅ **MADE THE SAME DAY** — coffee floral (her own coffee-print family) with a **white eyelet trim** down both sides and along the hem, gathered, ties cut from the PRINT rather than the cream. Wear it Saturday over the bum bag. ⬜ Check the pocket is divided and the ties reach a front knot. **All other sewing moved to Thursday** · 🪡 **Evening: Linda seam ripping, 30–45 min** |
-> | **Thu Sep 24** | 🧵 | ⚠️ **HEAVY DAY — Wednesday's sewing moved here:** +2 whimsys (only 2 exist and the posts promise them) · 6 Vanilla Lace scrunchies · 2 lavender + 1 cinnamon sachet. **If it runs short, whimsys and sachets beat scrunchies** — 26 scrunchies are already in stock · **Cassidy's Kindle sleeve** — only if she has PAID and answered case-or-bare (Thu is her pay-by for Oct 3). Otherwise catch up on Tue/Wed · **Rose Latte Cloud:** ✅ being tidied up 2026-09-22, ready for Saturday (owner) · 🪡 **Evening: Linda seam ripping, 30–45 min** |
+> | **Thu Sep 24** | 🧵 | ⚠️ **HEAVY DAY — Wednesday's sewing moved here:** +2 whimsys (only 2 exist and the posts promise them) · 6 Vanilla Lace scrunchies · 2 lavender + 1 cinnamon sachet. **If it runs short, whimsys and sachets beat scrunchies** — 26 scrunchies are already in stock · ✅ **CASSIDY'S KINDLE SLEEVE — FINISHED (owner, 2026-09-24), 9″ × 7″ in Afternoon Tea, ties, 6 photos.** Cut generous, so case-or-bare no longer matters. **LOCAL DROP-OFF, so nothing to post** — waiting only on a fixed day; offer Mon 28 or Tue 29, in her hands by Wed Sep 30 for the Oct 3 birthday · ✅ **FIRST MUG RUG MADE (owner, 2026-09-24) — coffee print, diagonal cross-hatch quilting, finished 10″ × 7½″** (photos IMG_8168–8170). ⚠️ **The make sheet was written at 6″ × 9″ and has been REWRITTEN to her real size**, cut list and all — the sheet follows what she actually makes, not the other way round. **Still $12, or two for $20**; the bigger size makes that easier to defend at the table, not harder · **Rose Latte Cloud:** ✅ being tidied up 2026-09-22, ready for Saturday (owner) · 🪡 **Evening: Linda seam ripping, 30–45 min** |
 > | **Sun Sep 27, afternoon** | 🧵 | **+2 whimsys, +2 sachets** only — ~80 pieces already covers two nights. ✅ Confirmed. Sunday afternoon tops up whatever Saturday sold out |
 > | **Mon Sep 21** | 📬 | **Deliveries start landing** — ✅ car logo already here (Sep 20) · both sticker batches open their windows today. 📣 Also **S1b, the first local group post** |
 > | **Fri Sep 25** | 📦 | 🚗 **Write down the odometer before you leave** (mileage log) · **No new sewing.** Pack · 🖨️ **print the signs** (price list, custom orders, display sign, gifts card, Rose Latte Cloud story card; tent cards on cardstock) and the table plan · charge the power bank · Tap to Pay test · cash · night-before post · ⚠️ **THE REAL DELIVERY CUTOFF** — anything not here by tonight doesn't go to Sep 26 |
@@ -414,7 +414,26 @@ Two rules that keep this useful:
         2026-08-11 (**from $40, no ceiling**), advertised in the mending post on 2026-08-13, and
         this job's before/after is the proof image on custom.html. The "decide before advertising
         it" note is spent.
-- [ ] 🆕 ✉️ **CUSTOM ORDER ENQUIRY — A KINDLE SLEEVE FOR CASSIDY E. Came through the contact form 2026-09-15.**
+- [ ] 🆕 ✉️ **CUSTOM ORDER — A KINDLE SLEEVE FOR CASSIDY E. Came through the contact form 2026-09-15.**
+      ✅✅ **SEWN AND FINISHED 2026-09-24 (owner).** **Final size 9″ × 7″**, padded and quilted, in **Afternoon Tea**
+      (`fabric-60`), **lined in the same print** and closing with **two ties in the print** — the tie-cover style she asked
+      for, matching the Road Trip Kindle Case she pointed at. **6 photos: IMG_8158–8165 in Downloads.**
+      ✅ **THE CASE-OR-BARE QUESTION IS CLOSED — STOP CHASING HER FOR IT.** She never answered, and at 9″ × 7″ the
+      sleeve clears a 6.96″ × 5.02″ Kindle by about 2″ each way, so it takes the device **bare or in a case**. The
+      unanswered question stopped mattering the moment it was cut generous.
+      🚚 **IT IS A LOCAL DROP-OFF, NOT A POST (owner, 2026-09-24)** — so no address is needed and no postage is owed.
+      ⛔ **THE ONE THING STILL BLOCKING DELIVERY: NO DATE IS FIXED.** **Pin a day and a place now, in writing.** Her ZIP on
+      the charge is **78124 — Marion, TX**, about 25 miles north-east of San Antonio, so this is a real trip, not a
+      five-minute errand. **Offer Mon Sep 28 or Tue Sep 29** (the markets take Sat and Sun), and hand it over by
+      **Wed Sep 30 at the latest** — her birthday is Sat Oct 3.
+      ⚠️ **A DROP-OFF WITH NO DATE IS EXACTLY HOW MAURYA'S HANDOVER SLIPPED EIGHT TIMES** and sat finished for 30 days.
+      Do not leave this as "sometime next week". Two concrete dates, her pick, confirmed by email.
+      🚗 **LOG THE MILEAGE.** Round trip to Marion is roughly **50 miles** — about **$36 of deduction** at 0.725, which is
+      more than the piece's Stripe fee. Delivering a customer order is a business trip: odometer out, odometer back,
+      into the notebook in the car and then the mileage log.
+      📸 **The shop finally has photographs of a Cassidy piece.** Her tote never was photographed. When the sleeve has
+      arrived and she has said she likes it, this is a **Stories / `PAST_MAKES` entry** and a strong custom-orders post.
+      Do not post it before she has seen it — it is a birthday present and she may not have opened it.
       ⭐ **SHE IS A REPEAT CUSTOMER — and the one whose five-star review of a CUSTOM piece is in Kind Words**
       (The Music Teacher's Tote, added 2026-08-12; the only review the site holds that describes the custom
       *process*). Her email is in Gmail, not here. **Treat this as a returning customer, not a cold enquiry.**
@@ -437,7 +456,7 @@ Two rules that keep this useful:
       🎂 **DEADLINE: HER BIRTHDAY IS SAT OCT 3 — owner wants it done by then.** Sew it **Tue Sep 22 – Thu Sep 24**,
       between the two markets. Finish it by **Fri Sep 25**, before the Sep 26 market takes over. If it's being
       posted, **ship by Tue Sep 29**. About 2–3 hours of sewing, and it needs her case-or-bare answer first.
-      ⛔ **THE CLOCK HAS NOT STARTED — SHE HASN'T PAID (owner, 2026-09-21).** ✅ **SUPERSEDED: PAID 2026-09-23 evening, $32.20** (`ch_3UH1GlGhlm0fD4l81kC6bD9s`, via Link) = **$29.75 + $2.45 tax, so she applied NEST15 herself on the payment link.** ⚠️ $29.75 is BELOW the $35 custom book-sleeve floor — it stands, but note that **NEST15 works on custom payment links**, so a floor only holds if the code is excluded or the price is set above it. The clock has started; Oct 3 is on. ⛔ **STILL NO CASE-OR-BARE ANSWER** (checked 2026-09-24; nothing from her since Mon 21) — **do not cut without it**, a case adds about ⅜″ each way. Owner is chasing her herself. Original note follows. Same rule as every custom job:
+      ⛔ **THE CLOCK HAS NOT STARTED — SHE HASN'T PAID (owner, 2026-09-21).** ✅ **SUPERSEDED: PAID 2026-09-23 evening, $32.20** (`ch_3UH1GlGhlm0fD4l81kC6bD9s`, via Link) = **$29.75 + $2.45 tax, so she applied NEST15 herself on the payment link.** ⚠️ $29.75 is BELOW the $35 custom book-sleeve floor — it stands, but note that **NEST15 works on custom payment links**, so a floor only holds if the code is excluded or the price is set above it. The clock has started; Oct 3 is on. ~~⛔ **STILL NO CASE-OR-BARE ANSWER** (checked 2026-09-24; nothing from her since Mon 21) — **do not cut without it**, a case adds about ⅜″ each way. Owner is chasing her herself.~~ ✅ **SUPERSEDED 2026-09-24 — cut generous at 9″ × 7″ so it fits either way; see the top of this entry.** Original note follows. Same rule as every custom job:
       nothing is cut until payment lands. **Oct 3 is only promised if she pays in time** — to sew Sep 22–24
       and post by Sep 29, payment needs to land by about **Thu Sep 24**. Paid later than that, it goes after
       the Sep 26 market and the birthday date may slip; say so plainly rather than squeezing it.
@@ -445,7 +464,8 @@ Two rules that keep this useful:
       link, the Thu Sep 24 pay-by for the birthday, and the case-or-bare question.
       ⏳ **WAITING ON HER** for payment, style (open-top sleeve or tie cover) and case-or-bare. When she answers: confirm the price, raise the Stripe invoice (**NEST15 is 15% off over
       $25 and applies to custom, but is NOT automatic — apply it by hand only if she asks**), then cut.
-      📸 **Ask for a photo when it ships** — her tote was never photographed, so the shop has her words but no
+      📸 **Ask for a photo when it ships** — ✅ **partly solved 2026-09-24: the sleeve itself is photographed (6 shots).**
+      A photo of it **in her hands** is still worth asking for. Her tote was never photographed, so the shop has her words but no
       picture. This is the chance to fix that.
       **Nothing is agreed and no price has been quoted.** Before quoting, get: **who it is and where they asked**,
       **which device** (Kindle sizes differ — measure the exact one, or get the model), **fabric** (shop stash or the

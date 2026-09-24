@@ -3,6 +3,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<!-- NOTE: inch marks and middots are written as HTML entities on purpose.
+     PowerShell 5.1 mangles literal non-ASCII when it rewrites this file. -->
 <style>
   :root{ --paper:#f0ddbc; --green:#4E5839; --sage:#938858; --wine:#7B322C; --ink:#3b3327; }
   @page{ size:letter; margin:0; }
@@ -11,36 +13,36 @@
   .page{width:816px;height:1056px;background:var(--paper);padding:36px 54px 30px;position:relative;overflow:hidden;}
   h1{font-family:'Cormorant Garamond',serif;font-size:34px;color:var(--green);line-height:1;}
   .sub{font-size:12.5px;font-weight:700;color:var(--sage);letter-spacing:.14em;text-transform:uppercase;margin-top:6px;}
-  .rule{display:flex;align-items:center;gap:12px;margin:13px 0 15px;}
+  .rule{display:flex;align-items:center;gap:12px;margin:13px 0 14px;}
   .rule i{flex:1;height:1.5px;background:var(--sage);opacity:.6;}
   .dia{width:9px;height:9px;background:var(--wine);transform:rotate(45deg);}
-  h2{font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--wine);margin:11px 0 5px;}
-  table{width:100%;border-collapse:collapse;font-size:12px;}
+  h2{font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--wine);margin:10px 0 5px;}
+  table{width:100%;border-collapse:collapse;font-size:11.8px;}
   th{text-align:left;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--sage);
      border-bottom:1.5px solid var(--sage);padding:0 0 4px;}
   td{padding:4px 8px 4px 0;border-bottom:1px dotted rgba(147,136,88,.55);vertical-align:top;}
   td.qty{font-weight:800;color:var(--green);white-space:nowrap;}
-  ol{margin:0;padding-left:19px;font-size:11.8px;line-height:1.4;}
-  ol li{margin-bottom:4px;}
+  ol{margin:0;padding-left:19px;font-size:11.6px;line-height:1.38;}
+  ol li{margin-bottom:3px;}
   ol li b{color:var(--green);}
-  .note{margin-top:7px;border-left:3px solid var(--wine);background:rgba(123,50,44,.07);
-        padding:6px 10px;font-size:11.2px;line-height:1.4;}
+  .note{margin-top:6px;border-left:3px solid var(--wine);background:rgba(123,50,44,.07);
+        padding:6px 10px;font-size:11.1px;line-height:1.38;}
   .note b{color:var(--wine);}
   .dims{display:flex;gap:30px;margin:2px 0 4px;}
   .dims div b{display:block;font-family:'Cormorant Garamond',serif;font-size:21px;color:var(--green);line-height:1.1;}
   .dims div span{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--sage);font-weight:700;}
   .foot{position:absolute;left:54px;right:54px;bottom:24px;display:flex;justify-content:space-between;
         font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--sage);}
-  svg{display:block;margin:6px 0 2px;}
+  svg{display:block;margin:4px 0 2px;}
 </style></head><body>
 <div class="page">
   <h1>Mug Rug</h1>
-  <div class="sub">Quilted &#183; mug and a biscuit &#183; about 25 minutes</div>
+  <div class="sub">Quilted &#183; mug, biscuit and a paperback &#183; about 25 minutes</div>
   <div class="rule"><i></i><span class="dia"></span><i></i></div>
 
   <div class="dims">
-    <div><b>6&Prime;</b><span>finished tall</span></div>
-    <div><b>9&Prime;</b><span>finished wide</span></div>
+    <div><b>10&Prime;</b><span>finished wide</span></div>
+    <div><b>7&frac12;&Prime;</b><span>finished tall</span></div>
     <div><b>&frac14;&Prime;</b><span>piecing seam</span></div>
     <div><b>&frac12;&Prime;</b><span>turning seam</span></div>
   </div>
@@ -48,14 +50,18 @@
   <h2>Cut list</h2>
   <table>
     <tr><th>Piece</th><th>Cut</th><th>Notes</th></tr>
-    <tr><td>Top &#183; plain version</td><td class="qty">1 &#215; 7&Prime; &#215; 10&Prime;</td>
-        <td>One print, quilted. Trimmed to 6&frac12;&Prime; &#215; 9&frac12;&Prime; after quilting.</td></tr>
-    <tr><td>Top &#183; patchwork version</td><td class="qty">6 &#215; 3&frac12;&Prime; squares</td>
-        <td>Sewn 3 across &#215; 2 down with &frac14;&Prime; seams &#8212; makes a 6&frac12;&Prime; &#215; 9&frac12;&Prime; top. Scraps love this.</td></tr>
-    <tr><td>Batting</td><td class="qty">1 &#215; 7&Prime; &#215; 10&Prime;</td>
+    <tr><td>Top &#183; plain version</td><td class="qty">1 &#215; 11&frac12;&Prime; &#215; 9&Prime;</td>
+        <td>One print, quilted. Cut big &#8212; quilting draws it in. Trimmed to 11&Prime; &#215; 8&frac12;&Prime; after.</td></tr>
+    <tr><td>Top &#183; patchwork version</td><td class="qty">6 &#215; 4&frac12;&Prime; squares</td>
+        <td>Sewn 3 across &#215; 2 down with &frac14;&Prime; seams &#8212; makes 12&frac12;&Prime; &#215; 8&frac12;&Prime;. Trim the extra off the ends. Scraps love this.</td></tr>
+    <tr><td>Batting</td><td class="qty">1 &#215; 11&frac12;&Prime; &#215; 9&Prime;</td>
         <td>Cotton batting, not polyester &#8212; it takes a hot mug without flattening.</td></tr>
-    <tr><td>Backing</td><td class="qty">1 &#215; 7&Prime; &#215; 10&Prime;</td>
-        <td>Trimmed to match the top after quilting.</td></tr>
+    <tr><td>Backing</td><td class="qty">1 &#215; 11&frac12;&Prime; &#215; 9&Prime;</td>
+        <td>Quilted with the top, then trimmed to match it.</td></tr>
+    <tr><td>Second backing <i>(no-binding route)</i></td><td class="qty">1 &#215; 11&Prime; &#215; 8&frac12;&Prime;</td>
+        <td>Only for the turn-and-topstitch finish at step 5. Skip it if you are binding.</td></tr>
+    <tr><td>Binding <i>(optional)</i></td><td class="qty">1 &#215; 2&frac14;&Prime; &#215; 45&Prime;</td>
+        <td>Joined strips are fine. Only for the bound finish at step 6.</td></tr>
   </table>
 
   <h2>The layout</h2>
@@ -67,8 +73,8 @@
       <line x1="330" y1="55" x2="600" y2="55"/>
     </g>
     <g font-family="Nunito" font-size="11" font-weight="800" fill="#4E5839">
-      <text x="88" y="58">ONE PRINT 6&#189; x 9&#189;</text>
-      <text x="352" y="116">six 3&#189;&Prime; squares</text>
+      <text x="80" y="58">ONE PRINT 11 x 8&#189;</text>
+      <text x="352" y="116">six 4&#189;&Prime; squares</text>
       <text x="14" y="116">plain top</text>
     </g>
     <g font-family="Nunito" font-size="10" font-weight="700" fill="#7B322C">
@@ -79,27 +85,30 @@
 
   <h2>Sewing it</h2>
   <ol>
-    <li><b>Make the top.</b> Either use one 7&Prime; &#215; 10&Prime; print, or sew six 3&frac12;&Prime; squares into two rows of
+    <li><b>Make the top.</b> Either use one 11&frac12;&Prime; &#215; 9&Prime; print, or sew six 4&frac12;&Prime; squares into two rows of
       three. Press the seams of each row in opposite directions so they nest, then press the whole top flat.</li>
     <li><b>Layer:</b> backing face DOWN, batting, then the top face UP. Smooth it and pin or spray baste.</li>
-    <li><b>Quilt it.</b> Straight lines about 1&Prime; apart, diagonals, or stitch just inside each patchwork seam. Quilting is
-      what makes it lie flat rather than curl.</li>
-    <li><b>Trim square</b> to <b>6&frac12;&Prime; &#215; 9&frac12;&Prime;</b>, cutting through all three layers.</li>
-    <li><b>Turn and finish, no binding:</b> lay a second backing piece on the quilted top, right sides together, and sew round
-      with a &frac12;&Prime; seam, <b>leaving a 3&Prime; gap along one long side</b>. Clip the corners, turn through, press, then
-      topstitch right round &#8212; that closes the gap and holds the edge flat.</li>
-    <li><b>Or bind it</b> the traditional way with a 2&frac14;&Prime; strip, about 34&Prime; long, if you want the crisper edge.
-      It looks better and takes ten minutes longer.</li>
+    <li><b>Quilt it.</b> Diagonal cross-hatch, straight lines about 1&Prime; apart, or stitch just inside each patchwork seam.
+      Quilting is what makes it lie flat rather than curl.</li>
+    <li><b>Trim square</b> to <b>11&Prime; &#215; 8&frac12;&Prime;</b>, cutting through all three layers. <i>Binding instead? Trim to
+      10&Prime; &#215; 7&frac12;&Prime; and go straight to step 6.</i></li>
+    <li><b>Turn and finish, no binding:</b> lay the second backing piece on the quilted top, right sides together, and sew
+      right round with a &frac12;&Prime; seam, <b>leaving a 3&Prime; gap along one long side</b>. Clip the corners, turn through,
+      press, then topstitch right round &#8212; that closes the gap and holds the edge flat. Finished 10&Prime; &#215; 7&frac12;&Prime;.</li>
+    <li><b>Or bind it</b> the traditional way with the 2&frac14;&Prime; strip. It looks crisper and takes ten minutes longer.</li>
     <li><b>Press, and check it sits flat</b> with a mug on it.</li>
   </ol>
 
-  <div class="note"><b>Why 6&Prime; &#215; 9&Prime;:</b> a mug takes up about 4&Prime;, and the rest holds a biscuit or a
-    teaspoon. Smaller than this and it is a coaster; much bigger and it reads as a placemat, which sells for less per hour of
-    work. <b>Cotton batting only</b> &#8212; polyester melts and flattens under a hot mug.</div>
+  <div class="note"><b>Why 10&Prime; &#215; 7&frac12;&Prime;:</b> a mug takes about 4&Prime;, and the rest holds a biscuit, a
+    teaspoon and a paperback laid flat &#8212; which is what makes it a reading piece rather than a coaster. It is a
+    generous mug rug; go much past this and it reads as a placemat, which sells for less per hour of work.
+    <b>Cotton batting only</b> &#8212; polyester flattens and scorches under a hot mug.</div>
 
-  <div class="note"><b>At the table:</b> price a single at <b>$12</b>, or <b>two for $20</b>. Patchwork ones justify the price
-    better than a plain print, and they eat the scraps that are too small for anything else. <b>A set of two in a Christmas
-    print, tied with twine, is a $20 gift</b> that needs no wrapping &#8212; the same trick as the Cozy Gift Set.</div>
+  <div class="note"><b>At the table:</b> price a single at <b>$12</b>, or <b>two for $20</b>. At this size the $12 is easy
+    to defend &#8212; it is visibly bigger than the little coaster-sized ones people have seen elsewhere. Patchwork ones
+    justify it better still, and they eat the scraps that are too small for anything else. <b>A set of two in a Christmas
+    print, tied with twine, is a $20 gift</b> that needs no wrapping &#8212; the same trick as the Cozy Gift Set.
+    <b>In a coffee print it pairs with the cup cozy and the Rose Latte Cloud</b> as a coffee corner on the table.</div>
 
   <div class="foot"><span>Dragon Ink and Thread</span><span>Make sheet &#183; 2026-09-24</span></div>
 </div>
