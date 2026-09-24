@@ -381,7 +381,11 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
   Timing paragraph), `emails/custom-orders-enquiry.md` (the costs line, the "How long it takes"
   paragraph, AND the DM quick reply), and both marketing files. **If a band with an unusual
   turnaround is ever added again, the timing copy is part of the change, not a follow-up.**
-  The seven: `custom.html` (×2), `PRICE_BANDS` in tools/build-pin-images.js, §13 and §8 of
+  ⚠️ **THERE ARE EIGHT PLACES NOW, NOT SEVEN (2026-09-24).** The eighth is `BANDS` in
+  **`tools/print-kit/build-order-forms.js`** — the printed market order form, which a customer signs and
+  keeps. It is the only copy of the bands that leaves the building on paper, so a stale number there
+  cannot be quietly corrected later. It names the quilt turnaround too, per the rule above.
+  The eight: `BANDS` in tools/print-kit/build-order-forms.js, `custom.html` (×2), `PRICE_BANDS` in tools/build-pin-images.js, §13 and §8 of
   `marketing/campaign-2026-08.md`, `marketing/fabric-collections-2026-08.md`, and — the one most
   easily missed and the one customers actually read — `emails/custom-orders-enquiry.md` (×2).
   ⚠️ **Book sleeves, home pieces and repairs were added because orders had already been taken in
