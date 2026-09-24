@@ -1600,11 +1600,16 @@ cap first**, same rule as her garments. A cap is thicker than fabric: **test the
 stitching; if the crown sits proud, use the flat front panel. Stabilise raw edges with fusible interfacing; **hand-stitch to a
 covered mount, never glue** — glue on a memorial piece cannot be undone.
 🗓️ **Do it the week of Mon Sep 28**, after the two markets. Work starts when the invoice is paid AND the cap is in hand.
-⛔ **HER PAYMENT FAILED 2026-09-24 AND SHE PROBABLY THINKS IT WENT THROUGH.** She attempted it through **Cash App Pay and the
-authorisation expired** (`cashapp_customer_request_expired`). Invoice **`WJH8UIPF-0004` is still OPEN, $54.13**, due **Oct 1**.
-Nothing was taken from her account. ✅ **Chase email SENT 2026-09-24** — says plainly that nothing was taken, gives the link
-again, notes a card is more reliable than Cash App, and offers to take cash in person. She is also on **210-420-5151** if email
-is slow. ⚠️ **Do not start the cap until it actually clears** — an expired authorisation is not a payment.
+✅✅ **PAID 2026-09-24, invoice `WJH8UIPF-0004`.** **$50.00 + $4.13 tax = $54.13**, Stripe fee **$1.87**, **net $52.26**,
+paid by **Apple Pay** (Visa credit ·5392). Billing address San Antonio 78261, so **8.25% is correct**, and it lands in
+**Q3 — the return due Oct 20**. 📒 **Workbook row: Sep 24 · Linda Madrid · $50.00 · $4.13 tax · $1.87 fee · $52.26 net.**
+✅ **The money side is clear. The cap job now waits only on THE CAP BEING IN HAND.**
+~~⛔ **HER PAYMENT FAILED 2026-09-24.** She attempted it through **Cash App Pay and the authorisation expired**
+(`cashapp_customer_request_expired`); the invoice sat OPEN and nothing notified anyone. ✅ Chase email sent the same day,
+and she paid within the hour by card.~~
+💡 **KEEP THIS LESSON:** **Cash App Pay authorisations expire silently** — the customer taps through, feels done, and the
+invoice just stays open with no alert to either side. **Check invoice STATUS rather than assuming an attempt means paid**, and
+when one fails, say so kindly and fast: this one was recovered in under an hour because she was told straight away.
 💡 **Watch for this pattern generally:** Cash App Pay authorisations expire silently and the invoice just stays open. Nothing
 notifies you. **Check invoice status rather than assuming an attempt means paid.**
 📌 **This sets the line: additions to a delivered piece are paid work from now on.** The photo and the figurine were free and
