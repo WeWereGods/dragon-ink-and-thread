@@ -531,14 +531,23 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
 - ⚠️ **THREE MARKS, DELIBERATELY (owner, 2026-09-16). Don't "unify" them.** Each exists because a
   different medium made the others unusable:
   1. **`logo.png` — the plush TEAL dragon — is THE logo.** Site, favicon, socials, share card.
-  2. **A black LINE-ART stamp — wordmark + a SITTING BABY DRAGON with a ball of thread.**
-     ⚠️ **UPDATED 2026-09-22: it DOES have a dragon, and that is correct.** The original spec said
-     *no dragon* (wordmark + needle + sprig) because a stamp is one solid colour and the plush dragon
-     reads through tonal shading — flattened to black he becomes a blob. **That reasoning held for
-     THAT dragon.** The stamp solves it a better way: **a dragon REDRAWN as line art**, which survives
-     being one flat colour. **Do not "correct" this back to the no-dragon spec.**
-     ✅ **And it reads "Dragon Ink and Thread" — the WORD.** So the stamp is right where the printed
-     card is wrong, and **stamped tags are a way round the card's ampersand without reprinting it.**
+  2. **A black LINE-ART mark — wordmark + a SITTING BABY DRAGON with a ball of thread.**
+     ⚠️ **THE STAMP DOES NOT EXIST YET. Corrected 2026-09-24** — an earlier note here wrongly called
+     this a stamp. **The tag photographed on 2026-09-22 was drawn on a FRIEND'S CRICUT, one time
+     only**, and she has no machine of her own, so **it cannot be reproduced as things stand.**
+     ✅ **What that one-off proved is the DESIGN**, and it is the right one: a dragon **redrawn as
+     line art**, which survives being one flat colour. The original spec said *no dragon* (wordmark +
+     needle + sprig) because the plush dragon reads through tonal shading and flattens to a blob —
+     **true of THAT dragon, solved by redrawing rather than omitting.** It also puts both halves of
+     the name into one picture. **Don't revert to the no-dragon spec; get this one cut as a stamp.**
+     ⚠️ **ESTABLISH WHO OWNS THE DRAGON ART FIRST.** It came off someone else's Cricut, so it may be
+     a Cricut Access image or a bought SVG whose licence does not cover a permanent brand mark (and
+     the existing AI-provenance warning in TASKS.md applies too). **Do not cut a die until that is
+     settled.**
+     ✅ **It reads "Dragon Ink and Thread" — the WORD**, so it is right where the printed card's
+     ampersand is wrong. ⚠️ **The lettering is a chunky slab serif, NOT Fraunces — and that is
+     correct for a stamp.** Fraunces' hairlines fill with ink on kraft at tag size. **Never set a
+     stamp in the website font.**
   3. **A sleeping GREEN dragon on parchment** — **the printed market kit only** (signs, price tags,
      gift tags). ⚠️ **The parchment palette contains almost no blue or teal** — measured: one
      blue-ish pixel in the whole card — so the teal dragon reads as pasted-on there. A recoloured
