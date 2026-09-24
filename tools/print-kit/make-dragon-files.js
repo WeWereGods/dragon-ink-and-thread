@@ -2,6 +2,7 @@
 //
 //   assets/dragon-plush-bw.png    the plush dragon, NO wordmark, GREYSCALE
 //   assets/dragon-sleeping.png    the sleeping green dragon in his nest
+//   assets/dragon-sleeping-bw.png the same, GREYSCALE
 //
 // ⚠️ GREYSCALE, NOT ONE-BIT BLACK. The plush dragon reads entirely through tonal
 // shading - flatten him to solid black and he becomes a blob, which is exactly why
@@ -94,3 +95,12 @@ if (!fs.existsSync(sleeping)) throw new Error("run cut-card-front.js first - " +
 fs.copyFileSync(sleeping, path.join(ASSETS, "dragon-sleeping.png"));
 const s = PNG.sync.read(fs.readFileSync(sleeping));
 console.log("wrote assets/dragon-sleeping.png  " + s.width + "x" + s.height + "  (on its own parchment, no alpha)");
+
+// ---------- 3. the sleeping dragon, greyscale ----------
+// He is cropped WITH his parchment, so greyscaling takes the ground with him and he
+// arrives as a grey rectangle, not a cut-out. That is correct, not a bug: the ground is
+// what makes him need no alpha. Do not try to key it off - three attempts are kept in
+// experiments/ precisely so nobody repeats them.
+fs.writeFileSync(path.join(ASSETS, "dragon-sleeping-bw.png"),
+  PNG.sync.write(greyscale(PNG.sync.read(fs.readFileSync(sleeping)))));
+console.log("wrote assets/dragon-sleeping-bw.png  " + s.width + "x" + s.height + "  (grey ground included)");
