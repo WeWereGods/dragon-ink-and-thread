@@ -1525,7 +1525,7 @@ Two rules that keep this useful:
       frame the shop was going to buy, the "take the photo home from the handover" flag. **None of it is outstanding.**
       💵 **$250 of the $1,050 commission is now delivered work.** The **$800 heirloom wall hanging remains**, due
       **Feb 19, 2027** — that is the whole of what Linda is still owed.
-      ♻️ **SHE WANTS THE SCRAPS BACK (owner, 2026-09-24).** ✉️ **Confirmed to her by email 2026-09-24** — bagged per garment, returned at handover, and warned that some pieces come back interfaced and stiff. Keep EVERY offcut, plus buttons, zips, labels, cuffs and belt
+      ♻️ **SHE WANTS THE SCRAPS BACK (owner, 2026-09-24).** ✅ **Labelled bags set up 2026-09-24, before the next ripping session.** ✉️ **Confirmed to her by email 2026-09-24** — bagged per garment, returned at handover, and warned that some pieces come back interfaced and stiff. Keep EVERY offcut, plus buttons, zips, labels, cuffs and belt
       loops. **Bag them separately per garment and label each bag** — jacket, trousers, shirt 1, shirt 2 — because loose in one
       bag she cannot tell what came from where. Wool sealed, same moth rule. **Return at handover, not piecemeal.** ⚠️ Tell her
       some pieces come back INTERFACED and stiff. 📐 **This changes the cutting plan:** cut to leave the largest usable
