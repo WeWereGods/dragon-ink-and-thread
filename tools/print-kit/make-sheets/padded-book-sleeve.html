@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Padded book sleeve — make sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{ --paper:#f0ddbc; --green:#4E5839; --sage:#938858; --wine:#7B322C; --ink:#3b3327; }
+  @page{ size:letter; margin:0; }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  html,body{width:816px;background:#fff;font-family:'Nunito',sans-serif;color:var(--ink);}
+  .page{width:816px;height:1056px;background:var(--paper);padding:36px 54px 30px;position:relative;overflow:hidden;}
+  h1{font-family:'Cormorant Garamond',serif;font-size:34px;color:var(--green);line-height:1;}
+  .sub{font-size:12.5px;font-weight:700;color:var(--sage);letter-spacing:.14em;text-transform:uppercase;margin-top:6px;}
+  .rule{display:flex;align-items:center;gap:12px;margin:13px 0 15px;}
+  .rule i{flex:1;height:1.5px;background:var(--sage);opacity:.6;}
+  .dia{width:9px;height:9px;background:var(--wine);transform:rotate(45deg);}
+  h2{font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--wine);margin:12px 0 5px;}
+  table{width:100%;border-collapse:collapse;font-size:12px;}
+  th{text-align:left;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--sage);
+     border-bottom:1.5px solid var(--sage);padding:0 0 4px;}
+  td{padding:4px 8px 4px 0;border-bottom:1px dotted rgba(147,136,88,.55);vertical-align:top;}
+  td.qty{font-weight:800;color:var(--green);white-space:nowrap;}
+  ol{margin:0;padding-left:19px;font-size:12px;line-height:1.42;}
+  ol li{margin-bottom:5px;}
+  ol li b{color:var(--green);}
+  .note{margin-top:9px;border-left:3px solid var(--wine);background:rgba(123,50,44,.07);
+        padding:7px 11px;font-size:11.6px;line-height:1.42;}
+  .note b{color:var(--wine);}
+  .dims{display:flex;gap:30px;margin:2px 0 4px;}
+  .dims div b{display:block;font-family:'Cormorant Garamond',serif;font-size:21px;color:var(--green);line-height:1.1;}
+  .dims div span{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--sage);font-weight:700;}
+  .foot{position:absolute;left:54px;right:54px;bottom:24px;display:flex;justify-content:space-between;
+        font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--sage);}
+  svg{display:block;margin:4px 0 2px;}
+</style></head><body>
+<div class="page">
+  <h1>Padded Book Sleeve</h1>
+  <div class="sub">Quilted &#183; open top &#183; fits a device 7&Prime; &#215; 5&frac14;&Prime; &#215; &frac12;&Prime;</div>
+  <div class="rule"><i></i><span class="dia"></span><i></i></div>
+
+  <div class="dims">
+    <div><b>6&frac14;&Prime;</b><span>inside width</span></div>
+    <div><b>7&frac34;&Prime;</b><span>inside height</span></div>
+    <div><b>&frac12;&Prime;</b><span>seam allowance</span></div>
+    <div><b>&frac12;&Prime;</b><span>quilting allowance</span></div>
+  </div>
+
+  <h2>Cut list</h2>
+  <table>
+    <tr><th>Piece</th><th>Cut</th><th>Notes</th></tr>
+    <tr><td>Outer fabric</td><td class="qty">2 &#215; 7&frac34;&Prime; &#215; 9&frac14;&Prime;</td>
+        <td>Cut BIG on purpose &#8212; quilting draws it in. Trimmed to size after quilting.</td></tr>
+    <tr><td>Batting or fleece</td><td class="qty">2 &#215; 7&frac34;&Prime; &#215; 9&frac14;&Prime;</td>
+        <td>Low loft. Fleece needs no quilting if you would rather skip it.</td></tr>
+    <tr><td>Lining</td><td class="qty">2 &#215; 7&frac14;&Prime; &#215; 8&frac34;&Prime;</td>
+        <td>Cut to the finished size. A quiet print reads better inside than a busy one.</td></tr>
+    <tr><td>Band or trim <i>(optional)</i></td><td class="qty">1 &#215; 7&frac34;&Prime; &#215; 3&Prime;</td>
+        <td>Pieced across the outer front before quilting, as on the Reading Nook Sleeve.</td></tr>
+  </table>
+
+  <h2>Where the numbers come from</h2>
+  <svg width="700" height="120" viewBox="0 0 700 120">
+    <g fill="none" stroke="#938858" stroke-width="1.6">
+      <rect x="4" y="14" width="150" height="96" rx="3"/>
+      <rect x="196" y="14" width="150" height="96" rx="3"/>
+      <rect x="392" y="14" width="150" height="96" rx="3"/>
+    </g>
+    <g font-family="Nunito" font-size="11" font-weight="800" fill="#4E5839">
+      <text x="16" y="44">DEVICE</text><text x="16" y="62">7 x 5&#188; x &#189;</text>
+      <text x="208" y="44">INSIDE</text><text x="208" y="62">6&#188; wide</text><text x="208" y="80">7&#190; tall</text>
+      <text x="404" y="44">CUT</text><text x="404" y="62">7&#188; x 8&#190;</text><text x="404" y="80">after quilting</text>
+    </g>
+    <g font-family="Nunito" font-size="10" font-weight="700" fill="#7B322C">
+      <text x="160" y="52">+ &#189;&Prime; thickness</text><text x="160" y="68">+ ease</text>
+      <text x="352" y="52">+ &#189;&Prime; seams</text><text x="352" y="68">all round</text>
+    </g>
+  </svg>
+
+  <h2>Sewing it</h2>
+  <ol>
+    <li><b>Quilt the outers:</b> layer each outer piece over its batting and quilt &#8212; straight lines an inch apart, or
+      diagonals. Then <b>trim both down to 7&frac14;&Prime; &#215; 8&frac34;&Prime;</b> so they match the lining.</li>
+    <li><b>Test the fit now.</b> Pin the two outers together, slide the device in, and check it goes without forcing.
+      Padding eats more room than you expect, and this is the last moment to change it.</li>
+    <li><b>Sew the outer:</b> right sides together, down both sides and across the bottom. Clip the bottom corners.</li>
+    <li><b>Sew the lining</b> the same way, but <b>leave a 3&Prime; gap in the bottom seam</b> for turning.</li>
+    <li><b>Slide the outer INSIDE the lining</b>, right sides together, match the side seams, and sew right round the top edge.</li>
+    <li><b>Pull it all through the gap</b>, close the gap by hand or machine, push the lining down inside, press the top
+      edge and <b>topstitch</b> right round, about &frac14;&Prime; from the edge.</li>
+    <li><b>Press, and check the device one more time</b> before it goes in a bag.</li>
+  </ol>
+
+  <div class="note"><b>Sizing anything else:</b> inside width = device width + its thickness + &frac12;&Prime; ease.
+    Inside height = device height + half the thickness + &frac34;&Prime;, so it can be pulled out one-handed. Then add
+    &frac12;&Prime; all round for seams, and another &frac12;&Prime; on the outer pieces for quilting take-up.
+    <b>If the finished sleeve is snug, add width, not height.</b>
+    <b>Cassidy&rsquo;s Kindle</b> measures 6.96 &#215; 5.02 &#215; 0.31 bare, so these numbers suit it IN A CASE &#8212; take
+    &frac14;&Prime; off the width if she says bare.</div>
+
+  <div class="foot"><span>Dragon Ink and Thread</span><span>Make sheet &#183; 2026-09-24</span></div>
+</div>
+</body></html>
