@@ -426,8 +426,15 @@ Two rules that keep this useful:
       ✅ **THE CASE-OR-BARE QUESTION IS CLOSED — STOP CHASING HER FOR IT.** She never answered, and at 9″ × 7″ the
       sleeve clears a 6.96″ × 5.02″ Kindle by about 2″ each way, so it takes the device **bare or in a case**. The
       unanswered question stopped mattering the moment it was cut generous.
+      🎉 **SOLVED — HAND IT OVER AT HER SURPRISE PARTY, SAT OCT 3, SCHERTZ LIBRARY** (owner confirmed 2026-09-24 that the
+      Cassidy on the calendar is the same Cassidy). Her birthday is **Sun Oct 4**, so the party is the day before it —
+      perfect timing, no trip, and the 50-mile round trip to Marion is not needed after all.
+      ⛔ **IT IS A SURPRISE PARTY, SO THE EMAIL MUST NOT MENTION IT.** The Gmail draft has been rewritten: it says the
+      sleeve is finished, shows the photos, and only promises “I'll get it into your hands very soon” — no date, no place,
+      nothing to spoil. **Do not reply to her with a delivery plan.**
+      🎁 **Wrap it.** It is now a birthday present handed over in front of people, not a parcel — tissue, twine and a gift tag.
       🚚 **IT IS A LOCAL DROP-OFF, NOT A POST (owner, 2026-09-24)** — so no address is needed and no postage is owed.
-      ⛔ **THE ONE THING STILL BLOCKING DELIVERY: NO DATE IS FIXED.** **Pin a day and a place now, in writing.** Her ZIP on
+      ~~⛔ **THE ONE THING STILL BLOCKING DELIVERY: NO DATE IS FIXED.**~~ ✅ **SUPERSEDED — the date is Sat Oct 3, see above.** **Pin a day and a place now, in writing.** Her ZIP on
       the charge is **78124 — Marion, TX**, about 25 miles north-east of San Antonio, so this is a real trip, not a
       five-minute errand. **Offer Mon Sep 28 or Tue Sep 29** (the markets take Sat and Sun), and hand it over by
       **Wed Sep 30 at the latest** — her birthday is Sat Oct 3.
