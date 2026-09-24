@@ -1525,6 +1525,11 @@ Two rules that keep this useful:
       frame the shop was going to buy, the "take the photo home from the handover" flag. **None of it is outstanding.**
       💵 **$250 of the $1,050 commission is now delivered work.** The **$800 heirloom wall hanging remains**, due
       **Feb 19, 2027** — that is the whole of what Linda is still owed.
+      ♻️ **SHE WANTS THE SCRAPS BACK (owner, 2026-09-24).** Keep EVERY offcut, plus buttons, zips, labels, cuffs and belt
+      loops. **Bag them separately per garment and label each bag** — jacket, trousers, shirt 1, shirt 2 — because loose in one
+      bag she cannot tell what came from where. Wool sealed, same moth rule. **Return at handover, not piecemeal.** ⚠️ Tell her
+      some pieces come back INTERFACED and stiff. 📐 **This changes the cutting plan:** cut to leave the largest usable
+      remnants, not wherever is convenient — it costs nothing and gives her back something she can use.
       🪡 **STARTED 2026-09-22 — STEP 1 IS SEAM RIPPING EVERY GARMENT** (owner). ✅ **Sep 22 evening: every garment PHOTOGRAPHED whole, and seam ripping BEGUN.** ✉️ **ASKED HER 2026-09-22 (sent) what she wants KEPT WHOLE** — maker✅ **Sep 22 evening: every garment PHOTOGRAPHED whole, and seam ripping BEGUN.**#39;s label, a pocket, a cuff, the collar. ⛔ **Unpick seams only until she answers; cut nothing**, the jacket least of all. Slotted into market weeks as
       **30–45 min evening sessions** (Tue/Wed/Thu Sep 22–24), never on market days — it is quiet, sit-down work that
       fits round the sewing. **Photograph each garment whole before the first stitch comes out**, and keep anything she
