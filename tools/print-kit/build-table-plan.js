@@ -47,7 +47,8 @@ const BANDS = [
     cls: "front", tag: "FRONT EDGE", rule: "Where hands actually land. Keep it FULL.",
     items: ["Gift corner: sachets, gift card holders, Cozy Gift Sets + the Gifts $10 and under card",
             "Hair whimsys $5, in a shallow tray", "Scrunchies $6, in a bowl", "Bows $12, in a flat basket",
-            "Stickers $4 or 3 for $10, flat in a tray — ONE FREE with any purchase, handed over, not left out",
+            "‘Creating Whimsy’ stickers $3, in a tray",
+            "Branded autumn sticker: FREE with a purchase, never sold",
             "A tent card in front of each new item", "Business cards"],
   },
 ];
