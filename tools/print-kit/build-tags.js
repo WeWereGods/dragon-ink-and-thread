@@ -36,6 +36,17 @@ const EXTRA_TAGS = [
   { name: "Fairy Tote", price: 40, pill: "Lined · with pocket", note: ONE },
 ];
 
+// Added 2026-09-24, two days before the Sep 26 market. Same reason as the fairy sheet:
+// the main sheet was cut and tied on 2026-09-16 and must never need reprinting. The Rose
+// Latte Cloud is the piece that leads the table and had no tag at all; the first mug rug
+// was finished the same day.
+// The in-stock KINDLE CASE is deliberately NOT here - the owner confirmed 2026-09-24 that it
+// is not for sale. Do not add a tag for it.
+const LATE_TAGS = [
+  { name: "The Rose Latte Cloud", price: 75, pill: "Tote", note: ONE },
+  { name: "Mug Rug", price: 12, pill: "Home &#183; quilted", note: ONE },
+];
+
 const css = [
   // Native tiling, same reason as paper-base: a stretched patch smears the grain and
   // shows a seam wherever it meets anything at native scale.
@@ -117,6 +128,13 @@ function priceCard(t) {
     '<div class="help">Cut on the dashed lines &#183; punch the circle &#183; tie on with twine</div></div>';
   fs.writeFileSync(path.join(SIGN, "p-price-tags-fairy.html"), b.doc("Fairy tote tags", css, extraBody));
   console.log("wrote p-price-tags-fairy.html");
+
+  const lateBody = '<div class="sheet"><div class="grid" style="width:max-content;' +
+    "grid-template-columns:repeat(" + Math.min(LATE_TAGS.length, 3) + ",240px);" +
+    "grid-template-rows:repeat(" + Math.ceil(LATE_TAGS.length / 3) + ',320px)">' + LATE_TAGS.map(priceCard).join("") + "</div>" +
+    '<div class="help">Cut on the dashed lines &#183; punch the circle &#183; tie on with twine</div></div>';
+  fs.writeFileSync(path.join(SIGN, "p-price-tags-sep26.html"), b.doc("Price tags — Sep 26 additions", css, lateBody));
+  console.log("wrote p-price-tags-sep26.html");
 
   // --- gift tags: front (mark + QR) and back (To / From)
   const giftFront = '<div class="cell"><div class="card"><span class="hole"></span>' + mark +
