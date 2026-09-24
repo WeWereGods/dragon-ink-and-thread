@@ -48,7 +48,7 @@ const BANDS = [
     items: ["Gift corner: sachets, gift card holders, Cozy Gift Sets + the Gifts $10 and under card",
             "Hair whimsys $5, in a shallow tray", "Scrunchies $6, in a bowl", "Bows $12, in a flat basket",
             "‘Creating Whimsy’ stickers $3, in a tray",
-            "Branded autumn sticker: FREE with a purchase, never sold",
+            "Two branded stickers: FREE with a purchase, their pick, never sold",
             "A tent card in front of each new item", "Business cards"],
   },
 ];
