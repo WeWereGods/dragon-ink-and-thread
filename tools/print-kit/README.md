@@ -33,7 +33,7 @@ Then any of the builders:
 | `build-pay-card.js` | Scan to Pay — 3 Stripe links | Letter portrait |
 | `build-tags.js` | Price tags + gift tags, 9 per sheet | Letter, 2 pages each |
 | `build-4x6.js` | Price list **and** Scan to Pay | True 4in x 6in |
-| `build-sticker-qr.js` | QR for the $1 sticker checkout | PNG |
+| `build-sticker-qr.js` | ~~QR for the $1 sticker checkout~~ **RETIRED 2026-09-24** — link deactivated in Stripe; the script refuses to run | — |
 
 Each writes HTML. Render it with `render.ps1` (Edge headless → PDF + PNG), then run the
 matching `verify-*.js`.
