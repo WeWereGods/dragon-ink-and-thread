@@ -50,22 +50,28 @@ const LEAVES = [
 ];
 for (const [x, y, d, l] of LEAVES) sprig += leaf(x, y, d, l);
 const BERRIES = [[196, 424], [176, 504], [188, 586], [224, 660], [268, 726]];
+// a short answering spray at the needle's foot, so the lower-right is not bare
+let spray = '<path d="M648,792 C690,772 722,744 742,708" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>';
+for (const [x, y, d, l] of [[664, 776, 214, 40], [676, 800, 62, 34], [706, 748, 206, 38], [722, 772, 54, 32]])
+  spray += leaf(x, y, d, l);
+spray += '<circle cx="690" cy="770" r="6.5"/><circle cx="730" cy="726" r="6"/>';
 for (const [x, y] of BERRIES) sprig += '<circle cx="' + x + '" cy="' + y + '" r="7.5"/>';
 
 // the threaded needle, lower right
 const needle =
-  // shaft: a long taper from the eye down to the point
-  '<path d="M826,438 L850,456 L726,806 L714,800 Z"/>' +
+  // shaft: a FINE taper - 13 units at the eye down to a point. v1 was a slab and read
+  // as a dagger rather than a needle.
+  '<path d="M806,470 L819,477 L707,772 L703,770 Z"/>' +
   // the eye
-  '<ellipse cx="834" cy="450" rx="16" ry="28" transform="rotate(-20 834 450)" fill="none" stroke="#000" stroke-width="8"/>' +
-  // thread, looped through and trailing
-  '<path d="M840,424 C892,410 912,462 884,504 C862,538 818,556 796,598" fill="none" stroke="#000" ' +
-  'stroke-width="7" stroke-linecap="round"/>';
+  '<ellipse cx="812" cy="455" rx="13" ry="23" transform="rotate(-21 812 455)" fill="none" stroke="#000" stroke-width="6"/>' +
+  // thread, looped through and trailing back along the arc
+  '<path d="M818,432 C862,414 884,458 862,496 C838,538 796,566 770,626 C752,668 748,704 758,742" ' +
+  'fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>';
 
 const stars =
-  star(500, 182, 30) + star(400, 220, 17) + star(600, 224, 17) +
-  star(330, 268, 12) + star(668, 272, 12) +
-  star(486, 792, 24) + star(404, 772, 13) + star(566, 772, 13) + star(486, 846, 10);
+  star(500, 176, 30) + star(398, 208, 16) + star(602, 208, 16) +
+  star(316, 262, 12) + star(684, 262, 12) + star(248, 342, 10) + star(752, 342, 10) +
+  star(500, 802, 22) + star(414, 782, 13) + star(586, 782, 13) + star(500, 856, 10);
 
 const flourish = (y, w) =>
   '<path d="M' + (C - w) + "," + y + " C" + (C - w * 0.55) + "," + (y - 16) + " " + (C - w * 0.2) + "," + (y + 12) + " " + C + "," + y +
@@ -80,17 +86,16 @@ const svg =
       '<circle cx="' + C + '" cy="' + C + '" r="472" fill="none" stroke="#000" stroke-width="11"/>' +
       '<circle cx="' + C + '" cy="' + C + '" r="432" fill="none" stroke="#000" stroke-width="7" ' +
         'stroke-linecap="round" stroke-dasharray="0.1 26"/>' +
-      '<g transform="translate(-26,26)">' + sprig + '</g>' + needle + stars +
+      '<g transform="translate(-34,58)">' + sprig + '</g>' + needle + stars +
       flourish(330, 112) + flourish(700, 112) +
       // the wordmark
       '<text x="' + C + '" y="450" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" ' +
         'font-weight="700" font-size="88" letter-spacing="2">DRAGON INK</text>' +
       '<path d="M356,494 L644,494" stroke="#000" stroke-width="5" stroke-linecap="round"/>' +
       star(500, 494, 13) +
-      '<text x="352" y="574" text-anchor="end" font-family="Cormorant Garamond, Georgia, serif" ' +
-        'font-style="italic" font-weight="400" font-size="62">and</text>' +
-      '<text x="374" y="580" text-anchor="start" font-family="Cormorant Garamond, Georgia, serif" ' +
-        'font-weight="700" font-size="88" letter-spacing="2">THREAD</text>' +
+      '<text x="' + C + '" y="578" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif">' +
+        '<tspan font-style="italic" font-weight="400" font-size="62">and </tspan>' +
+        '<tspan font-weight="700" font-size="88" letter-spacing="2">THREAD</tspan></text>' +
     "</g>" +
   "</svg>";
 
