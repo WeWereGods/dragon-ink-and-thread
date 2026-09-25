@@ -27,7 +27,7 @@ const u = (f) => "file:///" + KIT + "/" + f;
 // Signs added 2026-09-21: three letter holders and two 4x6 holders. Tall signs go at
 // the BACK, small ones at the FRONT, and no sign may cover a product.
 // Bump this every time BANDS changes. It prints in the header.
-const STOCK_AS_OF = "2026-09-24";
+const STOCK_AS_OF = "2026-09-25";
 
 const BANDS = [
   {
@@ -54,7 +54,7 @@ const BANDS = [
 ];
 
 const STEPS = [
-  ["2:30", "Arrive. Table up, cloth on, boxes underneath and out of sight."],
+  ["2:30", "Arrive. Table up, cloth on, BANNER clamped to the front, boxes underneath and out of sight."],
   ["2:50", "Back row: stand, scrunchie tree, mirror, Rose Latte Cloud, three signs, Kindle sample."],
   ["3:10", "Middle: bandanas propped, tea cover, sleeve, mug rug with a mug on it."],
   ["3:25", "Front edge: gift corner, whimsys, scrunchies, bows, stickers, tent cards. Fill it."],

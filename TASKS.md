@@ -424,8 +424,10 @@ Two rules that keep this useful:
       Printed cream cotton: the name in script, **EST. 2026**, the **teal plush dragon** (the correct mark), and
       **“HANDMADE HEIRLOOMS FOR EVERYDAY WONDER”**. ✅ **It names no city, so it travels to Virginia and survives the
       January rebrand.** Raw edges as it stands.
-      ⚡ **IF IT IS WANTED BEFORE THEN, JUST HEM IT** — four sides, double-fold ¼″ then ½″, about 20 minutes. A hemmed
-      banner reads finished; a raw-edged one reads unfinished, which is the opposite of what it says.
+      ✅ **RAW EDGES SEWN UP 2026-09-25 — IT IS USABLE THIS WEEKEND.** 📌 **Hang it by clamping it to the front face of
+      the table, over the cloth**, with the tablecloth clamps she already owns. No extra sewing needed for Sep 26–27.
+      ~~⚡ **IF IT IS WANTED BEFORE THEN, JUST HEM IT** — four sides, double-fold ¼″ then ½″, about 20 minutes.~~
+      **The lining, the rod pockets and the ties are STILL to do in Oct 3–8** — those are what make it work outdoors.
       🧵 **The proper job:**
       - **LINE IT** in plain cream cotton. It is thin printed cotton — outdoors the light comes straight through and the
         table shows behind the lettering. A lining also makes it hang flat instead of rippling.
