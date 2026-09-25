@@ -1,19 +1,26 @@
-// WHAT THE SLEEPING DRAGON LOOKS LIKE AS A RUBBER STAMP. Asked 2026-09-25.
+// WHAT THE SEAL ARTWORK LOOKS LIKE AS A RUBBER STAMP. Asked 2026-09-25.
+//
+//   node experiments/stamp-test-dragon.js            the sleeping dragon
+//   node experiments/stamp-test-dragon.js wordmark   the wordmark badge
 //
 // A rubber stamp is ONE SOLID COLOUR. There is no grey: the raised rubber takes ink and
 // everything else does not. So the only honest preview is to threshold the relief map -
 // raised (light) becomes ink, everything else becomes paper - and look at the result.
 //
+// The dragon FAILS at every level (see stamp-sheet). He is built out of tone, and tone is
+// what a one-colour stamp cannot print. The wordmark is line work, so it behaves better -
+// but watch for HOLLOW LETTERING: the render is lit, so a bevelled letter can threshold
+// into an outline rather than a solid shape.
+//
 // Kept in experiments/ for the same reason as the three unmultiply attempts: so nobody
-// has to wonder again. Run it, look at the sheet, and see why the stamp is the wordmark
-// badge and not a dragon.
+// has to wonder again.
 const fs = require("fs");
 const path = require("path");
 const { PNG } = require("pngjs");
 
 const ROOT = path.join(__dirname, "..", "..", "..");
-const OUT = __dirname;
-const src = PNG.sync.read(fs.readFileSync(path.join(ROOT, "assets", "seal-dragon-35mm.png")));
+const which = process.argv[2] === "wordmark" ? "wordmark" : "dragon";
+const src = PNG.sync.read(fs.readFileSync(path.join(ROOT, "assets", "seal-" + which + "-35mm.png")));
 
 // Raised = light in the relief map, and raised rubber is what carries ink.
 function threshold(t) {
@@ -28,7 +35,6 @@ function threshold(t) {
 }
 
 const LEVELS = [110, 130, 150, 170];
-for (const t of LEVELS) {
-  fs.writeFileSync(path.join(OUT, "stamp-" + t + ".png"), PNG.sync.write(threshold(t)));
-}
-console.log("wrote " + LEVELS.map((t) => "stamp-" + t + ".png").join(", "));
+const pre = which === "wordmark" ? "stampw-" : "stamp-";
+for (const t of LEVELS) fs.writeFileSync(path.join(__dirname, pre + t + ".png"), PNG.sync.write(threshold(t)));
+console.log("wrote " + LEVELS.map((t) => pre + t + ".png").join(", "));
