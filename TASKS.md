@@ -2960,6 +2960,39 @@ self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15
 
 ## ⚪ Decisions open
 
+- [ ] 🐉 **CANDIDATE STICKER BATCH — 23 green-dragon designs, logged 2026-09-25, NOTHING ORDERED.**
+  Three pieces of art from the owner:
+  - **A sheet of 21 small ones:** Stitched with Love & Tales · a dragon asleep on books · Cozy
+    Dragon Reads · a dragon in a book-house ("Sewing Stories") · a lantern on books · a dragon asleep
+    on a quilted book · Dreaming of New Patterns · a quilted cottage · Bookworm & Thread Keeper · a
+    reading dragon in glasses · Moss & Material · a book thimble · Little Sparks of Story · a spool
+    and book · Adventure & Quilts · a patchwork basket · a dragon on the "Stash" book stack ·
+    Guarding My Precious Stash · Home Is Where the Books & Bobbins Are · a cottage with spools ·
+    Sweet Cottage Dreams (banner).
+  - **Large die-cut:** *"Where the Wild Moss & Little Dragons Grow"* — dragon with tea, lantern,
+    books, mossy cottages. Not tied to a season.
+  - **Large die-cut, CHRISTMAS:** *"Fueled by Cocoa & Dragon Sparks"* — same dragon in a scarf,
+    with snow, a snowman and a plaid blanket.
+  What's already settled:
+  - ✅ **None of them carries the shop name**, so all of them are **SELLABLE**, like 'Creating Whimsy',
+    and none is a branded giveaway. The "&" in their slogans breaks no rule; "always 'and'" applies
+    only to the name *Dragon Ink and Thread*.
+  - ✅ **They use the GREEN dragon on parchment**, the print-kit mark (THREE MARKS in CLAUDE.md), so
+    they sit with the market signs and don't clash with the teal logo.
+  - ⚠️ **They look AI-generated**, so the same rules apply as for the current batch: ⛔ not at the
+    Pearl or at Mercado de Otono unless checked first, and ⛔ not on the website.
+  Still to decide, all by the owner:
+  - ⛔ **When to order.** The standing rule is **"do not order more before the January rebrand — sell
+    through these 75."** Ordering these now overrides that rule, so decide that deliberately, not
+    by default.
+  - 🎄 **The Christmas one has a short window here.** The remaining SA markets are Oct 10 and Oct 30,
+    and the move is Nov 25. At most one late-October market plus online-order inserts, unless it's
+    meant for Virginia's first holiday season.
+  - 🔍 **Test-print before a bulk order.** Several sheet designs have thin secondary script ("my",
+    "of", "with", "is where the") that may blur at ~2″.
+  - 💵 **Price:** $3 each at the table, matching Creating Whimsy (break-even is 16 stickers), unless
+    the large die-cuts are priced higher.
+
 - [x] ✅ **NEST15 APPLIES TO CUSTOM ORDERS — decided 2026-08-20. Don't re-raise.**
   First honoured on Linda's commission ($1,050 → $892.50). The generous reading was chosen
   deliberately: she is the shop's biggest customer, and both repeat customers converted from a
