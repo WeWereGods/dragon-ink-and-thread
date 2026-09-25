@@ -75,12 +75,16 @@ function sprigOn(P, pairs, len0, lenStep, t0, t1, berries) {
 }
 
 // the long sprig down the left
-const sprig = sprigOn([[188, 356], [146, 502], [222, 700], [344, 792]], 6, 56, 4, 0.1, 0.9, true);
+const sprig = sprigOn([[188, 356], [140, 520], [200, 724], [352, 812]], 8, 56, 3.5, 0.08, 0.95, true);
 
 // A CROWN AT THE TOP: two short sprigs meeting at the centre, mirrored. Each tapers from
 // its outer base in toward the join, which is what makes a pair read as one wreath rather
 // than two twigs. The three big central stars were removed to make room - a sprig and a
 // star cluster in the same place is just clutter.
+// KEPT BUT NOT DRAWN. A crown of two mirrored sprigs was tried at the top on 2026-09-25
+// and taken out again; the material went into a longer left sprig instead. Add `crown` back
+// into the draw list below to restore it, and take the three central stars out again.
+// eslint-disable-next-line no-unused-vars
 const crown =
   sprigOn([[318, 300], [352, 230], [420, 194], [494, 186]], 4, 38, 5, 0.06, 0.94, false) +
   sprigOn([[682, 300], [648, 230], [580, 194], [506, 186]], 4, 38, 5, 0.06, 0.94, false);
@@ -97,6 +101,7 @@ const needle =
   'fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>';
 
 const stars =
+  star(500, 176, 30) + star(398, 208, 16) + star(602, 208, 16) +
   star(316, 262, 12) + star(684, 262, 12) + star(248, 342, 10) + star(752, 342, 10) +
   star(500, 802, 22) + star(414, 782, 13) + star(586, 782, 13) + star(500, 856, 10);
 
@@ -113,7 +118,7 @@ const svg =
       '<circle cx="' + C + '" cy="' + C + '" r="472" fill="none" stroke="#000" stroke-width="11"/>' +
       '<circle cx="' + C + '" cy="' + C + '" r="432" fill="none" stroke="#000" stroke-width="7" ' +
         'stroke-linecap="round" stroke-dasharray="0.1 26"/>' +
-      '<g transform="translate(-34,58)">' + sprig + '</g>' + crown + needle + stars +
+      '<g transform="translate(-34,58)">' + sprig + '</g>' + needle + stars +
       flourish(330, 112) + flourish(700, 112) +
       // the wordmark
       '<text x="' + C + '" y="450" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" ' +
