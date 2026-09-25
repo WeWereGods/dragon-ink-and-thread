@@ -420,6 +420,22 @@ Two rules that keep this useful:
         2026-08-11 (**from $40, no ceiling**), advertised in the mending post on 2026-08-13, and
         this job's before/after is the proof image on custom.html. The "decide before advertising
         it" note is spent.
+- [ ] 🚩 **FINISH THE FABRIC BANNER — in the Oct 3–8 block, ready for Oct 10.** Made and given by a friend, 2026-09-25.
+      Printed cream cotton: the name in script, **EST. 2026**, the **teal plush dragon** (the correct mark), and
+      **“HANDMADE HEIRLOOMS FOR EVERYDAY WONDER”**. ✅ **It names no city, so it travels to Virginia and survives the
+      January rebrand.** Raw edges as it stands.
+      ⚡ **IF IT IS WANTED BEFORE THEN, JUST HEM IT** — four sides, double-fold ¼″ then ½″, about 20 minutes. A hemmed
+      banner reads finished; a raw-edged one reads unfinished, which is the opposite of what it says.
+      🧵 **The proper job:**
+      - **LINE IT** in plain cream cotton. It is thin printed cotton — outdoors the light comes straight through and the
+        table shows behind the lettering. A lining also makes it hang flat instead of rippling.
+      - **ROD POCKET top AND bottom.** Top to hang from, bottom for a dowel so it cannot billow. **Four of the five
+        remaining markets are outdoors and Oct 24 and Oct 30 run past dark** — a banner that flaps is one nobody reads.
+      - **TIES at the top corners, not grommets.** Ties work three ways — across the table front, on the canopy back wall,
+        or knotted to the frame. Grommets lock it to one method.
+      ⚠️ **Check the edges for printer marks before hemming** — there is a maker's credit printed near the dragon. Make
+      sure the hem allowance swallows anything along the selvedge, or it shows on the table.
+      🎁 **It was a gift. Photograph it finished and send her the picture.**
 - [ ] 🎁 **GIFT CARD HOLDERS — HOW MANY TO MAKE. Decided 2026-09-25: let the weekend answer it, do not batch-make on a guess.**
       **3 exist.** The piece debuts at the Sep 26–27 markets, so there is **no demand data at all** yet.
       📈 **The schedule, each step conditional on the one before:**
@@ -1129,7 +1145,7 @@ Two rules that keep this useful:
   | **Sat Sep 12 – Fri Sep 18** | 🖼️ ✅ **Shadow box finished Sep 15** (Linda adding to it — date extended). No market sewing. Instead: **stash + supplies check** (below), ask around for a canopy · federal tax deferred to April (owner, Sep 15) | — |
   | **Sat Sep 19 – Fri Sep 25** | **23 bows** — 9 Christmas (4 Scarlet, 2 Cream to do · ✅ Starfall Pines, Solstice Tartan, Traditional Christmas), 9 fall/Halloween (one each, so the first market shows *which* sells — ✅ 8 sewn, Amber still to do), 5 any-season (✅ 4 sewn, Dawn Court Dots to do). **Cut the last 8 in one sitting**, sew through the week | ~4 left |
   | **Sat Sep 26 – Fri Oct 2** | **Gift card holders** — make ONE, time it, then 7–9 more at ~$10 · **3 Christmas scrunchies** · **8 hair whimsys** | ~7 |
-  | **Sat Oct 3 – Thu Oct 8** | **5 dog bandanas** (3 M, 2 L — Christmas, fall and one pink Halloween) · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~5 |
+  | **Sat Oct 3 – Thu Oct 8** | **5 dog bandanas** (3 M, 2 L — Christmas, fall and one pink Halloween) · 🚩 **FINISH THE FABRIC BANNER** (see below) · **cup cozies and mug rugs** in coffee prints · **aprons** · gift card holders **only if the Sep 26–27 markets showed they sell** · then signs, QR sign, bow display board, scrunchie holder, inventory list · **set the table up once at home and photograph it** | ~6 |
   | **Fri Oct 9** | Pack · forecast · charge phone + reader · **$75–100 in small bills** · canopy + weights in the car | — |
   | **🎪 SAT OCT 10 — day** | Market 1 | — |
   | **Sun Oct 11** | Tell Claude what sold → sold-out online. **Count the Halloween bows sold — it sets the next row** | — |
