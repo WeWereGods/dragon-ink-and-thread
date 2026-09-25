@@ -37,25 +37,39 @@ const leaf = (x, y, deg, len) =>
   '<path transform="translate(' + x + ',' + y + ') rotate(' + deg + ') scale(' + (len / 34) + ')" d="' +
   "M0,0 C9,-9 11,-22 0,-34 C-11,-22 -9,-9 0,0 Z" + '"/>';
 
-// leaves + berries along the left-hand stem
-const stemD = "M186,352 C146,452 156,576 214,668 C250,724 292,758 340,778";
-let sprig = '<path d="' + stemD + '" fill="none" stroke="#000" stroke-width="7" stroke-linecap="round"/>';
-const LEAVES = [
-  [174, 392, -34, 52], [214, 390, 112, 44],
-  [154, 470, -14, 54], [200, 466, 128, 46],
-  [162, 552,   8, 54], [212, 544, 146, 46],
-  [192, 628,  26, 52], [242, 616, 164, 44],
-  [238, 700,  46, 48], [286, 684, 182, 40],
-  [296, 752,  64, 44],
-];
-for (const [x, y, d, l] of LEAVES) sprig += leaf(x, y, d, l);
-const BERRIES = [[196, 424], [176, 504], [188, 586], [224, 660], [268, 726]];
-// a short answering spray at the needle's foot, so the lower-right is not bare
-let spray = '<path d="M648,792 C690,772 722,744 742,708" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>';
-for (const [x, y, d, l] of [[664, 776, 214, 40], [676, 800, 62, 34], [706, 748, 206, 38], [722, 772, 54, 32]])
-  spray += leaf(x, y, d, l);
-spray += '<circle cx="690" cy="770" r="6.5"/><circle cx="730" cy="726" r="6"/>';
-for (const [x, y] of BERRIES) sprig += '<circle cx="' + x + '" cy="' + y + '" r="7.5"/>';
+// THE SPRIG IS GENERATED ALONG THE STEM, NOT HAND-PLACED.
+// v1 and v2 positioned every leaf by hand and it read as a clump: the angles did not
+// agree with the curve, the pairs were not symmetric, and the sizes jumped about.
+// Here the stem is one cubic bezier, leaves are sampled along it, each pair is set from
+// the TANGENT at that point, and the size tapers toward the tip the way a real sprig does.
+const P = [[188, 356], [146, 502], [222, 700], [344, 792]];   // cubic control points
+const bez = (t, i) => {
+  const u = 1 - t;
+  return u * u * u * P[0][i] + 3 * u * u * t * P[1][i] + 3 * u * t * t * P[2][i] + t * t * t * P[3][i];
+};
+const tan = (t, i) => {
+  const u = 1 - t;
+  return 3 * u * u * (P[1][i] - P[0][i]) + 6 * u * t * (P[2][i] - P[1][i]) + 3 * t * t * (P[3][i] - P[2][i]);
+};
+
+let sprig = '<path d="M' + P[0] + " C" + P[1] + " " + P[2] + " " + P[3] +
+  '" fill="none" stroke="#000" stroke-width="7" stroke-linecap="round"/>';
+
+const PAIRS = 6;
+const SPREAD = 82;        // degrees off the tangent, each way - near perpendicular.
+// 58 was tried first and the leaves lay along the stem instead of standing out from it.
+for (let k = 0; k < PAIRS; k++) {
+  const t = 0.1 + (k / (PAIRS - 1)) * 0.8;
+  const x = bez(t, 0), y = bez(t, 1);
+  const deg = Math.atan2(tan(t, 1), tan(t, 0)) * 180 / Math.PI;
+  const len = 56 - k * 4;                       // taper toward the tip
+  sprig += leaf(x, y, deg + 90 - SPREAD, len) + leaf(x, y, deg + 90 + SPREAD, len);
+}
+// berries sit ON the stem, between the pairs, so they read as part of it
+for (let k = 0; k < PAIRS - 1; k++) {
+  const t = 0.1 + ((k + 0.5) / (PAIRS - 1)) * 0.8;
+  sprig += '<circle cx="' + bez(t, 0).toFixed(1) + '" cy="' + bez(t, 1).toFixed(1) + '" r="7"/>';
+}
 
 // the threaded needle, lower right
 const needle =
