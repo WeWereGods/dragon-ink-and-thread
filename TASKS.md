@@ -460,6 +460,14 @@ Two rules that keep this useful:
       every plan we made for it. Enquiry 2026-09-15, paid 2026-09-23, sewn 2026-09-24, in her hands 2026-09-25.
       📧 **The Gmail draft is now SPENT** — it promised “I’ll get it into your hands very soon”. Delete it or replace it
       with the follow-up below. The surprise-party handover is moot; she has it.
+      📣 **POSTED TO FACEBOOK 2026-09-25** — a 2x2 collage (held, tied, the lining, the two cut pieces on the mat),
+      built with the new `tools/print-kit/build-photo-collage.js` at 1080x1350. The post leads on **“she came back”**
+      and names the band and the turnaround (**$35–50, about two weeks**) rather than making people ask.
+      🗣️ **THE REPEAT-CUSTOMER PATTERN IS NOW FOUR DEEP AND STILL UNUSED ON THE SITE:** Brea, Linda, Cassidy and
+      Maurya all converted off a small first purchase. It is the best argument the shop has for custom orders and it
+      appears nowhere in the copy.
+      ❓ **Ask whether she is happy to be TAGGED** when the review email goes — a tagged post reaches her friends, which
+      is the only free reach there is.
       📸 **THE ONE THING LEFT: ASK HER FOR A PHOTO AND A REVIEW.** She is the customer whose five-star review is the ONLY
       one the site holds that describes the custom **process** rather than a finished object — and **her tote was never
       photographed**, so the shop has her words and no picture. A photo of this sleeve with her Kindle in it fixes that.
