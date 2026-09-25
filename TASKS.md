@@ -2990,6 +2990,8 @@ self-employment tax**. Estimated payments **Apr 15 · Jun 15 · Sep 15 · Jan 15
     meant for Virginia's first holiday season.
   - 🔍 **Test-print before a bulk order.** Several sheet designs have thin secondary script ("my",
     "of", "with", "is where the") that may blur at ~2″.
+  - ✍️ **Captions drafted: `marketing/sticker-captions.md`** (2026-09-25). Part A is a "help me
+    pick" vote that can go out NOW and doubles as demand research; Part B waits for an actual delivery.
   - 💵 **Price:** $3 each at the table, matching Creating Whimsy (break-even is 16 stickers), unless
     the large die-cuts are priced higher.
 
