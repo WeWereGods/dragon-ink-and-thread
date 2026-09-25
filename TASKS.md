@@ -456,6 +456,17 @@ Two rules that keep this useful:
       🎁 **Try in November: a gift card holder + a sachet, $15, tied with twine** — a finished teacher gift that needs no
       wrapping, and it moves two slow items as one. Same trick as the Cozy Gift Set.
       🗓️ **Nothing made after about Nov 7 has a table to sell on** except Nov 13 and Nov 14.
+- [x] ✅✅ **CLOSED — KINDLE SLEEVE FOR CASSIDY E. DELIVERED 2026-09-25**, eight days before her birthday and ahead of
+      every plan we made for it. Enquiry 2026-09-15, paid 2026-09-23, sewn 2026-09-24, in her hands 2026-09-25.
+      📧 **The Gmail draft is now SPENT** — it promised “I’ll get it into your hands very soon”. Delete it or replace it
+      with the follow-up below. The surprise-party handover is moot; she has it.
+      📸 **THE ONE THING LEFT: ASK HER FOR A PHOTO AND A REVIEW.** She is the customer whose five-star review is the ONLY
+      one the site holds that describes the custom **process** rather than a finished object — and **her tote was never
+      photographed**, so the shop has her words and no picture. A photo of this sleeve with her Kindle in it fixes that.
+      **Real reviews only, added by hand to `TESTIMONIALS`, verbatim.** ⚠️ A review of this piece is a review of a CUSTOM
+      make, so it stays OUT of the Totes `aggregateRating` — `reviewCount` stays 1.
+      💰 Paid **$32.20** = $29.75 + $2.45 tax; she applied NEST15 herself. **Q3, on the Oct 20 return.**
+      *(original entry follows)*
 - [ ] 🆕 ✉️ **CUSTOM ORDER — A KINDLE SLEEVE FOR CASSIDY E. Came through the contact form 2026-09-15.**
       ✅✅ **SEWN AND FINISHED 2026-09-24 (owner).** **Final size 9″ × 7″**, padded and quilted, in **Afternoon Tea**
       (`fabric-60`), **lined in the same print** and closing with **two ties in the print** — the tie-cover style she asked
