@@ -37,39 +37,53 @@ const leaf = (x, y, deg, len) =>
   '<path transform="translate(' + x + ',' + y + ') rotate(' + deg + ') scale(' + (len / 34) + ')" d="' +
   "M0,0 C9,-9 11,-22 0,-34 C-11,-22 -9,-9 0,0 Z" + '"/>';
 
-// THE SPRIG IS GENERATED ALONG THE STEM, NOT HAND-PLACED.
-// v1 and v2 positioned every leaf by hand and it read as a clump: the angles did not
-// agree with the curve, the pairs were not symmetric, and the sizes jumped about.
-// Here the stem is one cubic bezier, leaves are sampled along it, each pair is set from
-// the TANGENT at that point, and the size tapers toward the tip the way a real sprig does.
-const P = [[188, 356], [146, 502], [222, 700], [344, 792]];   // cubic control points
-const bez = (t, i) => {
-  const u = 1 - t;
-  return u * u * u * P[0][i] + 3 * u * u * t * P[1][i] + 3 * u * t * t * P[2][i] + t * t * t * P[3][i];
-};
-const tan = (t, i) => {
-  const u = 1 - t;
-  return 3 * u * u * (P[1][i] - P[0][i]) + 6 * u * t * (P[2][i] - P[1][i]) + 3 * t * t * (P[3][i] - P[2][i]);
-};
+// SPRIGS ARE GENERATED ALONG THEIR STEM, NOT PLACED BY HAND.
+// The first two versions positioned every leaf individually and it read as a clump: the
+// angles did not agree with the curve, the pairs were not symmetric, and the sizes jumped
+// about. Here a stem is one cubic bezier, leaves are sampled along it, each pair is set
+// from the TANGENT at that point, and the size tapers toward the tip.
+//
+// SPREAD is 82 degrees off the tangent - near perpendicular. 58 was tried first and the
+// leaves lay along the stem and tangled with it. Do not go back below about 70.
+const SPREAD = 82;
 
-let sprig = '<path d="M' + P[0] + " C" + P[1] + " " + P[2] + " " + P[3] +
-  '" fill="none" stroke="#000" stroke-width="7" stroke-linecap="round"/>';
+function sprigOn(P, pairs, len0, lenStep, t0, t1, berries) {
+  const bez = (t, i) => {
+    const u = 1 - t;
+    return u * u * u * P[0][i] + 3 * u * u * t * P[1][i] + 3 * u * t * t * P[2][i] + t * t * t * P[3][i];
+  };
+  const tan = (t, i) => {
+    const u = 1 - t;
+    return 3 * u * u * (P[1][i] - P[0][i]) + 6 * u * t * (P[2][i] - P[1][i]) + 3 * t * t * (P[3][i] - P[2][i]);
+  };
+  let out = '<path d="M' + P[0] + " C" + P[1] + " " + P[2] + " " + P[3] +
+    '" fill="none" stroke="#000" stroke-width="7" stroke-linecap="round"/>';
+  for (let k = 0; k < pairs; k++) {
+    const t = t0 + (k / (pairs - 1)) * (t1 - t0);
+    const deg = Math.atan2(tan(t, 1), tan(t, 0)) * 180 / Math.PI;
+    const len = len0 - k * lenStep;
+    out += leaf(bez(t, 0), bez(t, 1), deg + 90 - SPREAD, len) +
+           leaf(bez(t, 0), bez(t, 1), deg + 90 + SPREAD, len);
+  }
+  if (berries) {
+    for (let k = 0; k < pairs - 1; k++) {
+      const t = t0 + ((k + 0.5) / (pairs - 1)) * (t1 - t0);
+      out += '<circle cx="' + bez(t, 0).toFixed(1) + '" cy="' + bez(t, 1).toFixed(1) + '" r="7"/>';
+    }
+  }
+  return out;
+}
 
-const PAIRS = 6;
-const SPREAD = 82;        // degrees off the tangent, each way - near perpendicular.
-// 58 was tried first and the leaves lay along the stem instead of standing out from it.
-for (let k = 0; k < PAIRS; k++) {
-  const t = 0.1 + (k / (PAIRS - 1)) * 0.8;
-  const x = bez(t, 0), y = bez(t, 1);
-  const deg = Math.atan2(tan(t, 1), tan(t, 0)) * 180 / Math.PI;
-  const len = 56 - k * 4;                       // taper toward the tip
-  sprig += leaf(x, y, deg + 90 - SPREAD, len) + leaf(x, y, deg + 90 + SPREAD, len);
-}
-// berries sit ON the stem, between the pairs, so they read as part of it
-for (let k = 0; k < PAIRS - 1; k++) {
-  const t = 0.1 + ((k + 0.5) / (PAIRS - 1)) * 0.8;
-  sprig += '<circle cx="' + bez(t, 0).toFixed(1) + '" cy="' + bez(t, 1).toFixed(1) + '" r="7"/>';
-}
+// the long sprig down the left
+const sprig = sprigOn([[188, 356], [146, 502], [222, 700], [344, 792]], 6, 56, 4, 0.1, 0.9, true);
+
+// A CROWN AT THE TOP: two short sprigs meeting at the centre, mirrored. Each tapers from
+// its outer base in toward the join, which is what makes a pair read as one wreath rather
+// than two twigs. The three big central stars were removed to make room - a sprig and a
+// star cluster in the same place is just clutter.
+const crown =
+  sprigOn([[318, 300], [352, 230], [420, 194], [494, 186]], 4, 38, 5, 0.06, 0.94, false) +
+  sprigOn([[682, 300], [648, 230], [580, 194], [506, 186]], 4, 38, 5, 0.06, 0.94, false);
 
 // the threaded needle, lower right
 const needle =
@@ -83,7 +97,6 @@ const needle =
   'fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>';
 
 const stars =
-  star(500, 176, 30) + star(398, 208, 16) + star(602, 208, 16) +
   star(316, 262, 12) + star(684, 262, 12) + star(248, 342, 10) + star(752, 342, 10) +
   star(500, 802, 22) + star(414, 782, 13) + star(586, 782, 13) + star(500, 856, 10);
 
@@ -100,7 +113,7 @@ const svg =
       '<circle cx="' + C + '" cy="' + C + '" r="472" fill="none" stroke="#000" stroke-width="11"/>' +
       '<circle cx="' + C + '" cy="' + C + '" r="432" fill="none" stroke="#000" stroke-width="7" ' +
         'stroke-linecap="round" stroke-dasharray="0.1 26"/>' +
-      '<g transform="translate(-34,58)">' + sprig + '</g>' + needle + stars +
+      '<g transform="translate(-34,58)">' + sprig + '</g>' + crown + needle + stars +
       flourish(330, 112) + flourish(700, 112) +
       // the wordmark
       '<text x="' + C + '" y="450" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" ' +
