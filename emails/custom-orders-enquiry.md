@@ -10,6 +10,13 @@ Voice is the site's: first person, from Ayla. Unhurried, warm, specific. Never "
 a customer who's read the page and then gets a different process from the email will assume
 the shop is disorganised.
 
+⚠️ **THE REPEAT-CUSTOMER LINE IS A FACTUAL CLAIM AND IT LIVES IN TWO PLACES** — here and in
+custom.html's hero. Added 2026-09-25, when it was true of **all four**: Brea, Linda, Cassidy and
+Maurya each came back for a second commission. **It is the strongest thing the shop can say about
+custom work and it was going unsaid.** It stays true only while it is — if someone commissions once
+and never returns, soften it to “most”. **Re-check it at the January rebrand rather than letting it
+rot.** Change both copies together.
+
 **NEST15 DOES apply to custom orders — decided by the owner 2026-08-20**, and first honoured on
 Linda's two-piece commission. So you may confirm it if a customer asks.
 ⚠️ **It is NOT automatic on a custom invoice.** `allow_promotion_codes` lives on the Checkout
@@ -30,6 +37,9 @@ Thank you for asking — I'd love to hear what you're imagining.
 
 Custom just means your idea instead of mine: your print, your size, made for you or for
 someone you love. Here's how it goes, so there are no surprises.
+
+Nearly everyone I've made a custom piece for this year has come back and asked for another.
+That's the most honest thing I can tell you about how it goes.
 
 **1. You tell me what you're picturing.** As much or as little as you have — "a mushroom
 tote but bigger" is a perfectly good start. There's a [library of 71 fabrics][fabrics] I
