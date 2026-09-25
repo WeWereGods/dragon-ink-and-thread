@@ -420,6 +420,24 @@ Two rules that keep this useful:
         2026-08-11 (**from $40, no ceiling**), advertised in the mending post on 2026-08-13, and
         this job's before/after is the proof image on custom.html. The "decide before advertising
         it" note is spent.
+- [ ] 🎁 **GIFT CARD HOLDERS — HOW MANY TO MAKE. Decided 2026-09-25: let the weekend answer it, do not batch-make on a guess.**
+      **3 exist.** The piece debuts at the Sep 26–27 markets, so there is **no demand data at all** yet.
+      📈 **The schedule, each step conditional on the one before:**
+      - **Sep 26–27:** take the **3**. Tick them on the sales sheet. If all three go, that is a real signal; if none go,
+        that is worth knowing for the price of three squares of fabric.
+      - **October (Oct 10 · 24 · 30):** if they sold, make **8–10**.
+      - **November (Nov 13 school popup · Nov 14 Mercado):** **12–15**, and only if October showed they move.
+      💡 **WHY THE SCHOOL MARKET IS THE ONE THAT JUSTIFIES VOLUME:** a gift card holder is only bought by someone who is
+      **also buying a gift card**. At a craft market most people are not gift-card shopping, so expect slow movement
+      through October. **Teacher gifts genuinely ARE gift cards**, and a preschool that size has a lot of teachers.
+      ⚠️ **~12–15 corrects an earlier off-the-cuff “about 20”**, which was too confident: ~166 families, perhaps 80
+      attending, split across ~30 vendors.
+      ⛔ **THE HARD CONSTRAINT: anything unsold after Nov 14 is packed into a van and driven to Virginia.** Over-making an
+      untested $10 piece costs freight and cash that will not come back before the move. Under-making costs a few sales.
+      **Under-make.**
+      🎁 **Try in November: a gift card holder + a sachet, $15, tied with twine** — a finished teacher gift that needs no
+      wrapping, and it moves two slow items as one. Same trick as the Cozy Gift Set.
+      🗓️ **Nothing made after about Nov 7 has a table to sell on** except Nov 13 and Nov 14.
 - [ ] 🆕 ✉️ **CUSTOM ORDER — A KINDLE SLEEVE FOR CASSIDY E. Came through the contact form 2026-09-15.**
       ✅✅ **SEWN AND FINISHED 2026-09-24 (owner).** **Final size 9″ × 7″**, padded and quilted, in **Afternoon Tea**
       (`fabric-60`), **lined in the same print** and closing with **two ties in the print** — the tie-cover style she asked
