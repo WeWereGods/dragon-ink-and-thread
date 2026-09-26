@@ -33,6 +33,21 @@ const TENTS = [
     text: "A scrunchie and a sachet, tied up with twine and a gift tag." },
 ];
 
+// Added 2026-09-26. Six more mug rugs in three shapes were finished overnight, which makes
+// "2 for $20" the only multi-buy on the table that NO printed sign mentions - the price list
+// carries bows, scrunchies and sachets, and mug rugs were never on it because for one piece
+// a two-for deal was decoration.
+// ⚠️ A SEPARATE SHEET, not a fifth tent. The grid is two rows of 5in on an 11in sheet, so a
+// fifth tent spills onto a second page - and the four-tent sheet was cut and folded on
+// 2026-09-24 and must never need reprinting.
+// TWO COPIES because the mug rugs will not sit in one pile: a round one in the gift corner
+// and a rectangle in the browse row each need to say what they are. The round ones are the
+// reason this card exists at all - a quilted circle reads as a coaster, or as nothing.
+const MUG_TENTS = [
+  { eyebrow: "what is a", title: "Mug Rug?", price: 12, deal: "or 2 for $20",
+    text: "A little quilted mat for your cup and something to nibble. Round, square or rectangle &#8212; all one price." },
+];
+
 const FONTS =
   '<link rel="preconnect" href="https://fonts.googleapis.com">' +
   '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
@@ -77,11 +92,22 @@ function face(t, pos) {
     '<div class="tx">' + t.text + '</div><div class="pr"><sup>$</sup>' + t.price + (t.deal ? '<span class="dl">' + t.deal + "</span>" : "") + "</div></div></div>";
 }
 
-const tents = TENTS.map((t) => '<div class="tent">' + face(t, "top") + face(t, "bot") + "</div>").join("");
-const body = '<div class="sheet"><div class="grid">' + tents + "</div>" +
+const tentSheet = (list) =>
+  '<div class="sheet"><div class="grid">' +
+  list.map((t) => '<div class="tent">' + face(t, "top") + face(t, "bot") + "</div>").join("") + "</div>" +
   '<div class="how">Cut on the dashed lines &middot; fold on the dotted line &middot; stand it up</div></div>';
+
+const body = tentSheet(TENTS);
 
 fs.writeFileSync(path.join(SIGN, "p-tent-cards.html"),
   ['<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Tent Cards</title>',
     FONTS, "<style>" + css + "</style></head><body>", body, "</body></html>"].join("\n"));
 console.log("wrote p-tent-cards.html");
+
+// The mug rug sheet: TWO copies of the one card, on its own page. See MUG_TENTS above for
+// why it is not simply a fifth tent on the sheet already cut.
+fs.writeFileSync(path.join(SIGN, "p-tent-cards-mugrug.html"),
+  ['<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Mug Rug Tent Cards</title>',
+    FONTS, "<style>" + css + "</style></head><body>",
+    tentSheet([MUG_TENTS[0], MUG_TENTS[0]]), "</body></html>"].join("\n"));
+console.log("wrote p-tent-cards-mugrug.html");

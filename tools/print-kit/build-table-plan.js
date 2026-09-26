@@ -27,7 +27,7 @@ const u = (f) => "file:///" + KIT + "/" + f;
 // Signs added 2026-09-21: three letter holders and two 4x6 holders. Tall signs go at
 // the BACK, small ones at the FRONT, and no sign may cover a product.
 // Bump this every time BANDS changes. It prints in the header.
-const STOCK_AS_OF = "2026-09-25";
+const STOCK_AS_OF = "2026-09-26";
 
 const BANDS = [
   {
@@ -40,8 +40,11 @@ const BANDS = [
   },
   {
     cls: "mid", tag: "MIDDLE", rule: "The browse row — picked up, then put back",
-    items: ["Pet bandanas, propped not flat", "Tea cover · book sleeve",
-            "Mug rug $12, with a mug standing on it so people see what it is for", "Other totes"],
+    // Tea cover OFF 2026-09-26: sold to Maurya on Sep 24 and collected Sep 25. It is still
+    // on the printed Sep 25 plan, which is exactly what this date stamp exists to catch.
+    items: ["Pet bandanas, propped not flat", "Book sleeve",
+            "Mug rugs $12 or 2 for $20 &#8212; seven, three shapes, a mug standing on one",
+            "Other totes"],
   },
   {
     cls: "front", tag: "FRONT EDGE", rule: "Where hands actually land. Keep it FULL.",
@@ -56,7 +59,7 @@ const BANDS = [
 const STEPS = [
   ["2:30", "Arrive. Table up, cloth on, BANNER clamped to the front, boxes underneath and out of sight."],
   ["2:50", "Back row: stand, scrunchie tree, mirror, Rose Latte Cloud, three signs, Kindle sample."],
-  ["3:10", "Middle: bandanas propped, tea cover, sleeve, mug rug with a mug on it."],
+  ["3:10", "Middle: bandanas propped, book sleeve, mug rugs fanned out with a mug on one."],
   ["3:25", "Front edge: gift corner, whimsys, scrunchies, bows, stickers, tent cards. Fill it."],
   ["3:40", "Tap to Pay test on your phone. Count the float. Power bank on."],
   ["3:50", "Photograph the finished table for the Story."],
