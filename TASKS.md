@@ -1,7 +1,47 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-17.**
+**Last reviewed: 2026-09-26.**
+
+### 🎪 SAT SEP 26 — market day, what changed that morning
+
+🫖 **SEVEN MUG RUGS, not one** (owner, 2026-09-26) — six more finished overnight in **three shapes: round,
+square and the folded rectangle**. All one product at one price, **$12 or 2 for $20**, because the price does
+not change with the shape and a shape-specific tag would need re-counting every batch.
+  - New sheet of **nine mug rug tags** (`p-price-tags-mugrugs`) — the Sep 24 sheet carried exactly one.
+  - New sheet of **two mug rug tent cards** (`p-tent-cards-mugrug`). **The round ones are why**: a quilted
+    circle reads as a coaster, or as nothing. Separate sheet because the four-tent grid is two rows of 5in on
+    an 11in page, and that sheet is already cut.
+  - ⚠️ **"2 for $20" is on the tent card and NOWHERE ELSE.** It is not on the printed price list, which was
+    made when there was one mug rug. Rings on Tap to Pay as a custom amount.
+
+⛔ **THE SURIEL TEA COVER WAS STILL ON THE PRINTED TABLE PLAN.** Sold to Maurya Sep 24, collected Sep 25, and
+the Sep 25 plan would have put it back on the table. Off `BANDS`, off `STEPS`, `STOCK_AS_OF` → 2026-09-26.
+**This is exactly the failure the date stamp exists to catch, and it caught it on the second use.** A price tag
+for it still exists from the Sep 16 sheet — do not tie it onto anything.
+
+🌰 **SACHETS: 3 LAVENDER + 4 CINNAMON** (owner, 2026-09-26) — cinnamon's first outing, real spices not oils.
+  - ⚠️ **Two trays, labelled.** One dish blends both scents within an hour and then neither reads.
+  - **Let 2-for-$10 cross scents** — one of each is the natural sale.
+  - **Tally separately**: the printed "Sachet $6" row for lavender, **"Sachet — cinnamon" on a blank line**.
+    Which scent sells decides the October batch. Cinnamon is **not in Stripe** (connector expired) — ring on the
+    Lavender button or a custom $6 and write down which.
+  - ⚠️ **Line the spiced ones with muslin.** Cracked bark and clove dust go straight through quilting cotton
+    and out the needle holes. Lavender buds do not; cinnamon does.
+  - 🎁 **Don't let Cozy Gift Sets eat them** — seven sachets across two markets, and each set consumes one.
+
+🪧 **SEP 26 FLYER CORRECTED AND RE-RENDERED** — **INDOOR/OUTDOOR** (was INDOORS), mug rugs added to the category
+line and the "New:" pill. ⚠️ **The re-render also finally dropped "any 2 of the little things for $10"** — the
+mix-and-match deal withdrawn on Sep 24. The builder was fixed that day but **nobody re-rendered the image, so the
+withdrawn deal kept going out for two days**. 📌 **A fixed generator is not a fixed flyer.** The old one is still
+on Facebook: **honour it if anyone asks on the day.**
+
+⬜ **OPEN: `wrangler deploy` was never confirmed after `tote-rose-latte-cloud` went live at $75.** The Worker
+file carries `amount: 7500`, but if the deploy did not run, the website answers **"Your cart is empty"** on the
+one piece the Sep 26 posts point at. Run `git checkout main && git pull` then `wrangler deploy` from `worker/`.
+
+⬜ **Cassidy: offer Mon 28 or Tue 29 for the Kindle sleeve drop-off** — in her hands by Wed Sep 30 for the Oct 3
+birthday.
 
 ### 🎪 SAT SEP 19 — an OUTDOOR market, signed up 2026-09-17, two days' notice
 
