@@ -88,7 +88,8 @@ window.DIT_SHOP = {
        remain and the set cannot be fulfilled. soldOut first, retire later (Pinterest rule). */
     "bandana-storykeeper":   { name: "The Storykeeper Bandana", price: 18.0, art: "🐾" },
     "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    price: 18.0, art: "🐾" },
-    "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾" },
+    /* SOLD at the Sep 26 market, before it had even opened. soldOut first, retire later (Pinterest rule). */
+    "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾", soldOut: true },
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" },
     "home-suriel-tea-cover": { name: "The Suriel Tea Cover",    price: 35.0, art: "🫖", soldOut: true }
   },

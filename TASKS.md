@@ -2415,6 +2415,19 @@ that was right; a fourth free one would have taught the wrong lesson on the shop
 
 ## 🟢 Sold — finish the two-step exit
 
+- [ ] 🐾 **The Quilted Court Bandana SOLD at the Sep 26 market — before the market had even opened.**
+      ✅ **Step 1 done 2026-09-27:** `soldOut: true` in js/shop-data.js, product pages rebuilt (its
+      page stays up as "Sold" with the waitlist), out of the sitemap, **"out of stock" in the
+      Pinterest feed**, and the Pet Bandanas JSON-LD in index.html is now 2 offers at $18–18.
+      ⬜ **Step 2, around Oct 1 or later:** retire it to Stories (`PAST_MAKES`), drop it from
+      `PRODUCTS`/`VARIANTS`/`LINKS`/`CATALOG` and the Worker's `PRICES`, delete its page, then
+      `wrangler deploy` **from `main` after pulling**. Until then the cart refuses it client-side.
+      ⚠️ **It was the ONLY patchwork bandana**, and the only $22 one. The custom bandana band stays
+      $22–35 (owner decision 2026-08-19); with no $22 piece in the shop, the floor now clears the
+      $18 ones even more plainly.
+      📣 It is also the S4 thank-you post's real moment: *"The first piece found its new home
+      before the market had even officially started."*
+
 - [x] ✅ **Strawberry Scrunchie RETIRED 2026-08-20.** Out of `PRODUCTS`/`VARIANTS`/`LINKS`/
       `BYO_PRINTS`/`CATALOG`, out of the Worker's `PRICES` and `PICKABLE`, product page deleted,
       out of the sitemap and the Pinterest feed, and **in Stories as `PAST_MAKES` #16**.

@@ -49,7 +49,7 @@
     "@type": "Offer",
     "priceCurrency": "USD",
     "price": "22.00",
-    "availability": "https://schema.org/InStock",
+    "availability": "https://schema.org/OutOfStock",
     "url": "https://www.dragoninkandthread.com/bandana-quilted-court.html",
     "seller": {
       "@type": "Organization",
@@ -144,10 +144,10 @@
     <section class="section pdp">
       <div class="container pdp-grid">
         <div class="pdp-media">
-          <div class="pdp-hero" data-zoom tabindex="0" role="button"
+          <div class="pdp-hero is-soldout" data-zoom tabindex="0" role="button"
                aria-label="Enlarge photo of The Quilted Court Bandana">
             <img class="pdp-photo" id="pdpPhoto" src="assets/bandana-quilted-court.jpg" alt="Handmade pet bandana pieced from small blush, cream and sage squares — roses, plaids and dotted cottons — with an elasticated channel along the top" decoding="async" />
-            
+            <span class="sold-badge">Sold</span>
             <span class="gallery-hint" data-zoom-hint>⤢ Zoom</span>
           </div>
           <div class="pdp-thumbs" role="list"><button class="pdp-thumb is-active" type="button" role="listitem" data-pdp-img="assets/bandana-quilted-court.jpg" aria-label="View photo 1 of 5"><img src="assets/bandana-quilted-court.jpg" alt="" loading="lazy" decoding="async" /></button><button class="pdp-thumb" type="button" role="listitem" data-pdp-img="assets/bandana-quilted-court-2.jpg" aria-label="View photo 2 of 5"><img src="assets/bandana-quilted-court-2.jpg" alt="" loading="lazy" decoding="async" /></button><button class="pdp-thumb" type="button" role="listitem" data-pdp-img="assets/bandana-quilted-court-3.jpg" aria-label="View photo 3 of 5"><img src="assets/bandana-quilted-court-3.jpg" alt="" loading="lazy" decoding="async" /></button><button class="pdp-thumb" type="button" role="listitem" data-pdp-img="assets/bandana-quilted-court-4.jpg" aria-label="View photo 4 of 5"><img src="assets/bandana-quilted-court-4.jpg" alt="" loading="lazy" decoding="async" /></button><button class="pdp-thumb" type="button" role="listitem" data-pdp-img="assets/bandana-quilted-court-5.jpg" aria-label="View photo 5 of 5"><img src="assets/bandana-quilted-court-5.jpg" alt="" loading="lazy" decoding="async" /></button></div>
@@ -159,7 +159,9 @@
           <p class="pdp-price">$22.00</p>
           <p class="pdp-blurb">Two dozen little squares — blush roses, pale plaids, dotted cream, a wash of sage — pieced one at a time into something that looks like a quilt made small. It&#39;s the only patchwork piece in the shop, and for its size it takes the longest of anything I make: every seam has to meet the three around it. <strong>Reversible:</strong> turn it round and it&#39;s Blushing Linen, a soft dusty pink, quiet enough for the days the patchwork would be too much. The top is an elasticated channel, so it stretches over the collar they already wear — nothing to tie, nothing to work loose halfway round the block.</p>
           <p class="pdp-details">Size Medium · fits a 13″–18″ neck · REVERSIBLE — hand-pieced patchwork one side, Blushing Linen the other · elasticated channel stretches over the collar · other sizes made to order · machine wash cold, hang to dry.</p>
-          <button class="btn btn-primary pdp-buy" type="button" data-cart-add="bandana-quilted-court">Add to cart</button>
+          <button class="btn btn-primary pdp-buy is-soldout" disabled>Sold out</button>
+          <button class="btn btn-ghost pdp-waitlist" type="button" data-waitlist="bandana-quilted-court" data-waitlist-name="The Quilted Court Bandana">Tell me when something like this appears</button>
+          <p class="pdp-soldout-note">This one has found a home. <a href="custom.html">Ask about a custom piece</a> and I can often make something in the same spirit.</p>
           <p class="pdp-ship">Ships from San Antonio, Texas · <a href="shipping.html">shipping &amp; returns</a> · San Antonio local? Choose <strong>Local pickup</strong> at checkout.</p>
         </div>
       </div>
@@ -219,13 +221,14 @@
     </div>
   </footer>
 
-  <script src="js/dates.js?v=83e64e04"></script>
-  <script src="js/shop-data.js?v=bc774c99"></script>
+  <script src="js/dates.js?v=7e47cbb6"></script>
+  <script src="js/shop-data.js?v=adf7e3b6"></script>
   <script src="js/product.js?v=b79c44d6"></script>
   <!-- Double-click (tap on touch) the main photo to see it full screen. -->
   <script src="js/zoom.js?v=8a66e5e6"></script>
-  
-  <script src="js/cart.js?v=0795cd48"></script>
+  <!-- Sold-out waitlist: injects its own modal, shared with shop.html. -->
+  <script src="js/waitlist.js?v=d44ca4cb"></script>
+  <script src="js/cart.js?v=83431c58"></script>
 
   <!-- Pinterest Tag — ad measurement and retargeting. The tag id is public by
        design, same as the Cloudflare token.
