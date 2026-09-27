@@ -531,6 +531,14 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
   `logo-original.png` and `Tote.png` are kept locally but **gitignored**. Product cards use
   `<img>` with an `onerror` fallback to an emoji placeholder, so missing photos never look broken.
 - **Brand name**: always spelled **"Dragon Ink and Thread"** (the word "and", never "&").
+- ⚠️ **ONE TAGLINE: "Handmade heirlooms for everyday wonder."** Decided by the owner 2026-09-27.
+  It is on the **TABLECLOTH** — a physical object that cannot be edited — and in the footer of all
+  **43** site pages. **Nothing else is the tagline.** The print kit ran *"Handmade goods for cozy
+  little adventures"* in parallel for weeks, which is worse than having none: two taglines means
+  neither is remembered, and a customer who reads both assumes one of them belongs to someone else.
+  Fixed in `tools/print-kit/build-display.js`, `tools/print-kit/legacy-teal/build-sign.js` and
+  `designs/dog-neckerchief-pattern.dc.html`. **Check any NEW printed piece against this line**, and
+  do not invent a warmer variant for one sign — that is exactly how the second one started.
   Socials: `@dragonink_and_thread` (Instagram + TikTok).
 - ⚠️ **THREE MARKS, DELIBERATELY (owner, 2026-09-16). Don't "unify" them.** Each exists because a
   different medium made the others unusable:
