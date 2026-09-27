@@ -967,12 +967,14 @@ Two rules that keep this useful:
   festive markets are **Oct 30**, the **Nov 13** school popup (teacher gifts) and **Nov 14**, the last one ever in
   Texas. **There is no November to save this for** — anything Christmas not sewn by the first week of November
   simply does not exist. In a normal year this block could wait; this year it cannot.
-  ⛔ **NO MORE GIFT CARD HOLDERS — the owner does not want to sew them (2026-09-27). Stop proposing them.**
-  The **3** that exist still go on the table and stay on the price list at $10; none get made. They had been the
-  Oct 3-8 headline for one day, on the strength of the Nov 13 teacher-gift angle.
-  🏫 ⚠️ **CONSEQUENCE: the Nov 13 school popup loses its reason to exist.** Teacher gifts WAS the angle, it is
-  still blocked on gymnastics at 4:10, and it sits the day before the last market ever in Texas. **Treat it as a
-  no unless the owner says otherwise** — the reply already asked to confirm by the end of that week.
+  🎁 **GIFT CARD HOLDERS: NOT TODAY, NOT CANCELLED (owner, 2026-09-27) — "just not in the mood to sew them right
+  now."** They are still a live product: 3 exist, they stay on the table and on the price list at $10, and they
+  remain the right answer if the Nov 13 popup is taken. **Do not read this as a retirement.**
+  ⚠️ **It was first written up here as "stop proposing them" and that was an overcorrection** — a preference on
+  one Sunday turned into a permanent product decision in the file, which is exactly the kind of thing a later
+  session would act on without knowing what was meant. Ask before treating a mood as a decision.
+  🏫 **Nov 13 is therefore unchanged: still blocked on gymnastics at 4:10**, still needs a yes or no by the end of
+  that week, and still needs ~20 gift card holders IF it is taken. That call has not been made either way.
   🎄 **WHAT REPLACES THEM: Christmas bows and Christmas-print mug rugs.** Both are things she makes fast and
   likes making — six mug rugs appeared overnight on 2026-09-26 — and a Christmas bow was the **only** bow to sell
   at the Sep 26 market, out of roughly 34. Bows come out of the offcuts from cutting mug rugs, so the festive
