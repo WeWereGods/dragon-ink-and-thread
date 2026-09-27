@@ -86,6 +86,20 @@ got invented under pressure each time. **Set the band before the reply, not duri
   - ⬜ **Blocked on the CLOSURE — zip, drawstring or snap.** A drawstring is closer to a sachet and would fairly be
     $12 / $14–18. The email asks. **Once decided, publish it in all EIGHT places at once.**
 
+🐕 ✅ **FIRST SMALL PET BANDANA EVER MADE (owner, 2026-09-27) — $18**, flannel plaid in rust, brown and cream.
+Plain construction, so it sits with the other $18s; the patchwork Quilted Court stays the $22 outlier. **No sign
+changes needed** — the price list already reads "Pet Bandanas $18 / Patchwork $22", and the table plan says only
+"pet bandanas, propped not flat". **Deliberately NOT reprinting the table plan for one bandana that changes no
+layout** — the date stamp is for stock that moves a piece on the table, not for every make.
+  - 📌 **Two out of two Sep 26 leads wanted bandanas and one wanted two SMALLS**, and none had ever been stocked.
+    This was made the day after. **Photograph it and send it to that lead** — a picture of a finished Small is
+    worth more than the quote email that has already gone out with no photo in it.
+  - 🐷 **Modelled on a plush pig, and that should go on the TABLE.** It shows the scale in one glance, which a
+    folded bandana cannot, and it stops people with small dogs who would otherwise assume everything is dog-sized.
+  - ⬜ **STILL NEEDED: the neck range in inches.** Medium is 13-18" and Large is 18-23". **If Small covers about
+    8-13" the three sizes run continuously from 8" to 23"** — "there is no dog I cannot fit" is a real listing
+    line, and it cannot be written until the number is known. Needed for the tag and for the lead's quote.
+
 👶 **BABY ORDER — QUOTE SENT 2026-09-27, awaiting a yes.** 3 headbands · 2 baby DAY GOWNS · 5 burp cloths,
 all sized **3-6 months**. **$220 + tax = $238.15**, shipping free (her own over-$50 policy, so nothing given away).
 Customer's budget was **$220** against a **$265** quote.
