@@ -1014,7 +1014,8 @@ Two rules that keep this useful:
   Texas. **There is no November to save this for** — anything Christmas not sewn by the first week of November
   simply does not exist. In a normal year this block could wait; this year it cannot.
   🎁 **GIFT CARD HOLDERS: NOT TODAY, NOT CANCELLED (owner, 2026-09-27) — "just not in the mood to sew them right
-  now."** They are still a live product: 3 exist, they stay on the table and on the price list at $10, and they
+  now."** They are still a live product: **4** exist (a fourth was sewn 2026-09-27, mood permitting), they stay on the
+  table and on the price list at $10, and they
   remain the right answer if the Nov 13 popup is taken. **Do not read this as a retirement.**
   ⚠️ **It was first written up here as "stop proposing them" and that was an overcorrection** — a preference on
   one Sunday turned into a permanent product decision in the file, which is exactly the kind of thing a later
