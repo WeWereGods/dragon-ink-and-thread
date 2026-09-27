@@ -954,7 +954,17 @@ Two rules that keep this useful:
   | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
   | **Sun Sep 27** | Tell Claude what sold → mark sold out online. **Count Halloween bows and whimsys sold** |
   | **Sep 27 – Oct 2** | Gift card holders + scrunchies · second Halloween batch sized from Sep 26 |
-  | **Oct 3 – 8** | 5 bandanas · restock whatever sold on Sep 26 · 👗 **2–3 MARKET HALF APRONS for sale** (~1 h each now the pattern exists) |
+  | **Oct 3 – 8** | 🎄 **CHRISTMAS STOCK FIRST** — **gift card holders** (only **3** exist and the Nov 13 school popup wants ~**20**), **Christmas bows**, **Christmas-print mug rugs**, **cinnamon sachets**; stockings only if the week runs long · **5 bandanas INCLUDING SMALL ones** — both Sep 26 leads wanted bandanas, one wanted two smalls, and a Small has never been stocked · 🚩 **finish the BANNER**: lining, rod pockets and ties, ready for Oct 10 · 👗 **2–3 MARKET HALF APRONS for sale** (~1 h each now the pattern exists) · restock whatever Sep 26–27 sold |
+  🎄 **WHY CHRISTMAS COMES FIRST, AND WHY IT HAPPENS IN OCTOBER (added 2026-09-26).** A **Christmas tree bow was
+  the only bow to sell at the Sep 26 market** — one out of roughly 34, in September, at a girls'-night-out
+  boutique where nobody had come to buy Christmas presents. Festive stock sells before anyone thinks they want it.
+  ⏳ **And the calendar is far shorter than it looks: the machine goes in a box before the Nov 25 move.** The
+  festive markets are **Oct 30**, the **Nov 13** school popup (teacher gifts) and **Nov 14**, the last one ever in
+  Texas. **There is no November to save this for** — anything Christmas not sewn by the first week of November
+  simply does not exist. In a normal year this block could wait; this year it cannot.
+  📌 **Gift card holders are the priority inside the priority** — $10, they are the school popup's whole angle,
+  and the prints are already chosen (Traditional Christmas, Solstice Tartan, the plaids and stripes "for him").
+  ⛔ **Do NOT sew more scrunchies** — roughly 37 are in stock, the deepest category by a distance.
   💡 **The upside:** Sep 26 answers "which Halloween prints sell?" two weeks earlier, so the second
   batch can serve BOTH Oct 10 and Oct 30 instead of being guessed for one night.
   📣 ✅ **Sep 26 posts WRITTEN 2026-09-14** in `marketing/october-market-posts.md` (S1a–S4):
