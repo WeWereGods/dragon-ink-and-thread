@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Book sleeve sizes — make sheet</title>
+<!--
+  SIZES ONLY. The METHOD lives in padded-book-sleeve.html and is not repeated here -
+  two sheets describing the same seams is how they start disagreeing.
+
+  The SMALL column is deliberately IDENTICAL to padded-book-sleeve.html (inside
+  6.25 x 7.75, lining 7.25 x 8.75, outer 7.75 x 9.25). If that sheet is ever
+  re-cut, change this column with it.
+
+  Written 2026-09-27. Every number comes from the same four rules, printed on the
+  sheet so a fourth size can be worked out without asking anyone.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{ --paper:#f0ddbc; --green:#4E5839; --sage:#938858; --wine:#7B322C; --ink:#3b3327; }
+  @page{ size:letter; margin:0; }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  html,body{width:816px;background:#fff;font-family:'Nunito',sans-serif;color:var(--ink);}
+  .page{width:816px;height:1056px;background:var(--paper);padding:34px 50px 28px;position:relative;overflow:hidden;}
+  h1{font-family:'Cormorant Garamond',serif;font-size:34px;color:var(--green);line-height:1;}
+  .sub{font-size:12.5px;font-weight:700;color:var(--sage);letter-spacing:.14em;text-transform:uppercase;margin-top:6px;}
+  .rule{display:flex;align-items:center;gap:12px;margin:11px 0 12px;}
+  .rule i{flex:1;height:1.5px;background:var(--sage);opacity:.6;}
+  .dia{width:9px;height:9px;background:var(--wine);transform:rotate(45deg);}
+  h2{font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--wine);margin:11px 0 4px;}
+  h2 em{font-style:normal;font-family:'Nunito',sans-serif;font-size:10.5px;font-weight:700;
+        letter-spacing:.06em;color:var(--sage);text-transform:uppercase;margin-left:9px;}
+  table{width:100%;border-collapse:collapse;font-size:11.6px;}
+  th{text-align:left;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--sage);
+     border-bottom:1.5px solid var(--sage);padding:0 6px 4px 0;}
+  td{padding:3.5px 6px 3.5px 0;border-bottom:1px dotted rgba(147,136,88,.55);vertical-align:top;}
+  td.qty{font-weight:800;color:var(--green);white-space:nowrap;}
+  td.sz{font-family:'Cormorant Garamond',serif;font-size:15px;font-weight:700;color:var(--wine);white-space:nowrap;}
+  .cut th:first-child,.cut td:first-child{width:128px;}
+  .cut th,.cut td{white-space:nowrap;}
+  .note{margin-top:7px;border-left:3px solid var(--wine);background:rgba(123,50,44,.07);
+        padding:7px 11px;font-size:11.1px;line-height:1.4;}
+  .note b{color:var(--wine);}
+  .note.calm{border-left-color:var(--sage);background:rgba(147,136,88,.1);}
+  .note.calm b{color:var(--green);}
+  .dims{display:flex;gap:26px;margin:3px 0 2px;}
+  .dims div b{display:block;font-family:'Cormorant Garamond',serif;font-size:19px;color:var(--green);line-height:1.15;}
+  .dims div span{font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--sage);font-weight:700;}
+  .foot{position:absolute;left:50px;right:50px;bottom:22px;display:flex;justify-content:space-between;
+        font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--sage);}
+  svg{display:block;margin:3px 0 0;}
+</style></head><body>
+<div class="page">
+  <h1>Book Sleeve Sizes</h1>
+  <div class="sub">Three sizes &#183; the numbers only &#183; method is on the Padded Book Sleeve sheet</div>
+  <div class="rule"><i></i><span class="dia"></span><i></i></div>
+
+  <h2>The four rules <em>every number below comes from these</em></h2>
+  <div class="dims">
+    <div><b>W + thickness</b><span>inside width</span></div>
+    <div><b>+ &frac12;&Prime;</b><span>ease</span></div>
+    <div><b>+ 1&Prime;</b><span>lining cut &#183; &frac12;&Prime; seams</span></div>
+    <div><b>+ &frac12;&Prime; more</b><span>outer &amp; batting &#183; quilting draw-in</span></div>
+  </div>
+
+  <div class="note"><b>THE ONE THAT CATCHES PEOPLE OUT: thickness is part of the WIDTH.</b>
+    A flat sleeve has to wrap around the book, so the inside width is the book&rsquo;s width
+    <b>plus its spine</b> &#8212; not its width. A 2&Prime; romantasy hardcover 6&frac14;&Prime; across needs
+    <b>8&frac14;&Prime; of inside width</b>, not 6&frac14;&Prime;. Get this wrong and it will not go in at all.
+    Height only ever needs ease.</div>
+
+  <h2>What has to fit</h2>
+  <table>
+    <tr><th>Item</th><th>Size</th><th>Spine</th><th>Goes in</th></tr>
+    <tr><td>Kindle (basic, 11th&#8211;12th gen)</td><td class="qty">6&frac14;&Prime; &#215; 4&frac14;&Prime;</td><td class="qty">&#8531;&Prime;</td><td class="sz">S</td></tr>
+    <tr><td>Kindle Paperwhite &#183; Colorsoft</td><td class="qty">7&Prime; &#215; 5&Prime;</td><td class="qty">&#8531;&Prime;</td><td class="sz">S</td></tr>
+    <tr><td>Mass market paperback</td><td class="qty">6&frac34;&Prime; &#215; 4&frac14;&Prime;</td><td class="qty">&frac34;&Prime;</td><td class="sz">S</td></tr>
+    <tr><td>Trade paperback <i>(the common one)</i></td><td class="qty">8&frac12;&Prime; &#215; 5&frac12;&Prime;</td><td class="qty">1&Prime;</td><td class="sz">M</td></tr>
+    <tr><td>Hardcover fiction</td><td class="qty">9&Prime; &#215; 6&Prime;</td><td class="qty">1&frac14;&#8211;1&frac12;&Prime;</td><td class="sz">M / L</td></tr>
+    <tr><td>Romantasy hardcover <i>(Fourth Wing, Crescent City)</i></td><td class="qty">9&frac14;&Prime; &#215; 6&frac14;&Prime;</td><td class="qty">up to 2&Prime;</td><td class="sz">L</td></tr>
+    <tr><td>Kindle Scribe</td><td class="qty">9&Prime; &#215; 7&frac34;&Prime;</td><td class="qty">&frac14;&Prime;</td><td class="sz">L</td></tr>
+  </table>
+
+  <h2>Cut list <em>two of each piece &#183; inches</em></h2>
+  <table class="cut">
+    <tr><th>Piece</th><th>S &#183; Kindle</th><th>M &#183; paperback</th><th>L &#183; hardcover</th></tr>
+    <tr><td><b>Outer</b> + batting</td>
+        <td class="qty">7&frac34; &#215; 9&frac14;</td><td class="qty">8&frac34; &#215; 10&frac34;</td><td class="qty">10&frac14; &#215; 11&frac12;</td></tr>
+    <tr><td><b>Lining</b></td>
+        <td class="qty">7&frac14; &#215; 8&frac34;</td><td class="qty">8&frac14; &#215; 10&frac14;</td><td class="qty">9&frac34; &#215; 11</td></tr>
+    <tr><td>Finished inside</td>
+        <td class="qty">6&frac14; &#215; 7&frac34;</td><td class="qty">7&frac14; &#215; 9&frac14;</td><td class="qty">8&frac34; &#215; 10</td></tr>
+    <tr><td>Ties <i>(optional)</i></td>
+        <td class="qty">2 &#215; 15</td><td class="qty">2 &#215; 17</td><td class="qty">2 &#215; 19</td></tr>
+    <tr><td>Band <i>(optional)</i></td>
+        <td class="qty">7&frac34; &#215; 3</td><td class="qty">8&frac34; &#215; 3&frac12;</td><td class="qty">10&frac14; &#215; 4</td></tr>
+  </table>
+
+  <div class="note calm"><b>One fat quarter does the outer, one does the lining</b> &#8212; for all three
+    sizes. L is tight: lay the two pieces end to end across the 22&Prime; width, not the 18&Prime;.
+    <b>Cut the outer and batting BIG and trim after quilting</b>, which is what the extra &frac12;&Prime; is for.
+    <b>Then test the fit before you sew the lining in.</b> Padding eats more room than anyone expects,
+    and that is the last moment it can be changed.</div>
+
+  <h2>Which size</h2>
+  <svg width="716" height="96" viewBox="0 0 716 96">
+    <g fill="none" stroke="#938858" stroke-width="1.6">
+      <rect x="1" y="12" width="228" height="80" rx="3"/>
+      <rect x="244" y="12" width="228" height="80" rx="3"/>
+      <rect x="487" y="12" width="228" height="80" rx="3"/>
+    </g>
+    <g font-family="Cormorant Garamond" font-size="21" font-weight="700" fill="#7B322C">
+      <text x="16" y="38">S</text><text x="259" y="38">M</text><text x="502" y="38">L</text>
+    </g>
+    <g font-family="Nunito" font-size="11.5" font-weight="800" fill="#4E5839">
+      <text x="42" y="38">Any Kindle</text>
+      <text x="285" y="38">Trade paperback</text>
+      <text x="528" y="38">Hardcover &#183; Scribe</text>
+    </g>
+    <g font-family="Nunito" font-size="10.5" font-weight="600" fill="#3b3327">
+      <text x="16" y="58">Mass market paperback too.</text>
+      <text x="16" y="74">Same numbers as the Padded</text>
+      <text x="16" y="88">Book Sleeve sheet.</text>
+      <text x="259" y="58">Thin hardcovers up to 1&#188;&#8243;.</text>
+      <text x="259" y="74">The everyday size &#8212; most</text>
+      <text x="259" y="88">books on most shelves.</text>
+      <text x="502" y="58">Takes a 2&#8243; spine. This is</text>
+      <text x="502" y="74">the romantasy size, and the</text>
+      <text x="502" y="88">only one a Scribe fits.</text>
+    </g>
+  </svg>
+
+  <div class="note"><b>The Reading Nook Sleeve sits BETWEEN M and L.</b> At 12&Prime; &#215; 8&frac12;&Prime; outside it has
+    about 7&frac12;&Prime; of inside width &#8212; a 6&Prime; hardcover up to roughly 1&frac12;&Prime; thick. <b>A 2&Prime; romantasy
+    hardcover will not go in it.</b> Say so when someone asks, or make them an L.</div>
+
+  <div class="foot"><span>Dragon Ink and Thread</span><span>Sizes 2026-09-27 &#183; method: padded-book-sleeve</span></div>
+</div>
+</body></html>

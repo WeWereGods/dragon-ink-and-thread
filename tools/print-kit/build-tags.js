@@ -23,6 +23,9 @@ const PRICE_TAGS = [
   { name: "Cottage Rose Tote", price: 20, pill: "Tote", note: ONE },
   { name: "Blue Rose Mini Tote", price: 20, pill: "Tote", note: ONE },
   { name: "Reading Nook Sleeve", price: 28, pill: "Book sleeve", note: ONE },
+  // ⚠️ SOLD 2026-09-24 (Maurya, invoice paid). The printed sheet was cut on 2026-09-16 so
+  // the physical tag exists, but it must NOT go on the table and this line must come OUT
+  // before this sheet is ever reprinted.
   { name: "The Suriel Tea Cover", price: 35, pill: "Home", note: ONE },
   { name: "Tea with the Suriel", price: 55, pill: "Set of five bows", note: ONE },
   { name: "Game Day Darling Headband", price: 14, pill: "Headband", note: "handmade in San Antonio" },
@@ -46,6 +49,14 @@ const LATE_TAGS = [
   { name: "The Rose Latte Cloud", price: 75, pill: "Tote", note: ONE },
   { name: "Mug Rug", price: 12, pill: "Home &#183; quilted", note: ONE },
 ];
+
+// Added 2026-09-26, the morning of the Sep 26 market. SIX more mug rugs were finished
+// overnight in three shapes - round, square, and the folded rectangle - so the single mug
+// rug tag on the Sep 24 sheet no longer covers the stock. Nine to a sheet leaves spares
+// for Sun Sep 27 and the Oct 3-8 batch.
+// ONE DESIGN FOR EVERY SHAPE, deliberately: the price is $12 whatever the shape, and a
+// shape-specific tag would have to be re-counted and reprinted every time a batch changes.
+const MUG_TAGS = new Array(9).fill({ name: "Mug Rug", price: 12, pill: "Home &#183; quilted", note: ONE });
 
 const css = [
   // Native tiling, same reason as paper-base: a stretched patch smears the grain and
@@ -135,6 +146,11 @@ function priceCard(t) {
     '<div class="help">Cut on the dashed lines &#183; punch the circle &#183; tie on with twine</div></div>';
   fs.writeFileSync(path.join(SIGN, "p-price-tags-sep26.html"), b.doc("Price tags — Sep 26 additions", css, lateBody));
   console.log("wrote p-price-tags-sep26.html");
+
+  const mugBody = '<div class="sheet"><div class="grid">' + MUG_TAGS.map(priceCard).join("") + "</div>" +
+    '<div class="help">Mug rugs &#183; $12 each or 2 for $20 &#183; cut, punch, tie on with twine</div></div>';
+  fs.writeFileSync(path.join(SIGN, "p-price-tags-mugrugs.html"), b.doc("Mug rug tags", css, mugBody));
+  console.log("wrote p-price-tags-mugrugs.html");
 
   // --- gift tags: front (mark + QR) and back (To / From)
   const giftFront = '<div class="cell"><div class="card"><span class="hole"></span>' + mark +

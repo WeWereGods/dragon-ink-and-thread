@@ -92,7 +92,7 @@ const noBorders = { top: NONE, bottom: NONE, left: NONE, right: NONE, insideHori
         p([t("———————   ", { size: 22, color: WINE }), sym("♥", 22, WINE), t("   ———————", { size: 22, color: WINE })], { after: 160 }),
         p([t("Dragon Ink and Thread", { size: 64, color: INK })], { after: 80 }),
         p([t("Quilted Goods  •  Bows  •  Pet Accessories  •  More", { size: 28, color: INK })], { after: 60 }),
-        p([t("Handmade goods for cozy little adventures", { size: 26, color: SAGE, italics: true })], { after: 280 }),
+        p([t("Handmade heirlooms for everyday wonder", { size: 26, color: SAGE, italics: true })], { after: 280 }),
         qrBox,
         p([t("")], { after: 200 }),
         contacts,

@@ -27,21 +27,27 @@ const u = (f) => "file:///" + KIT + "/" + f;
 // Signs added 2026-09-21: three letter holders and two 4x6 holders. Tall signs go at
 // the BACK, small ones at the FRONT, and no sign may cover a product.
 // Bump this every time BANDS changes. It prints in the header.
-const STOCK_AS_OF = "2026-09-25";
+const STOCK_AS_OF = "2026-09-27";
 
 const BANDS = [
   {
     cls: "back", tag: "BACK ROW", rule: "Height and signs — seen from across the room",
-    items: ["Price list sign, at the end people reach first", "Rose Latte Cloud upright + its story card",
-            "Display sign, centre",
-            "Custom orders sign, at your end — KINDLE CASE beside it as a SAMPLE, no price tag, NOT for sale",
-            "Tiered stand, bows on show",
-            "Scrunchie tree", "Mirror"],
+    // ⚠️ DISPLAY SIGN CUT 2026-09-27. The new tablecloth carries the wordmark, the dragon and a
+    // tagline in letters a foot high; the banner carries it again. A third copy of the name was
+    // costing a whole letter holder and turning the back row into one beige block.
+    // TWO letter signs now, at OPPOSITE ENDS so each is read separately.
+    items: ["Price list sign, ONE end — the big-price version, nothing in front of it",
+            "Custom orders sign, the OTHER end — Kindle case beside it as a SAMPLE, NOT for sale",
+            "Rose Latte Cloud upright + its story card",
+            "Tiered stand, bows on show", "Scrunchie tree", "Mirror"],
   },
   {
     cls: "mid", tag: "MIDDLE", rule: "The browse row — picked up, then put back",
-    items: ["Pet bandanas, propped not flat", "Tea cover · book sleeve",
-            "Mug rug $12, with a mug standing on it so people see what it is for", "Other totes"],
+    // Tea cover OFF 2026-09-26: sold to Maurya on Sep 24 and collected Sep 25. It is still
+    // on the printed Sep 25 plan, which is exactly what this date stamp exists to catch.
+    items: ["Pet bandanas, propped not flat", "Book sleeve",
+            "Mug rugs $12 or 2 for $20 &#8212; seven, three shapes, a mug standing on one",
+            "Other totes"],
   },
   {
     cls: "front", tag: "FRONT EDGE", rule: "Where hands actually land. Keep it FULL.",
@@ -55,8 +61,8 @@ const BANDS = [
 
 const STEPS = [
   ["2:30", "Arrive. Table up, cloth on, BANNER clamped to the front, boxes underneath and out of sight."],
-  ["2:50", "Back row: stand, scrunchie tree, mirror, Rose Latte Cloud, three signs, Kindle sample."],
-  ["3:10", "Middle: bandanas propped, tea cover, sleeve, mug rug with a mug on it."],
+  ["2:50", "Back row: stand, scrunchie tree, mirror, Rose Latte Cloud, TWO signs at opposite ends."],
+  ["3:10", "Middle: bandanas propped, book sleeve, mug rugs fanned out with a mug on one."],
   ["3:25", "Front edge: gift corner, whimsys, scrunchies, bows, stickers, tent cards. Fill it."],
   ["3:40", "Tap to Pay test on your phone. Count the float. Power bank on."],
   ["3:50", "Photograph the finished table for the Story."],
@@ -132,7 +138,7 @@ const notes = [
   "<b>Fill the front edge.</b> People touch what is nearest. A bare front reads as picked over even when the table is full.",
   "<b>Cheapest things forward.</b> Whimsys and scrunchies are the impulse buys — they cannot do that job from the back row.",
   "<b>Restock from behind, not from the front.</b> Close the gaps as they appear.",
-  "<b>No sign covers a product.</b> Tall signs at the back, tent cards at the front. If one blocks something, move the sign.",
+  "<b>Two signs, not five.</b> Five beige signs of a size read as one beige block from the aisle and none of them gets read. Price list at one end, custom orders at the other. No sign covers a product.",
   "<b>Leave a clear patch</b> at one end for wrapping and the card reader. Do not fill every inch.",
   "<b>Cash box behind you</b>, never on the table, never out of your reach.",
   "<b>Ask every buyer how they heard of you</b> and tally it. A market cannot be measured any other way.",

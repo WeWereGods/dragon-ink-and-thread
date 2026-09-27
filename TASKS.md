@@ -1,7 +1,137 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-17.**
+**Last reviewed: 2026-09-26.**
+
+### 🎪 SAT SEP 26 — market day, what changed that morning
+
+🫖 **SEVEN MUG RUGS, not one** (owner, 2026-09-26) — six more finished overnight in **three shapes: round,
+square and the folded rectangle**. All one product at one price, **$12 or 2 for $20**, because the price does
+not change with the shape and a shape-specific tag would need re-counting every batch.
+  - New sheet of **nine mug rug tags** (`p-price-tags-mugrugs`) — the Sep 24 sheet carried exactly one.
+  - New sheet of **two mug rug tent cards** (`p-tent-cards-mugrug`). **The round ones are why**: a quilted
+    circle reads as a coaster, or as nothing. Separate sheet because the four-tent grid is two rows of 5in on
+    an 11in page, and that sheet is already cut.
+  - ⚠️ **"2 for $20" is on the tent card and NOWHERE ELSE.** It is not on the printed price list, which was
+    made when there was one mug rug. Rings on Tap to Pay as a custom amount.
+
+⛔ **THE SURIEL TEA COVER WAS STILL ON THE PRINTED TABLE PLAN.** Sold to Maurya Sep 24, collected Sep 25, and
+the Sep 25 plan would have put it back on the table. Off `BANDS`, off `STEPS`, `STOCK_AS_OF` → 2026-09-26.
+**This is exactly the failure the date stamp exists to catch, and it caught it on the second use.** A price tag
+for it still exists from the Sep 16 sheet — do not tie it onto anything.
+
+🌰 **SACHETS: 3 LAVENDER + 4 CINNAMON** (owner, 2026-09-26) — cinnamon's first outing, real spices not oils.
+  - ⚠️ **Two trays, labelled.** One dish blends both scents within an hour and then neither reads.
+  - **Let 2-for-$10 cross scents** — one of each is the natural sale.
+  - **Tally separately**: the printed "Sachet $6" row for lavender, **"Sachet — cinnamon" on a blank line**.
+    Which scent sells decides the October batch. Cinnamon is **not in Stripe** (connector expired) — ring on the
+    Lavender button or a custom $6 and write down which.
+  - ⚠️ **Line the spiced ones with muslin.** Cracked bark and clove dust go straight through quilting cotton
+    and out the needle holes. Lavender buds do not; cinnamon does.
+  - 🎁 **Don't let Cozy Gift Sets eat them** — seven sachets across two markets, and each set consumes one.
+
+🪧 **SEP 26 FLYER CORRECTED AND RE-RENDERED** — **INDOOR/OUTDOOR** (was INDOORS), mug rugs added to the category
+line and the "New:" pill. ⚠️ **The re-render also finally dropped "any 2 of the little things for $10"** — the
+mix-and-match deal withdrawn on Sep 24. The builder was fixed that day but **nobody re-rendered the image, so the
+withdrawn deal kept going out for two days**. 📌 **A fixed generator is not a fixed flyer.** The old one is still
+on Facebook: **honour it if anyone asks on the day.**
+
+✅ **`wrangler deploy` RUN AND TESTED 2026-09-27 (owner).** The Rose Latte Cloud checks out at $75, and the four
+pieces retired on Sep 24 are finally out of the Worker too — they had been riding on this same deploy.
+📌 **It had been outstanding since the listing went up on Sep 23**, through two markets whose posts both pointed
+at that tote. Nothing looked broken the whole time: the Worker file carried `amount: 7500` from the moment it was
+committed, and only the deployed copy was stale. **The repo is not the deploy.**
+
+⬜ **Cassidy: offer Mon 28 or Tue 29 for the Kindle sleeve drop-off** — in her hands by Wed Sep 30 for the Oct 3
+birthday.
+
+💰 **RESULT — MARKET 2 (Sat Sep 26): $16 in sales against a $20 booth — DOWN $4 on the night.**
+1 bow at a **rounded $10** (list $12) · 1 scrunchie $6 · **1 sachet given away** — not a sale, but record it as a
+giveaway or the sachet count will not reconcile.
+📒 **Workbook row 2026-09-26: product $14.78, sales tax $1.22** at 8.25% (venue is 78245, San Antonio, so the rate
+is right; lands in **Q3, return due Oct 20**). Bow $10 → $9.24 + $0.76 · scrunchie $6 → $5.54 + $0.46.
+📌 **The rounded $10 went on a BLANK LINE of the sales sheet — the second market running where a real amount
+matched no list price.** Sep 19 could never be reconstructed; this one took ten seconds. The blank lines earn
+their place on every sheet printed from here on.
+✅ **IT WAS THE CHRISTMAS TREE BOW — MARKET-ONLY, so nothing to flag online** (owner, 2026-09-26). Checked
+against `PRODUCTS` in js/shop-data.js: **twelve** bows are listed and none is a Christmas print. The scrunchie
+needed nothing either — multiples are stocked.
+🎄 📌 **A CHRISTMAS BOW SOLD IN SEPTEMBER, at a girls'-night-out boutique.** It was the only bow to sell all
+evening, out of roughly 34. **Christmas stock moves before anyone is thinking about Christmas** — and it has to
+be made EARLY here, because the machine goes in a box before the **Nov 25** move. The Christmas markets are
+**Oct 30**, the **Nov 13** school popup (teacher gifts) and **Nov 14**, the last one. Sew festive stock into the
+Oct 3-8 block rather than saving it for November, when there will be no November to save it for.
+⚠️ **js/shop-data.js holds TWELVE bows; CLAUDE.md still describes seven** (Cauldron Forged, Toffee Plaid, Roasted
+Roses, Daily Grind in Ivory, Blushing Linen, Gingham, Sage Gingham). The five missing from the doc are Something
+Blue, Sidra Vines, Porcelain Roses, Lace of Velaris and Game Day Darling. Harmless tonight, but it is the same
+class of drift as the JSON-LD: the doc is what gets read when deciding whether a piece is listed.
+
+🎣 **TWO CUSTOM LEADS — the real result of the night, and worth more than the $16.**
+  - **Lead 1:** two **small** pet bandanas, quoted **$22 each / $44 the pair**, plus interest in **lipstick pouches**.
+  - **Lead 2:** pet bandanas — quantity and size not yet given. Same $22 floor, multi-buy if three or more.
+  - ✅ **Both emails sent 2026-09-26.** Each asks for a **neck measurement in inches, not a size name** (there is no
+    Small in stock and none has ever been made) and for fabric picks off `fabrics.html`. Both offer **reversible at
+    no extra cost** — plain reversible bandanas are already $18 ready-made, so $22 custom absorbs it.
+  - ⬜ **Awaiting replies.** ⚠️ **The lead slip promises a written quote WITHIN TWO DAYS** — in writing, in their
+    hands, dated Sep 26. That is **Mon Sep 28**.
+  - ⚠️ **Do not discount a pair below $40.** Ready-made bandanas are $18; at $20 each the $22 custom floor stops
+    clearing the shelf price, which is the single rule that floor exists to protect. Sweeten with a matching
+    scrunchie instead of cutting the number.
+
+🆕 ⚠️ **LIPSTICK POUCHES ARE A NEW CATEGORY WITH NO PUBLISHED BAND — the FIFTH time this has happened.** Book
+sleeves, home pieces, repairs and quilts were every one of them asked for before they were priced, and a number
+got invented under pressure each time. **Set the band before the reply, not during it.**
+  - **Proposed: ready-made $12, custom $15–22** — just above gift card holders ($10 / $12–18), the right neighbour
+    for the scale, with room for a zip being real work that a flat sleeve is not.
+  - ⬜ **Blocked on the CLOSURE — zip, drawstring or snap.** A drawstring is closer to a sachet and would fairly be
+    $12 / $14–18. The email asks. **Once decided, publish it in all EIGHT places at once.**
+
+🐕 ✅ **FIRST SMALL PET BANDANA EVER MADE (owner, 2026-09-27) — $18**, flannel plaid in rust, brown and cream.
+Plain construction, so it sits with the other $18s; the patchwork Quilted Court stays the $22 outlier. **No sign
+changes needed** — the price list already reads "Pet Bandanas $18 / Patchwork $22", and the table plan says only
+"pet bandanas, propped not flat". **Deliberately NOT reprinting the table plan for one bandana that changes no
+layout** — the date stamp is for stock that moves a piece on the table, not for every make.
+  - 📌 **Two out of two Sep 26 leads wanted bandanas and one wanted two SMALLS**, and none had ever been stocked.
+    This was made the day after. **Photograph it and send it to that lead** — a picture of a finished Small is
+    worth more than the quote email that has already gone out with no photo in it.
+  - 🐷 **Modelled on a plush pig, and that should go on the TABLE.** It shows the scale in one glance, which a
+    folded bandana cannot, and it stops people with small dogs who would otherwise assume everything is dog-sized.
+  - ⬜ **STILL NEEDED: the neck range in inches.** Medium is 13-18" and Large is 18-23". **If Small covers about
+    8-13" the three sizes run continuously from 8" to 23"** — "there is no dog I cannot fit" is a real listing
+    line, and it cannot be written until the number is known. Needed for the tag and for the lead's quote.
+
+👶 **BABY ORDER — QUOTE SENT 2026-09-27, awaiting a yes.** 3 headbands · 2 baby DAY GOWNS · 5 burp cloths,
+all sized **3-6 months**. **$220 + tax = $238.15**, shipping free (her own over-$50 policy, so nothing given away).
+Customer's budget was **$220** against a **$265** quote.
+  - 📌 **SCOPE CUT, NOT DISCOUNTED.** The **4 booties** came off. They had appeared in her detailed list but were
+    not in the original brief, and they were the fiddliest and newest work in the job — the worst dollars in it.
+    Cutting them put the order back to exactly what was first asked for, at exactly her number. **Discounting
+    instead would have taken 17% off, all of it out of the riskiest half.**
+  - 🎁 **THE BOOTIES ARE A GIFT IF THEY WORK OUT** (owner's call). No date, no refund exposure, no part of the
+    $220 riding on them — she can try twice and bin both. ⚠️ **Record them as a GIVEAWAY, not a sale**, if they go.
+  - ⚠️ **"DAY GOWNS", AND THE EMAIL SAYS SO IN WORDS:** *"they aren't certified flame-resistant sleepwear."* US
+    children's sleepwear is a regulated product and the rule turns on what a garment is **promoted for**, not what
+    the tag says — so relabelling only protects her if it is true, and it is now stated in writing.
+  - ⚠️ **FIRST KNIT AND FIRST STRETCH LACE.** Her whole shop is woven quilting cotton. **Turnaround quoted at FOUR
+    WEEKS, not 10-14 days**, and **the creamy gown is made and photographed for approval BEFORE the lace one is
+    cut.** Needs a ballpoint needle and a stretch stitch or narrow zigzag — **a straight stitch will snap** the
+    first time it goes over a baby's head. **Buy fabric for three gowns, not two.**
+  - 🧵 **5 of the 6 fabrics are STASH** and were picked off `fabrics.html`: Once Upon a Woodland has exactly the
+    three she asked for (Bouncing Beginnings · Thistles and Tails · Twilight Owls), plus Little Goose Gingham,
+    Gingham Teddy Bears, and Game Day. **The knit and the stretch lace must be bought — neither is in the library.**
+  - 💵 **Economics: ~$165 net** after ~$30 of stretch fabric, ~$18 shipping and ~$7 Stripe, for ~9-10 hours.
+    **About $17/hr** — better than the Rose Latte Cloud. **Nothing else may be shaved off it.**
+  - ⬜ **Open: does her $220 include tax?** The email offers $203 + tax if so. Settle before invoicing.
+  - ⛔ **Nothing is cut until the invoice is paid.** The four weeks start at payment, not at agreement.
+
+🆕 ⚠️ **BABY IS THE SIXTH CATEGORY QUOTED WITH NO PUBLISHED BAND** — after book sleeves, home pieces, repairs,
+quilts and lipstick pouches. **If this order is accepted, publish one before the next person asks.** The numbers
+actually used: headbands **$10-14**, day gowns **$80-85** (knit; a woven one would be ~$65), burp cloths **$9**,
+booties **~$20/pair**. ⚠️ **Baby garments are the first CLOTHING she has ever sold** — that is a category decision
+in itself, not just a price, and the sleepwear rule is part of it.
+
+🐕 📌 **BOTH leads wanted pet bandanas. Two out of two.** The Oct 3–8 block already carries 5 bandanas —
+**make some SMALL.** None has ever been stocked, and the first person who ever asked wanted two.
 
 ### 🎪 SAT SEP 19 — an OUTDOOR market, signed up 2026-09-17, two days' notice
 
@@ -64,15 +194,15 @@ so no two sit exactly alike", said plainly rather than apologetically.
 📣 **Caption line: "caffeinated on cloud nine"** — the owner's phrase, kept for posts rather than the tag (too long to ask for).
 📌 **This is the FIRST one; it is a prototype as much as a product.** The next will be quicker and neater.
 🔄 **SUPERSEDED 2026-09-23 — LISTED ONLINE AT $75 STRAIGHT AWAY** (owner), with two new photos (plain wall, daylight):
-`tote-rose-latte-cloud` in shop-data, Worker PRICES 7500, product page, Pinterest feed, sitemap, and the Totes JSON-LD range now $20–75 over 5 offers. ⚠️ **`wrangler deploy` needed** or checkout says "cart is empty". **The TABLE PRICE drops to $75 too** so the sign and the site agree; the story card is reprinted at $75.
+`tote-rose-latte-cloud` in shop-data, Worker PRICES 7500, product page, Pinterest feed, sitemap, and the Totes JSON-LD range now $20–75 over 5 offers. ✅ **`wrangler deploy` RUN AND TESTED 2026-09-27.** **The TABLE PRICE drops to $75 too** so the sign and the site agree; the story card is reprinted at $75.
 ⚠️ **It can now sell twice** — if it goes online, leave it home or show it marked SOLD; if it goes at the market, set `soldOut: true` that evening.
 *Superseded plan:* **$95 on the Sep 26 table. If it DOESN'T sell, it drops to $75 and goes on the WEBSITE
 from Sun Sep 27.** Not listed before Saturday on purpose — one of a kind, and a web sale mid-market would sell it out from
 under the table. ⚠️ **Once it is $75 online it must be $75 at the table too** (Oct 10 / 24 / 30), and the Stripe
 catalog price moves with it. Listing copy is drafted ("Thirty-two little pillows…"); **photos still to come** — front,
 inside with the brown plaid and blush pocket, the 32 pillows laid out, and on a shoulder if possible.
-⬜ To go live: shop-data (PRODUCTS/VARIANTS/LINKS/CATALOG) · Worker PRICES 7500 + wrangler deploy · build-products ·
-build-catalog · Totes JSON-LD high price 38 → 75 and offerCount +1 · bump-assets.
+✅ Live: shop-data (PRODUCTS/VARIANTS/LINKS/CATALOG) · Worker PRICES 7500 + wrangler deploy (2026-09-27) ·
+build-products · build-catalog · Totes JSON-LD high price 38 → 75 and offerCount +1 · bump-assets.
 ⬜ **STILL TO DO on it:** bind the raw top edge · **BROWN PLAID lining, interfaced** (chosen 2026-09-21 over lining in the
 coffee floral: the floral is already the whole outside, the plaid rhymes with the pink plaid in the puffs, and a mid-tone
 plaid hides pen marks a pale lining would show) · **cream straps** and **blush pocket**, both from stash (the body is soft,
@@ -123,7 +253,7 @@ retire ~Sep 24), 1 Christmas tree bow (market-only).
 and off the shop; the four survivors stay listed individually at $12. ⬜ Retire the set entry ~Sep 24 with the others.
 🏈 **GAME DAY DARLING HEADBAND off the site too (owner, 2026-09-20) — the football yard is used up**, so no more
 can be made. Every bow-category listing is now $12, so the JSON-LD block went high $55 → $12 and 15 offers → 11.
-✅ **RETIRED 2026-09-24** — all four out of shop-data, the Worker and the Pinterest feed; their pages deleted (now 404, and 404.html routes back to the shop); all four added to **Stories/`PAST_MAKES`**, which is now 18 pieces. In-stock counts unchanged against the JSON-LD (Totes 5 · Bows 12). ⚠️ **`wrangler deploy` still pending** from the Rose Latte Cloud listing — it also drops these four from the Worker. *Original note:* RETIRE TOGETHER ~SEP 24 (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
+✅ **RETIRED 2026-09-24** — all four out of shop-data, the Worker and the Pinterest feed; their pages deleted (now 404, and 404.html routes back to the shop); all four added to **Stories/`PAST_MAKES`**, which is now 18 pieces. In-stock counts unchanged against the JSON-LD (Totes 5 · Bows 12). ✅ **`wrangler deploy` DONE 2026-09-27** — these four are now out of the Worker as well. *Original note:* RETIRE TOGETHER ~SEP 24 (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
 Game Day headband · Suriel's Bouquet · Tea with the Suriel set.
 📌 **The lace scrunchies sell.** Two of four scrunchie sales on their debut; worth more of them for Sep 26.
 🏷️ **ONE TAGLINE, EVERYWHERE (owner, 2026-09-20): "Handmade heirlooms for everyday wonder"** — it is on the badge, the
@@ -489,11 +619,16 @@ Two rules that keep this useful:
       sleeve is finished, shows the photos, and only promises “I'll get it into your hands very soon” — no date, no place,
       nothing to spoil. **Do not reply to her with a delivery plan.**
       🎁 **Wrap it.** It is now a birthday present handed over in front of people, not a parcel — tissue, twine and a gift tag.
+      ⚠️ **THE FILE CONTRADICTS ITSELF ON HER BIRTHDAY.** This entry says the party is **Sat Oct 3** and her birthday
+      is **Sun Oct 4**; two other places in this file say the birthday is Oct 3. **The handover date is Oct 3 either
+      way**, so nothing is at risk — but fix it the next time it is confirmed, rather than leaving two dates in one file.
       🚚 **IT IS A LOCAL DROP-OFF, NOT A POST (owner, 2026-09-24)** — so no address is needed and no postage is owed.
       ~~⛔ **THE ONE THING STILL BLOCKING DELIVERY: NO DATE IS FIXED.**~~ ✅ **SUPERSEDED — the date is Sat Oct 3, see above.** **Pin a day and a place now, in writing.** Her ZIP on
       the charge is **78124 — Marion, TX**, about 25 miles north-east of San Antonio, so this is a real trip, not a
-      five-minute errand. **Offer Mon Sep 28 or Tue Sep 29** (the markets take Sat and Sun), and hand it over by
-      **Wed Sep 30 at the latest** — her birthday is Sat Oct 3.
+      five-minute errand. ~~**Offer Mon Sep 28 or Tue Sep 29** (the markets take Sat and Sun), and hand it over by
+      **Wed Sep 30 at the latest**.~~ ⚠️ **STALE — DO NOT ACT ON THE STRUCK LINE.** The Oct 3 party supersedes it and
+      there is no Marion trip. It was read as live twice on 2026-09-26 and produced the wrong advice both times,
+      because it sat below the ✅ SUPERSEDED marker still written in the imperative.
       ⚠️ **A DROP-OFF WITH NO DATE IS EXACTLY HOW MAURYA'S HANDOVER SLIPPED EIGHT TIMES** and sat finished for 30 days.
       Do not leave this as "sometime next week". Two concrete dates, her pick, confirmed by email.
       🚗 **LOG THE MILEAGE.** Round trip to Marion is roughly **50 miles** — about **$36 of deduction** at 0.725, which is
@@ -870,7 +1005,37 @@ Two rules that keep this useful:
   | **🎪 SAT SEP 26** | Market 1 — ~50 finished pieces + the new bows and whimsys |
   | **Sun Sep 27** | Tell Claude what sold → mark sold out online. **Count Halloween bows and whimsys sold** |
   | **Sep 27 – Oct 2** | Gift card holders + scrunchies · second Halloween batch sized from Sep 26 |
-  | **Oct 3 – 8** | 5 bandanas · restock whatever sold on Sep 26 · 👗 **2–3 MARKET HALF APRONS for sale** (~1 h each now the pattern exists) |
+  | **Oct 3 – 8** | 🎄 **CHRISTMAS STOCK FIRST** — **Christmas bows** and **Christmas-print mug rugs**, then **cinnamon sachets** once the spice is bought · **5 bandanas INCLUDING SMALL ones** — both Sep 26 leads wanted bandanas, one wanted two smalls, and a Small has never been stocked · 🚩 **finish the BANNER**: lining, rod pockets and ties, ready for Oct 10 · 👗 **2–3 MARKET HALF APRONS for sale** (~1 h each now the pattern exists) · restock whatever Sep 26–27 sold |
+  🎄 **WHY CHRISTMAS COMES FIRST, AND WHY IT HAPPENS IN OCTOBER (added 2026-09-26).** A **Christmas tree bow was
+  the only bow to sell at the Sep 26 market** — one out of roughly 34, in September, at a girls'-night-out
+  boutique where nobody had come to buy Christmas presents. Festive stock sells before anyone thinks they want it.
+  ⏳ **And the calendar is far shorter than it looks: the machine goes in a box before the Nov 25 move.** The
+  festive markets are **Oct 30**, the **Nov 13** school popup (teacher gifts) and **Nov 14**, the last one ever in
+  Texas. **There is no November to save this for** — anything Christmas not sewn by the first week of November
+  simply does not exist. In a normal year this block could wait; this year it cannot.
+  🎁 **GIFT CARD HOLDERS: NOT TODAY, NOT CANCELLED (owner, 2026-09-27) — "just not in the mood to sew them right
+  now."** They are still a live product: **4** exist (a fourth was sewn 2026-09-27, mood permitting), they stay on the
+  table and on the price list at $10, and they
+  remain the right answer if the Nov 13 popup is taken. **Do not read this as a retirement.**
+  ⚠️ **It was first written up here as "stop proposing them" and that was an overcorrection** — a preference on
+  one Sunday turned into a permanent product decision in the file, which is exactly the kind of thing a later
+  session would act on without knowing what was meant. Ask before treating a mood as a decision.
+  🏫 **Nov 13 is therefore unchanged: still blocked on gymnastics at 4:10**, still needs a yes or no by the end of
+  that week, and still needs ~20 gift card holders IF it is taken. That call has not been made either way.
+  🎄 **WHAT REPLACES THEM: Christmas bows and Christmas-print mug rugs.** Both are things she makes fast and
+  likes making — six mug rugs appeared overnight on 2026-09-26 — and a Christmas bow was the **only** bow to sell
+  at the Sep 26 market, out of roughly 34. Bows come out of the offcuts from cutting mug rugs, so the festive
+  fabric does two jobs.
+  💬 **If the objection was the PRICE rather than the sewing, say so** — $10 for a lined sleeve may simply be
+  too little, and that is a repricing job, not a dead product.
+  ⛔ **Do NOT sew more scrunchies** — roughly 37 are in stock, the deepest category by a distance.
+  🛒 ⛔ **BLOCKER: THE CINNAMON HAS RUN OUT (owner, 2026-09-27).** Cinnamon sachets are listed in this block and
+  **cannot be made until spice is bought.** Four exist and that is the lot. **Buy before Oct 3**, enough for about
+  **20** — they are the fall and Christmas scent and the festive markets are Oct 30, Nov 13 and Nov 14.
+  📌 **Broken cinnamon STICKS, whole cloves, dried orange peel, over rice** — the filling settled on 2026-09-20.
+  **Whole spices from the Mexican aisle (canela) or a bulk bin, never supermarket jars**: jars are ground, and
+  ground marks light fabric, fades fast and sifts straight through a seam. ⚠️ **Buy muslin at the same time** —
+  the spiced ones need an inner liner, which the lavender ones do not.
   💡 **The upside:** Sep 26 answers "which Halloween prints sell?" two weeks earlier, so the second
   batch can serve BOTH Oct 10 and Oct 30 instead of being guessed for one night.
   📣 ✅ **Sep 26 posts WRITTEN 2026-09-14** in `marketing/october-market-posts.md` (S1a–S4):

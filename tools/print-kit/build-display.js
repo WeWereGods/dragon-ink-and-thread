@@ -101,7 +101,11 @@ const css = [
     '<span class="v vlt"></span><span class="v vrt"></span>' +
     '<span class="v vlb"></span><span class="v vrb"></span>' +
     '<div class="ctr" style="top:112px"><div class="w1">DRAGON</div><div class="w2">INK AND THREAD</div></div>' +
-    '<div class="ctr tag" style="top:272px">Handmade goods<br>for cozy little adventures</div>' +
+    // ⚠️ ONE TAGLINE ONLY: "Handmade heirlooms for everyday wonder". It is on the
+    // tablecloth, and in the footer of all 43 site pages. This sign said "Handmade goods
+    // for cozy little adventures" until 2026-09-27, which made two taglines - and two
+    // taglines is no tagline, because neither gets remembered.
+    '<div class="ctr tag" style="top:272px">Handmade heirlooms<br>for everyday wonder</div>' +
     '<div class="ctr" style="top:356px"><span class="rule"><i></i><b>&#10084;</b><i></i></span></div>' +
     '<div class="dragon" style="top:392px"><img src="' + u("dragon.png") + '" alt=""></div>' +
     '<div class="ctr" style="top:590px"><span class="rule"><i></i><b>&#10022;</b><i></i></span></div>' +

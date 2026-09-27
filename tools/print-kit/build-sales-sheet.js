@@ -37,6 +37,7 @@ const ITEMS = [
 
 const DEALS = [
   ["Bows, 2 for", "$20"],
+  ["Mug rugs, 2 for", "$20"],
   ["Scrunchies, 3 for", "$15"],
   ["Sachets, 2 for", "$10"],
 ];

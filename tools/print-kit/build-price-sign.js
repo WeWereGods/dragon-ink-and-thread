@@ -6,42 +6,58 @@ const base = require("./paper-base");
 
 const SIGN = path.join(__dirname, "build");
 if (!fs.existsSync(SIGN)) fs.mkdirSync(SIGN, { recursive: true });
-// Updated 2026-09-21 for the Sep 26 market: seven lines, so type is smaller than the
-// original four-line sign. Bookmarks taken off 2026-09-21 until they are sewn.
+// Updated 2026-09-21 for the Sep 26 market. Bookmarks taken off 2026-09-21 until sewn.
+//
+// ⚠️ REBUILT 2026-09-27 FOR LEGIBILITY AT DISTANCE. The Sep 27 table photo showed the
+// problem plainly: not one price on the table could be read from six feet. Prices went
+// 40px -> 70px, names 33px -> 40px.
+//
+// ⚠️ THE DESCRIPTIONS WERE CUT TO PAY FOR IT, and that was the whole trade. "Soft prints
+// and lace" is lovely and nobody reads it from the aisle; a price they cannot read stops
+// them walking over at all. One line per item now: name, deal, price. If charm is ever
+// wanted back, it belongs on the TENT CARDS, which are read at arm's length.
+//
+// MUG RUGS ADDED — seven of them exist as of 2026-09-26 and the sign predated all but one.
 const ITEMS = [
-  { name: "Bows", price: 12, desc: "Sailor bows on a clip", deal: "2 for $20" },
-  { name: "Scrunchies", price: 6, desc: "Soft prints and lace", deal: "3 for $15" },
-  { name: "Sachets", price: 6, desc: "Lavender or cinnamon", deal: "2 for $10" },
-  { name: "Gift Card Holders", price: 10, desc: "A gift card that feels like a gift", deal: "New!" },
-  { name: "Hair Whimsys", price: 5, desc: "Tie one on a braid or ponytail", deal: "New!" },
-  { name: "Pet Bandanas", price: 18, desc: "Over the collar, stretchy channel", deal: "Patchwork $22" },
+  { name: "Hair Whimsys", price: 5, deal: "New!" },
+  { name: "Scrunchies", price: 6, deal: "3 for $15" },
+  { name: "Sachets", price: 6, deal: "2 for $10" },
+  { name: "Gift Card Holders", price: 10, deal: "New!" },
+  { name: "Bows", price: 12, deal: "2 for $20" },
+  { name: "Mug Rugs", price: 12, deal: "2 for $20" },
+  { name: "Pet Bandanas", price: 18, deal: "Patchwork $22" },
 ];
 
 const css = [
   ".head{top:92px;left:200px;right:200px;}",
   ".sub{top:204px;}",
-  ".ruleA{top:252px;}",
-  ".items{position:absolute;left:118px;right:118px;top:268px;}",
-  ".item{padding:11px 0 11px;border-bottom:1.5px dashed rgba(147,136,88,.6);}",
+  ".ruleA{top:246px;}",
+  // Inset pulled in from 118 to 96: the 70px price needs the width back.
+  ".items{position:absolute;left:96px;right:96px;top:258px;}",
+  ".item{padding:8px 0;border-bottom:1.5px dashed rgba(147,136,88,.6);}",
   ".item:last-child{border-bottom:0;}",
-  ".line{display:flex;align-items:baseline;gap:14px;}",
-  ".nm{font-family:var(--display);font-weight:600;font-size:33px;line-height:1;white-space:nowrap;color:var(--green);}",
-  ".dots{flex:1;border-bottom:3px dotted rgba(59,51,39,.32);transform:translateY(-10px);}",
-  ".pr{font-family:var(--display);font-weight:700;font-size:40px;line-height:1;color:var(--wine);white-space:nowrap;}",
-  ".pr sup{font-size:24px;vertical-align:top;position:relative;top:8px;margin-right:2px;}",
-  ".ds{margin-top:2px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:16px;font-weight:700;color:var(--sage);}",
-  ".deal{display:inline-block;font-weight:800;font-size:14px;color:var(--wine);border:1.5px solid var(--rose);border-radius:999px;padding:1px 11px;}",
-  ".ruleB{top:862px;}",
-  ".pay{top:890px;}",
+  ".line{display:flex;align-items:baseline;gap:13px;}",
+  ".nm{font-family:var(--display);font-weight:600;font-size:40px;line-height:1;white-space:nowrap;color:var(--green);}",
+  ".dots{flex:1;border-bottom:3px dotted rgba(59,51,39,.32);transform:translateY(-14px);}",
+  // 70px is about 0.73in of numeral on letter - readable across an aisle, roughly ten
+  // feet. 40px was readable from about four, i.e. only once they had already stopped,
+  // which is too late to be the thing that makes them stop.
+  ".pr{font-family:var(--display);font-weight:700;font-size:70px;line-height:1;color:var(--wine);white-space:nowrap;}",
+  ".pr sup{font-size:38px;vertical-align:top;position:relative;top:12px;margin-right:3px;}",
+  ".deal{display:inline-block;font-weight:800;font-size:17px;color:var(--wine);border:2px solid var(--rose);",
+  "  border-radius:999px;padding:3px 13px;position:relative;top:-8px;white-space:nowrap;}",
+  ".ruleB{top:884px;}",
+  ".pay{top:908px;}",
   ".pay span{display:inline-block;font-weight:800;font-size:19px;letter-spacing:.06em;color:var(--green);border:1.5px solid var(--sage);border-radius:999px;padding:5px 20px;}",
-  ".ask{top:940px;left:200px;right:200px;font-family:var(--display);font-style:italic;font-size:21px;color:var(--ink);}",
-  ".foot{top:978px;left:210px;right:210px;font-size:14px;line-height:1.5;}",
+  ".ask{top:952px;left:190px;right:190px;font-family:var(--display);font-style:italic;font-size:21px;color:var(--ink);}",
+  ".foot{top:988px;left:210px;right:210px;font-size:14px;line-height:1.5;}",
 ].join("\n");
 
 const items = ITEMS.map((i) =>
-  '<div class="item"><div class="line"><span class="nm">' + i.name + '</span><span class="dots"></span>' +
-  '<span class="pr"><sup>$</sup>' + i.price + "</span></div>" +
-  '<div class="ds">' + i.desc + (i.deal ? '<span class="deal">' + i.deal + "</span>" : "") + "</div></div>"
+  '<div class="item"><div class="line"><span class="nm">' + i.name + "</span>" +
+  (i.deal ? '<span class="deal">' + i.deal + "</span>" : "") +
+  '<span class="dots"></span>' +
+  '<span class="pr"><sup>$</sup>' + i.price + "</span></div></div>"
 ).join("");
 
 const body = base.page(
