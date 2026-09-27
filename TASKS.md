@@ -43,6 +43,41 @@ one piece the Sep 26 posts point at. Run `git checkout main && git pull` then `w
 ⬜ **Cassidy: offer Mon 28 or Tue 29 for the Kindle sleeve drop-off** — in her hands by Wed Sep 30 for the Oct 3
 birthday.
 
+💰 **RESULT — MARKET 2 (Sat Sep 26): $16 in sales against a $20 booth — DOWN $4 on the night.**
+1 bow at a **rounded $10** (list $12) · 1 scrunchie $6 · **1 sachet given away** — not a sale, but record it as a
+giveaway or the sachet count will not reconcile.
+📒 **Workbook row 2026-09-26: product $14.78, sales tax $1.22** at 8.25% (venue is 78245, San Antonio, so the rate
+is right; lands in **Q3, return due Oct 20**). Bow $10 → $9.24 + $0.76 · scrunchie $6 → $5.54 + $0.46.
+📌 **The rounded $10 went on a BLANK LINE of the sales sheet — the second market running where a real amount
+matched no list price.** Sep 19 could never be reconstructed; this one took ten seconds. The blank lines earn
+their place on every sheet printed from here on.
+⬜ **WHICH BOW WAS IT? STILL UNANSWERED.** Seven bows are listed online and every one is one of a kind, so a
+listed bow can now sell twice. Set `soldOut: true` the moment it is identified. The scrunchie needs nothing —
+multiples are stocked.
+
+🎣 **TWO CUSTOM LEADS — the real result of the night, and worth more than the $16.**
+  - **Lead 1:** two **small** pet bandanas, quoted **$22 each / $44 the pair**, plus interest in **lipstick pouches**.
+  - **Lead 2:** pet bandanas — quantity and size not yet given. Same $22 floor, multi-buy if three or more.
+  - ✅ **Both emails sent 2026-09-26.** Each asks for a **neck measurement in inches, not a size name** (there is no
+    Small in stock and none has ever been made) and for fabric picks off `fabrics.html`. Both offer **reversible at
+    no extra cost** — plain reversible bandanas are already $18 ready-made, so $22 custom absorbs it.
+  - ⬜ **Awaiting replies.** ⚠️ **The lead slip promises a written quote WITHIN TWO DAYS** — in writing, in their
+    hands, dated Sep 26. That is **Mon Sep 28**.
+  - ⚠️ **Do not discount a pair below $40.** Ready-made bandanas are $18; at $20 each the $22 custom floor stops
+    clearing the shelf price, which is the single rule that floor exists to protect. Sweeten with a matching
+    scrunchie instead of cutting the number.
+
+🆕 ⚠️ **LIPSTICK POUCHES ARE A NEW CATEGORY WITH NO PUBLISHED BAND — the FIFTH time this has happened.** Book
+sleeves, home pieces, repairs and quilts were every one of them asked for before they were priced, and a number
+got invented under pressure each time. **Set the band before the reply, not during it.**
+  - **Proposed: ready-made $12, custom $15–22** — just above gift card holders ($10 / $12–18), the right neighbour
+    for the scale, with room for a zip being real work that a flat sleeve is not.
+  - ⬜ **Blocked on the CLOSURE — zip, drawstring or snap.** A drawstring is closer to a sachet and would fairly be
+    $12 / $14–18. The email asks. **Once decided, publish it in all EIGHT places at once.**
+
+🐕 📌 **BOTH leads wanted pet bandanas. Two out of two.** The Oct 3–8 block already carries 5 bandanas —
+**make some SMALL.** None has ever been stocked, and the first person who ever asked wanted two.
+
 ### 🎪 SAT SEP 19 — an OUTDOOR market, signed up 2026-09-17, two days' notice
 
 **10am–3pm · outdoor · own 6ft table · canopy RENTED · NO electricity · set-up from 8am.**
