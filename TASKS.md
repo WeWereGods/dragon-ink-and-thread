@@ -970,6 +970,13 @@ Two rules that keep this useful:
   📌 **Gift card holders are the priority inside the priority** — $10, they are the school popup's whole angle,
   and the prints are already chosen (Traditional Christmas, Solstice Tartan, the plaids and stripes "for him").
   ⛔ **Do NOT sew more scrunchies** — roughly 37 are in stock, the deepest category by a distance.
+  🛒 ⛔ **BLOCKER: THE CINNAMON HAS RUN OUT (owner, 2026-09-27).** Cinnamon sachets are listed in this block and
+  **cannot be made until spice is bought.** Four exist and that is the lot. **Buy before Oct 3**, enough for about
+  **20** — they are the fall and Christmas scent and the festive markets are Oct 30, Nov 13 and Nov 14.
+  📌 **Broken cinnamon STICKS, whole cloves, dried orange peel, over rice** — the filling settled on 2026-09-20.
+  **Whole spices from the Mexican aisle (canela) or a bulk bin, never supermarket jars**: jars are ground, and
+  ground marks light fabric, fades fast and sifts straight through a seam. ⚠️ **Buy muslin at the same time** —
+  the spiced ones need an inner liner, which the lavender ones do not.
   💡 **The upside:** Sep 26 answers "which Halloween prints sell?" two weeks earlier, so the second
   batch can serve BOTH Oct 10 and Oct 30 instead of being guessed for one night.
   📣 ✅ **Sep 26 posts WRITTEN 2026-09-14** in `marketing/october-market-posts.md` (S1a–S4):
