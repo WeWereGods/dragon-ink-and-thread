@@ -36,9 +36,11 @@ mix-and-match deal withdrawn on Sep 24. The builder was fixed that day but **nob
 withdrawn deal kept going out for two days**. 📌 **A fixed generator is not a fixed flyer.** The old one is still
 on Facebook: **honour it if anyone asks on the day.**
 
-⬜ **OPEN: `wrangler deploy` was never confirmed after `tote-rose-latte-cloud` went live at $75.** The Worker
-file carries `amount: 7500`, but if the deploy did not run, the website answers **"Your cart is empty"** on the
-one piece the Sep 26 posts point at. Run `git checkout main && git pull` then `wrangler deploy` from `worker/`.
+✅ **`wrangler deploy` RUN AND TESTED 2026-09-27 (owner).** The Rose Latte Cloud checks out at $75, and the four
+pieces retired on Sep 24 are finally out of the Worker too — they had been riding on this same deploy.
+📌 **It had been outstanding since the listing went up on Sep 23**, through two markets whose posts both pointed
+at that tote. Nothing looked broken the whole time: the Worker file carried `amount: 7500` from the moment it was
+committed, and only the deployed copy was stale. **The repo is not the deploy.**
 
 ⬜ **Cassidy: offer Mon 28 or Tue 29 for the Kindle sleeve drop-off** — in her hands by Wed Sep 30 for the Oct 3
 birthday.
@@ -178,15 +180,15 @@ so no two sit exactly alike", said plainly rather than apologetically.
 📣 **Caption line: "caffeinated on cloud nine"** — the owner's phrase, kept for posts rather than the tag (too long to ask for).
 📌 **This is the FIRST one; it is a prototype as much as a product.** The next will be quicker and neater.
 🔄 **SUPERSEDED 2026-09-23 — LISTED ONLINE AT $75 STRAIGHT AWAY** (owner), with two new photos (plain wall, daylight):
-`tote-rose-latte-cloud` in shop-data, Worker PRICES 7500, product page, Pinterest feed, sitemap, and the Totes JSON-LD range now $20–75 over 5 offers. ⚠️ **`wrangler deploy` needed** or checkout says "cart is empty". **The TABLE PRICE drops to $75 too** so the sign and the site agree; the story card is reprinted at $75.
+`tote-rose-latte-cloud` in shop-data, Worker PRICES 7500, product page, Pinterest feed, sitemap, and the Totes JSON-LD range now $20–75 over 5 offers. ✅ **`wrangler deploy` RUN AND TESTED 2026-09-27.** **The TABLE PRICE drops to $75 too** so the sign and the site agree; the story card is reprinted at $75.
 ⚠️ **It can now sell twice** — if it goes online, leave it home or show it marked SOLD; if it goes at the market, set `soldOut: true` that evening.
 *Superseded plan:* **$95 on the Sep 26 table. If it DOESN'T sell, it drops to $75 and goes on the WEBSITE
 from Sun Sep 27.** Not listed before Saturday on purpose — one of a kind, and a web sale mid-market would sell it out from
 under the table. ⚠️ **Once it is $75 online it must be $75 at the table too** (Oct 10 / 24 / 30), and the Stripe
 catalog price moves with it. Listing copy is drafted ("Thirty-two little pillows…"); **photos still to come** — front,
 inside with the brown plaid and blush pocket, the 32 pillows laid out, and on a shoulder if possible.
-⬜ To go live: shop-data (PRODUCTS/VARIANTS/LINKS/CATALOG) · Worker PRICES 7500 + wrangler deploy · build-products ·
-build-catalog · Totes JSON-LD high price 38 → 75 and offerCount +1 · bump-assets.
+✅ Live: shop-data (PRODUCTS/VARIANTS/LINKS/CATALOG) · Worker PRICES 7500 + wrangler deploy (2026-09-27) ·
+build-products · build-catalog · Totes JSON-LD high price 38 → 75 and offerCount +1 · bump-assets.
 ⬜ **STILL TO DO on it:** bind the raw top edge · **BROWN PLAID lining, interfaced** (chosen 2026-09-21 over lining in the
 coffee floral: the floral is already the whole outside, the plaid rhymes with the pink plaid in the puffs, and a mid-tone
 plaid hides pen marks a pale lining would show) · **cream straps** and **blush pocket**, both from stash (the body is soft,
@@ -237,7 +239,7 @@ retire ~Sep 24), 1 Christmas tree bow (market-only).
 and off the shop; the four survivors stay listed individually at $12. ⬜ Retire the set entry ~Sep 24 with the others.
 🏈 **GAME DAY DARLING HEADBAND off the site too (owner, 2026-09-20) — the football yard is used up**, so no more
 can be made. Every bow-category listing is now $12, so the JSON-LD block went high $55 → $12 and 15 offers → 11.
-✅ **RETIRED 2026-09-24** — all four out of shop-data, the Worker and the Pinterest feed; their pages deleted (now 404, and 404.html routes back to the shop); all four added to **Stories/`PAST_MAKES`**, which is now 18 pieces. In-stock counts unchanged against the JSON-LD (Totes 5 · Bows 12). ⚠️ **`wrangler deploy` still pending** from the Rose Latte Cloud listing — it also drops these four from the Worker. *Original note:* RETIRE TOGETHER ~SEP 24 (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
+✅ **RETIRED 2026-09-24** — all four out of shop-data, the Worker and the Pinterest feed; their pages deleted (now 404, and 404.html routes back to the shop); all four added to **Stories/`PAST_MAKES`**, which is now 18 pieces. In-stock counts unchanged against the JSON-LD (Totes 5 · Bows 12). ✅ **`wrangler deploy` DONE 2026-09-27** — these four are now out of the Worker as well. *Original note:* RETIRE TOGETHER ~SEP 24 (delete from shop-data + their pages, after Pinterest re-reads the feed): The Storykeeper ·
 Game Day headband · Suriel's Bouquet · Tea with the Suriel set.
 📌 **The lace scrunchies sell.** Two of four scrunchie sales on their debut; worth more of them for Sep 26.
 🏷️ **ONE TAGLINE, EVERYWHERE (owner, 2026-09-20): "Handmade heirlooms for everyday wonder"** — it is on the badge, the
