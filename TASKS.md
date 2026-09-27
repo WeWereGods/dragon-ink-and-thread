@@ -573,11 +573,16 @@ Two rules that keep this useful:
       sleeve is finished, shows the photos, and only promises “I'll get it into your hands very soon” — no date, no place,
       nothing to spoil. **Do not reply to her with a delivery plan.**
       🎁 **Wrap it.** It is now a birthday present handed over in front of people, not a parcel — tissue, twine and a gift tag.
+      ⚠️ **THE FILE CONTRADICTS ITSELF ON HER BIRTHDAY.** This entry says the party is **Sat Oct 3** and her birthday
+      is **Sun Oct 4**; two other places in this file say the birthday is Oct 3. **The handover date is Oct 3 either
+      way**, so nothing is at risk — but fix it the next time it is confirmed, rather than leaving two dates in one file.
       🚚 **IT IS A LOCAL DROP-OFF, NOT A POST (owner, 2026-09-24)** — so no address is needed and no postage is owed.
       ~~⛔ **THE ONE THING STILL BLOCKING DELIVERY: NO DATE IS FIXED.**~~ ✅ **SUPERSEDED — the date is Sat Oct 3, see above.** **Pin a day and a place now, in writing.** Her ZIP on
       the charge is **78124 — Marion, TX**, about 25 miles north-east of San Antonio, so this is a real trip, not a
-      five-minute errand. **Offer Mon Sep 28 or Tue Sep 29** (the markets take Sat and Sun), and hand it over by
-      **Wed Sep 30 at the latest** — her birthday is Sat Oct 3.
+      five-minute errand. ~~**Offer Mon Sep 28 or Tue Sep 29** (the markets take Sat and Sun), and hand it over by
+      **Wed Sep 30 at the latest**.~~ ⚠️ **STALE — DO NOT ACT ON THE STRUCK LINE.** The Oct 3 party supersedes it and
+      there is no Marion trip. It was read as live twice on 2026-09-26 and produced the wrong advice both times,
+      because it sat below the ✅ SUPERSEDED marker still written in the imperative.
       ⚠️ **A DROP-OFF WITH NO DATE IS EXACTLY HOW MAURYA'S HANDOVER SLIPPED EIGHT TIMES** and sat finished for 30 days.
       Do not leave this as "sometime next week". Two concrete dates, her pick, confirmed by email.
       🚗 **LOG THE MILEAGE.** Round trip to Marion is roughly **50 miles** — about **$36 of deduction** at 0.725, which is
