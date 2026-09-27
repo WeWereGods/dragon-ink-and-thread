@@ -84,6 +84,36 @@ got invented under pressure each time. **Set the band before the reply, not duri
   - ⬜ **Blocked on the CLOSURE — zip, drawstring or snap.** A drawstring is closer to a sachet and would fairly be
     $12 / $14–18. The email asks. **Once decided, publish it in all EIGHT places at once.**
 
+👶 **BABY ORDER — QUOTE SENT 2026-09-27, awaiting a yes.** 3 headbands · 2 baby DAY GOWNS · 5 burp cloths,
+all sized **3-6 months**. **$220 + tax = $238.15**, shipping free (her own over-$50 policy, so nothing given away).
+Customer's budget was **$220** against a **$265** quote.
+  - 📌 **SCOPE CUT, NOT DISCOUNTED.** The **4 booties** came off. They had appeared in her detailed list but were
+    not in the original brief, and they were the fiddliest and newest work in the job — the worst dollars in it.
+    Cutting them put the order back to exactly what was first asked for, at exactly her number. **Discounting
+    instead would have taken 17% off, all of it out of the riskiest half.**
+  - 🎁 **THE BOOTIES ARE A GIFT IF THEY WORK OUT** (owner's call). No date, no refund exposure, no part of the
+    $220 riding on them — she can try twice and bin both. ⚠️ **Record them as a GIVEAWAY, not a sale**, if they go.
+  - ⚠️ **"DAY GOWNS", AND THE EMAIL SAYS SO IN WORDS:** *"they aren't certified flame-resistant sleepwear."* US
+    children's sleepwear is a regulated product and the rule turns on what a garment is **promoted for**, not what
+    the tag says — so relabelling only protects her if it is true, and it is now stated in writing.
+  - ⚠️ **FIRST KNIT AND FIRST STRETCH LACE.** Her whole shop is woven quilting cotton. **Turnaround quoted at FOUR
+    WEEKS, not 10-14 days**, and **the creamy gown is made and photographed for approval BEFORE the lace one is
+    cut.** Needs a ballpoint needle and a stretch stitch or narrow zigzag — **a straight stitch will snap** the
+    first time it goes over a baby's head. **Buy fabric for three gowns, not two.**
+  - 🧵 **5 of the 6 fabrics are STASH** and were picked off `fabrics.html`: Once Upon a Woodland has exactly the
+    three she asked for (Bouncing Beginnings · Thistles and Tails · Twilight Owls), plus Little Goose Gingham,
+    Gingham Teddy Bears, and Game Day. **The knit and the stretch lace must be bought — neither is in the library.**
+  - 💵 **Economics: ~$165 net** after ~$30 of stretch fabric, ~$18 shipping and ~$7 Stripe, for ~9-10 hours.
+    **About $17/hr** — better than the Rose Latte Cloud. **Nothing else may be shaved off it.**
+  - ⬜ **Open: does her $220 include tax?** The email offers $203 + tax if so. Settle before invoicing.
+  - ⛔ **Nothing is cut until the invoice is paid.** The four weeks start at payment, not at agreement.
+
+🆕 ⚠️ **BABY IS THE SIXTH CATEGORY QUOTED WITH NO PUBLISHED BAND** — after book sleeves, home pieces, repairs,
+quilts and lipstick pouches. **If this order is accepted, publish one before the next person asks.** The numbers
+actually used: headbands **$10-14**, day gowns **$80-85** (knit; a woven one would be ~$65), burp cloths **$9**,
+booties **~$20/pair**. ⚠️ **Baby garments are the first CLOTHING she has ever sold** — that is a category decision
+in itself, not just a price, and the sleepwear rule is part of it.
+
 🐕 📌 **BOTH leads wanted pet bandanas. Two out of two.** The Oct 3–8 block already carries 5 bandanas —
 **make some SMALL.** None has ever been stocked, and the first person who ever asked wanted two.
 
