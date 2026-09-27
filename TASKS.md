@@ -51,9 +51,18 @@ is right; lands in **Q3, return due Oct 20**). Bow $10 → $9.24 + $0.76 · scru
 📌 **The rounded $10 went on a BLANK LINE of the sales sheet — the second market running where a real amount
 matched no list price.** Sep 19 could never be reconstructed; this one took ten seconds. The blank lines earn
 their place on every sheet printed from here on.
-⬜ **WHICH BOW WAS IT? STILL UNANSWERED.** Seven bows are listed online and every one is one of a kind, so a
-listed bow can now sell twice. Set `soldOut: true` the moment it is identified. The scrunchie needs nothing —
-multiples are stocked.
+✅ **IT WAS THE CHRISTMAS TREE BOW — MARKET-ONLY, so nothing to flag online** (owner, 2026-09-26). Checked
+against `PRODUCTS` in js/shop-data.js: **twelve** bows are listed and none is a Christmas print. The scrunchie
+needed nothing either — multiples are stocked.
+🎄 📌 **A CHRISTMAS BOW SOLD IN SEPTEMBER, at a girls'-night-out boutique.** It was the only bow to sell all
+evening, out of roughly 34. **Christmas stock moves before anyone is thinking about Christmas** — and it has to
+be made EARLY here, because the machine goes in a box before the **Nov 25** move. The Christmas markets are
+**Oct 30**, the **Nov 13** school popup (teacher gifts) and **Nov 14**, the last one. Sew festive stock into the
+Oct 3-8 block rather than saving it for November, when there will be no November to save it for.
+⚠️ **js/shop-data.js holds TWELVE bows; CLAUDE.md still describes seven** (Cauldron Forged, Toffee Plaid, Roasted
+Roses, Daily Grind in Ivory, Blushing Linen, Gingham, Sage Gingham). The five missing from the doc are Something
+Blue, Sidra Vines, Porcelain Roses, Lace of Velaris and Game Day Darling. Harmless tonight, but it is the same
+class of drift as the JSON-LD: the doc is what gets read when deciding whether a piece is listed.
 
 🎣 **TWO CUSTOM LEADS — the real result of the night, and worth more than the $16.**
   - **Lead 1:** two **small** pet bandanas, quoted **$22 each / $44 the pair**, plus interest in **lipstick pouches**.
