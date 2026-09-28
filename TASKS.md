@@ -66,6 +66,29 @@ Roses, Daily Grind in Ivory, Blushing Linen, Gingham, Sage Gingham). The five mi
 Blue, Sidra Vines, Porcelain Roses, Lace of Velaris and Game Day Darling. Harmless tonight, but it is the same
 class of drift as the JSON-LD: the doc is what gets read when deciding whether a piece is listed.
 
+💰 **RESULT — MARKET 3 (Sun Sep 27, Hello Fall night market): $33 against a $25 booth — UP $8.**
+$15 for a bow AND a scrunchie together (list $18, so rounded down $3) · the Quilted Court patchwork bandana at
+**$18** against its listed **$22**. The bow was a Halloween metallic spiderweb — **market-only, nothing to flag
+online**; the scrunchie needs nothing, multiples are stocked.
+📒 **Workbook rows 2026-09-27:** bow+scrunchie **$15.00 → $13.86 + $1.14 tax** · bandana **$18.00 → $16.63 +
+$1.37 tax**. Day total **$33.00 → $30.49 product + $2.51 tax**, at 8.25% (Helotes, Bexar County). **Q3, return
+due Oct 20.** ⚠️ **ONE row for the bandana, on Sep 27** — two sessions have now touched this sale and the date
+was wrong in one of them.
+
+📊 **THE WEEKEND, BOTH MARKETS: $49 in sales against $45 in booth fees.** After the tax held for the state,
+product revenue was **$45.27** — twenty-seven cents clear of the table rents, before fabric, petrol, two set-ups,
+ten hours standing and a full day at the machine.
+⚠️ 📌 **BUT THAT IS NOT WHAT THE WEEKEND PRODUCED. It produced TWO CUSTOM LEADS AND A $220 QUOTE** — four and a
+half times the entire weekend's takings from one enquiry. **These markets are not paying as retail; they are
+paying as lead generation.** Four more are booked (Oct 10, 24, 30, Nov 14). **Decide before Oct 10 what the table
+is FOR** — if it is leads, the order forms and lead slips stop being paperwork and become the product, and the
+stock is there to start conversations rather than to clear.
+🏷️ 📌 **FOUR ROUNDED-DOWN SALES IN THREE MARKETS** — Sep 19 (two of three card sales matched no list price),
+Sep 26 (a $12 bow at $10), Sep 27 (a $12 bow + $6 scrunchie at $15, and a $22 bandana at $18). **She bundles
+across categories and rounds down**, which is the "any 2 for $10" mix-and-match she withdrew on Sep 24 coming
+back in improvised, steeper form. **If cross-category bundling is what closes people, price it deliberately** —
+e.g. any bow + any scrunchie for $16 — rather than inventing it at a loss each time.
+
 🎣 **TWO CUSTOM LEADS — the real result of the night, and worth more than the $16.**
   - **Lead 1:** two **small** pet bandanas, quoted **$22 each / $44 the pair**, plus interest in **lipstick pouches**.
   - **Lead 2:** pet bandanas — quantity and size not yet given. Same $22 floor, multi-buy if three or more.
@@ -2423,7 +2446,15 @@ that was right; a fourth free one would have taught the wrong lesson on the shop
 
 ## 🟢 Sold — finish the two-step exit
 
-- [ ] 🐾 **The Quilted Court Bandana SOLD at the Sep 26 market — before the market had even opened.**
+- [ ] 🐾 **The Quilted Court Bandana SOLD — on SUNDAY SEP 27 at the night market, for $18.**
+      ⚠️ **DATE CORRECTED 2026-09-28. This entry originally said "at the Sep 26 market, before the market had
+      even opened."** The owner, reading her sales sheets, put it on **Sunday**: Sep 26 was one bow, one
+      scrunchie and a gifted sachet, and Sep 27 was a $15 bow-and-scrunchie bundle plus this at $18.
+      ⛔ **SO THE "BEFORE THE MARKET HAD EVEN OPENED" LINE MUST NOT BE POSTED** — see the note at the bottom of
+      this entry. It is a nice sentence about a thing that appears not to have happened.
+      ⚠️ **It went for $18, not its listed $22.** The fourth rounded-down sale in three markets. It is the piece
+      that justifies having a $22 tier at all — the hand-piecing is the longest job in the category — so selling
+      it at the plain-bandana price erases the reason the tier exists. Worth deciding whether the tier is real.
       ✅ **Step 1 done 2026-09-27:** `soldOut: true` in js/shop-data.js, product pages rebuilt (its
       page stays up as "Sold" with the waitlist), out of the sitemap, **"out of stock" in the
       Pinterest feed**, and the Pet Bandanas JSON-LD in index.html is now 2 offers at $18–18.
@@ -2433,8 +2464,10 @@ that was right; a fourth free one would have taught the wrong lesson on the shop
       ⚠️ **It was the ONLY patchwork bandana**, and the only $22 one. The custom bandana band stays
       $22–35 (owner decision 2026-08-19); with no $22 piece in the shop, the floor now clears the
       $18 ones even more plainly.
-      📣 It is also the S4 thank-you post's real moment: *"The first piece found its new home
-      before the market had even officially started."*
+      ⛔ 📣 **DO NOT USE the S4 thank-you line** *"The first piece found its new home before the market had even
+      officially started."* It was written from the mistaken Sep 26 date. **The piece sold on Sunday evening**, so
+      the sentence is false, and it would be published. If a line is wanted, the true one is better anyway: the
+      only patchwork bandana she has ever made found a home at the last market of the weekend.
 
 - [x] ✅ **Strawberry Scrunchie RETIRED 2026-08-20.** Out of `PRODUCTS`/`VARIANTS`/`LINKS`/
       `BYO_PRINTS`/`CATALOG`, out of the Worker's `PRICES` and `PICKABLE`, product page deleted,
