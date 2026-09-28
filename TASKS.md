@@ -162,9 +162,11 @@ layout** — the date stamp is for stock that moves a piece on the table, not fo
 🍵 ✅ **MAURYA'S TEA MAT — FINISHED 2026-09-28.** Paid Sep 24, done in **four days** against a 10-14 day
 promise. The tea cover went to her on Sep 24; **the mat is the last piece of invoice `VBQJFYMO-0002`**
 ($70 + $5.78 tax, net $73.28). Nothing is owed on it.
-  - ⛔ **PIN THE HANDOVER DATE IN THE SAME MESSAGE THAT TELLS HER IT IS DONE. Two dates, her pick, in writing.**
-    ⚠️ **Her last handover slipped EIGHT TIMES and a finished piece sat for thirty days.** That is the only
-    failure mode left on this job, and "sometime this week" is how it starts every time.
+  - ✅ **HANDOVER IS TUE 2026-09-29** (owner, 2026-09-28). **Fixed the day it was finished** — no slippage
+    window at all, against a history of this exact handover slipping eight times and a finished piece sitting
+    for thirty days. 🚗 **Log the odometer** — 78232 is a real trip, not a five-minute errand.
+  - ⛔ **THE PHOTOGRAPHS MUST HAPPEN TONIGHT.** Once it leaves tomorrow there is no second chance, and two
+    separate things need that shot (below).
   - 📸 **PHOTOGRAPH THE COVER AND THE MAT TOGETHER BEFORE IT LEAVES.** Two reasons, and the window closes when
     she collects: 🗓️ **the Suriel Tea Cover retires to Stories around Oct 1** and a photo of the pair is a far
     better `PAST_MAKES` entry than the cover alone · 💡 **"a custom tea cover with a matching tea mat" is a
