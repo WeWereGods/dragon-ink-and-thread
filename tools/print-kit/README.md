@@ -33,10 +33,31 @@ Then any of the builders:
 | `build-pay-card.js` | Scan to Pay — 3 Stripe links | Letter portrait |
 | `build-tags.js` | Price tags + gift tags, 9 per sheet | Letter, 2 pages each |
 | `build-4x6.js` | Price list **and** Scan to Pay | True 4in x 6in |
+| `build-swatch-book.js` | Fabric swatch book — every print, 6 cards per sheet, ring-bound | Letter, 14 pages |
 | `build-sticker-qr.js` | ~~QR for the $1 sticker checkout~~ **RETIRED 2026-09-24** — link deactivated in Stripe; the script refuses to run | — |
 
 Each writes HTML. Render it with `render.ps1` (Edge headless → PDF + PNG), then run the
 matching `verify-*.js`.
+
+### The fabric swatch book (added 2026-09-27)
+
+**Generated from `js/fabrics-data.js`** — the same single source as fabrics.html. Add a fabric
+there, re-run `node build-swatch-book.js`, and the book is current. Never hand-edit a card.
+
+It exists because three markets produced **$144 of sales and two custom leads**, and the leads are
+worth several times the sales. The best custom-selling tool the shop owns is the 76-print library,
+and it was a **web page** — which nobody standing at a market table pulls up on their phone.
+
+- ⛔ **NO PRICES ON IT, AND DO NOT ADD ANY.** The custom bands already live in EIGHT places and all
+  eight change together. A printed book a customer keeps would be a NINTH, and the hardest to
+  correct. The cover carries a **QR to custom.html** instead — a link cannot go stale.
+- ⚠️ **The punch hole must clear the cut line by more than its own width**, or the ring tears out
+  the first time the book is flipped. The first pass had it 16px (0.17in) in; a quarter-inch punch
+  would have left a sixteenth of an inch holding it. It is now 34px (0.35in) from the cut.
+- 📌 **The printed photo IS the swatch.** Real fabric snippets glued over the top would be better —
+  tactile, true colour — but 76 of them is an afternoon, and a book that gets made beats a book
+  that would have been nicer. **Every card is numbered** so snippets can be matched to cards later.
+- ✅ **The cover QR is verified out of the RENDERED page**, not the source buffer, per the rule below.
 
 ## ⚠️ Things that are not obvious and cost real time
 
