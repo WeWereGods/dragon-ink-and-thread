@@ -119,6 +119,32 @@ got invented under pressure each time. **Set the band before the reply, not duri
   - ⬜ **Blocked on the CLOSURE — zip, drawstring or snap.** A drawstring is closer to a sachet and would fairly be
     $12 / $14–18. The email asks. **Once decided, publish it in all EIGHT places at once.**
 
+🧦 ✅ **FIRST CHRISTMAS STOCKING EVER MADE (owner, 2026-09-28)** — deep red metallic snowflake cotton, fully
+lined in a rose print, **cream plush cuff**, hanging loop. Photos **IMG_8237-8239 in Downloads** (8237 is the
+lining before turning, so the shape and seam line are visible). Made the same day the make sheet was written.
+  - 🏷️ **IT IS THE SAMPLE. It does not sell.** Tag it **SAMPLE / not for sale**, write "Christmas Stocking" on
+    the line, stand it beside the custom orders sign. The $40-65 band had been published for weeks with nothing
+    to point at; now there is something.
+  - 💵 **THIS SPEC PRICES AT $55** in the published $40-65 band — lined, plush cuff, metallic print. **$65** with
+    a name embroidered on the cuff or quilting. Materials are about **$18** (metallic Christmas cotton is dear,
+    plus lining, plus the plush) and it is **about two hours**, so $55 is roughly $18/hr after materials.
+  - ⛔ **DO NOT MAKE THESE AS READY-MADE STOCK FOR THE TABLE.** The custom FLOOR is $40 and the standing rule is
+    that nobody can commission a thing cheaper than buying it off the table — so a ready-made one would have to
+    sit **under $40**, which after $18 of materials is **about $9/hr**. **Custom only.** Stockings are the
+    clearest case yet for the table being a showroom rather than a shop.
+  - ⏳ **The ordering window closes around Nov 7** — 10-14 days runs into the Nov 25 move.
+  - 🔧 **TWO FIXES FOR THE NEXT ONE:**
+    1. ⚠️ **The top edge bunches on the left.** The stocking is slightly wider than the cuff loop and the excess
+       has nowhere to go. **Measure the FINISHED top opening and cut the cuff to exactly twice that plus 1in**,
+       rather than cutting the cuff to the pattern.
+    2. ⚠️ **It is soft and will collapse hanging empty on a table.** **Fusible interfacing on the outers**, or
+       the low-loft batting the make sheet lists as optional. For a $55 piece that is the difference between
+       nice and substantial.
+    3. ⬜ **Check the hanging loop got caught in the seam** — clearly there in the lining shot, not visible on
+       either finished photo.
+  - 📌 **Cream plush shows every fingerprint.** Fine on a sample that stands alone; use a darker cuff on anything
+    that ends up in a basket being handled.
+
 🐕 ✅ **FIRST SMALL PET BANDANA EVER MADE (owner, 2026-09-27) — $18**, flannel plaid in rust, brown and cream.
 Plain construction, so it sits with the other $18s; the patchwork Quilted Court stays the $22 outlier. **No sign
 changes needed** — the price list already reads "Pet Bandanas $18 / Patchwork $22", and the table plan says only
