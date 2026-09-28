@@ -95,8 +95,18 @@ e.g. any bow + any scrunchie for $16 — rather than inventing it at a loss each
   - ✅ **Both emails sent 2026-09-26.** Each asks for a **neck measurement in inches, not a size name** (there is no
     Small in stock and none has ever been made) and for fabric picks off `fabrics.html`. Both offer **reversible at
     no extra cost** — plain reversible bandanas are already $18 ready-made, so $22 custom absorbs it.
+  - 🙋 **ONE LEAD IS NAMED: TYLER** (owner, 2026-09-28). ⛔ **The first email BOUNCED — the slip read
+    `@gmial.com`, which is the classic handwritten misread of `@gmail.com`.** Correct address:
+    **leahfaithlopez@gmail.com**. 📌 Note the inbox name and the lead's name differ — likely a partner's or a
+    household address. **Write to Tyler; send to that address.**
+  - 📌 **READ THE ADDRESS BACK AT THE TABLE.** Ten seconds, and it is the difference between a $44 order and a
+    dead slip. The slip's **phone field is the backstop** and only works if it is filled in — this one nearly
+    cost a lead outright.
+  - ⬜ **The SECOND lead is still unnamed and has not replied at all.** Normal at two days. One short nudge
+    around Thu Oct 1, then let it go.
   - ⬜ **Awaiting replies.** ⚠️ **The lead slip promises a written quote WITHIN TWO DAYS** — in writing, in their
-    hands, dated Sep 26. That is **Mon Sep 28**.
+    hands, dated Sep 26. That is **Mon Sep 28**. The first email went out same-day asking for measurements and
+    fabric, so the promise is kept on her side; the clock now runs on them.
   - ⚠️ **Do not discount a pair below $40.** Ready-made bandanas are $18; at $20 each the $22 custom floor stops
     clearing the shelf price, which is the single rule that floor exists to protect. Sweeten with a matching
     scrunchie instead of cutting the number.
