@@ -612,6 +612,14 @@ Two rules that keep this useful:
       ✅ **THE CASE-OR-BARE QUESTION IS CLOSED — STOP CHASING HER FOR IT.** She never answered, and at 9″ × 7″ the
       sleeve clears a 6.96″ × 5.02″ Kindle by about 2″ each way, so it takes the device **bare or in a case**. The
       unanswered question stopped mattering the moment it was cut generous.
+      ⛔⛔ **EVERYTHING BELOW ABOUT DELIVERY IS DEAD. THE SLEEVE WAS HANDED OVER ON 2026-09-25.** No Oct 3 party
+      handover, no Marion trip, no dates to offer, no mileage to log. **The ONLY thing still open in this whole entry
+      is the SPENT GMAIL DRAFT** — it promised "I'll get it into your hands very soon" and she already has it. Delete
+      it, or replace it with the review-and-photo follow-up.
+      ⚠️ **THIS BLOCK HAS NOW MISLED THREE TIMES** (twice on 2026-09-26, once on 2026-09-27), because each correction
+      was layered on top of the last while every superseded line stayed written in the imperative. **A struck line and
+      a live line look identical to someone skimming.** When a job closes, delete its logistics rather than annotating
+      them — the history is in git, and git does not get read by accident.
       🎉 **SOLVED — HAND IT OVER AT HER SURPRISE PARTY, SAT OCT 3, SCHERTZ LIBRARY** (owner confirmed 2026-09-24 that the
       Cassidy on the calendar is the same Cassidy). Her birthday is **Sun Oct 4**, so the party is the day before it —
       perfect timing, no trip, and the 50-mile round trip to Marion is not needed after all.
