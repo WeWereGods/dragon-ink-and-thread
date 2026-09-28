@@ -60,6 +60,10 @@ and it was a **web page** — which nobody standing at a market table pulls up o
   `VOLUMES` keeps each collection whole and lands **37 / 39** — Book One *Flowers and Soft Things*,
   Book Two *Stories and Seasons*. **A collection added to fabrics-data.js and not named in `VOLUMES`
   throws** rather than silently never printing; a missing swatch is only ever noticed at a market.
+- 🖨️ **`--reprint 1,16` writes just those cards**, for replacing ones that get damaged or grubby —
+  and they will, because the whole point is that people handle them. ⚠️ **It numbers by the ORIGINAL FLAT
+  ORDER (1-76 straight through fabrics-data.js), not the per-book numbering**, because that is what is on
+  the deck actually sitting on the rings. A reprint carrying a different number would be worse than none.
 - 🖨️ **`--covers` writes just the two cover cards on one sheet.** It exists for the day the books
   are already cut and only the covers changed — it saves binning thirteen sheets of cardstock.
 - ✅ **`node verify-swatch.js` decodes the cover QRs out of the RENDER**, which matters more here

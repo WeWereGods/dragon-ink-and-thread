@@ -30,8 +30,14 @@
 // beats a book that would have been nicer. Every card is numbered within its book so
 // snippets can be matched to cards later.
 //
-//   node build-swatch-book.js              both books, 14 sheets
-//   node build-swatch-book.js --covers     JUST the two cover cards, one sheet
+//   node build-swatch-book.js               both books, 14 sheets
+//   node build-swatch-book.js --covers      JUST the two cover cards, one sheet
+//   node build-swatch-book.js --reprint 1,16   just those cards, to replace damaged ones
+//
+// ⚠️ --reprint NUMBERS BY THE ORIGINAL FLAT ORDER (1-76 straight through fabrics-data.js),
+// NOT by the per-book numbering. That is deliberate: it matches the deck cut before the
+// 2026-09-28 split into two books, which is the deck that actually exists on the rings. A
+// reprint that carried a different number would be worse than no reprint at all.
 //
 // The --covers run exists for the day the books are already cut and only the covers need
 // reprinting. It saves throwing away thirteen sheets of cardstock.
@@ -51,6 +57,13 @@ if (!fs.existsSync(SIGN)) fs.mkdirSync(SIGN, { recursive: true });
 const CUSTOM_URL = "https://www.dragoninkandthread.com/custom.html";
 const PER_SHEET = 6;                       // 2 across, 3 down
 const COVERS_ONLY = process.argv.includes("--covers");
+const REPRINT = (() => {
+  const i = process.argv.indexOf("--reprint");
+  if (i === -1) return null;
+  const ns = (process.argv[i + 1] || "").split(",").map((x) => Number(x.trim())).filter((x) => x > 0);
+  if (!ns.length) throw new Error("--reprint needs card numbers, e.g. --reprint 1,16");
+  return ns;
+})();
 
 // Collections kept whole. Book One is the soft end — florals, blue-and-white, plains.
 // Book Two is everything with a character or a season in it.
@@ -82,6 +95,9 @@ const orphans = groups.map((g) => g.label).filter((l) => !listed.has(l));
 if (orphans.length) throw new Error("collection not assigned to a book in VOLUMES: " + orphans.join(", "));
 const unknown = [...listed].filter((l) => !byLabel.has(l));
 if (unknown.length) throw new Error("VOLUMES names a collection that does not exist: " + unknown.join(", "));
+
+// The ORIGINAL flat order, kept only so --reprint can match the numbers on the cut deck.
+const flat = groups.flatMap((g) => g.items.map((it) => ({ group: g.label, ...it })));
 
 const books = VOLUMES.map((v) => ({
   ...v,
@@ -166,6 +182,17 @@ const CUT = "Cut on the dashed lines &#183; punch the top-left circle &#183; ";
   if (!hit || hit.data !== CUSTOM_URL) throw new Error("swatch cover QR failed to decode");
   console.log("cover QR decodes to " + CUSTOM_URL);
   const qrSrc = "file:///" + qrPath.replace(/\\/g, "/");
+
+  if (REPRINT) {
+    const bad = REPRINT.filter((n) => n > flat.length);
+    if (bad.length) throw new Error("no card numbered " + bad.join(", ") + " — there are " + flat.length);
+    const cells = REPRINT.map((n) => swatch(flat[n - 1], n));
+    const body = sheet(cells, CUT + "reprints &#183; numbered as the original deck");
+    fs.writeFileSync(path.join(SIGN, "p-swatch-reprint.html"), b.doc("Swatch reprints", css, body));
+    REPRINT.forEach((n) => console.log("  " + n + ". " + flat[n - 1].name + "  [" + flat[n - 1].group + "]"));
+    console.log("wrote p-swatch-reprint.html — " + REPRINT.length + " card(s) on 1 sheet");
+    return;
+  }
 
   if (COVERS_ONLY) {
     const body = sheet(books.map((bk) => coverCard(bk, qrSrc)),
