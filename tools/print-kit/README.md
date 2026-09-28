@@ -33,7 +33,7 @@ Then any of the builders:
 | `build-pay-card.js` | Scan to Pay — 3 Stripe links | Letter portrait |
 | `build-tags.js` | Price tags + gift tags, 9 per sheet | Letter, 2 pages each |
 | `build-4x6.js` | Price list **and** Scan to Pay | True 4in x 6in |
-| `build-swatch-book.js` | Fabric swatch book — every print, 6 cards per sheet, ring-bound | Letter, 14 pages |
+| `build-swatch-book.js` | Fabric swatch book — TWO ring-bound books, 6 cards per sheet (`--covers` for just the two cover cards) | Letter, 14 pages |
 | `build-sticker-qr.js` | ~~QR for the $1 sticker checkout~~ **RETIRED 2026-09-24** — link deactivated in Stripe; the script refuses to run | — |
 
 Each writes HTML. Render it with `render.ps1` (Edge headless → PDF + PNG), then run the
@@ -54,6 +54,19 @@ and it was a **web page** — which nobody standing at a market table pulls up o
 - ⚠️ **The punch hole must clear the cut line by more than its own width**, or the ring tears out
   the first time the book is flipped. The first pass had it 16px (0.17in) in; a quarter-inch punch
   would have left a sixteenth of an inch holding it. It is now 34px (0.35in) from the cut.
+- ⚠️ **THE COVER IS A CARD, NOT A PAGE.** The first version made it a full letter sheet, which
+  cannot go on a ring with 3.75in cards. Everything on these sheets is one size, cover included.
+- ⚠️ **TWO BOOKS** (owner, 2026-09-28): 76 cards on one ring is heavy and awkward to hand over.
+  `VOLUMES` keeps each collection whole and lands **37 / 39** — Book One *Flowers and Soft Things*,
+  Book Two *Stories and Seasons*. **A collection added to fabrics-data.js and not named in `VOLUMES`
+  throws** rather than silently never printing; a missing swatch is only ever noticed at a market.
+- 🖨️ **`--covers` writes just the two cover cards on one sheet.** It exists for the day the books
+  are already cut and only the covers changed — it saves binning thirteen sheets of cardstock.
+- ✅ **`node verify-swatch.js` decodes the cover QRs out of the RENDER**, which matters more here
+  than elsewhere because they print at about 1.08in instead of 2in. ⚠️ **A whole-image jsQR scan
+  finds NOTHING on a page holding several QRs** — it locks onto no single finder pattern. The
+  verifier slides a generous window instead, and the window must not clip the quiet zone: a tight
+  crop reads as "not found", which looks exactly like a broken code.
 - 📌 **The printed photo IS the swatch.** Real fabric snippets glued over the top would be better —
   tactile, true colour — but 76 of them is an afternoon, and a book that gets made beats a book
   that would have been nicer. **Every card is numbered** so snippets can be matched to cards later.
