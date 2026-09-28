@@ -167,7 +167,16 @@ promise. The tea cover went to her on Sep 24; **the mat is the last piece of inv
     for thirty days. 🚗 **Log the odometer** — 78232 is a real trip, not a five-minute errand.
   - ⛔ **THE PHOTOGRAPHS MUST HAPPEN TONIGHT.** Once it leaves tomorrow there is no second chance, and two
     separate things need that shot (below).
-  - 📸 **PHOTOGRAPH THE COVER AND THE MAT TOGETHER BEFORE IT LEAVES.** Two reasons, and the window closes when
+  - ✅ **PHOTOGRAPHED AND IN THE REPO 2026-09-28**, reshot on a clean white sill in window light after a
+    first cluttered set. **`assets/home-suriel-tea-set.jpg`** (the pair, flat - the Stories entry) and
+    **`assets/home-suriel-tea-set-2.jpg`** (the cover being lifted off the pot). Both at 1050x1400, q82,
+    EXIF baked in. ⚠️ **Renamed off IMG_* deliberately** - `assets/IMG_*.jpg|jpeg|png` is gitignored and
+    would have been skipped by `git add` without a word.
+    📌 **The lifted-off shot is the one that matters.** A tea cosy photographed OFF the pot is just a fabric
+    dome; nobody who has not seen one knows what it is. Same failure as the round mug rugs.
+    🎬 **There is also a VIDEO, `IMG_8261.MOV` in Downloads** - lifting the cover off a real pot, which needs
+    no editing and no explanation. Best social asset of the lot.
+  - 📸 *(original note)* **PHOTOGRAPH THE COVER AND THE MAT TOGETHER BEFORE IT LEAVES.** Two reasons, and the window closes when
     she collects: 🗓️ **the Suriel Tea Cover retires to Stories around Oct 1** and a photo of the pair is a far
     better `PAST_MAKES` entry than the cover alone · 💡 **"a custom tea cover with a matching tea mat" is a
     PRODUCT** she has named before, and there has never been a picture of the set to sell it with.
