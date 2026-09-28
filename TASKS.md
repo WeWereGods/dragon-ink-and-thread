@@ -3131,6 +3131,22 @@ tax, which depends on the household's whole return. If there is other income the
 is nearer than $136.05 suggests. **CPA question.**
 
 ### Texas sales tax — ✅ THE PERMIT EXISTS (verified on screen 2026-09-05) and ✅ IS LINKED TO WEBFILE (2026-09-15).
+💵 **Q3 SALES TAX — $119.38 AS OF 2026-09-28**, read off Stripe rather than estimated. ⚠️ **Sep 29 and 30 are
+still to come, so this is the figure SO FAR.** ⚠️ **It supersedes the "~$88.62" further down, which was a
+2026-09-05 snapshot and is now badly stale — do not file from it.**
+  - **Stripe, invoices — $102.09:** Maurya two totes $7.43 (Aug 5) · Brea 3 bow clips **$0.00, California** (Aug 6) ·
+    Linda quilt mending $6.19 (Aug 7) · Linda tea cover $2.48 (Aug 9) · **Linda wall hanging + shadow box $73.63
+    (Aug 19)** · Cassidy Kindle sleeve $2.45 (Sep 18) · Linda cap addition $4.13 (Sep 24) · Maurya tea cover + mat
+    $5.78 (Sep 24).
+  - **Stripe, website checkouts — $6.32:** Shar $3.34 · Toni Kinney $1.49 · Maurya $1.49. The two South Carolina
+    orders and Brea's California one correctly collected **$0** — no nexus there.
+  - **Markets, HAND-COMPUTED — $10.97:** Sep 19 $7.24 · Sep 26 $1.22 · Sep 27 $2.51.
+    ⚠️ **STRIPE REPORTS ZERO TAX ON THESE.** The Tap to Pay quick links have tax switched OFF because the market
+    prices are tax-included, so the state's share exists only because it is backed out by hand (total ÷ 1.0825).
+    **Filing from Stripe's number alone would under-report by $10.97 and the cash would be invisible entirely.**
+  - 📌 **ONE COMMISSION IS 62% OF THE QUARTER.** Linda's Aug 19 job alone is $73.63 of $119.38; the whole market
+    season is about $11 of it. Worth remembering when weighing markets against custom work.
+  - 💡 **Texas gives a 0.5% discount for filing and paying on time** — about 60c here. A checkbox on Webfile.
 ✅ **LINKED 2026-09-15 — the owner submitted the Webfile link and reports being in compliance.** Owner-reported, not seen
 on screen here. ✅ **Filing frequency: QUARTERLY** (owner, 2026-09-15). **Next return: Oct 20** for Jul–Sep — online sales since
 Jul 1 (Linda's $73.63 included) plus the Sep 26 market. Then **Jan 20** (Oct–Dec, both October markets) · Apr 20 · Jul 20. The notes below are the history of the gap.
