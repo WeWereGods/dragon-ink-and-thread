@@ -58,6 +58,20 @@ const LATE_TAGS = [
 // shape-specific tag would have to be re-counted and reprinted every time a batch changes.
 const MUG_TAGS = new Array(9).fill({ name: "Mug Rug", price: 12, pill: "Home &#183; quilted", note: ONE });
 
+// SAMPLE TAGS, added 2026-09-28. For the pieces on the table that are NOT for sale and
+// exist only to start a custom order — the stocking, the book sleeve, whatever is filling
+// the sample slot beside the custom orders sign that week.
+//
+// ⚠️ NO PRICE ON THEM, AND DO NOT ADD ONE. The custom price bands already live in EIGHT
+// places (CLAUDE.md) and every one of them has to change together. A tag a customer picks
+// up and turns over would be a NINTH, and the only one that cannot be quietly corrected.
+// The tag sends them to a conversation instead, which is where a custom order starts anyway.
+//
+// 📌 ONE GENERIC DESIGN with a write-on line, not a tag per product. The sample changes week
+// to week; a named tag would need reprinting every time, and the tag that gets reprinted is
+// the tag that ends up stale on the table.
+const SAMPLE_TAGS = new Array(9).fill({ sample: true });
+
 const css = [
   // Native tiling, same reason as paper-base: a stretched patch smears the grain and
   // shows a seam wherever it meets anything at native scale.
@@ -82,6 +96,9 @@ const css = [
   "  border:1.2px solid var(--rose);border-radius:999px;padding:1px 9px;}",
   ".nt{margin-top:auto;font-size:9px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--sage);}",
   ".bl{width:150px;border-bottom:1.5px solid var(--sage);height:26px;}",
+  ".smp{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.14em;",
+  "  color:var(--wine);line-height:1;margin-top:6px;}",
+  ".smp2{font-family:var(--display);font-style:italic;font-size:15px;color:var(--sage);margin-top:3px;}",
   ".blp{font-family:var(--display);font-weight:700;font-size:38px;color:var(--wine);}",
   ".blp span{display:inline-block;width:88px;border-bottom:1.5px solid var(--sage);height:32px;vertical-align:-4px;}",
   ".qr{width:88px;height:88px;display:block;margin-top:5px;}",
@@ -99,7 +116,11 @@ const mark = '<div class="w1">DRAGON</div><div class="w2">INK AND THREAD</div>';
 
 function priceCard(t) {
   let inner = '<span class="hole"></span>' + mark;
-  if (t.blank) {
+  if (t.sample) {
+    inner += '<div class="nm"><div class="bl"></div></div>' +
+      '<div class="smp">SAMPLE</div><div class="smp2">not for sale</div>' +
+      '<div class="nt">Made to order in your fabric &#183; ask me</div>';
+  } else if (t.blank) {
     inner += '<div class="nm"><div class="bl"></div></div><div class="blp">$<span></span></div>' +
       '<div class="nt">handmade in San Antonio</div>';
   } else {
@@ -151,6 +172,11 @@ function priceCard(t) {
     '<div class="help">Mug rugs &#183; $12 each or 2 for $20 &#183; cut, punch, tie on with twine</div></div>';
   fs.writeFileSync(path.join(SIGN, "p-price-tags-mugrugs.html"), b.doc("Mug rug tags", css, mugBody));
   console.log("wrote p-price-tags-mugrugs.html");
+
+  const sampleBody = '<div class="sheet"><div class="grid">' + SAMPLE_TAGS.map(priceCard).join("") + "</div>" +
+    '<div class="help">Sample tags &#183; write the piece on the line &#183; never a price</div></div>';
+  fs.writeFileSync(path.join(SIGN, "p-sample-tags.html"), b.doc("Sample tags", css, sampleBody));
+  console.log("wrote p-sample-tags.html");
 
   // --- gift tags: front (mark + QR) and back (To / From)
   const giftFront = '<div class="cell"><div class="card"><span class="hole"></span>' + mark +
