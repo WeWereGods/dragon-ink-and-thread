@@ -10,7 +10,7 @@
 // It is NOT generated from js/shop-data.js and must not be - market stock and website
 // stock are different things. A piece can be sold online and still be on the table, or
 // sit on the table and never be listed (the market bows, the mug rug), or be on the
-// table and NOT BE FOR SALE at all (the Kindle case).
+// table and NOT BE FOR SALE at all (the sample beside the custom orders sign).
 //
 // So: WHENEVER A PRODUCT IS ADDED OR WITHDRAWN, edit BANDS and bump STOCK_AS_OF, then
 // re-render. The date prints on the sheet, which is the whole point - a plan that is
@@ -27,7 +27,7 @@ const u = (f) => "file:///" + KIT + "/" + f;
 // Signs added 2026-09-21: three letter holders and two 4x6 holders. Tall signs go at
 // the BACK, small ones at the FRONT, and no sign may cover a product.
 // Bump this every time BANDS changes. It prints in the header.
-const STOCK_AS_OF = "2026-09-27";
+const STOCK_AS_OF = "2026-09-28";
 
 const BANDS = [
   {
@@ -37,7 +37,10 @@ const BANDS = [
     // costing a whole letter holder and turning the back row into one beige block.
     // TWO letter signs now, at OPPOSITE ENDS so each is read separately.
     items: ["Price list sign, ONE end — the big-price version, nothing in front of it",
-            "Custom orders sign, the OTHER end — Kindle case beside it as a SAMPLE, NOT for sale",
+            // ⚠️ THE KINDLE CASE IS GONE — it went to Cassidy on 2026-09-25. It was still written
+            // here on 2026-09-27, which would have had her hunting a box for a piece she no longer
+            // owns. The SAMPLE SLOT stays; what fills it does not have to be that piece.
+            "Custom orders sign, the OTHER end — a SAMPLE beside it, tagged NOT FOR SALE",
             "Rose Latte Cloud upright + its story card",
             "Tiered stand, bows on show", "Scrunchie tree", "Mirror"],
   },
