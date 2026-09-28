@@ -159,6 +159,22 @@ layout** — the date stamp is for stock that moves a piece on the table, not fo
     8-13" the three sizes run continuously from 8" to 23"** — "there is no dog I cannot fit" is a real listing
     line, and it cannot be written until the number is known. Needed for the tag and for the lead's quote.
 
+🍵 ✅ **MAURYA'S TEA MAT — FINISHED 2026-09-28.** Paid Sep 24, done in **four days** against a 10-14 day
+promise. The tea cover went to her on Sep 24; **the mat is the last piece of invoice `VBQJFYMO-0002`**
+($70 + $5.78 tax, net $73.28). Nothing is owed on it.
+  - ⛔ **PIN THE HANDOVER DATE IN THE SAME MESSAGE THAT TELLS HER IT IS DONE. Two dates, her pick, in writing.**
+    ⚠️ **Her last handover slipped EIGHT TIMES and a finished piece sat for thirty days.** That is the only
+    failure mode left on this job, and "sometime this week" is how it starts every time.
+  - 📸 **PHOTOGRAPH THE COVER AND THE MAT TOGETHER BEFORE IT LEAVES.** Two reasons, and the window closes when
+    she collects: 🗓️ **the Suriel Tea Cover retires to Stories around Oct 1** and a photo of the pair is a far
+    better `PAST_MAKES` entry than the cover alone · 💡 **"a custom tea cover with a matching tea mat" is a
+    PRODUCT** she has named before, and there has never been a picture of the set to sell it with.
+  - 🎁 **ASK ABOUT THE BLUSH AND WHISKERS TOTE IN THE SAME MESSAGE.** It is still waiting on **size, pocket and
+    needed-by**, and she will not think of it unprompted. ⏳ **Anything for Christmas must be agreed and paid by
+    about the first week of November** — the machine goes in a box before the Nov 25 move.
+  - 📌 **Pricing note for the NEXT matching piece:** the mat was invoiced at **$35**, under the published $40
+    home-pieces floor. Fine as a pair and already done — **price the next one at $40, or sell it as a named set.**
+
 👶 **BABY ORDER — QUOTE SENT 2026-09-27, awaiting a yes.** 3 headbands · 2 baby DAY GOWNS · 5 burp cloths,
 all sized **3-6 months**. **$220 + tax = $238.15**, shipping free (her own over-$50 policy, so nothing given away).
 Customer's budget was **$220** against a **$265** quote.
