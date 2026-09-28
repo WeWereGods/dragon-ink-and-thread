@@ -14,6 +14,15 @@ would take longer to write than the sheets it replaced.
 
 Letter paper, one page. Check the page count if you add much text — two pages means it overflowed.
 
+- **christmas-stocking.html** — 18in x 8in, fully lined, cuffed, hanging loop. Written 2026-09-28 because
+  the $40–65 band had been published for weeks and not one had ever been made, so there was nothing to show
+  and nothing to price against. **The first one is a SAMPLE, not a paid order.**
+  ⛔ **No price on the sheet, deliberately** — the bands live in eight places and a ninth on workroom paper
+  would drift silently. It points at custom.html and the order form instead.
+  ⚠️ The two things that ruin a first stocking: **cutting two identical pieces instead of a mirrored pair**
+  (fold the fabric and cut both at once), and **not clipping the heel and toe curves**, which puckers however
+  well it was sewn. The gap for turning goes in the LINING, never the outer.
+
 - **book-sleeve-sizes.html** — THREE sizes of sleeve (S Kindle / M paperback / L hardcover) as cut
   lists only; the construction stays on **padded-book-sleeve.html** so two sheets cannot disagree about
   the same seams. ⚠️ **The S column is copied from that sheet** — if its numbers ever change, change this
