@@ -1146,6 +1146,24 @@ Two rules that keep this useful:
     - ⬜ **The FLAT SLEEVE** (`IMG_8281`, blue elephant **border print**): **numbers not yet given**, so no sheet.
       📌 **It is fussy-cut** — the elephants sit as a deliberate band, so it cannot be cut anywhere on the
       yardage and the usual per-yard maths does not apply.
+    - 📄 **FREE PATTERN WRITTEN 2026-09-29** — `designs/gift-card-holder-pattern.dc.html` →
+      `assets/gift-card-holder-pattern.pdf`, **3 pages**, diagrams throughout, same teal/cream house style as
+      the other three. It would be the **fourth** free pattern.
+      ⛔ **NOT PUBLISHED YET, AND IT IS BLOCKED ON ONE PHOTOGRAPH.** The only shot that exists (`IMG_8280`)
+      has a **business card** tucked in it, not a gift card — confusing on a page selling a *gift card* holder —
+      **and that card carries the retired tagline, clearly legible.** A pattern page is a Pinterest asset that
+      gets saved and reshared for years, and its own footer carries the correct tagline, so publishing it would
+      put both taglines on one page. That is precisely the failure the ONE TAGLINE rule exists to stop.
+      📸 **WHAT IS NEEDED: two shots.** (1) the holder flat with a **real gift card** half-slid into the
+      diamond, on a plain light surface — no cutting mat, no carpet; (2) the same held in hand for scale.
+      Daylight, from above. Then: crop to 1400×1050, add the `patterns-data.js` entry, write a `pinGiftCard()`
+      in `tools/build-pin-images.js` (copy `pinSailorBow`), then `build-patterns.js` → `build-products.js`
+      (sitemap) → `bump-assets.js`.
+      ⚠️ **It needs its own Buttondown `tag`** (`pattern-gift-card`) — reusing `pattern` would permanently
+      merge it with the scrunchie and destroy the only measurement of which pattern actually pulls.
+      💡 **Timing is the argument for doing this one:** a gift card holder is a Christmas object, the pattern
+      costs nothing to give away, and the dog neckerchief pattern produced **4 of 4** list activations on
+      2026-09-09 — patterns are the only reach that has ever worked twice.
     - 💡 **THIS IS THE SCRAP PRODUCT, AND THAT IS THE ARGUMENT FOR MAKING THEM NOW.** Nothing in the envelope
       fold is bigger than 3½″ × 4½″ — offcuts from a bow, a bandana or a scrunchie, pieces otherwise **too small
       to be anything.** ⏳ **Sewing stops ~Nov 7 and the move is Nov 25**, so every scrap sewn into a $10 holder
