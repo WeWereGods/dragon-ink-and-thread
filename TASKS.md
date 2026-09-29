@@ -126,6 +126,40 @@ got invented under pressure each time. **Set the band before the reply, not duri
   - ⬜ **Blocked on the CLOSURE — zip, drawstring or snap.** A drawstring is closer to a sachet and would fairly be
     $12 / $14–18. The email asks. **Once decided, publish it in all EIGHT places at once.**
 
+🧺 **FABRIC BASKETS — NEW PRODUCT, DECIDED 2026-09-29. Blocked on two measurements, nothing else.**
+Two exist: a **blue floral** one (`IMG_8299`, `IMG_8300`) and a **yellow bee** one with a **matching gift
+card holder** (`IMG_8301`). Reversible, folded cuff, boxed corners.
+  - ✅ **CATEGORY: Home. Not a new one.** And this is urgent rather than tidy — **`js/shop.js` renders every
+    category with NO emptiness guard** (`CATALOG.map`, line 168), and **Home currently holds exactly one id,
+    the Suriel Tea Cover, which is `soldOut` and due to retire to Stories around Oct 1.** The moment that id
+    leaves `ids`, the shop renders a jump button reading **"Home 0"** and a bare heading with a note and an
+    empty grid. **Baskets fill that hole on the day it opens.** A seventh category while the sixth is empty
+    would be daft, and the existing Home note — *"the small soft things that make a kitchen feel looked
+    after"* — already describes a basket.
+  - 💵 **PRICE: $28 ready-made**, the same as the Reading Nook Sleeve, which is a fair match on effort (no
+    quilting or padding, but boxed corners and a cuff). Materials are roughly $6–9.
+    ⚠️ **The ceiling is $39, not open.** The published **custom Home floor is $40**, and the standing rule is
+    that nobody can commission a thing cheaper than buying it. If baskets ever come in two sizes, **$24 small
+    / $32 large** both clear. **A $40+ basket would break the rule and force the custom floor up** — check
+    before pricing a big one.
+  - 📦 **Shipping: $6.50.** A `home-` id is already in `SHIP_STANDARD_PREFIXES`, which is right for something
+    structured and interfaced. Don't fight it — undercharging postage is what `shipping.html` got wrong for
+    twelve days in August.
+  - 💡 **THE SET IS THE COMMERCIAL IDEA, not the basket.** The bee basket and its matching gift card holder
+    are **one gift**, and a set has a reason to cost more than its parts are worth separately — same argument
+    as the tea cover and mat. **$28 + $10 = $38; sell the pair at $34.** A `-set` id is also correctly
+    excluded from the price-floor audit by the existing rule.
+  - ⬜ **WHAT IS NEEDED BEFORE LISTING — two things, and I am not guessing either.**
+    1. **Finished size of each basket: width × depth × height.** Every listing's `details` line carries a
+       size, and the mug rug was written at 6″ × 9″ and had to be redone at the real 10″ × 7½″.
+    2. **What is inside** — fusible interfacing, fleece, or nothing? It decides whether the basket stands up
+       on its own, which is the whole difference between a basket and a bag that flops.
+    Also worth saying: **are both for sale, or is one a sample?**
+  - ⚠️ **FIX BEFORE LISTING: the inside seam is raw** (`IMG_8300`). On a reversible basket the inside is on
+    show when the cuff is folded down, and a raw seam allowance is the first thing a customer's eye finds.
+  - 📌 Proposed names, hers to overrule: **The Honeybee Basket** (yellow) and a blue-and-white one named off
+    the fabric library the way the bows are.
+
 🌐 ✅ **BOTH NEW PIECES ARE ON THE WEBSITE (2026-09-29)** — and they went to two different places, deliberately.
   - 🎁 **GIFT CARD HOLDERS → THE SHOP, as a SIXTH category** (`Gift Card Holders`, `shop.html#gift-card-holders`).
     **The Porcelain Rose Card Holder** and **The Elephant Walk Card Holder**, **$10 each** — the price already
