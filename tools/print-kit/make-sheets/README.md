@@ -60,6 +60,19 @@ Letter paper, one page. Check the page count if you add much text — two pages 
   covers both, so which one is in the cupboard does not block sewing.
   ⛔ **No price band on it**, same rule as the swatch book and the sample tags.
 
+- **gift-card-holder-envelope.html** — two 3.5in x 4.5in body scraps + four 3in squares folded to triangles,
+  no interfacing, finished **4in x 3in**. Cut list given by the owner 2026-09-29.
+  🔍 **The 1/4in seam was DERIVED and is near-certain:** it holds a 3 3/8 x 2 1/8 gift card with 5/8in of
+  clearance, where 1/2in leaves only 1/8in and the card fights every time.
+  ⚠️ **SEAM ALLOWANCES ARE NOT CONSISTENT ACROSS THESE SHEETS AND MUST NOT BE ASSUMED.** The tea mat and the
+  scrunchie are **1/2in**; the sailor bow and this are **1/4in**. Both live in her work.
+  📌 **This is the SCRAP product** — nothing is bigger than 3.5 x 4.5, so it eats offcuts from bows, bandanas
+  and scrunchies that are otherwise too small to be anything. With sewing stopping ~Nov 7 and the move on
+  Nov 25, every scrap sewn into one is a scrap not boxed and driven to Virginia.
+  ⬜ **A SECOND, DIFFERENT gift card holder exists** — a flat sleeve in an elephant border print (`IMG_8281`),
+  fussy-cut so the elephants land as a band. **Its numbers have not been given**, so it has no sheet yet.
+  **Do not fold the two patterns into one sheet.**
+
 - **book-sleeve-sizes.html** — THREE sizes of sleeve (S Kindle / M paperback / L hardcover) as cut
   lists only; the construction stays on **padded-book-sleeve.html** so two sheets cannot disagree about
   the same seams. ⚠️ **The S column is copied from that sheet** — if its numbers ever change, change this

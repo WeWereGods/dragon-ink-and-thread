@@ -1133,6 +1133,32 @@ Two rules that keep this useful:
   festive markets are **Oct 30**, the **Nov 13** school popup (teacher gifts) and **Nov 14**, the last one ever in
   Texas. **There is no November to save this for** — anything Christmas not sewn by the first week of November
   simply does not exist. In a normal year this block could wait; this year it cannot.
+  ✅ **TWO NEW GIFT CARD HOLDER PATTERNS (owner, 2026-09-29)** — photographed as `IMG_8280` and `IMG_8281` in
+  Downloads, and **they are two different constructions, not two views of one.**
+    - **The ENVELOPE FOLD** (`IMG_8280`, blue-and-white floral): **two 3½″ × 4½″ scraps + four 3″ squares, no
+      interfacing.** Cut list given by the owner. Make sheet written:
+      `tools/print-kit/make-sheets/gift-card-holder-envelope.html`.
+      🔍 **The ¼″ seam was DERIVED and is near-certain:** 4½ − ½ = **4″** and 3½ − ½ = **3″**, which holds a
+      3⅜″ × 2⅛″ gift card with ⅝″ of clearance. At ½″ it finishes 3½ × 2½ and clearance falls to ⅛″ — the card
+      goes in and fights every time. ⚠️ **Note this is a DIFFERENT seam from the tea mat and the scrunchie
+      (both ½″); the sailor bow is ¼″.** Both live in her work, so neither can be read off the other.
+      ⬜ Open: whether it is turned through the diamond (no gap to hand-stitch) or through a side gap.
+    - ⬜ **The FLAT SLEEVE** (`IMG_8281`, blue elephant **border print**): **numbers not yet given**, so no sheet.
+      📌 **It is fussy-cut** — the elephants sit as a deliberate band, so it cannot be cut anywhere on the
+      yardage and the usual per-yard maths does not apply.
+    - 💡 **THIS IS THE SCRAP PRODUCT, AND THAT IS THE ARGUMENT FOR MAKING THEM NOW.** Nothing in the envelope
+      fold is bigger than 3½″ × 4½″ — offcuts from a bow, a bandana or a scrunchie, pieces otherwise **too small
+      to be anything.** ⏳ **Sewing stops ~Nov 7 and the move is Nov 25**, so every scrap sewn into a $10 holder
+      is a scrap **not boxed and driven to Virginia.** This is the one product where the move argues *for* it.
+      ⬜ **Calculated, not measured:** one fat quarter of each fabric ≈ **10 holders.**
+    - ⚠️ **THE ELEPHANT PRINT IS NOT IN THE FABRIC LIBRARY** — checked all 76, there is no elephant and no border
+      stripe of any kind. Same gap as the stocking fabric: a customer cannot ask for what they cannot see.
+      **Photographing it costs nothing and adds range.**
+    - ⚠️ **THE BUSINESS CARD IN `IMG_8280` CARRIES THE RETIRED TAGLINE** — *"Handmade goods for cozy little
+      adventures"*, killed 2026-09-27 in favour of the tablecloth line **"Handmade heirlooms for everyday
+      wonder."** Printed cards cannot be edited, so **do not reorder that stock**, and decide whether a card goes
+      inside these at all — if it does, the dead tagline ships with every holder. (It also spells the name "&".)
+
   🎁 **GIFT CARD HOLDERS: NOT TODAY, NOT CANCELLED (owner, 2026-09-27) — "just not in the mood to sew them right
   now."** They are still a live product: **4** exist (a fourth was sewn 2026-09-27, mood permitting), they stay on the
   table and on the price list at $10, and they
