@@ -23,6 +23,15 @@ Letter paper, one page. Check the page count if you add much text — two pages 
   (fold the fabric and cut both at once), and **not clipping the heel and toe curves**, which puckers however
   well it was sewn. The gap for turning goes in the LINING, never the outer.
 
+- **scrunchie.html** — 5in x 26in strip, 10in of 5/8in elastic, 1/2in seam, burrito method, ~20 min.
+  ⚠️ **THE NUMBERS ARE NOT SOURCED HERE.** `designs/scrunchie-pattern.dc.html` is a full three-page
+  customer-facing pattern carrying the same figures; this is the one-page workroom version plus the batch
+  maths a pattern has no reason to carry. ⛔ **Two documents, one set of numbers — change them together**,
+  same rule as catSlug(), mdBold(), the SHIPPING constants and the eight price bands.
+  📌 **8 scrunchies per yard**, and the 10in remnant is three hair whimsys — a yard quietly makes 11 things.
+  ⬜ **Unconfirmed: whether 5x26 is the $6 shop spec or only the pattern chunky version.** Flagged on the
+  sheet rather than assumed.
+
 - **tea-cover-and-mat.html** — ⚠️ **PROVISIONAL.** The cover is 12in x 9in (published in shop-data);
   **the mat has never been measured** and everything about it here is read off photographs and labelled as
   such. The unknowns are WRITE-ON BOXES, not numbers, so the sheet can be filled in with the set in hand and
