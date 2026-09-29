@@ -42,8 +42,11 @@ pieces retired on Sep 24 are finally out of the Worker too — they had been rid
 at that tote. Nothing looked broken the whole time: the Worker file carried `amount: 7500` from the moment it was
 committed, and only the deployed copy was stale. **The repo is not the deploy.**
 
-⬜ **Cassidy: offer Mon 28 or Tue 29 for the Kindle sleeve drop-off** — in her hands by Wed Sep 30 for the Oct 3
-birthday.
+✅ **CASSIDY IS DONE — the sleeve was handed over 2026-09-25.** ⚠️ **This line said "offer Mon 28 or Tue 29 for
+the drop-off" and was written on 2026-09-26, the day AFTER she already had it.** It is the third time a stale
+Cassidy delivery instruction has been read as live. **The ONLY thing still open on her is the SPENT GMAIL
+DRAFT** — it promises to get the sleeve into her hands and she has had it for four days. Delete it, or replace
+it with the review-and-photo follow-up.
 
 💰 **RESULT — MARKET 2 (Sat Sep 26): $16 in sales against a $20 booth — DOWN $4 on the night.**
 1 bow at a **rounded $10** (list $12) · 1 scrunchie $6 · **1 sachet given away** — not a sale, but record it as a
