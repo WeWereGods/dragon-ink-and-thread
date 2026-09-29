@@ -23,6 +23,13 @@ Letter paper, one page. Check the page count if you add much text — two pages 
   (fold the fabric and cut both at once), and **not clipping the heel and toe curves**, which puckers however
   well it was sewn. The gap for turning goes in the LINING, never the outer.
 
+- **tea-cover-and-mat.html** — ⚠️ **PROVISIONAL.** The cover is 12in x 9in (published in shop-data);
+  **the mat has never been measured** and everything about it here is read off photographs and labelled as
+  such. The unknowns are WRITE-ON BOXES, not numbers, so the sheet can be filled in with the set in hand and
+  then finalised. 📌 **This is the mug rug lesson applied in advance** — that sheet was written at 6in x 9in
+  and had to be rewritten to the real 10in x 7.5in. A make sheet with an invented dimension is worse than none.
+  ⛔ **No price band on it**, same rule as the swatch book and the sample tags.
+
 - **book-sleeve-sizes.html** — THREE sizes of sleeve (S Kindle / M paperback / L hardcover) as cut
   lists only; the construction stays on **padded-book-sleeve.html** so two sheets cannot disagree about
   the same seams. ⚠️ **The S column is copied from that sheet** — if its numbers ever change, change this
