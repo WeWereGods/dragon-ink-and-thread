@@ -130,9 +130,16 @@ got invented under pressure each time. **Set the band before the reply, not duri
   - 🎁 **GIFT CARD HOLDERS → THE SHOP, as a SIXTH category** (`Gift Card Holders`, `shop.html#gift-card-holders`).
     **The Porcelain Rose Card Holder** and **The Elephant Walk Card Holder**, **$10 each** — the price already
     set and already in Stripe, and it clears the $12 published custom floor correctly. Two photos each.
-    ⚠️ **THE WORKER IS NOT DEPLOYED YET — DO THIS OR CHECKOUT FAILS.** `PRICES` has both ids at 1000 cents in
-    the repo, but the live Worker has never heard of them, and an all-unknown cart reports **"Your cart is
-    empty"** with nothing looking broken. From `worker/`, on `main`, after pulling: **`wrangler deploy`**.
+    ✅ **WORKER DEPLOYED AND VERIFIED END TO END (owner deployed, 2026-09-29).** Both ids resolve on the live
+    Worker and a real Checkout Session was read back from Stripe: **subtotal $10.00, shipping $4.50 (small
+    tier), total $14.50**, automatic tax on, promo codes enabled, $0 local pickup offered. This is the step
+    that fails silently — the symptom of a missed deploy is **"Your cart is empty"** on a brand-new item, with
+    nothing about the deploy looking wrong — so it was tested rather than assumed.
+    📌 **TWO LIVE CHECKOUT SESSIONS WERE CREATED BY THAT TEST, 2026-09-29, $14.50 each**, and they will expire
+    unpaid in 24h: `cs_live_b1Lx0NBj…` (Elephant Walk) and `cs_live_b1zEemth…` (Porcelain Rose).
+    ⚠️ **They are MINE, not abandoned carts.** The abandoned-cart analysis in CLAUDE.md already had to unpick
+    owner testing from real abandonments — eight sessions on Jul 29, three on Jul 30 — so these are written
+    down here before they can be miscounted the same way.
     📌 `giftcard-` is deliberately **not** in `SHIP_STANDARD_PREFIXES` — these post on the **$4.50** small tier,
     verified in the cart drawer. `shipping.html` prose updated by hand (it names the tiers and nothing
     generates it). A `Product` JSON-LD block was added to index.html by hand for the same reason, and
