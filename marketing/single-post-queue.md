@@ -477,6 +477,75 @@ while they're in season, and three of the shop's own set.*
 
 ---
 
+## 6b. Unpaper towels — pro or con? · **READY TO POST** (written 2026-09-29)
+
+**This is a DEMAND TEST, not a product post.** Nothing has been sewn and nothing is for sale, and
+the post says so. It exists because **group replies are the only reach that has ever worked twice**
+— so a post whose entire job is to collect comments is playing to the one strength this page has.
+
+**No link.** There is nothing to link to, and link posts get throttled anyway.
+**Photo:** none needed — a plain text post reads as a genuine question. If one is wanted, a folded
+stack of cotton on the white sill, same setup as the gift card holders.
+
+⚠️ **READ THE ANSWER BEFORE CUTTING ANYTHING.** Unpaper towels are a **volume** product — a
+household wants 12–24 — and unlike the gift card holders **they want a MATCHED set**, so they are
+not a scrap product. A matched set means buying yardage, and the standing rule from the holiday
+fabric sheet is that **yardage bought now and not sewn becomes freight on Nov 25**. Sewing stops
+around Nov 7. So the likely honest answer is *yes, but in Virginia* — the post is still worth
+running now, because the comments keep their value and cost nothing.
+
+---
+
+### 6b-i. Your own Facebook page — the long version
+
+> Talk me into it, or talk me out of it.
+>
+> Unpaper towels — the cloth kind you wash and use again. I keep nearly making them and then not,
+> because every single person I ask gives me a different answer.
+>
+> The ones who love them tell me they stopped buying paper towels inside a month, and that the
+> kitchen just looks nicer without a plastic-wrapped brick on the counter.
+>
+> The ones who gave up tell me the same two things every time. You need far more than you think —
+> twelve is not enough. And the snaps, the ones that let you roll them back onto a tube like a
+> proper roll, are a beautiful idea that almost nobody keeps up past about week three. Most people
+> end up folding them in a basket instead.
+>
+> And nobody, not one person, uses them for raw chicken. Everyone keeps a roll of the real thing
+> under the sink for that and is a bit sheepish about it.
+>
+> So — pro or con?
+>
+> If you have them: do you genuinely reach for them, or are they in a drawer making you feel
+> guilty? And if you tried them and gave up, I want to hear that most of all. **That's the useful
+> half.**
+>
+> If I made them it would be cotton on one side and flannel on the other, which is the soft
+> absorbent version rather than the one that feels like wiping the counter with a napkin. But
+> I'm not cutting a thing until the people who'd actually live with them tell me whether they're
+> worth it.
+
+---
+
+### 6b-ii. A group — the short version
+
+*Shorter, no mention of making them at all until someone asks. Groups punish anything that reads
+as a pitch, and this question stands up perfectly well on its own.*
+
+> Settle something for me: unpaper towels, worth it or not?
+>
+> Everyone who loves them says they stopped buying paper towels within a month. Everyone who
+> quit says the same two things — twelve is nowhere near enough, and nobody keeps using the
+> snaps past week three.
+>
+> And every single person still keeps one real roll under the sink for raw chicken.
+>
+> So which are you? And if you gave up on them, what was the thing that did it?
+
+⚠️ **Never paste 6b-i and 6b-ii into two groups on the same day** — see `facebook-groups.md`.
+
+---
+
 ## Ideas — not written yet
 
 - **The Quilted Court Bandana** ($22) and **The Suriel Tea Cover** ($35) have **never been
