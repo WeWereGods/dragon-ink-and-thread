@@ -53,9 +53,11 @@ Letter paper, one page. Check the page count if you add much text — two pages 
   🔍 **The 1/2in seam was DERIVED and is the only value that works:** 3 x 5in = 15in, less two 1/2in seams
   = a 13in panel, less 1/2in all round when turned = 12in. A 1/4in seam finishes at 13.5in. It also matches
   `designs/scrunchie-pattern.dc.html`, which uses 1/2in.
-  ⬜ **Open, and it is a LISTING question:** whether "heat interfacing" is fusible iron-on interfacing (body,
-  **no heat protection** — decorative mat) or Insul-Bright (genuinely protects a table — a trivet). The mat
-  must not be described either way until this is answered.
+  ✅ **The middle layer is HEAT-RESISTANT BATTING** (owner, 2026-09-29), not plain interfacing — **so it is a
+  trivet, not a placemat, and it genuinely protects the table.** That is a listing line and half the argument
+  for clearing the $40 home-pieces floor. ⚠️ **It is also a supply that has to have been bought**, like the
+  2in bow clips. 📌 *Insul-Fleece* is iron-on, *Insul-Bright* is not and is basted or quilted in; the sheet
+  covers both, so which one is in the cupboard does not block sewing.
   ⛔ **No price band on it**, same rule as the swatch book and the sample tags.
 
 - **book-sleeve-sizes.html** — THREE sizes of sleeve (S Kindle / M paperback / L hardcover) as cut

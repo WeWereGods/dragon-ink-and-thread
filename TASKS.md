@@ -200,11 +200,15 @@ promise. The tea cover went to her on Sep 24; **the mat is the last piece of inv
     - 🔍 **The ½″ seam was DERIVED, not given, and it is the only value that works:** 3 × 5″ = 15″, less two
       ½″ seams = a 13″ panel, less ½″ all round when turned = **12″**. A ¼″ quilting seam finishes at 13½″.
       It also matches `designs/scrunchie-pattern.dc.html`, which uses ½″. **Worth one confirmation.**
-    - ⬜ **THE ONE OPEN QUESTION, and it is a listing question, not a sewing one: what is "heat interfacing"?**
-      If it is ordinary **fusible iron-on interfacing** it gives body and **no real heat protection**, so the
-      mat is decorative and must be described that way. If it is **Insul-Bright** or heat-resistant batting it
-      genuinely protects a table — the difference between a placemat and a trivet, and worth saying in a
-      listing. **Do not describe the mat either way until this is answered.**
+    - ✅ **ANSWERED (owner, 2026-09-29): it is HEAT-RESISTANT BATTING**, not plain fusible interfacing.
+      **So the mat is a TRIVET, not a placemat — it genuinely protects the table from a hot pot.**
+      💡 **That is a listing line and it has been going unsaid.** "Protects the table" is a functional claim
+      a buyer can act on; "patchwork mat" is decoration. It is also **half the argument for clearing the $40
+      home-pieces floor** — a bought material doing a real job, not a mark-up. Use it on the next quote.
+      ⚠️ **It is a SUPPLY THAT HAS TO HAVE BEEN BOUGHT** — same shape as the 2″ bow clips. Running out stops
+      the job with a cupboard full of fabric. Keep a yard in.
+      📌 **Check which kind is in the cupboard:** *Insul-Fleece* is iron-on, *Insul-Bright* is not and has to
+      be basted or quilted in. The make sheet covers both, so it does not need to be resolved to sew one.
     - ⬜ **The COVER's insides are still unmeasured** — layers, patch grid, hem binding width. Those stay as
       write-on boxes on the sheet. The piece has left, so these can only come from memory now.
 
