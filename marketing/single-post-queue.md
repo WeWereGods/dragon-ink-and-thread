@@ -479,13 +479,24 @@ while they're in season, and three of the shop's own set.*
 
 ## 6b. Unpaper towels — pro or con? · **READY TO POST** (written 2026-09-29)
 
-**This is a DEMAND TEST, not a product post.** Nothing has been sewn and nothing is for sale, and
-the post says so. It exists because **group replies are the only reach that has ever worked twice**
-— so a post whose entire job is to collect comments is playing to the one strength this page has.
+⛔ **REWRITTEN 2026-09-29, SAME DAY.** The first version said *"I'm not cutting a thing until…"* and
+**she cut the same afternoon** — two towels in Christmas teddy flannel. Posting the old text would
+have been a lie in the first line. **This is why a drafted post gets re-read before it goes out.**
+
+**Still a DEMAND TEST, not a product post** — nothing is for sale and the post doesn't offer any.
+It exists because **group replies are the only reach that has ever worked twice**, so a post whose
+whole job is to collect comments plays to the one strength this page has.
+
+📸 **THE PHOTO IS THE WHOLE POST: the towel laid beside an actual paper towel** (`IMG_8295`, or
+`IMG_8296` closer in). Every single person considering these wants to know how big they are, and
+**almost nobody selling them ever shows it.** Lead with that frame.
+
+📌 **The second question — which edge?** One towel is turned and topstitched, one is left raw and
+pinked. That is a real question with a real cost behind it, and asking it is worth more than
+guessing: the hemmed one looks bought, the pinked one is far faster to make. **Asking it in public
+gets comments AND answers the thing she actually needs to know.**
 
 **No link.** There is nothing to link to, and link posts get throttled anyway.
-**Photo:** none needed — a plain text post reads as a genuine question. If one is wanted, a folded
-stack of cotton on the white sill, same setup as the gift card holders.
 
 ⚠️ **READ THE ANSWER BEFORE CUTTING ANYTHING.** Unpaper towels are a **volume** product — a
 household wants 12–24 — and unlike the gift card holders **they want a MATCHED set**, so they are
@@ -498,32 +509,30 @@ running now, because the comments keep their value and cost nothing.
 
 ### 6b-i. Your own Facebook page — the long version
 
-> Talk me into it, or talk me out of it.
+> That's an unpaper towel on the left. On the right is an actual paper towel, so you can see
+> exactly what you'd be swapping.
 >
-> Unpaper towels — the cloth kind you wash and use again. I keep nearly making them and then not,
-> because every single person I ask gives me a different answer.
+> I finally made a couple, because I've been going round in circles about them for weeks and
+> everyone I ask gives me a different answer.
 >
-> The ones who love them tell me they stopped buying paper towels inside a month, and that the
-> kitchen just looks nicer without a plastic-wrapped brick on the counter.
+> The people who love them say they stopped buying paper towels inside a month, and that the
+> kitchen just looks nicer without a plastic-wrapped brick sitting on the counter.
 >
-> The ones who gave up tell me the same two things every time. You need far more than you think —
+> The people who gave up say the same two things every time. You need far more than you think —
 > twelve is not enough. And the snaps, the ones that let you roll them back onto a tube like a
-> proper roll, are a beautiful idea that almost nobody keeps up past about week three. Most people
-> end up folding them in a basket instead.
+> proper roll, are a beautiful idea that almost nobody keeps up past about week three. Most end
+> up folded in a basket instead, which honestly seems fine.
 >
 > And nobody, not one person, uses them for raw chicken. Everyone keeps a roll of the real thing
-> under the sink for that and is a bit sheepish about it.
+> under the sink for that and is faintly embarrassed about it.
 >
 > So — pro or con?
 >
-> If you have them: do you genuinely reach for them, or are they in a drawer making you feel
-> guilty? And if you tried them and gave up, I want to hear that most of all. **That's the useful
-> half.**
+> And a second question, because I made one of each and genuinely can't decide: **do you want a
+> proper turned hem, or is a raw pinked edge fine?** The hemmed one looks nicer and takes about
+> three times as long, which is the whole argument. I'd rather ask than guess.
 >
-> If I made them it would be cotton on one side and flannel on the other, which is the soft
-> absorbent version rather than the one that feels like wiping the counter with a napkin. But
-> I'm not cutting a thing until the people who'd actually live with them tell me whether they're
-> worth it.
+> If you tried these and gave up, that's the half I most want to hear. Tell me what did it.
 
 ---
 
@@ -541,6 +550,9 @@ as a pitch, and this question stands up perfectly well on its own.*
 > And every single person still keeps one real roll under the sink for raw chicken.
 >
 > So which are you? And if you gave up on them, what was the thing that did it?
+>
+> (Second question for anyone who makes them: turned hem, or raw pinked edge? I've done one of
+> each and I can't decide whether the hem is worth three times the sewing.)
 
 ⚠️ **Never paste 6b-i and 6b-ii into two groups on the same day** — see `facebook-groups.md`.
 
