@@ -41,11 +41,21 @@ Letter paper, one page. Check the page count if you add much text — two pages 
   ⬜ **Unconfirmed: whether 5x26 is the $6 shop spec or only the pattern chunky version.** Flagged on the
   sheet rather than assumed.
 
-- **tea-cover-and-mat.html** — ⚠️ **PROVISIONAL.** The cover is 12in x 9in (published in shop-data);
-  **the mat has never been measured** and everything about it here is read off photographs and labelled as
-  such. The unknowns are WRITE-ON BOXES, not numbers, so the sheet can be filled in with the set in hand and
-  then finalised. 📌 **This is the mug rug lesson applied in advance** — that sheet was written at 6in x 9in
-  and had to be rewritten to the real 10in x 7.5in. A make sheet with an invented dimension is worse than none.
+- **tea-cover-and-mat.html** — **MAT CONFIRMED 2026-09-29, cover still partly open.**
+  Mat: **12in x 12in finished, nine 5in squares 3x3, 1/2in seam throughout, NO binding** — front, fusible
+  interfacing, backing, turned and topstitched. Cover: **12in x 9in** (published in shop-data); its layers,
+  patch grid and hem binding are still write-on boxes.
+  📌 **This is the mug rug lesson applied in advance, and it paid off twice.** That sheet was written at
+  6in x 9in and had to be rewritten to the real 10in x 7.5in, so this one shipped with WRITE-ON BOXES instead
+  of numbers — and when the real measurements arrived, **two of the photo-read guesses were wrong**: the mat
+  is not bound at all (the sheet had it bound in cream), and the seam is 1/2in, not the 1/4in a quilter
+  assumes. Both were boxes, so nothing had to be unlearned.
+  🔍 **The 1/2in seam was DERIVED and is the only value that works:** 3 x 5in = 15in, less two 1/2in seams
+  = a 13in panel, less 1/2in all round when turned = 12in. A 1/4in seam finishes at 13.5in. It also matches
+  `designs/scrunchie-pattern.dc.html`, which uses 1/2in.
+  ⬜ **Open, and it is a LISTING question:** whether "heat interfacing" is fusible iron-on interfacing (body,
+  **no heat protection** — decorative mat) or Insul-Bright (genuinely protects a table — a trivet). The mat
+  must not be described either way until this is answered.
   ⛔ **No price band on it**, same rule as the swatch book and the sample tags.
 
 - **book-sleeve-sizes.html** — THREE sizes of sleeve (S Kindle / M paperback / L hardcover) as cut

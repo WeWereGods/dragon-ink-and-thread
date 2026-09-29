@@ -192,6 +192,21 @@ promise. The tea cover went to her on Sep 24; **the mat is the last piece of inv
     about the first week of November** — the machine goes in a box before the Nov 25 move.
   - 📌 **Pricing note for the NEXT matching piece:** the mat was invoiced at **$35**, under the published $40
     home-pieces floor. Fine as a pair and already done — **price the next one at $40, or sell it as a named set.**
+  - ✅ **THE MAT IS MEASURED (owner, 2026-09-29), and the make sheet is no longer provisional.**
+    **12″ × 12″ finished · nine 5″ squares, 3 × 3 · ½″ seam throughout · NO binding** — front, fusible
+    interfacing, backing, turned and topstitched. `tools/print-kit/make-sheets/tea-cover-and-mat.html`.
+    - ⛔ **The provisional sheet had guessed the mat was BOUND in cream. It is not bound at all.** That guess
+      was read off a photograph, which is exactly why the unknowns were written as boxes rather than numbers.
+    - 🔍 **The ½″ seam was DERIVED, not given, and it is the only value that works:** 3 × 5″ = 15″, less two
+      ½″ seams = a 13″ panel, less ½″ all round when turned = **12″**. A ¼″ quilting seam finishes at 13½″.
+      It also matches `designs/scrunchie-pattern.dc.html`, which uses ½″. **Worth one confirmation.**
+    - ⬜ **THE ONE OPEN QUESTION, and it is a listing question, not a sewing one: what is "heat interfacing"?**
+      If it is ordinary **fusible iron-on interfacing** it gives body and **no real heat protection**, so the
+      mat is decorative and must be described that way. If it is **Insul-Bright** or heat-resistant batting it
+      genuinely protects a table — the difference between a placemat and a trivet, and worth saying in a
+      listing. **Do not describe the mat either way until this is answered.**
+    - ⬜ **The COVER's insides are still unmeasured** — layers, patch grid, hem binding width. Those stay as
+      write-on boxes on the sheet. The piece has left, so these can only come from memory now.
 
 👶 **BABY ORDER — QUOTE SENT 2026-09-27, awaiting a yes.** 3 headbands · 2 baby DAY GOWNS · 5 burp cloths,
 all sized **3-6 months**. **$220 + tax = $238.15**, shipping free (her own over-$50 policy, so nothing given away).
