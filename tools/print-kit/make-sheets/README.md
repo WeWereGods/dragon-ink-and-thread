@@ -23,6 +23,15 @@ Letter paper, one page. Check the page count if you add much text — two pages 
   (fold the fabric and cut both at once), and **not clipping the heel and toe curves**, which puckers however
   well it was sewn. The gap for turning goes in the LINING, never the outer.
 
+- **sailor-bow.html** — A Loop 12x6 on fold, B Tails 11x7 on fold with pointed ends, C Wrap 4x1.5,
+  optional D Clip cover 3x1. 1/4in seam ALREADY IN the cuts. Finished 6x6 on a 2in alligator clip.
+  ⚠️ **Numbers sourced from `designs/sailor-bow-pattern.dc.html`** (six pages, pieces printable at actual
+  size). ⛔ **Change both together.**
+  📌 **The clip is the supply that runs out** — one per bow against ~34 bows in stock. Fabric she always
+  has; clips have to have been bought. Count them when counting bows.
+  ⬜ **Calculated, not measured: ~8 bows per yard.** The pattern says a fat quarter per bow, which is the
+  safe buying figure; yardage does better. Record the real number off the next batch.
+
 - **scrunchie.html** — 5in x 26in strip, 10in of 5/8in elastic, 1/2in seam, burrito method, ~20 min.
   ⚠️ **THE NUMBERS ARE NOT SOURCED HERE.** `designs/scrunchie-pattern.dc.html` is a full three-page
   customer-facing pattern carrying the same figures; this is the one-page workroom version plus the batch
