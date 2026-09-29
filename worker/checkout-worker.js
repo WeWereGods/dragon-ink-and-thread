@@ -52,6 +52,11 @@ const PRICES = {
   "bandana-quilted-court":     { name: "The Quilted Court Bandana", amount: 2200 },
   "sleeve-reading-nook":   { name: "Reading Nook Sleeve",      amount: 2800 },
   "home-suriel-tea-cover": { name: "The Suriel Tea Cover",     amount: 3500 },
+
+  /* Gift Card Holders, added 2026-09-29. $10 each. No `giftcard-` prefix in
+     SHIP_STANDARD_PREFIXES on purpose — these post on the $4.50 small tier. */
+  "giftcard-porcelain-rose": { name: "The Porcelain Rose Card Holder", amount: 1000 },
+  "giftcard-elephant-walk":  { name: "The Elephant Walk Card Holder",  amount: 1000 },
 };
 
 /* Prints a "Build Your Own Bundle" may be built from: id → the short label

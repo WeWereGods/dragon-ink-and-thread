@@ -126,6 +126,29 @@ got invented under pressure each time. **Set the band before the reply, not duri
   - ⬜ **Blocked on the CLOSURE — zip, drawstring or snap.** A drawstring is closer to a sachet and would fairly be
     $12 / $14–18. The email asks. **Once decided, publish it in all EIGHT places at once.**
 
+🌐 ✅ **BOTH NEW PIECES ARE ON THE WEBSITE (2026-09-29)** — and they went to two different places, deliberately.
+  - 🎁 **GIFT CARD HOLDERS → THE SHOP, as a SIXTH category** (`Gift Card Holders`, `shop.html#gift-card-holders`).
+    **The Porcelain Rose Card Holder** and **The Elephant Walk Card Holder**, **$10 each** — the price already
+    set and already in Stripe, and it clears the $12 published custom floor correctly. Two photos each.
+    ⚠️ **THE WORKER IS NOT DEPLOYED YET — DO THIS OR CHECKOUT FAILS.** `PRICES` has both ids at 1000 cents in
+    the repo, but the live Worker has never heard of them, and an all-unknown cart reports **"Your cart is
+    empty"** with nothing looking broken. From `worker/`, on `main`, after pulling: **`wrangler deploy`**.
+    📌 `giftcard-` is deliberately **not** in `SHIP_STANDARD_PREFIXES` — these post on the **$4.50** small tier,
+    verified in the cart drawer. `shipping.html` prose updated by hand (it names the tiers and nothing
+    generates it). A `Product` JSON-LD block was added to index.html by hand for the same reason, and
+    `GOOGLE_CATEGORY` in `tools/build-catalog.js` gained a Gift Card Holders node — the feed builder refused
+    the rows without it.
+    ⛔ **custom.html said gift card holders have "a closure". They do not** — the four folded corners hold the
+    card. Corrected.
+  - 🧦 **THE STOCKING → custom.html, NOT the shop.** `custom.html#stockings`, a two-shot figure (hung on the
+    mantel, and flat) beside the price list. **This is the right place because the $40–65 band has been
+    published since 2026-09-09 with nothing to look at.** ⛔ **It is NOT for sale and must not be added to the
+    shop** — that decision is above and the reasoning still holds.
+  - ⬜ **ONE THING TO CHECK: the photographs show no cream plush cuff.** The first stocking is recorded here as
+    having one. Either these are of a **second** stocking, or the cuff is turned to the inside in both shots.
+    **The site copy says only "lined all the way through, with a loop to hang it by"**, which is true either
+    way — but say which and I will put the cuff back in the caption, because a plush cuff is worth naming.
+
 🧦 ✅ **FIRST CHRISTMAS STOCKING EVER MADE (owner, 2026-09-28)** — deep red metallic snowflake cotton, fully
 lined in a rose print, **cream plush cuff**, hanging loop. Photos **IMG_8237-8239 in Downloads** (8237 is the
 lining before turning, so the shape and seam line are visible). Made the same day the make sheet was written.
@@ -1143,9 +1166,12 @@ Two rules that keep this useful:
       goes in and fights every time. ⚠️ **Note this is a DIFFERENT seam from the tea mat and the scrunchie
       (both ½″); the sailor bow is ¼″.** Both live in her work, so neither can be read off the other.
       ⬜ Open: whether it is turned through the diamond (no gap to hand-stitch) or through a side gap.
-    - ⬜ **The FLAT SLEEVE** (`IMG_8281`, blue elephant **border print**): **numbers not yet given**, so no sheet.
-      📌 **It is fussy-cut** — the elephants sit as a deliberate band, so it cannot be cut anywhere on the
-      yardage and the usual per-yard maths does not apply.
+    - ⛔ **CORRECTION 2026-09-29: there is only ONE pattern, not two.** `IMG_8281` was recorded here as a
+      second, flatter design in an elephant border print. **It is the BACK of one of these holders.** The
+      photographs of 2026-09-29 (`IMG_8285`, `IMG_8286`) show both backs flat and settle it. What misled me is
+      that **the two body pieces can be two different fabrics**, so a back reads as a separate product.
+      📌 **A border-print back is fussy-cut** — the elephants have to land as a band, so that piece cannot be
+      cut just anywhere and the per-yard maths does not hold for it.
     - 📄 **FREE PATTERN WRITTEN 2026-09-29** — `designs/gift-card-holder-pattern.dc.html` →
       `assets/gift-card-holder-pattern.pdf`, **3 pages**, diagrams throughout, same teal/cream house style as
       the other three. It would be the **fourth** free pattern.

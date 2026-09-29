@@ -69,9 +69,11 @@ Letter paper, one page. Check the page count if you add much text — two pages 
   📌 **This is the SCRAP product** — nothing is bigger than 3.5 x 4.5, so it eats offcuts from bows, bandanas
   and scrunchies that are otherwise too small to be anything. With sewing stopping ~Nov 7 and the move on
   Nov 25, every scrap sewn into one is a scrap not boxed and driven to Virginia.
-  ⬜ **A SECOND, DIFFERENT gift card holder exists** — a flat sleeve in an elephant border print (`IMG_8281`),
-  fussy-cut so the elephants land as a band. **Its numbers have not been given**, so it has no sheet yet.
-  **Do not fold the two patterns into one sheet.**
+  📌 **There is only ONE pattern.** This sheet first recorded the elephant border print as a second, flatter
+  design; the photographs of 2026-09-29 showed it is **the BACK of one of these**. The two body pieces can be
+  two different fabrics, which is what made a back look like a separate product. **Corrected 2026-09-29.**
+  📌 **The back is fussy-cut** when it is a border print — the elephants have to land as a band, so that piece
+  cannot be cut just anywhere and the usual per-yard maths does not hold for it.
 
 - **book-sleeve-sizes.html** — THREE sizes of sleeve (S Kindle / M paperback / L hardcover) as cut
   lists only; the construction stays on **padded-book-sleeve.html** so two sheets cannot disagree about

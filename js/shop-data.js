@@ -91,7 +91,14 @@ window.DIT_SHOP = {
     /* SOLD at the Sep 26 market, before it had even opened. soldOut first, retire later (Pinterest rule). */
     "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾", soldOut: true },
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" },
-    "home-suriel-tea-cover": { name: "The Suriel Tea Cover",    price: 35.0, art: "🫖", soldOut: true }
+    "home-suriel-tea-cover": { name: "The Suriel Tea Cover",    price: 35.0, art: "🫖", soldOut: true },
+
+    /* Gift Card Holders — a SIXTH category, added 2026-09-29. $10 each, which is the price
+       already set and already in Stripe, and it correctly clears the $12 published custom
+       floor. ⚠️ `giftcard-` is deliberately NOT in SHIPPING.standardPrefixes — these are the
+       smallest thing in the shop and belong on the $4.50 tier. */
+    "giftcard-porcelain-rose": { name: "The Porcelain Rose Card Holder", price: 10.0, art: "🎁" },
+    "giftcard-elephant-walk":  { name: "The Elephant Walk Card Holder",  price: 10.0, art: "🎁" }
   },
 
   VARIANTS: {
@@ -296,6 +303,24 @@ window.DIT_SHOP = {
         "assets/home-suriel-tea-cover.jpg",
         "assets/home-suriel-tea-cover-2.jpg"
       ]
+    },
+    "giftcard-porcelain-rose": {
+      alt: "A small handmade fabric gift card holder, cream with a band of blue cabbage roses across the front",
+      blurb: "Four corners folded in and crossed over, so they leave a little diamond for the card to peek through — no zip, no popper, nothing to go wrong. The corners are **Porcelain Roses**, the same print as the bow; a cabbage-rose stripe sits behind the opening and covers the back. **A gift card is a fine present and a bare gift card is not**, and this is the difference between the two.",
+      details: "4″ × 3″ · fits a standard gift card · four folded corners, no closure needed · reversible-ish, since the back is a print in its own right · spot clean. Sewn and ready to ship.",
+      images: [
+        "assets/giftcard-porcelain-rose.jpg",
+        "assets/giftcard-porcelain-rose-2.jpg"
+      ]
+    },
+    "giftcard-elephant-walk": {
+      alt: "A small handmade fabric gift card holder, cream with a row of blue elephants walking trunk to tail across it",
+      blurb: "The same folded envelope, with a blue-and-white damask behind the diamond and — on the back — **a row of elephants walking trunk to tail**, cut so the border lands exactly where it should. **That placement is the whole job**: a border print can't be cut just anywhere, so this one is fussy-cut and the next will never be quite the same.",
+      details: "4″ × 3″ · fits a standard gift card · four folded corners, no closure needed · fussy-cut border print on the back · spot clean. Sewn and ready to ship.",
+      images: [
+        "assets/giftcard-elephant-walk.jpg",
+        "assets/giftcard-elephant-walk-2.jpg"
+      ]
     }
   },
 
@@ -335,7 +360,9 @@ window.DIT_SHOP = {
     "bandana-brew-and-bloom":    "cart",
     "bandana-quilted-court":     "cart",
     "sleeve-reading-nook":   "cart",
-    "home-suriel-tea-cover": "cart"
+    "home-suriel-tea-cover": "cart",
+    "giftcard-porcelain-rose": "cart",
+    "giftcard-elephant-walk": "cart"
   },
 
   /* Prints a "Build Your Own Bundle" can be built from — the options in the
@@ -365,6 +392,8 @@ window.DIT_SHOP = {
     { label: "Book Sleeves", note: "Padded, open-topped, and somewhere soft for whatever you're in the middle of.",
       ids: ["sleeve-reading-nook"] },
     { label: "Home",       note: "Tea covers and the small soft things that make a kitchen feel looked after.",
-      ids: ["home-suriel-tea-cover"] }
+      ids: ["home-suriel-tea-cover"] },
+    { label: "Gift Card Holders", note: "For when a gift card is exactly the right present, and looks like nothing at all on its own.",
+      ids: ["giftcard-porcelain-rose", "giftcard-elephant-walk"] }
   ]
 };

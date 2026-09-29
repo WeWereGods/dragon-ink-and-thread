@@ -97,6 +97,11 @@ const GOOGLE_CATEGORY = {
   // deliberately the broad node: it is a real entry in Google's taxonomy (an invented deeper one
   // gets the row rejected), and it fits every piece this category is heading toward.
   "Home":         "Home & Garden > Linens & Bedding > Kitchen Linens",
+  // Gift Card Holders, 2026-09-29. Google's taxonomy has "Gift Giving > Gift Card Holders"
+  // (for the folded card itself) and "Gift Wrapping" — this is a reusable fabric sleeve that
+  // the card is GIVEN IN, so the holders node is the right one. Verified it is a real entry;
+  // an invented deeper node gets the whole row rejected.
+  "Gift Card Holders": "Arts & Entertainment > Party & Celebration > Gift Giving > Gift Card Holders",
 };
 
 const COLUMNS = [
