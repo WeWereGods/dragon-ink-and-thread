@@ -47,7 +47,7 @@ function face() {
     '  <div class="eyebrow">help yourself</div>',
     '  <div class="big">FREE STICKER</div>',
     '  <div class="rule"><i></i><b>&#10022;</b><i></i></div>',
-    '  <div class="sub">the little ones &#183; one each, please</div>',
+    '  <div class="sub">the little ones &#183; one per person, please</div>',
     '  <div class="mark">DRAGON INK AND THREAD</div>',
     "</div>",
   ].join("\n");
