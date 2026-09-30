@@ -1493,6 +1493,29 @@ Two rules that keep this useful:
         30 min · testing phone/tablet/desktop + dark mode 1 h.
         ⚠️ **DO IT IN ONE WEEK, not in stages** — new colours on the homepage and old ones on the product pages looks
         broken in a way neither version does.
+        🎨 **ART DIRECTION FOR THE JANUARY DRAGON — set 2026-09-30, from an image the owner brought.**
+        A **green patchwork dragon, visibly stitched, SEWING** — sitting in the workroom with a needle, flowers in
+        her horns, a Singer behind her. The owner's own reference is in the session images (a 1024×559 AI render).
+        - 💡 **Why she beats both dragons on file.** The sleeping parchment dragon is a **548×178 strip** — passive,
+          and shaped like a header rather than a mark. The teal plush one is a toy. **This one is doing the thing
+          the business does**, and her patchwork skin makes her *made of* the product. That is a better idea than
+          either, and it is the one to brief.
+        - ⛔ **THE REFERENCE IMAGE IS NOT THE ASSET AND MUST NOT BE USED AS ONE.** Three reasons, each sufficient:
+          it is **AI art** and the standing rule keeps AI off anything a customer buys — and a logo goes on hang
+          tags, packaging and a stamp; it is **a scene, not a mark**, so it will not reduce to a 32px favicon or
+          one-colour rubber; and **the mug in it reads "DRAGON INK & THREAD"**, which is rule one broken in pixels.
+        - ✅ **COMMISSION IT HAND-DRAWN.** Brief must ask for: the mark **simplified at three sizes**, a
+          **one-colour version** (for the stamp), and **vector or 2000px+** files. Most illustrators will not
+          supply the small and one-colour versions unless asked, and those are exactly what make it usable.
+        - ⚠️ **BUY THE RIGHTS EXPLICITLY — this is the commonly botched part.** A standard illustration commission
+          often grants *personal* use. This goes on products, packaging and a rubber stamp, so it needs **full
+          commercial rights, ideally assignment/buyout**, written into the agreement before any money moves.
+        - 🗓️ **BRIEF IT RIGHT AFTER THE LAST MARKET (Nov 14), not in December.** Illustrators take 2–4 weeks plus
+          a revision round, and **December is the move**. This is the one piece of January work that does not need
+          her hands, **so it can run while she packs.** Budget roughly **$200–600** mid-level, less from a student.
+        - 📌 **It may also collapse the three-mark system to two.** The only reason a separate print dragon exists
+          is that teal cannot sit on parchment. **If the site becomes parchment, the site dragon and the print
+          dragon become the same dragon.** Check `tools/print-kit/brand/brand-package.html` page 2 when this lands.
         🙋 **Owner's part:** whether the header shows a mark or just the wordmark, and **a better About photo** —
         `assets/about.jpg` is still a phone selfie and is the weakest thing on an otherwise polished page.
   - [ ] 📦 **MOVING at the end of November / in December (owner, 2026-09-20) — NO December markets.**
