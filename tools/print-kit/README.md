@@ -34,10 +34,33 @@ Then any of the builders:
 | `build-tags.js` | Price tags + gift tags, 9 per sheet | Letter, 2 pages each |
 | `build-4x6.js` | Price list **and** Scan to Pay | True 4in x 6in |
 | `build-swatch-book.js` | Fabric swatch book — TWO ring-bound books, 6 cards per sheet (`--covers` for just the two cover cards) | Letter, 14 pages |
+| `build-sticker-sign.js` | **FREE STICKER** tent cards, 4 per sheet — fold in half, stand one by the bowl | Letter, 1 page |
 | `build-sticker-qr.js` | ~~QR for the $1 sticker checkout~~ **RETIRED 2026-09-24** — link deactivated in Stripe; the script refuses to run | — |
 
 Each writes HTML. Render it with `render.ps1` (Edge headless → PDF + PNG), then run the
 matching `verify-*.js`.
+
+### The free sticker card (added 2026-09-30)
+
+⚠️ **THREE STICKER DESIGNS EXIST AND THEY DO NOT ALL BEHAVE THE SAME WAY.** The card says
+**"the little ones"** for exactly this reason:
+
+| | |
+|---|---|
+| the small **25¢** ones | **free to anyone** — this card |
+| two branded **57¢** designs | free **with a purchase**, no minimum (owner, 2026-09-24) |
+| **"Creating Whimsy"**, the cauldron one | **$3, for sale** — it carries no shop name |
+
+**A card reading only "FREE STICKERS" beside a $3 sticker is how a $3 sticker walks off the
+table.** The wording has to name which, and it does.
+
+⛔ **The AI-merchandise rule still applies to the stickers themselves.** The branded designs read
+as AI-generated and some juried markets ban AI merchandise — **don't put stickers out at the Pearl
+or Mercado de Otoño without checking first.** That is about the merchandise, not this card.
+
+📌 **Why a tent card and not another sign.** Five beige signs of a size read as one beige block
+from the aisle, which is why the table went down to two. A free sticker is an *arm's-length* offer,
+not an aisle-crossing one — so it belongs beside the bowl, not on the wall.
 
 ### The fabric swatch book (added 2026-09-27)
 
