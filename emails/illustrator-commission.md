@@ -98,6 +98,76 @@ is not a logo — it is a picture.
 
 ---
 
+## 3b. The public "illustrator wanted" post
+
+*For **r/HungryArtists** and **r/forhire**, where you post the brief and artists come to you.
+Both subs **require a budget in the post** and remove the ones without. The `[HIRING]` tag is
+mandatory on r/forhire.*
+
+**Title:**
+
+> [HIRING] Character logo illustration — a hand-drawn patchwork dragon for a small handmade sewing
+> business — $350 USD, full commercial buyout
+
+**Body:**
+
+> I run a small handmade sewing business — Dragon Ink and Thread. Totes, bows, pet bandanas, book
+> sleeves. It's veteran-owned and it's just me. I'm rebranding the website in January and I want a
+> proper character mark drawn for it.
+>
+> **The piece:** a friendly green dragon who is visibly made of fabric — patchwork panels, visible
+> stitching, a patch or two — sitting and **sewing**, needle in hand, a scrap of embroidery on her
+> lap. Small flowers in her horns. Storybook illustration rather than a slick vector mascot.
+>
+> **Deliverables:**
+> - The full illustration — vector or 2000px+, transparent background
+> - A **simplified version that still reads at about 32px** (it becomes the favicon)
+> - A **one-colour solid black version** (it becomes a rubber stamp)
+>
+> **Rights:** full commercial buyout. It goes on the website, product labels, packaging and a
+> stamp, and I'll put that in writing.
+>
+> **Budget:** $350 USD, negotiable upward for the right portfolio. Half up front, half on delivery.
+>
+> **Timeline:** brief mid-November, rough sketches before the end of the month, final by early
+> January. I'm moving house through December so I'll be slow to reply some weeks — I'd rather
+> agree the sketch stage before that starts.
+>
+> **Hand-drawn only, please. No AI-generated work.**
+>
+> **To apply:** drop a portfolio link and one line about why this one interests you. I have a brand
+> guide — palette, type, the marks I already use — that I'll send to anyone I'm talking seriously
+> with, so you won't be guessing at the style.
+
+### Why it's shaped this way
+
+- ⛔ **It asks for no free samples and no spec work.** Posts that do are downvoted, and rightly.
+  A portfolio link is the whole application.
+- ✅ **"Hand-drawn only, no AI" is worth saying.** It is true, it is what she wants, and on those
+  subs it signals she is on their side. ⚠️ **It also means not leading with the AI reference** —
+  see section 2.
+- ✅ **Offering the brand guide is the differentiator.** Almost no hiring post comes with one, and
+  it turns a vague brief into an easy job.
+- ✅ **The budget is in the title.** Artists filter on it, so burying it costs replies.
+
+### The short social version
+
+*For her own Instagram or Facebook — different shape, and the tag-a-friend ask is the bit that
+actually travels.*
+
+> Looking for an illustrator 🐉
+>
+> I'm rebranding in January and I need a new dragon — hand-drawn, green, made of patchwork,
+> sitting and sewing. Storybook, not slick.
+>
+> Paid commission, **$350**, full commercial rights, **hand-drawn only**. Brief in November,
+> finished by early January.
+>
+> If that's your sort of thing, send me a portfolio link. **And if you know someone whose work
+> would suit, tag them** — I'd much rather find the right person than the first person.
+
+---
+
 ## 4. Before money moves
 
 - **Deposit, not the full amount.** Half up front, half on delivery is normal and fair.
