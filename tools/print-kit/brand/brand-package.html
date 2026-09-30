@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Dragon Ink and Thread — brand package</title>
+<!--
+  THE BRAND PACKAGE. Written 2026-09-30.
+  Four letter pages: the essentials, the marks, colour and type, voice and naming.
+
+  ⚠️ NOT A NEW SOURCE OF TRUTH. Every rule here already lives in CLAUDE.md or TASKS.md and this
+  document RESTATES them in one place for a printer, a collaborator, or future-Ayla. When the two
+  disagree, CLAUDE.md wins and this file is the one to correct.
+
+  📌 WHY IT EXISTS: the brand was scattered across CLAUDE.md, TASKS.md, the print kit and four
+  image files, and no single artifact held it. That is survivable while one person does
+  everything and stops being survivable the moment anyone else touches it - a printer, a stamp
+  maker, a market organiser, or a new machine after the Virginia move.
+
+  ⚠️ EVERY "SAN ANTONIO" IN THE BRAND CHANGES AROUND 2026-11-25. Flagged on page one rather than
+  buried, because it is the one fact on here with an expiry date.
+
+  Colour values are MEASURED, not chosen: the web palette is read from :root in css/styles.css,
+  the print palette off the card art (CLAUDE.md). Do not retype them by eye.
+  Render: cd tools/print-kit && .\render.ps1 ..\brand\brand-package   (expect pages: 4)
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700&family=Great+Vibes&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f6efe0; --paper-deep:#efe4cd; --teal:#4a9198; --teal-deep:#2f6b72;
+    --clay:#eab3c6; --clay-deep:#a34a6b; --honey:#d7a640; --honey-deep:#b9862a;
+    --rose:#e7bcae; --rose-soft:#f4ddd3; --ink:#453a30; --ink-soft:#6a5b4a; --white:#fffdf7;
+    --pk-green:#4E5839; --pk-sage:#938858; --pk-wine:#7B322C; --pk-rose:#9E5E58;
+    --pk-parch:#f0ddbc; --pk-parch-back:#F6E9DA;
+  }
+  @page{ size:letter; margin:0; }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  html,body{width:816px;background:#fff;font-family:'Nunito',sans-serif;color:var(--ink);}
+  .page{width:816px;height:1056px;background:var(--white);padding:46px 56px 34px;position:relative;overflow:hidden;}
+  .page + .page{border-top:1px dashed #ddd;}
+  h1{font-family:'Fraunces',serif;font-size:40px;font-weight:600;color:var(--teal-deep);line-height:1.04;}
+  h2{font-family:'Fraunces',serif;font-size:21px;font-weight:600;color:var(--clay-deep);margin:20px 0 7px;}
+  h2:first-of-type{margin-top:14px;}
+  h3{font-family:'Fraunces',serif;font-size:15px;font-weight:600;color:var(--teal-deep);margin-bottom:3px;}
+  .eyebrow{font-size:10.5px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--honey-deep);}
+  .script{font-family:'Great Vibes',cursive;font-size:34px;color:var(--clay-deep);line-height:1.25;}
+  .rule{height:2px;background:linear-gradient(90deg,var(--teal) 0%,var(--clay) 45%,transparent 100%);margin:14px 0 4px;}
+  p{font-size:12.4px;line-height:1.55;}
+  .lead{font-size:13.6px;line-height:1.6;color:var(--ink-soft);}
+  ul{margin:0;padding-left:17px;font-size:12.2px;line-height:1.5;}
+  li{margin-bottom:4px;}
+  b{color:var(--teal-deep);}
+  .box{border-left:3px solid var(--clay-deep);background:rgba(163,74,107,.055);padding:10px 14px;margin-top:10px;font-size:12px;line-height:1.5;}
+  .box b{color:var(--clay-deep);}
+  .box.calm{border-left-color:var(--teal);background:rgba(74,145,152,.075);}
+  .box.calm b{color:var(--teal-deep);}
+  .box.warn{border-left-color:var(--honey-deep);background:rgba(215,166,64,.12);}
+  .box.warn b{color:var(--honey-deep);}
+  .rules{counter-reset:r;margin-top:10px;}
+  .rules div{position:relative;padding-left:34px;margin-bottom:9px;font-size:12.5px;line-height:1.48;}
+  .rules div::before{counter-increment:r;content:counter(r);position:absolute;left:0;top:-1px;
+    width:23px;height:23px;border-radius:50%;background:var(--teal);color:#fff;
+    font-family:'Fraunces',serif;font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;}
+  .marks{display:flex;flex-direction:column;gap:13px;margin-top:12px;}
+  .mark{display:flex;gap:16px;align-items:flex-start;border:1px solid var(--paper-deep);border-radius:12px;padding:12px 14px;}
+  .mark .art{width:112px;flex:none;display:flex;align-items:center;justify-content:center;
+    background:var(--paper);border-radius:9px;padding:6px;min-height:84px;}
+  .mark .art img{max-width:100%;max-height:78px;display:block;}
+  .mark .art.parch{background:var(--pk-parch);}
+  .mark .body{flex:1;font-size:11.6px;line-height:1.46;}
+  .use{margin-top:5px;font-size:10.8px;}
+  .use span{display:inline-block;border-radius:20px;padding:2px 9px;margin:2px 4px 0 0;font-weight:700;}
+  .yes{background:rgba(74,145,152,.16);color:var(--teal-deep);}
+  .no{background:rgba(163,74,107,.13);color:var(--clay-deep);}
+  .sw{display:flex;gap:7px;margin-top:8px;}
+  .sw div{flex:1;text-align:center;}
+  .sw i{display:block;height:46px;border-radius:8px;border:1px solid rgba(69,58,48,.14);}
+  .sw b{display:block;font-size:9.6px;margin-top:4px;color:var(--ink);font-family:'Nunito',sans-serif;}
+  .sw code{font-size:9px;color:var(--ink-soft);letter-spacing:.02em;}
+  .type{display:flex;gap:12px;margin-top:8px;}
+  .type div{flex:1;border:1px solid var(--paper-deep);border-radius:10px;padding:9px 11px;}
+  .type .spec{font-size:10.2px;color:var(--ink-soft);line-height:1.4;margin-top:3px;}
+  .cols{display:flex;gap:20px;}
+  .cols>div{flex:1;}
+  .say{display:flex;gap:12px;margin-top:8px;}
+  .say div{flex:1;border-radius:10px;padding:10px 12px;font-size:11.6px;line-height:1.5;}
+  .say .ok{background:rgba(74,145,152,.09);border:1px solid rgba(74,145,152,.3);}
+  .say .bad{background:rgba(163,74,107,.07);border:1px solid rgba(163,74,107,.28);}
+  .say h3{margin-bottom:5px;}
+  .say .bad h3{color:var(--clay-deep);}
+  table.range{width:100%;border-collapse:collapse;font-size:11.8px;margin-top:8px;}
+  table.range td{padding:5px 8px 5px 0;border-bottom:1px solid var(--paper-deep);vertical-align:top;}
+  table.range td:first-child{width:134px;font-weight:800;color:var(--teal-deep);}
+  table.range td.p{width:74px;font-weight:800;color:var(--clay-deep);white-space:nowrap;}
+  .foot{position:absolute;left:56px;right:56px;bottom:22px;display:flex;justify-content:space-between;
+    font-size:9.6px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);
+    border-top:1px solid var(--paper-deep);padding-top:8px;}
+</style></head><body>
+
+<!-- ═══════════════ PAGE 1 — THE ESSENTIALS ═══════════════ -->
+<div class="page">
+  <div class="eyebrow">Brand package &#183; 2026</div>
+  <h1>Dragon Ink and Thread</h1>
+  <div class="script">Handmade heirlooms for everyday wonder</div>
+  <div class="rule"></div>
+  <p class="lead" style="margin-top:12px">Small-batch handmade sewn goods &#8212; totes, bows, scrunchies, pet bandanas,
+    book sleeves and the small soft things that make a kitchen feel looked after. <b>Veteran-owned.</b>
+    Sewn by one pair of hands in <b>San Antonio, Texas</b>. The audience is book lovers and dreamers, and they are
+    invited to <b>join the Nest</b>.</p>
+
+  <h2>Five rules that are not up for discussion</h2>
+  <div class="rules">
+    <div><b>The name is always &ldquo;and&rdquo;, never &ldquo;&amp;&rdquo;.</b> Dragon Ink <i>and</i> Thread &#8212; in copy, in captions, on paper, everywhere. Artwork that spells it with an ampersand is artwork to correct.</div>
+    <div><b>There is ONE tagline: &ldquo;Handmade heirlooms for everyday wonder.&rdquo;</b> It is on the tablecloth, which cannot be edited, and in the footer of every page of the site. <b>Nothing else is the tagline.</b> A second one ran in the print kit for weeks and that is worse than having none &#8212; two taglines means neither is remembered.</div>
+    <div><b>Three marks, each doing one job.</b> They are not three versions of one logo and they must not be unified. Page two says which goes where and why.</div>
+    <div><b>Nothing ready-made is &ldquo;made to order&rdquo;.</b> Every piece in the shop is already sewn and sitting on a shelf. &ldquo;Made to order&rdquo; describes <i>custom</i> work only, and that distinction is worth real money.</div>
+    <div><b>No &ldquo;kitchen table&rdquo; line.</b> It is not true and it sounds wrong. The phrase is <b>&ldquo;sewn by me here in San Antonio&rdquo;</b>.</div>
+  </div>
+
+  <div class="box warn" style="margin-top:16px"><b>⚠️ THE ONE FACT ON HERE WITH AN EXPIRY DATE.</b>
+    The business moves to <b>Virginia around 25 November 2026</b>. Every &ldquo;San Antonio&rdquo; &#8212; on the site,
+    in listings, in the print kit, on the LLC and the sales-tax permit &#8212; changes with it. <b>Search for the city
+    name, not for this paragraph.</b></div>
+
+  <h2>The range</h2>
+  <table class="range">
+    <tr><td>Scrunchies</td><td class="p">$6</td><td>Eight prints, plus a build-your-own trio. The piece people pick up first.</td></tr>
+    <tr><td>Bows</td><td class="p">$12</td><td>Sailor bows on a 2&Prime; clip, 6&Prime; &#215; 6&Prime;. Named after the fabric they&rsquo;re cut from.</td></tr>
+    <tr><td>Gift card holders</td><td class="p">$10</td><td>Four folded corners over a diamond opening. Made from offcuts.</td></tr>
+    <tr><td>Pet bandanas</td><td class="p">$18&#8211;22</td><td>Over-the-collar, elasticated. Sizes meet at 18&Prime; so the range runs continuously.</td></tr>
+    <tr><td>Book sleeves</td><td class="p">$28</td><td>Quilted, padded, open-topped &#8212; it comes out one-handed.</td></tr>
+    <tr><td>Home</td><td class="p">$28&#8211;35</td><td>Tea cosies, mug rugs, baskets. The small soft things a kitchen wants.</td></tr>
+    <tr><td>Totes</td><td class="p">$20&#8211;45</td><td>Roomy enough for a hardback and everything else.</td></tr>
+    <tr><td><b>Custom</b></td><td class="p">$25 min</td><td><b>Open.</b> Bands run $8 for a scrunchie to $650+ for an heirloom quilt. 10&#8211;14 days, quilts 8&#8211;12 weeks.</td></tr>
+  </table>
+  <p style="margin-top:7px;font-size:11.4px;color:var(--ink-soft)"><b>Three ways to buy:</b> the shop online, a custom
+    commission, or in person at a San Antonio market. <b>The market table is a showroom</b> &#8212; it earns its
+    keep in leads and commissions rather than in till takings.</p>
+
+  <div class="box calm" style="margin-top:10px"><b>Where things live.</b>
+    <b>dragoninkandthread.com</b> &#183; <b>@dragonink_and_thread</b> on Instagram and TikTok &#183;
+    <b>dragoninkandthread@gmail.com</b>.
+    ⚠️ <b>The repo is the source of truth for copy, not Google Drive</b> &#8212; Drive holds finished exports and
+    paperwork, never the working copy of a caption.</div>
+
+  <div class="foot"><span>Dragon Ink and Thread</span><span>The essentials &#183; 1 of 4</span></div>
+</div>
+
+<!-- ═══════════════ PAGE 2 — THE MARKS ═══════════════ -->
+<div class="page">
+  <div class="eyebrow">Brand package &#183; 2 of 4</div>
+  <h1 style="font-size:32px">The marks</h1>
+  <div class="rule"></div>
+  <p class="lead" style="margin-top:10px"><b>There are three, deliberately.</b> Each exists because a different medium
+    made the others unusable. Don&rsquo;t tidy them into one.</p>
+
+  <div class="marks">
+    <div class="mark">
+      <div class="art"><img src="../../../assets/logo.png" alt=""></div>
+      <div class="body">
+        <h3>1 &#183; The plush teal dragon &#8212; THE logo</h3>
+        <b>This is the logo.</b> Everything digital and everything in colour uses it. He reads entirely through
+        soft tonal shading, which is exactly why he cannot do the other two jobs.
+        <div class="use">
+          <span class="yes">✓ website</span><span class="yes">✓ favicon</span><span class="yes">✓ socials</span><span class="yes">✓ share card</span>
+          <span class="no">✗ single-colour printing</span><span class="no">✗ the parchment market kit</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="mark">
+      <div class="art"><img src="../../../assets/logo-badge.png" alt=""></div>
+      <div class="body">
+        <h3>2 &#183; The round badge &#8212; where a circle is wanted</h3>
+        The same dragon, with the name arched over and <b>the tagline set beneath it</b> &#8212; useful for stickers,
+        profile circles and anywhere round. ⚠️ <b>Check the tagline on any badge before it is printed</b>: this
+        is the mark most likely to carry an old one baked into the pixels, where no amount of editing HTML fixes it.
+        <div class="use"><span class="yes">✓ stickers</span><span class="yes">✓ profile images</span><span class="no">✗ anything under about 1&frac12;&Prime;</span></div>
+      </div>
+    </div>
+
+    <div class="mark">
+      <div class="art parch"><img src="../../../assets/dragon-sleeping.png" alt=""></div>
+      <div class="body">
+        <h3>3 &#183; The sleeping green dragon &#8212; printed market kit only</h3>
+        Signs, price tags, gift tags. <b>He exists because the parchment palette contains almost no blue</b> &#8212;
+        measured: one blue-ish pixel in the whole card &#8212; so the teal dragon reads as pasted on there. A
+        recoloured green version of the plush dragon was built and <b>rejected</b> in favour of keeping the two separate.
+        <div class="use"><span class="yes">✓ parchment print kit</span><span class="no">✗ the website</span><span class="no">✗ anything teal</span></div>
+      </div>
+    </div>
+
+    <div class="mark">
+      <div class="art"><img src="../../../assets/seal-dragon-35mm.png" alt=""></div>
+      <div class="body">
+        <h3>4 &#183; The packaging stamp &#8212; planned, not yet bought</h3>
+        A <b>one-colour</b> submark for kraft bags, tissue and the back of a thank-you card. <b>A rubber stamp is a
+        single solid colour</b>, and the plush dragon flattened to black becomes a blob &#8212; which is the whole
+        reason this is a separate mark.
+        <div class="use"><span class="yes">✓ kraft, tissue, boxes</span><span class="no">✗ hang tags &#8212; too big</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="box"><b>⚠️ IF THE STAMP IS ORDERED: 2&frac12;&Prime; MINIMUM, AND GET A PROOF BEFORE THE DIE IS CUT.</b>
+    At 1&frac12;&Prime; the serif hairlines break up, filigree fills in with ink and scattered dots blot. Ask the maker to
+    thin the finest lines. <b>Deep-etched red rubber, pigment ink not dye</b> &#8212; a cheap dye pad on kraft prints
+    patchy grey and looks worse than no branding at all. Budget about <b>$35&#8211;50</b>.</div>
+
+  <div class="box calm"><b>Willow is the mascot, not a mark.</b> The teal flower-crown dragon &#8212;
+    <i>&ldquo;Big dreams, small stitches, chaotic magic&rdquo;</i>. She belongs on social posts and nowhere else.
+    ⚠️ <b>She is AI art: keep her off product listings and anything a customer buys.</b></div>
+
+  <div class="foot"><span>Dragon Ink and Thread</span><span>The marks &#183; 2 of 4</span></div>
+</div>
+
+<!-- ═══════════════ PAGE 3 — COLOUR AND TYPE ═══════════════ -->
+<div class="page">
+  <div class="eyebrow">Brand package &#183; 3 of 4</div>
+  <h1 style="font-size:32px">Colour &amp; type</h1>
+  <div class="rule"></div>
+  <p class="lead" style="margin-top:10px"><b>Two palettes, and they do not mix.</b> One is the brand on screen; the
+    other is the printed market kit, built on a single piece of source art. Every value below is
+    <b>measured, not chosen</b> &#8212; don&rsquo;t retype them by eye.</p>
+
+  <h2>Screen &#8212; teal, pale pink, honey</h2>
+  <div class="sw">
+    <div><i style="background:var(--teal)"></i><b>Teal</b><code>#4a9198</code></div>
+    <div><i style="background:var(--teal-deep)"></i><b>Teal deep</b><code>#2f6b72</code></div>
+    <div><i style="background:var(--clay)"></i><b>Clay</b><code>#eab3c6</code></div>
+    <div><i style="background:var(--clay-deep)"></i><b>Rose deep</b><code>#a34a6b</code></div>
+    <div><i style="background:var(--honey)"></i><b>Honey</b><code>#d7a640</code></div>
+    <div><i style="background:var(--rose)"></i><b>Dusty rose</b><code>#e7bcae</code></div>
+    <div><i style="background:var(--paper)"></i><b>Paper</b><code>#f6efe0</code></div>
+    <div><i style="background:var(--ink)"></i><b>Ink</b><code>#453a30</code></div>
+  </div>
+  <p style="margin-top:7px;font-size:11.4px;color:var(--ink-soft)">Text is <b>warm cocoa brown</b>, never black.
+    These live as custom properties in <b>css/styles.css</b>; change them there and the whole site follows.</p>
+
+  <h2>Print &#8212; the parchment market kit</h2>
+  <div class="sw">
+    <div><i style="background:var(--pk-green)"></i><b>Deep green</b><code>#4E5839</code></div>
+    <div><i style="background:var(--pk-sage)"></i><b>Sage</b><code>#938858</code></div>
+    <div><i style="background:var(--pk-wine)"></i><b>Wine</b><code>#7B322C</code></div>
+    <div><i style="background:var(--pk-rose)"></i><b>Rose</b><code>#9E5E58</code></div>
+    <div><i style="background:var(--pk-parch);border:2px solid var(--teal-deep)"></i><b>Parchment ✓</b><code>#f0ddbc</code></div>
+    <div><i style="background:var(--pk-parch-back)"></i><b>Not this one</b><code>#F6E9DA</code></div>
+  </div>
+
+  <div class="box"><b>⚠️ TWO PARCHMENTS EXIST AND MIXING THEM SHOWS.</b>
+    The card <b>back</b> measures <b>#F6E9DA</b>; the card <b>front</b> &#8212; the art the whole kit is built on &#8212;
+    measures <b>#f0ddbc</b>, warmer and deeper. <b>The kit uses #f0ddbc.</b> Its corner ornaments are cropped
+    <i>with their own paper</i> and dropped onto flat colour, so the wrong value leaves a visible seam where the crop
+    meets the background. <b>Take every element of one sign from a single source file.</b><br>
+    📌 That crop-with-its-own-paper trick is also why the kit needs no transparency. <b>Don&rsquo;t try to key the art
+    off its gold ground</b> &#8212; three attempts failed, and unmultiplying a warm ground pushes recovered colour cold
+    (sage turns mint, dusty pink turns lilac).</div>
+
+  <h2>Type</h2>
+  <div class="type">
+    <div>
+      <h3 style="font-family:'Fraunces',serif;font-size:19px">Fraunces</h3>
+      <div class="spec"><b>Headlines, screen.</b> The serif that carries the brand. Set it at 500&#8211;600 weight.</div>
+    </div>
+    <div>
+      <div style="font-family:'Great Vibes',cursive;font-size:26px;color:var(--clay-deep);line-height:1.1">Great Vibes</div>
+      <div class="spec"><b>Script accents only.</b> The tagline, eyebrows, the shop button. <b>Never body copy.</b></div>
+    </div>
+    <div>
+      <h3 style="font-family:'Nunito',sans-serif;font-size:18px;font-weight:800">Nunito</h3>
+      <div class="spec"><b>Body, everywhere.</b> The one face shared by screen and print.</div>
+    </div>
+  </div>
+  <div class="box calm" style="margin-top:9px"><b>The print kit and the sewing patterns use different faces, and that is
+    fine.</b> Market signs are <b>Cormorant Garamond</b> over Nunito; the free patterns are <b>Quicksand and Karla</b>.
+    Three systems sounds like drift but isn&rsquo;t &#8212; each was chosen for its medium, and <b>Nunito runs through all
+    of them</b>, which is what holds the family together.</div>
+
+  <div class="foot"><span>Dragon Ink and Thread</span><span>Colour &amp; type &#183; 3 of 4</span></div>
+</div>
+
+<!-- ═══════════════ PAGE 4 — VOICE AND NAMING ═══════════════ -->
+<div class="page">
+  <div class="eyebrow">Brand package &#183; 4 of 4</div>
+  <h1 style="font-size:32px">Voice &amp; naming</h1>
+  <div class="rule"></div>
+  <p class="lead" style="margin-top:10px"><b>Cozy cottagecore whimsy, written for book lovers and dreamers.</b>
+    Warm, specific, first person, and honest about trade-offs. It sounds like one maker talking, because it is one.</p>
+
+  <div class="say">
+    <div class="ok">
+      <h3>Sounds right</h3>
+      &ldquo;Sewn and ready to ship.&rdquo;<br>
+      &ldquo;Sewn by me here in San Antonio.&rdquo;<br>
+      &ldquo;Join the Nest.&rdquo;<br>
+      &ldquo;The prettiest table in the house, if you want it to be.&rdquo;<br>
+      &ldquo;I&rsquo;d rather see a piece before I give you a number.&rdquo;
+    </div>
+    <div class="bad">
+      <h3>Never</h3>
+      &ldquo;Made at my kitchen table&rdquo; &#8212; untrue, and it sounds wrong<br>
+      &ldquo;Made to order&rdquo; about anything on the shelf<br>
+      &ldquo;Dragon Ink &amp; Thread&rdquo;<br>
+      Any second tagline, however warm<br>
+      An invented review, or a padded review count
+    </div>
+  </div>
+
+  <h2>Naming a piece</h2>
+  <div class="cols">
+    <div>
+      <h3>Prints and products &#8212; romantasy</h3>
+      <p>Fabrics and the pieces cut from them get <b>ACOTAR-flavoured names, never descriptive ones</b>.
+        A bow and its swatch <b>share a name</b>, so the library and the shop stay one vocabulary.</p>
+      <p style="margin-top:5px;color:var(--ink-soft)"><i>Lace of Velaris &#183; Sidra Vines &#183; Cauldron Forged &#183;
+        The Storykeeper &#183; Tea with the Suriel</i></p>
+    </div>
+    <div>
+      <h3>Plain colourways &#8212; kitchen-warm</h3>
+      <p>Solids and lace <b>don&rsquo;t get the romantasy treatment</b> &#8212; they get names that sound like
+        something on a shelf you&rsquo;d want to reach for.</p>
+      <p style="margin-top:5px;color:var(--ink-soft)"><i>Vanilla Lace &#183; Buttercream &#183; Dark Roast &#183;
+        Blushing Linen &#183; Toffee Windowpane</i></p>
+    </div>
+  </div>
+
+  <h2>The promise the prices have to keep</h2>
+  <div class="box"><b>Nobody may commission a thing more cheaply than buying it off the shelf.</b>
+    Every custom floor sits <i>above</i> its ready-made equivalent &#8212; bows $13 over $12, sleeves $35 over $28,
+    bandanas $22 over $18, home pieces $40 over $35. It is a sentence the site says out loud, so it has to be
+    literally true.<br>
+    ⚠️ <b>Compare like for like on CONSTRUCTION, not category.</b> A plain bandana and a hand-pieced one are two
+    tiers, and the floor buys the simpler one. <b>This rule fires when a SHOP piece is added</b>, not only when a
+    band is edited &#8212; which is exactly when nobody thinks to check.</div>
+
+  <div class="box calm"><b>Reviews are real or they don&rsquo;t exist.</b> Testimonials are added by hand from
+    something a customer actually wrote. <b>Never invent one and never pad a count</b> &#8212; the marked-up rating on
+    the site has to match what is visible on the page, and a single review counted once.</div>
+
+  <div class="box warn"><b>This document restates; it does not decide.</b> Every rule here already lives in
+    <b>CLAUDE.md</b> or <b>TASKS.md</b>. If this page and those ever disagree, <b>they win and this is the file to
+    correct</b> &#8212; a brand guide that quietly becomes a second source of truth is the same drift it exists to prevent.</div>
+
+  <div class="foot"><span>Dragon Ink and Thread</span><span>Voice &amp; naming &#183; 4 of 4</span></div>
+</div>
+
+</body></html>
