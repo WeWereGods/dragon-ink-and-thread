@@ -3344,8 +3344,30 @@ tax, which depends on the household's whole return. If there is other income the
 is nearer than $136.05 suggests. **CPA question.**
 
 ### Texas sales tax — ✅ THE PERMIT EXISTS (verified on screen 2026-09-05) and ✅ IS LINKED TO WEBFILE (2026-09-15).
-💵 **Q3 SALES TAX — $119.38 AS OF 2026-09-28**, read off Stripe rather than estimated. ⚠️ **Sep 29 and 30 are
-still to come, so this is the figure SO FAR.** ⚠️ **It supersedes the "~$88.62" further down, which was a
+✅ **Q3 SALES TAX RETURN — FILED 2026-10-01, $123.83. Nineteen days before the Oct 20 deadline.**
+Taxable sales **$1,501**, taxable purchases **0**, at 8.25% (San Antonio). **Nothing further is owed for Q3.**
+  - 📌 **The $119.38 read off Stripe on Sep 28 was within $4.45 of the final number** — the gap is Sep 29–30.
+    Reading it off live data rather than estimating is what made that true.
+  - ⛔ **THE NEAR-MISS WAS THE TAXABLE PURCHASES LINE, AND IT WAS WORTH $92.65.** The return was first filled in
+    with **$1,123 of taxable purchases** — which was the quarter's supply spending, not what that line means.
+    **"Taxable purchases" is USE TAX: things bought where NOBODY COLLECTED TEXAS SALES TAX.** She had paid tax
+    at the register on all of it, so the correct entry is **0**. Entering the supply total would have paid the
+    same tax twice and made the return **$216.48** instead of $123.83.
+    ⚠️ **THE TEST, for the Q4 return and the final Texas one: did you pay sales tax at the till? Then it does
+    NOT go on that line.** Joann, Hobby Lobby, Amazon and Etsy all collect Texas tax. The line is for an
+    out-of-state supplier who charged none, or something bought tax-free on a resale certificate and then kept.
+    📌 75% of sales was the tell — that ratio is far too high for genuinely untaxed purchases.
+  - 💡 **RESALE CERTIFICATE — worth setting up in VIRGINIA, probably not in Texas now.** Fabric that becomes a
+    tote someone else buys is being taxed twice: once when she buys it, once when the customer does. Texas Form
+    01-339 would stop that. ⚠️ **The trade-off: once you buy tax-free, the taxable-purchases line stops being
+    zero** — anything bought on the certificate and then kept or gifted gets reported there. With a move seven
+    weeks out, Texas is not worth the set-up; **Virginia is, from day one.**
+  - 🗓️ **NEXT: Q4, which is the FINAL TEXAS RETURN** (Oct–Dec, due 2026-01-20). It covers Oct 10, Oct 24, Oct 30,
+    the Nov 13 popup and Nov 14 — the busiest trading of the year — and then the Texas permit closes out with
+    the move. Do not let the last one be the rushed one.
+
+💵 *(superseded, kept for the working)* **Q3 SALES TAX — $119.38 AS OF 2026-09-28**, read off Stripe rather than
+estimated. ⚠️ **It supersedes the "~$88.62" further down, which was a
 2026-09-05 snapshot and is now badly stale — do not file from it.**
   - **Stripe, invoices — $102.09:** Maurya two totes $7.43 (Aug 5) · Brea 3 bow clips **$0.00, California** (Aug 6) ·
     Linda quilt mending $6.19 (Aug 7) · Linda tea cover $2.48 (Aug 9) · **Linda wall hanging + shadow box $73.63
