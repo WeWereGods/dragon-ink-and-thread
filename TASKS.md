@@ -3352,8 +3352,9 @@ tax, which depends on the household's whole return. If there is other income the
 is nearer than $136.05 suggests. **CPA question.**
 
 ### Texas sales tax — ✅ THE PERMIT EXISTS (verified on screen 2026-09-05) and ✅ IS LINKED TO WEBFILE (2026-09-15).
-✅ **Q3 SALES TAX RETURN — FILED 2026-10-01, $123.83. Nineteen days before the Oct 20 deadline.**
-Taxable sales **$1,501**, taxable purchases **0**, at 8.25% (San Antonio). **Nothing further is owed for Q3.**
+✅ **Q3 SALES TAX — FILED *AND PAID* 2026-10-01, $123.83. Nineteen days before the Oct 20 deadline.**
+Taxable sales **$1,501**, taxable purchases **0**, at 8.25% (San Antonio). **Webfile took the payment in the same
+session** (owner confirmed) — so this is fully closed, not merely filed. **Nothing further is owed for Q3.**
   - 📌 **The $119.38 read off Stripe on Sep 28 was within $4.45 of the final number** — the gap is Sep 29–30.
     Reading it off live data rather than estimating is what made that true.
   - ⛔ **THE NEAR-MISS WAS THE TAXABLE PURCHASES LINE, AND IT WAS WORTH $92.65.** The return was first filled in
