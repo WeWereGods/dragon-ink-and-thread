@@ -109,8 +109,16 @@ e.g. any bow + any scrunchie for $16 — rather than inventing it at a loss each
   - 📌 **READ THE ADDRESS BACK AT THE TABLE.** Ten seconds, and it is the difference between a $44 order and a
     dead slip. The slip's **phone field is the backstop** and only works if it is filled in — this one nearly
     cost a lead outright.
-  - ⬜ **The SECOND lead is still unnamed and has not replied at all.** Normal at two days. One short nudge
-    around Thu Oct 1, then let it go.
+  - ✅ **BOTH NUDGES SENT 2026-10-01** (owner). Five days after the originals.
+    - **Tyler** — asks for the one thing that blocks the bandanas (**neck measurement in inches**) and, separately,
+      **how he wants a lipstick pouch to close** — zip, drawstring or snap. ⚠️ **No price was quoted for the
+      pouch, deliberately**: the band is still unpublished and the closure is what decides it. His answer is
+      what unblocks it. The email also names the **early-November cutoff**, which is true and is the only honest
+      urgency there is. It opens by owning the bounce, which gives him a face-saving reason for the silence.
+    - **The unnamed second lead** — the single short nudge that was planned, with a graceful way out in it.
+    - 🗓️ **CLOSING RULE, so neither of these rots on the list: no reply by Fri Oct 10 (market day) and both go
+      dead.** The second lead was always one-nudge-then-stop; Tyler gets the same treatment because a $44 quote
+      that has been ignored twice is not a lead, it is a hope. **Do not send a third.**
   - ⬜ **Awaiting replies.** ⚠️ **The lead slip promises a written quote WITHIN TWO DAYS** — in writing, in their
     hands, dated Sep 26. That is **Mon Sep 28**. The first email went out same-day asking for measurements and
     fabric, so the promise is kept on her side; the clock now runs on them.
