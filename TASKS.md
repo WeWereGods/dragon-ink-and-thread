@@ -421,6 +421,14 @@ including the $100 float, so **cash sales $42** + card **$53** via Tap to Pay (3
   ⚠️ **Cash sales reach the workbook ONLY by hand** — nothing else records them, and without the row both the income and
   the sales tax owed look too low. ⚠️ Tax figures assume 8.25%; **Spring Branch is Comal County**, so check the Rate
   Locator before the Oct 20 return.
+  ⏭️ **OVERTAKEN — the Q3 return was FILED 2026-10-01 at a flat 8.25%, before this check was done.** The exposure is
+  about **$1.32** (the Sep 19 market's $87.76 of product revenue × the ~1.5pt gap if Spring Branch is really 6.75%),
+  so it is **not worth amending a filed return for**. ⚠️ **It is worth settling before Q4**, which is both the busiest
+  quarter and the **FINAL Texas return**: it carries **Adkins (Oct 10), The RIM (Oct 24), a night market (Oct 30),
+  the Nov 13 school popup and Nov 14** — more than one jurisdiction, and far more money than $87.76.
+  📌 **Run each market's address through the Comptroller's Sales Tax Rate Locator ONCE, and write the rate on the
+  market's row in `market-details-private.md`.** Doing it per-market beforehand is minutes; reconstructing five
+  jurisdictions in January, mid-move, is not.
 🧾 **SOLD (owner):** 3 bows · 4 scrunchies · 2 lavender sachets · 1 tote = 10 pieces.
 **Itemised 2026-09-20:** scrunchies — **2 of the new lace ones** (their first outing), 1 Pink Bumble Bee, 1 Cherry ·
 bows — 1 orange pumpkin (market-only), **1 Suriel's Bouquet** (listed on the site → set `soldOut: true` 2026-09-20,
