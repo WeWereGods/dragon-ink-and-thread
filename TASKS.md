@@ -203,6 +203,16 @@ got invented under pressure each time. **Set the band before the reply, not duri
       commission a thing more cheaply than buying it.
       🔍 **Expect it to stay a no.** If $15 reads as steep for a giveaway, her real figure is likely $3–5, which
       is factory territory and a no by the rule below.
+  - ⛔ **CLOSED 2026-10-02. Tyler saw the $8–10 bulk rate and said: *"That is a good deal. I don't have the
+    means to invest right now."*** The lead is finished; **do not chase it.**
+    - 💡 **BUT NOTE WHAT CHANGED: the objection moved from PRICE to CASHFLOW.** She called $8–10 *a good deal*.
+      **That is the only real-world test the wholesale rate has ever had, and it passed.** Keep the number —
+      **$8–10 a unit for a run made at once** — for the next wholesale enquiry, rather than re-deriving it.
+    - 📌 **And wholesale is the one channel that survives the move.** Markets, footfall and local leads all end
+      on Nov 14; a trade customer ships anywhere. **This was a dry run for a Virginia income stream**, and the
+      pricing half of it is now settled.
+    - ✅ **The reply left one door open at zero cost** — that she is relocating but still sewing and still
+      posting, so distance is not the obstacle. No offer, no ask, no follow-up scheduled.
     - 🧭 **DECIDE NOW, NOT WHEN THE NUMBER LANDS.** The whole reason this went well is that the band was set
       before the reply; the same applies to the volume. **Pre-agreed answers:**
       - **12–25 units at $8+** → ✅ **yes.** Comfortable inside the remaining weeks, pays at or above the
