@@ -133,6 +133,27 @@ got invented under pressure each time. **Set the band before the reply, not duri
     for the scale, with room for a zip being real work that a flat sleeve is not.
   - ⬜ **Blocked on the CLOSURE — zip, drawstring or snap.** A drawstring is closer to a sachet and would fairly be
     $12 / $14–18. The email asks. **Once decided, publish it in all EIGHT places at once.**
+  - ✅ **ANSWERED BY TYLER 2026-10-02: a SNAP, "like a keychain type".** His words: *"It's really a tube so I
+    think maybe a snap might work like a keychain type."*
+  - 🔄 **THAT CHANGES THE PRODUCT, not just the closure. It is not a pouch — it is a KEYRING ACCESSORY.**
+    A fabric tube for a lipstick, snap flap, on a swivel clip or split ring. More work than a gift card holder
+    (which has no closure at all), less than a zip — **plus hardware, which is a real per-unit cost a flat
+    sleeve does not carry.**
+  - 💵 **BAND DECIDED 2026-10-02: ready-made $12 · custom $15–20.**
+    - The custom floor **$15 clears the $12 ready-made**, per the standing rule.
+    - It sits **just above gift card holders** ($10 / $12–18), the right neighbour for the scale.
+    - **Top is $20, not the $22 first proposed** — that figure assumed a zip, and a snap is not a zip.
+    - 📌 **Set BEFORE the reply, not during it**, which is the whole point of the rule. Five categories were
+      priced the other way round and every one had to be fixed retroactively.
+  - ⚠️ **THE $25 CUSTOM MINIMUM MAKES A SINGLE ONE UNORDERABLE.** $15 is below it. **Tyler needs two ($30), or
+    one alongside something small.** He said "pouches" plural originally, so two is the natural ask — but it
+    has to be said out loud, or the quote contradicts the published minimum.
+  - ⬜ **PUBLISH IN ALL EIGHT PLACES once Tyler accepts, not before.** The band is recorded here so it cannot be
+    invented under pressure, which is what the rule actually protects against; **eight file edits for a category
+    nobody has ordered yet is the opposite of the lesson.** If he says yes, publish before quoting the next one.
+  - ⚠️ **She has never made one and has no photograph** — he is buying something he cannot see. **Offer to send
+    a photo before it posts.** Honest, reassuring, and it costs nothing.
+  - ⛔ **TYLER PASSED ON THE BANDANAS** (2026-10-02). The $44 pair is dead.
 
 🧺 **FABRIC BASKETS — NEW PRODUCT, DECIDED 2026-09-29. Blocked on two measurements, nothing else.**
 Two exist: a **blue floral** one (`IMG_8299`, `IMG_8300`) and a **yellow bee** one with a **matching gift
