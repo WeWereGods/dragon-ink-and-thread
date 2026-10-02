@@ -93,6 +93,12 @@ window.DIT_SHOP = {
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" },
     "home-suriel-tea-cover": { name: "The Suriel Tea Cover",    price: 35.0, art: "🫖", soldOut: true },
 
+    /* Fabric baskets, added 2026-10-02. $28 — the same as the Reading Nook Sleeve on effort, and
+       the ceiling is $39, because the published CUSTOM home floor is $40 and nobody may commission
+       a thing more cheaply than buying it. A `home-` id already ships on the $6.50 standard tier,
+       which is right for something structured. */
+    "home-basket-blue-willow": { name: "The Blue Willow Basket", price: 28.0, art: "🧺" },
+
     /* Gift Card Holders — a SIXTH category, added 2026-09-29. $10 each, which is the price
        already set and already in Stripe, and it correctly clears the $12 published custom
        floor. ⚠️ `giftcard-` is deliberately NOT in SHIPPING.standardPrefixes — these are the
@@ -304,6 +310,15 @@ window.DIT_SHOP = {
         "assets/home-suriel-tea-cover-2.jpg"
       ]
     },
+    "home-basket-blue-willow": {
+      alt: "A handmade fabric storage basket in cornflower blue florals, its cuff folded down to show a white and blue rose lining",
+      blurb: "A little fabric basket that **stands up on its own** — cornflower blue outside, white roses in, and a cuff you fold down to show the lining. **Fold it lower for more blue, higher for more floral**, and it becomes a slightly different thing each time. For the things that live on a worktop and never had anywhere to go: the post, hair clips, the remote, a loaf under a cloth.",
+      details: "8″ wide × 4″ deep × 6″ tall · cotton inside and out · folded cuff · holds its shape empty · spot clean or gentle hand wash. Sewn and ready to ship.",
+      images: [
+        "assets/home-basket-blue-willow.jpg",
+        "assets/home-basket-blue-willow-2.jpg"
+      ]
+    },
     "giftcard-porcelain-rose": {
       alt: "A small handmade fabric gift card holder, cream with a band of blue cabbage roses across the front",
       blurb: "Four corners folded in and crossed over, so they leave a little diamond for the card to peek through — no zip, no popper, nothing to go wrong. The corners are **Porcelain Roses**, the same print as the bow; a cabbage-rose stripe sits behind the opening and covers the back. **A gift card is a fine present and a bare gift card is not**, and this is the difference between the two.",
@@ -361,6 +376,7 @@ window.DIT_SHOP = {
     "bandana-quilted-court":     "cart",
     "sleeve-reading-nook":   "cart",
     "home-suriel-tea-cover": "cart",
+    "home-basket-blue-willow": "cart",
     "giftcard-porcelain-rose": "cart",
     "giftcard-elephant-walk": "cart"
   },
@@ -392,7 +408,7 @@ window.DIT_SHOP = {
     { label: "Book Sleeves", note: "Padded, open-topped, and somewhere soft for whatever you're in the middle of.",
       ids: ["sleeve-reading-nook"] },
     { label: "Home",       note: "Tea covers and the small soft things that make a kitchen feel looked after.",
-      ids: ["home-suriel-tea-cover"] },
+      ids: ["home-basket-blue-willow", "home-suriel-tea-cover"] },
     { label: "Gift Card Holders", note: "For when a gift card is exactly the right present, and looks like nothing at all on its own.",
       ids: ["giftcard-porcelain-rose", "giftcard-elephant-walk"] }
   ]
