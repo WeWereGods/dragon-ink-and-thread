@@ -273,6 +273,12 @@
        Suriel's Bouquet sold at the Sep 19 market; the Suriel set was broken up when
        only four bows were left; the Game Day headband came off because the football
        fabric ran out. */
+    /* Retired 2026-10-02, eight days after it sold — soldOut went on 2026-09-24 and the
+       page stayed up meanwhile so Pinterest could re-read the feed before the URL went.
+       ⚠️ The photo is the SET, not the cover alone: the mat was made to match it and the
+       pair had never once been photographed together until the morning it went back. */
+    { img: "assets/home-suriel-tea-set.jpg", art: "🫖", title: "The Suriel Tea Cover and Mat",
+      story: "Five blues off the Tea with the Suriel shelf — Something Blue, Sidra Vines, Afternoon Tea, Lace of Velaris and Porcelain Roses — hand-pieced into one small cover, with a matching mat made to sit under the pot. Piecing is the slowest thing I do at this size and it's the only way to get five prints into one piece. It went to a customer who'd already trusted me with a quilt. 🫖" },
     { img: "assets/tote-storykeeper.jpg", art: "📚", title: "The Storykeeper Tote",
       story: "Shelves of old books and apothecary bottles stacked to the ceiling, printed deep on black — the library you'd happily get lost in. Lined in black, with a long strap that sits at the hip. The first tote to sell in person, at a market in September. 📚" },
     { img: "assets/bow-suriels-bouquet.jpg", art: "💐", title: "Suriel's Bouquet Bow",

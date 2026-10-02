@@ -91,7 +91,6 @@ window.DIT_SHOP = {
     /* SOLD at the Sep 26 market, before it had even opened. soldOut first, retire later (Pinterest rule). */
     "bandana-quilted-court":     { name: "The Quilted Court Bandana", price: 22.0, art: "🐾", soldOut: true },
     "sleeve-reading-nook":   { name: "Reading Nook Sleeve",     price: 28.0, art: "📖" },
-    "home-suriel-tea-cover": { name: "The Suriel Tea Cover",    price: 35.0, art: "🫖", soldOut: true },
 
     /* Fabric baskets, added 2026-10-02. $28 — the same as the Reading Nook Sleeve on effort, and
        the ceiling is $39, because the published CUSTOM home floor is $40 and nobody may commission
@@ -301,15 +300,6 @@ window.DIT_SHOP = {
         "assets/sleeve-reading-nook-2.jpg"
       ]
     },
-    "home-suriel-tea-cover": {
-      alt: "Handmade patchwork tea cover in blue and white florals, paisleys and lace prints, with a bound cream hem",
-      blurb: "Blue-and-white prints from the **Tea with the Suriel** shelf, hand-pieced into one small cover — paisley, lace, and a scatter of roses across the front. The prettiest table in the house, if you want it to be. Piecing is the slowest thing I do at this size, and it's the only way to get this many prints into one piece.",
-      details: "12″ × 9″ · hand-pieced patchwork · bound hem · spot clean. Sewn and ready to ship.",
-      images: [
-        "assets/home-suriel-tea-cover.jpg",
-        "assets/home-suriel-tea-cover-2.jpg"
-      ]
-    },
     "home-basket-blue-willow": {
       alt: "A handmade fabric storage basket in cornflower blue florals, its cuff folded down to show a white and blue rose lining",
       blurb: "A little fabric basket that **stands up on its own** — cornflower blue outside, white roses in, and a cuff you fold down to show the lining. **Fold it lower for more blue, higher for more floral**, and it becomes a slightly different thing each time. For the things that live on a worktop and never had anywhere to go: the post, hair clips, the remote, a loaf under a cloth.",
@@ -375,7 +365,6 @@ window.DIT_SHOP = {
     "bandana-brew-and-bloom":    "cart",
     "bandana-quilted-court":     "cart",
     "sleeve-reading-nook":   "cart",
-    "home-suriel-tea-cover": "cart",
     "home-basket-blue-willow": "cart",
     "giftcard-porcelain-rose": "cart",
     "giftcard-elephant-walk": "cart"
@@ -408,7 +397,7 @@ window.DIT_SHOP = {
     { label: "Book Sleeves", note: "Padded, open-topped, and somewhere soft for whatever you're in the middle of.",
       ids: ["sleeve-reading-nook"] },
     { label: "Home",       note: "Tea covers and the small soft things that make a kitchen feel looked after.",
-      ids: ["home-basket-blue-willow", "home-suriel-tea-cover"] },
+      ids: ["home-basket-blue-willow"] },
     { label: "Gift Card Holders", note: "For when a gift card is exactly the right present, and looks like nothing at all on its own.",
       ids: ["giftcard-porcelain-rose", "giftcard-elephant-walk"] }
   ]

@@ -51,7 +51,6 @@ const PRICES = {
   "bandana-brew-and-bloom":    { name: "Brew and Bloom Bandana",    amount: 1800 },
   "bandana-quilted-court":     { name: "The Quilted Court Bandana", amount: 2200 },
   "sleeve-reading-nook":   { name: "Reading Nook Sleeve",      amount: 2800 },
-  "home-suriel-tea-cover": { name: "The Suriel Tea Cover",     amount: 3500 },
   "home-basket-blue-willow": { name: "The Blue Willow Basket", amount: 2800 },
 
   /* Gift Card Holders, added 2026-09-29. $10 each. No `giftcard-` prefix in
