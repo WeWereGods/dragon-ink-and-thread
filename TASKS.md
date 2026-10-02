@@ -154,6 +154,29 @@ got invented under pressure each time. **Set the band before the reply, not duri
   - ⚠️ **She has never made one and has no photograph** — he is buying something he cannot see. **Offer to send
     a photo before it posts.** Honest, reassuring, and it costs nothing.
   - ⛔ **TYLER PASSED ON THE BANDANAS** (2026-10-02). The $44 pair is dead.
+  - 🔄 **AND THEN IT CHANGED AGAIN: SHE SELLS LIPSTICK AND WANTS TO BULK ORDER THEM AS FREEBIES** with her own
+    sales (2026-10-02). **This is no longer a custom order. It is WHOLESALE**, and almost nothing above applies:
+    the $15–20 band is for one-off bespoke work and **must not be quoted at volume.**
+    - ⛔ **`custom.html` ALREADY PUBLISHES A POSITION ON THIS: "Large wholesale runs — this is one pair of
+      hands"** sits in the *Not my craft* list. **She gets to define "large", but she should do it deliberately
+      and she can point at the page while doing it.** That is a strength, not an apology.
+    - ⏳ **TIME IS THE REAL CONSTRAINT, NOT PRICE. Sewing stops ~Nov 7 — five weeks** that already hold the Oct
+      3–8 block, **five market days** (Oct 10, 24, 30, Nov 13, 14), Christmas custom orders, and a house move.
+      At ~25 min a unit: **25 units ≈ 10 h · 50 ≈ 21 h · 100 ≈ 42 h.** A hundred is most of what is left.
+    - 💵 **$8 PER UNIT IS THE FLOOR. Below that, decline.** At 25 min and ~$1 of hardware: **$8 → $16.80/h,
+      $10 → $21.60/h**, both at or above a $55 Christmas stocking's ~$18.50/h. **$5 → $9.60/h**, which is worse
+      than the work it would displace. ⚠️ **Freebie economics push toward $3–4. That is factory territory and
+      the answer there is no.**
+    - 💡 **THIS IS THE FIRST LEAD THAT DOES NOT DIE WITH THE MOVE.** Every other one is San Antonio footfall;
+      a wholesale account ships anywhere and could be **Virginia income**. That argues for **starting small and
+      proving it**, not for a big first run.
+    - ⬜ **ASK FOR THE TAG.** If her customers get a free holder with nothing saying who made it, this is
+      anonymous labour. **A small tag on each turns every giveaway into advertising** — worth negotiating, and
+      worth a little on price if it secures it. Not in the first reply; once there is a deal.
+    - ✅ **OFFER A FREE SAMPLE FIRST.** She has never made one. ~25 min and $1 of hardware is cheap against a
+      repeat account, and **nobody should order fifty off a description.**
+    - 🎯 **THE SHAPE OF A YES: a first run of 12–25 at $8–10, finished before Nov 7**, then scale from Virginia
+      if it works.
 
 🧺 **FABRIC BASKETS — NEW PRODUCT, DECIDED 2026-09-29. Blocked on two measurements, nothing else.**
 Two exist: a **blue floral** one (`IMG_8299`, `IMG_8300`) and a **yellow bee** one with a **matching gift
