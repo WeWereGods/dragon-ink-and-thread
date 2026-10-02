@@ -96,6 +96,19 @@ across categories and rounds down**, which is the "any 2 for $10" mix-and-match 
 back in improvised, steeper form. **If cross-category bundling is what closes people, price it deliberately** —
 e.g. any bow + any scrunchie for $16 — rather than inventing it at a loss each time.
 
+📊 ⚠️ **SCOREBOARD ON THE SEP 26–27 LEADS, as of 2026-10-02 — and it matters before the Oct 10 decision.**
+**Three leads came out of that weekend. Two are now closed at zero.**
+  - **Tyler** — passed on the bandanas, then passed on the lipstick holders. **$0.**
+  - **The unnamed second lead** — never replied to either email. Dead by the Oct 10 rule. **$0.**
+  - **The vendor coordinator** (two bandanas at $12) — ⬜ **STILL LIVE, and still unanswered by us.** The draft
+    reply has been sitting since 2026-09-29. **This is now the only thing standing between that weekend and
+    nothing at all. Send it.**
+  📌 **THE HONEST READ.** The weekend took **$49 against $45 of booth fees** and the case for going was that the
+  table earns its keep in **leads, not till takings**. Two of three leads have now closed at zero, so that case
+  is currently **unsupported by evidence rather than supported by it.** Two leads is a tiny sample and one is
+  still open — this is not proof the thesis is wrong. **But it should not be quoted as proof it is right
+  either**, and the "decide what the table is for before Oct 10" item has to be answered with this in view.
+
 🎣 **TWO CUSTOM LEADS — the real result of the night, and worth more than the $16.**
   - **Lead 1:** two **small** pet bandanas, quoted **$22 each / $44 the pair**, plus interest in **lipstick pouches**.
   - **Lead 2:** pet bandanas — quantity and size not yet given. Same $22 floor, multi-buy if three or more.
@@ -180,6 +193,16 @@ got invented under pressure each time. **Set the band before the reply, not duri
     - ✅ **REPLY SENT 2026-10-02**, asking the three things that decide it — **how many, by when, and what she
       hoped to pay** — plus a **free sample** offered before any commitment. It names the one-pair-of-hands
       limit and the move, so neither can be a surprise in November.
+    - ⛔ **TYLER DECLINED 2026-10-02:** *"That was more than I wanted to pay for gifts for my customers for a
+      single tube."* ⚠️ **SHE IS REACTING TO THE $15 — WHICH WAS THE ONE-OFF CUSTOM PRICE, NOT A BULK RATE.**
+      The follow-up asked for her budget and never named a volume number, so she priced the idea off a figure
+      that was never meant for it. **One short note correcting that is fair; a second is pressure.**
+      📌 **A WHOLESALE RATE IS A SEPARATE TIER, NOT A DISCOUNT ON THE BAND.** $8–10 for a run made all at once
+      is legitimate and does not touch the published $15–20 custom floor. ⛔ **It must never be published** —
+      quote it privately, per deal, or it becomes the public floor and breaks the rule that nobody can
+      commission a thing more cheaply than buying it.
+      🔍 **Expect it to stay a no.** If $15 reads as steep for a giveaway, her real figure is likely $3–5, which
+      is factory territory and a no by the rule below.
     - 🧭 **DECIDE NOW, NOT WHEN THE NUMBER LANDS.** The whole reason this went well is that the band was set
       before the reply; the same applies to the volume. **Pre-agreed answers:**
       - **12–25 units at $8+** → ✅ **yes.** Comfortable inside the remaining weeks, pays at or above the
