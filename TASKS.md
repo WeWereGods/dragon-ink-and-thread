@@ -177,6 +177,19 @@ got invented under pressure each time. **Set the band before the reply, not duri
       repeat account, and **nobody should order fifty off a description.**
     - 🎯 **THE SHAPE OF A YES: a first run of 12–25 at $8–10, finished before Nov 7**, then scale from Virginia
       if it works.
+    - ✅ **REPLY SENT 2026-10-02**, asking the three things that decide it — **how many, by when, and what she
+      hoped to pay** — plus a **free sample** offered before any commitment. It names the one-pair-of-hands
+      limit and the move, so neither can be a surprise in November.
+    - 🧭 **DECIDE NOW, NOT WHEN THE NUMBER LANDS.** The whole reason this went well is that the band was set
+      before the reply; the same applies to the volume. **Pre-agreed answers:**
+      - **12–25 units at $8+** → ✅ **yes.** Comfortable inside the remaining weeks, pays at or above the
+        Christmas work it sits beside.
+      - **~50 at $8+** → ⚠️ **possible, but it is ~21 hours and it has to come OUT of something.** Do not say
+        yes without naming what gets dropped — realistically Christmas stock. Ask for half now, half from
+        Virginia.
+      - **100+, or any quantity under $8** → ⛔ **no, and say so fast and warmly.** Under $8 it earns less than
+        the work it displaces; 100+ does not fit in five weeks alongside five markets and a move. **A quick,
+        kind no protects the relationship for Virginia; a slow yes that misses November destroys it.**
 
 🧺 **FABRIC BASKETS — NEW PRODUCT, DECIDED 2026-09-29. Blocked on two measurements, nothing else.**
 Two exist: a **blue floral** one (`IMG_8299`, `IMG_8300`) and a **yellow bee** one with a **matching gift
