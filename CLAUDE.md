@@ -156,6 +156,14 @@ week-and-a-half wait on a bag that's already on the shelf is a reason to hesitat
     bandanas. The symptom is **"Your cart is empty"** at checkout on a brand-new item — the
     Worker skips ids it doesn't know (`if (!p) continue`), and an all-unknown cart looks empty.
     Nothing about the deploy looks wrong. `git checkout main && git pull` first, every time.
+    ⚠️ **BUT NEVER HAND THE OWNER A `&&` CHAIN — THE SHOP MACHINE IS POWERSHELL AND `&&` IS A PARSE ERROR
+    THERE** (*"The token '&&' is not a valid statement separator in this version"*). It fails before anything
+    runs, so it looks like the deploy is broken rather than the instruction. PowerShell 5.1 chains with `;`,
+    and conditionally with `; if ($?) { … }`. Same family of trap as the `VAR=value cmd` bash-ism further down.
+    📌 **And usually the git half is unnecessary anyway** — the shop machine is the one the commits were made
+    from, so it is already on `main` and already up to date. **Check `git status` yourself and hand over one
+    line: `cd C:\Users\pritt\dragon-ink-and-thread\worker; wrangler deploy`.** The branch warning above is
+    about never deploying from a side branch, not about making her type four commands.
   - **SECURITY / source of truth for prices:** the Worker holds its OWN `PRICES` map (in cents).
     Client-sent prices are ignored. When you change a price or add/retire an item in
     **js/shop-data.js**, also update `PRICES` in worker/checkout-worker.js and re-run
