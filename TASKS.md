@@ -1441,7 +1441,18 @@ Two rules that keep this useful:
   **Sales Tax Rate Locator** before the markets. The 7.6% set-aside assumes San Antonio's 8.25%.
   Decided by the
   owner 2026-09-11; this un-parks the pop-up note at the bottom of this file. 6-ft space,
-  **$30 fee each**, **own table**, **no canopy provided** → borrow a white 10×10 first, buy a cheap
+  ✅ **CANOPY IS BORROWED (owner, 2026-10-04)** — so Oct 24's ten outdoor hours have shade, which was the
+  part that mattered. ⚠️ **Three things borrowing does NOT solve:**
+  1. **Put it up ONCE AT HOME before the 24th.** A canopy she has never erected, in a car park at 10am with
+     vendors queuing behind her, is the worst moment to find a bent leg or a missing pin. **Fold it into the
+     "set the table up at home and photograph it" job already in the Oct 3–8 block.**
+  2. ⚠️ **WEIGHTS ARE RARELY LENT WITH IT** — people lend the frame, not 100 lb of ballast, and markets often
+     check (~25 lb a leg). 💡 **Carry four empty 5-gallon buckets and fill them on site**: water is ~40 lb a
+     bucket, so nothing heavy moves until the canopy is already standing. ⬜ **Ask the organiser whether there
+     is a tap** — they confirmed no power and said nothing about water.
+  3. ⬜ **Is it hers for the month or per day?** Oct 10, Oct 24 and Oct 30 are three separate outdoor days —
+     one favour versus a standing arrangement. ⚠️ **And it has to go back before the Nov 25 move.**
+  *(original plan:)* **$30 fee each**, **own table**, **no canopy provided** → borrow a white 10×10 first, buy a cheap
   one only if that fails; check the market's weight rule (often ~25 lb per leg).
   **Stock plan:** everything already in the shop (~50 pieces) goes, plus ~25 new:
   | Sew | For Oct 10 | Why |
