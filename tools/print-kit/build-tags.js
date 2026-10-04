@@ -50,6 +50,30 @@ const LATE_TAGS = [
   { name: "Mug Rug", price: 12, pill: "Home &#183; quilted", note: ONE },
 ];
 
+// Added 2026-10-04 for the three newest pieces, none of which had a tag. An untagged piece
+// at a market quietly does not sell: people will not ask.
+//
+// 🎃 THE CROSSBODY HAS A DEADLINE. A Halloween print is worth nothing on Nov 1, and there are
+// exactly THREE selling days left for it - Oct 10, Oct 24, Oct 30. ⚠️ MARKDOWN DECIDED IN
+// ADVANCE, on purpose: if it has not gone by the Oct 30 night market, it sells at $25 rather
+// than being boxed. Deciding that now is the point - 9pm on the 30th is the worst moment to
+// price anything, and an unsold Halloween bag becomes freight on the Nov 25 move.
+//
+// 💵 $40 sits above the $28 book sleeve (it has a flap, a lining, an inner pocket and 44in of
+// strap to cut, press and topstitch), level with the $38 Butterfly Tote, and safely under the
+// $50 custom tote floor. It is also a clean cash number at a table where she rounds.
+const NEW_TAGS = [
+  { name: "Witching Hour Crossbody", price: 40, pill: "9&Prime; &#215; 7&Prime; &#183; 44&Prime; strap", note: ONE },
+  { name: "Witching Hour Crossbody", price: 40, pill: "9&Prime; &#215; 7&Prime; &#183; 44&Prime; strap", note: ONE },
+  { name: "The Blue Willow Basket", price: 28, pill: "Home &#183; 8&Prime; &#215; 4&Prime; &#215; 6&Prime;", note: ONE },
+  { name: "The Blue Willow Basket", price: 28, pill: "Home &#183; 8&Prime; &#215; 4&Prime; &#215; 6&Prime;", note: ONE },
+  { name: "Fabric Basket", price: 28, pill: "Home &#183; folded cuff", note: ONE },
+  { name: "Fabric Basket", price: 28, pill: "Home &#183; folded cuff", note: ONE },
+  { name: "Mug Rug", price: 12, pill: "Home &#183; quilted", note: ONE },
+  { name: "Mug Rug", price: 12, pill: "Home &#183; quilted", note: ONE },
+  { name: "Mug Rug", price: 12, pill: "Home &#183; quilted", note: ONE },
+];
+
 // Added 2026-09-26, the morning of the Sep 26 market. SIX more mug rugs were finished
 // overnight in three shapes - round, square, and the folded rectangle - so the single mug
 // rug tag on the Sep 24 sheet no longer covers the stock. Nine to a sheet leaves spares
@@ -172,6 +196,11 @@ function priceCard(t) {
     '<div class="help">Mug rugs &#183; $12 each or 2 for $20 &#183; cut, punch, tie on with twine</div></div>';
   fs.writeFileSync(path.join(SIGN, "p-price-tags-mugrugs.html"), b.doc("Mug rug tags", css, mugBody));
   console.log("wrote p-price-tags-mugrugs.html");
+
+  const newBody = '<div class="sheet"><div class="grid">' + NEW_TAGS.map(priceCard).join("") + "</div>" +
+    '<div class="help">Crossbody, baskets, mug rugs &#183; cut, punch, tie on with twine</div></div>';
+  fs.writeFileSync(path.join(SIGN, "p-price-tags-oct.html"), b.doc("Price tags — October additions", css, newBody));
+  console.log("wrote p-price-tags-oct.html");
 
   const sampleBody = '<div class="sheet"><div class="grid">' + SAMPLE_TAGS.map(priceCard).join("") + "</div>" +
     '<div class="help">Sample tags &#183; write the piece on the line &#183; never a price</div></div>';
