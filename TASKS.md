@@ -96,6 +96,25 @@ across categories and rounds down**, which is the "any 2 for $10" mix-and-match 
 back in improvised, steeper form. **If cross-category bundling is what closes people, price it deliberately** —
 e.g. any bow + any scrunchie for $16 — rather than inventing it at a loss each time.
 
+🗓️ ⚠️ **THE OCT 10 MARKET MOVED TO SAT OCT 31 (owner, 2026-10-10).** The October run is now
+**Oct 24 · Oct 30 · Oct 31**, then Nov 13 (undecided) and Nov 14.
+  - ✅ **THIS IS GOOD FOR THE HALLOWEEN CROSSBODY, which was the piece most at risk.** It now gets
+    **Oct 24, Oct 30 AND Oct 31 — and Oct 31 IS HALLOWEEN.** A Halloween bag on a Halloween
+    Saturday is the best day it could possibly have had, and the $25 markdown written on the tag
+    sheet now belongs at the **end of Oct 31**, not Oct 30. **Same for the nine fall and Halloween
+    bows** — they were made in September for a crowd that is now peaking exactly when they are out.
+  - ⚠️ **BUT OCT 30 AND OCT 31 ARE BACK TO BACK.** Night market Fri 5–11pm, then a Saturday.
+    That is two loads, two setups and two teardowns inside about eighteen hours, with a borrowed
+    canopy. **It is the same shape as the Nov 13 + Nov 14 pair** — and taking both pairs means
+    four market days in nine, 10 days before an interstate move. ⬜ **Confirm Oct 31's hours** —
+    the original was 9–3, but a moved date is not always the same slot.
+  - 💡 **AND IT BUYS TWO WEEKS.** There was zero runway before; there are now **fourteen days**
+    before Oct 24. That is enough for Christmas stock, the balsam sachets and the wrap squares to
+    exist in time for Oct 30/31 rather than being promised for November, which was the thing the
+    move had squeezed out.
+  - ⛔ **The "decide what the table is for before Oct 10" deadline moves with it — now before Oct 24.**
+    The lead-closing rule does NOT move: Oct 10 has arrived and both of those are dead.
+
 📊 ⚠️ **SCOREBOARD ON THE SEP 26–27 LEADS, as of 2026-10-02 — and it matters before the Oct 10 decision.**
 **Three leads came out of that weekend. Two are now closed at zero.**
   - **Tyler** — passed on the bandanas, then passed on the lipstick holders. **$0.**
