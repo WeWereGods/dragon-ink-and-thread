@@ -2133,6 +2133,11 @@ body.gallery-open { overflow: hidden; }
 
 /* Anchor targets sit under the sticky header, so give them breathing room. */
 .catalog-cat { scroll-margin-top: calc(var(--header-h, 105px) + 16px); }
+/* ⚠️ REQUIRED — the filter pills hide categories with the `hidden` attribute, and
+   `hidden` loses to any explicit `display`. Same gotcha that has already bitten
+   the cart drawer, the old gallery, the fabric lightbox and the waitlist modal.
+   Without this the pills would appear to do nothing at all. */
+.catalog-cat[hidden] { display: none; }
 
 /* Catalog photo is now a link to the product page. */
 .catalog-photo-link { display: block; position: relative; }

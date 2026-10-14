@@ -155,12 +155,26 @@
 
   var root = document.getElementById("catalog");
   if (root && CATALOG.length) {
-    // Jump buttons — how many of each, so "Scrunchies 10" sets expectations.
+    /* Filter pills — how many of each, so "Scrunchies 10" sets expectations.
+       ⚠️ THEY STAY <a href="#slug">, NOT <button>, AND THAT IS DELIBERATE:
+       - without JS they fall back to jumping to the section, which is exactly what
+         they did before, so the page never ends up with dead controls; and
+       - PRODUCT-PAGE BREADCRUMBS LINK TO shop.html#<slug>. catSlug() is duplicated
+         in this file and tools/build-products.js precisely so those agree, so the
+         slugs have to keep working as real anchors. Arriving on one now filters to
+         that category instead of scrolling to it, which is better, but the links
+         were never allowed to break. */
+    var total = CATALOG.reduce(function (n, c) {
+      return n + c.ids.filter(function (id) { return PRODUCTS[id]; }).length;
+    }, 0);
     var navHtml =
-      '<nav class="catalog-nav" aria-label="Shop categories">' +
+      '<nav class="catalog-nav" aria-label="Filter by category">' +
+      '<a class="catalog-nav-btn" data-cat="all" href="#catalog">Everything ' +
+        '<span class="n">' + total + "</span></a>" +
       CATALOG.map(function (cat) {
+        var slug = catSlug(cat.label);
         var n = cat.ids.filter(function (id) { return PRODUCTS[id]; }).length;
-        return '<a class="catalog-nav-btn" href="#' + catSlug(cat.label) + '">' +
+        return '<a class="catalog-nav-btn" data-cat="' + slug + '" href="#' + slug + '">' +
                esc(cat.label) + ' <span class="n">' + n + "</span></a>";
       }).join("") +
       "</nav>";
@@ -177,6 +191,51 @@
         "</section>"
       );
     }).join("");
+
+    /* ----- the pills actually filter -----
+       Sections render VISIBLE and are only hidden once this runs, so a reader
+       without JS gets the whole shop rather than a blank page. */
+    var pills = root.querySelectorAll(".catalog-nav-btn");
+    var sections = root.querySelectorAll(".catalog-cat");
+
+    function applyFilter(slug) {
+      var known = false;
+      for (var i = 0; i < sections.length; i++) if (sections[i].id === slug) known = true;
+      var all = !known;                       // unknown or empty hash → show everything
+      for (var j = 0; j < sections.length; j++) {
+        sections[j].hidden = !all && sections[j].id !== slug;
+      }
+      for (var k = 0; k < pills.length; k++) {
+        var on = pills[k].getAttribute("data-cat") === (all ? "all" : slug);
+        pills[k].classList.toggle("is-active", on);
+        /* aria-current, not aria-pressed: these are links, not toggle buttons. */
+        if (on) pills[k].setAttribute("aria-current", "true");
+        else pills[k].removeAttribute("aria-current");
+      }
+    }
+
+    root.addEventListener("click", function (e) {
+      var p = e.target.closest && e.target.closest(".catalog-nav-btn");
+      if (!p) return;
+      e.preventDefault();
+      var slug = p.getAttribute("data-cat");
+      applyFilter(slug);
+      /* replaceState, not pushState: filtering a shop is not a page the Back
+         button should have to walk through one category at a time. The URL still
+         updates, so a filtered view can be copied and shared. */
+      try {
+        history.replaceState(null, "", slug === "all" ? location.pathname : "#" + slug);
+      } catch (err) {}
+    });
+
+    applyFilter((location.hash || "").replace("#", ""));
+
+    /* A hash arriving WITHOUT a page load — any in-page link to #bows, or the
+       Back button — is a same-document navigation, so the line above never runs
+       again. Without this the pills would simply ignore it. */
+    window.addEventListener("hashchange", function () {
+      applyFilter((location.hash || "").replace("#", ""));
+    });
   }
 
   /* Add-to-cart clicks are handled by js/cart.js (delegated on
