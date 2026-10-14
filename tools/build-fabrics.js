@@ -98,7 +98,7 @@ const html = `<!DOCTYPE html>
   <title>Fabric Library | Dragon Ink and Thread</title>
   <meta name="description" content="The fabrics currently on the shelf at Dragon Ink and Thread — ${total} prints you can choose from for a custom tote, bow or scrunchie. Handmade in San Antonio, Texas." />
   <link rel="canonical" href="${SITE}/fabrics.html" />
-  <meta name="theme-color" content="#4a9198" />
+  <meta name="theme-color" content="#4e5839" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Dragon Ink and Thread" />

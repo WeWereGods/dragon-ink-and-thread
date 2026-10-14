@@ -183,7 +183,7 @@ function page(id) {
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(desc)}" />
   <link rel="canonical" href="${url}" />
-  <meta name="theme-color" content="#4a9198" />
+  <meta name="theme-color" content="#4e5839" />
 
   <meta property="og:type" content="product" />
   <meta property="og:site_name" content="Dragon Ink and Thread" />

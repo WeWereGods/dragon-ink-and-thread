@@ -116,7 +116,7 @@ const head = (p, canonical) => {
   <meta name="description" content="${esc(p.metaDesc)}" />
 
   <link rel="canonical" href="${SITE}/${canonical}" />
-  <meta name="theme-color" content="#4a9198" />
+  <meta name="theme-color" content="#4e5839" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Dragon Ink and Thread" />
