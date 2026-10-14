@@ -207,15 +207,18 @@ h3 { font-size: 1.4rem; }
 }
 .brand-logo {
   flex: 0 0 auto;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  border: 2px solid var(--green);
-  box-shadow: var(--shadow-sm);
-  /* Show just the dragon by zooming into the square logo.
-     Tweak background-size / position if the crop needs nudging. */
-  background: #fff url("../assets/logo.png") no-repeat 50% 24%;
-  background-size: 150%;
+  /* ⚠️ THE HEADER MARK IS THE ROUND BADGE, NOT THE TEAL PLUSH DRAGON.
+     Owner's call 2026-10-14, completing the move the hero started on Sep 22.
+     The badge is line art keyed off its white ground (assets/badge-mark.png) and
+     painted in the deep green, so it sits on parchment without a white disc
+     behind it.
+     ⛔ NO white fill, NO border, NO shadow — it carries its own dotted ring, and
+     a second ring around that reads as a sticker. The old rule had all three
+     because the plush dragon needed a disc to sit on; this one does not. */
+  width: 54px;
+  height: 54px;
+  background: url("../assets/badge-mark.png") no-repeat 50% 50%;
+  background-size: contain;
 }
 .brand-text { display: flex; flex-direction: column; }
 .brand-name {

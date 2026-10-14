@@ -550,10 +550,22 @@ The silent ones are **4, 6 and 7**: skip 4 and the piece looks fine but says "Co
   Socials: `@dragonink_and_thread` (Instagram + TikTok).
 - ⚠️ **THREE MARKS, DELIBERATELY (owner, 2026-09-16). Don't "unify" them.** Each exists because a
   different medium made the others unusable:
-  1. **`logo.png` — the plush TEAL dragon — is THE logo.** Site, favicon, socials, share card.
-  2. **A round black LINE-ART badge** (wordmark + needle + sprig, **no dragon**) — **stamp only.**
-     A rubber stamp is one solid colour, and the plush dragon reads entirely through tonal shading;
-     flattened to black he becomes a blob.
+  1. **`logo.png` — the plush TEAL dragon.** ⚠️ **No longer the site header** (see 2), but still the
+     **favicon, the socials, the car decal and the stickers.**
+     📌 **THE FAVICON IS HIS ON MERIT, not sentiment — tested 2026-10-14.** At 16px the badge is an
+     unreadable grey smudge; the dragon is still recognisably a dragon. **A silhouette survives a
+     favicon; a seal full of words does not.** Don't "finish the job" by swapping it.
+  2. **`badge-mark.png` — the round line-art badge** (wordmark + needle + sprig, **no dragon**).
+     ⚠️ **PROMOTED 2026-10-14 from stamp-only to THE SITE HEADER MARK** (owner's call), completing
+     the move the parchment hero started on 2026-09-22. Still the packaging stamp too.
+     Keyed off its white ground by **luminance-as-alpha** — line art separates cleanly that way,
+     unlike the watercolour art, which sits too close to its ground — then painted `#4e5839`.
+     ⛔ **No white disc, no ring, no shadow behind it.** It carries its own dotted ring, and a
+     second ring around that reads as a sticker. The old header rule had all three because the
+     plush dragon needed a disc to sit on; this one does not.
+     📌 It spells the name **correctly, with "and"** — unlike the card art.
+     ⚠️ A rubber stamp is one solid colour, which is why the plush dragon can never be this mark:
+     he reads entirely through tonal shading and flattens to a blob.
   3. **A sleeping GREEN dragon on parchment** — **the printed market kit only** (signs, price tags,
      gift tags). ⚠️ **The parchment palette contains almost no blue or teal** — measured: one
      blue-ish pixel in the whole card — so the teal dragon reads as pasted-on there. A recoloured
