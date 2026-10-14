@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Caveat:wght@500;600;700&family=Great+Vibes&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="css/styles.css?v=0b994e1d" />
+  <link rel="stylesheet" href="css/styles.css?v=258272c0" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -388,6 +388,11 @@
 
             <div class="field">
               <label for="xf-details">Tell me about it</label>
+              <!-- ⭐ A fabric picked in the library arrives here as ?fabric=… and is
+                   written into this box by the script at the bottom of the page, so
+                   "I like this print" becomes a real enquiry without the customer
+                   having to remember what it was called. See js/fabrics.js. -->
+              <p class="fabric-carried" id="fabricCarried" hidden></p>
               <textarea id="xf-details" name="details" rows="6" required
                 placeholder="Colours, print, size, who it&#39;s for, and anything it needs to fit or carry. If you&#39;ve picked a fabric from the library, name it here — that helps more than you&#39;d think."></textarea>
             </div>
@@ -469,6 +474,37 @@
     }
   </script>
   <!-- end Pinterest Tag -->
+
+  <!-- ⭐ A fabric carried over from the library (added 2026-10-14).
+       fabrics.html links here as custom.html?fabric=<name>; this writes it into
+       the enquiry box and says so visibly, so it never looks like the form filled
+       itself in by magic.
+       ⚠️ textContent and .value ONLY — never innerHTML. The name comes off the URL
+       and anyone can type anything into a query string; assigning it as HTML would
+       be an XSS hole on the one page that collects people's email addresses.
+       ⚠️ It PREPENDS rather than replaces, and only when the box is empty, so a
+       returning visitor who has already typed never loses their words. -->
+  <script>
+    (function () {
+      var m = /[?&]fabric=([^&]+)/.exec(location.search);
+      if (!m) return;
+      var name;
+      try { name = decodeURIComponent(m[1].replace(/\+/g, " ")).trim(); } catch (e) { return; }
+      if (!name || name.length > 80) return;
+
+      var note = document.getElementById("fabricCarried");
+      if (note) {
+        note.textContent = "✦ Carried over from the fabric library: " + name;
+        note.hidden = false;
+      }
+      var box = document.getElementById("xf-details");
+      if (box && !box.value) {
+        box.value = "I'd love something in " + name + ".\n\n";
+        /* Caret after the sentence, not before it, so they carry straight on. */
+        try { box.setSelectionRange(box.value.length, box.value.length); } catch (e) {}
+      }
+    })();
+  </script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-friendly. -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "b7c9bbf64c0448be8b6e616f1ca86152"}'></script>

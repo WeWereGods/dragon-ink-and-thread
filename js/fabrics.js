@@ -114,7 +114,7 @@
   /* ----- tap a swatch to see it larger -----
      Built here rather than in the markup so the page degrades to a plain
      grid of images without JS. */
-  var box, boxImg, boxName, lastFocus;
+  var box, boxImg, boxName, boxCta, lastFocus;
 
   function build() {
     box = document.createElement("div");
@@ -123,15 +123,23 @@
     box.setAttribute("role", "dialog");
     box.setAttribute("aria-modal", "true");
     box.setAttribute("aria-label", "Fabric photo");
+    /* ⭐ THE "COMMISSION IN THIS FABRIC" LINK IS THE POINT OF THIS LIGHTBOX NOW.
+       Before 2026-10-14 enlarging a swatch was a DEAD END — you looked at a lovely
+       print and closed it, and 76 fabrics sat here doing nothing but being
+       browsed. The link carries the fabric's NAME to custom.html, which reads it
+       back and writes it into the enquiry, so "I like this one" turns into a
+       message without the customer having to remember what it was called. */
     box.innerHTML =
       '<button class="fabric-lightbox-close" type="button" aria-label="Close">&times;</button>' +
       '<figure class="fabric-lightbox-stage">' +
         '<img class="fabric-lightbox-img" src="" alt="" />' +
         '<figcaption class="fabric-lightbox-name"></figcaption>' +
+        '<a class="fabric-lightbox-cta btn btn-primary" href="custom.html">Commission in this fabric &rarr;</a>' +
       "</figure>";
     document.body.appendChild(box);
     boxImg = box.querySelector(".fabric-lightbox-img");
     boxName = box.querySelector(".fabric-lightbox-name");
+    boxCta = box.querySelector(".fabric-lightbox-cta");
     box.querySelector(".fabric-lightbox-close").addEventListener("click", close);
     box.addEventListener("click", function (e) {
       if (e.target === box || e.target.classList.contains("fabric-lightbox-stage")) close();
@@ -147,6 +155,9 @@
     boxImg.src = src;
     boxImg.alt = name + " fabric, larger view";
     boxName.textContent = name;
+    /* encodeURIComponent, not raw: fabric names carry spaces and apostrophes
+       ("Elain's Gingham", "Lace of Velaris"). custom.html decodes it back. */
+    boxCta.href = "custom.html?fabric=" + encodeURIComponent(name);
     box.hidden = false;
     document.body.classList.add("fabric-lightbox-open");
     box.querySelector(".fabric-lightbox-close").focus();
