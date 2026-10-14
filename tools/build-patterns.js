@@ -131,7 +131,7 @@ const head = (p, canonical) => {
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${esc(p.ogTitle)}" />
   <meta name="twitter:description" content="${esc(p.twitterDesc)}" />
-  <meta name="twitter:image" content="${SITE}/assets/og-image-v2.jpg" />
+  <meta name="twitter:image" content="${SITE}/assets/og-image-v3.jpg" />
 
   <link rel="icon" href="/favicon.ico" sizes="32x32" />
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96.png" />
@@ -458,7 +458,7 @@ const indexPage = () => {
     ogDesc:
       "Straight lines only, every measurement written out, free to download. From a small handmade shop in San Antonio.",
     twitterDesc: "Free beginner sewing patterns — straight lines only, free to download.",
-    pin: { url: "assets/og-image-v2.jpg", w: 1200, h: 630, alt: "Dragon Ink and Thread" },
+    pin: { url: "assets/og-image-v3.jpg", w: 1200, h: 630, alt: "Dragon Ink and Thread" },
   };
 
   return `<!DOCTYPE html>

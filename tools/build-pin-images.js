@@ -319,7 +319,7 @@ async function fbCustomOrders() {
 }
 
 /* The free pattern (2026-08-26).
-   pattern.html shipped with og:image pointing at og-image-v2.jpg — the
+   pattern.html shipped with og:image pointing at og-image-v3.jpg — the
    generic brand card, 1200x630 landscape — and og:title "A free sewing
    pattern". So a pin of the page showed a LOGO, in the wrong shape, titled
    nothing anyone searches for. Nobody saves a logo.

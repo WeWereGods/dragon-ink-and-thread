@@ -105,11 +105,11 @@ const html = `<!DOCTYPE html>
   <meta property="og:title" content="Fabric Library | Dragon Ink and Thread" />
   <meta property="og:description" content="${total} fabrics on the shelf right now — pick one for your custom piece." />
   <meta property="og:url" content="${SITE}/fabrics.html" />
-  <meta property="og:image" content="${SITE}/assets/og-image.jpg" />
+  <meta property="og:image" content="${SITE}/assets/og-image-v3.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Fabric Library | Dragon Ink and Thread" />
   <meta name="twitter:description" content="${total} fabrics on the shelf right now — pick one for your custom piece." />
-  <meta name="twitter:image" content="${SITE}/assets/og-image.jpg" />
+  <meta name="twitter:image" content="${SITE}/assets/og-image-v3.jpg" />
 
   <link rel="icon" href="/favicon.ico" sizes="32x32" />
   <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96.png" />

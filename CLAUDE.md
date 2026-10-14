@@ -662,16 +662,25 @@ panel launches it via `.claude/launch.json` (config name `site`).
     `LINKS` can't actually be bought, so advertising it would send people to a dead end.
   - **`id` must never be recycled** for a different piece; it is how Pinterest recognises a
     product it has already seen.
-- **Social share card** = **`assets/og-image-v2.jpg`** (1200×630), referenced by index, shop,
-  custom and fabrics. ⚠️ **The v1 file had "Opening Late August" baked into the pixels** and was
-  still being served as the Facebook preview after the shop opened. v2 is the same artwork
-  scaled and cropped so the dated line falls outside the frame — logo and wordmark kept, **no
-  text that can ever go stale**. Don't put a date in a share card; it is an image, so no amount
-  of editing HTML fixes it.
-  ⚠️ **Facebook caches OG images hard, keyed on URL.** That's why v2 is a NEW filename rather
-  than a replacement — new shares fetch it immediately. Anything already posted keeps the old
-  card until the URL is re-scraped in the **Sharing Debugger**
+- **Social share card** = **`assets/og-image-v3.jpg`** (1200×630), built by
+  **`node tools/build-og-card.js`** → render at 1200×630 → JPEG. Parchment, the green dragon,
+  the wordmark as **live text** (the card art spells it with an ampersand; this does not).
+  ⚠️ **The v1 file had "Opening Late August" baked into the pixels** and was still being served
+  as the Facebook preview after the shop opened. **v3 was made 2026-10-14 for the rebrand** —
+  v2 was teal on a green-and-parchment site.
+  ⛔ **NOTHING ON A SHARE CARD MAY GO STALE** — it is an image, so no amount of editing HTML
+  fixes it once it is out. No dates, no season, no "opening soon" — **and no city**: San
+  Antonio stops being true around 2026-11-25, which is exactly why the fabric banner names no
+  city either. v3 says *veteran-owned · small batch · one of a kind*, all of which survive the
+  move.
+  ⚠️ **Facebook caches OG images hard, keyed on URL.** That is why each version is a NEW
+  filename rather than a replacement — new shares fetch it immediately. Anything already
+  posted keeps the old card until the URL is re-scraped in the **Sharing Debugger**
   (developers.facebook.com/tools/debug → paste the URL → Scrape Again).
+  ⚠️ **CHECK THE GENERATORS, NOT JUST THE PAGES.** This note used to claim fabrics.html used
+  v2; it did not — **`build-fabrics.js` was still emitting the V1 "Opening Late August" card**,
+  so every share of the fabric library showed a months-dead announcement. A page you can see is
+  not the same as the builder that writes it.
 
 ## ⚠️ The live task list is `TASKS.md` — read it at the start of a session
 Created 2026-08-06 because the outstanding work only existed in conversation, so the owner had
