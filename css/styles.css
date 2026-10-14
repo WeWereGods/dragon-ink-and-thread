@@ -886,6 +886,66 @@ h3 { font-size: 1.4rem; }
    ever gains a gradient again, the box comes back. */
 .hero, .shop-hero {
   background-color: var(--parchment);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Corner vines, lifted from the printed kit so the page frames itself the way the
+   signs and tags do. ⚠️ Source lives in tools/print-kit/build/kit/, which is
+   GITIGNORED — these are baked copies in assets/, regenerate them from there.
+   📌 The two INNER edges of each crop are feathered in the ALPHA, not by a CSS
+   mask: same effect as paper-base.js, but it survives browsers without
+   mask-composite and keeps this rule to one line each.
+   📌 WebP — the four as PNG came to 686KB, which is a lot to spend on decoration
+   at the top of every page. As WebP they are 50KB the set.
+   They are ornament and nothing else: aria-hidden by virtue of being backgrounds,
+   and if they fail to load the hero is simply plain parchment. */
+.hero::before, .hero::after,
+.shop-hero::before, .shop-hero::after {
+  content: "";
+  position: absolute;
+  width: clamp(104px, 17vw, 230px);
+  aspect-ratio: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 0;
+}
+.hero::before, .shop-hero::before {
+  top: 0; left: 0;
+  background-image: url(../assets/vine-tl.webp);
+}
+.hero::after, .shop-hero::after {
+  top: 0; right: 0;
+  background-image: url(../assets/vine-tr.webp);
+  transform: none;
+}
+/* The hero's own content must sit above the ornament. */
+.hero-inner, .shop-hero > .container { position: relative; z-index: 1; }
+
+/* ⚠️ Only the TOP two on narrow screens. Four 230px sprays on a 375px phone meet
+   in the middle and the hero becomes a thicket — and the bottom pair would sit
+   behind the buttons, which is where thumbs go. */
+@media (min-width: 900px) {
+  .hero { --vine-b: 1; }
+  .hero-inner::before, .hero-inner::after {
+    content: "";
+    position: absolute;
+    width: clamp(104px, 17vw, 230px);
+    aspect-ratio: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .hero-inner::before {
+    bottom: -2.2rem; left: calc(50% - 50vw);
+    background-image: url(../assets/vine-bl.webp);
+  }
+  .hero-inner::after {
+    bottom: -2.2rem; right: calc(50% - 50vw);
+    background-image: url(../assets/vine-br.webp);
+  }
 }
 .shop-hero { position: relative; overflow: hidden; }
 .shop-catalog-wrap { padding-top: clamp(1.25rem, 3.5vw, 2.25rem); }
