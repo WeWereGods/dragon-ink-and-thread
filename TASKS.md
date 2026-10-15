@@ -1575,8 +1575,44 @@ Two rules that keep this useful:
         ⚠️ **LOCAL PICKUP IS REMOVED for the window, not relabelled** — she is not coming back to San Antonio, so
         nobody can collect. Shipping at checkout also says "allow 2–3 weeks extra while I move".
         ✅ **WORKER DEPLOYED 2026-09-21** — checkout now matches the banner.
-        ⬜ **After the move:** pickup needs removing for good (or relabelling to Virginia Beach), every "sewn in San
-        Antonio" line needs changing, and Stripe Tax must move its registration TX → VA.
+        ⬜ **AFTER THE MOVE — the full checklist, inventoried 2026-10-15.** Grouped by what each one actually
+        needs, because they do **not** all land the same way and three of them are not copy edits at all.
+        ✅ **ALREADY DONE (`dd20178`, 2026-10-15) — everything that travels and gets cached elsewhere.** The
+        masthead tag on all 45 pages, which **was also disagreeing with itself**: 37 pages said "handmade in
+        texas" and 8 said "handmade in san antonio", because `build-patterns.js` emitted a different line
+        from the other two generators. Both are now **"handmade, one of a kind"**. Also the homepage
+        `<title>`, `og:title`, `twitter:title` and all three meta descriptions.
+        ⚠️ **Those could not wait for November** — a title and a share snippet get cached and indexed
+        somewhere you cannot reach, which is the same reason the share card names no city.
+        **Everything below is still TRUE until she actually moves, so it stays until then. ~150 mentions.**
+        1. ⚠️ **`worker/checkout-worker.js` — LOCAL PICKUP. The only item here that is not copy.** Remove it
+           for good, or relabel to Virginia Beach, then **`wrangler deploy`**. Nothing on the site fixes
+           this; the Worker is what the customer reads at the moment they choose.
+        2. ⚠️ **Stripe Tax — move the registration TX → VA** in the Dashboard. Until it does, checkout
+           collects the wrong state's tax. Also the LLC and the sales tax permit (see the tax dates below).
+        3. **`tools/build-products.js`** fixes 33 pages at once — the `pdp-ship` line *"Ships from San
+           Antonio, Texas"* and the footer. Edit the generator, re-run it, don't hand-edit the pages.
+        4. **The footer line is on all 45 pages** — *"Made with love in San Antonio"*. It lives in the
+           **three generators** (38 pages) **and 7 hand-maintained pages**. Generators first, then the rest.
+        5. **`index.html` is the big one — 20 mentions, and nothing regenerates it**: the sr-only `<h1>`,
+           the hero eyebrow, the hero sub, the shop section-sub, **two FAQ answers**, the contact line, the
+           `Store` JSON-LD (description + `addressLocality` + `addressRegion`), and **7 `Product` JSON-LD
+           descriptions** that each end *"ready to ship from San Antonio, Texas"*.
+        6. ⚠️ **The seal is an SVG `<textPath>`, not text** — "HANDMADE IN SAN ANTONIO" curves around a
+           circle, with a matching `aria-label`. **Find-and-replace will not do it**: a longer or shorter
+           string re-spaces the arc. Budget it as a small redraw, not an edit.
+        7. **Remaining hand-maintained pages:** shop.html (5) · patterns.html (4) · shipping.html (3) ·
+           privacy.html (3) · pattern.html (3) · custom.html (2) · fabrics.html (2) · terms.html (2) ·
+           success.html (1). shop.html and shipping.html also carry **local-pickup copy** — pair them with 1.
+        8. ⚖️ **Two of these are legal, not cosmetic** — terms.html's **governing law (Texas)** and
+           privacy.html's **mailing address**. Changing the governing state is a real decision; don't let it
+           ride along in a find-and-replace commit.
+        9. 🪧 **The printed market kit stays Texas until Nov 14** — those signs go on a table in San Antonio,
+           where the line is both true and a selling point. Six builders carry it (`build-tags.js` ×3,
+           `build-price-sign.js`, `build-photo-collage.js`, `legacy-teal/build-gift-tags.js`), plus
+           `brand-package.html`, which **already flags this change on its first page**.
+        10. **`emails/` and `marketing/` carry it too.** Those are sent by hand, so they fail quietly rather
+            than publicly — but a template sent in December still names the wrong city.
         ✅ Verified by simulating the dates: Nov 25 and Dec 1 give the moving wording, Dec 21 gives none, and the old
         August trip still gives the ordinary away wording.
   - [ ] 🐉🥐 **JANUARY PLAN — VIRGINIA BEACH, AND A SHARED TABLE WITH HER SISTER** (agreed 2026-09-21).
