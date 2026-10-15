@@ -85,7 +85,7 @@ const header = (here) => `  <header class="site-header">
         <span class="brand-logo" aria-hidden="true"></span>
         <span class="brand-text">
           <span class="brand-name">Dragon Ink and Thread</span>
-          <span class="brand-tag">handmade in san antonio</span>
+          <span class="brand-tag">handmade, one of a kind</span>
         </span>
       </a>
 

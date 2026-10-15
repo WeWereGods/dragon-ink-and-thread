@@ -222,7 +222,7 @@ ${JSON.stringify(crumbLd, null, 2)}
         <span class="brand-logo" aria-hidden="true"></span>
         <span class="brand-text">
           <span class="brand-name">Dragon Ink and Thread</span>
-          <span class="brand-tag">handmade in texas</span>
+          <span class="brand-tag">handmade, one of a kind</span>
         </span>
       </a>
 
