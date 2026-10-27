@@ -96,24 +96,48 @@ across categories and rounds down**, which is the "any 2 for $10" mix-and-match 
 back in improvised, steeper form. **If cross-category bundling is what closes people, price it deliberately** —
 e.g. any bow + any scrunchie for $16 — rather than inventing it at a loss each time.
 
-🗓️ ⚠️ **THE OCT 10 MARKET MOVED TO SAT OCT 31 (owner, 2026-10-10).** The October run is now
-**Oct 24 · Oct 30 · Oct 31**, then Nov 13 (undecided) and Nov 14.
-  - ✅ **THIS IS GOOD FOR THE HALLOWEEN CROSSBODY, which was the piece most at risk.** It now gets
-    **Oct 24, Oct 30 AND Oct 31 — and Oct 31 IS HALLOWEEN.** A Halloween bag on a Halloween
-    Saturday is the best day it could possibly have had, and the $25 markdown written on the tag
-    sheet now belongs at the **end of Oct 31**, not Oct 30. **Same for the nine fall and Halloween
-    bows** — they were made in September for a crowd that is now peaking exactly when they are out.
-  - ⚠️ **BUT OCT 30 AND OCT 31 ARE BACK TO BACK.** Night market Fri 5–11pm, then a Saturday.
-    That is two loads, two setups and two teardowns inside about eighteen hours, with a borrowed
-    canopy. **It is the same shape as the Nov 13 + Nov 14 pair** — and taking both pairs means
-    four market days in nine, 10 days before an interstate move. ⬜ **Confirm Oct 31's hours** —
-    the original was 9–3, but a moved date is not always the same slot.
-  - 💡 **AND IT BUYS TWO WEEKS.** There was zero runway before; there are now **fourteen days**
-    before Oct 24. That is enough for Christmas stock, the balsam sachets and the wrap squares to
-    exist in time for Oct 30/31 rather than being promised for November, which was the thing the
-    move had squeezed out.
-  - ⛔ **The "decide what the table is for before Oct 10" deadline moves with it — now before Oct 24.**
-    The lead-closing rule does NOT move: Oct 10 has arrived and both of those are dead.
+🗓️ ⛔ **THE OCTOBER RUN COLLAPSED TO ONE DAY — FRI OCT 30. Corrected 2026-10-27 from the organiser's
+own messages.** What actually happened, in order:
+  - **Oct 10 — CANCELLED by the organiser.** Not a cancellation in her words: *"just had to move dates
+    and locations around. The gal in Adkins is not available for October after all."* ⚠️ **$30 was already
+    paid for it** and is still held (see the refund item below).
+  - **Oct 24 — NOT ATTENDED**, a family emergency. Fee is being transferred (see that entry).
+  - **Oct 31 — CANCELLED by the organiser on 2026-10-13:** *"I decided to take Halloween off so I can
+    take my son out."* ⛔ **So Oct 31 does not exist**, and the long-running
+    ⬜ *"confirm Oct 31's hours"* item is **moot — struck.** There is no market to have hours.
+  - **Oct 30 — STILL ON.** *"So I have you down for the 30th."* **This is the whole of October.**
+  ⚠️ **CONSEQUENCE: OCT 30 IS THE ONLY HALLOWEEN-TIMED TABLE THAT WILL EXIST.** The earlier note here
+  said the Witching Hour Crossbody's best possible day was Halloween Saturday and that the **$25 markdown
+  belonged at the end of Oct 31**. ⛔ **That is void. The markdown now belongs at the end of OCT 30**, a
+  Friday night market, 5–11pm. **Same for the nine fall and Halloween bows** — made in September for a
+  crowd that now gets exactly one table, after which Halloween stock is dead until it is freight.
+  ✅ **One upside: the back-to-back Oct 30 + Oct 31 pair is gone**, which was flagged here as two loads,
+  two setups and two teardowns inside eighteen hours on a borrowed canopy. That risk has removed itself.
+  📌 **Remaining selling days in Texas, total: Oct 30 · Nov 13 (undecided) · Nov 14.** Three, one of them
+  not yet agreed — against a van that has to be filled or emptied by **Nov 25**.
+
+💵 ⬜ **$30 IS STILL HELD BY THE OCTOBER ORGANISER — ASK ONCE MORE BEFORE THE MOVE (2026-10-27).**
+  The Oct 10 booth was **paid in full and then the organiser moved the date**; Oct 31 was cancelled after
+  it. She offered to transfer the paid day to any October, November or December date, but **every one of
+  them falls after the move**, so there is nothing to transfer it to. **The fair outcome is a refund — the
+  vendor did not withdraw, the organiser changed the dates.**
+  ⚠️ **The refund question has been asked TWICE and answered neither time** — both replies changed the
+  subject to alternative dates. *"Any update?"* was **seen Wed 2026-10-21 and not answered.**
+  💡 **LEAD WITH THE DOUBLE SPACE, NOT THE REFUND.** Asking for the $30 to go toward a **double space on
+  Oct 30** costs the organiser floor space rather than cash, which is far easier to say yes to — and it
+  turns dead money into frontage on **the only Halloween-timed table that still exists.**
+  ⛔ **Deadline is hard: chasing $30 from another state after Nov 25 is writing it off.**
+  ⬜ **If no answer by Thu 29th, ask in person at Friday check-in** — three days of silence on Messenger
+  is a busy organiser, not a refusal, and Friday is the last time they are in the same place.
+  📌 **Keep it warm — Oct 30 is still her market** and the goodwill has to survive Friday. Draft is in
+  `emails/october-organiser-refund.md`.
+  - ⏭️ **OVERTAKEN — both notes that used to sit here have expired (2026-10-27).** The "fourteen days of
+    runway before Oct 24" is spent and Oct 24 was not attended; the **"decide what the table is for"**
+    deadline that rode on it passed unanswered. ⛔ **The question has not gone away — it has got smaller
+    and sharper: three selling days remain and the only one in October is Friday.** The lead-closing rule
+    still stands: Oct 10 arrived and both of those leads are dead.
+    ✅ **The Christmas stock, balsam sachets and wrap squares still have tables** — Nov 13 (if taken) and
+    Nov 14, which is the better weekend for them anyway.
 
 📊 ⚠️ **SCOREBOARD ON THE SEP 26–27 LEADS, as of 2026-10-02 — and it matters before the Oct 10 decision.**
 **Three leads came out of that weekend. Two are now closed at zero.**
@@ -550,8 +574,11 @@ including the $100 float, so **cash sales $42** + card **$53** via Tap to Pay (3
   ⏭️ **OVERTAKEN — the Q3 return was FILED 2026-10-01 at a flat 8.25%, before this check was done.** The exposure is
   about **$1.32** (the Sep 19 market's $87.76 of product revenue × the ~1.5pt gap if Spring Branch is really 6.75%),
   so it is **not worth amending a filed return for**. ⚠️ **It is worth settling before Q4**, which is both the busiest
-  quarter and the **FINAL Texas return**: it carries **Adkins (moved Oct 10 → Oct 31), a night market (Oct 30),
-  the Nov 13 school popup and Nov 14** — more than one jurisdiction, and far more money than $87.76.
+  quarter and the **FINAL Texas return**: it carries **a night market (Oct 30), the Nov 13 school popup and
+  Nov 14** — more than one jurisdiction, and far more money than $87.76.
+  ⛔ **ADKINS IS OFF THIS LIST ENTIRELY (2026-10-27).** Oct 10 was moved by the organiser and Oct 31 was then
+  cancelled outright, so **that jurisdiction never traded and owes nothing.** ✅ **Nov 14 is inside city
+  limits, so 8.25% holds there** — the only rate still worth checking is the Oct 30 night market's.
   ⛔ **THE RIM (Oct 24) HAS COME OFF THIS LIST — not attended (emergency), so it made no sales and owes no
   tax** (2026-10-27). Its paid $76.87 is being transferred to a November date. ⬜ **When that date is
   confirmed, add it back here** — and check whether the venue, and therefore the rate, is the same one.
