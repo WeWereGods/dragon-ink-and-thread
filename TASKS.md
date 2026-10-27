@@ -139,6 +139,8 @@ own messages.** What actually happened, in order:
   is a busy organiser, not a refusal, and Friday is the last time they are in the same place.
   📌 **Keep it warm — Oct 30 is still her market** and the goodwill has to survive Friday. Draft is in
   `emails/october-organiser-refund.md`.
+  ✅ **SENT 2026-10-27** (owner), as a clean refund ask with the alternative-dates door closed inside the
+  question. ⬜ **If no answer by Thu 29th, ask at Friday check-in** — last time they are in the same place.
   - ⏭️ **OVERTAKEN — both notes that used to sit here have expired (2026-10-27).** The "fourteen days of
     runway before Oct 24" is spent and Oct 24 was not attended; the **"decide what the table is for"**
     deadline that rode on it passed unanswered. ⛔ **The question has not gone away — it has got smaller
