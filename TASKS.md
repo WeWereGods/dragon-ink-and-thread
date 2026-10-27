@@ -1748,6 +1748,35 @@ Two rules that keep this useful:
         coordinator on arrival for a vendor badge, returned at the end; 10x10 booths, larger on request.** Logistics,
         a venue map and vendor spaces come out by email on Fridays from ~4 weeks before.
         ⛔ **This rules out the Give Thanks Day Market (Nov 14, Adkins)** from the October organiser's series.
+        ✅ **VENUE MAP ARRIVED 2026-10-27** — the promised Friday logistics email, on schedule. Layout: customer
+        parking in the central lot · **vendor parking at the far top-left**, diagonally across the site ·
+        security at the entry · and **a food truck + COFFEE at the top of the vendor area, beside the arrival
+        point**. Numbered spots run in rows east from there.
+        ⭐ **STALL PICK — the top cluster, one or two spots back from the food truck, facing the coffee.**
+        **Coffee is the only thing on that map that makes people stand still.** A queue is 5–20 people with
+        nothing to do but look around for three to five minutes, and bows, scrunchies and bandanas are exactly
+        what gets picked up in that dead time. ⚠️ **Not directly beside the truck** — food smells carry and
+        nobody handles fabric holding a taco. **Adjacent-but-one** buys the queue without the fallout.
+        📌 **It is an unusually good corner because the coffee sits near the ENTRY.** Normally you choose
+        between arrival traffic and dwell time; this layout gives both in one spot.
+        **Second choice:** the end-cap where the entry lane meets the first full row — a corner has two open
+        sides and double the frontage, and it clears the decompression zone.
+        ⛔ **Avoid the first stalls inside security** (people are still orienting, say "we'll come back", and
+        mostly don't) **and the far ends of the back rows** — anything that reads as a dead end gets half the
+        traffic, because people turn around when they cannot see what is further on.
+        ⚠️ **THE TREES ARE NOT SHADE AT THESE HOURS — corrected 2026-10-27.** The heavy canopy lies north and
+        east of the rows; between 10 and 2 the sun is in the south, so it throws its shadow *away* from the
+        stalls. **The borrowed canopy is doing that work**, which is why this booth lists one as REQUIRED.
+        ⏱️ **40+ vendors in only 4 hours means many visitors never complete a lap** — which argues for being
+        early in the flow rather than deep in it.
+        ✅ **Load-in is ALREADY ANSWERED: set-up 8:00–9:45am, ready by 10. Do not ask again.**
+        ⬜ **Worth asking only about cart access or a drop-off near the vendor area** — vendor parking is
+        across the site, and this is a full load-in and load-out for four hours of selling.
+        🍂 **THE TABLE ITSELF: this is the LAST market in Texas, so it is the final conversion of stock into
+        cash rather than freight.** An autumn mercado suits the **fall bows at full price**; ⛔ **the Halloween
+        ones died on Oct 31** and belong in the markdown basket, not the display. Mid-November also opens
+        Christmas shopping and **Thanksgiving is Nov 26**, so the Christmas stock, balsam sachets and wrap
+        squares land on exactly the right weekend.
   - [ ] 🆕 **TO ORDER (owner, 2026-09-20):**
         1. **Website decal for the car** — `dragoninkandthread.com`, **white**, 12–16in wide, under the badge that went
            on Sep 20. The badge names the shop but gives a driver nothing to search. Etsy "custom text vinyl decal", $8–15.
