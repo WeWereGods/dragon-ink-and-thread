@@ -119,9 +119,18 @@ e.g. any bow + any scrunchie for $16 — rather than inventing it at a loss each
 **Three leads came out of that weekend. Two are now closed at zero.**
   - **Tyler** — passed on the bandanas, then passed on the lipstick holders. **$0.**
   - **The unnamed second lead** — never replied to either email. Dead by the Oct 10 rule. **$0.**
-  - **The vendor coordinator** (two bandanas at $12) — ⬜ **STILL LIVE, and still unanswered by us.** The draft
-    reply has been sitting since 2026-09-29. **This is now the only thing standing between that weekend and
-    nothing at all. Send it.**
+  - **The vendor coordinator** (two bandanas at $12) — ⬜ **STILL LIVE, and still unanswered by us: 28 days
+    as of 2026-10-27.** **This is still the only thing standing between that weekend and nothing at all.**
+    ✅ **THE REPLY IS NOW A FILE — `emails/vendor-coordinator-bandanas.md`** (written 2026-10-27). It had sat
+    since 2026-09-29 only because it existed inside a chat transcript and could not be opened; **a draft you
+    cannot open is a draft you do not send.**
+    ✅ **Both fabrics are on hand** (owner, 2026-10-27), so nothing is left to source.
+    📌 The copy **honours the $12 each rather than reopening it at the $22 floor** (the quote was given, the
+    fabric is bought, and an apology email is the worst moment to re-price), names **Fri Nov 6** instead of
+    "soon", and mentions the relocation in one line so **"no rush, December is fine" is off the table** —
+    December does not exist for this order.
+    ⬜ **Send it.** ⬜ First check whether the **neck measurement** was ever asked for, and delete that
+    paragraph if it was.
   📌 **THE HONEST READ.** The weekend took **$49 against $45 of booth fees** and the case for going was that the
   table earns its keep in **leads, not till takings**. Two of three leads have now closed at zero, so that case
   is currently **unsupported by evidence rather than supported by it.** Two leads is a tiny sample and one is
