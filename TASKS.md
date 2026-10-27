@@ -541,8 +541,11 @@ including the $100 float, so **cash sales $42** + card **$53** via Tap to Pay (3
   ⏭️ **OVERTAKEN — the Q3 return was FILED 2026-10-01 at a flat 8.25%, before this check was done.** The exposure is
   about **$1.32** (the Sep 19 market's $87.76 of product revenue × the ~1.5pt gap if Spring Branch is really 6.75%),
   so it is **not worth amending a filed return for**. ⚠️ **It is worth settling before Q4**, which is both the busiest
-  quarter and the **FINAL Texas return**: it carries **Adkins (Oct 10), The RIM (Oct 24), a night market (Oct 30),
+  quarter and the **FINAL Texas return**: it carries **Adkins (moved Oct 10 → Oct 31), a night market (Oct 30),
   the Nov 13 school popup and Nov 14** — more than one jurisdiction, and far more money than $87.76.
+  ⛔ **THE RIM (Oct 24) HAS COME OFF THIS LIST — not attended (emergency), so it made no sales and owes no
+  tax** (2026-10-27). Its paid $76.87 is being transferred to a November date. ⬜ **When that date is
+  confirmed, add it back here** — and check whether the venue, and therefore the rate, is the same one.
   📌 **Run each market's address through the Comptroller's Sales Tax Rate Locator ONCE, and write the rate on the
   market's row in `market-details-private.md`.** Doing it per-market beforehand is minutes; reconstructing five
   jurisdictions in January, mid-move, is not.
@@ -1697,8 +1700,24 @@ Two rules that keep this useful:
         ⬜ Decide what happens to the shop during the move: an AWAY window on the site, pausing local pickup, and how
         long shipping stops for. ⬜ If the move crosses state lines, the LLC, the sales tax permit and every address
         (Stripe, domain, bank) need changing — a TX-to-VA checklist already exists in the Drive.
-  - [ ] ✅ **BOOKED AND PAID — a market on Sat Oct 24 2026, about TEN HOURS** (applied 2026-09-20; **$76.87 paid by
-        Venmo 2026-09-21**). Name and venue in the private note. Her dearest booth yet: **break-even is ~$85 in sales**,
+  - [ ] ⛔ **NOT ATTENDED — an emergency on the day (owner, 2026-10-27).** The booth was booked and paid
+        (**$76.87 by Venmo 2026-09-21**), so **no sales exist for Oct 24 and no tax is owed on it.**
+        ✅ **THE FEE IS NOT LOST.** The organiser replied offering to switch the date — asking her to pick
+        from the available dates on their registration form.
+        ✅ **REPLY SENT 2026-10-27** asking for **Sat Nov 7**, or anything up to **Nov 12**, explicitly ruling
+        out Nov 13 and Nov 14 (already booked elsewhere). ⚠️ It also asks whether the new date runs the
+        **same hours** and is covered by the fee already paid — **$76.87 bought a TEN-HOUR day**, and a
+        shorter replacement at the same price is a worse deal that is easy not to notice on the morning.
+        📌 **Why Nov 7/8 was the ask:** a clear week after the Halloween pair and a week before Nov 13–14,
+        **after sewing stops ~Nov 7** so it sells finished stock rather than demanding new makes — and every
+        piece sold in early November is a piece not paid to travel to Virginia on Nov 25.
+        ⬜ **WAITING ON: the organiser's confirmation of the new date.**
+        ⬜ **Then check the borrowed canopy still covers it** — it was lent for October dates, and whether it
+        is hers per-day or for the month has never been answered.
+        ⬜ **Re-run the Rate Locator only if the VENUE changes.** Same organiser and same form probably means
+        the same venue and jurisdiction, in which case the rate already noted still holds.
+        📌 **Original booking details, kept because they carry over to the replacement day:** name and venue
+        in the private note. Her dearest booth yet: **break-even is ~$85 in sales**,
         against $95 in five hours on Sep 19. ✅ **Organiser answered 2026-09-21: OUTDOOR · 11am–9pm · NO canopy · NO power.**
         So: the **borrowed canopy + her weights** · **battery lights** (sunset is ~6:45pm late October, so the last two
         hours are in the dark, and an unlit table sells nothing) · **two charged power banks** (ten hours of Tap to Pay) ·
