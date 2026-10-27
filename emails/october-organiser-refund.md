@@ -33,16 +33,20 @@ So the draft below does three things the earlier asks did not:
 📌 **Keep it warm.** Her register is warm and informal ("Hi mama", "my dear"), **and Oct 30 is still
 her market** — the goodwill has to survive Friday. This is not the message to get sharp in.
 
-## 💡 The option worth leading with
+## ⛔ Not a double space — cash (owner, 2026-10-27)
 
-**Ask for the $30 to be put toward a DOUBLE SPACE on Oct 30** as the alternative to a refund.
+A double space was considered and **rejected by the owner**, correctly. ⚠️ **More frontage means
+hauling more stock, not selling more** — on a 5–11pm Friday night, single-handed, on a borrowed
+canopy, when the entire object of the next four weeks is to have **less** to load into the van.
+Extra space is a cost dressed as a favour. **Ask for the money.**
 
-It is the better ask, because:
-- **It costs the organiser nothing** — she gives floor space, not cash out of pocket. Far easier to
-  say yes to, which is the whole problem here.
-- **It converts dead money into frontage on the only Halloween-timed table that still exists.**
-  Oct 10 and Oct 31 are both gone; Friday is the lot.
-- It keeps the tone collaborative rather than adversarial three days before working together.
+## 🔑 The one change that makes this ask work
+
+Both previous asks died the same way: the reply changed the subject to **alternative dates**.
+
+**So the draft closes that door inside the question itself** — it names the offer, thanks her for it,
+and explains why it cannot be taken, *before* asking. There is then nothing left to redirect to, and
+the only available answers are yes or no.
 
 ---
 
@@ -50,14 +54,14 @@ It is the better ask, because:
 
 > Hi [name]! 💖 No worries at all — I know shuffling dates and venues around is a headache.
 >
-> Just so I can close my books before we go: the day I'd paid for was **the 10th**, and with that one
-> moved and Halloween off, there isn't a date left I can make — we're out of state from the 25th.
+> I just need to close my books before we go. The day I'd paid for was **the 10th** — and I know you
+> kindly offered to move it, but every date that's left falls after we're out of state on the 25th,
+> so there's nothing for me to move it to.
 >
-> **Could I either get that day refunded, or put it toward a double space on the 30th?** I'd happily
-> take the extra frontage for my last Halloween market. Either one works for me.
+> **Could I get that $30 refunded?** However's easiest on your end. A yes or no is genuinely fine —
+> I just need to know before we pack.
 >
-> A simple yes or no is honestly fine — I just need to know before we pack. And I'm still looking
-> forward to Friday! 🎃
+> Still looking forward to Friday! 🎃
 
 ---
 
@@ -70,3 +74,19 @@ does not**, and Friday is the last time these two are in the same place.
 ⚠️ **If the answer is no, take it and let it go.** $30 is not worth souring the last market, and
 there is no future relationship to protect once the van leaves — but there is still a Friday night
 to trade through.
+
+## ⬜ Worth knowing before "no" is treated as final
+
+**How this $30 was paid is not recorded anywhere** — the workbook has the fee, not the method. Only
+two October/November fees have their route written down (Oct 24 by Venmo, Nov 14 by a Wave link), and
+the Oct 10 one is not among them. **It decides whether "no" is actually the end:**
+
+- **Venmo, Zelle or Cash App, sent person-to-person** → ⛔ **no buyer protection at all.** Asking is
+  the only route, and a no really is a no.
+- **A card, a PayPal goods-and-services payment, or an invoice link like Wave** → there is a
+  **dispute window**, and a service paid for but never provided is the clearest kind of claim there is.
+
+📌 **Check the method before deciding how hard to push** — and check it **before Nov 25**, since
+dispute windows are typically 60–120 days and the clock started in September.
+⚠️ **Do not open a dispute before asking, or before Friday.** A chargeback against someone whose
+market you are standing in is a bad trade for $30.

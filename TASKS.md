@@ -123,9 +123,17 @@ own messages.** What actually happened, in order:
   vendor did not withdraw, the organiser changed the dates.**
   ⚠️ **The refund question has been asked TWICE and answered neither time** — both replies changed the
   subject to alternative dates. *"Any update?"* was **seen Wed 2026-10-21 and not answered.**
-  💡 **LEAD WITH THE DOUBLE SPACE, NOT THE REFUND.** Asking for the $30 to go toward a **double space on
-  Oct 30** costs the organiser floor space rather than cash, which is far easier to say yes to — and it
-  turns dead money into frontage on **the only Halloween-timed table that still exists.**
+  ⛔ **NOT A DOUBLE SPACE — CASH (owner, 2026-10-27).** It was considered and rejected, correctly:
+  **more frontage means hauling more stock, not selling more**, on a 5–11pm Friday, single-handed, on a
+  borrowed canopy, when the object of the next four weeks is to have **less** to load into the van.
+  🔑 **THE ONE CHANGE THAT MAKES THE ASK WORK:** both previous attempts died the same way — the reply
+  redirected to alternative dates. The draft now **closes that door inside the question**, naming the
+  offer and why it cannot be taken *before* asking, so the only answers left are yes or no.
+  ⬜ **How the $30 was paid is NOT RECORDED** — the workbook has the fee, not the method. It decides
+  whether a "no" is final: **Venmo/Zelle/Cash App person-to-person has no buyer protection**, while a
+  card, PayPal goods-and-services or an invoice link has a **dispute window** (typically 60–120 days,
+  and the clock started in September). ⚠️ **Check it before Nov 25 — but never dispute before asking,
+  and never before Friday.**
   ⛔ **Deadline is hard: chasing $30 from another state after Nov 25 is writing it off.**
   ⬜ **If no answer by Thu 29th, ask in person at Friday check-in** — three days of silence on Messenger
   is a busy organiser, not a refusal, and Friday is the last time they are in the same place.
