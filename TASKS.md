@@ -1785,11 +1785,23 @@ Two rules that keep this useful:
         coordinator on arrival for a vendor badge, returned at the end; 10x10 booths, larger on request.** Logistics,
         a venue map and vendor spaces come out by email on Fridays from ~4 weeks before.
         ⛔ **This rules out the Give Thanks Day Market (Nov 14, Adkins)** from the October organiser's series.
+        📌 **THE ORGANISER IS RETIRING FROM MARKETS (her vendor email, 2026-10-30).** Nov 14 is **one of the
+        last two her company will host**; she is vetting another company to take the Arboretum markets on in
+        partnership with the venue, and will circulate the new contacts. ⚠️ **Not a lead worth chasing — the
+        move lands before any of it matters** — but it does mean **this venue's contact chain resets**, so
+        the goodwill here buys nothing after Nov 14. 📌 A further vendor email is promised **Fri Nov 6**,
+        with the weather forecast nearer the day.
         ✅ **VENUE MAP ARRIVED 2026-10-27** — the promised Friday logistics email, on schedule. Layout: customer
         parking in the central lot · **vendor parking at the far top-left**, diagonally across the site ·
         security at the entry · and **a food truck + COFFEE at the top of the vendor area, beside the arrival
         point**. Numbered spots run in rows east from there.
-        ⭐ **STALL PICK — the top cluster, one or two spots back from the food truck, facing the coffee.**
+        ⛔ **CORRECTION 2026-10-30 — SPOTS ARE ASSIGNED, NOT CHOSEN.** The organiser's vendor email says
+        *"vendor spots are assigned to better align vendor placement and flow"* and **the space number is
+        given on arrival**; the map itself is *"just an example, not exact on spaces."* **So the stall-pick
+        reasoning below is NOT a plan — it is the case to make if she asks.** The email does invite
+        questions, so ⬜ **a short, friendly request for a spot near the coffee is worth sending** — but it
+        is a favour to ask, not a decision to execute, and the answer may simply be no.
+        ⭐ **THE CASE TO MAKE — the top cluster, one or two spots back from the food truck, facing the coffee.**
         **Coffee is the only thing on that map that makes people stand still.** A queue is 5–20 people with
         nothing to do but look around for three to five minutes, and bows, scrunchies and bandanas are exactly
         what gets picked up in that dead time. ⚠️ **Not directly beside the truck** — food smells carry and
@@ -1806,9 +1818,19 @@ Two rules that keep this useful:
         stalls. **The borrowed canopy is doing that work**, which is why this booth lists one as REQUIRED.
         ⏱️ **40+ vendors in only 4 hours means many visitors never complete a lap** — which argues for being
         early in the flow rather than deep in it.
-        ✅ **Load-in is ALREADY ANSWERED: set-up 8:00–9:45am, ready by 10. Do not ask again.**
-        ⬜ **Worth asking only about cart access or a drop-off near the vendor area** — vendor parking is
-        across the site, and this is a full load-in and load-out for four hours of selling.
+        ✅ **SET-UP IS NOW 7:00–9:45am, ready by 9:45** (vendor email 2026-10-30) — **earlier than the
+        8:00 recorded on 2026-09-20.** Do not ask about load-in; it is answered twice over.
+        ✅ **UNLOADING IS SOLVED — no need to ask about cart access.** The email says drive up to the spot
+        and unload there, **do not set up yet**, then move the vehicle to vendor parking; **a volunteer in a
+        yellow vest directs the queue.** That removes the long-carry worry raised here on 2026-10-27.
+        ⛔ **NO BREAKING DOWN BEFORE THE 2pm CLOSE** — stated as a safety rule and a commitment.
+        ⚠️⚠️ **WEIGHTS ARE NOW A HARD, NUMBERED REQUIREMENT: minimum 20 lb PER LEG, 40 lb per leg preferred**
+        — that is **80 lb minimum, 160 lb preferred**, on a canopy that is **borrowed**. 📌 This repo already
+        warned that *"weights are rarely lent with it — people lend the frame, not 100 lb of ballast"*, and
+        "she owns weights" was recorded **without ever writing down how heavy they are.**
+        ⬜ **WEIGH THEM — the number, not an impression — while the canopy is up at the Oct 30 night market.**
+        If they fall short there is a fortnight to fix it, and the same canopy is up at both markets.
+        ✅ **Shade confirmed as NOT guaranteed:** *"some may not be under shade trees so be prepared."*
         🍂 **THE TABLE ITSELF: this is the LAST market in Texas, so it is the final conversion of stock into
         cash rather than freight.** An autumn mercado suits the **fall bows at full price**; ⛔ **the Halloween
         ones died on Oct 31** and belong in the markdown basket, not the display. Mid-November also opens
