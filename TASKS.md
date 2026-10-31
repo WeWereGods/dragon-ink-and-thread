@@ -96,8 +96,9 @@ across categories and rounds down**, which is the "any 2 for $10" mix-and-match 
 back in improvised, steeper form. **If cross-category bundling is what closes people, price it deliberately** —
 e.g. any bow + any scrunchie for $16 — rather than inventing it at a loss each time.
 
-🗓️ ⛔ **THE OCTOBER RUN COLLAPSED TO ONE DAY — FRI OCT 30. Corrected 2026-10-27 from the organiser's
-own messages.** What actually happened, in order:
+🗓️ ⛔⛔ **OCTOBER PRODUCED ZERO MARKETS. Final, confirmed 2026-10-31.** Four dates were on the calendar
+and **not one of them happened.** This entry has been rewritten twice as it collapsed — three days, then
+one, now none. What actually happened, in order:
   - **Oct 10 — CANCELLED by the organiser.** Not a cancellation in her words: *"just had to move dates
     and locations around. The gal in Adkins is not available for October after all."* ⚠️ **$30 was already
     paid for it** and is still held (see the refund item below).
@@ -105,19 +106,39 @@ own messages.** What actually happened, in order:
   - **Oct 31 — CANCELLED by the organiser on 2026-10-13:** *"I decided to take Halloween off so I can
     take my son out."* ⛔ **So Oct 31 does not exist**, and the long-running
     ⬜ *"confirm Oct 31's hours"* item is **moot — struck.** There is no market to have hours.
-  - **Oct 30 — STILL ON.** *"So I have you down for the 30th."* **This is the whole of October.**
-  ⚠️ **CONSEQUENCE: OCT 30 IS THE ONLY HALLOWEEN-TIMED TABLE THAT WILL EXIST.** The earlier note here
-  said the Witching Hour Crossbody's best possible day was Halloween Saturday and that the **$25 markdown
-  belonged at the end of Oct 31**. ⛔ **That is void. The markdown now belongs at the end of OCT 30**, a
-  Friday night market, 5–11pm. **Same for the nine fall and Halloween bows** — made in September for a
-  crowd that now gets exactly one table, after which Halloween stock is dead until it is freight.
-  ✅ **One upside: the back-to-back Oct 30 + Oct 31 pair is gone**, which was flagged here as two loads,
-  two setups and two teardowns inside eighteen hours on a borrowed canopy. That risk has removed itself.
-  📌 **Remaining selling days in Texas, total: Oct 30 · Nov 13 (undecided) · Nov 14.** Three, one of them
-  not yet agreed — against a van that has to be filled or emptied by **Nov 25**.
+  - **Oct 30 — ⛔ CANCELLED BY THE ORGANISER FOR WEATHER, on the day** (confirmed by the owner
+    2026-10-31): *"I also had to cancel today's event due to the weather."* This was the last one
+    standing and the only Halloween-timed table of the year. ⚠️ **$30 was paid for it too**, so the
+    October organiser now holds **$60**, not $30 — see the refund item below.
+  ⚠️⚠️ **CONSEQUENCE 1: THE HALLOWEEN AND FALL STOCK NEVER GOT A TABLE AT ALL.** Every earlier version
+  of this note was about *which* day it would sell on; there is no day. The **Witching Hour Crossbody**
+  and the **nine fall and Halloween bows**, all made in September for this run, have now **missed their
+  season entirely** — and the **$25 markdown trigger, moved twice, simply never fired**.
+  ⭐ **RECOMMENDED: CARRY THE HALLOWEEN PIECES, SELL THE FALL ONES.** The markdown was written for
+  stock that had **failed on a table**; this stock was **never shown to anybody**, which is a different
+  thing. Never-shown is not unsellable, it is early. The pieces are small and light, freight costs
+  effectively nothing, and they are worth **full price again in eleven months** in a new market that has
+  never seen them. ⛔ **Discounting them now converts a timing problem into a permanent loss.**
+  Marking down online today is the weakest option of all — **Halloween is today**, so nothing would
+  arrive in time to be worn.
+  📌 **The split is clean: the Halloween-specific pieces travel; the FALL bows go to Nov 14 at full
+  price**, since plaids and ambers read as autumn right through November. Detail in the Nov 14 entry.
+  ⚠️⚠️ **CONSEQUENCE 2: EVERYTHING NOW RIDES ON NOV 14 AND ONLINE.** Remaining selling days in Texas:
+  **Nov 13 (undecided) · Nov 14.** Two, one of them not yet agreed, against a van that has to be
+  filled or emptied by **Nov 25**. ⛔ **This makes the Nov 13 school popup a materially bigger decision
+  than when it was parked** — it was optional against three remaining days and is now half of what is
+  left. **Christmas stock, balsam sachets, wrap squares and gift card holders have exactly one
+  confirmed table.**
+  ⚠️ **CONSEQUENCE 3: THE CANOPY WEIGHTS WERE NEVER WEIGHED.** That job was pinned to the Oct 30
+  set-up. **Nov 14 carries a hard minimum of 20 lb per leg, 40 preferred**, on a borrowed canopy —
+  see the Nov 14 entry. ⬜ **Weigh them at home this week.** There is no longer a dress rehearsal.
+  📌 **None of this was avoidable from here.** Two organiser cancellations, one weather cancellation
+  and one family emergency is not a planning failure — but it does mean **October was budgeted as a
+  selling month and returned nothing**, which is the number that matters for the move.
 
-💵 ✅⬜ **$30 REFUND AGREED 2026-10-31 — BUT NOT YET IN HAND. DUE "SOMETIME NEXT WEEKEND" (Nov 7–8).**
-  **Outcome is at the bottom of this item; the history below is why the third ask worked.**
+💵 ✅⬜ **$60 IS HELD BY THE OCTOBER ORGANISER. $30 of it is REFUND-AGREED (2026-10-31) and due
+"sometime next weekend" (Nov 7–8); the other $30 — the weather-cancelled Oct 30 — HAS NOT BEEN ASKED
+FOR YET.** **Outcome is at the bottom of this item; the history below is why the third ask worked.**
   The Oct 10 booth was **paid in full and then the organiser moved the date**; Oct 31 was cancelled after
   it. She offered to transfer the paid day to any October, November or December date, but **every one of
   them falls after the move**, so there is nothing to transfer it to. **The fair outcome is a refund — the
@@ -161,12 +182,18 @@ own messages.** What actually happened, in order:
   ⛔ **THE "ASK AT FRIDAY CHECK-IN" FALLBACK IS GONE** — that assumed Oct 30 put them in the same room.
   **Every remaining contact is a DM.** ⬜ **Chase Mon 9 Nov**, warm and short; ⬜ **final chase Mon 16 Nov**;
   ⛔ **written off after Nov 25.**
-  ❓ ⬜ **UNRESOLVED AND POSSIBLY WORTH A SECOND $30:** the same message says *"I also had to cancel
-  today's event due to the weather."* At 1:38am on Sat Oct 31 that could mean **the Fri Oct 30 night
-  market** — separately paid ($30), and the only October table left. **If it does, $60 is outstanding,
-  the Halloween stock never got its one day, and the $25 Witching Hour markdown trigger never fired.**
-  ⚠️ **Ask for both in the SAME message if so** — one conversation, she is in a yes mood, and a weather
-  cancellation of her own event is an easier yes than Oct 10 was. The owner knows which it was.
+  ✅ **RESOLVED 2026-10-31 (owner): *"it was Friday's market."*** The weather cancellation was **Oct 30**.
+  ⛔ **SO A SECOND $30 IS OWED AND HAS NOT BEEN ASKED FOR.** Total held: **$60**.
+  🔑 ⬜ **ASK FOR BOTH IN ONE MESSAGE — TODAY, NOT NEXT WEEK.** Three reasons it has to be one message:
+  - **She is in a yes mood right now**, and that mood has a shelf life. A separate ask on Nov 9 arrives
+    cold, reads as a second hand out, and risks the goodwill holding up the first $30.
+  - ⚠️ **The Oct 30 ask is the EASIER of the two, and it should ride on the harder one.** Oct 10 needed
+    an exception to a no-refund policy. **Oct 30 is an event she cancelled herself, on the day** — the
+    vendor turned up to nothing. That is not a favour, and it does not need the moving story.
+  - **It is one Cash App transfer instead of two.** Making it $60 in one send is less work for her, not
+    more, which is the whole argument for bundling it.
+  ⚠️ **Do not re-litigate Oct 10 while asking** — that one is agreed. Mention it only as "the two
+  together", so the agreed half carries the new half rather than reopening it.
   - ⏭️ **OVERTAKEN — both notes that used to sit here have expired (2026-10-27).** The "fourteen days of
     runway before Oct 24" is spent and Oct 24 was not attended; the **"decide what the table is for"**
     deadline that rode on it passed unanswered. ⛔ **The question has not gone away — it has got smaller
@@ -1854,12 +1881,21 @@ Two rules that keep this useful:
         — that is **80 lb minimum, 160 lb preferred**, on a canopy that is **borrowed**. 📌 This repo already
         warned that *"weights are rarely lent with it — people lend the frame, not 100 lb of ballast"*, and
         "she owns weights" was recorded **without ever writing down how heavy they are.**
-        ⬜ **WEIGH THEM — the number, not an impression — while the canopy is up at the Oct 30 night market.**
-        If they fall short there is a fortnight to fix it, and the same canopy is up at both markets.
+        ⬜ ⛔ **WEIGH THEM AT HOME THIS WEEK — the number, not an impression.** This was pinned to the
+        Oct 30 set-up; **Oct 30 was cancelled for weather, so there is no dress rehearsal left.** Nov 14
+        is now both the test and the event. ⚠️ **Bathroom scales, one weight at a time** — if they come
+        in under 20 lb a leg there is still a fortnight to buy or fill more, and ⛔ **almost nothing can
+        be done about it at 7am on the day.**
         ✅ **Shade confirmed as NOT guaranteed:** *"some may not be under shade trees so be prepared."*
         🍂 **THE TABLE ITSELF: this is the LAST market in Texas, so it is the final conversion of stock into
         cash rather than freight.** An autumn mercado suits the **fall bows at full price**; ⛔ **the Halloween
-        ones died on Oct 31** and belong in the markdown basket, not the display. Mid-November also opens
+        ones died on Oct 31 having never been shown** — Oct 30 was weather-cancelled, so this stock has
+        never met a customer. ⚠️ **That changes the call: unsold-at-a-market is markdown stock, but
+        never-shown is just early.** They are small and light, they cost nothing to freight, and they
+        are worth full price again in eleven months. **Carrying the Halloween bows and the Witching Hour
+        Crossbody to Virginia is now the better answer than discounting them on a table where they are
+        out of season anyway.** The **fall** bows still go to Nov 14 at full price — plaids and ambers
+        read as autumn right through November. Mid-November also opens
         Christmas shopping and **Thanksgiving is Nov 26**, so the Christmas stock, balsam sachets and wrap
         squares land on exactly the right weekend.
   - [ ] 🆕 **TO ORDER (owner, 2026-09-20):**

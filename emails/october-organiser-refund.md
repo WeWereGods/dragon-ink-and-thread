@@ -170,3 +170,56 @@ only October market left and was separately paid ($30), or something else on the
   > come back the same way? Whenever's easiest.*
 
 **The owner knows which it was. Confirm before acting.**
+
+---
+
+# ⛔ CONFIRMED 2026-10-31 — IT WAS FRIDAY'S MARKET. THE TOTAL IS $60.
+
+Owner: *"yes it was friday's market."* So the weather cancellation was **Fri Oct 30** — the last
+October market standing, and separately paid. **The organiser holds $60, not $30**, and only half of
+it has been asked for.
+
+## 🔑 ONE MESSAGE, TODAY — not a second ask next week
+
+- **The yes mood has a shelf life.** A fresh ask on Nov 9 arrives cold, reads as a second hand out,
+  and puts the already-agreed $30 at risk.
+- ⚠️ **The Oct 30 ask is the EASIER of the two and should ride on the harder one.** Oct 10 needed an
+  exception to a stated no-refund policy. **Oct 30 is an event she cancelled herself, on the day** —
+  the vendor paid and got nothing. That needs no favour and no moving story.
+- **It is one transfer instead of two**, which makes it less work for her, not more. That is the
+  argument, and it is the frame the message should use.
+
+⚠️ **Do not re-argue Oct 10.** It is agreed. Referring to "the two together" lets the settled half
+carry the new half; explaining it again invites it to be reopened.
+
+## The message to send
+
+> Oh no — I'm so sorry, that's a lot landing at once. 💖 And thank you, genuinely — I really
+> appreciate you making an exception for me.
+>
+> Next weekend is perfect, no rush at all. My Cash App is **$[handle]**.
+>
+> One thing while I've got you — I'd paid for the 30th as well, so would it be easiest just to send
+> the two together? **$60 in one go**, whenever suits you.
+>
+> Hope things settle down for you soon! 🧡
+
+📌 **"Would it be easiest to send the two together"** frames the second $30 as a convenience to *her*
+rather than an extra demand — and **naming $60 plainly** means it cannot quietly become $30 later.
+
+## ⚠️ If she offers to roll the Oct 30 fee to a future date
+
+**This is the same trap that ate the first two asks** — a redirect to alternative dates instead of a
+yes or no. The answer is the same and should be just as warm:
+
+> *I wish I could! We're out of state from the 25th though, so there's nothing left for me to move it
+> to — that's the only reason I'm asking for it back.*
+
+⛔ **Do not accept a credit, a rolled-over date, or a "next season" promise.** None of them survive
+the move, and a credit is a refund you have agreed not to receive.
+
+## 💵 What is actually at stake now
+
+**$60 is the single largest recoverable sum left in Texas**, and October returned no market income to
+offset it. ⚠️ **It is still not worth souring** — if the answer on the second $30 is no, take it. One
+agreed refund in hand beats two argued over.
