@@ -140,11 +140,21 @@ one, now none. What actually happened, in order:
   ⚠️ **This matters far beyond Nov 14.** After **Nov 25 there is no market channel at all** until she
   is set up in Virginia — so **December is the website alone**, and December is **the shop's first
   Christmas since opening** and the strongest selling month this stock will ever see.
-  ⬜ **LIST THE CHRISTMAS PIECES BEFORE THE VAN IS PACKED.** Bows are an existing category, so it is
-  mostly photos and data entry — but it is the **full 11-step ADDING A NEW PIECE checklist** in
-  CLAUDE.md, including `PRICES` in the Worker and `wrangler deploy`, **three steps of which fail
-  silently.** ⚠️ **It also needs an `AWAY` window for the move itself**, in js/dates.js *and* the
-  Worker's own copy, or the site promises 1–3 day posting while the stock is in a van.
+  ⛔ **BLOCKED AND DROPPED, SAME DAY (owner, 2026-10-31): *"in the middle of moving so pictures aren't
+  an option."*** Checked `assets/` against shop-data — **there are no existing photos of the Christmas
+  bows, the balsam sachets or the wrap squares.** Step 0 of the checklist is a photo, so the whole
+  thing is blocked at the first step. ✅ **Correctly dropped — it is a good idea at a bad time**, and
+  the stock is not perishable. **Do not re-raise it before the move.** The pieces go to Nov 14 and then
+  travel; Christmas 2027 exists, in a market that has never seen them.
+  ⚠️ **ONE EXCEPTION WORTH KNOWING: BALSAM SACHETS FADE.** Needle fill loses its scent over months, so
+  a sachet carried to Christmas 2027 is a sachet that does not smell of anything. ⛔ **Unlike the bows,
+  these do not keep** — **sell them at Nov 14** rather than packing them, and discount rather than
+  carry. (Owner's call; she will know how strong they still are.)
+  ⬜ **STILL NEEDED BEFORE THE VAN, AND IT NEEDS NO PHOTOS: an `AWAY` window for the move** — in
+  `js/dates.js` **and** the Worker's own copy, then `wrangler deploy`. Without it the site keeps
+  promising **1–3 business day posting** and **San Antonio local pickup** while the stock is in a van.
+  📌 **It needs two dates and only the owner has them:** the last day she can post, and the day she can
+  post again from Virginia. **Ask once she has landed, not now.**
   ⚠️ **CONSEQUENCE 3: THE CANOPY WEIGHTS WERE NEVER WEIGHED.** That job was pinned to the Oct 30
   set-up. **Nov 14 carries a hard minimum of 20 lb per leg, 40 preferred**, on a borrowed canopy —
   see the Nov 14 entry. ⬜ **Weigh them at home this week.** There is no longer a dress rehearsal.
