@@ -90,3 +90,83 @@ the Oct 10 one is not among them. **It decides whether "no" is actually the end:
 dispute windows are typically 60–120 days and the clock started in September.
 ⚠️ **Do not open a dispute before asking, or before Friday.** A chargeback against someone whose
 market you are standing in is a bad trade for $30.
+
+---
+
+# ✅ ANSWERED 2026-10-31 — SHE SAID YES
+
+Reply came in at **1:38am**, after six days of silence and a third ask. Verbatim, in part:
+
+> *"Yes, it's been pretty hectic, especially in my personal life. I also had to cancel today's event due
+> to the weather. Typically there are no refunds but I know you are moving, so I can honor it this time,
+> however, if I could get that to you sometime next weekend. Need to collect vendors fees for my upcoming
+> event, and as soon as I get CashApp, I'll send over the fee."*
+
+📌 **The ask worked, and it worked for the reason it was rebuilt.** The door to alternative dates was
+closed inside the question, so there was nothing left to redirect to — and the answer came back binary.
+Third attempt, first answer. ⚠️ **Note what carried it: "I know you are moving."** The move was the
+lever, not fairness. Keep that in mind for anything else owed before Nov 25.
+
+## ⚠️ It is a YES with three conditions attached — none of them met yet
+
+1. **Timing: "sometime next weekend"** = **Sat 7 / Sun 8 November**. Inside the Nov 25 deadline, with
+   about a fortnight of margin. Acceptable.
+2. **Method: Cash App.** ⚠️ Receiving by Cash App is fine; it also means **there is no dispute lever on
+   the refund itself** — it is goodwill all the way down, and goodwill that is already extended as an
+   exception to a stated no-refund policy. **Do not press it hard.**
+3. ⚠️ **It is framed as an exception, not an obligation** — *"typically there are no refunds... I can
+   honor it this time."* Which means a chase has to stay warm or it can be withdrawn.
+
+## 🔑 THE ONE ACTION: SEND THE CASH APP HANDLE NOW, UNPROMPTED
+
+*"as soon as I get CashApp, I'll send over the fee"* reads two ways, and **it does not matter which**:
+
+- *"as soon as I get [your] Cash App [tag]"* → ⛔ **the handle is the blocker**, and nobody has sent it.
+- *"as soon as I get [the vendor fees via] Cash App"* → the refund is funded out of money she has not
+  collected yet, and the handle is the next step regardless.
+
+**Sending it unprompted clears the first reading entirely and saves a round trip on the second.** It is
+also the warmest possible reply to a yes: no chasing, just making it easy.
+
+⚠️ **Under the second reading, the refund depends on other vendors paying her.** That is the real risk —
+not bad faith, just a payment that is waiting on a payment. It is the kind of promise that quietly does
+not happen, which is why the chase date below exists.
+
+## The reply to send
+
+> Oh no — I'm so sorry, that's a lot landing at once. 💖 And thank you, genuinely — I really appreciate
+> you making an exception for me.
+>
+> Next weekend is perfect, no rush at all. My Cash App is **$[handle]** so it's there whenever you get to it.
+>
+> Hope things settle down for you soon! 🧡
+
+📌 **No deadline named, no pressure, no mention of the policy.** The date is hers; repeating it back
+would read as a demand. She has already agreed — the only job left is to be easy to pay.
+
+## ⬜ THE CHASE PLAN — and the old fallback is GONE
+
+⛔ **"Ask at Friday check-in" no longer exists.** That plan assumed Oct 30 put them in the same room;
+whatever happened with that market, it has now passed. **Every remaining contact is a DM.**
+
+- ⬜ **Mon 9 November** — if nothing has arrived, one warm line. *"No rush at all, just checking it
+  didn't get lost — did the Cash App go through alright?"*
+- ⬜ **Mon 16 November** — second and final chase, same register.
+- ⛔ **After Nov 25 it is written off.** Chasing $30 from another state costs more than $30.
+
+## ❓ OPEN — *"I also had to cancel today's event due to the weather"*
+
+⚠️ **UNRESOLVED, AND IT MAY BE WORTH A SECOND $30.** The message arrived at 1:38am on Sat 2026-10-31.
+"Today's event" is ambiguous at that hour — it could be the **Fri Oct 30 night market**, which was the
+only October market left and was separately paid ($30), or something else on the Saturday.
+
+- **If Oct 30 was cancelled for weather**, then **$60 is outstanding, not $30**, the Halloween stock
+  never had its one table, and the $25 Witching Hour markdown trigger never happened.
+- ⚠️ **If so, ask for both in the SAME message** — she is in a yes mood, it is one conversation, and a
+  weather cancellation of her own event is an easier yes than the Oct 10 one was. **A second ask a week
+  later is a much worse ask than a second line today.**
+- Line to add, if it applies:
+  > *Was that the Friday night market? I'd paid for the 30th as well — if that one's off too, could it
+  > come back the same way? Whenever's easiest.*
+
+**The owner knows which it was. Confirm before acting.**

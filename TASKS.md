@@ -116,7 +116,8 @@ own messages.** What actually happened, in order:
   📌 **Remaining selling days in Texas, total: Oct 30 · Nov 13 (undecided) · Nov 14.** Three, one of them
   not yet agreed — against a van that has to be filled or emptied by **Nov 25**.
 
-💵 ⬜ **$30 IS STILL HELD BY THE OCTOBER ORGANISER — ASK ONCE MORE BEFORE THE MOVE (2026-10-27).**
+💵 ✅⬜ **$30 REFUND AGREED 2026-10-31 — BUT NOT YET IN HAND. DUE "SOMETIME NEXT WEEKEND" (Nov 7–8).**
+  **Outcome is at the bottom of this item; the history below is why the third ask worked.**
   The Oct 10 booth was **paid in full and then the organiser moved the date**; Oct 31 was cancelled after
   it. She offered to transfer the paid day to any October, November or December date, but **every one of
   them falls after the move**, so there is nothing to transfer it to. **The fair outcome is a refund — the
@@ -140,7 +141,32 @@ own messages.** What actually happened, in order:
   📌 **Keep it warm — Oct 30 is still her market** and the goodwill has to survive Friday. Draft is in
   `emails/october-organiser-refund.md`.
   ✅ **SENT 2026-10-27** (owner), as a clean refund ask with the alternative-dates door closed inside the
-  question. ⬜ **If no answer by Thu 29th, ask at Friday check-in** — last time they are in the same place.
+  question.
+  ✅ **ANSWERED 2026-10-31, 1:38am — SHE SAID YES.** *"Typically there are no refunds but I know you are
+  moving, so I can honor it this time, however, if I could get that to you sometime next weekend. Need to
+  collect vendors fees for my upcoming event, and as soon as I get CashApp, I'll send over the fee."*
+  🔑 **Third ask, first answer — and it was the rebuild that did it.** Closing the alternative-dates door
+  inside the question left nothing to redirect to. ⚠️ **But the lever was "I know you are moving," not
+  fairness.** Worth remembering for anything else owed before Nov 25.
+  ⚠️ **A YES WITH CONDITIONS, NONE OF THEM MET YET:** paid **by Cash App**, **"sometime next weekend"**
+  (Sat 7 / Sun 8 Nov), and explicitly **as an exception to a stated no-refund policy** — so a chase has to
+  stay warm or it can be withdrawn. Receiving by Cash App also means **there is no dispute lever on the
+  refund itself**; it is goodwill all the way down. The open question about how the original $30 was paid
+  is now **moot unless she reneges**.
+  🔑 ⬜ **SEND THE CASH APP HANDLE NOW, UNPROMPTED.** *"as soon as I get CashApp"* reads either as *her*
+  needing the handle or as her waiting on other vendors' fees — **and it does not matter which**: the
+  first reading means the handle is the only blocker, the second means it is the next step anyway.
+  ⚠️ Under the second reading **the refund is funded by money she has not collected yet**, which is the
+  kind of promise that quietly does not happen.
+  ⛔ **THE "ASK AT FRIDAY CHECK-IN" FALLBACK IS GONE** — that assumed Oct 30 put them in the same room.
+  **Every remaining contact is a DM.** ⬜ **Chase Mon 9 Nov**, warm and short; ⬜ **final chase Mon 16 Nov**;
+  ⛔ **written off after Nov 25.**
+  ❓ ⬜ **UNRESOLVED AND POSSIBLY WORTH A SECOND $30:** the same message says *"I also had to cancel
+  today's event due to the weather."* At 1:38am on Sat Oct 31 that could mean **the Fri Oct 30 night
+  market** — separately paid ($30), and the only October table left. **If it does, $60 is outstanding,
+  the Halloween stock never got its one day, and the $25 Witching Hour markdown trigger never fired.**
+  ⚠️ **Ask for both in the SAME message if so** — one conversation, she is in a yes mood, and a weather
+  cancellation of her own event is an easier yes than Oct 10 was. The owner knows which it was.
   - ⏭️ **OVERTAKEN — both notes that used to sit here have expired (2026-10-27).** The "fourteen days of
     runway before Oct 24" is spent and Oct 24 was not attended; the **"decide what the table is for"**
     deadline that rode on it passed unanswered. ⛔ **The question has not gone away — it has got smaller
