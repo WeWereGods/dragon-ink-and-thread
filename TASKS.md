@@ -129,6 +129,22 @@ one, now none. What actually happened, in order:
   than when it was parked** — it was optional against three remaining days and is now half of what is
   left. **Christmas stock, balsam sachets, wrap squares and gift card holders have exactly one
   confirmed table.**
+  ✅ **NOV 14 RE-CONFIRMED STILL ON (owner, 2026-10-31).** Different organiser, different venue — the
+  Oct 30 weather cancellation says nothing about it. 📌 **Next checkpoint is the vendor email promised
+  for Fri 6 Nov, which carries the forecast.** ⚠️ **Weather is now a demonstrated risk, not a
+  theoretical one**, and Nov 14 is a single point of failure for the entire remaining Texas season.
+  ⛔⛔ **THE REAL GAP, FOUND 2026-10-31: THE CHRISTMAS STOCK IS NOT ON THE WEBSITE.** Checked against
+  js/shop-data.js — **the only festive thing listed is the two $10 gift card holders.** The **nine
+  Christmas bows, the balsam fir sachets and the wrap squares exist as physical objects with one table
+  and no listing.**
+  ⚠️ **This matters far beyond Nov 14.** After **Nov 25 there is no market channel at all** until she
+  is set up in Virginia — so **December is the website alone**, and December is **the shop's first
+  Christmas since opening** and the strongest selling month this stock will ever see.
+  ⬜ **LIST THE CHRISTMAS PIECES BEFORE THE VAN IS PACKED.** Bows are an existing category, so it is
+  mostly photos and data entry — but it is the **full 11-step ADDING A NEW PIECE checklist** in
+  CLAUDE.md, including `PRICES` in the Worker and `wrangler deploy`, **three steps of which fail
+  silently.** ⚠️ **It also needs an `AWAY` window for the move itself**, in js/dates.js *and* the
+  Worker's own copy, or the site promises 1–3 day posting while the stock is in a van.
   ⚠️ **CONSEQUENCE 3: THE CANOPY WEIGHTS WERE NEVER WEIGHED.** That job was pinned to the Oct 30
   set-up. **Nov 14 carries a hard minimum of 20 lb per leg, 40 preferred**, on a borrowed canopy —
   see the Nov 14 entry. ⬜ **Weigh them at home this week.** There is no longer a dress rehearsal.
