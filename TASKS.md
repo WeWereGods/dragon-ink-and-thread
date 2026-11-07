@@ -31,8 +31,15 @@ which may no longer be true, and the LLC domestication / tax-permit timing shift
 
 ### 🎀 OWED TO A CUSTOMER — the cheer-bow commission (enquiry 2026-11-07)
 
-⬜ **REPLY TO IRENE.** Custom form enquiry: she wants her **old cheerleading warm-ups cut into memorabilia
-cheer bows** for a **shadow box — display only, not for wearing**. Draft reply is written; her contact details
+✅ **REPLIED 2026-11-07 (owner sent it).** Short reply: yes, and the two things needed to quote — **how many bows**
+and **her deadline** — plus a request for a photo so the logo and lettering can be placed. ⚠️ **The terms were
+deliberately NOT in the first reply.** A disclosure list in a first email reads as a shop bracing for a dispute;
+the irreversible-cutting line belongs on the quote and the invoice, where it is actually binding.
+
+⬜ **WAITING ON HER ANSWER — then quote.** Nothing moves until she says how many and by when.
+
+📌 Custom form enquiry: she wants her **old cheerleading warm-ups cut into memorabilia
+cheer bows** for a **shadow box — display only, not for wearing**. ⚠️ Her contact details
 are deliberately NOT in this file (public repo) — they are in the Web3Forms email.
 
 ✅ **TIMING WORKS, now the move is after January.** Posted ~Nov 10–14, arriving ~Nov 14–18, 10–14 days from
