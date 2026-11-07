@@ -117,7 +117,9 @@ const AWAY = [
      different in kind from a trip: she is not coming back to San Antonio, so local
      pickup is REMOVED for this window rather than relabelled — nobody can collect
      from an address she has left. Shipping stays on, and says it is slower. */
-  { from: "2026-11-25T00:00:00-06:00", to: "2026-12-20T23:59:59-05:00", back: "Dec 21", moving: true },
+  /* ⛔ WINDOW PULLED 2026-11-07 (owner): the move is now after January, dates unknown.
+     Mirrors js/dates.js — change both together, then `wrangler deploy`.
+  { from: "2027-0?-??T00:00:00-06:00", to: "2027-0?-??T23:59:59-05:00", back: "?", moving: true }, */
   /* The earlier unconfirmed version of this trip was never added — it was a maybe, and
      this label is a promise about when a customer can collect. To add a real trip:
      one more { from, to, back } here AND in js/dates.js, then `wrangler deploy`. */

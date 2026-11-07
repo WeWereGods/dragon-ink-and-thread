@@ -1,7 +1,68 @@
 # Tasks — Dragon Ink and Thread
 
 Working list. Tick things off, delete them when they're stale, add as you go.
-**Last reviewed: 2026-09-26.**
+**Last reviewed: 2026-11-07.**
+
+### 🚚 THE MOVE SLIPPED — "we aren't moving until after January now" (owner, 2026-11-07)
+
+⛔⛔ **THE SITE WAS 18 DAYS FROM ANNOUNCING A MOVE THAT ISN'T HAPPENING.** `AWAY` carried
+**Nov 25 – Dec 20, `moving: true`**, which would have switched itself on unprompted on Nov 25 and told every
+visitor that making and posting runs **2–3 weeks longer** — ⚠️ **through the entire Christmas season**, the one
+stretch of the year where that sentence costs the most. It needed no deploy to appear and a deploy to remove.
+✅ **Pulled from all three places 2026-11-07.** The windows are commented out, not deleted, with the shape ready
+to paste back:
+  - ✅ `js/dates.js` — the `AWAY` object.
+  - ✅ `worker/checkout-worker.js` — its own copy, which relabels local pickup. ⬜ **NEEDS `wrangler deploy`** —
+    until that runs, the Worker is still carrying the dead window:
+    `cd C:Usersprittdragon-ink-and-threadworker; wrangler deploy`
+  - ✅ `custom.html` — the notice named the dates **in prose** and does not auto-update, so it came out by hand.
+⬜ **NEW DATES NEEDED WHENEVER THEY FIRM UP.** Deliberately not guessed — this file's own rule is that an away
+banner only ever describes travel that is actually happening, and the last version of these dates was kept off
+the site until confirmed for exactly this reason. Put the window back in **dates.js + the Worker + custom.html**
+together, then deploy.
+
+🎄 **CONSEQUENCE: THE CHRISTMAS STOCK IS UNBLOCKED.** Listing it was dropped on 2026-10-31 solely because
+*"in the middle of moving so pictures aren't an option."* **That blocker is gone** — and the festive bows, balsam
+sachets and wrap squares now have a full season in front of them instead of being packed. ⚠️ **Still needs
+photos**, which is the only thing that ever stopped it. Worth raising once the Nov 14 market is behind her.
+
+📌 **Other things pinned to the old date are worth re-checking**: Nov 14 was logged as the LAST Texas market,
+which may no longer be true, and the LLC domestication / tax-permit timing shifts with the move.
+
+### 🎀 OWED TO A CUSTOMER — the cheer-bow commission (enquiry 2026-11-07)
+
+⬜ **REPLY TO IRENE.** Custom form enquiry: she wants her **old cheerleading warm-ups cut into memorabilia
+cheer bows** for a **shadow box — display only, not for wearing**. Draft reply is written; her contact details
+are deliberately NOT in this file (public repo) — they are in the Web3Forms email.
+
+✅ **TIMING WORKS, now the move is after January.** Posted ~Nov 10–14, arriving ~Nov 14–18, 10–14 days from
+arrival puts this at **~Nov 28 – Dec 2 — before Christmas with room to spare.** ⚠️ **The reply says so**, because
+a memorabilia piece from a daughter's warm-ups is a Christmas gift more often than not and she should be told
+it is possible rather than left to ask. Only the Nov 14 market sits in the way.
+  - 📌 **Had the move stood at Nov 25 this was the wrong job to take** — finishing would have landed on the
+    packing, with irreplaceable garments in a house going into a van. Worth remembering if the new dates land
+    near a live commission.
+
+⚠️ **NOT THE PUBLISHED $13–20 BOW BAND — different construction tier.** That band assumes shop fabric and simple
+construction. This is customer-supplied, irreplaceable, irreversible, needs **interfacing on every piece**
+(athletic knit stretches and frays), and the cuts have to be planned around the logo and lettering.
+**Quote $25–35 each**, softening per bow if there are several.
+  - 🔍 **FIFTH category asked for before it was priced** — after book sleeves, home pieces, repairs and quilts.
+    **Settle it at the January rebrand, before the next one is asked for.** If published, it goes in all eight places.
+  - ✅ **Display-only removes the risk that killed the wool memory quilt.** No washing, no wear — the disclosure
+    that lost that enquiry does not apply here.
+
+📋 **Invoice terms when it gets that far** (`emails/custom-order-terms.md`): blocks **1** (irreversible — name the
+actual garments, not "your items"), **2** (leftovers returned with the finished piece), **3** (customer-supplied),
+**5** (clock starts on arrival), **6** (scope locked to the drawing), **7** (final sale).
+  - **Block 4 (acid-free board) is ADVICE here, not a term** — she is building the shadow box herself, so ordinary
+    mat board is her risk to avoid and worth telling her about unprompted.
+  - **NEST15 applies to custom but is NOT automatic on a Stripe invoice** — apply the 15% by hand if she asks.
+
+❓ **Four things the form did not capture** (Needed by, Inspiration and Budget were all blank): how many bows;
+what is actually on the warm-ups (logo, name, year, stripes); how many garments she is sending; the shadow box
+size, since the bows should be scaled to it. **Ask for photos before she mails anything** — the cuts can be
+planned from pictures, and nothing gets opened up before both sides have agreed what it becomes.
 
 ### 🎪 SAT SEP 26 — market day, what changed that morning
 

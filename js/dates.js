@@ -90,7 +90,18 @@
        shop stays OPEN and orders are taken as normal, but parcels wait for the boxes to
        arrive, so this window says SLOWER, not closed. `moving: true` is what makes the
        banner say that instead of the usual away wording. */
-    { from: "2026-11-25T00:00:00-06:00", to: "2026-12-20T23:59:59-05:00", back: "Monday, December 21", moving: true }
+    /* ⛔ WINDOW PULLED 2026-11-07 (owner): "we aren't moving until after January now."
+       The Nov 25 – Dec 20 dates are DEAD. Left here commented rather than guessed at,
+       because the new dates are not known yet and this file's own rule is that a banner
+       only ever describes travel that is actually happening.
+       ⚠️ WHY THIS WAS URGENT: on Nov 25 this would have switched itself on and told every
+       visitor that orders run 2–3 weeks slower — through the entire Christmas season, the
+       one stretch of the year where that sentence costs the most. It needed no deploy to
+       appear and would have needed one to remove.
+       TO PUT THE REAL MOVE BACK: one { from, to, back, moving: true } object here, the SAME
+       window in worker/checkout-worker.js, the prose on custom.html by hand, then
+       `wrangler deploy`.
+    { from: "2027-0?-??T00:00:00-06:00", to: "2027-0?-??T23:59:59-05:00", back: "?", moving: true } */
     /* The earlier UNCONFIRMED version of this trip was deliberately kept off the site until it firmed up,
        which is why nothing had to be retracted when the dates moved. An away banner
        is a promise about when a parcel moves — only ever announce travel that is
