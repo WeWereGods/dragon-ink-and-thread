@@ -212,8 +212,15 @@ rather than an extra demand — and **naming $60 plainly** means it cannot quiet
 **This is the same trap that ate the first two asks** — a redirect to alternative dates instead of a
 yes or no. The answer is the same and should be just as warm:
 
-> *I wish I could! We're out of state from the 25th though, so there's nothing left for me to move it
-> to — that's the only reason I'm asking for it back.*
+> *I wish I could! I can't commit to new dates with the move ahead of us though, so there's nothing
+> for me to move it to — that's the only reason I'm asking for it back.*
+
+⛔⛔ **THE OLD VERSION OF THIS LINE IS NOW A LIE — DO NOT USE IT.** It read *"we're out of state from the
+25th"*, written when the move was Nov 25. **The move slipped to after January (owner, 2026-11-07)**, so
+that sentence is false, and it is false to someone who may well still see her around San Antonio in
+December. ⚠️ **A moving story that turns out not to be true costs more than $60** — it is the one claim in
+this whole exchange that can be checked. The replacement above says the true thing and still closes the
+same door: she cannot commit to dates she does not have.
 
 ⛔ **Do not accept a credit, a rolled-over date, or a "next season" promise.** None of them survive
 the move, and a credit is a refund you have agreed not to receive.
@@ -223,3 +230,49 @@ the move, and a credit is a refund you have agreed not to receive.
 **$60 is the single largest recoverable sum left in Texas**, and October returned no market income to
 offset it. ⚠️ **It is still not worth souring** — if the answer on the second $30 is no, take it. One
 agreed refund in hand beats two argued over.
+
+---
+
+# 📅 THE CHASE — written 2026-11-12, the promised date has passed
+
+She said **"sometime next weekend"**, which was **Sat 7 / Sun 8 Nov**. It is **Thu 12 Nov** and nothing has
+arrived. The chase was pencilled for **Mon 9 Nov** and did not go either, so this is three days late on top.
+
+⚠️ **WHICH MESSAGE TO SEND DEPENDS ON ONE THING THE REPO CANNOT ANSWER: was the $60 message actually sent?**
+Both it and the Cash App handle were still ⬜ on Nov 7. **If the handle never went, she literally cannot pay
+— and the silence means nothing at all.** Check the DM thread before sending either version.
+
+## Version A — if the $60 ask AND the handle both went on Nov 7
+
+> Hey lovely! No rush at all, just bumping this up so it doesn't get buried — the **$60** for the 10th and
+> the 30th, whenever you get a minute. 💖
+>
+> Cash App's **$[handle]** if you need it again.
+>
+> Hope this week's been kinder than the last one! 🧡
+
+## Version B — if nothing went after her reply (the likelier case)
+
+⚠️ **This is not a chase, it is the first ask** — so it must not sound like one. No reference to a missed
+date, because she has not actually missed anything she was told how to do.
+
+> Hey! Hope things have calmed down a bit for you. 💖
+>
+> Wanted to get my Cash App over so it's there whenever you're ready — **$[handle]**.
+>
+> And one thing while I've got you: I'd paid for the 30th as well, so would it be easiest to just send the
+> two together? **$60 in one go**, whenever suits you.
+>
+> Thank you again for sorting it — I really do appreciate it. 🧡
+
+## Rules that apply to both
+
+- ⛔ **Do not mention the date she gave.** "You said last weekend" converts a goodwill exception into a
+  broken promise, and she can withdraw a goodwill exception at no cost. There is **no dispute lever on a
+  Cash App refund** — this is goodwill all the way down.
+- ⛔ **Do not re-argue Oct 10.** Agreed is agreed. "The two together" lets the settled half carry the new
+  half; explaining it again invites it to be reopened.
+- 💵 **Name $60 plainly.** Unnamed, it quietly becomes $30.
+- ⬜ **Final chase Mon 16 Nov**, then stop. ⚠️ **The old write-off date of Nov 25 was tied to the move and
+  no longer applies** — but a third chase after the 16th buys nothing and costs the goodwill.
+- ⚠️ **If the answer on the second $30 is no, take it.** One agreed refund in hand beats two argued over.
