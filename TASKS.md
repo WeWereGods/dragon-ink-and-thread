@@ -14,7 +14,7 @@ to paste back:
   - ✅ `js/dates.js` — the `AWAY` object.
   - ✅ `worker/checkout-worker.js` — its own copy, which relabels local pickup. ⬜ **NEEDS `wrangler deploy`** —
     until that runs, the Worker is still carrying the dead window:
-    `cd C:Usersprittdragon-ink-and-threadworker; wrangler deploy`
+    `cd C:\Users\pritt\dragon-ink-and-thread\worker; wrangler deploy`
   - ✅ `custom.html` — the notice named the dates **in prose** and does not auto-update, so it came out by hand.
 ⬜ **NEW DATES NEEDED WHENEVER THEY FIRM UP.** Deliberately not guessed — this file's own rule is that an away
 banner only ever describes travel that is actually happening, and the last version of these dates was kept off
