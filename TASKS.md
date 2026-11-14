@@ -48,6 +48,18 @@ exactly the case the tags were collected for and have never once been used on.
   - 📌 **Anyone who took the PDF from a group post without signing up is unreachable.** That is the real cost of
     the delay, and it is the argument for fixing it this week rather than after the move.
 
+✅ **REPLIED 2026-11-13, AND SHE WROTE BACK WARMLY (2026-11-14).** *"It kinda makes me happy for myself that I did
+follow the directions correctly even if the directions were wrong… Yes please send me an updated version."*
+🔑 ⬜ **SHE IS OWED THE CORRECTED PATTERN BY NAME, AND SHOULD GET IT BEFORE THE LIST DOES.** She found the bug;
+a correction that reaches her last is a correction she hears about from someone else.
+  - 📌 **She told us something about the audience worth keeping:** *"my old brain has to work pretty hard and
+    sewing these type things really makes it think, which is a good thing."* **This pattern is read by people who
+    are enjoying the effort, not skimming.** That is an argument for more explanation in the rewrite, not less —
+    and it is why she worked the step faithfully instead of guessing past it, which is what surfaced the error at
+    all. ⚠️ **A faster reader would have "fixed" it silently and never told us.**
+  - ⚠️ **No date was promised to her beyond "a week or two".** Keep it that way until the measurement exists; a
+    missed date on an apology is worse than the original mistake.
+
 ⬜ **REPLY TO THE CUSTOMER** — draft written 2026-11-13: owns the error, gives the channel method, and warns her
 **not to stitch her ends down until she has checked it goes over the dog's head**, since her band is already cut
 to the short chart. Offers her the corrected pattern when it lands. 🧡 **She found it — she should get it first.**
