@@ -3,6 +3,55 @@
 Working list. Tick things off, delete them when they're stale, add as you go.
 **Last reviewed: 2026-11-07.**
 
+### 🐕 ⛔⛔ THE FREE NECKERCHIEF PATTERN TEACHES THE WRONG CONSTRUCTION (found 2026-11-13)
+
+A pattern customer got stuck at the elastic step and asked *"how is the elastic going to be scrunchie?"*
+**She is right and the pattern is wrong.** ⚠️ **It is supposed to be an elasticated CHANNEL in each free end,
+gathering the band. The pattern describes a BRIDGE** — elastic tucked between the layers at each short end,
+1" inside, 6" spanning the gap, no gathering anywhere.
+
+⚠️ **THE DOCUMENT IS INTERNALLY CONSISTENT WITH THE WRONG VERSION, WHICH IS WHY NOBODY CAUGHT IT.** The step
+text, Fig. 4's caption ("8″ WITH 1″ TUCKED INSIDE EACH END") and the finished line ("loop about 27″ relaxed,
+stretching to about 33″" = 21″ band + 6″ exposed elastic) all agree with each other. **Proofreading it against
+itself would pass.** Only making one catches it.
+
+⛔⛔ **THIS IS NOT A WORDING FIX — EVERY BAND LENGTH IN THE SIZE CHART IS WRONG.** With a channel the loop can
+no longer borrow 6″ from exposed elastic; the band has to be the whole circumference, and gathering makes it
+**smaller**. At size L: 11″ body + 5″ + 5″ = **21″ of band**, shrinking to ~17″, for an 18–22″ neck that has to
+pull over the head. 📌 **The pattern's own ties variation proves the scale** — it goes from a 22″ band to 34″ to
+get 11″ of strap each side.
+
+🔑 ⬜ **BLOCKED ON ONE MEASUREMENT, OFF A BANDANA SHE HAS ACTUALLY MADE** (the Large): the free end **before**
+gathering and **after** (that ratio is the only number not derivable), the finished loop relaxed and stretched,
+and the elastic length she cuts for one side. **Everything else follows from those.** ⚠️ **Do not estimate them** —
+this was already got wrong once by reasoning from the document instead of the object.
+
+### 🐕 WHERE THE WRONG PATTERN IS PUBLISHED — all of it needs reissuing
+
+⚠️ **It has been actively promoted since 2026-09-08 and is the shop's best-reaching asset**, so this is not a
+quiet typo — per the traffic notes, Facebook group replies are the only channel that has ever worked, and this
+is the thing they hand out.
+  - ⬜ `designs/dog-neckerchief-pattern.dc.html` — **the source. Fix first; everything else is generated.**
+  - ⬜ `assets/dog-neckerchief-pattern.pdf` — re-run `tools/pattern-to-pdf.js`
+  - ⬜ `pattern-dog-neckerchief.html` — re-run `tools/build-patterns.js` (reads js/patterns-data.js)
+  - ⬜ `assets/pins/pin-free-pattern-neckerchief.jpg` — re-run `tools/build-pin-images.js`. ⚠️ **A Pinterest pin
+    is an image already in circulation**; a corrected file does not reach anyone who saved the old one.
+  - ⬜ `designs/neckerchief-elastic-help.svg` — **the diagram drawn 2026-11-13 shows the BRIDGE and is wrong.**
+    Redraw it for the channel, or delete it. ⛔ **Do not send it to anyone meanwhile.**
+  - ⬜ **Pause canned replies ① and ② in `marketing/facebook-groups.md`** and the queued post in
+    `marketing/single-post-queue.md` — both link straight at it. **Stop handing it out before fixing it.**
+
+✅ **THERE IS A RECOVERY PATH, AND IT IS THE REASON THE TAG EXISTS: Buttondown `pattern-neckerchief`.**
+Everyone who downloaded it through the site is on that tag and **can be emailed the corrected version**. ⚠️ Use
+`node tools/buttondown-report.js` to see how many — it is the only way to read the list back, and this is
+exactly the case the tags were collected for and have never once been used on.
+  - 📌 **Anyone who took the PDF from a group post without signing up is unreachable.** That is the real cost of
+    the delay, and it is the argument for fixing it this week rather than after the move.
+
+⬜ **REPLY TO THE CUSTOMER** — draft written 2026-11-13: owns the error, gives the channel method, and warns her
+**not to stitch her ends down until she has checked it goes over the dog's head**, since her band is already cut
+to the short chart. Offers her the corrected pattern when it lands. 🧡 **She found it — she should get it first.**
+
 ### 🚚 THE MOVE SLIPPED — "we aren't moving until after January now" (owner, 2026-11-07)
 
 ⛔⛔ **THE SITE WAS 18 DAYS FROM ANNOUNCING A MOVE THAT ISN'T HAPPENING.** `AWAY` carried
