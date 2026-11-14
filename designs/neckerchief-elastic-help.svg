@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800" width="900" height="800" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="900" height="800" fill="#f7efe2"/>
+
+  <text x="450" y="44" text-anchor="middle" font-size="26" fill="#4E5839">Where the elastic goes</text>
+  <text x="450" y="70" text-anchor="middle" font-size="15" fill="#7a6a52" font-style="italic">It bridges the two ends of the band &#8212; it does not gather the band.</text>
+  <line x1="340" y1="86" x2="560" y2="86" stroke="#938858" stroke-width="1"/>
+
+  <!-- ============ PANEL 1 : FLAT ============ -->
+  <text x="56" y="128" font-size="15.5" fill="#4E5839" letter-spacing="1.6">1 &#183; FLAT, BEFORE YOU JOIN IT</text>
+
+  <!-- free-band measures, above -->
+  <line x1="202" y1="158" x2="322" y2="158" stroke="#938858" stroke-width="1"/>
+  <line x1="578" y1="158" x2="698" y2="158" stroke="#938858" stroke-width="1"/>
+  <text x="262" y="152" text-anchor="middle" font-size="11.5" fill="#938858">5&#8243; free</text>
+  <text x="638" y="152" text-anchor="middle" font-size="11.5" fill="#938858">5&#8243; free</text>
+
+  <!-- elastic: exposed tails first -->
+  <rect x="120" y="178" width="82" height="19" rx="9.5" fill="#9bb07a" stroke="#4E5839" stroke-width="1.4"/>
+  <rect x="698" y="178" width="82" height="19" rx="9.5" fill="#9bb07a" stroke="#4E5839" stroke-width="1.4"/>
+
+  <!-- band over the top -->
+  <rect x="200" y="168" width="500" height="38" fill="#fffaf0" stroke="#4E5839" stroke-width="2.2"/>
+  <line x1="200" y1="199" x2="700" y2="199" stroke="#7B322C" stroke-width="1.3" stroke-dasharray="7 5"/>
+
+  <!-- hidden 1in of elastic inside each end -->
+  <rect x="200" y="178" width="24" height="19" rx="6" fill="none" stroke="#4E5839" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <rect x="676" y="178" width="24" height="19" rx="6" fill="none" stroke="#4E5839" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="212" y="228" text-anchor="middle" font-size="10.5" fill="#4E5839">1&#8243;</text>
+  <text x="688" y="228" text-anchor="middle" font-size="10.5" fill="#4E5839">1&#8243;</text>
+  <text x="161" y="171" text-anchor="middle" font-size="11.5" fill="#4E5839">elastic</text>
+  <text x="739" y="171" text-anchor="middle" font-size="11.5" fill="#4E5839">elastic</text>
+
+  <!-- body triangle centred, hanging below -->
+  <path d="M 320 206 L 580 206 L 450 340 Z" fill="#fde9d8" stroke="#4E5839" stroke-width="2"/>
+  <text x="450" y="252" text-anchor="middle" font-size="13" fill="#4E5839">body, centred</text>
+  <text x="450" y="271" text-anchor="middle" font-size="11.5" fill="#7a6a52">the middle 11&#8243;</text>
+
+  <text x="56" y="300" font-size="13" fill="#7a6a52">Elastic is 8&#8243; long.</text>
+  <text x="56" y="320" font-size="13" fill="#7a6a52">1&#8243; hides inside each</text>
+  <text x="56" y="340" font-size="13" fill="#7a6a52">end, leaving 6&#8243;</text>
+  <text x="56" y="360" font-size="13" fill="#7a6a52">showing between them.</text>
+
+  <text x="450" y="372" text-anchor="middle" font-size="12.5" fill="#7B322C">dashed red = topstitch the whole 21&#8243;, &#8539;&#8243; from the folded edge</text>
+
+  <line x1="70" y1="404" x2="830" y2="404" stroke="#938858" stroke-width="0.9" stroke-dasharray="4 6"/>
+
+  <!-- ============ PANEL 2 : JOINED ============ -->
+  <text x="56" y="444" font-size="15.5" fill="#4E5839" letter-spacing="1.6">2 &#183; BROUGHT ROUND INTO THE LOOP</text>
+
+  <!-- band arc: the long way round -->
+  <path d="M 521.7 536 A 125 72 0 1 1 378.3 536" fill="none" stroke="#fffaf0" stroke-width="20"/>
+  <path d="M 521.7 536 A 125 72 0 1 1 378.3 536" fill="none" stroke="#4E5839" stroke-width="2.2"/>
+
+  <!-- elastic arc: short, over the top = behind the neck -->
+  <path d="M 378.3 536 A 125 72 0 0 1 521.7 536" fill="none" stroke="#9bb07a" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- triangle hanging off the front -->
+  <path d="M 388 600 L 512 600 L 450 718 Z" fill="#fde9d8" stroke="#4E5839" stroke-width="2"/>
+
+  <text x="450" y="478" text-anchor="middle" font-size="12" fill="#7a6a52">behind the neck</text>
+  <text x="450" y="496" text-anchor="middle" font-size="13.5" fill="#4E5839">6&#8243; of elastic &#8212; it shows</text>
+
+  <line x1="690" y1="560" x2="582" y2="560" stroke="#938858" stroke-width="1"/>
+  <text x="698" y="556" font-size="13" fill="#4E5839">band, 21&#8243;</text>
+  <text x="698" y="575" font-size="11.5" fill="#7a6a52">four pressed layers,</text>
+  <text x="698" y="592" font-size="11.5" fill="#7a6a52">stitched flat &#8212; so</text>
+  <text x="698" y="609" font-size="11.5" fill="#7a6a52">nothing gathers here</text>
+
+  <text x="104" y="548" font-size="13" fill="#4E5839">loop = 21&#8243; + 6&#8243;</text>
+  <text x="104" y="568" font-size="13" fill="#4E5839">= 27&#8243; relaxed</text>
+  <text x="104" y="588" font-size="11.5" fill="#7a6a52">stretches to about 33&#8243;</text>
+  <text x="104" y="612" font-size="11.5" fill="#7a6a52">so it pulls on over</text>
+  <text x="104" y="629" font-size="11.5" fill="#7a6a52">the head</text>
+
+  <text x="450" y="762" text-anchor="middle" font-size="11.5" fill="#938858">Dragon Ink and Thread &#183; the elastic dog neckerchief</text>
+</svg>
